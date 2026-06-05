@@ -102,20 +102,58 @@ def _parse_messages(channel: str, html: str) -> list[ChannelMessage]:
     return messages
 
 
-async def fetch_channel(channel: str, limit: int = 100) -> list[ChannelMessage]:
+async def fetch_channel(channel: str, limit: int = 100, since: datetime | None = None) -> list[ChannelMessage]:
+    """
+    Fetch up to `limit` messages from a public channel.
+    If `since` is provided, paginate backwards until we've collected all messages after that time.
+    """
     channel = channel.lstrip("@")
-    url = f"https://t.me/s/{channel}"
+    base_url = f"https://t.me/s/{channel}"
+    all_messages = []
 
     async with httpx.AsyncClient(headers=HEADERS, timeout=30, follow_redirects=True) as client:
-        resp = await client.get(url)
-        if resp.status_code == 200:
+        url = base_url
+        while True:
+            resp = await client.get(url)
+            if resp.status_code != 200:
+                raise RuntimeError(
+                    f"Failed to fetch {url}: HTTP {resp.status_code}. "
+                    "Is the channel username correct and public?"
+                )
+
             messages = _parse_messages(channel, resp.text)
-            return messages[:limit]
-        else:
-            raise RuntimeError(
-                f"Failed to fetch {url}: HTTP {resp.status_code}. "
-                "Is the channel username correct and public?"
-            )
+            if not messages:
+                break
+
+            if since:
+                # Keep messages after cutoff
+                new_msgs = [m for m in messages if m.date >= since]
+                all_messages.extend(new_msgs)
+
+                # If oldest message on this page is before cutoff, we're done paginating
+                oldest = min(messages, key=lambda m: m.date)
+                if oldest.date < since:
+                    break
+
+                # Paginate: get the smallest message_id on this page and go before it
+                min_id = min(m.message_id for m in messages)
+                url = f"{base_url}?before={min_id}"
+            else:
+                all_messages.extend(messages)
+                break
+
+            if len(all_messages) >= limit:
+                break
+
+    # Deduplicate and sort newest first
+    seen = set()
+    unique = []
+    for m in all_messages:
+        if m.message_id not in seen:
+            seen.add(m.message_id)
+            unique.append(m)
+
+    return sorted(unique, key=lambda m: m.date, reverse=True)[:limit]
 
 
 async def fetch_all_channels(limit: int | None = None) -> list[ChannelMessage]:
@@ -134,10 +172,9 @@ async def fetch_all_channels(limit: int | None = None) -> list[ChannelMessage]:
     for channel in channels:
         print(f"  Fetching @{channel.lstrip('@')}...")
         try:
-            msgs = await fetch_channel(channel, per_channel_limit)
-            filtered = [m for m in msgs if m.date >= cutoff]
-            all_messages.extend(filtered)
-            print(f"    → {len(filtered)} messages (last 21h, {len(msgs)-len(filtered)} older skipped)")
+            msgs = await fetch_channel(channel, per_channel_limit, since=cutoff)
+            all_messages.extend(msgs)
+            print(f"    → {len(msgs)} messages in 24h window")
         except Exception as e:
             print(f"    ✗ Failed: {e}")
 

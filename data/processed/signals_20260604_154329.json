@@ -1,0 +1,940 @@
+[
+  {
+    "message_id": 6922,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Vitalik proposes options-based synthetic assets to reduce liquidation risk and oracle dependency in DeFi.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6923,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Galaxy Digital launches institutional OTC prediction market trading with $10M Kalshi trade.",
+    "tradeable": false
+  },
+  {
+    "message_id": 6924,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "COIN"
+    ],
+    "theme": "stablecoin",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Coinbase invests in ProShares stablecoin reserves ETF, expanding institutional stablecoin exposure.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6925,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "regulation",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "US sanctions Iranian crypto exchanges including Nobitex under Economic Fury campaign.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6926,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "regulation",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Blockchain Association pushes Senate for Clarity Act passage with backing from 160 former security officials.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6927,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "BTC"
+    ],
+    "theme": "macro",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Bitcoin dips below $66K on ETF outflows and geopolitical concerns.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6928,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "stablecoin",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Mastercard expands stablecoin settlement with USDC, PYUSD, and RLUSD support.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6929,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "regulation",
+    "sentiment": "bearish",
+    "confidence": "low",
+    "summary": "UK regulator warns soccer clubs over unauthorized crypto firm sponsorships.",
+    "tradeable": false
+  },
+  {
+    "message_id": 6930,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "BNB"
+    ],
+    "theme": "NFT/gaming",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "Binance shuts down centralized NFT service, gives users one month to withdraw.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6931,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "exchange",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Kraken launches tokenized US IPO access globally via xStocks for retail investors.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6932,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Variant raises $222M fund targeting early-stage crypto and AI startups focused on autonomy.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6933,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "macro",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "Crypto VC deal count hits five-year low as investors become more selective.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6934,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "SOL",
+      "HYPE"
+    ],
+    "theme": "other",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Solana falls to lowest levels since 2023 as Hyperliquid's HYPE overtakes SOL in price.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6935,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "other",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "Bitmine launches STRC-style preferred stock offering amid $9.2B unrealized ETH losses.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6936,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Polymarket's UMA vote upholds 'No' outcome on Strategy bitcoin sale market despite controversy.",
+    "tradeable": false
+  },
+  {
+    "message_id": 6937,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "COIN",
+      "META"
+    ],
+    "theme": "regulation",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Coinbase, SpaceX, and Meta join DOJ anti-scam operation freezing $3.8M in crypto.",
+    "tradeable": false
+  },
+  {
+    "message_id": 6938,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "COIN"
+    ],
+    "theme": "exchange",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Coinbase launches pre-IPO perpetual futures starting with SpaceX, expanding derivatives offerings.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6940,
+    "channel": "@TheBlock001",
+    "tickers": [
+      "WULF",
+      "CIFR"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Bernstein sees ninefold AI revenue growth by 2030 for bitcoin miners TeraWulf and Cipher, calling them 'power landlords of AI'.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6941,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "stablecoin",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Visa and Brale test privacy-enabled SBC stablecoin settlement on Canton Network.",
+    "tradeable": true
+  },
+  {
+    "message_id": 6942,
+    "channel": "@TheBlock001",
+    "tickers": [],
+    "theme": "AI/tech",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Travala launches agentic AI travel protocol with gasless USDC payments on Base.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19363,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "SEI"
+    ],
+    "theme": "layer2",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Sei Giga roadmap targets 200K TPS and 400ms finality for perps, RWAs, and stablecoins.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19364,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Blockmaze targets $500T RWA on-chain vision but faces regulatory and compliance hurdles.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19365,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "bullish",
+    "confidence": "low",
+    "summary": "Real and Anchorage Digital partner to tokenize capital markets for institutional on-chain finance.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19366,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "GOOG"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "YC-backed Miso Labs launches open-source voice AI with human-like emotions at superhuman speeds.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19367,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "stablecoin",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Tether and Fasset launch first gold-backed card for real-world digital gold spending.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19368,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ],
+    "theme": "regulation",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "CFTC scraps 30-year no-deny settlement rule, signaling more lenient regulatory posture.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19369,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "SOL",
+      "ETH",
+      "POL"
+    ],
+    "theme": "stablecoin",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Cash App enables fee-free USDC transfers across Solana, Ethereum, Polygon, and Arbitrum.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19370,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "DeFi",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Hypercall launches mainnet alpha for USDC-funded SpaceX options via SPCX.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19371,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "AAVE"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Researcher predicts next cycle favors revenue-generating protocols like AAVE over speculative tokens.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19372,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "CRV",
+      "AAVE"
+    ],
+    "theme": "DeFi",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Protocol architect outlines fixed-rate lending model with self-hedging collateral inspired by Curve and f(x).",
+    "tradeable": false
+  },
+  {
+    "message_id": 19373,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Developer unveils quant strategy for trading FIFA World Cup markets on Polymarket.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19374,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "New bull thesis predicts Ethereum will dominate tokenization of $700T global asset market.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19375,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "DeFi",
+    "sentiment": "bullish",
+    "confidence": "low",
+    "summary": "Spark unveils Prime platform for institutional on-chain portfolio-margin lending via Arkis.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19376,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "bullish",
+    "confidence": "low",
+    "summary": "Goldman Sachs tokenizes real estate fund shares on GS DAP with Apex and Archax.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19377,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "NVDA"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Kaytus launches MotusAI platform for enterprise token management with efficiency gains.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19378,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "INJ"
+    ],
+    "theme": "layer2",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Injective Vulcan upgrade targets June 4 with 90% lower oracle gas and RWA/stablecoin tooling.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19379,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Maxirealist argues Vitalik's sci-fi novel embeds 17 governance and privacy mechanisms for crypto's future.",
+    "tradeable": false
+  },
+  {
+    "message_id": 19380,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "GOOG"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Monako Glass launches wearable Linux glasses running full desktop AI coding agents in field of view.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19381,
+    "channel": "@leviathan_news",
+    "tickers": [
+      "GOOG",
+      "NVDA"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Google launches Gemma 4 12B encoder-free AI model, signaling major shift in local LLM approach.",
+    "tradeable": true
+  },
+  {
+    "message_id": 19382,
+    "channel": "@leviathan_news",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "Delphi report shows most tokens trade below launch as capital shifts toward real cash flows.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24599,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "BTC",
+      "ETH",
+      "MSTR",
+      "COIN"
+    ],
+    "theme": "macro",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "Bloomberg host warns of the \"coldest crypto winter ever\" citing narrative erosion, AI competition, quantum concerns, and treasury firms like Strategy shifting from buyers to sellers.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24600,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ],
+    "theme": "exchange",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "U.S. spot Bitcoin ETFs saw $519M net outflow on June 2, marking 12 consecutive days of outflows, while Ethereum ETFs extended outflows to 16 days with $90.15M.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24601,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "ZEC"
+    ],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Zcash Foundation fixed a critical soundness bug via emergency soft fork and hard fork upgrade, with no evidence of exploitation and user privacy intact.",
+    "tradeable": false
+  },
+  {
+    "message_id": 24602,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "COIN"
+    ],
+    "theme": "exchange",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Binance disclosed minority stake in Alpaca, which dominates tokenized US stocks custody and shares PFOF fees and lending profits with Binance.",
+    "tradeable": false
+  },
+  {
+    "message_id": 24604,
+    "channel": "@wublockchainenglish",
+    "tickers": [],
+    "theme": "macro",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "U.S. ADP employment rose 122,000 in May, beating expectations and marking the largest gain since January last year.",
+    "tradeable": false
+  },
+  {
+    "message_id": 24605,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "ETH",
+      "VVV",
+      "NEAR",
+      "ZEC",
+      "HYPE"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Bankless co-founder David Hoffman sold all ETH holdings and reallocated to VVV, NEAR, ZEC, HYPE, and LIT, citing limited ETH revaluation prospects.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24606,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "COIN"
+    ],
+    "theme": "stablecoin",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Stripe, Visa, and Mastercard near launch of new stablecoin platform with Coinbase exploring participation, as major payments firms expand into the $325B stablecoin market.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24607,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "BTC"
+    ],
+    "theme": "exchange",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Kalshi launched CFTC-approved Bitcoin perpetual contracts while Polymarket rolls out invitation-only perps, expanding crypto derivatives offerings.",
+    "tradeable": false
+  },
+  {
+    "message_id": 24608,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Ethereum treasury firm Bitmine plans 3M share offering of 9.50% perpetual preferred stock to acquire additional ETH and expand staking infrastructure.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24609,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "macro",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Ethereum treasury firm FG Nexus has lost over $85M on ETH strategy after buying at $3,860 and selling at $2,330, signaling treasury capitulation.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24610,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Bankless co-founder explains ETH sale was due to opportunity cost and belief that Ethereum lacks coordination to regain momentum, not outright bearishness.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24611,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "BTC",
+      "MSTR"
+    ],
+    "theme": "macro",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Bitcoin dropped 16% in a month while S&P 500 gained 5% as capital rotates to AI, gold, and high-momentum assets, with BTC losing momentum-trade appeal.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24612,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "HYPE"
+    ],
+    "theme": "exchange",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Hyperliquid's May perps volume reached record 6.63% of global CEX total and 14.4% of Binance, driven by HIP-3 framework generating $62B in volume.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24613,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "HYPE",
+      "NEAR"
+    ],
+    "theme": "macro",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Arthur Hayes sold all HYPE and NEAR holdings, warning market may peak before September due to rising energy prices, AI IPOs, and potential Trump policy shift.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24614,
+    "channel": "@wublockchainenglish",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Spacecoin signed $100M Vietnam deal to deploy decentralized satellite network serving major mobile carriers through DePIN infrastructure.",
+    "tradeable": false
+  },
+  {
+    "message_id": 24615,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "BTC"
+    ],
+    "theme": "macro",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "CryptoQuant reports strongest BTC short-term holder capitulation of the year with 53,800 BTC transferred to exchanges at a loss in 24 hours.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24616,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "BTC"
+    ],
+    "theme": "exchange",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Spot Bitcoin ETFs hit record 13 consecutive days of net outflows totaling $4.33B, with 7-day, 10-day, and 20-day rolling windows all setting all-time outflow records.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24617,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "BTC",
+      "COIN"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "First Fannie Mae mortgage collateralized by Bitcoin successfully originated via Coinbase and Better, rolling out nationwide this summer for BTC holders.",
+    "tradeable": true
+  },
+  {
+    "message_id": 24618,
+    "channel": "@wublockchainenglish",
+    "tickers": [],
+    "theme": "DeFi",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Plume and EtherFi launch $100M RWA Vault offering institutional-grade real-world asset yield to EtherFi's $6B+ in customer deposits.",
+    "tradeable": false
+  },
+  {
+    "message_id": 24619,
+    "channel": "@wublockchainenglish",
+    "tickers": [
+      "ETH"
+    ],
+    "theme": "DeFi",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "Bankless co-founders debate whether Ethereum is a failed project if ETH doesn't become a global store of value, highlighting internal community divisions.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1378,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "HYPE"
+    ],
+    "theme": "other",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "$HYPE breaks above all-time highs, showing strong momentum.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1379,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "BTC"
+    ],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "F2Pool founder (11% BTC hashrate) confirmed for SpaceX Mars mission.",
+    "tradeable": false
+  },
+  {
+    "message_id": 1380,
+    "channel": "@zoomerfiedNews",
+    "tickers": [],
+    "theme": "regulation",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "SEC delays tokenized stocks trading plan due to concerns and pushback.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1381,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "HOOD"
+    ],
+    "theme": "exchange",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Robinhood Crypto COO exits as crypto revenue declines sharply and company reduces crypto dependence.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1382,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "GOOG"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "White House and Anthropic near deal for US spy agencies to use AI tools.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1383,
+    "channel": "@zoomerfiedNews",
+    "tickers": [],
+    "theme": "macro",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Polymarket shows 37% odds US announces Iran deal by May 31st, 11% Iran hands over uranium.",
+    "tradeable": false
+  },
+  {
+    "message_id": 1384,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "MSTR",
+      "BTC"
+    ],
+    "theme": "other",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "Strategy (MicroStrategy) updates capital structure, did not buy Bitcoin over past week.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1385,
+    "channel": "@zoomerfiedNews",
+    "tickers": [],
+    "theme": "regulation",
+    "sentiment": "bearish",
+    "confidence": "medium",
+    "summary": "UK sanctions crypto exchange HTX for supporting Russian government.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1386,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "GOOG"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Anthropic releases Claude Opus 4.8 model.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1387,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "GOOG"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "Anthropic to make Mythos public in a few weeks.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1388,
+    "channel": "@zoomerfiedNews",
+    "tickers": [],
+    "theme": "regulation",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "CFTC approves perpetual swaps to be offered to US users, major regulatory milestone.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1389,
+    "channel": "@zoomerfiedNews",
+    "tickers": [],
+    "theme": "regulation",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "US has seized approximately $1B of Iran's cryptocurrency to date.",
+    "tradeable": false
+  },
+  {
+    "message_id": 1390,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "GOOG"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Claude Mythos release odds at 28% by end of June as Anthropic works on safeguards.",
+    "tradeable": false
+  },
+  {
+    "message_id": 1391,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "MSTR",
+      "BTC"
+    ],
+    "theme": "other",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Strategy (MicroStrategy) sells 32 BTC over past week, reversing accumulation trend.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1392,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "TON"
+    ],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "medium",
+    "summary": "Pavel Durov announces rebranding of Telegram TON coin to GRAM.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1393,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "NVDA",
+      "MSFT",
+      "GOOG"
+    ],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Anthropic files confidentially for IPO, major AI company going public.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1394,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "MSTR"
+    ],
+    "theme": "other",
+    "sentiment": "bearish",
+    "confidence": "high",
+    "summary": "Strategy stock falls over 10% following Bitcoin sale announcement yesterday.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1395,
+    "channel": "@zoomerfiedNews",
+    "tickers": [
+      "COIN",
+      "ENA"
+    ],
+    "theme": "stablecoin",
+    "sentiment": "bullish",
+    "confidence": "high",
+    "summary": "Coinbase invests in Ethena and plans finance/savings product using Ethena stablecoin infrastructure.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1396,
+    "channel": "@zoomerfiedNews",
+    "tickers": [],
+    "theme": "AI/tech",
+    "sentiment": "bullish",
+    "confidence": "medium",
+    "summary": "SpaceX IPO planned at $135/share, raising $75B at $1.75T valuation.",
+    "tradeable": true
+  },
+  {
+    "message_id": 1397,
+    "channel": "@zoomerfiedNews",
+    "tickers": [],
+    "theme": "other",
+    "sentiment": "neutral",
+    "confidence": "low",
+    "summary": "Bitmine files for preferred stock offering with 9.5% yield.",
+    "tradeable": false
+  }
+]

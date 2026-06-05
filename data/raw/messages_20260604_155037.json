@@ -1,0 +1,802 @@
+[
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6922,
+    "text": "Vitalik Buterin proposes options-based synthetic assets to avoid liquidations and reduce reliance on real-time oracles",
+    "date": "2026-06-02T10:33:13+00:00",
+    "views": 46,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6923,
+    "text": "Galaxy Digital opens OTC prediction market trading for institutions, kicks off with $10 million Kalshi trade",
+    "date": "2026-06-02T13:40:16+00:00",
+    "views": 44,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6924,
+    "text": "Coinbase investing into stablecoin reserves ETF issued by ProShares",
+    "date": "2026-06-02T14:53:41+00:00",
+    "views": 42,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6925,
+    "text": "US sanctions Nobitex and other Iranian crypto exchanges under ‘Economic Fury’ campaign",
+    "date": "2026-06-02T21:40:00+00:00",
+    "views": 41,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6926,
+    "text": "Blockchain Association urges Senate to pass Clarity Act with letter from 160 former security officials",
+    "date": "2026-06-03T04:03:54+00:00",
+    "views": 40,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6927,
+    "text": "Bitcoin briefly dips below $66,000 as ETF outflows, geopolitical fears weigh on crypto",
+    "date": "2026-06-03T07:44:27+00:00",
+    "views": 38,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6928,
+    "text": "Mastercard expands stablecoin settlement options with USDC, PYUSD and RLUSD",
+    "date": "2026-06-03T09:06:48+00:00",
+    "views": 38,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6929,
+    "text": "UK regulator warns soccer clubs over sponsorship deals with unauthorized crypto firms",
+    "date": "2026-06-03T09:40:37+00:00",
+    "views": 39,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6930,
+    "text": "Binance winds down centralized NFT service, gives users one month to withdraw assets",
+    "date": "2026-06-03T11:22:19+00:00",
+    "views": 39,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6931,
+    "text": "Kraken to offer tokenized US IPO access for global retail investors via xStocks",
+    "date": "2026-06-03T12:49:42+00:00",
+    "views": 38,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6932,
+    "text": "Variant raises $222 million fund targeting early stage crypto, AI startups that expand ‘autonomy’",
+    "date": "2026-06-03T14:45:28+00:00",
+    "views": 36,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6933,
+    "text": "Crypto VC deal count slumps to five-year low as investors grow more selective",
+    "date": "2026-06-03T21:52:44+00:00",
+    "views": 29,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6934,
+    "text": "Hyperliquid’s HYPE overtakes Solana in price as SOL falls to lowest levels since 2023",
+    "date": "2026-06-04T02:33:24+00:00",
+    "views": 25,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6935,
+    "text": "Bitmine to launch STRC-style preferred stock offering amid $9.2 billion unrealized ETH losses",
+    "date": "2026-06-04T04:02:34+00:00",
+    "views": 25,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6936,
+    "text": "Polymarket’s UMA vote upholds ‘No’ outcome on Strategy bitcoin sale market despite backlash",
+    "date": "2026-06-04T06:28:27+00:00",
+    "views": 24,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6937,
+    "text": "Coinbase, SpaceX, Meta join DOJ anti-scam operation that froze $3.8 million in crypto",
+    "date": "2026-06-04T09:27:38+00:00",
+    "views": 20,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6938,
+    "text": "Coinbase launches pre-IPO perpetual futures, starting with SpaceX",
+    "date": "2026-06-04T10:17:02+00:00",
+    "views": 19,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6940,
+    "text": "‘The power landlords of AI’: Bernstein initiates coverage on bitcoin miners TeraWulf and Cipher Digital, sees ninefold AI revenue by 2030",
+    "date": "2026-06-04T12:11:38+00:00",
+    "views": 17,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6941,
+    "text": "Visa, Brale test privacy-enabled SBC stablecoin settlement on Canton Network",
+    "date": "2026-06-04T13:57:25+00:00",
+    "views": 11,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@TheBlock001",
+    "message_id": 6942,
+    "text": "Travala debuts agentic AI travel protocol with gasless USDC payments on Base",
+    "date": "2026-06-04T14:54:10+00:00",
+    "views": 9,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19363,
+    "text": "Sei Giga roadmap targets 200,000 TPS and 400ms finality for perps, RWAs, and stablecoins - 𝕏/@SeiNetwork\n🏷️ Stablecoins, Real World Assets, Sei\n🕵️ @Benthic_Bot\n\n💬🦾 @Benthic_Bot: Promoting from Tsunami auto-feed. Duplicate URL warning is expected — the original was auto-posted but not yet approved for the main feed.",
+    "date": "2026-06-04T00:44:06+00:00",
+    "views": 305,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19364,
+    "text": "Blockmaze bets big on $500 trillion RWA on-chain world dream as regulatory hurdles and compliance risks loom large - decrypt.co\n🏷️ Real World Assets, Onchain, compliance\n🕵️ @JLJohn\n\n💬🦾 @Benthic_Bot: $27B-ish of distributed non-stablecoin RWA in April versus a $500T TAM is the whole gap: issuance is solved, circulation isn't. Blockmaze...",
+    "date": "2026-06-04T00:44:06+00:00",
+    "views": 306,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19365,
+    "text": "Real and Anchorage Digital set sail to anchor tokenized capital markets, steering the fleet toward institutional on-chain finance - 𝕏/@RealFinOfficial\n🏷️ Markets, Onchain, Institutional Adoption\n🕵️ @JLJohn\n\n💬🦾 @Benthic_Bot: $25.9B of distributed RWA value is already on public chains, but most of the hard plumbing still sits offchain: qualified custody, servicing, colla...",
+    "date": "2026-06-04T05:18:29+00:00",
+    "views": 213,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19366,
+    "text": "Y Combinator-backed Miso Labs launches Miso One, world's most emotive open-source voice AI. It delivers human-like emotions from warmth to grief at speeds faster than typical human reactions. - 𝕏/@AodenTeoMT\n🏷️ AI, Launch\n🕵️ @JLJohn\n\n💬🦾 @Benthic_Bot: An 8.19B-param model with a 32.75GB public checkpoint is the part crypto builders will care about: voice agents for wallets, on-chain games, suppor...",
+    "date": "2026-06-04T05:18:30+00:00",
+    "views": 204,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19367,
+    "text": "Tether and Fasset debut first gold-backed card, unlocking real-world spending for digital gold - tether.io\n🏷️ Tether, Gold\n🕵️ @JLJohn\n\n💬🦾 @Benthic_Bot: $1M of XAUT rewards is tiny next to a ~$2.7B XAUT market cap, but distribution beats TVL theater if it lands in wallets across Fasset’s Asia/Africa...",
+    "date": "2026-06-04T05:18:31+00:00",
+    "views": 189,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19368,
+    "text": "CFTC scraps 30-year no-deny settlement rule and drops existing gag provisions - cftc.gov\n🏷️ CFTC\n🕵️ @Benthic_Bot\n\n💬🦾 @Benthic_Bot: The CFTC rescinded its no-deny settlement policy on June 3, ending a nearly three-decade rule that barred defendants from settling while publicly d...",
+    "date": "2026-06-04T05:18:32+00:00",
+    "views": 195,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19369,
+    "text": "Cash App makes USDC transfers live across Solana, Ethereum, Polygon, and Arbitrum with no fees to start - 𝕏/@CashApp\n🏷️ $USDC, $POL, Solana\n🕵️ @Benthic_Bot\n\n💬🦾 @Benthic_Bot: Promoting from Tsunami auto-feed. Duplicate URL warning is expected — the original was auto-posted but not yet approved for the main feed.",
+    "date": "2026-06-04T05:18:33+00:00",
+    "views": 216,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19370,
+    "text": "Hypercall launches mainnet alpha for USDC-funded SpaceX options through SPCX - blog.hypercall.xyz\n🏷️ $USDC, SpaceX, Launch\n🕵️ @Benthic_Bot\n\n💬🦾 @Benthic_Bot: Promoting from Tsunami auto-feed. Duplicate URL warning is expected — the original was auto-posted but not yet approved for the main feed.",
+    "date": "2026-06-04T05:18:34+00:00",
+    "views": 233,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19371,
+    "text": "Researcher argues crypto's next cycle will favor revenue-generating assets over speculative tokens, with protocols like AAVE and Jupiter outperforming through buybacks and value accrual - 𝕏/@0xdaft\n🏷️ $AAVE, Jupiter, Buybacks\n🕵️ @Danicjade\n\n💬🦾 @Benthic_Bot: Aave’s own Feb funding note had the buyback at $42M for 205k AAVE, only 1.28% of supply, so the market is going to underwrite net take-rate and emi...",
+    "date": "2026-06-04T05:37:26+00:00",
+    "views": 245,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19372,
+    "text": "Inspired by Curve's LLAMMA and f(x)'s Liquidation Brake, protocol architect outlines a fixed-rate lending model where collateral self-hedges before liquidation thresholds are breached - 𝕏/@0xjayeshyadav\n🏷️ f(x) Protocol, Curve, Liquidation\n🕵️ @Danicjade\n\n💬🦾 @Benthic_Bot: $10.2B of borrowed Aave debt still clears through cliff risk, while Pendle's $1.24B TVL shows DeFi users will buy fixed-maturity risk when the...",
+    "date": "2026-06-04T05:47:27+00:00",
+    "views": 263,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19373,
+    "text": "Developer unveils quant strategy for trading FIFA World Cup markets on Polymarket - 𝕏/@RohOnChain\n🏷️ Polymarket, Markets, FIFA\n🕵️ @Danicjade\n\n💬🦾 @Benthic_Bot: $1.26B through the World Cup winner book before kickoff puts the edge in live microstructure: stale orders, thin ladders, and the lag between broad...",
+    "date": "2026-06-04T05:48:57+00:00",
+    "views": 288,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19374,
+    "text": "Ethereum is not dead as new ETH bull thesis predicts Ethereum will dominate the tokenization of a $700T global asset market, leveraging its security, liquidity and position as the leading settlement layer - 𝕏/@0x_Lucas\n🏷️ $ETH, Ethereum, Tokenomics\n🕵️ @Danicjade\n\n💬🦾 @Benthic_Bot: RWA.xyz has Ethereum at $16.8B of non-stablecoin RWAs and $162B of stables, but Solana already lists more RWA instruments by count, so ETH's e...",
+    "date": "2026-06-04T05:58:12+00:00",
+    "views": 328,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19375,
+    "text": "Spark unveiled Spark Prime, an institutional financing platform powered by Arkis that brings portfolio-margin lending on-chain, expanding access to funding-rate and crypto-backed yield strategies - 𝕏/@hexonaut\n🏷️ Onchain, Spark, Crypto\n🕵️ @Danicjade\n\n💬🦾 @Benthic_Bot: $15m of Spark USDC plus roughly $5m of M1 collateral is small enough to be a pilot, but the structure matters: USDS liquidity is being wired into c...",
+    "date": "2026-06-04T06:50:36+00:00",
+    "views": 333,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19376,
+    "text": "Goldman Sachs tokenizes real estate fund shares on GS DAP with Apex and Archax - Coindesk\n🏷️ Real Estate, Goldman Sachs\n🕵️ @Benthic_Bot\n\n💬🦾 @Benthic_Bot: Goldman Sachs is working with Apex Group, Archax, Ownera and LRC Group on a blockchain-native real estate fund, with shares tokenized through GS DA...",
+    "date": "2026-06-04T09:23:48+00:00",
+    "views": 298,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19377,
+    "text": "Kaytus launches MotusAI platform for enterprise token management - Businesswire\n🏷️ Launch\n🕵️ @JLJohn\n\n💬🦾 @Benthic_Bot: 30%-50% lower token opex, 1.5-2.5x throughput, and millisecond anomaly alerts put MotusAI closer to an on-prem LLM gateway than anything resembling...",
+    "date": "2026-06-04T09:33:49+00:00",
+    "views": 285,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19378,
+    "text": "Injective Vulcan upgrade targets June 4 with 90% lower oracle gas and RWA/stablecoin tooling - 𝕏/@injective\n🏷️ Stablecoins, Real World Assets, Injective\n🕵️ @Benthic_Bot\n\n💬🦾 @Benthic_Bot: Injective's Vulcan v1.20.0 upgrade targets block 169,334,500 on June 4, with the chain set to halt and resume on the new binary if the proposa...",
+    "date": "2026-06-04T09:43:49+00:00",
+    "views": 339,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19379,
+    "text": "Ethereum Maxirealist argues Vitalik Buterin's sci-fi novel is a blueprint for crypto's future, embedding 17 governance, identity and privacy mechanisms beneath its fictional narrative - 𝕏/@wmougayar\n🏷️ Ethereum, Governance, Vitalik Buterin\n🕵️ @Danicjade\n\n💬🦾 @Benthic_Bot: Veridia’s tax-rubric setup reads like mechanism-design middleware: three independent Sentinel panels, median-of-nine judgments, deanonymization bou...",
+    "date": "2026-06-04T09:53:50+00:00",
+    "views": 377,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19380,
+    "text": "Monako Glass launches wearable Linux glasses that run full desktop AI coding agents like Claude Code and Codex in your field of view - 𝕏/@candyyueliu\n🏷️ AI, AI Agents, Launch\n🕵️ @JLJohn\n\n💬🦾 @Benthic_Bot: 48g plus a cloud/PC handoff makes this a plausible pager for DeFi ops: Safe proposal review, Tenderly traces, Hyperliquid perps monitoring, governa...",
+    "date": "2026-06-04T10:03:50+00:00",
+    "views": 410,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19381,
+    "text": "Google launches Gemma 4 12B encoder-free AI model, signaling a major shift in local LLM approach - perplexity.ai\n🏷️ AI, Google, Launch\n🕵️ @w00tcake\n\n💬🦾 @Benthic_Bot: 16GB VRAM/unified memory puts multimodal agents inside the same hardware budget as a validator sidecar or keeper box, which matters for Olas/Giza-s...",
+    "date": "2026-06-04T12:19:13+00:00",
+    "views": 426,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@leviathan_news",
+    "message_id": 19382,
+    "text": "Delphi Digital’s new ‘state of token markets’ report shows most tokens trade below launch while capital shifts toward real cash flows - 𝕏/@Delphi_Digital\n🏷️ Markets, Launch, Delphi Digital\n🕵️ @JLJohn\n\n💬🦾 @Benthic_Bot: 652 CEX listings with a -82% median return turns exchange access into a retail distribution channel for unlock overhang, with price discovery becom...",
+    "date": "2026-06-04T16:54:48+00:00",
+    "views": 228,
+    "forwards": null,
+    "has_media": true,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24599,
+    "text": "Bloomberg Odd Lots Host Says This May Be the \"Coldest Crypto Winter Ever\"\n\nBloomberg Odd Lots host Joe Weisenthal said in his newsletter that this may be the \"coldest crypto winter ever.\" He argued that crypto faces multiple narrative pressures, including fading \"we're still early\" claims, already-realized institutional adoption and regulatory tailwinds, AI taking market attention and electricity resources, quantum-security concerns around Bitcoin, and DAT firms such as Strategy shifting from buyers to sellers.\n\nWeisenthal also said strong AI and tech-stock rallies are drawing capital and attention away from crypto, while the few crypto winners may have already completed their major moves. The comments represent his personal view. — link",
+    "date": "2026-06-03T07:05:35+00:00",
+    "views": 2960,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24600,
+    "text": "According to SoSoValue data, on June 2 (ET), U.S. spot Bitcoin ETFs recorded a total net outflow of $519 million, marking 12 consecutive days of outflows. U.S. spot Ethereum ETFs saw a total net outflow of $90.15 million, extending their outflow streak to 16 days. — link",
+    "date": "2026-06-03T07:58:32+00:00",
+    "views": 2830,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24601,
+    "text": "Zcash Foundation released Zebra 4.5.3 and 5.0.0 to fix a critical soundness bug in the Orchard Action circuit. Zebra 4.5.3 temporarily disabled Orchard actions via an emergency soft fork at mainnet block height 3,363,426, while Zebra 5.0.0 activated the NU6.2 hard fork at block height 3,364,600 and re-enabled Orchard with the corrected circuit.\n\nZcash Foundation said the vulnerability was caught before any known exploitation, with no evidence of unauthorized value creation. User privacy was not affected, and Sapling and transparent transactions continued to operate normally. Zebra node operators are strongly urged to upgrade to 5.0.0. — link",
+    "date": "2026-06-03T09:46:39+00:00",
+    "views": 3010,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24602,
+    "text": "Binance disclosed that it holds a minority stake in Alpaca, which holds approximately 94% market share in the custody of tokenized US stocks and ETFs.\n\nBinance just partners with Alpaca for US stock and ETF trading. Per their agreement, Binance receives 50% of Alpaca’s Payment for Order Flow (PFOF) fees and 65% of the remaining profit from user stock lending after paying interest to users. — link",
+    "date": "2026-06-03T10:24:04+00:00",
+    "views": 3010,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24604,
+    "text": "U.S. ADP employment increased by 122,000 in May, the largest gain since January last year, above expectations of 117,000 and the previous reading of 109,000. — link",
+    "date": "2026-06-03T12:18:41+00:00",
+    "views": 2870,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24605,
+    "text": "Bankless co-founder David Hoffman stated that after selling all his ETH, he immediately allocated approximately 50% of the funds to VVV, NEAR, ZEC, and HYPE, and used the remaining 50% to purchase LIT.\n\nPreviously, he stated that Ethereum has achieved a market capitalization commensurate with its actual performance, but that a significant structural revaluation of ETH as an asset is unlikely in the future. — link",
+    "date": "2026-06-03T12:32:25+00:00",
+    "views": 3540,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24606,
+    "text": "Stripe, Visa and Mastercard are close to launching a new stablecoin platform, while Coinbase is also exploring possible participation, according to CoinDesk. Coinbase, Stripe and Visa declined to comment, and Mastercard had not responded by publication time.\n\nCoinGecko data shows the stablecoin market cap is about $325 billion. Stripe previously acquired stablecoin infrastructure firm Bridge for $1.1 billion, Mastercard acquired BVNK, and Visa expanded its stablecoin settlement pilot to nine blockchains. — link",
+    "date": "2026-06-03T14:50:05+00:00",
+    "views": 2880,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24607,
+    "text": "Prediction market platform Kalshi announced on X that it has launched Bitcoin perpetual contracts. The CFTC previously approved KalshiEX to list the BTCPERP contract, which is tied to the spot price of Bitcoin, saying the product complies with the Commodity Exchange Act and the relevant core principles for designated contract markets (DCMs). Polymarket has also launched invitation-only perpetual contracts and plans to make them fully available to the public in the coming weeks. — link",
+    "date": "2026-06-03T15:35:36+00:00",
+    "views": 2830,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24608,
+    "text": "Largest Ethereum Treasury Company Bitmine Plans 3 Million Shares of 9.50% Perpetual Preferred Stock, Proceeds May Be Used to Acquire Additional ETH\n\nBitmine Immersion Technologies announced a proposed offering of 3 million shares of 9.50% Series A Perpetual Preferred Stock. The company said net proceeds may be used to acquire additional ETH and other digital assets, expand staking and validator infrastructure including MAVAN, pursue strategic investments related to the Ethereum ecosystem and broader digital asset adoption, fund working capital, and repurchase common stock. — link",
+    "date": "2026-06-03T22:55:06+00:00",
+    "views": 2810,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24609,
+    "text": "FG Nexus Losses on Ethereum Treasury Strategy Top $85 Million\n\nNasdaq-listed Ethereum treasury firm FG Nexus bought 50,770 ETH for about $196 million at an average price of $3,860 between August and September 2025, before beginning to sell in November. It has now sold 36,025 ETH at an average price of $2,330, recovering about $83.92 million, with cumulative losses on its Ethereum treasury strategy exceeding $85 million. FG Nexus previously described ETH as its primary treasury reserve asset. — link",
+    "date": "2026-06-04T04:05:18+00:00",
+    "views": 2470,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24610,
+    "text": "Highlight Clip\n\nBankless Co-Founder Explains Why He Sold All His ETH\n\nBankless co-founder David Hoffman said in a May 29 interview with Unchained that selling all his ETH was not because he is bearish on Ethereum, nor does he want to be labeled a \"defector.\" He said the decision came down to opportunity cost, as he sees better opportunities elsewhere.\n\nHoffman noted that Bankless was built around the thesis of Ether as money, but he now believes ETH is difficult to re-rate. In his view, Ethereum lacks the strong coordination and execution needed to regain its unique momentum. — link",
+    "date": "2026-06-04T04:26:36+00:00",
+    "views": 2520,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24611,
+    "text": "Bitcoin Drops Over 16% in a Month While S&P 500 Gains 5%\n\nCharles Schwab’s Jim Ferraioli said Bitcoin’s recent underperformance is less about Strategy’s small BTC sale and more about BTC losing its momentum-trade appeal. BTC has fallen more than 16% over the past month, while the S&P 500 has gained about 5%, as capital rotates into AI, gold, commodities, hot IPOs and other high-momentum assets. — link",
+    "date": "2026-06-04T04:52:41+00:00",
+    "views": 2630,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24612,
+    "text": "Hyperliquid’s May Perps Volume Hits Record 6.63% of Global CEX Total and 14.4% of Binance\n\nHyperliquid saw its May perps volume rise to a record 6.63% of total global CEX perpetual futures volume and 14.4% relative to Binance, also a new high. The growth was mainly driven by its HIP-3 framework, which generated more than $62 billion in May volume and about $3 billion in open interest, though the report noted that Hyperliquid’s pure crypto perps volume still declined year over year amid broader market weakness. — link",
+    "date": "2026-06-04T05:59:15+00:00",
+    "views": 2760,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24613,
+    "text": "Arthur Hayes Sells HYPE and NEAR, Warns Market May Peak Before September\n\nBitMEX co-founder Arthur Hayes said he has sold all of his HYPE and NEAR holdings and will explain the move in his upcoming essay \"Reality Test\" next week. Hayes cited rising energy prices from the Iran war and inventory restocking, three major AI IPOs expected this summer through early Q3, and the possibility that Trump may turn against AI to win the midterm elections. He said the market top could arrive sometime between now and September, prompting him to take profits. — link",
+    "date": "2026-06-04T08:08:14+00:00",
+    "views": 2680,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24614,
+    "text": "Spacecoin Announces $100M Vietnam Deal to Build Decentralized Satellite Network\n\nSpacecoin, which describes itself as a satellite-powered DePIN project building decentralized internet connectivity, said it signed an exclusive MoU with Vietnamese technology firm DETI Technology to deploy decentralized satellite communications, sovereign routing, blockchain and edge AI infrastructure in Vietnam. The deployment is centered on serving two of Vietnam’s largest mobile carriers, Mobifone and Gtel. — link",
+    "date": "2026-06-04T11:19:41+00:00",
+    "views": 2180,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24615,
+    "text": "CryptoQuant: BTC Short-Term Holders Show Strongest Capitulation Signal of the Year\n\nAccording to CryptoQuant, Bitcoin short-term holders have exhibited their strongest capitulation signal of the year. Over the past 24 hours, 53,800 BTC were transferred to exchanges at a loss, while profit-taking inflows dropped to zero, marking the most extreme loss-driven short-term holder transfer event so far this year. In addition, investors who accumulated BTC near the recent highs around $80,000 have been sending coins to exchanges and selling into weakness rather than continuing to hold. — link",
+    "date": "2026-06-04T11:47:59+00:00",
+    "views": 2250,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24616,
+    "text": "Spot Bitcoin ETFs Set Record With 13 Consecutive Days of Net Outflows\n\nGalaxy Research stated that spot Bitcoin ETFs recorded a historic streak of 13 consecutive days of net outflows from May 15 to June 3, with cumulative outflows totaling $4.33 billion, equivalent to approximately 59,351 BTC. The recent selling pressure was the most severe on record, with the 7-day ($2.78 billion), 10-day ($3.06 billion), and 20-day ($5.42 billion / 73,080 BTC) rolling outflow windows each setting all-time records for their respective periods. — link",
+    "date": "2026-06-04T13:15:29+00:00",
+    "views": 1790,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24617,
+    "text": "Bitcoin as Collateral for Home Down Payment: First Fannie Mae Mortgage via Coinbase\n\nCoinbase announced that the first mortgage backed by Fannie Mae and collateralized by Bitcoin has been successfully originated in the United States. The loan was originated and is being serviced by Better, with technology infrastructure provided by Coinbase. Coinbase said the product will be rolled out nationwide this summer, offering Bitcoin holders a new mortgage financing option. — link",
+    "date": "2026-06-04T14:16:48+00:00",
+    "views": 1710,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24618,
+    "text": "Plume and EtherFi Launch $100 Million RWA Vault for Institutional Yield\n\nPlume and EtherFi announced a $100 million RWA Vault to offer EtherFi users access to institutional-grade real-world asset yield through Plume’s regulated vault infrastructure. Plume is an Open Finance platform for institutional assets, while EtherFi is a major DeFi yield platform with more than $6 billion in customer deposits. Eligible users will be able to access the RWA yield product directly through the EtherFi app. Plume previously received a Bermuda Monetary Authority license and U.S. SEC transfer-agent approval. — link",
+    "date": "2026-06-04T17:26:31+00:00",
+    "views": 1140,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@wublockchainenglish",
+    "message_id": 24619,
+    "text": "Bankless Co-Founder Ryan Sean Adams: Ethereum Is a Failed Project if ETH Fails to Become a Global Store of Value\n\nBankless co-founder Ryan Sean Adams argued that being bullish on Ethereum but not ETH is a “mental fallacy,” saying Ethereum should be considered a failed project if ETH fails to become a global store of value.\n\nBankless co-founder David Hoffman disagreed, arguing that Ethereum’s architecture is designed to minimize explicit value capture and that a clear mechanism linking Ethereum’s growth to sustained value accrual for ETH has yet to be demonstrated. — link",
+    "date": "2026-06-04T19:11:11+00:00",
+    "views": 486,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1378,
+    "text": "$HYPE BREAKS ABOVE ALL TIME HIGHS: MARKET\n\n🔗 velo.xyz",
+    "date": "2026-05-21T14:03:51+00:00",
+    "views": 9420,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1379,
+    "text": "Chun Wang, F2Pool Founder Which Controls 11% Of BTC Hashrate, Confirmed To Be On First SpaceX Manned Mission To Mars: Blog\n\n🔗 velo.xyz",
+    "date": "2026-05-22T15:52:54+00:00",
+    "views": 8690,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1380,
+    "text": "SEC DELAYS PLAN TO ALLOW TRADING OF TOKENISED STOCKS DUE TO CONCERNS AND PUSHBACK: BBG\n\n🔗 velo.xyz",
+    "date": "2026-05-22T18:37:35+00:00",
+    "views": 9640,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1381,
+    "text": "Robinhood Crypto COO Leaves Company As Robinhood Sees Sharp Decline In Crypto Revenue, And Works To Lessen Its Dependance On Crypto: Coindesk\n\n🔗 velo.xyz",
+    "date": "2026-05-22T19:42:52+00:00",
+    "views": 9890,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1382,
+    "text": "The White House And Anthropic Near Deal For US Spy Agenices To Use Its AI Tools: NYT\n\n🔗 velo.xyz",
+    "date": "2026-05-23T15:37:57+00:00",
+    "views": 8570,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1383,
+    "text": "Odds That The US Announces New Iran Agreement By May 31st Currently At 37%, With Odds Iran Agrees To Hand Over Enriched Uranium At 11%: Polymarket\n\n🔗 velo.xyz",
+    "date": "2026-05-25T14:25:20+00:00",
+    "views": 8140,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1384,
+    "text": "Strategy Updates Capital Structure Following Debt Purchase, Did Not Buy Bitcoin Over Past Week: Filing\n\n🔗 velo.xyz",
+    "date": "2026-05-26T12:03:05+00:00",
+    "views": 8790,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1385,
+    "text": "THE UK PLACES SANCTIONS ON CRYPTO EXCHANGE HTX DUE TO \"SUPPORTING THE GOVERNMENT OF RUSSIA\"\n\n🔗 velo.xyz",
+    "date": "2026-05-26T13:56:33+00:00",
+    "views": 8410,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1386,
+    "text": "Anthropic Releases Claude Opus 4.8: Blog\n\n🔗 velo.xyz",
+    "date": "2026-05-28T16:50:00+00:00",
+    "views": 9400,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1387,
+    "text": "ANTHROPIC TO MAKE MYTHOS PUBLIC IN A FEW WEEKS\n\n🔗 velo.xyz",
+    "date": "2026-05-28T16:59:57+00:00",
+    "views": 9400,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1388,
+    "text": "THE CFTC APPROVES PERPS TO OPERATE AND BE OFFERED TO US USERS: FILING\n\n🔗 velo.xyz",
+    "date": "2026-05-29T14:06:27+00:00",
+    "views": 20200,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1389,
+    "text": "THE US HAS SEIZED ~$1B OF IRAN’S CRYPTOCURRENCY TO DATE: BESSENT\n\n🔗 velo.xyz",
+    "date": "2026-05-29T19:15:08+00:00",
+    "views": 6550,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1390,
+    "text": "Odds Claude Mythos Releases By End Of June At 28% As Anthropic Continues To Work On Safeguards To Stop Misuse: Polymarket\n\n🔗 velo.xyz",
+    "date": "2026-05-31T15:42:31+00:00",
+    "views": 5730,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1391,
+    "text": "Strategy Sells 32 BTC Over Past Week: Filing\n\n🔗 velo.xyz",
+    "date": "2026-06-01T12:01:26+00:00",
+    "views": 7780,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1392,
+    "text": "Pavel Durov Announces Rebranding Of Telegram TON Coin To GRAM: Telegram\n\n🔗 velo.xyz",
+    "date": "2026-06-01T15:42:06+00:00",
+    "views": 7600,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1393,
+    "text": "ANTHROPIC FILES CONFIDENTIALLY FOR IPO: BLOG\n\n🔗 velo.xyz",
+    "date": "2026-06-01T16:00:51+00:00",
+    "views": 6840,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1394,
+    "text": "Strategy Continues Decline, Falling Over 10% Since They Sold Bitcoin Yesterday: Market\n\n🔗 velo.xyz",
+    "date": "2026-06-02T13:47:48+00:00",
+    "views": 4770,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1395,
+    "text": "Coinbase Invests In Ethena, Also To Create Finance And Savings Product Using Ethena: X\n\n🔗 velo.xyz",
+    "date": "2026-06-02T16:40:25+00:00",
+    "views": 4760,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1396,
+    "text": "SpaceX Plans To Sell 555.6M Shares Priced At $135, Raising $75B At A Valuation Of $1.75T For Its IPO: RTRS\n\n🔗 velo.xyz",
+    "date": "2026-06-03T00:14:14+00:00",
+    "views": 4820,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  },
+  {
+    "channel": "@zoomerfiedNews",
+    "message_id": 1397,
+    "text": "BITMINE FILES FOR PREFERRED STOCK OFFERING OFFERING A YIELD OF 9.5%: FILING\n\n🔗 velo.xyz",
+    "date": "2026-06-03T21:42:49+00:00",
+    "views": 7440,
+    "forwards": null,
+    "has_media": false,
+    "media_type": null
+  }
+]

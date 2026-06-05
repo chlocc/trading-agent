@@ -32,6 +32,23 @@ def format_date(date_str):
         return date_str
 
 
+def linkify_tg(html: str) -> str:
+    """Convert (→ https://t.me/...) and → https://t.me/... patterns to clickable Telegram links."""
+    # Match (→ https://t.me/channel/id) pattern
+    html = re.sub(
+        r'\(→\s*(https://t\.me/[^\s\)]+)\)',
+        r'<a href="\1" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>',
+        html
+    )
+    # Match bare → https://t.me/... pattern
+    html = re.sub(
+        r'→\s*(https://t\.me/[^\s<\)]+)',
+        r'<a href="\1" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>',
+        html
+    )
+    return html
+
+
 def load_brief(date_str, brief_type):
     path = BRIEFS_DIR / f"{brief_type}_{date_str}.md"
     if not path.exists():
@@ -40,10 +57,11 @@ def load_brief(date_str, brief_type):
     # Strip leading/trailing --- separators
     content = re.sub(r"^---\n", "", content).strip()
     content = re.sub(r"\n---$", "", content).strip()
-    return markdown2.markdown(
+    html = markdown2.markdown(
         content,
         extras=["strike", "tables", "break-on-newline", "cuddled-lists"]
     )
+    return linkify_tg(html)
 
 
 TEMPLATE = """<!DOCTYPE html>
@@ -186,14 +204,25 @@ TEMPLATE = """<!DOCTYPE html>
     .brief-content a {
       color: var(--blue);
       text-decoration: none;
-      font-size: 12px;
-      background: rgba(59,130,246,0.1);
-      padding: 1px 6px;
-      border-radius: 4px;
-      border: 1px solid rgba(59,130,246,0.2);
     }
-    .brief-content a:hover {
-      background: rgba(59,130,246,0.2);
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
     }
     .brief-content hr {
       border: none;

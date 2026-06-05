@@ -11,7 +11,7 @@ It works for any channel with a public username.
 import json
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from html import unescape
 from pathlib import Path
 
@@ -125,14 +125,19 @@ async def fetch_all_channels(limit: int | None = None) -> list[ChannelMessage]:
         raise ValueError("TELEGRAM_CHANNELS is empty — set it in .env")
 
     per_channel_limit = limit or int(os.environ.get("MESSAGES_LIMIT", "100"))
+
+    # Only keep messages from last 24 hours (9:30am yesterday → 9:30am today)
+    cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=24)
+
     all_messages: list[ChannelMessage] = []
 
     for channel in channels:
         print(f"  Fetching @{channel.lstrip('@')}...")
         try:
             msgs = await fetch_channel(channel, per_channel_limit)
-            all_messages.extend(msgs)
-            print(f"    → {len(msgs)} messages")
+            filtered = [m for m in msgs if m.date >= cutoff]
+            all_messages.extend(filtered)
+            print(f"    → {len(filtered)} messages (last 21h, {len(msgs)-len(filtered)} older skipped)")
         except Exception as e:
             print(f"    ✗ Failed: {e}")
 

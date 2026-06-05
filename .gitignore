@@ -1,0 +1,10 @@
+.env
+*.session
+__pycache__/
+*.pyc
+data/raw/
+data/processed/
+data/.update_offset
+web.log
+cron.log
+.DS_Store

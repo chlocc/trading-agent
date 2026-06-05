@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 data/raw/
 data/processed/
+data/.DS_Store
 data/.update_offset
 web.log
 cron.log

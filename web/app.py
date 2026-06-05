@@ -314,5 +314,6 @@ def brief_view(date_str, tab):
 
 
 if __name__ == "__main__":
-    print("🚀 Trading Brief dashboard running at http://localhost:8080")
-    app.run(debug=False, host="0.0.0.0", port=8080)
+    port = int(os.environ.get("PORT", 8080))
+    print(f"🚀 Trading Brief dashboard running on port {port}")
+    app.run(debug=False, host="0.0.0.0", port=port)

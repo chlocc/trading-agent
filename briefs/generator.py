@@ -106,7 +106,10 @@ async def generate_trading_brief(signals: list[dict], client: anthropic.AsyncAnt
     bullish = [s for s in tradeable if s.get("sentiment") == "bullish"]
     bearish = [s for s in tradeable if s.get("sentiment") == "bearish"]
     high_conf = [s for s in tradeable if s.get("confidence") == "high"]
-    today = datetime.now(tz=timezone.utc).strftime("%B %d, %Y")
+    # Use the date of the most recent signal, not server time (avoids UTC midnight issues)
+    dates = [s.get("date", "")[:10] for s in signals if s.get("date")]
+    today = max(dates) if dates else datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
+    today = datetime.strptime(today, "%Y-%m-%d").strftime("%B %d, %Y")
 
     prompt = TRADING_BRIEF_PROMPT.format(
         date=today,
@@ -132,7 +135,9 @@ async def generate_trading_brief(signals: list[dict], client: anthropic.AsyncAnt
 
 
 async def generate_news_digest(raw_messages: list[dict], client: anthropic.AsyncAnthropic) -> str:
-    today = datetime.now(tz=timezone.utc).strftime("%B %d, %Y")
+    dates = [m.get("date", "")[:10] for m in raw_messages if m.get("date")]
+    today = max(dates) if dates else datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
+    today = datetime.strptime(today, "%Y-%m-%d").strftime("%B %d, %Y")
     prompt = NEWS_DIGEST_PROMPT.format(date=today)
 
     # Slim down messages for the digest

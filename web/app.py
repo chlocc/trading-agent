@@ -69,7 +69,7 @@ TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Trading Brief{% if date %} — {{ formatted_date }}{% endif %}</title>
+  <title>Daily Crypto Brief{% if date %} — {{ formatted_date }}{% endif %}</title>
   <style>
     :root {
       --bg: #0f1117;
@@ -259,7 +259,7 @@ TEMPLATE = """<!DOCTYPE html>
 <body>
 
 <nav>
-  <a class="nav-brand" href="/"><span>◈</span> Trading Brief</a>
+  <a class="nav-brand" href="/"><span>◈</span> Daily Crypto Brief</a>
   <div class="date-nav">
     {% for d in all_dates[:7] %}
     <a href="/{{ d }}" class="{{ 'active' if d == date else '' }}">
@@ -299,7 +299,7 @@ TEMPLATE = """<!DOCTYPE html>
 </div>
 
 <footer>
-  Auto-generated daily at 10:00 AM · Sources: TheBlock, Leviathan, WuBlockchain, ZoomerfiedNews
+  Daily Crypto Brief · Source: curated TG channels
 </footer>
 
 </body>

@@ -4,117 +4,92 @@
 
 🔥 TOP THEMES
 
-• **AI Infrastructure Shakeup** — Intel emerges as surprise winner with Google/NVDA backing while semiconductor space undergoes major realignment. Matters because it reshapes AI supply chain dependencies and capex flows. Key tickers: INTC (+14% premarket), NVDA, MU, GOOG, AMZN.
+• **Intel Renaissance** — Google's 3M+ TPU order and potential backup fab role for Google/NVIDIA triggers double-digit premarket surge, validating Intel's foundry pivot and creating momentum across the semiconductor supply chain. Key tickers: INTC (+14% premarket), GOOG, NVDA (→ https://t.me/theblockbeats/180219)
 
-• **Crypto Treasury Crisis** — Strategy/MSTR facing liquidity crunch with $1.7B dividend due and only 6.3-month cash buffer, while BTC ETFs bleed $1.72B in second-worst weekly outflow ever. Matters because forced selling could trigger cascade liquidations. Key tickers: MSTR, BTC, IBIT, COIN.
+• **Strategy/MSTR Crossroads** — Despite fresh 1,550 BTC purchase bringing holdings to 845,256 BTC, JPMorgan warns of critical liquidity pressure with only 6.3-month cash buffer and $1.7B dividend obligations, while famous trader Eugene exits crypto entirely bearish on Saylor's model. Key tickers: MSTR, BTC, IBIT (→ https://t.me/wublockchainenglish/24665)
 
-• **Middle East Escalation** — Iran launches 30+ missiles at Israel with no signs of de-escalation despite Trump ceasefire calls. Matters because it's triggering Asian market circuit breakers and threatening global risk-off. Key tickers: Oil, Gold, SPY/QQQ hedges.
+• **ETF Capitulation Signal** — Bitcoin ETFs post second-largest weekly outflow on record ($1.72B, IBIT alone -$1.34B) while Ether ETFs bleed for fourth consecutive week (-$173M), with Coinbase premium negative 21 straight days signaling sustained US institutional risk-off. Key tickers: IBIT, FBTC, ETHA, COIN (→ https://t.me/theblockbeats/180174)
 
-• **Memory Supercycle Peak** — Wells Fargo raises MU target to $1,220 on HBM tightness, but Raymond James warns DRAM/NAND prices may peak mid-2026. Matters because it frames the end-game for semiconductor bulls. Key tickers: MU (+7% premarket), WDC, STX.
+• **Middle East Escalation** — Iran fires 30+ missiles at Israel with "gradual pressure" tactics and no signs of stopping; Houthis ban Israeli Red Sea navigation; oil/defense plays activate while risk assets face pressure test. Key tickers: XLE, ITA, GLD (→ https://t.me/theblockbeats/180150)
 
 🟢 BULLISH SIGNALS
 
-**INTC** — Intel surges 14% premarket after Google orders 3M+ TPU chips and both Google and NVIDIA consider Intel as backup manufacturing partner. This validates Intel's foundry pivot and positions them as critical AI infrastructure redundancy. Stock had been left for dead; this is first major design win that proves the turnaround thesis. (→ https://t.me/theblockbeats/180219)
+**INTC** — Intel surges 11-14% premarket after Google places 3M+ TPU manufacturing order and both Google and NVIDIA evaluate Intel as backup chip manufacturing partner. This represents a fundamental validation of Intel's foundry strategy and positions the company as critical AI infrastructure diversification play beyond TSMC concentration risk. Watch for follow-on orders and market share recapture dynamics. (→ https://t.me/theblockbeats/180219)
 
-**MU** — Wells Fargo more than doubles Micron price target from $550 to $1,220 citing extended memory supply tightness and insatiable HBM demand from AI buildouts. Stock up 7% premarket. The massive revision suggests street is underestimating memory pricing power into 2H26. Watch for sustainability if capex cycle turns. (→ https://t.me/theblockbeats/180204)
+**MU** — Micron receives massive price target upgrades: Wells Fargo from $550 to $1,220 (+122%), Bank of America to $2,100 (+35%), citing multi-year HBM supply agreements locking in revenue and NAND supply constraints extending to 2028-2029. Stock up 7-10% premarket. The combination of AI-driven memory demand and structural supply tightness creates rare multi-year revenue visibility. Entry on any profit-taking dip. (→ https://t.me/theblockbeats/180204)
 
-**NVDA** — Samsung partnership to develop custom ASIC chips expands NVIDIA's addressable market beyond GPUs into custom silicon. Separately, expanded Hyundai robotics collaboration and SK Hynix partnerships signal billions in Korea business. Jensen Huang says "industrial robotization is very near." Multiple premarket catalysts supporting stock recovery after semiconductor selloff. (→ https://t.me/theblockbeats/180220, https://t.me/theblockbeats/180194, https://t.me/theblockbeats/180195)
+**NVDA** — Nvidia announces strategic collaborations with Hyundai on $9 trillion won AI Valley project featuring data centers and humanoid robot production, plus Samsung custom ASIC partnership. While stock initially declined with sector, partnerships expand TAM into physical AI/robotics beyond pure compute. Citi raises S&P 500 target to 8,100 citing AI-driven earnings, predicting NVDA-led tech delivers $350 EPS in 2026, $400 in 2027. Watch Korea recovery as leading indicator. (→ https://t.me/theblockbeats/180194)
 
-**AAPL/GOOG** — Apple's WWDC unveils major AI overhaul with revamped Siri, multi-model support (Gemini, ChatGPT, Claude), and CoreAI developer platform. This addresses Apple's AI lag narrative and creates new distribution channel for Google's Gemini. Both stocks positioned to benefit from increased AI services monetization. (→ https://t.me/theblockbeats/180216)
+**ETH** — BitMNR acquired 126,971 ETH last week (5x typical weekly pace), bringing total holdings to 5.54M ETH representing 4.59% of circulating supply worth $9.6B. This aggressive accumulation during price weakness signals strong institutional conviction despite ETF outflows. Monitor for correlation break with BTC and potential supply squeeze if accumulation continues. (→ https://t.me/wublockchainenglish/24669)
 
-**ETH** — Bitmine adds 126,971 ETH in one week (vs usual 26K weekly rate), bringing total holdings to 5.54M ETH (4.59% of circulating supply) worth $9.6B. This aggressive accumulation during weakness signals strong conviction buying at these levels. Counter-signal to weak ETF flows. (→ https://t.me/wublockchainenglish/24669, https://t.me/theblockbeats/180206)
+**MSTR** — Strategy resumed Bitcoin buying with 1,550 BTC purchase for $101M, increasing holdings to 845,256 BTC and USD Reserve to $1B using $181M ATM equity issuance. Stock rallies 3-5% premarket on accumulation signal. Despite JPMorgan warnings, BTCTOP CEO argues low leverage and strategic accounting gains can cover dividends without net BTC sales. Binary outcome setup ahead. (→ https://t.me/leviathan_news/19459)
 
-**AMZN** — Corning surges 9% premarket on multi-billion dollar, multi-year fiber optic supply deal with Amazon for AI data center expansion. Direct read-through to Amazon's AI infrastructure buildout and validates continued hyperscaler capex despite macro concerns. (→ https://t.me/theblockbeats/180209)
+**BOTZ/ARKQ** — Philadelphia Semiconductor Index opens +5% led by Intel (+9.73%), Micron (+9.6%), ASML (+5.1%), Applied Materials (+5%) in broad sector relief rally. Combination of Intel validation, memory supply tightness, and oversold conditions creates tactical rebound opportunity in AI/robotics ETFs. Jensen Huang's "discount opportunity" comment and physical AI partnership announcements support thesis. (→ https://t.me/theblockbeats/180225)
+
+**GOOG** — Google's massive Intel TPU order demonstrates ongoing AI infrastructure buildout and supply chain diversification strategy. Apple WWDC tonight features AI strategy reboot with new Siri, CoreAI platform, and third-party integrations including Google Gemini, potentially expanding Google's AI distribution. Hyperscaler capex cycle remains intact despite sector volatility. (→ https://t.me/theblockbeats/180216)
 
 🔴 BEARISH SIGNALS
 
-**BTC/IBIT** — Bitcoin ETFs post $1.72B weekly outflows, second-worst on record, with BlackRock's IBIT seeing record $1.34B single-week exit. U.S. spot ETH ETFs hemorrhage $173M in fourth consecutive weekly outflow. This represents sustained institutional exodus, not just volatility. BlackRock also deposited 3,300 BTC ($209M) to Coinbase, signaling potential large sale. Fear & Greed Index crashes to 8 from 12. (→ https://t.me/theblockbeats/180174, https://t.me/wublockchainenglish/24666, https://t.me/theblockbeats/180177)
+**IBIT/FBTC** — Bitcoin ETFs post second-largest weekly outflow since launch at $1.72B, with BlackRock's IBIT bleeding $1.34B alone on strong NFP data reducing rate cut expectations. BlackRock also deposited 3,300 BTC (~$209M) to Coinbase with more transfers likely incoming, suggesting institutional distribution. Coinbase premium index negative 21 consecutive days confirms weak US demand. Structural shift from accumulation to risk management underway. (→ https://t.me/theblockbeats/180174)
 
-**MSTR** — JPMorgan warns Strategy's 6.3-month cash buffer insufficient to cover $1.7B dividend obligation, raising Bitcoin forced liquidation risk. Company already sold 32 BTC recently. Unrealized BTC loss expands to $10.7B (-16.7%). High-profile trader Eugene exits crypto entirely, explicitly bearish on Strategy/Saylor. Stock faces death spiral if forced to sell BTC into weak market. (→ https://t.me/leviathan_news/19446, https://t.me/wublockchainenglish/24665, https://t.me/wublockchainenglish/24662)
+**MSTR** — JPMorgan shifts to cautious crypto view, warning Strategy faces critical liquidity pressure with only 6.3-month cash buffer and $1.7B annual dividend obligation. After 32 BTC sale spooked markets, further forced selling risk rises if BTC doesn't recover. Famous trader Eugene exits crypto entirely, bearish on "Strategy/Saylor model unraveling." Stock carries $10.7B unrealized loss (-16.7%) creating accounting pressure. Cuts CLARITY Act passage odds below 50%. (→ https://t.me/wublockchainenglish/24665)
 
-**NVDA/SMH** — Korea KOSPI plunges 8% with circuit breaker triggered amid U.S. semiconductor rout. KOSDAQ also hits 8% circuit breaker. Nikkei 225 down 3.85%. This follows Friday's tech selloff and reflects foreign capital flight from semiconductor exposure. Asian markets pricing in peak semiconductor cycle concerns. (→ https://t.me/leviathan_news/19448, https://t.me/theblockbeats/180149)
+**BTC** — Long-held Bitcoin (3-12 months cohort) flowing back to exchanges at peak levels, signaling weakening holder confidence and capitulation risk. Analysts warn weekend bounce from $60.5k to $62.7k is "deleveraging rally" not reversal, citing declining open interest. Bitcoin MVRV Z-Score approaches historic bear bottom (~0.24) but STH/LTH metrics haven't converged, suggesting further downside possible. Fear & Greed Index plunges to 8 from 12, deepening extreme fear territory. (→ https://t.me/theblockbeats/180168)
 
-**COIN** — Coinbase Bitcoin premium index negative for 21 consecutive days at -0.0621%, signaling persistent weak U.S. institutional buying power. This is historically bearish divergence suggesting demand destruction continues despite price bounces. (→ https://t.me/theblockbeats/180142)
+**ETHA** — Ether ETFs see fourth consecutive week of outflows totaling $173M, with BitMNR's massive ETH accumulation (now holding $9.6B) showing $9.8B unrealized loss (-51.4%). While BitMNR buying signals conviction, institutional ETF flight suggests broader capital rotation away from crypto. SpaceX and Anthropic IPOs threaten to divert additional capital from digital assets. (→ https://t.me/theblockbeats/180212)
 
-**BTC (Long-term Holder Selling)** — Long-held Bitcoin (3-12 month cohort) continues flowing to exchanges with largest inflows in that vintage, indicating sustained selling pressure from experienced holders. This precedes distribution phases. Separate analysis shows weekend rally was deleveraging bounce, not trend reversal, with open interest declining 6% despite price gains. (→ https://t.me/theblockbeats/180168, https://t.me/theblockbeats/180163)
+**COIN** — Coinbase Bitcoin premium index negative 21 straight days reflects sustained weak US buying pressure and risk-off positioning. BlackRock's deposits of 3,300 BTC and 15,095 ETH to Coinbase suggest institutional distribution in progress. While crypto stocks rally premarket (+3.84%), negative premium divergence warns against chasing. Exchange volumes declining despite volatility signals deteriorating engagement. (→ https://t.me/theblockbeats/180142)
 
-🔴 BEARISH SIGNALS (cont'd)
+**NVDA (cyclical risk)** — Despite bullish partnerships, Korea KOSPI plunged 8.29% with circuit breaker triggered on US semiconductor rout, Fed rate fears, and foreign selling. NVDA faces dual pressure from higher-for-longer rates repricing and geopolitical escalation (Iran-Israel). Nikkei 225 down 3.85%. Strong NFP data eliminates near-term rate cut hopes, pressuring high-multiple AI names. Physical AI thesis intact but multiple compression risk elevated. (→ https://t.me/leviathan_news/19448)
 
-**Geopolitical (Broad Risk-Off)** — Iran launches 30+ missiles at Israel with no de-escalation signals. Israeli officials warn of "days of war" ahead. Houthis announce full ban on Israeli Red Sea navigation. Iran blames U.S. directly and shows no signs of stopping despite Trump's ceasefire request. MSCI Asia Pacific Index down 3%. This is not a one-day event. (→ https://t.me/theblockbeats/180123, https://t.me/theblockbeats/180140, https://t.me/theblockbeats/180141, https://t.me/theblockbeats/180150)
+**SYS** — Syscoin Bridge paused after critical exploit created 5B unauthorized SYS tokens through validation flaw. Exchanges coordinating blacklists but damage to credibility severe. Avoid until full post-mortem and security audit complete. Illustrates ongoing smart contract risk in cross-chain infrastructure. (→ https://t.me/wublockchainenglish/24660)
 
 💡 TRADE IDEAS
 
-**1. Long INTC Calls (3-6 month)**
-- Rationale: Google's 3M+ TPU order and NVDA/GOOG backup manufacturing partnership validates Intel foundry turnaround. Stock up 14% premarket but still trades at distressed multiples. This is the first major proof point for Gelsinger's strategy and positions Intel as critical AI infrastructure redundancy play.
-- Entry: Fade the gap or chase into strength on volume confirmation; consider ATM calls 3-6 months out
-- Risks: Execution risk on foundry margins; deal specifics could disappoint. Invalidates below $30 support.
-- Related signals: 
-  • INTC/GOOG partnership (→ https://t.me/theblockbeats/180219)
-  • Google TPU order (→ https://t.me/theblockbeats/180217)
+**1. Long INTC calls (1-3 month)**
+- Rationale: Google's 3M+ TPU order and potential backup fab role for NVDA/GOOG validates foundry strategy after years of false starts. 11-14% premarket surge on heavy volume suggests institutional repositioning. Market underestimated Intel's ability to win advanced packaging and chip manufacturing share from TSMC amid geopolitical diversification push. Physical AI buildout requires distributed manufacturing capacity.
+- Entry: Scalp 10-15% pullback from premarket levels, target $35-40 strikes
+- Risks: Execution risk on foundry margins; order may be one-off rather than structural shift; TSMC maintains technology lead
+- Related signals: (→ https://t.me/theblockbeats/180219), (→ https://t.me/theblockbeats/180223), (→ https://t.me/theblockbeats/180225)
 
-**2. Short MSTR / Long BTC Put Spread**
-- Rationale: JPMorgan warns 6.3-month cash buffer won't cover $1.7B dividend with $10.7B unrealized BTC loss. Company already selling BTC. This is a forced seller scenario into weak ETF flows ($1.72B weekly outflow). Strategy faces death spiral if BTC doesn't recover quickly.
-- Entry: Short MSTR equity or buy 3-month put spreads targeting $80-100; alternatively short via BITO if playing broader BTC weakness
-- Risks: BTC rapid recovery or Strategy announces alternative financing. Invalidates on BTC breakout above $72K or new debt raise.
-- Related signals:
-  • JPMorgan MSTR warning (→ https://t.me/leviathan_news/19446)
-  • Trader Eugene exits crypto (→ https://t.me/wublockchainenglish/24662)
-  • MSTR unrealized losses (→ https://t.me/theblockbeats/180212)
+**2. Long MU shares or ITM calls**
+- Rationale: Dual massive price target upgrades (WF to $1,220, BofA to $2,100) based on multi-year HBM supply contracts and NAND supply constraints to 2028-2029 create rare revenue visibility. AI memory demand accelerating faster than supply response, with 92% analyst buy ratings. Current 7-10% premarket move understates multi-year structural tightness.
+- Entry: $130-135 on any morning profit-taking, accumulate into weakness
+- Risks: Raymond James warns DRAM/NAND prices may peak mid-2026; China memory oversupply risk; macro slowdown crimps hyperscaler capex
+- Related signals: (→ https://t.me/theblockbeats/180204), (→ https://t.me/theblockbeats/180215), (→ https://t.me/theblockbeats/180186)
 
-**3. Long MU / Short NVDA Pair**
-- Rationale: Wells Fargo doubles MU target to $1,220 on HBM/memory tightness while NVDA faces Korean market capitulation (KOSPI -8%). Memory supply remains tight but NVDA valuation stretched. MU offers better risk-reward with scarcity premium while NVDA digest gains. Play the infrastructure buildout through the bottleneck (memory) not the consensus winner.
-- Entry: Long MU on any premarket fade from +7%; short NVDA on rallies above $115. Target 1:1 dollar-neutral.
-- Risks: Broader tech selloff takes both down; Raymond James warning on DRAM peak. Invalidates if hyperscaler capex cuts announced.
-- Related signals:
-  • Wells Fargo MU upgrade (→ https://t.me/theblockbeats/180204)
-  • Korea KOSPI crash (→ https://t.me/theblockbeats/180149)
+**3. Short MSTR equity or long puts (30-60 day)**
+- Rationale: JPMorgan warns critical liquidity squeeze with 6.3-month buffer vs $1.7B dividend bill creates forced selling scenario. Eugene exit and trader sentiment shift indicates smart money rotation. $10.7B unrealized loss limits financial flexibility. Any BTC weakness below $60k triggers margin pressure feedback loop. CLARITY Act odds cut below 50% removes policy tailwind.
+- Entry: $140-150 on any relief rally, target $100-110
+- Risks: BTC short squeeze to $70k+ reverses thesis; Saylor pulls off dilution/financing gymnastics; CLARITY Act surprise passage
+- Related signals: (→ https://t.me/wublockchainenglish/24665), (→ https://t.me/leviathan_news/19446), (→ https://t.me/wublockchainenglish/24662), (→ https://t.me/theblockbeats/180212)
 
-**4. Long ETHA (Ethereum ETF) on BitMine Accumulation**
-- Rationale: Bitmine adds 127K ETH in one week (5x normal pace), now holds 4.59% of circulating supply. This is whale accumulation into weakness at scale. ETH ETF outflows ($173M weekly) create technical selling pressure but fundamental bid emerging. Bitmine's conviction suggests institutional floor forming.
-- Entry: Buy ETHA on dips below $18; target $22-24 on 4-6 week timeframe
-- Risks: Continued ETF outflows overwhelm spot buying; macro risk-off. Invalidates below $16 or if BitMine slows purchases.
-- Related signals:
-  • BitMine 127K ETH purchase (→ https://t.me/wublockchainenglish/24669)
-  • ETH ETF outflows (→ https://t.me/wublockchainenglish/24666)
+**4. Tactical short IBIT/FBTC via puts or pairs long COIN equity**
+- Rationale: Record $1.72B weekly ETF outflows with Coinbase premium negative 21 days signals structural institutional exit not temporary deleveraging. BlackRock depositing 3,300 BTC to Coinbase suggests distribution in progress. BTC technicals show failed rally with declining open interest. However, COIN equity benefits from volatility and maintains positive divergence from crypto prices given regulatory clarity and revenue diversification.
+- Entry: Short IBIT on any BTC bounce to $65k+; simultaneously long COIN on dips below $200
+- Risks: Surprise dovish Fed pivot reignites crypto flows; MSTR/Saylor stabilizes sentiment; institutional FOMO returns
+- Related signals: (→ https://t.me/theblockbeats/180174), (→ https://t.me/theblockbeats/180177), (→ https://t.me/theblockbeats/180142), (→ https://t.me/theblockbeats/180163)
 
-**5. Short COIN on Premium Index Breakdown**
-- Rationale: Coinbase premium index negative for 21 straight days at -0.0621%. This signals structural U.S. demand weakness. COIN revenue highly correlated to crypto volumes and sentiment. With BTC ETFs bleeding $1.72B weekly and MSTR facing crisis, COIN faces earnings headwinds. Stock up 3.8% premarket on dead-cat bounce.
-- Entry: Short rallies toward $195-200; target $160-170 on 6-8 week timeframe
-- Risks: Crypto sentiment reversal or stablecoin regulation catalyst (Visa/Mastercard alliance rumor). Invalidates above $210.
-- Related signals:
-  • Coinbase premium negative 21 days (→ https://t.me/theblockbeats/180142)
-  • BTC ETF outflows (→ https://t.me/theblockbeats/180174)
+**5. Long BOTZ/ARKQ on semiconductor sector washout**
+- Rationale: Philadelphia Semi Index +5% open after Korea KOSPI -8.29% circuit breaker represents extreme mean reversion setup. Citi raises S&P 500 target to 8,100 on AI earnings growth ($350 2026 EPS, $400 2027 EPS). NVDA-Hyundai physical AI partnership, Intel foundry validation, and memory supply tightness support robotics/AI infrastructure thesis. Fear & Greed at 8 creates tactical entry.
+- Entry: Scale into BOTZ $32-34, ARKQ $48-50 over 2-3 sessions
+- Risks: Middle East escalation triggers broader risk-off; Fed remains hawkish through summer; SpaceX/Anthropic IPOs drain liquidity
+- Related signals: (→ https://t.me/theblockbeats/180225), (→ https://t.me/theblockbeats/180226), (→ https://t.me/theblockbeats/180194), (→ https://t.me/theblockbeats/180190)
 
-**6. Long ARKQ / BOTZ (Robotics) on NVDA-Hyundai Partnership**
-- Rationale: NVDA expands Hyundai robotics collaboration; Jensen Huang says "industrial robotization is very near." This accelerates physical AI timeline. ARKQ and BOTZ offer diversified exposure to robotics buildout (Hyundai, ABB, Keyence, etc.) without NVDA's valuation risk. Play the next leg of AI infrastructure.
-- Entry: Buy ARKQ on dips to $58-60 or BOTZ around $32; 3-6 month timeframe
-- Risks: Capex slowdown or robotics adoption delays. Invalidates if NVDA robotics partnerships fail to materialize into revenue.
-- Related signals:
-  • NVDA-Hyundai robotics (→ https://t.me/theblockbeats/180194)
-  • Jensen on robotization (→ https://t.me/theblockbeats/180145)
+**6. Pairs trade: Long NVDA / Short MSTR (equal dollar weight)**
+- Rationale: Capture AI infrastructure thesis (NVDA partnerships, physical AI expansion, hyperscaler capex) while hedging crypto leverage implosion risk (MSTR liquidity squeeze). NVDA pullback on Korea panic creates entry while MSTR relief rallies offer short entry. Correlation historically high but fundamentals diverging sharply.
+- Entry: Long NVDA $115-120, short MSTR $140-150
+- Risks: Broad market crash hurts both; BTC unexpected surge to $80k+ benefits MSTR disproportionately; NVDA multiple compression continues
+- Related signals: (→ https://t.me/theblockbeats/180194), (→ https://t.me/wublockchainenglish/24665), (→ https://t.me/theblockbeats/180175)
 
-**7. Long Oil / Energy Hedges on Iran Escalation**
-- Rationale: Iran launches 30+ missiles with no de-escalation; Israeli officials warn "days of war." Houthis ban Red Sea navigation. Oil up only 1-1.6% despite escalation suggests market underpricing supply risk. Iranian energy infrastructure already targeted. SpaceX/Anthropic IPOs create equity market liquidity drain. This setup favors defensive/commodity rotation.
-- Entry: Buy USO calls or XLE on weakness; consider 2-3 month timeframe targeting 15-20% move
-- Risks: Ceasefire materializes; Saudi/OPEC+ production increase. Invalidates if Iran conflict de-escalates within 72 hours.
-- Related signals:
-  • Iran missile launches (→ https://t.me/theblockbeats/180123)
-  • Days of war warning (→ https://t.me/theblockbeats/180140)
-  • Red Sea ban (→ https://t.me/theblockbeats/180141)
+**7. Buy BTC spot or BITO calls (contrarian, 60-90 day)**
+- Rationale: Bitcoin MVRV Z-Score near historic bear bottom (~0.24), Fear & Greed at 8 (extreme fear), and long-term holders capitulating creates textbook contrarian setup. Strategy's continued buying (1,550 BTC) and BitMNR's ETH accumulation (126,971 ETH) signal smart money positioning. Weekend "deleveraging rally" cleared weak hands. Target 200-week MA reclaim at $70k.
+- Entry: Layer $60k-62k zone, add $57k if tested, strict stop $55k
+- Risks: JPMorgan right on MSTR forced selling cascade; Fed stays hawkish longer; SpaceX/Anthropic IPOs drain capital; Iran-Israel escalation
+- Related signals: (→ https://t.me/theblockbeats/180199), (→ https://t.me/theblockbeats/180227), (→ https://t.me/leviathan_news/19459), (→ https://t.me/theblockbeats/180187)
 
 ⚠️ RISKS TO WATCH
 
-• **MSTR Forced Liquidation Cascade** — If Strategy sells more BTC to meet $1.7B dividend, it could trigger panic selling in IBIT/FBTC and broader crypto treasury companies. Trigger: BTC below $58K or MSTR announces asset sales. Impact: 15-25% drawdown in crypto equities.
+• **MSTR Forced Liquidation** — If BTC drops below $55k, Strategy's 6.3-month cash buffer forces BTC sales to meet $1.7B dividend obligation, triggering cascade as market front-runs. Monitor $60k BTC support and MSTR equity behavior sub-$120. (→ https://t.me/wublockchainenglish/24665)
 
-• **Semiconductor Peak Cycle** — Raymond James warns DRAM/NAND prices may peak mid-2026 despite bullish HBM narrative. Korea market -8% circuit breaker suggests foreign capital pricing this in. Trigger: Samsung/SK Hynix capex reduction or hyperscaler guidance cut. Impact: 20-30% correction in SMH.
-
-• **Middle East Oil Shock** — Iran showing no restraint with 30+ missiles and Houthi Red Sea blockade. Israeli energy strikes could prompt Iranian retaliation on Gulf production. Trigger: Attack on Saudi/UAE facilities or Strait of Hormuz closure. Impact: Oil spike to $110+, equity market -10-15%.
-
-• **SpaceX/Anthropic IPO Liquidity Drain** — Leviathan warns mega-IPOs could divert capital from crypto. Float-adjusted indexing limits passive buying to ~$30B but active rotation could exceed $100B. Trigger: SpaceX prices this week. Impact: Extended pressure on high-beta tech and crypto.
-
-📌 MACRO CONTEXT
-
-Markets face triple threat: geopolitical escalation (Iran 30+ missiles, no ceasefire), crypto deleveraging ($1.72B ETF outflows, MSTR crisis), and semiconductor cycle peak fears (Korea -8% circuit breaker). Intel's surprise win and memory strength offer tactical longs, but broader risk-reward skews defensive. SpaceX IPO this week creates liquidity wildcard. Asian circuit breakers overnight signal contagion risk into U.S. open. This is a navigation market, not a conviction market.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-82 tradeable signals | 31 high-confidence | 19 bullish | 20 bearish
+• **Iran-Israel Full Escalation** — Iran firing 30+ missiles with "no sign of stopping," Houthi Red Sea navigation ban, and Israeli strikes on Mahshahr petrochemical complex threaten oil shock and VIX spike above 25. Gold $2,700+, oil $95+ scenarios kill risk assets. (→

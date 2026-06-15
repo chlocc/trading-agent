@@ -140,6 +140,15 @@ TEMPLATE = """<!DOCTYPE html>
       padding: 40px 24px;
     }
 
+    /* Disclaimer */
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+
     /* Tabs */
     .tabs {
       display: flex;
@@ -280,6 +289,7 @@ TEMPLATE = """<!DOCTYPE html>
       </div>
     {% endif %}
   {% else %}
+    <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
     <div class="tabs">
       <a class="tab {{ 'active' if tab == 'trading' else '' }}"
          href="/{{ date }}/trading">📊 Trading Signals</a>

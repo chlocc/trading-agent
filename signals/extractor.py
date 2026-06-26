@@ -16,11 +16,12 @@ import os
 from datetime import datetime
 from pathlib import Path
 
+import asyncio
 import re
 import anthropic
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 SYSTEM_PROMPT = """You are a crypto and tech-equity trading signal extractor.
 
@@ -70,7 +71,7 @@ async def extract_signals(messages: list[dict]) -> list[dict]:
         ]
 
         response = await client.messages.create(
-            model="claude-sonnet-4-5",
+            model="claude-haiku-4-5",
             max_tokens=4096,
             system=[
                 {
@@ -98,6 +99,10 @@ async def extract_signals(messages: list[dict]) -> list[dict]:
         except json.JSONDecodeError as e:
             print(f"    ✗ JSON parse error on batch {i//batch_size + 1}: {e}")
             print(f"    Raw response: {raw[:200]}")
+
+        # Small delay between batches to avoid rate limits
+        if i + batch_size < len(messages):
+            await asyncio.sleep(5)
 
     return all_signals
 

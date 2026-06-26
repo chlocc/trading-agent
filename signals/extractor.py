@@ -47,12 +47,22 @@ Guidelines:
 - Mark tradeable=false for generic news, price recaps, or announcements with no clear directional signal"""
 
 
+# Haiku 4.5 pricing per million tokens (update if pricing changes)
+PRICE_PER_MTOK = {
+    "input": 1.00,
+    "cache_write": 1.25,
+    "cache_read": 0.10,
+    "output": 5.00,
+}
+
+
 async def extract_signals(messages: list[dict]) -> list[dict]:
     client = anthropic.AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
     # Process in batches of 20 to stay within context limits
     batch_size = 20
     all_signals = []
+    usage_totals = {"input": 0, "cache_write": 0, "cache_read": 0, "output": 0}
 
     for i in range(0, len(messages), batch_size):
         batch = messages[i : i + batch_size]
@@ -88,6 +98,18 @@ async def extract_signals(messages: list[dict]) -> list[dict]:
             ],
         )
 
+        usage = response.usage
+        cache_write = getattr(usage, "cache_creation_input_tokens", 0) or 0
+        cache_read = getattr(usage, "cache_read_input_tokens", 0) or 0
+        usage_totals["input"] += usage.input_tokens
+        usage_totals["cache_write"] += cache_write
+        usage_totals["cache_read"] += cache_read
+        usage_totals["output"] += usage.output_tokens
+        print(
+            f"    tokens: in={usage.input_tokens} cache_write={cache_write} "
+            f"cache_read={cache_read} out={usage.output_tokens}"
+        )
+
         raw = response.content[0].text.strip()
         # Strip markdown code fences if present
         if raw.startswith("```"):
@@ -103,6 +125,18 @@ async def extract_signals(messages: list[dict]) -> list[dict]:
         # Small delay between batches to avoid rate limits
         if i + batch_size < len(messages):
             await asyncio.sleep(5)
+
+    cost = (
+        usage_totals["input"] / 1_000_000 * PRICE_PER_MTOK["input"]
+        + usage_totals["cache_write"] / 1_000_000 * PRICE_PER_MTOK["cache_write"]
+        + usage_totals["cache_read"] / 1_000_000 * PRICE_PER_MTOK["cache_read"]
+        + usage_totals["output"] / 1_000_000 * PRICE_PER_MTOK["output"]
+    )
+    print(
+        f"\n  💰 Signal extraction usage: in={usage_totals['input']} "
+        f"cache_write={usage_totals['cache_write']} cache_read={usage_totals['cache_read']} "
+        f"out={usage_totals['output']} | est. cost: ${cost:.4f}"
+    )
 
     return all_signals
 

@@ -4,118 +4,97 @@
 
 🔥 TOP THEMES
 
-• **AI Infrastructure Capex Explosion** — US tech giants committed $850B to data center rentals with Meta +76% QoQ and MSFT +26% QoQ. This multi-year buildout creates sustained demand for semiconductors (NVDA, MU), storage solutions, and energy infrastructure. The storage sector specifically faces severe supply shortfalls with demand not yet peaking. Key tickers: META, MSFT, ORCL, NVDA, MU, ARKQ.
+• **AI Infrastructure Supercycle Intensifies** — AI capex is projected to hit $1.1 trillion in 2027, exceeding US defense spending for the first time. This isn't just about GPUs anymore: data center rental commitments have reached $850B, storage chips face structural shortages, and memory fab buildouts are accelerating globally. Key plays: NVDA, MU, META, MSFT, GOOG, SK Hynix (005930).
 
-• **Bitcoin ETF Outflows Hit 8-Week Streak** — $526M net outflows this week mark the eighth consecutive week of institutional selling pressure despite Thursday's brief reversal. IBIT alone saw $22B in outflows. This sustained distribution pattern suggests institutional profit-taking or rotation into AI infrastructure continues. Key tickers: IBIT, FBTC, COIN, MSTR.
+• **Bitcoin Institutional Narrative Shift** — Michael Saylor is reframing Bitcoin's bull case around capital flows and protocol stability rather than halving cycles, while BTC breaks back above $63k after two weeks. However, spot ETFs just posted their eighth consecutive week of outflows ($527M), creating a divergence between price action and institutional flow that warrants caution. Tickers: IBIT, FBTC, COIN, MSTR.
 
-• **DeFi Liquidity Renaissance** — Aave dominates with V3 hitting $1B deposits on Monad in 2 days and V4 surpassing $2.5B on Ethereum. The upcoming consumer app announcement positions Aave to bridge institutional and retail DeFi. This expansion validates the "DeFi 2.0" thesis ahead of broader crypto market recovery. Key tickers: AAVE.
+• **Ethereum Technical Upgrade Path** — Vitalik's "Lean Ethereum" roadmap promises native STARKs, quantum resistance, and 100TB scalable state by 2030, but ETH is showing inflation pressure (83,550 ETH supply increase in 30 days, 0.835% annual rate) and weak funding rates. The tech vision is bullish long-term, but near-term sentiment remains fragile. Ticker: ETHA, ETH futures.
 
-• **Regulatory Tightening Accelerates** — Revolut bans USDT purchases July 6 with forced conversions by August 31, while ESMA targets prediction markets and South Korea sees 74% YoY drop in token listings. Stablecoin regulations and exchange compliance costs are reshaping market structure globally. Key tickers: USDT, USDC.
+• **Regulatory Clarity Improving** — CLARITY Act odds jumped to 52% after major law enforcement opposition withdrew, signaling a potential regulatory tailwind for crypto markets in 2026. This could be the catalyst that reverses the ETF outflow trend if it gains momentum through legislative process.
 
 🟢 BULLISH SIGNALS
 
-**AAVE** — V4 crossed $250M deposits on Ethereum while V3 hit $1B on Monad within 48 hours, demonstrating explosive adoption across chains. The upcoming consumer app announcement targeting mainstream users could unlock retail capital flows that have largely sat on the sidelines of DeFi. Expansion velocity suggests ecosystem incentives are working and first-mover advantage in cross-chain liquidity is solidifying. (→ https://t.me/leviathan_news/20363) (→ https://t.me/theblockbeats/184317)
+**NVDA, MU, META, MSFT, GOOG** — AI capital expenditure is forecast to reach $1.1 trillion in 2027, surpassing US defense spending for the first time. This represents a structural demand shift that extends beyond semiconductor manufacturing into data center infrastructure, power delivery systems, and cooling technology. The scale of this buildout suggests multi-year tailwinds for the entire AI supply chain, with particular strength in memory/storage chips where shortages are becoming acute. (→ https://t.me/theblockbeats/184371)
 
-**META, MSFT, ORCL** — Data center rental capex surged to $850B with Meta's 76% QoQ increase signaling aggressive AI buildout acceleration. This isn't speculation—it's signed contracts locking in multi-year infrastructure demand. The capital commitment scale guarantees sustained semiconductor and energy sector tailwinds through 2028 at minimum. Storage shortages are already materializing, creating pricing power for suppliers. (→ https://t.me/theblockbeats/184332)
+**MU, NVDA** — Micron is committing $93 billion to a new Japan HBM memory fab targeting 2028 production, while global storage chip shortages intensify. A prominent trader flagged AI storage demand surge and declining data lifecycle requirements as key inflection signals driving heavy positioning in memory stocks. This aligns with SK Hynix's $29B IPO next week, which is explicitly targeting AI-focused investors. The memory supply/demand imbalance appears structural, not cyclical. (→ https://t.me/theblockbeats/184307) (→ https://t.me/theblockbeats/184358) (→ https://t.me/theblockbeats/184326)
 
-**MU** — Micron's $9.3B Japan expansion and $500B+ total US fab investment targets 2027-2028 AI HBM/DRAM/NAND production ramp. This directly addresses the storage supply deficit confirmed by multiple signals. With AI data storage demand structurally growing and existing capacity constrained, Micron's timing positions them for margin expansion as new capacity comes online into tight markets. (→ https://t.me/theblockbeats/184307)
+**META, MSFT, ORCL** — Tech giants' data center rental commitments have hit a record $850 billion, with Meta and Microsoft leading the infrastructure buildout. This represents locked-in demand for semiconductors, cooling systems, and power infrastructure through the end of the decade. The commitment scale suggests these companies view AI infrastructure as strategic moats worth any near-term margin pressure. (→ https://t.me/theblockbeats/184332)
 
-**NVDA** — Appears across multiple signals as the primary beneficiary of data center capex surge and AI infrastructure buildout. Storage shortages, data center expansion, and semiconductor demand all flow through NVIDIA's ecosystem. The company sits at the nexus of every major AI infrastructure theme. (→ https://t.me/theblockbeats/184326) (→ https://t.me/theblockbeats/184332)
+**BTC** — Bitcoin broke above $63k for the first time in two weeks, recovering June losses and showing renewed momentum. Michael Saylor is publicly repositioning Bitcoin's narrative away from halving cycles toward capital market expansion and protocol stability, arguing that institutional flows will dominate the next decade. His emphasis on Bitcoin's "hard consensus" as an immune system protecting network integrity is aimed at institutional buyers concerned about governance risk. However, this bullish narrative faces headwinds from eight consecutive weeks of ETF outflows. (→ https://t.me/theblockbeats/184311) (→ https://t.me/wublockchainenglish/25010) (→ https://t.me/theblockbeats/184344) (→ https://t.me/theblockbeats/184337)
 
-**BTC, ETH, XRP** — Bitcoin broke $63K on Fed dovish signals and liquidity recovery with XRP rallying 10% weekly to reclaim top-5 status. Short liquidations totaled $201M vs $38M longs in the last 24 hours, suggesting a short squeeze dynamic. Whale accumulation continues with one address adding $53.51M in ETH/WBTC over 4 days. Technical breakout could trigger $651M in additional short liquidations above $65K. (→ https://t.me/theblockbeats/184311) (→ https://t.me/theblockbeats/184298)
+**ETH** — Vitalik Buterin outlined the "Lean Ethereum" roadmap, targeting native STARKs, quantum resistance, and 100TB scalable state by 2030. This represents the most ambitious technical upgrade path in Ethereum's history and addresses key criticisms around scalability and long-term security. The roadmap should support L2 ecosystem growth and institutional adoption if execution remains on track. (→ https://t.me/wublockchainenglish/25007)
 
-**AI/tech (broad)** — CPP Investments' $1.75B commitment to EQT's AI data center infrastructure (10+ GW expansion) validates institutional conviction in long-term AI infrastructure thesis. Private equity is reportedly undervaluing AI by focusing on cost cuts rather than revenue multiplication and exit multiple expansion potential. (→ https://t.me/theblockbeats/184297) (→ https://t.me/leviathan_news/20367)
+**XRP** — XRP surged to become the 5th largest cryptocurrency by market cap during Bitcoin's broader recovery move. This represents a significant shift in altcoin rankings and suggests capital rotation into large-cap alts with regulatory clarity is underway. (→ https://t.me/theblockbeats/184311)
 
-**SOL** — Active addresses surged 38% to 31.38M in 7 days, ranking #1 among major blockchains. Meme coin activity is driving real network effects and user growth, creating foundation for sustained ecosystem expansion. This validates the "culture precedes capital" thesis in crypto. (→ https://t.me/theblockbeats/184355)
+**Crypto Regulation** — The CLARITY Act's probability of becoming law in 2026 jumped to 52% after a major law enforcement group withdrew its opposition. This represents a material improvement in the regulatory path and could serve as the catalyst to reverse the eight-week ETF outflow streak if the bill continues to advance through the legislative process. (→ https://t.me/theblockbeats/184351)
 
 🔴 BEARISH SIGNALS
 
-**BTC (near-term)** — Eight consecutive weeks of ETF outflows totaling $526M this week alone signals sustained institutional distribution despite Thursday's temporary inflow. IBIT's $22B outflow dominance suggests the largest, most sophisticated holders are rotating capital elsewhere—likely into AI infrastructure given the capex signals. Until this reverses, rallies face selling pressure. (→ https://t.me/TheBlock001/7100) (→ https://t.me/theblockbeats/184289)
+**BTC, ETH (ETFs)** — Spot BTC and ETH ETFs just recorded their eighth consecutive week of net outflows, totaling approximately $527 million. This is the longest outflow streak since inception and signals weak institutional demand despite Bitcoin's price recovery above $63k. The divergence between price action and ETF flows suggests retail/whale accumulation is driving the bounce, not institutional buyers. This creates vulnerability to reversal if macro conditions deteriorate. (→ https://t.me/theblockbeats/184305)
 
-**USDT** — Revolut blocking purchases July 6 and auto-converting balances after August 31 represents concrete regulatory enforcement against Tether. This follows ESMA's prediction market warning and broader EU stablecoin tightening. While USDT maintains dominance, regulatory fragmentation creates structural headwinds and potential for rapid market share loss if major exchanges follow suit. (→ https://t.me/leviathan_news/20361)
+**APT** — Aptos disclosed a critical vulnerability in its Move VM that could have exposed approximately $70 billion in crypto assets to attack. While the bug was patched quickly with no actual user losses, the disclosure reveals smart contract platform risk that may drive capital toward more battle-tested chains. Security researchers are likely scrutinizing other Move-based chains for similar vulnerabilities, creating near-term overhang. (→ https://t.me/leviathan_news/20370) (→ https://t.me/theblockbeats/184323)
 
-**APT** — Critical stale-cache bug discovered in Aptos Move VM could have exposed $70B in assets to attacks. While patched, this undermines the "Move language = security" narrative that Aptos built its brand on. Smart contract platforms live or die by security reputation—this is a major credibility hit that could accelerate developer and capital migration to competitors. (→ https://t.me/leviathan_news/20370)
+**SK, MU (Leveraged ETF Risk)** — SK Hynix inverse and leveraged ETFs are massively overlevered with $19B in AUM against only $45M in daily stock volume. This creates dangerous concentration risk in semiconductor plays, as any significant move in SK Hynix could trigger forced deleveraging cascades across the entire memory chip sector. Similar dynamics exist in other single-stock leveraged products tracking TSLA and NVDA. (→ https://t.me/theblockbeats/184348)
 
-**ETH (relative to BTC)** — Ethereum ETF outflows hit $13.7M this week, underperforming Bitcoin's already-weak flows. Despite Vitalik's "Lean Ethereum" roadmap announcement and strong DeFi metrics, institutional interest remains tepid. The 3-4 year protocol overhaul timeline creates uncertainty while competitors ship faster. (→ https://t.me/theblockbeats/184289) (→ https://t.me/theblockbeats/184315)
-
-**Altcoins (South Korea exposure)** — South Korea's 74% YoY drop in new token listings due to tighter vetting and liquidity requirements removes a major source of retail speculation capital. Korean retail has historically been a liquidity provider for altcoin pumps—this regulatory squeeze reduces that fuel source significantly. (→ https://t.me/wublockchainenglish/25011)
+**Fed Rate Cut Timeline** — Fed rate cut expectations have been pushed back significantly: no hikes needed, but the first 25bp cut is now expected in October 2026, with potential for three cuts in 2027 as inflation pressures ease. This "higher for longer" scenario pressures risk assets and explains the sustained ETF outflows. The timeline extends macro headwinds for another 15+ months. (→ https://t.me/theblockbeats/184364)
 
 💡 TRADE IDEAS
 
-**1. Long NVDA calls (3-6 month expiry)**
-- Rationale: NVIDIA sits at the intersection of every bullish AI infrastructure signal—$850B data center capex, storage shortages, semiconductor demand, and data center expansion. Multiple revenue streams (chips, networking, software) with no credible competitor at scale. Storage shortage signals suggest pricing power persists.
-- Entry: Current levels or on any pullback to $120-125 support
-- Risks: Broader tech selloff or export restriction expansion to allied countries
-- Related signals: 
-  - Tech giants $850B data center capex commitment (→ https://t.me/theblockbeats/184332)
-  - Storage supply shortage confirmation (→ https://t.me/theblockbeats/184326)
-  - Micron's production ramp timeline (→ https://t.me/theblockbeats/184307)
+**1. Long BOTZ or ARKQ (AI/Robotics ETFs)**
+- Rationale: The $1.1T AI capex forecast and $850B data center commitment wave represents the largest infrastructure buildout in tech history. Rather than picking individual winners in an overheated market, gain diversified exposure to semiconductors, data centers, and AI infrastructure through thematic ETFs. BOTZ and ARKQ offer exposure to NVDA, MSFT, GOOG without concentration risk.
+- Entry: Scale in over next 2-3 weeks on any broad tech pullbacks of 2-3%
+- Risks: Invalidated if Fed signals additional rate hikes or AI capex guidance is cut in Q3 earnings
+- Related signals: (→ https://t.me/theblockbeats/184371) (→ https://t.me/theblockbeats/184332) (→ https://t.me/theblockbeats/184326)
 
-**2. Long MU equity (12-18 month holding period)**
-- Rationale: $500B+ fab investment targeting 2027-2028 production ramp directly into confirmed storage supply deficit. New capacity comes online exactly when AI data storage demand peaks, creating perfect timing for margin expansion. Valuation remains reasonable relative to NVDA.
-- Entry: Build position on any weakness below $95
-- Risks: Fab construction delays or demand slowdown if AI capex pauses
-- Related signals:
-  - Micron fab expansion announcement (→ https://t.me/theblockbeats/184307)
-  - Storage shortage structurally persisting (→ https://t.me/theblockbeats/184326)
+**2. Long MU (Micron Technology)**
+- Rationale: Micron is committing $93B to HBM memory fab expansion while structural storage chip shortages intensify. A respected trader called AI storage demand and declining data lifecycle as the key inflection signals. SK Hynix's $29B IPO next week will validate memory sector demand and likely lift all boats. Micron offers cleaner exposure than overleveraged SK Hynix ETFs.
+- Entry: Establish core position at current levels; add on any pullback to $95-97 range
+- Risks: Invalidated if SK Hynix IPO is postponed or prices below range, signaling demand concerns
+- Related signals: (→ https://t.me/theblockbeats/184307) (→ https://t.me/theblockbeats/184358) (→ https://t.me/theblockbeats/184326)
 
-**3. Short IBIT via put spreads (2-3 month expiry)**
-- Rationale: Eight consecutive weeks of outflows with $526M this week suggests structural rotation out of Bitcoin into AI infrastructure. Institutional selling pressure creates technical resistance. Put spreads limit downside risk while capturing continued distribution.
-- Entry: Establish put spreads $2-3 below current IBIT NAV
-- Risks: Fed pivot more dovish than expected or crypto ETF inflow reversal
-- Related signals:
-  - 8-week consecutive BTC ETF outflow streak (→ https://t.me/TheBlock001/7100)
-  - $526M weekly outflows (→ https://t.me/theblockbeats/184289)
-  - Short squeeze risk above $65K (→ https://t.me/theblockbeats/184296)
+**3. Long IBIT or FBTC (Bitcoin ETFs) vs. Short BTC Futures (Basis Trade)**
+- Rationale: Eight consecutive weeks of ETF outflows have likely created attractive entry points in spot Bitcoin ETFs while BTC futures may be trading at premium. If CLARITY Act momentum continues (now 52% odds), institutional flows should reverse sharply. Pair spot ETF long with short futures to capture basis convergence while remaining market-neutral.
+- Entry: Long spot ETFs at current levels; short front-month futures if basis exceeds 3% annualized
+- Risks: Invalidated if CLARITY Act stalls or additional regulatory headwinds emerge
+- Related signals: (→ https://t.me/theblockbeats/184305) (→ https://t.me/theblockbeats/184351) (→ https://t.me/theblockbeats/184311)
 
-**4. Long AAVE (spot or perps with tight stops)**
-- Rationale: $2.5B V4 deposits and $1B V3 Monad deposits in days demonstrates explosive adoption. Consumer app announcement targets the massive retail capital sitting in centralized platforms. First mover in cross-chain liquidity with Foundation incentive backing creates moat. DeFi outperforming broader crypto suggests capital rotation into productive yield.
-- Entry: Current levels with stop below $85
-- Risks: Broader crypto selloff or smart contract exploit (protocol risk always present in DeFi)
-- Related signals:
-  - V4 crossing $250M milestone (→ https://t.me/leviathan_news/20363)
-  - V3 Monad $1B in 2 days (→ https://t.me/theblockbeats/184317)
-  - Consumer app announcement pending (→ https://t.me/leviathan_news/20365)
+**4. Short APT (Aptos) via Perpetual Futures**
+- Rationale: Critical Move VM vulnerability disclosed affecting $70B in potential exposure. Even though patched, security researchers will scrutinize other Move-based chains, and DeFi protocols may reduce Aptos exposure. Smart contract platform competition is intense, and security incidents create lasting reputation damage.
+- Entry: Short on any relief rallies above recent highs; target 10-15% downside
+- Risks: Invalidated if Aptos announces major institutional partnerships or security audit showing industry-leading standards
+- Related signals: (→ https://t.me/leviathan_news/20370) (→ https://t.me/theblockbeats/184323)
 
-**5. Long ARKQ (AI robotics & automation ETF)**
-- Rationale: JD.com's plan to replace 700K delivery workers with robots signals automation wave accelerating. AI infrastructure capex provides tailwinds to robotics suppliers. Offers diversified exposure to AI automation theme without single-stock risk. Captures second-order effects of AI buildout.
-- Entry: Current levels or scale in over 2-3 weeks
-- Risks: Consumer spending slowdown reducing automation ROI urgency
-- Related signals:
-  - JD robotics replacement plans (→ https://t.me/theblockbeats/184340)
-  - AI infrastructure capex surge (→ https://t.me/theblockbeats/184332)
-  - Successful trader AI positioning advice (→ https://t.me/theblockbeats/184362)
+**5. Pairs Trade: Long META vs. Short COIN**
+- Rationale: Meta is at the center of the AI infrastructure buildout ($850B data center commitments) while crypto faces eight weeks of ETF outflows and extended Fed timeline. This pairs trade captures the capital rotation from crypto to AI while remaining sector-neutral. Meta has stronger near-term catalysts while COIN faces continued institutional outflow headwinds.
+- Entry: Establish 1:1 dollar-neutral position at current levels
+- Risks: Invalidated if CLARITY Act passes House/Senate or crypto ETF flows reverse sharply
+- Related signals: (→ https://t.me/theblockbeats/184332) (→ https://t.me/theblockbeats/184305) (→ https://t.me/theblockbeats/184364)
 
-**6. Pair trade: Long COIN / Short USDT exposure**
-- Rationale: Revolut's USDT ban (July 6) and ESMA regulatory pressure create structural headwind for Tether while driving users to regulated exchanges and compliant stablecoins. Coinbase benefits from regulatory moat as users migrate to MiCA-compliant platforms. OUSD stablecoin with 140+ institutional backers positions to gain USDT market share.
-- Entry: Establish pair when COIN shows relative strength
-- Risks: Broader crypto collapse hurts all participants or USDT regulatory concerns prove overblown
-- Related signals:
-  - Revolut USDT ban effective July 6 (→ https://t.me/leviathan_news/20361)
-  - ESMA prediction market warning (→ https://t.me/leviathan_news/20362)
-  - MiCA compliance becoming competitive advantage (→ https://t.me/theblockbeats/184319)
+**6. Long ETHA (Ethereum ETF) — Small Speculative Position**
+- Rationale: Vitalik's Lean Ethereum roadmap (native STARKs, quantum resistance, 100TB state by 2030) is the most ambitious technical upgrade in Ethereum's history. While near-term sentiment is weak (eight weeks of outflows, rising inflation), the long-term technical vision supports L2 ecosystem growth. Position for 6-12 month time horizon.
+- Entry: Small position at current levels; scale up if ETH funding rates turn positive and ETF flows reverse
+- Risks: Invalidated if Ethereum developers miss major roadmap milestones or L2 competition intensifies
+- Related signals: (→ https://t.me/wublockchainenglish/25007) (→ https://t.me/theblockbeats/184305)
 
-**7. Long META (equity or LEAPS)**
-- Rationale: 76% QoQ capex increase demonstrates aggressive AI commitment. Data center rental contracts lock in multi-year revenue visibility for suppliers. Meta's AI monetization through ads and consumer products creates dual revenue stream. Valuation reasonable given growth acceleration.
-- Entry: Current levels with 12-18 month time horizon
-- Risks: Regulatory action on social media or AI capex cuts if ROI disappoints
-- Related signals:
-  - 76% QoQ data center capex increase (→ https://t.me/theblockbeats/184332)
-  - $850B aggregate tech capex commitment (→ https://t.me/theblockbeats/184332)
+**7. Avoid SK Hynix Leveraged Products; Consider Direct Equity Instead**
+- Rationale: SK Hynix inverse/leveraged ETFs are catastrophically overlevered ($19B AUM vs. $45M daily volume), creating massive concentration risk. The $29B IPO next week should be positive, but leveraged products face forced deleveraging risk on any volatility. If bullish on memory chips, play it through MU or direct SK equity, not leveraged ETFs.
+- Entry: N/A — this is a risk avoidance trade
+- Risks: Leveraged ETF holders face liquidation cascades on 5-10% adverse moves
+- Related signals: (→ https://t.me/theblockbeats/184348) (→ https://t.me/theblockbeats/184369)
 
 ⚠️ RISKS TO WATCH
 
-• **BTC short squeeze above $65K** — $651M in cumulative short liquidations could trigger if Bitcoin breaks $65K resistance. Current positioning shows heavy shorts near $60K in drawdown. A liquidity-driven squeeze could force rapid covering and invalidate bearish ETF outflow thesis temporarily. (→ https://t.me/theblockbeats/184296)
+• **SK Hynix IPO Performance** — The $29B SK Hynix IPO next week is a critical test of AI/memory chip demand. If it prices below range or trades poorly in the aftermarket, it signals investor fatigue with semiconductor valuations and could trigger broader sector weakness. Watch for pricing announcement and first-day performance.
 
-• **Fed policy reversal** — 21.9% probability of 25bp hike in July per CME FedWatch. If inflation data surprises upward, sudden hawkish shift would pressure both risk assets and crypto. Current dovish positioning leaves markets vulnerable to repricing. (→ https://t.me/theblockbeats/184299)
+• **Fed Dot Plot Shift** — Current expectations are for first rate cut in October 2026, but any hawkish shift in Fed communications (additional hikes needed, cuts delayed to 2027) would extend the "higher for longer" regime and pressure both crypto and high-multiple tech stocks. July FOMC minutes and Powell speeches are critical.
 
-• **Stablecoin regulatory cascade** — Revolut's USDT ban (July 6) could trigger other European platforms to follow suit. If major exchanges adopt similar policies, rapid deleveraging across DeFi protocols using USDT collateral could create systemic stress. Watch for contagion signals Monday. (→ https://t.me/leviathan_news/20361)
+• **Leveraged ETF Deleveraging Cascades** — With $19B in SK Hynix leveraged products against only $45M daily volume, any 5-10% adverse move could trigger forced deleveraging that spills over into NVDA, MU, and broader semiconductor names. Monitor ETF AUM/NAV divergences and unusual options activity.
 
-• **Semiconductor overcapacity in 2027-2028** — Micron, Intel, and Asian fabs all ramping production simultaneously into 2027-2028. If AI demand growth slows before new capacity comes online, semiconductor margin compression could be severe. Current shortage creates complacency about oversupply risk. (→ https://t.me/theblockbeats/184307)
+• **CLARITY Act Legislative Progress** — Now at 52% odds of becoming law, any stall in the legislative process or renewed opposition would validate the eight-week ETF outflow trend and pressure crypto broadly. Track House/Senate committee actions and lobbying developments.
 
 📌 MACRO CONTEXT
 
-Fed dovish pivot expectations (78.1% hold probability) and liquidity recovery are supporting risk asset strength, but capital is rotating decisively from crypto into AI infrastructure. The $850B data center capex commitment represents one of the largest coordinated infrastructure buildouts in history and creates multi-year visibility for semiconductor and energy suppliers. Bitcoin's technical breakout occurs against institutional distribution, suggesting retail FOMO against smart money exits—a classic late-cycle dynamic. Trade the momentum but respect the divergence.
+Markets are experiencing a dramatic capital rotation from crypto to AI infrastructure, driven by the largest tech buildout in history ($1.1T AI capex by 2027) colliding with extended Fed tightening (first cut pushed to October 2026). Bitcoin is recovering on narrative shifts and technical support, but eight consecutive weeks of ETF outflows reveal weak institutional conviction. The key question for the next quarter: can improving regulatory clarity (CLARITY Act at 52%) reverse institutional flows before Fed timeline headwinds intensify? Memory chips and data center infrastructure offer the cleanest risk/reward as structural shortages meet record capex commitments.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-53 signals | 53 tradeable | 31 bullish | 13 bearish
+42 signals | 19 high-confidence | 12 bullish | 6 bearish

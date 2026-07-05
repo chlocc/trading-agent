@@ -4,124 +4,157 @@
 
 🏛️ Regulation & Policy
 
-**ESMA Warns Prediction Market Event Contracts May Be Banned for Retail in EU**
-The European Securities and Markets Authority stated that if prediction market "event contracts" meet the definition of financial instruments under MiFID II, they would be classified as binary options and prohibited from being marketed, distributed, or sold to retail investors. ESMA emphasized the legal classification depends on actual functionality, not commercial naming, and that platforms offering such products in the EU may require MiFID II authorization even if only serving professional investors.
-→ https://t.me/leviathan_news/20362
+**U.S. CLARITY Act Gains Momentum as Sheriffs' Group Drops Opposition**
+The Major County Sheriffs of America (MCSA) shifted from opposing to neutral on the CLARITY Act after concerns about Section 604 were addressed, removing a key obstacle to the bill's Senate progress. The section relates to limiting liability for decentralized protocol developers, which law enforcement initially feared could create loopholes in investigating money laundering and terrorism financing. While this improves the bill's prospects—with prediction markets now pricing a 52% chance of passage in 2026—opposition from banking interests over stablecoin yield products and DeFi regulation remains a significant uncertainty.
+→ https://t.me/theblockbeats/184351
 
-**UK Crypto Regulatory Framework Wins Industry Approval Despite High Compliance Bar**
-The UK's FCA released its crypto asset regulatory framework, with industry figures praising its provisions allowing offshore stablecoin circulation and global liquidity retention while warning that strict licensing and unclear jurisdiction equivalence standards create uncertainty. The framework permits qualified overseas platforms to serve UK clients via authorized local branches and access global liquidity pools, but mechanisms for DeFi regulation remain unclear, and the approval process is expected to be far more rigorous than existing AML registration.
-→ https://m.theblockbeats.info/flash/354638
+**EU Watchdog Warns Prediction Market Contracts May Be Banned for Retail**
+The European Securities and Markets Authority (ESMA) clarified that prediction market "event contracts" meeting the definition of financial instruments fall under binary options rules and cannot be marketed, distributed, or sold to retail investors in the EU. ESMA emphasized that classification depends on actual functionality, not commercial labeling, and platforms offering such products to EU clients still require MiFID II authorization even if only serving professional investors. Event contracts may also fall under national gambling laws or, if tokenized but not classified as financial instruments, under the Markets in Crypto-Assets (MiCA) framework.
+→ https://t.me/theblockbeats/184338
 
-**Major US County Sheriffs Organization Shifts to Neutral Stance on CLARITY Act**
-The Major County Sheriffs of America (MCSA) has moved from opposition to neutrality on the CLARITY Act after concerns about Section 604's impact on investigating crypto-related financial crimes were addressed. The organization previously warned the provision could weaken enforcement capabilities around money laundering, ransomware, drugs, and terror financing tied to crypto assets. This removes a key obstacle to the bill's progress in the Senate, though banking sector opposition to stablecoin yield products and DeFi regulation remains a major uncertainty.
-→ https://m.theblockbeats.info/flash/354611
+**UK Crypto Framework Wins Industry Support Despite High Compliance Barriers**
+The UK's FCA released its crypto asset regulatory framework, which industry players view favorably for allowing global liquidity access and permitting foreign-issued stablecoins to circulate—more open than the EU's MiCA framework. However, the FCA has yet to clarify which overseas jurisdictions meet "equivalent regulatory protection" standards, creating business planning uncertainty. The strict authorization process will far exceed current AML registration requirements, covering consumer protection, prudential supervision, operational resilience, and senior manager accountability, with DeFi regulatory policy still unclear.
+→ https://t.me/theblockbeats/184339
 
-**Revolut to Block USDT Purchases and Auto-Convert Balances for Some Users**
-Revolut will block USDT purchases starting July 6 and auto-convert existing balances after August 31 for certain users, according to CoinTelegraph. The move affects users in unspecified jurisdictions, reflecting ongoing regulatory pressure on Tether's largest stablecoin amid MiCA compliance deadlines in Europe.
-→ https://t.me/leviathan_news/20361
+**Iran Plans to Charge Hormuz Strait Navigation Fees Under International Standards**
+Iran's ambassador to China stated Iran plans to charge service fees for navigation through the Hormuz Strait according to international standards, covering safety, navigation, and environmental protection—consistent with practices at other global waterways. He emphasized Iran is not imposing tolls or customs but standard service charges, as navigation gradually normalizes with the Iran-Oman co-managed channel being rebuilt. This comes amid unusual shipping activity, with multiple vessels turning back when attempting to pass through the strait, and heightened security concerns from Iran's Revolutionary Guard.
+→ https://t.me/theblockbeats/184301
 
-**Asia Weekly Roundup: Korea Token Listings Plunge 74%, India USDT Premium Hits 8.5%, Taiwan Passes Crypto Law**
-Korean exchanges saw a 74% year-over-year drop in net new token listings amid tighter vetting and liquidity pressures; India's USDT premium surged to 8.5% signaling capital controls; Taiwan passed comprehensive crypto legislation; and Russia proposed a 48-hour delay on crypto transfers as part of anti-money laundering measures, according to Wu Blockchain's weekly Asia report.
-→ https://t.me/wublockchainenglish/25011
+**Taiwan Passes Crypto Law; Korea Token Listings Plunge 74%; Binance Enters Philippines**
+Asia's top crypto developments this week include: Korean exchanges seeing a 74% year-over-year drop in net new token listings amid tighter vetting and liquidity requirements; India's USDT premium hitting 8.5%; Binance officially entering the Philippine market; Taiwan passing comprehensive crypto legislation; and Russia proposing a 48-hour delay requirement for crypto transfers. These regulatory shifts reflect the region's evolving approach to digital asset oversight, balancing innovation with consumer protection.
+→ https://t.me/wublockchainenglish/25012
+
+**Trump Promises Iran Won't Attack During Khamenei Mourning Period**
+President Trump stated Iran is "begging for a deal" but said both sides agreed to pause negotiations for one week until the funeral of Supreme Leader Khamenei concludes, with neither side attacking during this period. "They're all there. One hit and they're all gone, but we won't do that because then we'd have no one to negotiate with," Trump said. Meanwhile, uncertainty surrounds the succession, as Khamenei's son Mojtaba has not publicly appeared, fueling questions about the power transition and actual governance situation.
+→ https://t.me/theblockbeats/184302
+
+**U.S. Treasury Launches "Trump Accounts" Nationwide Savings Program**
+The U.S. Treasury Department officially rolled out "Trump Accounts," an innovative savings and investment platform designed to ensure future generations of Americans have a stake in the U.S. economy from birth. The Trump Children's Investment Account is projected to inject $30-50 billion directly into U.S. equities in its first year, with families and employers able to contribute up to $5,000 per account annually thereafter, creating long-term buying support for markets. The initiative aims to help families build long-term financial security while deepening their understanding of U.S. capital market mechanisms.
+→ https://t.me/theblockbeats/184300
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🤖 AI & Tech
 
-**US Tech Giants Lock in Record $850 Billion Data Center Lease Commitments**
-Major US tech companies have committed a record $850 billion to data center leases, up $570 billion (+204%) year-over-year and $200 billion (+31%) quarter-over-quarter. Meta added ~$79 billion in Q1 2026 (up 76% QoQ) bringing total commitments to ~$183 billion; Microsoft added ~$41 billion (+26% QoQ) reaching ~$197 billion; Oracle leads with ~$250 billion in total commitments and has locked in key data center resources for its OpenAI partnership. This reflects AI infrastructure demand entering a long-term structural growth phase.
-→ https://m.theblockbeats.info/flash/354631
+**U.S. Tech Giants' Data Center Rental Commitments Hit Record $850 Billion**
+U.S. tech companies have committed a record $850 billion to data center leases, up $570 billion (+204%) year-over-year and $200 billion (+31%) quarter-over-quarter. Meta added approximately $79 billion in Q1 2026 commitments (+76% QoQ), bringing its total to about $183 billion; Microsoft added $41 billion (+26% QoQ) to reach $197 billion; Oracle leads with approximately $250 billion in total commitments and has secured key data center resources for its OpenAI partnership. This reflects that AI infrastructure demand is entering a long-term structural growth phase, with semiconductors, energy, and liquid cooling among supporting industries poised to benefit continuously.
+→ https://t.me/theblockbeats/184332
 
-**Anthropic Plans $15 Billion Australian Data Center Investment**
-AI company Anthropic is planning to secure at least 1.4 million kilowatts of data center capacity in Australia with total investment potentially reaching $15 billion, according to confidential tender documents. The baseline plan involves partnering to build a 1.4 million kW data center park, with at least 1 million kW online by end of 2027. Anthropic has about six weeks to finalize the investment decision, which may be split into four to five smaller contracts.
-→ https://m.theblockbeats.info/flash/354635
+**AI Capital Spending to Reach $1.1 Trillion in 2027, Potentially Surpassing U.S. Defense Budget**
+The Kobeissi Letter reports AI spending by Alphabet, Amazon, Meta, Microsoft, and Nvidia is reshaping the U.S. economy, with combined AI capital expenditures projected to reach approximately 3.2% of U.S. GDP in 2027. If this forecast materializes, annual AI capital spending would exceed U.S. defense spending for the first time—the latter is projected at roughly 2.7% of GDP next year. These five companies' AI capex is expected to exceed $800 billion in 2026 and surge to a record $1.1 trillion in 2027, with the figures described as "staggering."
+→ https://t.me/theblockbeats/184371
 
-**Micron Accelerates Global Expansion: $9.3 Billion Hiroshima Factory, 2028 HBM Target**
-Micron Technology held a groundbreaking ceremony in early July for a 1.5 trillion yen (~$9.3 billion) expansion in Hiroshima, Japan, focused on high-end HBM and other AI chips with production targeted for around 2028, supported by substantial Japanese government subsidies. The company is simultaneously advancing major fab projects in Idaho (first fab expected mid-2027), New York (multi-fab megafab targeting 2030+), and Singapore ($24 billion NAND fab launching H2 2028), while spending $1.8 billion to acquire a Taiwanese copper bonding fab to support advanced packaging for AI memory.
-→ https://m.theblockbeats.info/flash/354606
-
-**Intel Considers Dual-Side Power Delivery for 1.4nm Process to Chase TSMC and Samsung**
-Intel is reportedly considering adopting a dual-side power delivery architecture (front and back) for its 1.4nm-class 14A2 process node to catch up with competitors. Intel originally planned backside-only PowerDirect for 14A but may introduce simultaneous front and back power to compensate for power headroom shortfalls from scaling and exposure limits. Intel's 14A process is scheduled to enter risk production in 2028 and mass production in 2029, while TSMC plans to ship true 1.4nm A14 products in 2028 and Samsung plans 2nm SF2Z with backside power in 2027.
-→ https://m.theblockbeats.info/flash/354647
+**Anthropic Plans to Acquire $15 Billion in Australian Data Center Capacity**
+AI company Anthropic plans to secure at least 1.4 million kilowatts of data center computing resources in Australia, with total project investment potentially reaching $15 billion. The company aims to activate at least 1 million kilowatts by the end of next year at the latest. The baseline plan involves partnering long-term to co-build a 1.4 million kilowatt data center park, with Anthropic approximately six weeks away from making its final investment decision, and the large order potentially split into four to five smaller partnership contracts.
+→ https://t.me/theblockbeats/184336
 
 **Tesla to Cap Employee AI Tool Spending at $200/Week, Grok Exempt**
-Tesla will implement a $200 weekly spending limit on employee AI tool usage starting July 6, with expenses above that threshold requiring manager approval, according to sources. Elon Musk's xAI chatbot Grok is exempt from the cap, though Tesla employee adoption of Grok remains low with most staff still choosing Anthropic's Claude. Tesla previously announced plans to integrate Grok into European vehicle infotainment systems, though Musk stressed Grok cannot currently control vehicle functions.
-→ https://m.theblockbeats.info/flash/354606
+Sources report Tesla will set a $200 per week limit on employee AI tool spending starting July 6, with expenses beyond this requiring manager approval. Notably, xAI's AI assistant Grok is not counted toward this spending cap. However, current Tesla employee adoption of Grok remains low, with most staff still choosing to use Anthropic's Claude. Tesla previously indicated plans to introduce Grok into some European market vehicles' infotainment systems, though Musk emphasized Grok currently cannot control vehicle functions.
+→ https://t.me/theblockbeats/184308
+
+**JD.com to Replace 700K Delivery Workers with Robots, Partners with 120 Schools for Retraining**
+JD.com founder Richard Liu revealed robots will gradually replace approximately 700,000 delivery workers, with the company having signed cooperation agreements with about 120 schools to train workers to transition to robot maintenance and repair positions. This aligns with Amazon's previous statement about reducing future hiring needs by approximately 600,000 through robots, showing robot commercialization is accelerating and the logistics industry's workforce structure is shifting from "manual delivery" to "robot operations." This model may gradually expand to DoorDash, Uber, Mercado Libre, and other global logistics and delivery platforms.
+→ https://t.me/theblockbeats/184341
+
+**Folding iPhone May Repeat iPhone X Launch Script with Late Release and Supply Constraints**
+Tianfeng International analyst Ming-Chi Kuo stated the folding iPhone may repeat the iPhone X playbook—launching alongside other models but with later pre-order and official release dates, with supply constraints possibly extending through the end of 2026. Based on Q3 2026 stocking levels, the folding iPhone is very likely similar to 2017's iPhone X, which launched with iPhone 8/8 Plus on September 12 but had pre-orders and official sales delayed to October 27 and November 3 due to insufficient stock. Kuo believes even with official pricing as high as $2,300-$2,500, demand could remain strong through year-end 2026.
+→ https://t.me/theblockbeats/184367
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 💳 Payments & Stablecoins
 
-**Ondo-Backed Op-Ed Warns Against "Walled Gardens" in Tokenized Securities**
-An Ondo Finance-backed opinion piece argued against turning tokenized securities into private walled gardens, calling for investor protections alongside open competition to ensure broad access and interoperability in the emerging RWA (real-world asset) tokenization ecosystem.
-→ https://t.me/leviathan_news/20368
+**Data Shows Nearly 1 Million Wallets Down $3.81 Billion on TRUMP Memecoin**
+Approximately 989,000 wallets (about two-thirds of buyers) that purchased Trump's official TRUMP memecoin since its January 2025 launch were at a loss as of late June, with cumulative realized and unrealized losses totaling approximately $3.81 billion. Only 492,000 wallets realized profits totaling approximately $4.04 billion, with gains mainly concentrated among early participants who bought below $1. Overall net profit across all holding wallets was approximately $236 million. Trump's recently disclosed annual financial report shows he earned approximately $636 million from the TRUMP memecoin, with 2025 crypto-related total income exceeding $1.4 billion.
+→ https://t.me/theblockbeats/184306
 
-**Analysis: Crypto Card Industry's Biggest Moat Is User Float, Not Cashback**
-Analysis of 514,915 crypto card wallets suggests that user float — not cashback rewards — represents the industry's biggest competitive moat, with wallet balances revealing where customer trust truly resides, according to research shared by Strato Money. The findings indicate crypto payment card providers' sustainable advantage lies in capturing and retaining customer deposits rather than promotional incentives.
-→ https://t.me/leviathan_news/20366
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🏦 Exchanges & Platforms
 
 **OKX Ventures Acquires 20% Stake in Korean Exchange Coinone**
-OKX subsidiary OKX Ventures recently acquired a 20% stake in South Korean crypto exchange Coinone, becoming a joint third-largest shareholder, according to DigitalToday. Coinone plans to leverage OKX's matching engine, custody, and wallet technologies to strengthen its trading infrastructure, compliance framework, and institutional services as Korean exchanges face tighter regulatory scrutiny.
+OKX subsidiary OKX Ventures recently acquired a 20% stake in South Korean crypto exchange Coinone, becoming a joint third-largest shareholder. Coinone plans to leverage OKX's matching engine, custody, and wallet technologies to strengthen its trading infrastructure, compliance framework, and institutional services. Official data shows Indonesia recorded 55.65 trillion rupiah (approximately $31.2 billion) in crypto trading volume from January to November 2024, with registered crypto users reaching 22.11 million as of November 2024.
 → https://t.me/wublockchainenglish/25009
 
-**BTSE Group Launches Regulated Crypto Exchange in Indonesia**
-Blockchain trading and payment company BTSE Group officially launched crypto exchange BTSE Indonesia in Jakarta through a joint venture with PT Aset Kripto Internasional, upgrading local licensed platform NVX. The platform has obtained approval from Indonesia's Financial Services Authority (OJK) to operate as a regulated digital financial asset trading platform. Indonesia recorded 55.65 trillion rupiah (~$31.2 billion) in crypto trading volume from January-November 2024, with 22.11 million registered users as of November 2024.
-→ https://m.theblockbeats.info/flash/354607
+**BTSE Launches Crypto Exchange in Indonesia Through Joint Venture**
+Blockchain trading and payment company BTSE Group recently established a joint venture with PT Aset Kripto Internasional in Jakarta, officially launching crypto trading platform BTSE Indonesia and completing the brand upgrade of locally licensed platform NVX. BTSE will provide trading infrastructure and liquidity support, while the Indonesian local team handles marketing, business partnerships, sales, and user growth. BTSE Indonesia stated it has obtained approval from Indonesia's Financial Services Authority (OJK) to operate as a regulated digital financial asset trading platform.
+→ https://t.me/theblockbeats/184309
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📈 Crypto Trading & Markets
 
-**Bitcoin ETFs Log Record Eighth Straight Weekly Outflow Despite Thursday Surge**
-US spot Bitcoin ETFs recorded cumulative net outflows of approximately $526 million over the four trading days through July 2, marking the eighth consecutive week of outflows and setting the longest weekly outflow streak since the products launched. Despite a single-day net inflow of $221.72 million on July 2 ending a 10-day outflow streak totaling ~$2.71 billion, the weekly trend remained negative. BlackRock's IBIT saw outflows of $40.43 million on July 2, its 11th consecutive trading day of redemptions totaling ~$2.2 billion, while Fidelity's FBTC logged net inflows of $165.96 million.
-→ https://m.theblockbeats.info/flash/354603
+**Bitcoin ETFs Record Eighth Straight Week of Outflows, Creating Longest Streak**
+U.S. spot Bitcoin ETFs recorded net outflows of approximately $527 million in the four trading days ending July 2, marking the eighth consecutive week of net outflows—the longest weekly outflow streak since these products launched. Despite July 2 recording $221.72 million in net inflows, ending the previous consecutive 10-trading-day outflow of approximately $2.71 billion, the overall weekly trend remained negative. BlackRock's IBIT saw $40.43 million in net outflows on that day, marking its 11th consecutive trading day of redemptions with cumulative outflows of approximately $2.2 billion.
+→ https://t.me/theblockbeats/184305
 
-**Bitcoin Surges Past $63,000, XRP Leads Majors with 5.3% Gain**
-Bitcoin briefly rose above $63,000 this morning for the first time in two weeks, up approximately 3.6% for the week and essentially recovering June-end losses. The rally occurred during US Independence Day holiday-thinned trading, with low liquidity amplifying short-term volatility. XRP led major coins with a 5.3% gain to $1.18 (up nearly 10% for the week), rising to ~$73 billion market cap and overtaking USDC as the fifth-largest crypto asset. ETH gained 3.2% to ~$1,793, while Dogecoin rose 2.6% and Solana climbed ~13.2% for the week.
-→ https://m.theblockbeats.info/flash/354609
+**Bitcoin Briefly Surges Past $63K, Recovering June Losses; XRP Leads Majors**
+Bitcoin briefly rose above $63,000 early this morning for the first time in two weeks, up approximately 3.6% for the week and essentially recovering June-end declines. The rally occurred during the low-liquidity U.S. Independence Day holiday trading period, which market participants believe amplified short-term volatility. Among major cryptocurrencies, XRP rose 5.3% to $1.18 with nearly 10% weekly gains, pushing market cap to approximately $73 billion and overtaking USDC to become the fifth-largest crypto asset. On-chain data shows XRP holders' average loss degree has reached historical extremes, which some traders view as a sentiment reversal signal.
+→ https://t.me/theblockbeats/184311
 
-**Nearly 1 Million Wallets Down $3.81 Billion on Trump Memecoin**
-Approximately 989,000 wallets (about two-thirds of all TRUMP token buyers) are in the red on Trump's official memecoin, with cumulative realized and unrealized losses totaling around $3.81 billion as of late June, according to on-chain data. Only 492,300 wallets showed profits totaling ~$4.04 billion, concentrated among early participants who bought below $1. Overall net profit across all holders stands at approximately $236 million. Trump's recently disclosed annual financial report showed he earned approximately $636 million from the TRUMP memecoin, with total 2025 crypto-related income exceeding $1.4 billion.
-→ https://m.theblockbeats.info/flash/354604
+**CZ Responds to Puzzle Post, Multiple BSC "CZ" Memecoins Surge**
+After crypto blogger @TCryptochicks posted a "puzzle" series of images, Binance founder CZ retweeted and replied "Water (drop) your BNB wallet," reigniting speculation around celebrity memecoins. Multiple MEME coins riding the "CZ" hype emerged on the BSC chain with sharp rallies. CZ (The Final Form Bull) market cap briefly topped $41 million, now retreated to $29.82 million with $28 million in 24h volume and 182x gains; CZ (The Bull) briefly hit $11 million, now at $3.88 million with $6.1 million volume and 24x gains. The market interprets this as attempts to replicate Solana's "Ansem effect."
+→ https://t.me/theblockbeats/184318
 
-**World Cup Drives Prediction Market Volume from $65M to $5.6B, Kalshi Leads June Surge**
-Major prediction market platforms saw trading volume explode from $65 million on June 1 to a peak driven by 2026 FIFA World Cup matches, with US-regulated Kalshi reaching ~$9.4 billion in June volume (up 77% from May's ~$5.3 billion) while Polymarket International grew from ~$3.5 billion to ~$4.3 billion. Single matches like Canada vs. Morocco in the Round of 16 generated over $48 million on Kalshi and $26.8 million on Polymarket. The surge has intensified regulatory debate, with multiple US states arguing sports event contracts should fall under gambling regulation rather than CFTC-overseen derivatives markets.
-→ https://t.me/leviathan_news/20371 / https://m.theblockbeats.info/flash/354626
+**Whale Dumps ANSEM for $974, Missing Out on $2.39 Million in Potential Gains**
+Address "9oxDc" sold 8.06 million ANSEM tokens for $974.81 about 17 days ago when the project's market cap was approximately $54,000 to $134,000. As ANSEM's price surged dramatically, this batch of tokens is now worth approximately $2.39 million. At current prices, the trader missed out on approximately $2.389 million in potential gains by selling too early.
+→ https://t.me/theblockbeats/184322
 
-**CZ Response to Mystery Image Sparks BSC Memecoin Frenzy**
-Binance founder CZ retweeted a "riddle" image series from crypto blogger @TCryptochicks and replied "Water (drop) your BNB wallet," triggering a surge in celebrity memecoin speculation. Multiple CZ-themed memecoins on BSC chain spiked: "CZ (The Final Form Bull)" briefly hit $41 million market cap (now $29.82M), up 182x in 24 hours with $28M volume; "CZ (The Bull)" briefly reached $11M market cap (now $3.88M), up 24x with $6.1M volume. The pattern echoes previous Solana-chain "Ansem effect" celebrity memecoin pumps.
-→ https://m.theblockbeats.info/flash/354615
+**40x Leverage BTC Whale Suffers Fourth Partial Liquidation, Losing $300K**
+Whale address "0x2117" saw its 40x leveraged Bitcoin short position partially force-liquidated four consecutive times in the past 24 hours, with cumulative liquidations of 97.99 BTC worth approximately $6.18 million and realized losses totaling approximately $298,800. Despite this, the trader still holds 67.98 BTC (approximately $4.26 million) in 40x leveraged short positions with approximately $179,200 in unrealized losses, and their liquidation price is only about $902 above current BTC market price.
+→ https://t.me/theblockbeats/184321
+
+**Whale Withdraws 4,942 ETH from Binance and Stakes via Lido, $22.08M Total 24h Withdrawals**
+A whale address withdrew 4,942 ETH worth approximately $8.83 million from Binance and immediately completed staking through Lido, receiving about 3,990 wstETH. Additionally, this address also withdrew 211.5 WBTC worth approximately $13.25 million from Binance in the past 24 hours. As of now, this whale has withdrawn approximately $22.08 million worth of ETH and WBTC from Binance in the past 24 hours, with the withdrawn ETH fully used for on-chain staking.
+→ https://t.me/theblockbeats/184320
+
+**Strategy's Michael Saylor: Capital Flows, Not Halvings, Will Drive Bitcoin's Future**
+Michael Saylor argued Bitcoin's traditional four-year cycle is becoming less relevant as institutional adoption reshapes the market, with future growth driven by ETF inflows, corporate and sovereign treasury allocations, bank credit, derivatives, and global capital flows rather than miner issuance. He warned against risks of "paper Bitcoin," custodial centralization, and regulatory capture, emphasizing Bitcoin's base layer is not optimized for coffee payments but for final settlement, reserve assets, collateral settlement, and ultimate ownership transfer. Saylor stated Bitcoin's "hard consensus" is its immune system—terrible protocol changes are difficult to pass.
+→ https://t.me/wublockchainenglish/25010
+
+**Institutions Believe Bitcoin-U.S. Stock Divergence Is Temporary**
+Despite U.S. equities continuing to hit new highs, Bitcoin's relatively weak performance this year has created a divergence, but asset managers Hashdex and Charles Schwab both believe this won't persist long-term. Hashdex CIO Samir Kerbage stated current market capital is flowing more toward AI infrastructure, IPOs, and rate trades rather than digital assets, reflecting allocation changes rather than crypto fundamentals deteriorating. He noted stablecoin trading volume in H1 already exceeded 2025's full-year level, tokenization of real-world assets (RWA) grew over 60% year-to-date, and crypto network transaction activity also hit record highs.
+→ https://t.me/theblockbeats/184316
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔷 DeFi & Protocols
 
-**Aave V3 on Monad Surpasses $100M Deposits in Two Days, V4 Tops $250M**
-Decentralized lending protocol Aave's V3 market on Monad network surpassed $100 million in deposits approximately two days after launch on July 3. The deployment marks Aave's first introduction of lending functionality and GHO stablecoin to the network, initially supporting 12 assets including USDT0, USDC, GHO, WETH, and cbBTC. Monad Foundation committed $15 million in incentives over 12 months and will purchase and hold 10 million GHO for at least six months. Separately, Aave founder Stani Kulechov announced V4 deposits on Ethereum mainnet also topped $250 million on July 5, setting a new record for that version.
-→ https://m.theblockbeats.info/flash/354615
+**Aave's New Monad Market Surpasses $100M Deposits in Two Days; V4 Total Hits $250M**
+Decentralized lending protocol Aave's deposit scale on the Monad network surpassed $100 million approximately two days after launching its V3 market. Aave deployed V3 on Monad on July 3, introducing lending functionality and GHO stablecoin to the network for the first time, initially supporting 12 assets including USDT0, USDC, GHO, WETH, and cbBTC. According to the Aave governance proposal, Monad Foundation committed to providing $15 million in incentives over the next 12 months and purchasing and holding 10 million GHO for at least 6 months; Aave DAO will provide an additional 500,000 GHO to support stablecoin ecosystem development.
+→ https://t.me/theblockbeats/184317
 
-**EtherFi Proposes Aave V4 Hub on OP Mainnet with $175M Assets, 20% Revenue Share**
-EtherFi proposed deploying an Aave V4 hub on OP Mainnet for EtherFi Cash with up to $175 million in assets and a 20% DAO revenue share, according to Aave governance forums. The proposal aims to expand DeFi lending infrastructure and integrate yield-bearing stablecoin products into Optimism's Layer 2 ecosystem.
+**EtherFi Proposes Aave V4 Hub on OP Mainnet with Up to $175M in Assets**
+EtherFi proposed establishing an Aave V4 hub on OP Mainnet for EtherFi Cash with up to $175 million in assets and a 20% DAO revenue share. The proposal represents a significant integration between liquid staking and lending protocols, potentially strengthening DeFi infrastructure on Optimism while creating new yield opportunities for EtherFi users.
 → https://t.me/leviathan_news/20369
 
-**Aave Teases Consumer App Launch for Mainstream DeFi**
-Aave teased an upcoming consumer app launch aimed at bringing DeFi savings and yield products to mainstream users through a simplified experience, according to a post from the Aave account. The move signals Aave's push beyond protocol infrastructure toward direct retail engagement.
-→ https://t.me/leviathan_news/20365
+**Ethereum Foundation Transfers 2,469 stETH to Argot as Fourth-Year Grant**
+The Ethereum Foundation transferred 2,469 stETH ($4.34 million) to Ethereum non-profit developer organization Argot as the fourth-year installment of its five-year funding commitment. The final 2,469 stETH installment is scheduled for July 2027. Last year, Argot received a 7,000 ETH grant and sold 4,826.6 ETH for approximately $15.42 million USDC to fund operations. On-chain transactions show this funding has been transferred to Argot-related addresses.
+→ https://t.me/wublockchainenglish/25013
 
-**Vitalik Outlines "Lean Ethereum" Roadmap: Native STARKs, Quantum Resistance, Scalable State**
-Ethereum co-founder Vitalik Buterin outlined the long-term roadmap for Ethereum's third major evolution dubbed "Lean Ethereum," with upgrades expected to roll out over the next 3-4 years comparable in scope to "The Merge." Key initiatives include making recursive STARKs a native verification component, replacing remaining quantum-vulnerable cryptography with post-quantum alternatives, and introducing a "scalable state" type capable of reaching 100 TB by 2030 to reduce transaction costs for certain tokens by 10x or more. Vitalik emphasized privacy will become a core design goal rather than an add-on feature.
-→ https://m.theblockbeats.info/flash/354614
+**Vitalik Outlines Ethereum's "Lean Ethereum" Roadmap Targeting Native STARKs**
+Ethereum co-founder Vitalik Buterin outlined the long-term roadmap for Ethereum's third major evolution, "Lean Ethereum," with upgrades expected over the next 3-4 years. Key initiatives include making recursive STARKs a native verification component, replacing quantum-vulnerable cryptography with post-quantum alternatives, introducing "scalable state" capable of reaching 100TB by 2030 to reduce transaction costs for certain tokens by over 10x, and a dual-layer state structure including approximately 2TB traditional dynamic state and 100TB new scalable state. Privacy capabilities will become a core protocol design goal rather than an add-on feature.
+→ https://t.me/wublockchainenglish/25007
+
+**Whale Initiates Third ETH/BTC Ratio Trade of the Year, Selling 4,695 ETH for 133.8 BTC**
+A whale that has realized 6,389 ETH (approximately $11.34 million) in profit through two ETH/BTC ratio trades this year initiated its third trade today, selling 4,695 ETH at a 0.0285 ratio to acquire 133.8 BTC. The whale is betting the ETH/BTC ratio will weaken, meaning ETH will underperform BTC. On-chain data shows the whale's two previous trades this year both involved selling ETH at high ratios and buying back at low ratios, cumulatively increasing holdings by 6,389 ETH.
+→ https://t.me/theblockbeats/184331
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔦 Other
 
-**Barstool Founder Portnoy Pledges to Hold Bitcoin "to Zero" After Multiple Failed Timing Calls**
-Barstool Sports founder Dave Portnoy said on Fox Business' "Varney & Co." that he will hold his Bitcoin position even if it falls to zero, after admitting he bought near $100K and is down millions. Portnoy acknowledged "I've never been more wrong about anything" regarding Bitcoin timing, noting every time he sold the price surged and every time he bought it fell. He has a notorious track record in memecoins, including rugpulling his own GREED token in February 2025 for ~$258K profit (token down 99%), launching GREED2 and JAILSTOOL, and involvement in Argentina President Milei's LIBRA token collapse (bought $4.5M, later paid $5M settlement).
-→ https://m.theblockbeats.info/flash/354631
+**World Cup Drives Prediction Market Volume from $65M to $5.6B as Kalshi Leads June Surge**
+The 2026 World Cup became the main catalyst driving prediction market trading growth, with U.S. platform Kalshi's June trading volume rising to approximately $9.4 billion—up nearly 77% from May's $5.3 billion—creating a new all-time high. Polymarket International trading volume grew from approximately $3.5 billion to $4.3 billion over the same period. The expanded 48-team format increased match scenarios, driving single-match contract trading activity—Canada vs. Morocco's Round of 16 match saw over $48 million and $26.8 million in trading on Kalshi and Polymarket respectively.
+→ https://t.me/leviathan_news/20371
 
 **Hexens Discloses Patched Aptos Move VM Bug That Could Have Put $70B at Risk**
-Blockchain security firm Hexens disclosed it discovered a severe vulnerability in the Aptos Move virtual machine in February 2026 that could theoretically have endangered approximately $70 billion in crypto assets. The bug stemmed from a "stale-cache" issue potentially allowing type confusion that could grant attackers access to critical permissions in stablecoin minting, cross-chain bridges, and DeFi protocols. Hexens achieved ~90% attack success rate in simulated tests using only ~$3,000 in server infrastructure, without requiring validator or internal access. Aptos responded rapidly and completed mainnet fixes within hours of the disclosure, with no user funds lost.
-→ https://m.theblockbeats.info/flash/354621
+Blockchain security firm Hexens revealed it discovered a critical vulnerability in the Aptos Move virtual machine in February that could theoretically have endangered approximately $70 billion in crypto assets. However, the Aptos team completed mainnet fixes within hours of disclosure, with no user funds lost. Hexens stated the vulnerability stemmed from a "stale-cache" issue in the Move VM that could lead to type confusion, potentially giving attackers opportunities to access critical permissions for stablecoin minting, cross-chain bridges, and DeFi protocols. In simulation tests, the research team achieved approximately 90% attack success rate using only about $3,000 in server infrastructure.
+→ https://t.me/leviathan_news/20370
 
-**Michael Saylor: Bitcoin's Future Driven by Capital Flows, Not Halvings**
-Strategy founder Michael Saylor argued Bitcoin's traditional four-year cycle is becoming less relevant as institutional adoption reshapes the market, stating future growth will be driven by ETF inflows, corporate and sovereign treasury allocations, bank credit, derivatives, and global capital flows rather than miner issuance. He warned against risks of "paper Bitcoin," custodial centralization, and regulatory capture while emphasizing the base protocol should become even harder to change. Saylor believes Bitcoin's "hard consensus" immune system ensures bad protocol changes are filtered out before causing harm.
-→ https://t.me/wublockchainenglish/25010 / https://m.theblockbeats.info/flash/354636
+**Barstool Founder Portnoy Vows to Hold Bitcoin "to Zero" Despite Multiple Mistimed Trades**
+Barstool Sports founder Dave Portnoy stated in a Fox Business interview that even if Bitcoin falls to zero, he won't sell his holdings. "I'm holding forever, even if it goes to zero I won't sell," he said, adding he'd rather "go down with the ship" than repeat previous mistakes of selling before major rallies. Portnoy admitted buying Bitcoin near $100K and is currently down millions, acknowledging "I've never been more wrong about anything"—every time he sold, prices surged; every time he bought, prices dropped.
+→ https://t.me/theblockbeats/184333
 
-**US National Debt Reaches $39 Trillion, Annual Interest Exceeds Defense Budget**
-US national debt has reached approximately $39 trillion with public debt equivalent to total GDP and annual interest payments hitting ~$1 trillion, exceeding the defense budget. The debt system traces back to Alexander Hamilton's 1790 consolidation reforms that established US creditworthiness. According to the Penn Wharton Budget Model, the fiscal system may face unsustainability risk when the debt-to-GDP ratio exceeds approximately 210%; the current ratio stands at ~100% with CBO projections reaching 175% by 2056, though accelerating medical spending and fiscal deficits could bring that threshold forward.
-→ https://m.theblockbeats.info/flash/354610
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**Ledger Co-Founder: Bitcoin at $1M Could Signal War or Fiat System Collapse**
+Ledger co-founder Eric Larchevêque said in a June 25 interview that a world where Bitcoin reaches $1 million or even $10

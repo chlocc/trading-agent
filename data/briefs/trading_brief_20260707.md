@@ -4,93 +4,115 @@
 
 🔥 TOP THEMES
 
-• **Semiconductor Sector Carnage** — Broad selloff across chips and storage despite Samsung's 1,800% earnings beat. Market questioning AI capex sustainability and hyperscaler custom chip competition. WDC -7.3%, storage names -5-7%, chipmakers LRCX/AMAT -5.5%+. Korean KOSPI -7% with Samsung/SK Hynix -9%. Affects: NVDA, AMD, INTC, ASML, MU, WDC, STX, LRCX, AMAT, SMSN, SKHX.
+• **Semiconductor Bloodbath / SpaceX IPO Divergence** — Chip stocks are getting crushed (WDC -7.3%, SNDK -6.5%, MU -6%) while SpaceX enters Nasdaq-100 within 15 days of IPO, drawing massive Wall Street upgrades ($200-$800 targets). This reflects rotation from crowded AI hardware into infrastructure plays. Key tickers: SPCX, WDC, SNDK, MU, NVDA, AMD.
 
-• **Bitcoin Institutional Demand Crisis** — Coinbase premium index hits record 50-day negative streak while BTC ETFs endure 8 weeks of outflows. MicroStrategy dumps 3,588 BTC ($2.16B) in largest liquidation since Dec 2022. Price breaks $63k amid rising Treasury yields. Paradoxically, spot ETFs just recorded $266M inflow led by BlackRock. Affects: BTC, IBIT, FBTC, BITO, COIN, MSTR.
+• **Institutional Crypto Demand Crisis** — Coinbase Bitcoin Premium Index hits historic 50-day negative streak, yet Bitcoin ETFs just saw $266M inflows and BlackRock withdrew 2,979 ETH from exchanges. The divergence suggests retail capitulation while smart money accumulates. Key tickers: BTC, ETH, IBIT, ETHA, COIN, MSTR.
 
-• **Bitcoin Infrastructure Expansion** — Tether launching native USDT on Bitcoin via RGB protocol (July rollout), Binance debuts BTC covered call yield product, expanding utility beyond pure store-of-value narrative. RWA tokenization accelerating with Securitize's $400M post-NYSE capital raise. Affects: BTC, USDT, IBIT, MSTR.
+• **Stablecoin Infrastructure Expansion** — Tether launching native USDT on Bitcoin via RGB protocol (July rollout), EDX Markets raising $76M for institutional clearing, and Tether's former CIO dumping his stake. This is both bullish (adoption) and bearish (insider exit). Key tickers: USDT, BTC, COIN.
 
-• **SpaceX Nasdaq Debut Euphoria** — SpaceX joins Nasdaq-100 after just 15 trading days. Wall Street brokers pile on with buy ratings: Goldman $205, Morgan Stanley $300, Raymond James $800. Starlink and AI satellite infrastructure driving thesis. Affects: SPCX, and indirectly NVDA, MSFT as AI infrastructure beneficiaries.
+• **Storage & Memory Chips Leading Broader Tech Selloff** — Storage names (STX, WDC, SNDK) down 5-7% as Samsung earnings miss and whale liquidations hit $2.7M on SKHX. Yet Goldman says this is a buying opportunity for selective names. Key tickers: STX, WDC, SNDK, MU, SKHX.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🟢 BULLISH SIGNALS
 
-**BTC** — Bernstein maintains $150,000 year-end target despite 54% pullback, arguing current drawdown is manageable within cycle context and weaker than historical bear markets. Spot ETFs just recorded $266M inflow led by BlackRock IBIT, with Ethereum adding $29M. Bitcoin/Ethereum ETFs see $2.65B/$207M consecutive inflows, reversing tech sector outflow trend. Infrastructure expansion via Tether's native USDT on Bitcoin (RGB protocol, July launch) and Binance's covered call yield product broadens utility case. (→ https://t.me/wublockchainenglish/25029) (→ https://t.me/wublockchainenglish/25030) (→ https://t.me/leviathan_news/20418) (→ https://t.me/leviathan_news/20417) (→ https://t.me/theblockbeats/184596)
+**BTC / ETH** — Bitcoin and Ethereum ETFs recorded $266M and $29M net inflows respectively, with BlackRock's IBIT leading flows and BlackRock withdrawing 2,979 ETH (~$5.26M) from Coinbase to cold storage. This signals institutional accumulation despite 50-day negative Coinbase premium, suggesting smart money is buying the dip while retail panics. Watch for break above $68K to confirm reversal. (→ https://t.me/wublockchainenglish/25030) (→ https://t.me/theblockbeats/184690) (→ https://t.me/theblockbeats/184596)
 
-**SPCX** — SpaceX enters Nasdaq-100 on July 7 after 15 trading days with unanimous bullish coverage: Goldman Sachs (buy, $205), Morgan Stanley (overweight, $300), Raymond James (strong buy, $800), UBS (buy, $210), Huize (buy, $200). Thesis centers on Starlink revenue acceleration and positioning as AI satellite infrastructure backbone. Multiple brokers cite AI transformation potential as key driver. (→ https://t.me/theblockbeats/184633) (→ https://t.me/theblockbeats/184622) (→ https://t.me/theblockbeats/184612) (→ https://t.me/theblockbeats/184659) (→ https://t.me/theblockbeats/184644) (→ https://t.me/theblockbeats/184624)
+**BTC** — Bernstein maintains $150,000 year-end Bitcoin target despite 54% drawdown from October 2025 highs, noting the pullback is milder than historical cycles and suggests structural market maturation. The firm sees current levels as accumulation zone for long-term holders. (→ https://t.me/wublockchainenglish/25029) (→ https://t.me/theblockbeats/184616)
 
-**USDC** — USDC gaining market share against USDT as stablecoin trading volume reaches record 2026 highs. Structural shift toward regulatory-compliant stablecoins as institutional participation increases. Tether's former CIO seeking to divest 1.26% stake via PJT Partners adds pressure on USDT. (→ https://t.me/leviathan_news/20393) (→ https://t.me/leviathan_news/20419)
+**BTC / USDT** — Tether plans to launch native USDT on Bitcoin via RGB protocol with July 2026 rollout, significantly expanding stablecoin utility on the Bitcoin network. This could drive new DeFi use cases and on-chain liquidity, potentially supporting BTC price action through increased utility value. (→ https://t.me/leviathan_news/20417) (→ https://t.me/wublockchainenglish/25032)
 
-**NVDA / AMD / ASML** — Multiple Wall Street banks frame semiconductor correction as buying opportunity rather than structural shift. Morgan Stanley notes new supply unlikely until 2028, cycle not near end. Citi identifies selective opportunities in CPU, ASIC, memory; favors AMD and Applied Materials post-correction. Q3 DRAM prices expected +10-20%, fundamentals remain healthy. Shift from broad sector plays to stock-picking between chip leaders and cloud beneficiaries. (→ https://t.me/theblockbeats/184626) (→ https://t.me/theblockbeats/184601) (→ https://t.me/theblockbeats/184608)
+**BTC / ETH** — EDX Markets raised $76M Series C led by SBI to expand institutional crypto clearing and settlement infrastructure, signaling continued institutional appetite for compliant trading infrastructure despite near-term market weakness. This builds the rails for next wave of institutional flows. (→ https://t.me/leviathan_news/20423)
 
-**SSNLF** — Samsung Electronics reports record quarterly profit of $584B, surpassing Intel to become most profitable tech company. Despite 1,800% earnings beat, stock paradoxically down 8% on AI sustainability skepticism—creating dislocation opportunity. (→ https://t.me/theblockbeats/184620)
+**SPCX** — SpaceX enters Nasdaq-100 within 15 trading days of IPO and receives wave of Wall Street buy ratings: Morgan Stanley $300 PT (87% upside), Goldman Sachs $205, UBS $210, Raymond James $800, Bank of America $235. Bulls cite Starlink revenue, AI infrastructure potential, and rocket reusability. Stock down 5% intraday creates entry. (→ https://t.me/theblockbeats/184633) (→ https://t.me/theblockbeats/184624) (→ https://t.me/theblockbeats/184622) (→ https://t.me/theblockbeats/184612) (→ https://t.me/theblockbeats/184659) (→ https://t.me/theblockbeats/184648) (→ https://t.me/theblockbeats/184644) (→ https://t.me/theblockbeats/184680)
 
-**COIN** — Coinbase secures UK MiFID license, enabling traditional investment services alongside crypto to British users. Major regulatory milestone expanding addressable market and revenue streams beyond spot crypto trading. (→ https://t.me/theblockbeats/184647)
+**NVDA / AMD / AMAT** — Wall Street consensus forming that semiconductor correction is buying opportunity, not end of AI trend. Goldman Sachs recommends selective picks (AMD, Applied Materials) over broad sector exposure, arguing AI chip consolidation favors CPU and memory over GPU. Long-term AI fundamentals unchanged despite near-term volatility. (→ https://t.me/theblockbeats/184626) (→ https://t.me/theblockbeats/184601)
 
-**RWA Tokenization Theme** — Securitize targets acquisitions with $400M post-NYSE debut capital, signaling institutional appetite. Ondo Finance partners with RWA INC to create major institutional tokenized asset discovery hub. EDX Markets raises $76M Series C for infrastructure expansion and trust bank charter pursuit. (→ https://t.me/leviathan_news/20397) (→ https://t.me/leviathan_news/20410) (→ https://t.me/wublockchainenglish/25034)
+**COIN** — Coinbase gains UK MiFID authorization to offer investment services including stocks and derivatives, expanding beyond crypto into traditional finance. This diversification reduces regulatory risk and opens new revenue streams, potentially supporting valuation during crypto winter. (→ https://t.me/theblockbeats/184647)
 
-**AI Agent Infrastructure** — Bespoke Labs secures $40M funding to develop trustworthy AI agent infrastructure, reflecting continued venture appetite for AI middleware despite public market correction. (→ https://t.me/leviathan_news/20399)
+**AAPL** — Morgan Stanley raises Apple price target from $325 to $345, citing strong iPhone demand and services growth. Defensively positioned in tech selloff. (→ https://t.me/theblockbeats/184650)
+
+**HYPE** — Nansen integrates Hyperliquid perpetual trading with smart money leaderboard and real-time on-chain data, bringing institutional-grade analytics to the platform. This could drive increased trading volume and protocol revenue. (→ https://t.me/theblockbeats/184639)
+
+**005930 (Samsung Electronics)** — Samsung Electronics beats Intel as most profitable tech company with $584B quarterly profit (up 56% YoY), setting new record. Despite Q2 earnings missing on DRAM pricing, longer-term memory fundamentals remain strong with Q3 DRAM prices expected to rise 10-20%. (→ https://t.me/theblockbeats/184620) (→ https://t.me/theblockbeats/184651)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔴 BEARISH SIGNALS
 
-**BTC / MSTR / COIN** — Coinbase Bitcoin premium index records unprecedented 50-day negative streak, historically signaling institutional outflows and pullback risk. US spot Bitcoin ETF outflows continue for 8 weeks. MicroStrategy liquidates 3,588 BTC (~$2.16B), largest sale since December 2022. Rising US Treasury yields pose macro headwinds. Bitcoin breaks below $63k amid Asia-Pacific weakness. Noted trader Peter Brandt considering rotating from Bitcoin to gold. (→ https://t.me/wublockchainenglish/25033) (→ https://t.me/theblockbeats/184660) (→ https://t.me/theblockbeats/184634) (→ https://t.me/theblockbeats/184637) (→ https://t.me/theblockbeats/184604) (→ https://t.me/theblockbeats/184662)
+**BTC / COIN** — Coinbase Bitcoin Premium Index hits record 50-day negative streak, longest in history, signaling sustained institutional outflow and weak US demand. BTC spot ETFs saw 8 consecutive weeks of outflows, suggesting institutional appetite has dried up despite recent $266M single-day inflow. This creates overhead resistance. (→ https://t.me/wublockchainenglish/25033) (→ https://t.me/theblockbeats/184634) (→ https://t.me/theblockbeats/184660)
 
-**WDC / STX / MU / SNDK** — Storage sector in freefall: WDC -7.3%, STX -4.96%, SNDK -5.43%, MU -5.46%. Broad semiconductor weakness extends to memory and storage as market questions AI demand durability and hyperscaler capex trajectory. Whale opens 627M SNDK short on Aster DEX with 10x leverage, currently +$116M. (→ https://t.me/theblockbeats/184665) (→ https://t.me/theblockbeats/184643) (→ https://t.me/theblockbeats/184613)
+**USDT** — Tether's former CIO Richard Heathcote seeks to sell his 1.26% stake via PJT Partners secondary offering, signaling potential insider concerns about the firm's trajectory or risk profile. This is a rare insider exit from a typically tightly held company. (→ https://t.me/leviathan_news/20419) (→ https://t.me/TheBlock001/7109)
 
-**INTC** — Intel facing structural margin pressure as Microsoft, Alphabet, and Amazon develop custom AI chips, threatening long-term pricing power. DeepSeek self-developing AI inference chips adds to competitive pressure. Stock -2.21% to $191.12. Market questioning Intel's position in AI infrastructure value chain. (→ https://t.me/theblockbeats/184657) (→ https://t.me/theblockbeats/184656)
+**WDC / STX / SNDK / MU** — US storage semiconductor sector collapsing with Western Digital down 7.3%, SanDisk down 6.5%, Seagate down 6%, and Micron down 6%. Broad sector weakness driven by Samsung earnings miss and concerns about DRAM pricing falling short of expectations. Whale liquidations on SKHX (-$2.7M realized loss) confirm panic. (→ https://t.me/theblockbeats/184684) (→ https://t.me/theblockbeats/184643) (→ https://t.me/theblockbeats/184665) (→ https://t.me/theblockbeats/184615)
 
-**SMSN / SKHX** — Samsung Electronics down 8% despite 1,800% earnings beat on AI sustainability concerns and skepticism of AI data center capex. SK Hynix sees massive long liquidations across 5 orders on Hyperliquid; largest account loses $271M. Korean KOSPI -7% with both names -9%. Whale holding $149.2M Samsung long underwater -9.6%, last remaining bull. Foreign investors dumping $1.49B Korean equities. (→ https://t.me/theblockbeats/184579) (→ https://t.me/theblockbeats/184615) (→ https://t.me/theblockbeats/184580) (→ https://t.me/theblockbeats/184588) (→ https://t.me/theblockbeats/184591)
+**BTC / ETH / MSTR / COIN** — U.S. equities sold off sharply with chip stocks down 6%+, crypto stocks declining in sympathy. SPCX liquidations exceeded BTC/ETH liquidations (~$6M in 1 hour), showing leverage washout across risk assets. Bitcoin broke below $63K amid Asia-Pacific stock decline. (→ https://t.me/theblockbeats/184689) (→ https://t.me/theblockbeats/184687) (→ https://t.me/theblockbeats/184604)
 
-**ETH** — Whale deposits 1,988 ETH (~$3.53M) to Bybit; if sold would realize ~$2.785M loss from January 20 position (6,000 ETH at $3,178.78). Signals capitulation selling from underwater holders. Despite $29M spot ETF inflows, technical pressure mounting. (→ https://t.me/theblockbeats/184628)
+**ETH** — Large ETH whale positioned at $3,178.78 entry (6,000 ETH on Jan 20) now faces potential liquidation with ~$27.85M unrealized loss. If forced selling occurs, expect sharp downside pressure on ETH. (→ https://t.me/theblockbeats/184628)
 
-**BONK** — BonkDAO suffers $20M treasury drain via governance attack. Attacker acquired BONK before malicious proposal, tokens being dumped on exchanges. Classic DeFi governance exploit with immediate price impact. (→ https://t.me/wublockchainenglish/25028) (→ https://t.me/zoomerfiedNews/1440)
+**BTC / MSTR** — Strategy (formerly MicroStrategy) sold 3,588 BTC (~$2.16B) in their largest historic dump. While market showed limited panic (suggesting confidence in long-term trajectory), this removes a key marginal buyer and adds supply overhang. (→ https://t.me/theblockbeats/184637)
 
-**HYPE** — Whale deposits $6.3M USDC to Hyperliquid and opens 3x leveraged $49M short on HYPE token; currently +$3.3M unrealized PnL. Large directional bet against platform token amid broader risk-off. (→ https://t.me/theblockbeats/184629)
+**BONK** — BonkDAO governance exploit resulted in estimated $20M BONK token drain from treasury, severely undermining protocol credibility and token value. Classic DAO attack vector. (→ https://t.me/leviathan_news/20395)
 
-**CAN** — Canaan Inc. transferred from Nasdaq Global Market to Nasdaq Capital Market effective July 1 after extended non-compliance period. Delisting risk elevated for Bitcoin mining infrastructure play. (→ https://t.me/theblockbeats/184583)
+**AKE** — AKE whale transferred $22.4M worth of tokens to Binance and dumped, triggering 33% crash from $0.0003 to $0.0002. Textbook large holder exit creating cascading liquidations. (→ https://t.me/theblockbeats/184672)
+
+**SPCX** — Despite bullish Wall Street ratings, SPCX faces large whale shorting ($4.4M short position opened), creating mixed sentiment between retail longs and institutional shorts. Near-term price action uncertain. (→ https://t.me/theblockbeats/184602)
+
+**MACRO** — US ADP employment change dropped to 21,000 from prior 30,750, signaling weakening labor market momentum. This reduces Fed rate cut urgency and removes key support for risk assets. (→ https://t.me/theblockbeats/184667) (→ https://t.me/theblockbeats/184671)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 💡 TRADE IDEAS
 
-**1. Long IBIT / FBTC (Bitcoin Spot ETFs)**
-- Rationale: Massive valuation dislocation—Bitcoin trading at $63k with Bernstein $150k target, yet spot ETFs just recorded $266M inflow after 8-week drought. Coinbase premium negativity at 50-day record creates contrarian setup. Infrastructure expansion (Tether RGB, Binance yield products) supports long-term utility thesis. MicroStrategy liquidation likely near exhaustion.
-- Entry: Scale in on sub-$63k dips; first tranche here, add on $61k-62k retest
-- Risks: Rising Treasury yields invalidate if 10-year breaches 4.75%; sustained institutional outflows continue
-- Related signals: (→ https://t.me/wublockchainenglish/25030) (→ https://t.me/wublockchainenglish/25029) (→ https://t.me/theblockbeats/184596) (→ https://t.me/theblockbeats/184637)
+**1. Long IBIT / ETHA (Bitcoin & Ethereum ETFs)**
+- Rationale: Historic 50-day negative Coinbase premium combined with $266M Bitcoin ETF inflows and BlackRock ETH withdrawals signals capitulation bottom. Institutions are accumulating while retail panics. Bernstein's $150K BTC target maintains conviction despite 54% drawdown. Entry on current weakness offers asymmetric risk/reward.
+- Entry: Scale in on sub-$63K BTC / sub-$1,750 ETH, or buy IBIT/ETHA on 3-5% daily dips
+- Risks: Break below $60K BTC invalidates near-term bullish thesis and targets $55K retest
+- Related signals:
+  • https://t.me/wublockchainenglish/25030 (ETF inflows)
+  • https://t.me/theblockbeats/184690 (BlackRock accumulation)
+  • https://t.me/wublockchainenglish/25029 (Bernstein target)
+  • https://t.me/wublockchainenglish/25033 (Premium index bearish)
 
-**2. Short WDC / STX (Storage sector puts)**
-- Rationale: Storage sector breakdown (-5-7% today) reflects broader AI capex skepticism and hyperscaler inventory digestion. Whale SNDK short position +$116M validates thesis. Korean semiconductor collapse (-7-9%) shows contagion risk. No near-term catalysts for reversal.
-- Entry: Short rallies toward 50-day MA or on any dead-cat bounce above -3% daily
-- Risks: If DRAM spot prices accelerate above +20% Q3 estimates, storage rebounds on pricing power
-- Related signals: (→ https://t.me/theblockbeats/184643) (→ https://t.me/theblockbeats/184665) (→ https://t.me/theblockbeats/184613)
+**2. Long SPCX (SpaceX)**
+- Rationale: Rare IPO entering Nasdaq-100 within 15 days with unanimous Wall Street buy ratings (average PT ~$300 vs $160 last close = 87% upside). Starlink revenue model, AI infrastructure exposure, and rocket reusability create multiple value drivers. Intraday -5% pullback on Nasdaq inclusion offers entry before institutional index buying begins.
+- Entry: $155-165 range on weakness, size up to 3-5% portfolio weight
+- Risks: Large whale short ($4.4M) suggests institutional skepticism; break below $145 invalidates structure
+- Related signals:
+  • https://t.me/theblockbeats/184633 (Nasdaq-100 entry)
+  • https://t.me/theblockbeats/184624 (Morgan Stanley $300 PT)
+  • https://t.me/theblockbeats/184622 (Goldman $205 PT)
+  • https://t.me/theblockbeats/184659 (Raymond James $800 PT)
 
-**3. Long SPCX (SpaceX) on pullbacks**
-- Rationale: Unanimous Wall Street buy ratings ($205-$800 targets) on Nasdaq-100 inclusion day. Starlink and AI satellite infrastructure positioning into secular growth. Current technical setup shows sell walls at $156-175, creating range for entry. Morgan Stanley's $300 target implies 75%+ upside from current levels.
-- Entry: Build position on any -5% dip from current levels; scale in $140-145 range
-- Risks: Whale sell walls at $156-175 may cap near-term upside; execution delays on Starlink or regulatory issues
-- Related signals: (→ https://t.me/theblockbeats/184633) (→ https://t.me/theblockbeats/184622) (→ https://t.me/theblockbeats/184612) (→ https://t.me/theblockbeats/184624)
+**3. Short WDC / SNDK / MU (Storage Chip Basket)**
+- Rationale: Storage semiconductor sector leading broader tech selloff with 5-7% declines. Samsung earnings miss on DRAM pricing, whale liquidations on SKHX (-$2.7M), and weak Q2 guidance from Morgan Stanley create downside momentum. Whale opened $6.27M SNDK short with 10x leverage now up +18.5% ROI.
+- Entry: Short on any relief bounce to -3% to -4% levels; use tight stops
+- Risks: Goldman Sachs calls correction "buying opportunity" and expects Q3 DRAM prices up 10-20%; storage names could reverse sharply on sector rotation
+- Related signals:
+  • https://t.me/theblockbeats/184643 (sector weakness)
+  • https://t.me/theblockbeats/184615 (SKHX whale liquidation)
+  • https://t.me/theblockbeats/184613 (SNDK whale short)
+  • https://t.me/theblockbeats/184646 (Morgan Stanley warning)
 
-**4. Long AMD / AMAT (Selective Semiconductor Recovery)**
-- Rationale: Multiple banks (Citi, Morgan Stanley) identify correction as buying opportunity with new supply unavailable until 2028. Shift from broad sector exposure to stock-picking favors AMD (CPU/ASIC exposure) and AMAT (equipment). Q3 DRAM +10-20% pricing supports. Fundamentals remain healthy despite sentiment washout.
-- Entry: AMD on test of $120-125 support; AMAT on $140-145 retest
-- Risks: If hyperscalers announce capex cuts or custom chip progress accelerates beyond expectations
-- Related signals: (→ https://t.me/theblockbeats/184626) (→ https://t.me/theblockbeats/184601) (→ https://t.me/theblockbeats/184608)
+**4. Pairs Trade: Long AMD/NVDA, Short AVGO**
+- Rationale: Goldman Sachs recommends selective chip picks over broad semis, favoring AMD and Applied Materials as AI chip consolidation shifts from GPU to CPU/memory. AVGO faces ASIC competition and market share loss per Goldman's $285 target (already in price). Play the rotation within semis.
+- Entry: Long AMD/NVDA equally weighted, short AVGO 1:1 ratio on relief bounce
+- Risks: Broad sector selloff could overwhelm stock-specific dynamics; pairs correlation breaks down in panic selling
+- Related signals:
+  • https://t.me/theblockbeats/184626 (Goldman selective picks)
+  • https://t.me/theblockbeats/184601 (CPU/memory over GPU)
+  • https://t.me/theblockbeats/184599 (AVGO risks priced)
 
-**5. Pair Trade: Long COIN / Short MSTR**
-- Rationale: COIN expands into TradFi with UK MiFID license (revenue diversification), while MSTR liquidates 3,588 BTC in forced selling. Coinbase premium negativity impacts both but COIN has regulatory tailwinds and business model expansion. MSTR purely leveraged BTC exposure with overhang risk.
-- Entry: Establish at current levels; ratio is 1:2.5 (notional)
-- Risks: Bitcoin rally above $68k benefits MSTR disproportionately; COIN regulatory issues
-- Related signals: (→ https://t.me/theblockbeats/184647) (→ https://t.me/theblockbeats/184637) (→ https://t.me/theblockbeats/184660)
+**5. Long COIN (Coinbase)**
+- Rationale: UK MiFID authorization expands Coinbase into traditional stocks and derivatives, diversifying revenue beyond crypto. This reduces regulatory risk and creates new income streams during crypto winter. Stock underperforming despite positive fundamental development. Entry on crypto market weakness.
+- Entry: $185-195 range, targeting $230-250 on 6-month view
+- Risks: Sustained crypto bear market and negative premium index could pressure core business; regulatory expansion may take time to materialize
+- Related signals:
+  • https://t.me/theblockbeats/184647 (UK authorization)
+  • https://t.me/theblockbeats/184660 (negative premium index)
+  • https://t.me/theblockbeats/184649 (bStocks expansion)
 
-**6. Short INTC (Secular Margin Pressure)**
-- Rationale: Hyperscalers (MSFT, GOOG, AMZN) developing custom AI chips structurally threatens Intel's pricing power and margins. DeepSeek self-developing inference chips validates custom silicon trend. Stock -2.21% but more downside likely as market reprices margin trajectory. No AI leadership position.
-- Entry: Short at $191-195 or on any relief rally toward $200
-- Risks: Major foundry win announcement or manufacturing breakthrough; sector-wide reversal lifts all boats
-- Related signals: (→ https://t.me/theblockbeats/184657) (→ https://t.me/theblockbeats/184656)
-
-**7. Long BOTZ / ARKQ (AI Agent Infrastructure ETFs)**
-- Rationale: Bespoke Labs $40M raise for trustworthy AI agent infrastructure shows continued venture appetite. Public market correction in tech creates entry point for AI thematic exposure without single-stock risk. AI agent adoption accelerating despite near-term sentiment washout.
-- Entry: Scale in on any -3-5% ETF drawdown; build over 2-3 weeks
-- Risks: Broader tech correction extends; AI winter narrative takes hold if hyperscaler capex cuts materialize
-- Related signals: (→ https://t.me/leviathan_news/20399)
-
-**8. Long ETHA (Ethereum ETF)**
-- Rationale: Ethereum spot ETFs recording $29M inflows alongside Bitcoin's $266M, reversing outflow trend. ETH underperforming BTC creates catch-up opportunity. Whale
+**6. Fade the USDT FUD — Long BTC on Tether Expansion News**
+- Rationale: Tether's former CIO stake sale creates FUD, but company is simultaneously expanding (native Bitcoin USDT via RGB, $20M Mercado Bitcoin investment, $76M EDX raise). Insider exit may be personal liquidity, not fundamental concern. Tether expansion actually bullish for BTC utility and on-chain liquidity.
+- Entry: Buy BTC dips on any USDT FUD headlines, scale into $60K-63K zone
+- Risks: If Tether faces regulatory action or de-pegging, all b

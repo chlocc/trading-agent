@@ -72,12 +72,12 @@ Given a list of messages from Telegram channels, categorize every story into sec
 Only include a section if there are actual stories for it — skip empty ones.
 
 Sections (use exactly these headers):
+  🏛️ Regulation & Policy
   🤖 AI & Tech
   💳 Payments & Stablecoins
   🏦 Exchanges & Platforms
   📈 Crypto Trading & Markets
   🔷 DeFi & Protocols
-  🏛️ Regulation & Policy
   🔦 Other
 
 Format each story as:

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 12, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260612-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260612-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — June 12, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>SpaceX IPO Dominates Markets</strong> — The world's largest-ever IPO ($75B at $135/share) opens today with pre-market indications at $171-175 (+27%), creating massive volatility across aerospace, tech mega-caps, and crypto tokenized stock platforms. Critical dates: July 6-7 for potential QQQ inclusion ($8-18B passive inflows) and August 11 for Q2 earnings plus first major unlock (10-15% supply). NVDA, MSFT, GOOG face potential capital rotation; SPCE, aerospace names selling off hard. (<a href="https://t.me/leviathan_news/19586," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/zoomerfiedNews/1409)</p>
+
+<p>• <strong>AI Capex Cycle Sapping Bitcoin Demand</strong> — Relai CEO explicitly frames AI infrastructure buildout (NVDA, MSFT, GOOGL) as competing capital sink draining BTC demand, with rotation expected once buildout cycle matures. Galaxy Research warns BTC hasn't bottomed, projecting $40K-$46K base case, $30K-$37K capitulation scenario. Spot ETF volumes down 78% to $960M daily, exchange inflows rising (+114K BTC), stablecoin liquidity declining (-$105M). (<a href="https://t.me/leviathan_news/19602," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24719, https://t.me/theblockbeats/180889)</p>
+
+<p>• <strong>Geopolitical De-escalation Lifting Risk Assets</strong> — Trump cancels Iran strikes as multi-nation deal nears signing, Strait of Hormuz to reopen in 30 days. Oil dropping (Brent $86.99, WTI $83.88), Goldman cuts 2027 Brent to $80 on supply expansion. Risk-on flows support equities, pressure defensive trades. (<a href="https://t.me/wublockchainenglish/24706," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180970)</p>
+
+<p>• <strong>Tokenized Securities Breakout</strong> — Multiple platforms launching 24/7 tokenized stock trading (Kraken xStocks, Binance bStocks, Exodus/Ondo on Solana). But xStocks SPCX allocation drastically cut, exposing infrastructure fragility. Coinbase announces next phase of "Everything Exchange" June 16 integrating stocks, ETFs, prediction markets. (<a href="https://t.me/theblockbeats/180955," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180962)</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>NVDA</strong> — NVIDIA marketing new Vera CPU to China at $20K+ per chip with first batch testing overseas and August delivery, expanding revenue beyond export-controlled high-end chips. Citigroup upgrades AMD to Buy (premarket +2%), potentially benefiting NVDA as sector sentiment improves. SpaceX IPO indirectly bullish as AI/space infrastructure thesis reinforces mega-cap AI positioning. Watch for continued China demand recovery and AMD's rising competitive threat. (<a href="https://t.me/theblockbeats/180892," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180910)</p>
+
+<p><strong>COIN</strong> — Coinbase launching USDe yield vault via Steakhouse/Morpho, expanding DeFi product suite. Circle transferred record $4.4B USDC via HyperEVM making COIN official USDC treasury provider for Hyperliquid, demonstrating institutional settlement scale. June 16 announcement of next "Everything Exchange" phase integrating stocks/ETFs could be major catalyst. Regulatory tailwinds from CFTC Chair Selig pushing crypto-friendly oversight. (<a href="https://t.me/leviathan_news/19585," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24715, https://t.me/theblockbeats/180962)</p>
+
+<p><strong>MSTR</strong> — Michael Saylor confirms he hasn't sold a single satoshi personally and Strategy continues BTC accumulation despite market weakness. If Galaxy's $40K-$46K BTC floor scenario plays out, MSTR becomes compelling leveraged accumulation vehicle near those levels. Metaplanet (Japan's MSTR analog) acquiring securities platform for $13M to launch Bitcoin-linked bonds, validating corporate BTC treasury model globally. (<a href="https://t.me/theblockbeats/180902," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24714)</p>
+
+<p><strong>AVAX</strong> — Avalanche Treasury (AVAT) begins Nasdaq trading, offering first public-market exposure to 550-project Avalanche ecosystem without direct token ownership. Provides institutional on-ramp and potential premium to NAV if crypto sentiment improves. <a href="https://t.me/leviathan_news/19588" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Exodus/Ondo launch tokenized securities platform on Solana with 200+ stocks/ETFs. Ethena allocating $250M to Securitize's tokenized CLO fund STAC expanding to Solana. SpaceX shares launched on Solana same day as Nasdaq debut via Kraken xStocks. Pump.fun continues generating massive fee revenue (67K SOL deposited to Kraken), though cumulative selling of 4.61M SOL at avg $172 creates overhead supply. (<a href="https://t.me/leviathan_news/19579," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180941, https://t.me/theblockbeats/180936)</p>
+
+<p><strong>AMD</strong> — Citigroup upgrades from Neutral to Buy, premarket +2%. Benefits from AI capex cycle without NVDA's geopolitical China exposure risk. Wells Fargo raises QCOM target $160→$230 (AI edge computing thesis), validating broader semiconductor AI demand beyond NVDA. (<a href="https://t.me/theblockbeats/180910," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180921)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BTC</strong> — Galaxy Research warns Bitcoin hasn't bottomed, projecting base case $40K-$46K, capitulation scenario $30K-$37K. Spot ETF volume collapsed 78% to $960M daily signaling fading TradFi demand. Exchange inflows rising (+114K BTC) while stablecoin liquidity declining (-$105M) = classic distribution setup. Relai CEO explicitly cites AI capex boom sapping BTC demand, expects rotation only once buildout cycle cools. Fifth consecutive day of spot ETF net outflows. Nakamoto sold 600 BTC for $48M to repay debt. (<a href="https://t.me/wublockchainenglish/24719," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24703, https://t.me/theblockbeats/180889, https://t.me/leviathan_news/19602)</p>
+
+<p><strong>SPCE</strong> — Virgin Galactic down 11% premarket (after +21% previous session) as SpaceX IPO approaches. Direct competitive pressure and likely capital rotation out of speculative space plays into SpaceX. Multiple aerospace names down 7-25% including SPCE at -25%. Closed-end funds holding SpaceX shares down 6-7% on IPO day as arb unwinds. (<a href="https://t.me/theblockbeats/180937," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180953)</p>
+
+<p><strong>IBIT/FBTC</strong> — Bitcoin spot ETFs seeing fifth consecutive day of net outflows alongside 78% volume collapse. If Galaxy's downside scenario plays out, leveraged ETF products face liquidation cascades. Watch for breakdown below $60K BTC as trigger for accelerated selling. (<a href="https://t.me/wublockchainenglish/24710," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24703)</p>
+
+<p><strong>XMR</strong> — Tether froze $72M in addresses linked to $120M USDT swap that pumped Monero from $330 to $438, suggesting illicit activity. If additional addresses frozen or regulatory scrutiny increases, privacy coin narrative faces headwinds. (<a href="https://t.me/wublockchainenglish/24713," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/19605)</p>
+
+<p><strong>NFT Ecosystem</strong> — NFTfi lending protocol shutting down August 31 as NFT market contraction makes $737M platform operations unsustainable. Structural bear market in NFTs continuing with no catalyst for reversal. Avoid NFT-heavy tokens. <a href="https://t.me/wublockchainenglish/24705" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MIM Stablecoin</strong> — Algorithmic stablecoin depegged to $0.89 due to Arbitrum liquidity issues, down 11% in 24 hours. Avoid exposure to algo stables and Abracadabra ecosystem until peg stabilizes. <a href="https://t.me/theblockbeats/180932" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Short BTC/Long NVDA Pair</strong></p>
+
+<ul>
+<li>Rationale: Explicitly play the Relai CEO thesis that AI capex is sapping BTC demand. If BTC tests Galaxy's $40K-$46K base case while NVDA holds AI infrastructure bid, the spread widens significantly. NVDA has China Vera CPU tailwind and sector upgrades.</li>
+<li>Entry: Short BTC at current levels (~$63K), long NVDA on any dip below $120</li>
+<li>Risks: Iran deal collapses and flight-to-safety bid lifts BTC; NVDA China sales restrictions tighten</li>
+<li>Related signals: <a href="https://t.me/leviathan_news/19602">Relai CEO comments</a>, <a href="https://t.me/wublockchainenglish/24719">Galaxy BTC downside</a>, <a href="https://t.me/theblockbeats/180892">NVDA Vera CPU</a></li>
+</ul>
+
+<p><strong>2. Long COIN Call Spread (June 16 expiry)</strong></p>
+
+<ul>
+<li>Rationale: June 16 "Everything Exchange" announcement could be major catalyst if integrating stocks/ETFs as signaled. Record $4.4B USDC settlement infrastructure and regulatory tailwinds (CFTC Selig) position COIN as primary crypto-TradFi bridge. Risk/reward attractive into binary event.</li>
+<li>Entry: Buy ATM calls, sell OTM calls to finance, targeting 20-30% move on announcement</li>
+<li>Risks: Announcement disappoints or purely aspirational with no revenue impact</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/180962">Everything Exchange June 16</a>, <a href="https://t.me/wublockchainenglish/24715">USDC settlement</a>, <a href="https://t.me/wublockchainenglish/24707">CFTC Selig</a></li>
+</ul>
+
+<p><strong>3. Fade SpaceX IPO Pop via SPCE Short</strong></p>
+
+<ul>
+<li>Rationale: Nine of ten largest IPOs fell within 6 months. SpaceX at $171-175 premarket implies $2.2T valuation on low float with August 11 unlock (10-15% supply). SPCE down 25% today as capital rotates; likely bounces as SpaceX profit-taking begins. Short SPCE into any relief rally as primary beneficiary of "SpaceX too expensive" narrative.</li>
+<li>Entry: Short SPCE on bounce above $4.50-$5.00</li>
+<li>Risks: SPCE announces major contract or partnership; SpaceX sustains momentum into Q2 earnings</li>
+<li>Related signals: <a href="https://t.me/leviathan_news/19598">IPO history</a>, <a href="https://t.me/theblockbeats/180937">SPCE -25%</a>, <a href="https://t.me/theblockbeats/180928">SpaceX unlock</a></li>
+</ul>
+
+<p><strong>4. Long AMD Post-Upgrade</strong></p>
+
+<ul>
+<li>Rationale: Citigroup upgrade Neutral→Buy, premarket +2%. Less China geopolitical risk than NVDA, benefits from same AI capex wave. Wells Fargo QCOM upgrade validates AI edge thesis benefiting AMD's Ryzen AI. If SpaceX IPO creates tech rotation, AMD catches bid as "cheaper NVDA."</li>
+<li>Entry: $165-170 on any opening weakness</li>
+<li>Risks: Earnings miss, Intel competitive response, AI capex cycle slowdown concerns</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/180910">Citi upgrade</a>, <a href="https://t.me/theblockbeats/180921">QCOM upgrade</a></li>
+</ul>
+
+<p><strong>5. Short IBIT/Long QQQ Pair</strong></p>
+
+<ul>
+<li>Rationale: Play BTC weakness (Galaxy $40K-$46K target, ETF outflows) vs tech strength (SpaceX IPO halo, Iran deal risk-off). If SpaceX gets added to QQQ July 6-7 ($8-18B inflows), pair works both directions. Captures "crypto winter, AI summer" regime.</li>
+<li>Entry: Short IBIT at current, long QQQ on dip below $480</li>
+<li>Risks: BTC bounces on short squeeze, tech corrects on SpaceX IPO as "top" signal</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/24719">Galaxy BTC target</a>, <a href="https://t.me/wublockchainenglish/24710">ETF outflows</a>, <a href="https://t.me/theblockbeats/180928">QQQ inclusion</a></li>
+</ul>
+
+<p><strong>6. Short MIM via DeFi Pairs</strong></p>
+
+<ul>
+<li>Rationale: Algorithmic stablecoin depegged to $0.89 with liquidity crisis on Arbitrum. If breaks below $0.85, cascading liquidations likely. Trade via DeFi pairs (MIM/USDC, MIM/DAI) to capture depeg widening.</li>
+<li>Entry: Short MIM below $0.88, target $0.80-$0.75</li>
+<li>Risks: Abracadabra adds liquidity or backstop mechanism stabilizes peg</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/180932">MIM depeg</a></li>
+</ul>
+
+<p><strong>7. Long SOL into Tokenized Securities Wave</strong></p>
+
+<ul>
+<li>Rationale: Exodus/Ondo launching 200+ tokenized stocks on Solana, Ethena deploying $250M CLO, SpaceX shares trading on Solana via Kraken. Network becoming primary blockchain for TradFi onboarding. Pump.fun fee revenue (67K SOL) demonstrates economic activity despite overhead supply from cumulative selling.</li>
+<li>Entry: $145-150 on dips, accumulate into $160-165</li>
+<li>Risks: Pump.fun selling accelerates, Ethereum L2s capture tokenized securities market share</li>
+<li>Related signals: <a href="https://t.me/leviathan_news/19579">Exodus/Ondo launch</a>, <a href="https://t.me/theblockbeats/180941">Ethena CLO</a>, <a href="https://t.me/theblockbeats/180936">Pump.fun revenue</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>SpaceX IPO Triggers Tech Correction</strong> — Analyst warns SpaceX IPO may mark mid-term top, citing Coinbase IPO precedent when BTC dropped 50% after listing. If SpaceX pulls back sharply from $171-175 open, could pressure QQQ/tech mega-caps. First major test is August 11 unlock (10-15% supply) and Q2 earnings. (<a href="https://t.me/theblockbeats/180940," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180928)</p>
+
+<p>• <strong>Bitcoin Capitulation Scenario</strong> — Galaxy's bear case of $30K-$37K BTC would trigger margin calls across MSTR, miners, leveraged funds. Exchange inflows rising while stablecoin liquidity declining = classic distribution. Break below $60K likely accelerates selling into $50K, then $40K levels. (<a href="https://t.me/wublockchainenglish/24719," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180889)</p>
+
+<p>• <strong>Iran Deal Collapse</strong> — Trump says leaked terms unrelated to actual agreement, Iran drone attack on Indian ships "unacceptable." If deal falls apart, oil spikes (currently Brent $86.99), Strait of Hormuz closure risk returns, flight-to-safety crushes risk assets. South Korea central bank chief already signaling rate hikes due to inflation concerns from Middle East conflict. (<a href="https://t.me/theblockbeats/180949," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/180899)</p>
+
+<p>• <strong>Tokenized Securities Infrastructure Failure</strong> — Kraken xStocks SPCX allocation drastically cut, forcing partial fulfillment (4.2786 shares per user). If tokenized stock platforms can't deliver on IPO allocations, credibility crisis threatens entire sector including Binance bStocks, Exodus Markets. (→ https://</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

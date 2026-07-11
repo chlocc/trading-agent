@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 26, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260626-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260626-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — June 26, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Rotation Accelerates</strong> — Goldman now recommends rotating from semiconductors to cloud/software, but the real story is memory entering a structural multi-year uptrend. Lenovo warns DRAM/NAND prices will stay elevated through 2030 as AI demand outstrips supply, while Micron's 16 long-term supply agreements and SK Hynix's target doubling signal a fundamental shift in the storage landscape. Tickers: MU, SK, NVDA, AMAT, NOW, CRM, PLTR.</p>
+
+<p>• <strong>Crypto Regulatory Deadline Creates Binary Event</strong> — Spain's hard July 1 MiCA enforcement with zero extensions forces Binance and other unlicensed firms out of the EU. This isn't just a Binance problem — it's validation that regulated competitors (Coinbase, Kraken) gain structural advantage while also highlighting why institutional money is flowing to ETF wrappers instead of direct exposure. Tickers: COIN, BNB, IBIT, ETHA.</p>
+
+<p>• <strong>DeFi Institutional Convergence</strong> — Kraken parent negotiating $71M for 15% of Aave Group at $385M valuation (Aave founder disputes terms but not intent), Aave launching tokenized securities lending via V4, and Securitize's $400M NYSE listing as SECZ signals TradFi-DeFi merger accelerating. The $134M annual AAVE DAO revenue with active $50M buyback framework shows this isn't speculative — it's cashflow-positive infrastructure. Tickers: AAVE, SECZ, COIN.</p>
+
+<p>• <strong>Corporate Bitcoin Treasuries Under Stress</strong> — MSTR stress test reveals catastrophic downside if BTC hits $26.6K (BTC/share collapses to 7,884 sats), yet Saylor reaffirms strategy amid volatility. Public companies now hold &gt;1M BTC, but six consecutive days of ETF outflows ($696M BTC, $81.9M ETH) and -273K BTC realized supply deficit for 208 days shows institutional capital remains net sellers. Tickers: MSTR, IBIT, FBTC, COIN.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>MU</strong> — Micron surges 15.7% to $1,213.56 after Q3 beat, but the bigger story is 16 new long-term supply agreements that lock in AI storage demand for years. Macquarie raising SK Hynix target from ¥73K to ¥140K and Lenovo warning NAND/DRAM entered structural uptrend through 2030 confirm this is a multi-year cycle, not a quarter. Storage was the forgotten AI trade — not anymore. (<a href="https://t.me/theblockbeats/183100," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/183098, https://t.me/theblockbeats/183103)</p>
+
+<p><strong>AMAT</strong> — Jefferies raises Applied Materials target from $510 to $770 on AI-driven demand for DRAM, HBM, and advanced packaging equipment. As the picks-and-shovels play for memory expansion, AMAT benefits from every fab building out capacity to meet the storage shortage. The memory supercycle needs tools before it needs chips. <a href="https://t.me/theblockbeats/183114" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NOW, CRM, PLTR</strong> — AI application software stocks surge 5%+ on open as enterprise AI adoption accelerates. Goldman's rotation call from semiconductors to cloud/software is playing out in real-time. ServiceNow and Figma leading gains signals customers are moving from infrastructure spending to deployment spending — the second phase of the AI capex wave. <a href="https://t.me/theblockbeats/183155" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AAVE</strong> — Kraken parent Payward negotiating $71M for 15% stake in Aave Group at $385M valuation, while Aave launches V4 with tokenized securities lending to expand beyond crypto into all asset classes. AAVE DAO generates $134M annually with active $50M buyback framework — this is institutional DeFi convergence with actual cashflows, not narrative. Aave founder denying discount sale rumors shows confidence in value. (<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/20021, https://t.me/leviathan</em>news/20038, https://t.me/theblockbeats/183151)</p>
+
+<p><strong>SECZ</strong> — Securitize SPAC raises $400M and lists on NYSE July 2 as the largest RWA tokenization platform globally, backed by BlackRock. With $13.3B H2 2025 tokenization volume and institutional custody validation (Kraken holding Janus Henderson RWAs), this is the first pure-play public equity exposure to real-world asset tokenization at scale. (<a href="https://t.me/wublockchainenglish/24904," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/183168)</p>
+
+<p><strong>COIN</strong> — Ark Invest increases positions in Coinbase during price weakness, while Binance's July 1 MiCA-forced EU exit hands regulated market share to competitors. Grayscale depositing 2,700 BTC (~$161M) and 41,996 ETH (~$65M) to Coinbase Prime shows institutional custody flows concentrating with licensed players. Six-day ETF outflows hurt crypto prices but strengthen COIN's moat as the compliant gateway. (<a href="https://t.me/TheBlock001/7044," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/183083, https://t.me/theblockbeats/183129)</p>
+
+<p><strong>IBIT</strong> — Wisconsin pension increased IBIT holdings 3x from Q1 2024 to Q4 as pension funds embrace 0.1%-3% crypto allocations via regulated ETF wrappers. This is the institutional adoption path that bypasses exchange risk — even as spot ETFs see six-day outflows, the structural shift to regulated exposure continues. <a href="https://t.me/leviathan_news/20039" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>IVZ</strong> — $2.45T asset manager Invesco files tokenized stablecoin reserves fund with Superstate for onchain record-keeping, signaling institutional infrastructure for stablecoin backing. With $312B stablecoin supply and neobanks emerging around PYUSD/USDC rails, this is TradFi building the plumbing for crypto payments. <a href="https://t.me/leviathan_news/20033" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HYPG</strong> — Grayscale Hyperliquid ETF records $108.1M single-day inflow (cumulative $123.5M) with competing BHYP and THYP also seeing strong inflows. DeFi derivatives getting ETF wrappers accelerates institutional access to perp DEX exposure without custody risk. <a href="https://t.me/theblockbeats/183161" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — SharpLink purchases $7.85M (5,000 ETH) for first time in eight months as ether hits 2026 lows ahead of Russell inclusion. F2Pool founder Wang Chun accumulated 9,937 ETH and 147.5 WBTC in six hours, with ~65,700 ETH and 966 WBTC total since BTC hit $60K. All whale cohorts now in unrealized losses for first time since 2019 — historically this marks bottoms. (<a href="https://t.me/leviathan_news/20029," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/TheBlock001/7045, https://t.me/theblockbeats/183088, https://t.me/theblockbeats/183123)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BNB</strong> — Spain's CNMV enforces MiCA deadline July 1 with zero extensions; Binance and unlicensed firms must exit EU by June 30. This is not a negotiation — it's a hard regulatory wall. Binance delisting four tokens (ALCX, ARDR, NFP, POND) effective July 10 shows broader platform stress. Market share shifts to licensed competitors. (<a href="https://t.me/leviathan_news/20055," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24900, https://t.me/wublockchainenglish/24894)</p>
+
+<p><strong>MSTR</strong> — Stress test shows BTC per share could collapse to 7,884 sats if BTC falls to $26.6K, revealing severe leverage risk in the treasury strategy. Six consecutive days of Bitcoin ETF outflows ($696M) and -273K BTC realized supply deficit for 208 straight days show selling pressure exceeds new capital. Saylor's commitment to continue buying doesn't change the math if BTC breaks key support. (<a href="https://t.me/wublockchainenglish/24890," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24896, https://t.me/theblockbeats/183090)</p>
+
+<p><strong>NVDA, INTC, AVGO</strong> — Semiconductor and storage stocks decline broadly with NVIDIA down 1.56%, storage names down 5-7.5%. Goldman's rotation call from chips to cloud reflects valuation pressure even as AI demand remains strong. Optical/photonics stocks hammered harder: Marvell -6.1%, Lumentum -8.86% signal specific subsector weakness. China accelerating semiconductor localization with DRAM imports down 18% YoY threatens US chipmaker TAM. (<a href="https://t.me/theblockbeats/183152," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/183153, https://t.me/theblockbeats/183158)</p>
+
+<p><strong>BTC, ETH</strong> — Bitcoin breaks below $59,000 (-3.7% in 24h) with weak quarterly options expiry (0.63 put-call ratio) and persistent ETF selling. Spot Bitcoin and Ethereum ETFs see six consecutive days of net outflows ($696M and $81.9M respectively). All Ethereum whale cohorts now underwater for first time since 2019. While this historically marks bottoms, it confirms distribution phase is ongoing. (<a href="https://t.me/wublockchainenglish/24899," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24896, https://t.me/theblockbeats/183144, https://t.me/theblockbeats/183088)</p>
+
+<p><strong>ORCL</strong> — Oracle down 6.3% in 24h on AI board liquidation and PCE inflation data; largest short position 330% profitable. DeepSeek and cheaper Chinese AI models gaining US enterprise adoption pressures premium AI vendor revenues. The arbitrage between US and Chinese AI pricing is real and growing. (<a href="https://t.me/theblockbeats/183104," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/183149)</p>
+
+<p><strong>SOL</strong> — Solmate shares collapse &gt;98% despite $300M ARK-backed financing and Solana treasury pivot, signaling catastrophic strategic failure. AscendEX reportedly facing liquidity crisis with delayed withdrawals and depleted reserves in ETH, USDT, and SOL. Sophon L2 shutters after failing product-market fit outside Base ecosystem. (<a href="https://t.me/wublockchainenglish/24892," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/24891, https://t.me/leviathan_news/20026)</p>
+
+<p><strong>BASE (via weakness)</strong> — Sophon L2 shutdown after failing to achieve traction highlights that standalone L2s struggle outside the Base/Coinbase ecosystem. The Layer 2 thesis increasingly bifurcates between integrated ecosystems and failed experiments. <a href="https://t.me/leviathan_news/20026" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long MU calls / AMAT shares</strong></p>
+
+<ul>
+<li>Rationale: Memory entering structural multi-year uptrend with supply unable to meet AI demand through 2030. Micron's 16 long-term supply agreements de-risk revenue, while AMAT sells the shovels for fab expansion. Jefferies' $510→$770 AMAT target and Macquarie doubling SK Hynix target confirm Street is repricing the cycle.</li>
+<li>Entry: MU on any pullback toward $1,150; AMAT shares at current levels or $650-670 dip</li>
+<li>Risks: Semiconductor rotation continues near-term; macro slowdown delays AI capex</li>
+<li>Related signals: https://t.me/theblockbeats/183100, https://t.me/theblockbeats/183114, https://t.me/theblockbeats/183098, https://t.me/theblockbeats/183103</li>
+</ul>
+
+<p><strong>2. Long NOW, CRM, PLTR (AI application software rotation)</strong></p>
+
+<ul>
+<li>Rationale: Goldman's semiconductor-to-cloud rotation call playing out as ServiceNow/Figma surge 5%+. Enterprise AI moving from infrastructure buildout (chips) to deployment phase (software). Application layer captures more margin with less capex intensity. Fed keeping rates higher longer favors cashflow-positive software over capital-intensive hardware.</li>
+<li>Entry: Equal-weight basket on any 2-3% pullback; alternatively long XLK and short SMH as pair</li>
+<li>Risks: Software multiples still elevated; rotation reverses if chip selloff accelerates</li>
+<li>Related signals: https://t.me/theblockbeats/183155, https://t.me/theblockbeats/183138</li>
+</ul>
+
+<p><strong>3. Long COIN / Short BNB</strong></p>
+
+<ul>
+<li>Rationale: MiCA July 1 deadline forces Binance out of EU with zero extensions, handing market share to licensed exchanges. Ark buying COIN on weakness while institutional custody flows (Grayscale $226M deposits) concentrate with compliant players. Six-day crypto ETF outflows hurt prices but strengthen COIN's moat as regulated gateway.</li>
+<li>Entry: COIN shares $180-190; BNB short via perpetual futures or put spreads</li>
+<li>Risks: Broader crypto selloff drags all correlated assets; Binance finds regulatory workaround</li>
+<li>Related signals: https://t.me/TheBlock001/7044, https://t.me/theblockbeats/183083, https://t.me/leviathan_news/20055, https://t.me/wublockchainenglish/24900</li>
+</ul>
+
+<p><strong>4. Long AAVE (DeFi institutional convergence)</strong></p>
+
+<ul>
+<li>Rationale: Kraken's $71M negotiation for 15% stake at $385M valuation (even if disputed on terms) validates AAVE Group. V4 launching tokenized securities lending expands TAM beyond crypto to all asset classes. $134M annual DAO revenue with active $50M buyback framework shows cashflow-positive business model. TradFi-DeFi merger accelerating with Securitize NYSE listing, Invesco stablecoin fund, and institutional RWA custody.</li>
+<li>Entry: AAVE token $150-160 range or on any spike below $145</li>
+<li>Risks: Crypto beta dominates fundamentals; Kraken deal falls through; V4 launch delays</li>
+<li>Related signals: https://t.me/leviathan<em>news/20021, https://t.me/leviathan</em>news/20038, https://t.me/theblockbeats/183151</li>
+</ul>
+
+<p><strong>5. Long SECZ at NYSE debut (July 2)</strong></p>
+
+<ul>
+<li>Rationale: First pure-play public equity for RWA tokenization with BlackRock backing, $13.3B H2 2025 volume, and institutional validation (Kraken custody of Janus Henderson tokenized assets). $400M raise provides capital for scaling. TradFi infrastructure (Invesco stablecoin fund, credit union pilots) building distribution for tokenized securities.</li>
+<li>Entry: Watch July 2 opening print; target entry $8-10 on SPAC de-risking or build position over first week</li>
+<li>Risks: SPAC redemptions reduce float; tokenization adoption slower than projected; crypto winter contagion</li>
+<li>Related signals: https://t.me/wublockchainenglish/24904, https://t.me/theblockbeats/183168, https://t.me/leviathan_news/20033</li>
+</ul>
+
+<p><strong>6. Long IBIT, FBTC (pension fund allocation wave)</strong></p>
+
+<ul>
+<li>Rationale: Wisconsin pension 3x'd IBIT holdings Q1-Q4 2024 as 0.1%-3% allocations become standard for pension/endowment crypto exposure via regulated wrappers. Structural shift to ETFs bypasses exchange custody risk even as six-day outflows create entry point. Corporate treasuries hold &gt;1M BTC; pension adoption is next institutional wave.</li>
+<li>Entry: IBIT $48-50, FBTC at comparable discount to NAV</li>
+<li>Risks: Continued ETF outflows accelerate; BTC breaks $55K invalidating accumulation thesis</li>
+<li>Related signals: https://t.me/leviathan_news/20039, https://t</li>
+</ul>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

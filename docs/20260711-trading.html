@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 11, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="active">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260711-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260711-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 11, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Chip Shortage Narrative Intensifies</strong> — SK Hynix CEO projects memory chip shortages extending beyond 2030 as AI datacenter demand outpaces supply growth, while US export restrictions ease for UAE markets. This validates the AI infrastructure thesis and supports semiconductor longs through H2 2026. Key tickers: NVDA, AMD, SKHYV, META, BOTZ, ARKQ.</p>
+
+<p>• <strong>Stablecoin Infrastructure Consolidation</strong> — Circle's OCC approval for First National Digital Currency Bank creates federal custody infrastructure for USDC while CBDC ban becomes law, clearing competitive landscape. Global dollar demand shifting from Treasuries to stablecoins as emerging market households seek currency protection. Key tickers: USDC, USDT, COIN, exposure via crypto equities.</p>
+
+<p>• <strong>DeFi Security Crisis</strong> — $14M+ stolen across Bonzo Lend ($9.05M) and Hedera bridge ($5.25M) exploits expose oracle and bridge vulnerabilities. Gate.io hemorrhaging $207M in outflows post-theft incident. This validates centralized exchange premium and pressures DeFi tokens. Watch HYPE, ENA, protocol tokens.</p>
+
+<p>• <strong>Crypto Capital Rotation</strong> — Bitcoin/Ethereum ETFs end 8-week outflow streak with $281.8M inflows, but YTD cumulative still -$665M. Meanwhile, Hyperliquid hits 9% perp market share and Empery Digital sells half its BTC for AI infrastructure pivot. Institutional capital rotating from passive hodling to active deployment. Key tickers: IBIT, FBTC, ETHA, MSTR, COIN.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>NVDA, AMD</strong> — US eases export restrictions allowing Nvidia, AMD, and Cerebras to sell advanced AI chips to UAE-linked Aramco, opening major new market. This removes a key revenue ceiling just as memory chip shortage narrative builds momentum through 2030+. Watch for Saudi/UAE datacenter buildout announcements. <a href="https://t.me/theblockbeats/185144" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SKHYV (SK Hynix)</strong> — CEO forecasts memory chip shortage persisting until 2030+ as AI and datacenter demand growth outpaces supply expansion. Stock surged 12.76% Friday, leading semiconductor gains. The structural supply deficit validates premium valuations and supports multi-year growth trajectory. (<a href="https://t.me/theblockbeats/185145," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185148)</p>
+
+<p><strong>BOTZ, ARKQ, NVDA</strong> — US-listed ETF AUM hits record $15.6T with massive concentrated inflows into mega-cap tech, semiconductor, and AI-focused ETFs. Capital flows accelerating into AI infrastructure plays as institutional conviction builds. ETF bid provides technical support for underlying holdings. <a href="https://t.me/theblockbeats/185207" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>USDC</strong> — Circle secures OCC approval for First National Digital Currency Bank, creating federal custody infrastructure that strengthens USDC competitive moat. Combined with CBDC ban removing government competition and global dollar demand shifting to stablecoins, USDC positioned for market share gains. (<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/20521, https://t.me/leviathan</em>news/20524)</p>
+
+<p><strong>ETH</strong> — Major whale withdrew 9,883 ETH from Binance with 44,459 ETH total position showing $47.55M unrealized gains. Another whale established 9,588 ETH leveraged long (25x) with $17.44M unrealized profit. Large holder accumulation signals conviction despite macro headwinds. (<a href="https://t.me/theblockbeats/185159," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185213)</p>
+
+<p><strong>IBIT, FBTC, ETHA</strong> — Bitcoin spot ETFs saw $90.4M inflows and Ethereum ETFs $18.4M on July 10, ending 8-week outflow streak. Weekly totals reached $1.974B (BTC) and $843M (ETH). Sustained institutional buying pressure building after prolonged redemption cycle. (<a href="https://t.me/theblockbeats/185167," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185201)</p>
+
+<p><strong>HYPE (Hyperliquid)</strong> — Platform reaches record 9% market share of total perpetual futures market across all centralized exchanges. Sea Krakens contracts exceeded ETH in 24h volume at $1.015B, becoming platform's second-largest asset. Platform growth accelerating into institutional-grade liquidity. (<a href="https://t.me/theblockbeats/185205," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185161)</p>
+
+<p><strong>META</strong> — Stock up 5.97% Friday, benefiting from AI infrastructure buildout theme. SK Hynix shortage validates Meta's vertical integration and capex investments in custom silicon and datacenter infrastructure. <a href="https://t.me/theblockbeats/185148" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>CBDC-related infrastructure plays</strong> — Federal Reserve CBDC ban becomes law after Trump lets 10-day deadline expire without signature. This removes central bank digital currency pathway entirely, killing public sector digital dollar projects and related infrastructure investments. (<a href="https://t.me/TheBlock001/7136," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/20518)</p>
+
+<p><strong>GATE (Gate.io equity exposure)</strong> — Exchange sees $207M net outflows over 7 days following user theft incident while Binance captures CEX inflows. Trust erosion accelerating and competitive position deteriorating. Further outflows likely as users migrate to tier-1 exchanges. <a href="https://t.me/wublockchainenglish/25101" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC (tactical)</strong> — Empery Digital sold roughly half its BTC holdings (~1,400 BTC for $87.1M) to pivot toward AI data center infrastructure, signaling institutional capital rotation from passive crypto to active AI plays. Bitcoin treasury companies' market value fell $1B+ despite holdings increasing to 1.14M BTC, suggesting forced selling risk at low prices. (<a href="https://t.me/leviathan_news/20515," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185186)</p>
+
+<p><strong>ETH (levered positions)</strong> — Whale shorted 6,914 ETH with 25x leverage ($12.43M position) on Hyperliquid, sitting just 1.55% from liquidation. High leverage positioning on both sides creates volatility risk and potential cascade liquidations. If BTC breaks $66K, $5.67B in shorts liquidate; $63K triggers $4.82B long liquidations. (<a href="https://t.me/theblockbeats/185172," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185212)</p>
+
+<p><strong>DeFi protocol tokens</strong> — Bonzo Lend lost $9.05M in Supra oracle exploit via zero-signature price manipulation; $5.25M stolen from Hedera bridge. Combined $14M+ in exploits exposes oracle and bridge infrastructure vulnerabilities. Protocol pauses and security incidents pressure DeFi valuations and TVL. (<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/20504, https://t.me/leviathan</em>news/20503, https://t.me/wublockchainenglish/25099)</p>
+
+<p><strong>ENA (Ethena)</strong> — Future pressured by shrinking USDe yields, stalled product launches, and delayed fee switch implementation. Yield compression in low-volatility environment undermines core value proposition. <a href="https://t.me/leviathan_news/20512" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC/ETH ETFs (YTD context)</strong> — Despite ending 8-week outflow streak, cumulative YTD outflows remain at -$665M. Single-week reversal doesn't erase broader institutional redemption trend. Sustained multi-week inflows needed to confirm trend change. <a href="https://t.me/theblockbeats/185214" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long BOTZ or ARKQ (AI/Robotics ETFs)</strong></p>
+
+<ul>
+<li>Rationale: SK Hynix shortage through 2030+ validates AI infrastructure scarcity thesis. ETF AUM hit record $15.6T with accelerating inflows to AI/semiconductor exposure. UAE export restrictions lifted, expanding addressable market for NVDA/AMD. Memory shortage + easing export controls = structural tailwind.</li>
+<li>Entry: Current levels or pullback to 50-day MA; BOTZ front-running semiconductor earnings season</li>
+<li>Risks: Broader market selloff or Fed hawkish surprise invalidates; watch Powell testimony this week</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/185207 (ETF record inflows)<br />
+• https://t.me/theblockbeats/185145 (SK Hynix shortage forecast)<br />
+• https://t.me/theblockbeats/185144 (UAE export restrictions lifted)</li>
+</ul>
+
+<p><strong>2. Long NVDA calls (3-6 month)</strong></p>
+
+<ul>
+<li>Rationale: UAE market opens for advanced chips while memory shortage validates AI capex sustainability. SK Hynix CEO's 2030+ shortage timeline removes supply glut concerns. Large trader opened $20.22M leveraged long after recovering from prior loss, signaling institutional re-entry. Stock up 4.03% Friday with momentum building.</li>
+<li>Entry: ATM or slightly OTM calls on any dip below $130; target $150-160 by Q4</li>
+<li>Risks: Memory chip oversupply narrative returns; geopolitical escalation with China</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/185144 (export restrictions)<br />
+• https://t.me/theblockbeats/185145 (shortage forecast)<br />
+• https://t.me/theblockbeats/185148 (price action Friday)<br />
+• https://t.me/theblockbeats/185158 (whale positioning)</li>
+</ul>
+
+<p><strong>3. Long COIN (crypto exchange premium)</strong></p>
+
+<ul>
+<li>Rationale: DeFi exploits ($14M+ across Bonzo/Hedera) and Gate.io outflows ($207M) validate centralized exchange safety premium. Hyperliquid gaining perp market share shows institutional DeFi adoption, but CEXs capture post-exploit flight to quality. COIN benefits from both ETF flows ($281.8M weekly) and security concerns.</li>
+<li>Entry: Current levels or break above $215 resistance</li>
+<li>Risks: Broader crypto selloff or regulatory action against CEXs</li>
+<li>Related signals:<br />
+• https://t.me/wublockchainenglish/25101 (Gate.io outflows)<br />
+• https://t.me/leviathan_news/20504 (Bonzo exploit)<br />
+• https://t.me/theblockbeats/185167 (ETF inflows)</li>
+</ul>
+
+<p><strong>4. Long IBIT or FBTC (Bitcoin spot ETF)</strong></p>
+
+<ul>
+<li>Rationale: 8-week outflow streak ended with $90.4M single-day inflows and $1.974B weekly total. Institutional capitulation complete; flows turning positive as CBDC ban removes government competition for digital dollar narrative. Polymarket odds of BTC reaching $70k by year-end surge to 79% from 54% in late June.</li>
+<li>Entry: Accumulate on any BTC dip toward $63k support</li>
+<li>Risks: Break below $63k triggers $4.82B long liquidation cascade; macro risk-off invalidates</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/185167 (daily inflows)<br />
+• https://t.me/theblockbeats/185201 (weekly inflows)<br />
+• https://t.me/theblockbeats/185208 (Polymarket odds)<br />
+• https://t.me/leviathan_news/20518 (CBDC ban)</li>
+</ul>
+
+<p><strong>5. Pair Trade: Long USDC exposure (via COIN) / Short DeFi protocol basket</strong></p>
+
+<ul>
+<li>Rationale: Circle's OCC bank approval + CBDC ban + global dollar demand shifting to stablecoins = USDC market share gains. Simultaneously, DeFi exploits and yield compression (Ethena) pressure protocol tokens. Stablecoin infrastructure consolidating to regulated players while DeFi security concerns mount.</li>
+<li>Entry: Long COIN (USDC custodian/beneficiary); short ENA or DeFi index if available</li>
+<li>Risks: Sudden risk-on rotation lifts all DeFi; regulatory crackdown on centralized stablecoins</li>
+<li>Related signals:<br />
+• https://t.me/leviathan<em>news/20521 (Circle OCC approval)<br />
+• https://t.me/leviathan</em>news/20524 (stablecoin demand)<br />
+• https://t.me/leviathan<em>news/20512 (Ethena pressure)<br />
+• https://t.me/leviathan</em>news/20504 (DeFi exploits)</li>
+</ul>
+
+<p><strong>6. Short MSTR (tactical)</strong></p>
+
+<ul>
+<li>Rationale: Empery Digital's BTC sale for AI pivot signals institutional capital rotation from passive crypto to active AI infrastructure. MSTR's pure-play BTC treasury strategy faces pressure as treasury companies' market value drops $1B despite holdings increasing. Forced selling risk at low prices creates downside scenario.</li>
+<li>Entry: Short on bounce toward $1,600 or break below $1,450 support</li>
+<li>Risks: BTC breaks $66k triggering $5.67B short squeeze; broader crypto rally</li>
+<li>Related signals:<br />
+• https://t.me/leviathan_news/20515 (Empery BTC sale)<br />
+• https://t.me/theblockbeats/185186 (treasury companies pressure)<br />
+• https://t.me/theblockbeats/185212 (liquidation levels)</li>
+</ul>
+
+<p><strong>7. Long META (AI infrastructure consolidation)</strong></p>
+
+<ul>
+<li>Rationale: Up 5.97% Friday as memory shortage narrative validates vertical integration strategy and capex in custom silicon. OpenAI rejecting acquisition and building independent ecosystem creates competitive threat to MSFT/GOOG/AAPL, but Meta's infrastructure investments and Reality Labs positioning provide differentiation. Memory shortage through 2030+ validates Meta's datacenter buildout.</li>
+<li>Entry: Break above $575 or pullback to $550 support</li>
+<li>Risks: Regulatory scrutiny intensifies; AI capex returns disappoint</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/185148 (price action)<br />
+• https://t.me/theblockbeats/185145 (shortage forecast)<br />
+• https://t.me/theblockbeats/185194 (OpenAI competition)</li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Leveraged liquidation cascades</strong> — ETH whale sitting 1.55% from liquidation with $12.43M position (25x leverage). If BTC breaks $66k, $5.67B in shorts liquidate; conversely $63k triggers $4.82B long liquidations. Extreme leverage on both sides creates volatility feedback loops.</p>
+
+<p>• <strong>DeFi contagion expansion</strong> — $14M+ stolen across Bonzo/Hedera exploits exposes oracle and bridge infrastructure. If exploits spread to major protocols (Aave, Compound, Uniswap), could trigger systemic TVL exodus and broader DeFi deleveraging.</p>
+
+<p>• <strong>Fed Powell testimony hawkish surprise</strong> — Markets pricing in rate cuts, but Powell testimony this week alongside CPI/PPI data could shift timeline. Hawkish tone would pressure risk assets, particularly levered crypto and high-duration tech.</p>
+
+<p>• <strong>Geopolitical escalation</strong> — US-Iran tensions escalating as ceasefire collapses. Oil spike or regional conflict could trigger risk-off rotation, hitting both crypto and tech while boosting defensive sectors.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Markets navigating dual narrative of AI infrastructure scarcity (memory chips, datacenter capacity) supporting tech/semiconductor longs while crypto undergoes capital rotation from passive treasury strategies to active deployment (ETFs, DeFi, AI pivots). Stablecoin infrastructure consolidating to regulated players as CBDC pathway closes and global dollar demand accelerates. Security concerns (DeFi exploits, CEX thefts) creating flight-to-quality bid for tier-1 platforms. Powell testimony and inflation data this week will frame risk appetite into month-end.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+58 tradeable signals | 34 bullish | 20 bearish | 22 high-confidence</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

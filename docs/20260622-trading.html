@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 22, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260622-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260622-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — June 22, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Arms Race Intensifies</strong> — Memory chip supply crunch is driving costs up 30-40% while custom ASICs challenge GPU dominance. Micron hits $1.33T market cap on Anthropic partnership; memory suppliers (MU, WDC) surge as HBM prices triple YoY. This matters because rising datacenter costs could force cloud giants to reassess AI ROI while creating winners among chip suppliers. Key tickers: <strong>MU, NVDA, AVGO, MRVL, DELL, MSFT</strong></p>
+
+<p>• <strong>TradFi-Crypto Convergence Accelerates</strong> — NYSE parent ICE launches 50-50 JV with OKX for tokenized securities while MoneyGram validates Solana and Baillie Gifford tokenizes funds on ETH/SOL. This is institutional crypto adoption at scale—not speculation but infrastructure. Key tickers: <strong>COIN, SOL, ETH, ICE</strong></p>
+
+<p>• <strong>Bitcoin Under Pressure from Multiple Fronts</strong> — Six consecutive weeks of ETF outflows ($227M BTC, $10M ETH), Fed hawkishness, whale capitulation (2,480 BTC dumped at $39M loss), and miner stress (20% near break-even) create a bearish setup. Arthur Hayes liquidated alts warning AI mega-IPOs will drain crypto liquidity. Key tickers: <strong>BTC, IBIT, MSTR, MARA, RIOT</strong></p>
+
+<p>• <strong>DeFi Contagion Risks Emerging</strong> — MSUSD crashes 85%, Altura vault suffers 22% redemption run, Taiko bridge compromised with $1M+ losses. Three distinct protocol failures in 48 hours signal elevated smart contract risk. Key exposure: avoid leveraged DeFi plays until dust settles.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>MU</strong> — Micron surges to record $1,203 (+6% at open, $1.33T market cap) after announcing strategic memory supply agreement with Anthropic for next-gen AI scaling. South Korea's June memory exports expected at record highs with HBM prices up 2-3x YoY and supply shortages intensifying. Multiple whale longs opened ($10.5M at 10x leverage); Citigroup raised target to $1,200. Memory bottleneck is real—whoever controls HBM supply controls AI infrastructure. <a href="https://t.me/theblockbeats/182377" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182361" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182290" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA</strong> — Launches Vera Rubin supercomputing platform delivering 7 Exaflops in a single rack; Europe deploys 35 NVDA AI supercomputers across 23 countries (800 exaflops total capacity). Dell partnership creates "Dell AI Factory" for next-gen HPC. Despite memory cost headwinds, NVDA remains central to infrastructure buildout. Custom ASIC threat is 2027+ story; near-term demand is locked in. <a href="https://t.me/theblockbeats/182365" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182364" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182367" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSTR</strong> — Strategy adds 520 BTC at $67,068 ($35M purchase) plus $300M cash reserves; now holds 847,363 BTC. Benchmark maintains $570 target (~400% upside), clarifying STRC preferred volatility is repricing not structural risk. Despite $9.1B unrealized loss (-14.2%), company continues accumulating. This is a leveraged BTC bet—bullish if you believe $64k is the floor. <a href="https://t.me/zoomerfiedNews/1421" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182366" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182338" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>COIN</strong> — ICE (NYSE parent) and OKX form 50-50 joint venture OKXICE for tokenized financial products with former NY governor as co-chair. OKX token surges 8% to $82.97 on news. Coinbase launching Pre-IPO perpetuals for Anthropic and OpenAI, signaling institutional AI exposure demand. TradFi integration thesis playing out—Coinbase is the bridge. <a href="https://t.me/leviathan_news/19868" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182340" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182317" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — MoneyGram becomes Solana validator alongside Mastercard, expanding blockchain payments infrastructure. Baillie Gifford launches SOL/ETH tokenized fund via BNY offering 7% yield. Spot SOL ETFs show inflows while BTC/ETH bleed. South Korea's Toss Bank partners with Solana Foundation for remittance infrastructure. Enterprise adoption accelerating. <a href="https://t.me/leviathan<em>news/19865" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan</em>news/19864" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24831" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — Bitmine acquires 52,203 ETH bringing holdings to 5.67M ETH (4.7% of supply) with $223M annualized staking revenue. 83% of holdings staked. Despite $9.3B unrealized loss (-48.2%), institutional accumulation continues. New governance proposal to redirect 0-10% validator rewards (~70k ETH/$120M annually) to ecosystem development. <a href="https://t.me/wublockchainenglish/24841" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182348" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182286" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AVGO/MRVL</strong> — Morgan Stanley predicts custom AI ASIC shipments will surpass GPUs in 2027; Broadcom and Marvell positioned to dominate $60-70B market growing 40-50% annually. Marvell sees $8M whale accumulation ahead of S&amp;P 500 inclusion (effective today); A14 process negotiations underway. ASIC margin structure superior to GPUs—these are the picks-and-shovels play. <a href="https://t.me/theblockbeats/182295" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182297" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DELL</strong> — Partners with Nvidia to build "Dell AI Factory" supercomputing infrastructure for next-gen HPC and AI workloads. Dell is the enterprise distribution channel for NVDA compute—this formalizes the relationship and positions DELL as infrastructure integrator. <a href="https://t.me/theblockbeats/182367" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSFT</strong> — Signs 20-year power deal with Chevron for 2.67GW datacenter capacity in West Texas, delivering 2028. Power infrastructure is the bottleneck for AI scaling—MSFT locking long-term capacity secures competitive moat. <a href="https://t.me/theblockbeats/182345" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ICE</strong> — NYSE parent launches 50-50 joint venture with OKX for tokenized securities. Former NY governor David Paterson co-chairs. This bridges $100T traditional finance with crypto infrastructure—ICE monetizes crypto demand without balance sheet risk. <a href="https://t.me/leviathan_news/19868" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24839" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BTC</strong> — Six consecutive weeks of ETF outflows totaling $227M; whale deposits 2,480 BTC ($161M) to Binance at $39M unrealized loss after buying at $80,936. Fed hawkishness (61.5% probability of hold in July, only 38.5% cut), option data shows 70% probability of drop to $55k. JPMorgan warns ~20% of miners at break-even with elasticity coefficient hitting 0.62 as miners accelerate sales. Arthur Hayes liquidated alts warning AI mega-IPOs drain BTC liquidity. Demand hasn't returned despite $64k stability. <a href="https://t.me/theblockbeats/182376" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24830" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182349" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182357" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI/Tech Bubble Warning</strong> — Li Lei warns against chasing AI stocks citing slowing revenue growth at downstream model companies as bubble trigger. Bernstein warns memory chip price surge (4.5x DRAM, 2-2.5x HBM potential) could increase AI datacenter costs by 30%, forcing cloud providers to reassess ROI. Jefferies sees memory prices surging 40-50% Q3 and 30-40% Q4 2026. Muddy Waters founder warns AI could eliminate 15M white-collar jobs triggering mass equity outflows. Cost structure breaking down. <a href="https://t.me/theblockbeats/182323" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182308" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182306" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NEAR/WLD</strong> — Arthur Hayes liquidated altcoins warning AI trade is peaking due to energy costs, policy risks, and mega IPOs (OpenAI, Anthropic, xAI) draining liquidity from Bitcoin and AI tokens. If Hayes is right, AI-related crypto tokens face double headwind. <a href="https://t.me/wublockchainenglish/24832" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MARA/RIOT/CLSK</strong> — JPMorgan warns Bitcoin mining increasingly price-sensitive as ~20% of miners approach break-even; elasticity coefficient hits 0.62 as miners accelerate BTC sales and pivot to AI/HPC. Current BTC price ($64k) creating miner stress—if BTC drops to $55k, capitulation accelerates. <a href="https://t.me/theblockbeats/182357" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>TAIKO</strong> — Confirms critical bridge vulnerability with $1M+ losses; warns users to withdraw immediately and exchanges to suspend TAIKO deposits. Chain state verification compromised. Complete loss of confidence—zero until technical resolution. <a href="https://t.me/leviathan_news/19852" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24829" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AAVE</strong> — Bank of England's final stablecoin framework requires 30% non-interest reserve requirement; Aave founder warns this makes stablecoin issuance uneconomical and will drive firms offshore. Regulatory headwind for UK-based DeFi stablecoin protocols. <a href="https://t.me/wublockchainenglish/24833" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/19861" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DeFi Protocols</strong> — MSUSD crashes 85% as Morpho msY/USDC hits 100% utilization with $18M exposure; Altura vault suffers $8.5M USDT redemption run (22% of AUM) forcing orderly wind-down. Three major DeFi failures in 48 hours signal elevated smart contract and liquidity risk. <a href="https://t.me/leviathan<em>news/19859" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan</em>news/19853" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long MU (Micron Technology)</strong></p>
+
+<ul>
+<li><strong>Rationale:</strong> Record highs on Anthropic partnership, memory supply shortage driving HBM prices 2-3x YoY, South Korea exports at record levels. Memory bottleneck is the AI infrastructure constraint—Micron controls critical supply. Citigroup $1,200 target with whale accumulation ($10.5M at 10x) confirms conviction.</li>
+<li><strong>Entry:</strong> Current levels ($1,203) or pullback to $1,150 support</li>
+<li><strong>Risks:</strong> Memory price surge could force cloud providers to cut AI capex if ROI breaks down; invalidated if guidance disappoints or HBM supply increases faster than expected</li>
+<li><strong>Related signals:</strong> <a href="https://t.me/theblockbeats/182377" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182361" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182290" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182363" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long AVGO + MRVL (AI ASIC Pair)</strong></p>
+
+<ul>
+<li><strong>Rationale:</strong> Morgan Stanley predicts custom AI ASICs surpass GPUs in 2027; Broadcom and Marvell positioned for $60-70B market growing 40-50% annually. Better margin structure than GPUs, less commoditized. MRVL S&amp;P 500 inclusion effective today with $8M whale accumulation and A14 process negotiations.</li>
+<li><strong>Entry:</strong> MRVL $310-315, AVGO current levels</li>
+<li><strong>Risks:</strong> ASIC thesis is 2027+ story—near-term GPU dominance continues; invalidated if hyperscalers stick with GPUs or develop in-house ASICs</li>
+<li><strong>Related signals:</strong> <a href="https://t.me/theblockbeats/182295" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182297" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182305" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Short IBIT/FBTC (Bitcoin ETF Exposure)</strong></p>
+
+<ul>
+<li><strong>Rationale:</strong> Six consecutive weeks of outflows ($227M), whale capitulation ($39M loss), 20% of miners at break-even, Fed hawkishness, Arthur Hayes warning on liquidity drain. Option data shows 70% probability of $55k. Technical setup bearish with $62k critical support.</li>
+<li><strong>Entry:</strong> Current levels (~$64k BTC equivalent) or bounce to $66k resistance</li>
+<li><strong>Risks:</strong> Institutional bid returns, Fed pivots dovish, macro risk-off triggers flight to crypto; invalidated on break above $70k or significant ETF inflows return</li>
+<li><strong>Related signals:</strong> <a href="https://t.me/theblockbeats/182349" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182376" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24830" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182357" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long COIN (Coinbase)</strong></p>
+
+<ul>
+<li><strong>Rationale:</strong> ICE-OKX JV legitimizes crypto infrastructure; Coinbase launching Pre-IPO perpetuals for Anthropic/OpenAI shows institutional demand for AI exposure via crypto rails. TradFi convergence thesis playing out. OKX token +8% on ICE news demonstrates demand.</li>
+<li><strong>Entry:</strong> Current levels or pullback to $200 support</li>
+<li><strong>Risks:</strong> Regulatory scrutiny increases, crypto volume remains depressed, Pre-IPO products fail to gain traction; invalidated if BTC breaks below $55k dragging all crypto equities down</li>
+<li><strong>Related signals:</strong> <a href="https://t.me/leviathan_news/19868" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182340" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182317" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182337" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long SOL (Solana Exposure via ETHA or direct)</strong></p>
+
+<ul>
+<li><strong>Rationale:</strong> MoneyGram validator status, Baillie Gifford tokenized fund launch, Toss Bank partnership, spot ETF inflows while BTC/ETH bleed. Enterprise adoption accelerating with payments infrastructure buildout. SOL outperforming in weak crypto market.</li>
+<li><strong>Entry:</strong> Current levels or accumulate on dips to $120 support</li>
+<li><strong>Risks:</strong> General crypto weakness drags SOL down, enterprise partnerships fail to drive token demand, network congestion issues resurface; invalidated if SOL breaks below $100</li>
+<li><strong>Related signals:</strong> <a href="https://t.me/leviathan<em>news/19865" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan</em>news/19864" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24831" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/182351" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long MSFT + DELL (AI Infrastructure Integration)</strong></p>
+
+<ul>
+<li><strong>Rationale:</strong> MSFT locks 20-year 2.67GW power capacity (bottleneck solved for 2028+); DELL partners with NVDA for AI Factory infrastructure. These are the enterprise distribution layer capturing AI buildout without chip manufacturing risk. Power and integration are underappreciated constraints.</li>
+<li><strong>Entry:</strong> MSFT current levels, DELL on any pullback below $110</li>
+<li><strong>Risks:</strong> AI capex cuts if ROI disappoints, memory costs spiral forcing datacenter delays</li>
+</ul>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

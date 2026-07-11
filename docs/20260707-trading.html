@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 07, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="active">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260707-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260707-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 07, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Semiconductor Bloodbath / SpaceX IPO Divergence</strong> — Chip stocks are getting crushed (WDC -7.3%, SNDK -6.5%, MU -6%) while SpaceX enters Nasdaq-100 within 15 days of IPO, drawing massive Wall Street upgrades ($200-$800 targets). This reflects rotation from crowded AI hardware into infrastructure plays. Key tickers: SPCX, WDC, SNDK, MU, NVDA, AMD.</p>
+
+<p>• <strong>Institutional Crypto Demand Crisis</strong> — Coinbase Bitcoin Premium Index hits historic 50-day negative streak, yet Bitcoin ETFs just saw $266M inflows and BlackRock withdrew 2,979 ETH from exchanges. The divergence suggests retail capitulation while smart money accumulates. Key tickers: BTC, ETH, IBIT, ETHA, COIN, MSTR.</p>
+
+<p>• <strong>Stablecoin Infrastructure Expansion</strong> — Tether launching native USDT on Bitcoin via RGB protocol (July rollout), EDX Markets raising $76M for institutional clearing, and Tether's former CIO dumping his stake. This is both bullish (adoption) and bearish (insider exit). Key tickers: USDT, BTC, COIN.</p>
+
+<p>• <strong>Storage &amp; Memory Chips Leading Broader Tech Selloff</strong> — Storage names (STX, WDC, SNDK) down 5-7% as Samsung earnings miss and whale liquidations hit $2.7M on SKHX. Yet Goldman says this is a buying opportunity for selective names. Key tickers: STX, WDC, SNDK, MU, SKHX.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>BTC / ETH</strong> — Bitcoin and Ethereum ETFs recorded $266M and $29M net inflows respectively, with BlackRock's IBIT leading flows and BlackRock withdrawing 2,979 ETH (~$5.26M) from Coinbase to cold storage. This signals institutional accumulation despite 50-day negative Coinbase premium, suggesting smart money is buying the dip while retail panics. Watch for break above $68K to confirm reversal. <a href="https://t.me/wublockchainenglish/25030" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184690" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184596" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — Bernstein maintains $150,000 year-end Bitcoin target despite 54% drawdown from October 2025 highs, noting the pullback is milder than historical cycles and suggests structural market maturation. The firm sees current levels as accumulation zone for long-term holders. <a href="https://t.me/wublockchainenglish/25029" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184616" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC / USDT</strong> — Tether plans to launch native USDT on Bitcoin via RGB protocol with July 2026 rollout, significantly expanding stablecoin utility on the Bitcoin network. This could drive new DeFi use cases and on-chain liquidity, potentially supporting BTC price action through increased utility value. <a href="https://t.me/leviathan_news/20417" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25032" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC / ETH</strong> — EDX Markets raised $76M Series C led by SBI to expand institutional crypto clearing and settlement infrastructure, signaling continued institutional appetite for compliant trading infrastructure despite near-term market weakness. This builds the rails for next wave of institutional flows. <a href="https://t.me/leviathan_news/20423" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SPCX</strong> — SpaceX enters Nasdaq-100 within 15 trading days of IPO and receives wave of Wall Street buy ratings: Morgan Stanley $300 PT (87% upside), Goldman Sachs $205, UBS $210, Raymond James $800, Bank of America $235. Bulls cite Starlink revenue, AI infrastructure potential, and rocket reusability. Stock down 5% intraday creates entry. <a href="https://t.me/theblockbeats/184633" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184624" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184622" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184612" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184659" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184648" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184644" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184680" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA / AMD / AMAT</strong> — Wall Street consensus forming that semiconductor correction is buying opportunity, not end of AI trend. Goldman Sachs recommends selective picks (AMD, Applied Materials) over broad sector exposure, arguing AI chip consolidation favors CPU and memory over GPU. Long-term AI fundamentals unchanged despite near-term volatility. <a href="https://t.me/theblockbeats/184626" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184601" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>COIN</strong> — Coinbase gains UK MiFID authorization to offer investment services including stocks and derivatives, expanding beyond crypto into traditional finance. This diversification reduces regulatory risk and opens new revenue streams, potentially supporting valuation during crypto winter. <a href="https://t.me/theblockbeats/184647" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AAPL</strong> — Morgan Stanley raises Apple price target from $325 to $345, citing strong iPhone demand and services growth. Defensively positioned in tech selloff. <a href="https://t.me/theblockbeats/184650" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HYPE</strong> — Nansen integrates Hyperliquid perpetual trading with smart money leaderboard and real-time on-chain data, bringing institutional-grade analytics to the platform. This could drive increased trading volume and protocol revenue. <a href="https://t.me/theblockbeats/184639" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>005930 (Samsung Electronics)</strong> — Samsung Electronics beats Intel as most profitable tech company with $584B quarterly profit (up 56% YoY), setting new record. Despite Q2 earnings missing on DRAM pricing, longer-term memory fundamentals remain strong with Q3 DRAM prices expected to rise 10-20%. <a href="https://t.me/theblockbeats/184620" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184651" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BTC / COIN</strong> — Coinbase Bitcoin Premium Index hits record 50-day negative streak, longest in history, signaling sustained institutional outflow and weak US demand. BTC spot ETFs saw 8 consecutive weeks of outflows, suggesting institutional appetite has dried up despite recent $266M single-day inflow. This creates overhead resistance. <a href="https://t.me/wublockchainenglish/25033" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184634" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184660" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>USDT</strong> — Tether's former CIO Richard Heathcote seeks to sell his 1.26% stake via PJT Partners secondary offering, signaling potential insider concerns about the firm's trajectory or risk profile. This is a rare insider exit from a typically tightly held company. <a href="https://t.me/leviathan_news/20419" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/TheBlock001/7109" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>WDC / STX / SNDK / MU</strong> — US storage semiconductor sector collapsing with Western Digital down 7.3%, SanDisk down 6.5%, Seagate down 6%, and Micron down 6%. Broad sector weakness driven by Samsung earnings miss and concerns about DRAM pricing falling short of expectations. Whale liquidations on SKHX (-$2.7M realized loss) confirm panic. <a href="https://t.me/theblockbeats/184684" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184643" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184665" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184615" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC / ETH / MSTR / COIN</strong> — U.S. equities sold off sharply with chip stocks down 6%+, crypto stocks declining in sympathy. SPCX liquidations exceeded BTC/ETH liquidations (~$6M in 1 hour), showing leverage washout across risk assets. Bitcoin broke below $63K amid Asia-Pacific stock decline. <a href="https://t.me/theblockbeats/184689" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184687" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184604" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — Large ETH whale positioned at $3,178.78 entry (6,000 ETH on Jan 20) now faces potential liquidation with ~$27.85M unrealized loss. If forced selling occurs, expect sharp downside pressure on ETH. <a href="https://t.me/theblockbeats/184628" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC / MSTR</strong> — Strategy (formerly MicroStrategy) sold 3,588 BTC (~$2.16B) in their largest historic dump. While market showed limited panic (suggesting confidence in long-term trajectory), this removes a key marginal buyer and adds supply overhang. <a href="https://t.me/theblockbeats/184637" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BONK</strong> — BonkDAO governance exploit resulted in estimated $20M BONK token drain from treasury, severely undermining protocol credibility and token value. Classic DAO attack vector. <a href="https://t.me/leviathan_news/20395" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AKE</strong> — AKE whale transferred $22.4M worth of tokens to Binance and dumped, triggering 33% crash from $0.0003 to $0.0002. Textbook large holder exit creating cascading liquidations. <a href="https://t.me/theblockbeats/184672" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SPCX</strong> — Despite bullish Wall Street ratings, SPCX faces large whale shorting ($4.4M short position opened), creating mixed sentiment between retail longs and institutional shorts. Near-term price action uncertain. <a href="https://t.me/theblockbeats/184602" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MACRO</strong> — US ADP employment change dropped to 21,000 from prior 30,750, signaling weakening labor market momentum. This reduces Fed rate cut urgency and removes key support for risk assets. <a href="https://t.me/theblockbeats/184667" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184671" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long IBIT / ETHA (Bitcoin &amp; Ethereum ETFs)</strong></p>
+
+<ul>
+<li>Rationale: Historic 50-day negative Coinbase premium combined with $266M Bitcoin ETF inflows and BlackRock ETH withdrawals signals capitulation bottom. Institutions are accumulating while retail panics. Bernstein's $150K BTC target maintains conviction despite 54% drawdown. Entry on current weakness offers asymmetric risk/reward.</li>
+<li>Entry: Scale in on sub-$63K BTC / sub-$1,750 ETH, or buy IBIT/ETHA on 3-5% daily dips</li>
+<li>Risks: Break below $60K BTC invalidates near-term bullish thesis and targets $55K retest</li>
+<li>Related signals:<br />
+• https://t.me/wublockchainenglish/25030 (ETF inflows)<br />
+• https://t.me/theblockbeats/184690 (BlackRock accumulation)<br />
+• https://t.me/wublockchainenglish/25029 (Bernstein target)<br />
+• https://t.me/wublockchainenglish/25033 (Premium index bearish)</li>
+</ul>
+
+<p><strong>2. Long SPCX (SpaceX)</strong></p>
+
+<ul>
+<li>Rationale: Rare IPO entering Nasdaq-100 within 15 days with unanimous Wall Street buy ratings (average PT ~$300 vs $160 last close = 87% upside). Starlink revenue model, AI infrastructure exposure, and rocket reusability create multiple value drivers. Intraday -5% pullback on Nasdaq inclusion offers entry before institutional index buying begins.</li>
+<li>Entry: $155-165 range on weakness, size up to 3-5% portfolio weight</li>
+<li>Risks: Large whale short ($4.4M) suggests institutional skepticism; break below $145 invalidates structure</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/184633 (Nasdaq-100 entry)<br />
+• https://t.me/theblockbeats/184624 (Morgan Stanley $300 PT)<br />
+• https://t.me/theblockbeats/184622 (Goldman $205 PT)<br />
+• https://t.me/theblockbeats/184659 (Raymond James $800 PT)</li>
+</ul>
+
+<p><strong>3. Short WDC / SNDK / MU (Storage Chip Basket)</strong></p>
+
+<ul>
+<li>Rationale: Storage semiconductor sector leading broader tech selloff with 5-7% declines. Samsung earnings miss on DRAM pricing, whale liquidations on SKHX (-$2.7M), and weak Q2 guidance from Morgan Stanley create downside momentum. Whale opened $6.27M SNDK short with 10x leverage now up +18.5% ROI.</li>
+<li>Entry: Short on any relief bounce to -3% to -4% levels; use tight stops</li>
+<li>Risks: Goldman Sachs calls correction "buying opportunity" and expects Q3 DRAM prices up 10-20%; storage names could reverse sharply on sector rotation</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/184643 (sector weakness)<br />
+• https://t.me/theblockbeats/184615 (SKHX whale liquidation)<br />
+• https://t.me/theblockbeats/184613 (SNDK whale short)<br />
+• https://t.me/theblockbeats/184646 (Morgan Stanley warning)</li>
+</ul>
+
+<p><strong>4. Pairs Trade: Long AMD/NVDA, Short AVGO</strong></p>
+
+<ul>
+<li>Rationale: Goldman Sachs recommends selective chip picks over broad semis, favoring AMD and Applied Materials as AI chip consolidation shifts from GPU to CPU/memory. AVGO faces ASIC competition and market share loss per Goldman's $285 target (already in price). Play the rotation within semis.</li>
+<li>Entry: Long AMD/NVDA equally weighted, short AVGO 1:1 ratio on relief bounce</li>
+<li>Risks: Broad sector selloff could overwhelm stock-specific dynamics; pairs correlation breaks down in panic selling</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/184626 (Goldman selective picks)<br />
+• https://t.me/theblockbeats/184601 (CPU/memory over GPU)<br />
+• https://t.me/theblockbeats/184599 (AVGO risks priced)</li>
+</ul>
+
+<p><strong>5. Long COIN (Coinbase)</strong></p>
+
+<ul>
+<li>Rationale: UK MiFID authorization expands Coinbase into traditional stocks and derivatives, diversifying revenue beyond crypto. This reduces regulatory risk and creates new income streams during crypto winter. Stock underperforming despite positive fundamental development. Entry on crypto market weakness.</li>
+<li>Entry: $185-195 range, targeting $230-250 on 6-month view</li>
+<li>Risks: Sustained crypto bear market and negative premium index could pressure core business; regulatory expansion may take time to materialize</li>
+<li>Related signals:<br />
+• https://t.me/theblockbeats/184647 (UK authorization)<br />
+• https://t.me/theblockbeats/184660 (negative premium index)<br />
+• https://t.me/theblockbeats/184649 (bStocks expansion)</li>
+</ul>
+
+<p><strong>6. Fade the USDT FUD — Long BTC on Tether Expansion News</strong></p>
+
+<ul>
+<li>Rationale: Tether's former CIO stake sale creates FUD, but company is simultaneously expanding (native Bitcoin USDT via RGB, $20M Mercado Bitcoin investment, $76M EDX raise). Insider exit may be personal liquidity, not fundamental concern. Tether expansion actually bullish for BTC utility and on-chain liquidity.</li>
+<li>Entry: Buy BTC dips on any USDT FUD headlines, scale into $60K-63K zone</li>
+<li>Risks: If Tether faces regulatory action or de-pegging, all b</li>
+</ul>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

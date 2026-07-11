@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 04, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260604-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260604-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — June 04, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Crypto Capital Exodus Intensifies</strong> — Bitcoin ETFs hit 13 consecutive days of outflows totaling $4.33B, the longest streak on record, while BTC drops 16% as institutional money rotates into AI IPOs, commodities, and equities gaining 5%. This marks potential inflection into "coldest crypto winter ever" per Bloomberg analysts. Key tickers: <strong>IBIT, FBTC, BTC, MSTR</strong>.</p>
+
+<p>• <strong>MSTR Strategy Reversal Shocks Market</strong> — MicroStrategy sold 32 BTC (first sale ever) and stock plunged 10%, signaling the archetypal bitcoin buyer is now a seller. This psychological break coincides with DAT firms shifting from accumulation to distribution mode. Key tickers: <strong>MSTR, BTC</strong>.</p>
+
+<p>• <strong>Coinbase Ecosystem Expansion</strong> — COIN launches pre-IPO perpetual futures (starting with SpaceX), invests in Ethena DeFi protocol, backs ProShares stablecoin ETF, and enables Bitcoin-collateralized mortgages with Fannie Mae. The exchange is aggressively diversifying revenue while crypto volumes contract. Key tickers: <strong>COIN, ENA</strong>.</p>
+
+<p>• <strong>AI Liquidity Events Approaching</strong> — Anthropic filed confidentially for IPO while SpaceX priced at $135/share ($1.75T valuation). Combined with Anthropic's Mythos launch and government AI contracts, capital is flowing toward AI infrastructure plays. Key tickers: <strong>NVDA, MSFT, GOOG, ARKQ</strong>.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>COIN</strong> — Coinbase is executing a masterclass in diversification: launched pre-IPO perpetual futures (SpaceX first), invested in Ethena to create structured DeFi products, backed ProShares stablecoin reserves ETF, and enabled Bitcoin-backed mortgages with Fannie Mae. While crypto volumes decline, COIN is building next-gen revenue streams across derivatives, DeFi, and TradFi integration. The stock should outperform crypto-pure plays during this rotation. <a href="https://t.me/TheBlock001/6924" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/TheBlock001/6938" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/zoomerfiedNews/1395" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24617" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>WULF</strong> — Bernstein initiated coverage on TeraWulf with a bullish thesis projecting 9x AI revenue growth by 2030 for bitcoin miners pivoting to AI infrastructure. As crypto mining margins compress, miners with existing power infrastructure and data center capacity can capture AI compute demand. WULF is positioned at the intersection of two trends: crypto miner distress creating entry points, and AI compute scarcity driving premium pricing. <a href="https://t.me/TheBlock001/6940" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL, ETH, MATIC</strong> — Cash App launched fee-free USDC transfers across Solana, Ethereum, Polygon, and Arbitrum networks, bringing stablecoin payments to its 55M+ user base. This is infrastructure adoption that expands the addressable market for L1 transaction fees and stablecoin settlement. While prices are weak, the fundamental use case is strengthening — classic accumulation setup. <a href="https://t.me/leviathan_news/19369" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA, MSFT, GOOG</strong> — Anthropic filed confidentially for IPO and neared a deal with US spy agencies for AI tools, validating enterprise/government AI adoption. Google's Gemma 4 12B encoder-free model launch signals architectural innovation. With Anthropic IPO and SpaceX at $1.75T valuation, AI liquidity events will drive capital into AI infrastructure and compute providers. These names benefit from both the direct business and the multiple expansion from sector enthusiasm. <a href="https://t.me/zoomerfiedNews/1393" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/zoomerfiedNews/1382" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/19381" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BTC, IBIT, FBTC</strong> — Bitcoin broke below $66K amid the worst institutional selling pressure on record: 13 consecutive days of ETF outflows totaling $4.33B, with 7-day, 10-day, and 20-day rolling outflows all at all-time highs. CryptoQuant reports the strongest short-term holder capitulation of 2026 with 53,800 BTC dumped to exchanges at a loss in 24 hours. Meanwhile S&amp;P 500 gained 5% in the same period, confirming capital rotation into AI/equities. The momentum-trade narrative is broken. <a href="https://t.me/TheBlock001/6927" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24600" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24616" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24615" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24611" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSTR</strong> — MicroStrategy sold 32 BTC for the first time ever, breaking its decade-long accumulation pattern. The stock dropped 10% immediately as the market interpreted this as a bearish regime change. If the ultimate bitcoin maximalist is now a seller, it signals distribution pressure across the entire DAT (Digital Asset Treasury) complex. This is a psychological break with major implications for the levered-bitcoin trade. <a href="https://t.me/zoomerfiedNews/1391" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/zoomerfiedNews/1394" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH, ETHA</strong> — Ethereum ETFs extended outflows to 16 consecutive days with $90M out on June 2. Nasdaq-listed FG Nexus realized $85M+ losses selling ETH treasury at $2,330 average after buying at $3,860. Bankless co-founder David Hoffman sold his entire ETH position, citing "limited revaluation potential" and reallocating to NEAR, ZEC, HYPE, and LIT. When core community members capitulate, it signals exhaustion. ETH is struggling to find a re-rating catalyst while bleeding to both BTC and Solana alternatives. <a href="https://t.me/wublockchainenglish/24600" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24609" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24605" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Solana dropped to its lowest levels since 2023, now trading below HYPE token in price. Despite strong fundamentals (Cash App integration), price action reflects broad altcoin weakness and rotation out of "last cycle's winners." The technical damage is severe — multi-year lows suggest capitulation, but no signs of stabilization yet. <a href="https://t.me/TheBlock001/6934" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HOOD</strong> — Robinhood's Crypto COO departed as the company sees sharp crypto revenue declines and pivots away from the segment. This is the retail crypto platform signaling retreat just as the retail investor base loses interest. When the on-ramp closes, it's a leading indicator of sustained weakness. <a href="https://t.me/zoomerfiedNews/1381" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Short MSTR via puts (3-month dated)</strong></p>
+
+<ul>
+<li>Rationale: First BTC sale ever breaks the accumulation narrative that justified premium valuations. With bitcoin weak and DAT model under pressure, MSTR's levered structure becomes a liability. The 10% gap down may be just the beginning of multiple compression.</li>
+<li>Entry: ATM puts on next bounce toward $1,350-1,400 or current levels if conviction high</li>
+<li>Risks: Renewed BTC strength or MSTR announces this was one-time rebalancing (not new policy)</li>
+<li>Related signals: 
+<ul>
+<li>MSTR sells 32 BTC <a href="https://t.me/zoomerfiedNews/1391" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>MSTR stock drops 10% <a href="https://t.me/zoomerfiedNews/1394" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>BTC 13-day outflow streak <a href="https://t.me/wublockchainenglish/24616" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>2. Long COIN calls (2-4 month)</strong></p>
+
+<ul>
+<li>Rationale: While crypto bleeds, COIN is building the infrastructure for the next cycle: pre-IPO futures, DeFi integration, stablecoin exposure, BTC mortgages. Revenue diversification insulates from spot crypto weakness. This is accumulation territory for when rotation reverses.</li>
+<li>Entry: 10-15% OTM calls on any dip below $185, targeting $220-240</li>
+<li>Risks: Broader crypto collapse drags all names down regardless of fundamentals; derivatives volume disappoints</li>
+<li>Related signals:
+<ul>
+<li>COIN launches pre-IPO futures <a href="https://t.me/TheBlock001/6938" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>COIN invests in Ethena <a href="https://t.me/zoomerfiedNews/1395" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>COIN backs stablecoin ETF <a href="https://t.me/TheBlock001/6924" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>COIN enables BTC mortgages <a href="https://t.me/wublockchainenglish/24617" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>3. Long NVDA, short IBIT (pair trade)</strong></p>
+
+<ul>
+<li>Rationale: Capital is rotating from crypto to AI in real-time. BTC down 16%, SPY up 5%, AI IPOs approaching. Play the rotation directly by going long AI infrastructure (NVDA) and short crypto exposure (IBIT). This captures the thematic shift while hedging broad market risk.</li>
+<li>Entry: Size NVDA long at current levels, short equal notional IBIT</li>
+<li>Risks: Crypto finds a bottom and mean-reverts violently; AI multiple compression on earnings misses</li>
+<li>Related signals:
+<ul>
+<li>BTC -16% vs SPY +5% <a href="https://t.me/wublockchainenglish/24611" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Anthropic IPO filing <a href="https://t.me/zoomerfiedNews/1393" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>BTC ETF outflow records <a href="https://t.me/wublockchainenglish/24616" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>4. Short ETH via ETHA or ETH futures</strong></p>
+
+<ul>
+<li>Rationale: Three compounding negatives: 16-day ETF outflow streak, core community capitulation (Bankless founder sold entire stack), and corporate treasuries realizing massive losses. No catalyst visible and "hard to re-rate" per insiders. This goes lower.</li>
+<li>Entry: Short ETHA shares or short ETH/USD futures at $2,400-2,500 rallies</li>
+<li>Risks: Unexpected DeFi breakout or ETF flows reverse; Pectra upgrade creates momentum</li>
+<li>Related signals:
+<ul>
+<li>ETH 16-day outflow streak <a href="https://t.me/wublockchainenglish/24600" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Bankless founder sells all ETH <a href="https://t.me/wublockchainenglish/24605" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>FG Nexus $85M loss <a href="https://t.me/wublockchainenglish/24609" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>5. Long ARKQ (AI robotics/automation ETF)</strong></p>
+
+<ul>
+<li>Rationale: SpaceX IPO at $1.75T, Anthropic IPO, government AI contracts, and Google model releases all point to AI liquidity wave. ARKQ provides diversified exposure to AI/robotics without single-stock risk ahead of multiple catalysts.</li>
+<li>Entry: Current levels or scale in on 3-5% pullbacks</li>
+<li>Risks: Tech multiple compression; ARK underperformance vs. benchmarks continues</li>
+<li>Related signals:
+<ul>
+<li>SpaceX IPO $1.75T <a href="https://t.me/zoomerfiedNews/1396" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Anthropic IPO <a href="https://t.me/zoomerfiedNews/1393" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Google Gemma 4 launch <a href="https://t.me/leviathan_news/19381" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>6. Long WULF (bitcoin miner AI pivot play)</strong></p>
+
+<ul>
+<li>Rationale: Bernstein projects 9x AI revenue growth for miners by 2030. With crypto mining margins compressing, miners with power/infrastructure can pivot to AI compute. WULF trades at distressed valuations but has real assets (power, data centers) that AI demand will bid up.</li>
+<li>Entry: Accumulate $2.80-3.20 range with 6-month+ horizon</li>
+<li>Risks: BTC crashes further and company lacks capital to complete AI pivot; AI compute demand disappoints</li>
+<li>Related signals:
+<ul>
+<li>Bernstein 9x AI revenue forecast <a href="https://t.me/TheBlock001/6940" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>BTC miner distress <a href="https://t.me/wublockchainenglish/24611" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>7. Tactical long HYPE (contrarian altcoin play)</strong></p>
+
+<ul>
+<li>Rationale: HYPE broke all-time highs while everything else bleeds. Hyperliquid May perps volume hit 14.4% of Binance's, signaling real adoption. Arthur Hayes sold (contrarian indicator), but the protocol is gaining share in a shrinking market. If you want alt exposure, chase the winner.</li>
+<li>Entry: Breakout above ATH with tight stop below $28-29</li>
+<li>Risks: Hayes is right and broader alt collapse drags HYPE down; perps volume is wash trading</li>
+<li>Related signals:
+<ul>
+<li>HYPE breaks ATH <a href="https://t.me/zoomerfiedNews/1378" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Hyperliquid volume records <a href="https://t.me/wublockchainenglish/24612" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Hayes sells all HYPE <a href="https://t.me/wublockchainenglish/24613" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Crypto Contagion Accelerates</strong> — If BTC breaks $60K decisively, it triggers levered liquidations across MSTR, miners, and altcoins. Watch for credit stress in DAT companies and potential forced selling creating feedback loops.</p>
+
+<p>• <strong>AI IPO Window Slams Shut</strong> — If Anthropic or SpaceX IPOs disappoint or get delayed, the AI liquidity narrative collapses and capital has nowhere to rotate. This could trigger broad tech de-rating.</p>
+
+<p>• <strong>Stablecoin Regulatory Shock</strong> — With Mastercard, Visa, Stripe all launching stablecoin platforms and CFTC approving perps, regulatory pushback risk is rising. Any enforcement action freezes the one working crypto use case.</p>
+
+<p>• <strong>Trump AI Policy Reversal</strong> — Arthur Hayes warned Trump may pivot against AI to protect energy prices. If administration rhetoric shifts, it undermines the entire "capital rotating to AI" thesis and could reverse recent flows.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>We're witnessing a historic rotation out of crypto and into AI/equities. Bitcoin's 16% monthly drop against a 5% S&amp;P gain, combined with record ETF outflows and the first-ever MicroStrategy sale, signals a regime change. Capital is chasing AI liquidity events (Anthropic, SpaceX IPOs) and real cash flows rather than speculative narratives. The setup resembles early 2022 — sustained institutional withdrawal, community capitulation, and no visible catalyst for reversal. Trade accordingly: fade crypto strength, chase AI momentum, and watch for oversold bounces to add shorts.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+47 signals | 47 tradeable | 17 bullish | 17 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

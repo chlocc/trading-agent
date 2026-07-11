@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 30, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260630-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260630-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — June 30, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Late-Cycle Crypto Bear Market</strong> — BTC sub-$60k and ETH down 25.2% in Q2 (first three-quarter decline ever) signal institutional capitulation is accelerating. Wintermute identifies late-stage bear characteristics with no confirmed bottom yet. Affects: BTC, ETH, MSTR, COIN, IBIT, ETHA, BITO.</p>
+
+<p>• <strong>Enterprise Stablecoin Disruption (OUSD Launch)</strong> — Visa, Stripe, Mastercard, BlackRock, Coinbase, and 140+ partners launch Open USD with shared revenue model, directly threatening Circle/Tether's oligopoly economics. This is the most significant stablecoin infrastructure shift since USDC launched. Affects: COIN, CRCL, V, MA.</p>
+
+<p>• <strong>AI Infrastructure Expansion</strong> — AWS commits $1B to Forward-Deployed Engineers for enterprise AI deployment; Etched exits stealth with $800M funding and $10B+ contracts for LLM inference chips. AI monetization accelerating while semiconductor stocks diverge from Mag7. Affects: NVDA, TSM, AVGO, GOOG, MSFT, AMZN, BOTZ, ARKQ.</p>
+
+<p>• <strong>MiCA Regulatory Exodus</strong> — July 1 deadline triggers founder flight to UAE as Binance withdraws Greek application and suspends EU services. CZ alleges political blocking despite compliance, exposing qualifying-holder uncertainty. Affects: BNB, COIN, crypto exchanges.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>COIN</strong> — Ark Invest deployed $16.6M into Coinbase, Circle, Bullish, and Robinhood during the crypto-equity selloff, signaling institutional conviction that public crypto infrastructure survives this cycle. OUSD stablecoin partnership positions Coinbase at the center of enterprise stablecoin distribution, potentially monetizing reserve yield that previously accrued only to Circle/Tether. Watch for OUSD Q4 launch details and whether Coinbase captures shared revenue upside. <a href="https://t.me/leviathan_news/20160" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/24951" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GOOG</strong> — Morgan Stanley lifts PT from $375 to $415 on AI monetization outlook, while Google secures long-term TPU contracts with Broadcom through 2031. OpenAI's 50%+ inference cost reduction paradoxically strengthens Google's position by expanding total addressable market for AI services at lower price points. Entry on any AI-narrative pullback into $360s offers asymmetric risk/reward into 2027 Cloud growth acceleration. <a href="https://t.me/theblockbeats/183619" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>TSM</strong> — Analyst projections show 40% revenue growth potential in both 2026 and 2027 driven by expanded CoWoS/SoIC capacity for AI chips, yet market undervalues 2nm/3nm production dominance. TrendForce raises Q3/Q4 DRAM contract pricing 15-20%, validating memory cycle inflection that benefits advanced packaging demand. Any pullback below $180 is a gift given the AI chip supply bottleneck remains structurally intact. <a href="https://t.me/theblockbeats/183608" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AVGO</strong> — Jefferies reinstates with $550 PT citing TPU roadmap execution and Google contract visibility through 2031. Broadcom's custom AI silicon business is the best pure-play on hyperscaler CapEx acceleration without NVDA's valuation premium. Current pullback in SOX creates entry opportunity before Q3 earnings reveal magnitude of AI ASIC revenue ramp. <a href="https://t.me/theblockbeats/183607" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA (via BOTZ/ARKQ)</strong> — Etched's $800M funding and $10B+ contracts for LLM inference chips validates specialized AI silicon market, but NVDA retains training dominance and B200/H200 deployment cycle through 2027. AWS $1B forward-deployed engineer program accelerates enterprise AI adoption, expanding NVDA's TAM. Despite inference cost reductions, training demand remains structurally supply-constrained. <a href="https://t.me/theblockbeats/183687" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/183678" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Network maturation evident with 1000+ dApps, 1B+ daily transactions (&gt;1200 TPS sustained), and 430K DAU generating $360B+ annual DEX volume. Solana-Kazakhstan $6B infrastructure partnership adds sovereign validation. Technical weakness presents accumulation window into institutional DeFi infrastructure plays before next application wave. <a href="https://t.me/theblockbeats/183686" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/183622" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>UNI/CFG (DeFi Infrastructure)</strong> — Ondo Finance integrated 430+ tokenized stocks/ETFs into Uniswap, pushing TVL past $1B with $200B+ cumulative volume. New York Life Investment Management partnering with Centrifuge for tokenized high-yield corporate bonds signals institutional TradFi embracing onchain settlement rails. These are the picks-and-shovels plays for RWA adoption. <a href="https://t.me/theblockbeats/183662" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/183636" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SBET</strong> — SharpLink aggressively accumulating ETH at ~$1,611 avg, now holding 886,725 ETH after raising $75M for continued exposure. Corporate treasury strategy in ETH (rather than BTC) is contrarian and positions them for ETH beta into next cycle. Risk is ETH/BTC continues underperforming, but accumulation at these levels will look genius if ETH finds bottom. <a href="https://t.me/wublockchainenglish/24949" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>MSTR</strong> — TD Cowen slashed target 35% from $400 to $260, cutting 2026 BTC forecast to $100k and citing valuation disconnect. Strategy announced plans to potentially sell up to $1.25B BTC to cover preferreds and dividends, marking first supply overhang from the corporate treasury playbook. Bitcoin ETFs dumped record 71,600 BTC ($4B) this month while institutional bid evaporates. Premium to NAV compression likely accelerates. <a href="https://t.me/theblockbeats/183645" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/183627" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/TheBlock001/7073" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC/ETH (via BITO/IBIT/ETHA)</strong> — Crypto in confirmed late-stage bear with BTC sub-$59k (down 5.9%) and ETH down 7.9%, no technical bottom confirmation yet per Wintermute. ETH suffered first-ever three consecutive quarterly declines, down 25.2% in Q2. $231M Bitcoin ETF outflow and $30M Ethereum ETF outflow on June 29 show institutional capitulation accelerating. Dollar strength and AI narrative fade provide no macro support. Watch $56k BTC support; break risks Q3 capitulation into $48-52k zone. <a href="https://t.me/wublockchainenglish/24953" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/183677" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/183671" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BNB</strong> — Binance withdrew Greek MiCA application and suspends EU services ahead of July 1 deadline; CZ claims political intervention despite compliance. MiCA qualifying-holder rules creating regulatory uncertainty that's forcing crypto founders to UAE. Exchange token faces structural headwinds from EU retreat and potential contagion if other jurisdictions adopt similar frameworks. <a href="https://t.me/wublockchainenglish/24947" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/20148" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOX</strong> — Semiconductor index diverging from Magnificent 7 with historic drawdown pattern now signaling 67% probability of bear market within 3 months. This is a leading indicator breakdown that's preceded every major tech correction since 2000. Despite bullish AI thesis, technicals suggest mean reversion trade into semis is premature without sector-wide stabilization. <a href="https://t.me/theblockbeats/183650" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ME</strong> — Magic Eden faces federal lawsuit over misleading ME token utility claims; token collapsed 99.7% from $17 ATH to $0.05. Classic pump-and-dump legal exposure that signals increased scrutiny of governance token launches. NFT marketplace tokens remain structurally challenged without sustainable revenue share. <a href="https://t.me/leviathan_news/20165" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ALTCOINS (broad)</strong> — 84% of Binance altcoins trading below 200-day MA in eight-month slump; DeFi TVL halved from $327B peak to ~$129B. Binance Alpha removed 8 tokens for failing quality standards. Institutional rotation into BTC/ETH spot ETFs is crushing altseason hopes. Avoid leveraged alt exposure until BTC reclaims $65k and ETH breaks $1,800 resistance. <a href="https://t.me/wublockchainenglish/24944" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/20168" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GLD</strong> — Gold testing $3,950 support, down 29% YTD, with major banks cutting 2026 targets to $4,900-5,400 (from $6k+) due to delayed Fed cuts. Quarterly decline of 13% shows macro support evaporating. Key level is $4,100 to confirm base formation; break below $3,900 risks washout to $3,700. <a href="https://t.me/theblockbeats/183652" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/183665" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long GOOG (or via QQQ/ARKQ)</strong></p>
+
+<ul>
+<li>Rationale: Morgan Stanley $415 PT upgrade on AI monetization; OpenAI cost cuts expand TAM; AVGO TPU contracts secure through 2031. Google is the undervalued AI hyperscaler with cloud margin expansion and search moat intact. AI infrastructure spend is accelerating, not decelerating.</li>
+<li>Entry: $360-370 zone or on any tech selloff below 50-day MA</li>
+<li>Risks: Regulatory overhang, search disruption fears, broader Nasdaq correction invalidates if SPY breaks 6,900</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/183619" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/183607" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/183678" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Short MSTR (or put spreads)</strong></p>
+
+<ul>
+<li>Rationale: TD Cowen 35% target cut, potential $1.25B BTC sales to cover dividends, record ETF outflows showing institutional selling. NAV premium compression accelerates when forced seller enters illiquid BTC market. Asymmetric downside to $220-240 if BTC tests $56k.</li>
+<li>Entry: $280-290 zone or on any rally above $300</li>
+<li>Risks: BTC reversal above $65k or Benchmark's $570 bull case gains traction; cover if MSTR holds $250 support</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/183645" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/183627" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/TheBlock001/7073" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long COIN (selective exposure)</strong></p>
+
+<ul>
+<li>Rationale: OUSD stablecoin partnership positions Coinbase to capture enterprise stablecoin distribution and shared reserve yield, potentially unlocking $500M+ annual revenue stream. Ark Invest adding $16.6M during selloff validates institutional thesis. Crypto winter creates entry point before OUSD Q4 launch.</li>
+<li>Entry: Sub-$180 or on flush below $170</li>
+<li>Risks: Crypto bear extends into Q4, regulatory uncertainty, Circle equity value compression; invalidate below $150</li>
+<li>Related signals: <a href="https://t.me/leviathan_news/20160" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/zoomerfiedNews/1430" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/183656" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long TSM (or via SOXL with tight stops)</strong></p>
+
+<ul>
+<li>Rationale: 40% growth visibility for 2026-27 from AI chip capacity expansion; market undervalues 2nm/3nm scale; CoWoS/SoIC bottleneck remains. TrendForce DRAM pricing upgrade confirms memory cycle inflection. SOX bearish divergence creates entry opportunity before fundamental catch-up.</li>
+<li>Entry: $175-180 zone or breakout above $195 with volume confirmation</li>
+<li>Risks: China geopolitical escalation, SOX bear market scenario plays out, capex cuts from hyperscalers; stop below $165</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/183608" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/183596" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Pair Trade: Long BOTZ / Short SOX (or QQQ)</strong></p>
+
+<ul>
+<li>Rationale: AI software/application layer (represented by BOTZ robotics/AI theme) outperforms hardware as inference cost reductions expand margins. Semiconductor divergence from Mag7 creates spread opportunity. Capture AI thematic while hedging chip cycle risk.</li>
+<li>Entry: Initiate when SOX/QQQ ratio breaks June lows</li>
+<li>Risks: Hardware capex accelerates beyond expectations, spread compresses if semis catch bid; unwind if SOX retakes 50-day MA</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/183650" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/183668" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long IBIT/FBTC (tactical, small size)</strong></p>
+
+<ul>
+<li>Rationale: Contrarian entry as sovereign wealth funds accumulate BTC during dip; Goldman Lampe Private Bank bought ~€120M. Institutional capitulation creating tactical long setup into Q3. Late-stage bear markets offer best risk/reward if sized appropriately.</li>
+<li>Entry: BTC $57-58k zone or after weekly close above $62k</li>
+<li>Risks: Late-stage bear extends to Q4, $56k support breaks triggering cascade to $48-52k; cut quickly if BTC loses $56k on weekly close</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/183592" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/183639" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/TheBlock001/7069" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Short ETH via ETHA puts or futures</strong></p>
+
+<ul>
+<li>Rationale: First three-quarter consecutive decline in history, down 25.2% in Q2 with Hyperliquid bridge failures and no Pectra upgrade catalyst until Q4. ETH underperforming BTC structurally; $1,580 support critical. Break risks $1,400 retest.</li>
+<li>Entry: Rallies into $1,650-1,700 or breakdown below $1,580</li>
+<li>Risks: Pectra upgrade anticipation, institutional ETH staking products launch, DeFi summer narrative returns; cover above $1,750</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/183671" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/leviathan_news/20157" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/wublockchainenglish/24953" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>BTC $56k breakdown</strong> — Clean break below $56k on weekly close triggers capitulation scenario into $48-52k zone, invalidating all crypto longs and forcing MSTR into distressed selling. Monitor ETF flows and CME futures open interest for liquidation cascades.</p>
+
+<p>• <strong>SOX bear market confirmation</strong> — If semiconductor index loses 3,800 support with volume, 67% historical probability of tech correction materializes. This would pressure NVDA, TSM, AVGO despite bullish AI fundamentals, creating 15-20% drawdown in BOTZ/ARKQ.</p>
+
+<p>• <strong>CLARITY Act failure</strong> — House passage probability dropped from 70% to 48%; if bill dies before midterms, regulatory uncertainty extends through 2027 election cycle. Crypto equities (COIN, MSTR) face 6-12 month overhang while DeFi developers flee to offshore jurisdictions.</p>
+
+<p>• <strong>OUSD stablecoin delays or structural issues</strong> — If Open USD consortium governance creates launch friction or partners defect, Circle/Tether maintain oligopoly and COIN thesis weakens. Watch for Q3 testnet milestones and whether revenue-sharing model attracts meaningful adoption.</p>
+
+<p>📌 MACRO CONTEXT</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

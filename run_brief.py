@@ -23,7 +23,7 @@ def push_to_github(date_str: str):
     try:
         subprocess.run(["git", "config", "user.email", "bot@trading-agent.local"], check=True)
         subprocess.run(["git", "config", "user.name", "Trading Agent Bot"], check=True)
-        subprocess.run(["git", "add", "data/briefs/"], check=True)
+        subprocess.run(["git", "add", "data/briefs/", "docs/"], check=True)
         subprocess.run(["git", "commit", "-m", f"Auto: briefs for {date_str}"], check=True)
         if push_url:
             subprocess.run(["git", "push", push_url, "HEAD:main"], check=True)
@@ -56,6 +56,10 @@ async def main():
     print(f"\n✅ Saved:")
     print(f"   {path1}")
     print(f"   {path2}")
+
+    print("\nBuilding static site for GitHub Pages...")
+    from web.build_static import build
+    build()
 
     print("\nPushing to GitHub...")
     push_to_github(date_str)

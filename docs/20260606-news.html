@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 06, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260606-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260606-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — June 07, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>Anthropic's Opus 4.8 discovers $4.5B Zcash counterfeiting flaw, researcher now targeting Monero</strong><br />
+Security engineer Taylor Hornby, commissioned by Shielded Labs, used Anthropic's Claude Opus 4.8 AI model to uncover a critical vulnerability in Zcash's Orchard privacy pool that existed since May 2022 and theoretically allowed unlimited untraceable ZEC minting. The flaw was patched June 1, and Hornby has now added Monero to his audit queue, raising fresh security questions across privacy coin protocols. This discovery highlights AI's growing role in identifying complex cryptographic vulnerabilities.<br />
+<a href="https://t.me/wublockchainenglish/24648" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Stripe doubles down on AI Agent economy with payment and deployment infrastructure</strong><br />
+Stripe is positioning itself at the center of the emerging AI Agent economy by building infrastructure that spans from payment processing to autonomous deployment. The company is betting that AI agents will become primary economic actors requiring native financial rails, moving beyond traditional payment solutions to enable machine-to-machine transactions at scale.<br />
+<a href="https://t.me/theblockbeats/179936" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trump administration exploring public equity stake in leading AI companies</strong><br />
+Senior U.S. government officials have held preliminary discussions with major AI enterprises about potential government equity participation, according to three sources. The initiative, championed by U.S. Open AI Research Center CEO Altman since early 2025, aims to distribute AI-related economic benefits more broadly among the public, with returns potentially funding public purposes. The plan remains in early stages with details yet to be finalized.<br />
+<a href="https://t.me/theblockbeats/179958" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI security emerges as capital magnet with 144 funding rounds in 2025</strong><br />
+AI security startups completed 144 funding rounds in 2025, dwarfing traditional cloud security's 15 deals, as investors bet on persistent infrastructure costs around AI compliance, identity management, and governance. Google's $32B acquisition of Wiz marks its largest-ever deal, signaling the sector's maturation into a "utility-like" asset class. However, with over 300 AI security startups launched in three years but only ~10 exits, the market faces significant consolidation ahead as Microsoft, CrowdStrike, and Palo Alto Networks dominate market share.<br />
+<a href="https://t.me/theblockbeats/179964" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>HTX suspends WLFI and USD1 trading, converts user USD1 to USDT following address freeze</strong><br />
+HTX representatives stated the Trump family-backed WLFI project recently froze HTX-related on-chain addresses citing U.K. sanctions screening without sufficient communication or clear legal basis, rendering certain WLFI tokens illiquid. The platform implemented emergency protective measures by suspending WLFI trading and USD1 deposit/withdrawal services, while forcibly converting all user USD1 holdings to USDT to protect customer assets.<br />
+<a href="https://t.me/wublockchainenglish/24649" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>JuCoin's $511M reserve proof questioned as on-chain assets appear to be self-minted tokens</strong><br />
+Web3 security firm Salus's former CMO Darcy revealed that JuCoin's claimed $511M reserves (123.81% reserve ratio) primarily consist of ERC-20/BridgeToken representations on JuChain rather than genuine Circle USDC or native blockchain assets. Analysis shows the PoR address holds ~99.99% of JuChain's total USDC supply across only 14 holders, with contracts possessing mint capabilities and MINTER_ROLE permissions, raising serious questions about reserve authenticity.<br />
+<a href="https://t.me/theblockbeats/179952" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Huasheng Securities joins Futu, Tiger, and Changqiao in mainland China business wind-down</strong><br />
+Huasheng Securities notified clients that starting June 15 (Beijing time), it will suspend new position openings and fund deposits for mainland China investor accounts while maintaining sell-only and withdrawal functions. This follows similar announcements from Futu, Tiger, and Changqiao, marking an expansion of the two-year industry rectification campaign beyond the three brokers explicitly named by the CSRC on May 22.<br />
+<a href="https://t.me/theblockbeats/179937" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Bitcoin touches $59,769 as whale accumulation signals potential bottom formation</strong><br />
+Bitcoin briefly dropped below $60,000 for the first time since October 2024, hitting $59,769 before recovering to $61,091, as the crypto fear index remained at extreme fear levels (12) for consecutive days. However, on-chain analyst Murphy notes that Estimated Actual Realized Loss (EARL) and Short-Term Holder Relative Unrealized Loss (STH-RUL) metrics suggest panic is being absorbed rather than expanding—a typical bottom-formation structure. Multiple whales capitalized on the dip, with one OG whale purchasing 35,723 ETH at $1,563 average and another accumulating 78,060 ETH with 3x leverage.<br />
+<a href="https://t.me/theblockbeats/179931" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/179948</p>
+
+<p><strong>U.S. spot Bitcoin and Ethereum ETFs suffer dual outflows of $326M and $6M</strong><br />
+U.S. spot Bitcoin ETFs recorded net outflows of $326 million on June 5, extending their losing streak, while Ethereum ETFs saw $5.97 million in outflows. For the week, Bitcoin ETFs collectively shed $1.722 billion, with IBIT accounting for $1.337 billion of losses, while only MSBT and HODL recorded modest inflows.<br />
+<a href="https://t.me/wublockchainenglish/24647" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Arthur Hayes exits WLD position less than 24 hours after bullish stance, ZachXBT questions pattern</strong><br />
+BitMEX co-founder Arthur Hayes announced he sold his entire WLD position after previously expressing strong bullish conviction, prompting on-chain investigator ZachXBT to publicly question how much exit liquidity Hayes generated from followers. ZachXBT noted Hayes followed a similar pattern with NEAR, HYPE, and ZEC—publicly touting tokens before quickly exiting. WLD subsequently dropped over 20%, falling to $0.4319 and pulling market cap down to $2.247B.<br />
+<a href="https://t.me/wublockchainenglish/24650" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/179946</p>
+
+<p><strong>Glassnode co-founder identifies Bitcoin's higher-probability bottom zone between $46K-$54K</strong><br />
+Glassnode co-founder Rafael stated Bitcoin has entered a historical cycle valuation zone typically associated with market bottoms, with the higher-probability bottom range spanning $46,000 to $54,000 between CVDD and Realized Price levels. In an extreme capitulation scenario, deeper support could exist between $35,000 and $40,000, though Bitcoin drawdowns have become progressively shallower across market cycles.<br />
+<a href="https://t.me/wublockchainenglish/24653" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ethereum bulls cite Zcash exploit as validation for ETH's privacy and institutional dominance</strong><br />
+Following Zcash's Orchard vulnerability disclosure, Ethereum proponents argue ETH's growing privacy stack and institutional adoption position it as the superior home for censorship-resistant finance. Zcash's Orchard pool operated from May 2022 until the June 1 emergency fix, with Shielded Labs acknowledging past counterfeit ZEC cannot be cryptographically ruled out, though no evidence of exploitation exists.<br />
+<a href="https://t.me/leviathan_news/19423" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SpaceX IPO attracts $150B in investor demand, double the $75B fundraising target</strong><br />
+SpaceX's record-breaking IPO has secured approximately $150 billion in investor commitments, reaching 2x oversubscription ahead of its June 12 Nasdaq debut under ticker "SPCX" at $135 per share. However, pre-market trading shows the stock down 15.15% over 7 days to $164.21, and analysts question the $1.75T valuation, which would require revenue to grow 60-fold to $1.1T by 2035—an unprecedented 50% annual growth rate.<br />
+<a href="https://t.me/theblockbeats/179949" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/179951</p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>RARI Chain announces sunset, gives users until June 14 to bridge assets to Ethereum</strong><br />
+RARI Chain will begin sunsetting as RARI redirects resources toward creator economy initiatives and away from maintaining a separate chain. Users must bridge their assets back to Ethereum by June 14 to avoid being stranded on the deprecated network.<br />
+<a href="https://t.me/leviathan_news/19429" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aave unveils Glass design language across web and mobile to unify $32B protocol interfaces</strong><br />
+Aave published an in-depth look at Aave Glass, its Apple-inspired design system now deployed across web and mobile platforms to create unified interfaces for the protocol. With $22.4B supplied and $9.6B borrowed, the UI redesign transforms user experience into critical risk infrastructure, employing cross-browser feDisplacementMap/WebGL components to enhance protocol usability at scale.<br />
+<a href="https://t.me/leviathan_news/19426" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Reflect launches permissionless yield-bearing stablecoin framework on Solana's $14.85B stablecoin ecosystem</strong><br />
+Reflect introduced a permissionless framework for yield-bearing stablecoins on Solana, replacing custodial allocators with transparent on-chain risk models and automated capital deployment. With $14.85B of stablecoins already on Solana, USDC+ routing collateral through Drift/Kamino/Jupiter-style borrow demand could transform idle float into productive yield, bringing DeFi-native rates to mainstream users.<br />
+<a href="https://t.me/leviathan_news/19421" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solana SIMD-0553 targets 7,500-9,000 SOL/day burn with resource-based transaction fees</strong><br />
+Draft SIMD-0553 would restructure Solana's current 5,000-lamport per-signature fee into a 2,500-lamport inclusion fee for leaders and a new requested<em>cost-based burn mechanism. The proposal aims to increase daily SOL burns to 7,500-9,000 SOL while introducing more granular fee markets tied to actual resource consumption.<br />
+<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></em>news/19422</p>
+
+<p><strong>Monad proposes cutting consensus vote interval to 300ms, accelerating block finalization</strong><br />
+Monad development team Category Labs published MIP-12 proposing to reduce network consensus vote pace from 400ms to 300ms to accelerate block confirmation speed. The adjustment would lower transaction limits from 5,000 to 3,750 per block, reduce block proposal gas limits from 200M to 150M, and cut block rewards from 25 MON to 18 MON, requiring a hard fork for implementation.<br />
+<a href="https://t.me/theblockbeats/179967" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Andre Cronje's FT platform sees only $50K in liquidations during first major drawdown</strong><br />
+Sonic co-founder Andre Cronje revealed that derivatives platform FT (FlyingTulip) experienced only approximately $50,000 in liquidations during its first major market correction, with average liquidation amounts ranging from $200 to $2,000. Using an equity account borrowing model based on net risk calculation rather than discounted collateral, FT achieved 10-20x less liquidation volume than traditional LTV-based systems would have generated.<br />
+<a href="https://t.me/theblockbeats/179965" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>Tether appoints independent director to Twenty One Capital audit committee after SoftBank stake acquisition</strong><br />
+Tether announced it has designated a new independent director to Twenty One Capital's (XXI) board of directors to refill an audit committee vacancy created when SoftBank exited its stake in the Bitcoin treasury firm holding over 43,500 BTC. The appointment complies with SEC Rule 10A-3 and NYSE listing rule independence requirements, restoring full audit oversight structure.<br />
+<a href="https://t.me/leviathan_news/19428" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. House passes war powers resolution limiting Trump on Iran, but measure lacks legal force</strong><br />
+The U.S. House of Representatives passed a concurrent resolution 215-208 requiring President Trump to halt military action against Iran without congressional authorization, with 4 Republicans joining Democrats. However, as a concurrent resolution rather than joint resolution, it carries no legal weight even if the Senate approves, and Trump is not obligated to comply. The White House called the measure "unconstitutional."<br />
+<a href="https://t.me/theblockbeats/179970" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trump sets 60-day negotiation deadline for Iran deal as Middle East tensions persist</strong><br />
+President Trump told mediators he will not accept negotiations exceeding 60 days and demanded Iran respond quickly to proposals, while Iranian officials seek a three-month technical discussion period on nuclear document details. On day 100 of the U.S.-Iran war, small-scale hostilities resumed as U.S. forces intercepted Iranian missiles targeting Kuwait and Bahrain facilities while striking Iranian coastal radar installations.<br />
+<a href="https://t.me/theblockbeats/179953" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/179995</p>
+
+<p><strong>Russian Central Bank may limit retail investors to BTC, ETH, and USDT trading</strong><br />
+Russian Central Bank First Deputy Governor Vladimir Chistyukhin stated the central bank plans to restrict crypto assets available to non-professional and non-qualified investors to BTC, ETH, and USDT, with no plans to expand the list. Russia also plans to set an annual purchase limit of approximately $4,100 for ordinary investors buying crypto through a single broker or exchange.<br />
+<a href="https://t.me/wublockchainenglish/24645" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>China court overturns cryptocurrency theft sentencing, rules stolen virtual currency value equals victim's actual cost</strong><br />
+Hubei Province Wuhan Intermediate Court overturned a first-instance ruling in a 660,000 yuan (~$66,000) virtual currency theft case, adopting the prosecution's argument that stolen cryptocurrency value should be calculated based on victims' actual purchase costs rather than discounted estimates. The main perpetrator's sentence was increased from 8 years to 10 years and 6 months, establishing precedent for virtual asset valuation in Chinese criminal cases.<br />
+<a href="https://t.me/theblockbeats/179935" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other</p>
+
+<p><strong>2011 Bitcoin wallet moves 35.55 BTC after OP_RETURN notice in $285B abandoned-BTC lawsuit</strong><br />
+A Bitcoin address dormant since March 2011 moved 35.55 BTC ($2.54M) on June 2, sending 15 BTC to a new address shortly after receiving an on-chain legal notice via OP<em>RETURN in connection with Noah Doe's lawsuit seeking ownership of ~380,000 BTC worth $285B under New York's abandoned property law. Galaxy Research identified the address as defendant #38215 in the case, stating "clearly, these bitcoin are not actually abandoned."<br />
+<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></em>news/19430 / https://t.me/theblockbeats/179976</p>
+
+<p><strong>Ethereum co-founder Joseph Lubin's three addresses hold 412,430 ETH with $2.59B DAI borrowed, health ratio briefly below 1.2</strong><br />
+Three addresses likely belonging to Ethereum co-founder Joseph Lubin collectively pledged 412,430 ETH worth $6.53B to borrow 2.59B DAI, with the position's health ratio briefly falling below 1.2 yesterday. However, liquidation risk remains extremely low given Lubin acquired 540,000 ETH via 2015 ICO at costs as low as $0.31, and he added 110,000 ETH collateral during yesterday's ETH decline to restore health ratio above 1.48.<br />
+<a href="https://t.me/theblockbeats/180006" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hex Trust-linked entities accumulate 182M H tokens worth $121M</strong><br />
+Hex Trust-related entities continued accumulating H tokens over the past 24 hours, purchasing an additional 13.01M worth of tokens and bringing total holdings to 182M H (6.42% of circulating supply) valued at $121M. Over the past two days, these addresses have withdrawn 56.66M H tokens worth $40.7M from Binance.<br />
+<a href="https://t.me/theblockbeats/180005" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Zcash proposes Ironwood upgrade for late July, introducing new privacy pool and enhanced supply verifiability</strong><br />
+Zcash Open Development Lab (ZODL) alongside Tachyon, Valar Group, Zcash Foundation, and Shielded Labs proposed the "Ironwood" network upgrade scheduled for late July 2026. The upgrade will maintain the existing Orchard protocol while adding formal verification and independent security audits, plus a "Turnstile" mechanism to verify all ZEC transferred from Orchard to Ironwood, enabling anyone to audit Zcash's circulating supply.<br />
+<a href="https://t.me/theblockbeats/179984" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Do Kwon serving nearly 4 years in prison as Terra Luna Classic community maintains revival hopes</strong><br />
+Despite Terraform Labs founder Do Kwon serving a 15-year sentence for the ~$40B Terra collapse, the abandoned Terra Luna Classic (LUNC) chain persists with dedicated community members continuing network maintenance and hoping for "one of crypto's greatest comebacks." A core member known as "Vegas" lost ~$50,000 in the collapse but continues participating in validator operations, governance proposals, and developer coordination despite long-term internal power struggles and fraud accusations.<br />
+<a href="https://t.me/theblockbeats/179983" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

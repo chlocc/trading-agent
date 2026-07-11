@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 08, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260608-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260608-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — June 08, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>NVIDIA Partners with SK Hynix and Hyundai on AI Infrastructure and Robotics</strong><br />
+NVIDIA CEO Jensen Huang announced multi-year collaborations with SK Hynix and SK Telecom, plus expanded cooperation with Hyundai Motor Group on physical AI and humanoid robots. The partnerships include the "AI Valley" project with ~$90 billion investment covering AI data centers, robotics manufacturing, and hydrogen infrastructure, positioning South Korea for potential billions in AI-related business opportunities.<br />
+<a href="https://t.me/theblockbeats/180194" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Intel Surges 10%+ Pre-Market on Google TPU Order and Foundry Interest</strong><br />
+Intel stock jumped over 14% in pre-market trading after reports that Google placed an order for 3+ million TPUs and that both Google and NVIDIA are evaluating Intel as a backup chip manufacturing partner. The news signals potential diversification in AI supply chains beyond TSMC, with Intel's advanced 18A process and packaging technology under consideration.<br />
+<a href="https://t.me/theblockbeats/180219" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI Reportedly Overhauling ChatGPT Into "Superapp" Ahead of Potential IPO</strong><br />
+OpenAI is transforming ChatGPT into a comprehensive platform integrating coding tools and AI agents as it prepares for a possible IPO, according to Reuters. The company is shifting from SaaS-style subscriptions to compute-metered pricing with $100 Pro tiers and token-based Codex credits, signaling a move toward enterprise-scale AI infrastructure monetization.<br />
+<a href="https://t.me/leviathan_news/19440" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic's Interview Process Scrutinizes Candidate Motivations Beyond Technical Skills</strong><br />
+An analysis reveals that Anthropic actively screens candidates based on their philosophical alignment with AI safety principles, with the company asking applicants to explicitly discuss their views on AI's societal impact. The approach reflects the company's emphasis on mission-driven hiring as it navigates growth amid intensifying AI competition.<br />
+<a href="https://t.me/theblockbeats/180173" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Apple WWDC to Feature Major AI Strategy Reset as Tim Cook's Final Keynote</strong><br />
+Apple's Worldwide Developers Conference kicks off June 8 with Tim Cook's last keynote as CEO before transitioning to Executive Chairman in September. The event will showcase a revamped Siri codenamed "Campo," multi-modal AI assistants, third-party model integration (including Google Gemini and Claude), and new developer frameworks aimed at reclaiming Apple's position in the AI race.<br />
+<a href="https://t.me/theblockbeats/180216" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>China's Mindverse Open-Sources 749B-Parameter Agent Model Macaron-V1</strong><br />
+Mindverse's research lab Mind Lab released Macaron-V1-Preview, a 749B-parameter personal agent model based on GLM5.1 with 202K context, using a Mixture-of-LoRA architecture for modular skill deployment. The model was trained using under 300 GPUs at less than 1% the cost of comparable models, and integrates with the company's assistant app serving 2 million users.<br />
+<a href="https://t.me/theblockbeats/180191" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Big Banks Explore Stablecoin Collaboration with Stripe and Coinbase</strong><br />
+Visa and Mastercard are in discussions with Stripe and Coinbase to form a stablecoin alliance and launch a new platform, according to Fortune sources. If finalized, the partnership could significantly impact the $300+ billion stablecoin market by leveraging the payment giants' global retail networks, potentially challenging Circle's USDC dominance in regulated markets.<br />
+<a href="https://t.me/theblockbeats/180192" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Australia's Macropod Completes First Live AUDM Stablecoin Retail Payment</strong><br />
+Macropod showcased real-world stablecoin utility with its first live retail payment using AUDM (Australian Dollar stablecoin) via OpenPasskey technology. The transaction demonstrates stablecoins' potential in consumer commerce by abstracting blockchain complexity behind familiar payment flows, marking a milestone for practical digital currency adoption in Australia.<br />
+<a href="https://t.me/leviathan_news/19452" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aptos, HashKey MENA, and Daya Pilot B2B Stablecoin Corridor Between MENA and Africa</strong><br />
+Aptos Foundation partnered with HashKey MENA and Daya to establish a cross-border stablecoin payment corridor connecting the Middle East, North Africa, and African markets. The pilot aims to reduce remittance costs and transaction friction in regions with limited traditional banking infrastructure, leveraging Aptos blockchain for settlement.<br />
+<a href="https://t.me/leviathan_news/19445" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>200+ Crypto Organizations Urge Senate to Vote on CLARITY Act</strong><br />
+Coinbase, Ripple, Kraken, a16z, Circle, Binance US and over 200 crypto firms jointly called on Senate leadership to advance the CLARITY Act for a full floor vote. The industry coalition, mobilizing nearly 3 million supporters via Stand With Crypto, argues the bill would establish comprehensive federal market structure for digital assets and keep innovation onshore in the U.S.<br />
+<a href="https://t.me/wublockchainenglish/24670" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Galaxy Cuts CLARITY Act Passage Odds from 75% to 60% as Senate Schedule Tightens</strong><br />
+Galaxy Digital's Alex Thorn lowered his 2026 CLARITY Act probability from 75% to 60%, citing diminishing Senate floor time after a failed FISA reauthorization vote. The revised outlook reflects mounting legislative gridlock despite bipartisan support from the Senate Banking Committee, with the bill facing an increasingly compressed calendar.<br />
+<a href="https://t.me/leviathan_news/19442" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Liquid Mercury Selects BitGo CaaS for OCC-Regulated Custody Across Pro, OTC, and RWA Trading</strong><br />
+Liquid Mercury integrated BitGo's Custody-as-a-Service to secure its institutional trading stack including Mercury Pro, Mercury OTC, and Mercury RWA with qualified custody and settlement. The move positions BitGo's regulated infrastructure as a key enabler for institutional-grade crypto services across multiple trading verticals.<br />
+<a href="https://t.me/leviathan_news/19457" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ZachXBT: UK HTX Sanctions Render On-Chain Risk Scores "Meaningless"</strong><br />
+Blockchain investigator ZachXBT argued that UK sanctions against HTX have caused excessive address tainting, degrading the utility of compliance labels for blockchain analysis. He criticized regulators for overlooking a separate $1.25 billion laundering case while focusing on HTX, as FixedFloat announced it would suspend HTX-originated funds for additional reviews.<br />
+<a href="https://t.me/wublockchainenglish/24667" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bybit Removes IPO Subscription Limits, Opens SpaceX Pre-IPO Offering to All Users</strong><br />
+Bybit upgraded its IPO Express product to eliminate previous tier-based subscription caps, allowing all eligible users to participate in xStocks' tokenized SpaceX IPO offering without limits. The 1:1 backed tokens represent real equity, with registration and subscription running June 7-11 and spot trading launching June 12.<br />
+<a href="https://t.me/theblockbeats/180164" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Bitcoin Bounces to $63K as Short Squeeze Triggers $540M in Liquidations</strong><br />
+Bitcoin rebounded ~7.5% from Friday's $59.4K low to touch $63.8K on Monday, triggering the second-largest single-day short liquidation wave in months at $539M on Sunday alone. The rally coincided with Strategy announcing another 1,550 BTC purchase, though analysts warn the recovery is primarily driven by deleveraging rather than new positioning.<br />
+<a href="https://t.me/leviathan_news/19459" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Bitcoin ETFs See Second-Largest Weekly Outflow Ever at $1.72B</strong><br />
+U.S. spot Bitcoin ETFs recorded $1.72 billion in net outflows during the June 1-5 trading week, the second-largest weekly redemption since launch according to SoSoValue data. BlackRock's IBIT alone saw $1.34B exit, its largest weekly outflow ever, while Ether ETFs posted $173M in outflows for a fourth consecutive negative week.<br />
+<a href="https://t.me/wublockchainenglish/24666" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>JPMorgan Warns Strategy's 6.3-Month Cash Buffer Raises BTC Sale Fears</strong><br />
+JPMorgan analysts flagged that Strategy (formerly MicroStrategy) holds only enough dollar reserves to cover ~6.3 months of preferred stock dividends (~$1.7B annually), shifting their digital asset outlook from positive to cautious. The bank now sees below 50% odds for CLARITY Act passage this year and warned the company's 32 BTC sale rattled markets despite its small size.<br />
+<a href="https://t.me/leviathan_news/19446" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BitMNR Adds 126,971 ETH in One Week, Total Holdings Reach 5.54M ETH</strong><br />
+BitMNR (Bitmine) disclosed it acquired 126,971 ETH over the past week—far above its typical ~26K ETH weekly pace—bringing total holdings to 5.54 million ETH (4.59% of circulating supply). CEO Tom Lee explained the accelerated buying reflected conviction that current ETH prices don't reflect improving fundamentals, with 4.72M ETH now staked generating ~$230M annual yield.<br />
+<a href="https://t.me/wublockchainenglish/24669" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy Resumes BTC Buying After Last Week's Sale, Adds 1,550 BTC for $101M</strong><br />
+Strategy Inc. purchased 1,550 BTC for approximately $101 million during June 1-7, increasing reserves to 845,256 BTC and USD reserves from $900M to $1 billion. The move followed last week's controversial 32 BTC sale, reinforcing the company's net-accumulation narrative despite dividend funding pressures.<br />
+<a href="https://t.me/wublockchainenglish/24668" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CME Launches Bitcoin Volatility Futures as DV Chain and Monarq Execute First Trades</strong><br />
+CME Group's Bitcoin Volatility Index futures went live with inaugural block trades executed between DV Chain and Monarq Asset Management. The cash-settled contracts provide institutional traders with a new tool to hedge or speculate on crypto market turbulence, expanding the suite of regulated bitcoin derivatives.<br />
+<a href="https://t.me/leviathan_news/19453" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto Fear &amp; Greed Index Drops to 8, Deepest "Extreme Fear" Since February</strong><br />
+The crypto market sentiment index plunged to 8 (from 12 the prior day), marking the lowest reading since February 2026 and signaling intensifying capitulation. Historical data shows the index has previously bottomed near zero during bear-market lows in 2015, 2018, and 2022 before major reversals.<br />
+<a href="https://t.me/theblockbeats/180147" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Bitcoin Premium Index Negative for 21 Consecutive Days</strong><br />
+Coinbase's BTC premium index has registered negative values for 21 straight days, currently at -0.0621%, indicating sustained selling pressure from U.S. market participants. Negative premiums typically reflect declining risk appetite, rising risk-off sentiment, or capital outflows from American investors.<br />
+<a href="https://t.me/theblockbeats/180142" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Yuga Labs Rescues 68 NFTs Including 29 BAYC in Flooring Protocol White-Hat Operation</strong><br />
+Yuga Labs completed an emergency white-hat recovery after researchers discovered an exploit in Flooring Protocol's WETH-to-fpToken mechanism. The team secured 68 NFTs including 29 Bored Apes, 2 CryptoPunks, 4 Mutant Apes, and assets from Azuki, Moonbirds, and Doodles, now held in Yuga custody pending protocol fixes.<br />
+<a href="https://t.me/leviathan_news/19456" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bittensor Proposes "Conviction" Mechanism to Lock Subnet Operator Alpha and Enable Takeovers</strong><br />
+The TAO ecosystem introduced Conviction, an on-chain commitment system allowing Bittensor subnet operators to lock their alpha tokens, signal long-term intent, and facilitate takeovers of abandoned subnets. The proposal addresses tail-risk events like the Covenant subnet dumping ~37K TAO worth of alpha, which averaged ~0.085% daily sell pressure but spiked during forced liquidations.<br />
+<a href="https://t.me/leviathan_news/19455" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Zcash Completes Emergency 24-Hour Ironwood Upgrade to Patch Orchard Flaws</strong><br />
+The Zcash community coordinated a rapid network upgrade called Ironwood after discovering vulnerabilities in the Orchard shielded pool that risked undetectable counterfeiting. Block 3,363,426 was the cutoff; NU6.2 re-enabled the corrected circuit on June 3, restoring trustless ZEC supply verification while ~25K ZEC remains in the deprecated Sprout pool eight years later.<br />
+<a href="https://t.me/leviathan_news/19450" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Syscoin Bridge Paused After ~5B SYS Exploit via UTXO Validation Flaw</strong><br />
+Syscoin halted its Bridge following a security incident where an attacker exploited a validation issue in the UTXO Bridge path, creating ~5 billion unauthorized SYS tokens. About 4B SYS and 1B SYS were split across two major tainted addresses; the team has prepared a fix and is coordinating with exchanges to contain the impact.<br />
+<a href="https://t.me/wublockchainenglish/24660" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>UK HTX Sanctions Spark Debate Over On-Chain Compliance Tagging</strong><br />
+ZachXBT criticized the UK's sanctions against HTX for causing over-aggressive address tainting that undermines blockchain investigation tools. He argued compliance systems often fail to distinguish pre- and post-sanctions activity, and that regulators overlooked a separate $1.25B laundering case—sparking broader discussion about the efficacy of sanctions-based risk scoring in crypto.<br />
+<a href="https://t.me/wublockchainenglish/24667" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cardano Foundation Faces Scrutiny Over 1,090 BTC from 2015 ICO</strong><br />
+Crypto bankruptcy claims investor Thomas Braziel called for transparency regarding ~1,090 BTC held by the now-dissolved Isle of Man Foundation (Cardano Foundation's predecessor), which was established during the 2015 ICO with Charles Hoskinson as a supervisor. Braziel clarified he is not alleging wrongdoing but requesting disclosure of the BTC's disposition and foundation governance documents.<br />
+<a href="https://t.me/theblockbeats/180170" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>UN Development Programme Establishes Blockchain Advisory Group with Major Foundations</strong><br />
+The United Nations Development Programme (UNDP) announced a blockchain advisory group including Algorand, Arbitrum, Avalanche, Cardano, Ethereum, Stellar, Sui foundations, plus Kraken and Cointelegraph. The initiative aims to explore blockchain applications in financial inclusion, identity, supply-chain transparency, and sustainable development.<br />
+<a href="https://t.me/theblockbeats/180193" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other</p>
+
+<p><strong>South Korea KOSPI Plunges 8%, Triggers Level-1 Circuit Breaker Amid Semiconductor Rout</strong><br />
+South Korea's KOSPI index crashed over 8% to 7,484 on June 8, triggering a 20-minute trading halt—the largest single-day drop since March 4—amid heavy foreign selling of ₩543.4 billion. The rout was driven by U.S. semiconductor selloff contagion, Fed rate-hike fears, and forced ETF/futures hedging flows.<br />
+<a href="https://t.me/leviathan_news/19448" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Iran and Israel Exchange Fire, Trump Calls for "Immediate Ceasefire"</strong><br />
+Iran launched multiple missile strikes against Israel on June 8, prompting large-scale Israeli retaliation against Iranian strategic defense systems and southern infrastructure. U.S. President Trump called for an immediate ceasefire between Israel and Iran, saying peace negotiations are progressing "unless blocked by ignorance or stupidity," while Iranian officials blamed the U.S. for undermining the April truce.<br />
+<a href="https://t.me/theblockbeats/180182" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Chinese Man Sentenced to 10 Years, 9 Months for Stealing 107 BTC by Memorizing Seed Phrase</strong><br />
+A Shandong man named Zhang was convicted of theft after memorizing 11 of 12 BIP-39 seed words (plus the first letter of the 12th) by watching a client transcribe them, then brute-forcing the final word to unlock 107 BTC (~$66M at sentencing). He was sentenced to 10 years 9 months in prison and fined ¥100,000 for the sophisticated "photographic memory" heist.<br />
+<a href="https://t.me/theblockbeats/180139" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>17-Year-Old British Student Becomes Youngest on Russia Sanctions List for Crypto AML Work</strong><br />
+Alexander Browder, a 17-year-old UK high schooler, became the youngest known individual on Russia's sanctions list after exposing alleged cryptocurrency money laundering networks processing ~$110B through A7A5 in under a year. Russia accused him of spreading "disinformation"; Browder maintains "It's only the truth" and vowed the sanctions won't change his work.<br />
+<a href="https://t.me/leviathan_news/19449" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Sam Bankman-Fried Says He "Absolutely Hopes" for Presidential Pardon, Regrets Missing AI Wave</strong><br />
+Imprisoned FTX founder Sam Bankman-Fried told media he "absolutely hopes" for a presidential pardon, though he deferred questions about family lobbying efforts. He denied misappropriating customer funds, noting FTX creditors are now receiving ~170% payouts due to crypto price recovery, and expressed regret at missing the AI boom he would pursue if released.<br />
+<a href="https://t.me/theblockbeats/180222" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Citi Upgrades Global Oil &amp; Gas Outlook to "Improving," Sees Brent at $100-110 Near-Term</strong><br />
+Citigroup raised its global oil &amp; gas sector outlook to "Improving" citing recent price strength, forecasting Brent crude will hold $100-110/bbl through June-July amid Strait of Hormuz disruptions, then ease toward ~$70 by September as supply normalizes. The bank assumes no lasting damage to major oil infrastructure despite escalating Middle East tensions.<br />
+<a href="https://t.me/theblockbeats/180224" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

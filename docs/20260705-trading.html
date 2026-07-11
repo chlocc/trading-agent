@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 05, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="active">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260705-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260705-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 05, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Supercycle Intensifies</strong> — AI capex is projected to hit $1.1 trillion in 2027, exceeding US defense spending for the first time. This isn't just about GPUs anymore: data center rental commitments have reached $850B, storage chips face structural shortages, and memory fab buildouts are accelerating globally. Key plays: NVDA, MU, META, MSFT, GOOG, SK Hynix (005930).</p>
+
+<p>• <strong>Bitcoin Institutional Narrative Shift</strong> — Michael Saylor is reframing Bitcoin's bull case around capital flows and protocol stability rather than halving cycles, while BTC breaks back above $63k after two weeks. However, spot ETFs just posted their eighth consecutive week of outflows ($527M), creating a divergence between price action and institutional flow that warrants caution. Tickers: IBIT, FBTC, COIN, MSTR.</p>
+
+<p>• <strong>Ethereum Technical Upgrade Path</strong> — Vitalik's "Lean Ethereum" roadmap promises native STARKs, quantum resistance, and 100TB scalable state by 2030, but ETH is showing inflation pressure (83,550 ETH supply increase in 30 days, 0.835% annual rate) and weak funding rates. The tech vision is bullish long-term, but near-term sentiment remains fragile. Ticker: ETHA, ETH futures.</p>
+
+<p>• <strong>Regulatory Clarity Improving</strong> — CLARITY Act odds jumped to 52% after major law enforcement opposition withdrew, signaling a potential regulatory tailwind for crypto markets in 2026. This could be the catalyst that reverses the ETF outflow trend if it gains momentum through legislative process.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>NVDA, MU, META, MSFT, GOOG</strong> — AI capital expenditure is forecast to reach $1.1 trillion in 2027, surpassing US defense spending for the first time. This represents a structural demand shift that extends beyond semiconductor manufacturing into data center infrastructure, power delivery systems, and cooling technology. The scale of this buildout suggests multi-year tailwinds for the entire AI supply chain, with particular strength in memory/storage chips where shortages are becoming acute. <a href="https://t.me/theblockbeats/184371" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MU, NVDA</strong> — Micron is committing $93 billion to a new Japan HBM memory fab targeting 2028 production, while global storage chip shortages intensify. A prominent trader flagged AI storage demand surge and declining data lifecycle requirements as key inflection signals driving heavy positioning in memory stocks. This aligns with SK Hynix's $29B IPO next week, which is explicitly targeting AI-focused investors. The memory supply/demand imbalance appears structural, not cyclical. <a href="https://t.me/theblockbeats/184307" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184358" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>META, MSFT, ORCL</strong> — Tech giants' data center rental commitments have hit a record $850 billion, with Meta and Microsoft leading the infrastructure buildout. This represents locked-in demand for semiconductors, cooling systems, and power infrastructure through the end of the decade. The commitment scale suggests these companies view AI infrastructure as strategic moats worth any near-term margin pressure. <a href="https://t.me/theblockbeats/184332" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — Bitcoin broke above $63k for the first time in two weeks, recovering June losses and showing renewed momentum. Michael Saylor is publicly repositioning Bitcoin's narrative away from halving cycles toward capital market expansion and protocol stability, arguing that institutional flows will dominate the next decade. His emphasis on Bitcoin's "hard consensus" as an immune system protecting network integrity is aimed at institutional buyers concerned about governance risk. However, this bullish narrative faces headwinds from eight consecutive weeks of ETF outflows. <a href="https://t.me/theblockbeats/184311" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25010" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184344" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184337" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — Vitalik Buterin outlined the "Lean Ethereum" roadmap, targeting native STARKs, quantum resistance, and 100TB scalable state by 2030. This represents the most ambitious technical upgrade path in Ethereum's history and addresses key criticisms around scalability and long-term security. The roadmap should support L2 ecosystem growth and institutional adoption if execution remains on track. <a href="https://t.me/wublockchainenglish/25007" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>XRP</strong> — XRP surged to become the 5th largest cryptocurrency by market cap during Bitcoin's broader recovery move. This represents a significant shift in altcoin rankings and suggests capital rotation into large-cap alts with regulatory clarity is underway. <a href="https://t.me/theblockbeats/184311" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto Regulation</strong> — The CLARITY Act's probability of becoming law in 2026 jumped to 52% after a major law enforcement group withdrew its opposition. This represents a material improvement in the regulatory path and could serve as the catalyst to reverse the eight-week ETF outflow streak if the bill continues to advance through the legislative process. <a href="https://t.me/theblockbeats/184351" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BTC, ETH (ETFs)</strong> — Spot BTC and ETH ETFs just recorded their eighth consecutive week of net outflows, totaling approximately $527 million. This is the longest outflow streak since inception and signals weak institutional demand despite Bitcoin's price recovery above $63k. The divergence between price action and ETF flows suggests retail/whale accumulation is driving the bounce, not institutional buyers. This creates vulnerability to reversal if macro conditions deteriorate. <a href="https://t.me/theblockbeats/184305" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>APT</strong> — Aptos disclosed a critical vulnerability in its Move VM that could have exposed approximately $70 billion in crypto assets to attack. While the bug was patched quickly with no actual user losses, the disclosure reveals smart contract platform risk that may drive capital toward more battle-tested chains. Security researchers are likely scrutinizing other Move-based chains for similar vulnerabilities, creating near-term overhang. <a href="https://t.me/leviathan_news/20370" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184323" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SK, MU (Leveraged ETF Risk)</strong> — SK Hynix inverse and leveraged ETFs are massively overlevered with $19B in AUM against only $45M in daily stock volume. This creates dangerous concentration risk in semiconductor plays, as any significant move in SK Hynix could trigger forced deleveraging cascades across the entire memory chip sector. Similar dynamics exist in other single-stock leveraged products tracking TSLA and NVDA. <a href="https://t.me/theblockbeats/184348" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Fed Rate Cut Timeline</strong> — Fed rate cut expectations have been pushed back significantly: no hikes needed, but the first 25bp cut is now expected in October 2026, with potential for three cuts in 2027 as inflation pressures ease. This "higher for longer" scenario pressures risk assets and explains the sustained ETF outflows. The timeline extends macro headwinds for another 15+ months. <a href="https://t.me/theblockbeats/184364" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long BOTZ or ARKQ (AI/Robotics ETFs)</strong></p>
+
+<ul>
+<li>Rationale: The $1.1T AI capex forecast and $850B data center commitment wave represents the largest infrastructure buildout in tech history. Rather than picking individual winners in an overheated market, gain diversified exposure to semiconductors, data centers, and AI infrastructure through thematic ETFs. BOTZ and ARKQ offer exposure to NVDA, MSFT, GOOG without concentration risk.</li>
+<li>Entry: Scale in over next 2-3 weeks on any broad tech pullbacks of 2-3%</li>
+<li>Risks: Invalidated if Fed signals additional rate hikes or AI capex guidance is cut in Q3 earnings</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/184371" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184332" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long MU (Micron Technology)</strong></p>
+
+<ul>
+<li>Rationale: Micron is committing $93B to HBM memory fab expansion while structural storage chip shortages intensify. A respected trader called AI storage demand and declining data lifecycle as the key inflection signals. SK Hynix's $29B IPO next week will validate memory sector demand and likely lift all boats. Micron offers cleaner exposure than overleveraged SK Hynix ETFs.</li>
+<li>Entry: Establish core position at current levels; add on any pullback to $95-97 range</li>
+<li>Risks: Invalidated if SK Hynix IPO is postponed or prices below range, signaling demand concerns</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/184307" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184358" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long IBIT or FBTC (Bitcoin ETFs) vs. Short BTC Futures (Basis Trade)</strong></p>
+
+<ul>
+<li>Rationale: Eight consecutive weeks of ETF outflows have likely created attractive entry points in spot Bitcoin ETFs while BTC futures may be trading at premium. If CLARITY Act momentum continues (now 52% odds), institutional flows should reverse sharply. Pair spot ETF long with short futures to capture basis convergence while remaining market-neutral.</li>
+<li>Entry: Long spot ETFs at current levels; short front-month futures if basis exceeds 3% annualized</li>
+<li>Risks: Invalidated if CLARITY Act stalls or additional regulatory headwinds emerge</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/184305" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184351" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184311" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Short APT (Aptos) via Perpetual Futures</strong></p>
+
+<ul>
+<li>Rationale: Critical Move VM vulnerability disclosed affecting $70B in potential exposure. Even though patched, security researchers will scrutinize other Move-based chains, and DeFi protocols may reduce Aptos exposure. Smart contract platform competition is intense, and security incidents create lasting reputation damage.</li>
+<li>Entry: Short on any relief rallies above recent highs; target 10-15% downside</li>
+<li>Risks: Invalidated if Aptos announces major institutional partnerships or security audit showing industry-leading standards</li>
+<li>Related signals: <a href="https://t.me/leviathan_news/20370" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184323" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Pairs Trade: Long META vs. Short COIN</strong></p>
+
+<ul>
+<li>Rationale: Meta is at the center of the AI infrastructure buildout ($850B data center commitments) while crypto faces eight weeks of ETF outflows and extended Fed timeline. This pairs trade captures the capital rotation from crypto to AI while remaining sector-neutral. Meta has stronger near-term catalysts while COIN faces continued institutional outflow headwinds.</li>
+<li>Entry: Establish 1:1 dollar-neutral position at current levels</li>
+<li>Risks: Invalidated if CLARITY Act passes House/Senate or crypto ETF flows reverse sharply</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/184332" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184305" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184364" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long ETHA (Ethereum ETF) — Small Speculative Position</strong></p>
+
+<ul>
+<li>Rationale: Vitalik's Lean Ethereum roadmap (native STARKs, quantum resistance, 100TB state by 2030) is the most ambitious technical upgrade in Ethereum's history. While near-term sentiment is weak (eight weeks of outflows, rising inflation), the long-term technical vision supports L2 ecosystem growth. Position for 6-12 month time horizon.</li>
+<li>Entry: Small position at current levels; scale up if ETH funding rates turn positive and ETF flows reverse</li>
+<li>Risks: Invalidated if Ethereum developers miss major roadmap milestones or L2 competition intensifies</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25007" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184305" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Avoid SK Hynix Leveraged Products; Consider Direct Equity Instead</strong></p>
+
+<ul>
+<li>Rationale: SK Hynix inverse/leveraged ETFs are catastrophically overlevered ($19B AUM vs. $45M daily volume), creating massive concentration risk. The $29B IPO next week should be positive, but leveraged products face forced deleveraging risk on any volatility. If bullish on memory chips, play it through MU or direct SK equity, not leveraged ETFs.</li>
+<li>Entry: N/A — this is a risk avoidance trade</li>
+<li>Risks: Leveraged ETF holders face liquidation cascades on 5-10% adverse moves</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/184348" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184369" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>SK Hynix IPO Performance</strong> — The $29B SK Hynix IPO next week is a critical test of AI/memory chip demand. If it prices below range or trades poorly in the aftermarket, it signals investor fatigue with semiconductor valuations and could trigger broader sector weakness. Watch for pricing announcement and first-day performance.</p>
+
+<p>• <strong>Fed Dot Plot Shift</strong> — Current expectations are for first rate cut in October 2026, but any hawkish shift in Fed communications (additional hikes needed, cuts delayed to 2027) would extend the "higher for longer" regime and pressure both crypto and high-multiple tech stocks. July FOMC minutes and Powell speeches are critical.</p>
+
+<p>• <strong>Leveraged ETF Deleveraging Cascades</strong> — With $19B in SK Hynix leveraged products against only $45M daily volume, any 5-10% adverse move could trigger forced deleveraging that spills over into NVDA, MU, and broader semiconductor names. Monitor ETF AUM/NAV divergences and unusual options activity.</p>
+
+<p>• <strong>CLARITY Act Legislative Progress</strong> — Now at 52% odds of becoming law, any stall in the legislative process or renewed opposition would validate the eight-week ETF outflow trend and pressure crypto broadly. Track House/Senate committee actions and lobbying developments.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Markets are experiencing a dramatic capital rotation from crypto to AI infrastructure, driven by the largest tech buildout in history ($1.1T AI capex by 2027) colliding with extended Fed tightening (first cut pushed to October 2026). Bitcoin is recovering on narrative shifts and technical support, but eight consecutive weeks of ETF outflows reveal weak institutional conviction. The key question for the next quarter: can improving regulatory clarity (CLARITY Act at 52%) reverse institutional flows before Fed timeline headwinds intensify? Memory chips and data center infrastructure offer the cleanest risk/reward as structural shortages meet record capex commitments.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+42 signals | 19 high-confidence | 12 bullish | 6 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

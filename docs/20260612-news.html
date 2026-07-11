@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 12, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260612-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260612-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — June 12, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>Appeals Court Upholds Sam Bankman-Fried's 25-Year Sentence in FTX Fraud Case</strong><br />
+A U.S. appeals court has rejected Sam Bankman-Fried's attempt to overturn his conviction and 25-year prison sentence for orchestrating one of the largest financial frauds in crypto history. The decision cements a landmark legal precedent for accountability in the digital asset sector and closes the door on SBF's bid for a new trial. This ruling signals that crypto founders cannot evade consequences for fraud under the guise of innovation.<br />
+<a href="https://t.me/leviathan_news/19610" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/zoomerfiedNews/1408" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Poland Vetoes MiCA Compliance Bill for Third Time, Weeks Before EU Deadline</strong><br />
+Poland's president has vetoed the country's crypto bill for the third time, leaving the nation as the EU's last holdout on MiCA implementation just weeks before the July 1 deadline. The repeated rejection threatens to isolate Polish crypto firms from the pan-European regulatory framework and could trigger enforcement actions from Brussels. Poland's resistance underscores ongoing political friction over digital asset oversight within the bloc.<br />
+<a href="https://t.me/leviathan_news/19608" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Community Banks Launch Ad Campaign Against Clarity Act Stablecoin Provisions</strong><br />
+Over 200 community banks are pushing back against the proposed Clarity Act's stablecoin reward mechanisms, warning that crypto incentives could siphon deposits away from local lenders. The lobbying blitz argues that $315 billion in existing USD stablecoins already pose a balance-sheet threat, and new "bona fide activity" exemptions could accelerate fund outflows. The battle highlights the tension between crypto innovation and traditional banking interests as Congress weighs landmark stablecoin legislation.<br />
+<a href="https://t.me/theblockbeats/180902" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/wublockchainenglish/24707" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CFTC Chair Pushes for Expanded Crypto Authority as Sole Commissioner</strong><br />
+CFTC Chair Michael Selig, currently the agency's only sitting commissioner, is wielding unprecedented influence over crypto, prediction markets, and derivatives regulation. In his first six months, Selig has greenlit innovative products and shifted enforcement priorities toward a more permissive stance, with Congress now considering legislation to grant the CFTC sweeping authority over crypto spot markets. His singular position gives him de facto veto power over major regulatory decisions at a critical inflection point for U.S. digital asset policy.<br />
+<a href="https://t.me/wublockchainenglish/24707" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SEC's Proposed NMS Rule Scrapping Could Open Floodgates for DeFi Equity Trading</strong><br />
+The SEC is considering eliminating National Market System rules, a move that could fundamentally enable DeFi market makers to trade tokenized U.S. stocks at scale. Rule 611 currently makes on-chain equity pools illegal by design, as Uniswap-style fills can slip away from the National Best Bid and Offer before blockchain settlement. If the SEC swaps order protection for a disclosure-only regime, it would remove the structural barrier preventing native on-chain stock trading and potentially unlock a massive new DeFi vertical.<br />
+<a href="https://t.me/leviathan_news/19593" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Gensler Files Court Brief: Prediction Markets Should Not Bypass State Gambling Laws</strong><br />
+Former SEC Chair Gary Gensler, joined by industry groups, submitted an amicus brief arguing that prediction markets should not be classified as federal financial derivatives that preempt state gambling regulation. The filing targets a case involving Kalshi and the state of Ohio, with Gensler asserting that sports event contracts lack hedging attributes and were never intended to fall under CFTC jurisdiction. The outcome could determine whether prediction markets expand as financial instruments or remain subject to state-level gaming oversight, with potential Supreme Court implications.<br />
+<a href="https://t.me/theblockbeats/180878" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trump Cancels Planned Iran Strike, Claims Nuclear Deal Near Final Signing</strong><br />
+President Donald Trump announced the cancellation of planned military strikes on Iran after negotiations reached Iran's top leadership, with the U.S., Israel, Saudi Arabia, UAE, Qatar, Turkey, Pakistan, Bahrain, Kuwait, Jordan, and Egypt approving a framework agreement. The deal — potentially named the "Istanbul Declaration" — is expected to be signed in Geneva or Vienna as soon as this Sunday, with Vice President Vance set to attend. White House officials say the agreement mandates destruction of nuclear materials, dismantling of nuclear programs, and no release of frozen assets until Iran complies, though Iranian officials have not yet confirmed terms.<br />
+<a href="https://t.me/wublockchainenglish/24706" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/theblockbeats/180948" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>Anthropic, OpenAI, and Google Executives to Attend G7 Summit</strong><br />
+Sam Altman (OpenAI), Demis Hassabis (Google DeepMind), and Dario Amodei (Anthropic) will attend next week's G7 summit in France, signaling AI's elevation to a top-tier geopolitical agenda item. The trio's presence at a gathering of world leaders underscores the strategic importance governments now assign to frontier AI development and governance. This marks one of the highest-profile diplomatic engagements for the AI industry to date.<br />
+<a href="https://t.me/theblockbeats/180893" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI CEO Sam Altman Cancels Abu Dhabi Trip Amid Regional Tensions</strong><br />
+Sam Altman has scrapped a planned visit to Abu Dhabi, where he was set to meet executives from Mubadala, G42, MGX, and ADNOC ahead of OpenAI's anticipated public market debut. The cancellation comes amid escalating Iran-related tensions in the region, though no official reason has been provided. The trip was seen as critical for securing Gulf capital and AI infrastructure partnerships.<br />
+<a href="https://t.me/theblockbeats/180930" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Mistral AI in Talks for €20 Billion Funding Round</strong><br />
+European AI leader Mistral AI is negotiating a new financing round at a valuation of approximately €20 billion ($21.7 billion), up from €11.7 billion post-money after its September 2025 Series C led by ASML. If completed, the deal would cement Mistral as Europe's most valuable private AI company and signal robust appetite for non-U.S. frontier model developers. The round reflects intensifying competition for compute and talent in the global AI race.<br />
+<a href="https://t.me/theblockbeats/180942" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVIDIA Begins Pitching Vera CPU to Chinese Customers, Starting at $20K Per Chip</strong><br />
+NVIDIA has started marketing its new Vera CPU for AI data centers to Chinese clients, with initial shipments possible by August and single-chip pricing exceeding $20,000. A major Chinese cloud provider has already ordered over 300 dual-Vera servers for overseas deployment and testing, with future domestic rollout contingent on evaluation results. The push comes as NVIDIA's China market share has collapsed to near zero following H200 export restrictions, with Vera positioned as a workaround through its standalone CPU design rather than integrated GPU architecture.<br />
+<a href="https://t.me/theblockbeats/180892" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SerenAI Integrates Fable5 Planner + GPT-5.5 Executor to Cut User Costs</strong><br />
+SerenAI's new SerenDesktop release natively combines Fable5 as a planning layer with GPT-5.5 as an execution engine, enabling users to save money by routing expensive reasoning tasks to the cheaper model. Planner/executor architecture mirrors RFQ logic for AI agents: pay the premium model for pathfinding, then push deterministic work to budget inference. Fable5 pricing is set to increase on June 23, adding urgency for early adopters.<br />
+<a href="https://t.me/leviathan_news/19599" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Italy Deploys First Neutral-Atom Quantum Computer via Pasqal</strong><br />
+Pasqal has launched a 140-qubit neutral-atom quantum system in Italy, marking the country's first quantum computer and Pasqal's third European deployment. The machine sits behind Leonardo's HPC scheduler, positioning quantum capacity in the same procurement pipeline as GPUs and offering subsidized accelerator access under sovereign computing frameworks. The rollout reflects Europe's push to build domestic quantum infrastructure independent of U.S. and Chinese suppliers.<br />
+<a href="https://t.me/leviathan_news/19591" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Wall Street Banks Restrict Leverage on Asian Chip Stocks After Rally</strong><br />
+Citigroup, Morgan Stanley, and Goldman Sachs have tightened margin requirements and reduced exposure limits for hedge funds trading SK Hynix, Samsung Electronics, and TSMC via derivatives, citing overheating risk after a sharp 2026 rally. Some banks are rejecting new swap requests outright or evaluating on a case-by-case basis, with SK Hynix down 7% intraday and Samsung off 4.5% from session highs. The curbs signal Wall Street's concern over crowded positioning and potential mean reversion in the AI semiconductor trade.<br />
+<a href="https://t.me/theblockbeats/180883" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>MassPay Partners with Coinbase to Enable Stablecoin-Powered Business Payouts</strong><br />
+MassPay and Coinbase have teamed up to offer businesses stablecoin-based payout infrastructure, with the platform processing 75.4 million transactions worth $24.2 million over the past 30 days. While dollar volumes remain modest, the integration pushes USDC from exchange balances into payment middleware, demonstrating Coinbase's broader strategy to monetize its stablecoin beyond trading. The move positions USDC as enterprise payment rails rather than purely speculative collateral.<br />
+<a href="https://t.me/wublockchainenglish/24709" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/theblockbeats/180898" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Circle Transfers $4.4B USDC to Coinbase via HyperEVM in Largest On-Chain Move</strong><br />
+Circle moved 4.397 billion USDC to a Coinbase address over Hyperliquid's HyperEVM network in the largest single on-chain USDC transfer on record. The transaction is part of Coinbase's role as the official USDC treasury provider for Hyperliquid, where USDC serves as the ecosystem's primary quote and settlement asset. The size — roughly 73% of Hyperliquid L1's current USDC supply per DeFiLlama — underscores the scale of institutional stablecoin infrastructure being deployed on emerging L1s.<br />
+<a href="https://t.me/leviathan_news/19601" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/wublockchainenglish/24715" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/theblockbeats/180919" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether Freezes $72M After $120M USDT Trail Routed Through Monero</strong><br />
+Tether has blacklisted an address holding 72 million USDT following on-chain forensics linking it to a 120.2 million USDT wallet that split funds through Monero buys, KuCoin deposits, instant swaps, and Near Intents. The entity also placed large Monero orders, helping drive XMR from $330 to $438 in a matter of hours. The freeze highlights Tether's ability to intervene in suspected money laundering activity even after funds have been mixed through privacy protocols.<br />
+<a href="https://t.me/leviathan_news/19605" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/wublockchainenglish/24713" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto Card Spending Hits $1.5B Monthly, But Can Neobanks Become Primary Accounts?</strong><br />
+Monthly crypto card spending has surged from $100 million to $1.5 billion, yet the figure remains a rounding error next to Amex's $1.67 trillion in 2025 billed business. Card volume alone won't make crypto apps primary accounts; the bottleneck is whether users trust neobanks for payroll, bill pay, and everyday banking beyond speculative balances. Bridging that trust gap — not just transaction throughput — will determine if crypto neobanks can compete with incumbents.<br />
+<a href="https://t.me/leviathan_news/19597" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AnomaPay Launches on Monad for Private Payments and Balance Shielding</strong><br />
+AnomaPay has gone live on Monad, offering private payment infrastructure and balance-shielded transfers as the network scales. The integration gives Monad users native privacy tooling at launch, a feature often bolted on later in L1 lifecycles. Early privacy adoption could differentiate Monad in attracting users wary of transparent on-chain activity.<br />
+<a href="https://t.me/leviathan_news/19584" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Binance Launches bStocks: 24/7 Tokenized Stock Trading with 1:1 Backing</strong><br />
+Binance has rolled out bStocks, a tokenized securities platform offering 24/7 trading of stocks and ETFs with 1:1 collateral backing. While daily proof-of-collateral addresses wrapper risk on the custody side, the hard part begins once bStocks integrate into Venus, Lista, PancakeSwap, and Aster: oracle manipulation and liquidation cascades become the real attack surface. The launch marks Binance's latest push into bridging TradFi and DeFi, but systemic risk will scale with DeFi composability.<br />
+<a href="https://t.me/leviathan_news/19603" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Launches Ethena-Backed USDe Yield Vault on Morpho</strong><br />
+Coinbase has debuted the SteakhouseFi High Yield Vault, powered by Ethena's USDe on Morpho, as the first product from its Ethena collaboration. The vault offers users leveraged exposure to USDe's funding rate arbitrage strategy, with Morpho's modular lending architecture providing the rails. The launch signals Coinbase's intent to compete in the yield-bearing stablecoin market, where Ethena has captured significant mindshare and TVL.<br />
+<a href="https://t.me/leviathan_news/19585" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/zoomerfiedNews/1407" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kraken Enables USDCx Deposits and Withdrawals on Canton Network</strong><br />
+Kraken has activated USDCx funding on Canton, allowing users to deposit and withdraw the Canton-native stablecoin through the exchange. USDCx is backed by Circle's USDC reserves, with BNY Mellon handling custody, and represents one of the first institutional-grade stablecoins purpose-built for permissioned blockchain rails. The integration gives Canton a major on/off-ramp and validates its positioning as enterprise DeFi infrastructure.<br />
+<a href="https://t.me/leviathan_news/19583" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitget Adds 108 New Stock Tokens, Including Nasdaq, GM, and EOG Energy</strong><br />
+Bitget has listed 108 new rTokens — including Nasdaq (rNDAQ), General Motors (rGM), and EOG Energy (rEOG) — expanding its tokenized equity offering across energy, healthcare, financials, and tech. The rToken standard, issued by Bitget's regulated RWA protocol Reality in partnership with broker Alpaca, connects directly to Nasdaq and NYSE liquidity pools with 1:1 asset backing and licensed custody. Users can now hold global equities as collateral for unified accounts and U-margined contracts, blending TradFi exposure with crypto capital efficiency.<br />
+<a href="https://t.me/theblockbeats/180959" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitget Enables Weekend Trading for 20 U.S. Stock Tokens</strong><br />
+Bitget's rToken stock platform has opened weekend trading for 20 popular U.S. equities, including Apple (rAAPL), NVIDIA (rNVDA), and Tesla (rTSLA). During U.S. market closures, the platform generates continuous pricing based on Friday's close, market maker quotes, and forward expectations, with limit orders and stop-loss functionality supported. To guard against abnormal volatility, the system enforces a ±20% protective band on weekend limit orders, offering 24/7 exposure while capping tail risk.<br />
+<a href="https://t.me/theblockbeats/180966" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>xStocks Supply Shortage Hits SpaceX Allocations, Kraken Confirms Partial Fills</strong><br />
+Kraken's growth team revealed that SpaceX pre-IPO allocations via xStocks came in well below expectations, with user subscription demand massively exceeding available supply. As a result, Kraken was only able to partially fulfill orders — reportedly just 4.2786 shares per user regardless of deposit size — with all unfilled portions set for full refunds. Exchanges offering xStocks or tokenized stock exposure, including Kraken, Bybit, Binance, and Bitget, are also affected, highlighting bottlenecks in tokenized equity infrastructure at scale.<br />
+<a href="https://t.me/wublockchainenglish/24722" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/theblockbeats/180961" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>KuCoin Leaves $2M Seychelles Court Award Unpaid in CoinPoker Delisting Dispute</strong><br />
+A Swiss investor claims KuCoin has yet to pay a Seychelles Supreme Court award of over $2 million tied to 21 million delisted CHP tokens. The court ruled in December 2025 that KuCoin could not treat unwithdrawn tokens as "abandoned" and ordered compensation from the exchange's Seychelles entities. KuCoin reportedly did not appear in court and has not responded to the allegations, raising questions about enforceability of offshore judgments against major exchanges.<br />
+<a href="https://t.me/leviathan_news/19606" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/wublockchainenglish/24721" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase to Unveil Next Phase of "Everything Exchange" Strategy on June 16</strong><br />
+Coinbase will host a "Take Control" event on June 16 to announce the next stage of its "Everything Exchange" initiative, which aims to unify crypto, stocks, ETFs, prediction markets, and perpetuals under one account with 24/7 trading, instant settlement, and AI investment assistance. The platform is expected to further integrate payments, lending, yield, and asset collateralization, positioning Coinbase as a full-spectrum financial operating system rather than a crypto-only venue.<br />
+<a href="https://t.me/theblockbeats/180962" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Exodus and Ondo Launch Tokenized Trading Platform on Solana</strong><br />
+Exodus and Ondo Finance have partnered to launch Exodus Markets, giving users self-custodial access to over 200 tokenized stocks, ETFs, and real-world assets via Solana. The platform includes Exodus's own stock token (EXOD) and leverages Ondo's infrastructure to bridge TradFi liquidity onto-chain. The integration positions Solana as a hub for tokenized securities alongside DeFi and payments.<br />
+<a href="https://t.me/leviathan_news/19609" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/theblockbeats/180927" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HashKey Holdings Approves HK$100M Share Buyback Program</strong><br />
+HashKey Holdings (stock code: 3887) has approved a share repurchase plan under the mandate passed at its June 11 AGM, allocating up to HK$100 million of its own funds — excluding IPO proceeds — to buy back shares in the market. The program runs until the next AGM and signals management confidence in the company's valuation amid broader crypto market volatility.<br />
+<a href="https://t.me/wublockchainenglish/24708" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>SpaceX IPO Opens at $172, Up 27% from $135 Issue Price</strong><br />
+SpaceX began trading on Nasdaq at $172 per share, delivering a 27% first-day pop from its $135 IPO price and valuing the company at roughly $2.25 trillion at the open. The debut marks the largest IPO in history at $75 billion in primary issuance and positions SpaceX as the world's seventh most valuable publicly traded company. Elon Musk retains 40.5% equity and 82.4% voting control post-IPO through a dual-class structure, cementing his long-term dominance over the company.<br />
+<a href="https://t.me/zoomerfiedNews/1409" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/theblockbeats/180964" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Polymarket Predicts SpaceX First-Day Close at $2T Valuation</strong><br />
+Polymarket's prediction market has priced SpaceX's first-day close at a $2 trillion valuation, well above the $1.77 trillion IPO pricing. The crowd forecast reflects bullish sentiment driven by extreme hype, limited float, and passive index fund buying. Whether the stock can sustain that level will test the market's appetite for growth-at-any-price narratives in the current macro environment.<br />
+<a href="https://t.me/zoomerfiedNews/1406" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SpaceX On-Chain Contracts See 64% Volume Surge, Open Interest Up 47%</strong><br />
+Over the past 24 hours, multi-platform SPCX perpetual contract volume hit $6.3 billion, up 64%, with open interest climbing 47% to $5.06 billion. Binance led with $3.05 billion in 24h volume and 37% OI growth; trade.xyz (Hyperliquid ecosystem) posted $1.4 billion in volume with 57% OI increase; OKX recorded $1.11 billion in volume and 31% OI growth; and Bitget saw $43.36 million in volume with 122% OI expansion. The surge underscores intense speculative positioning ahead of SpaceX's landmark IPO.<br />
+<a href="https://t.me/theblockbeats/180888" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>On-Chain Whale Opens $3.5M Short Position on SpaceX, Expecting Sub-$2.32T Close</strong><br />
+A Hyperliquid whale initiated a 3x leveraged short on SPCX worth $3.52 million, with an average entry of $177.70 (implying a $2.32 trillion market cap) and a liquidation price of $222 ($2.9 trillion). The position suggests the trader expects the IPO-day hype to fade and SpaceX to converge toward its $135 issue price, translating to roughly $1.77 trillion in market value. The bet runs counter to the retail FOMO narrative and could signal institutional skepticism about near-term sustainability.<br />
+<a href="https://t.me/theblockbeats/180907" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Two Major SpaceX Long Positions Rack Up Millions in Profits Ahead of IPO</strong><br />
+Two whales have built large leveraged longs on SPCX via Hyperliquid, with one holding $21.4 million notional at 2x leverage (entry $167.2, liquidation $95.12) showing $1.68 million in unrealized profit, and another at $19.38 million notional at 25x leverage (entry unknown, liquidation $164.6) sitting just 2% from liquidation. The positioning reflects divergent risk appetites: one betting on steady appreciation, the other gambling on explosive upside with razor-thin margin for error.<br />
+<a href="https://t.me/theblockbeats/180944" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/theblockbeats/180931" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin ETF Net Outflows Hit Day 5, Ethereum ETFs Day 3</strong><br />
+U.S. spot Bitcoin ETFs recorded $19.03 million in net outflows on June 11 (ET), marking the fifth consecutive day of redemptions. Spot Ethereum ETFs saw $15.89 million in net outflows, extending their streak to three days. The sustained selling pressure coincides with Bitcoin hovering in the low $60K range and reflects waning institutional appetite amid macro uncertainty.<br />
+<a href="https://t.me/wublockchainenglish/24710" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin and Ethereum Options Expire: $2.2B BTC, $290M ETH</strong><br />
+35,000 BTC options expired with a put/call ratio of 0.67, max pain at $66,000, and $2.2 billion notional value. 175,000 ETH options expired with a put/call ratio of 0.61, max pain at $1,725, and $290 million notional. Both assets traded below their pain points, though panic from the prior</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

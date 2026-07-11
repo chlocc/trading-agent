@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 17, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260617-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260617-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — June 17, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>U.S. Senate and House Reach Bipartisan Deal to Ban CBDC Through 2030</strong><br />
+A bipartisan housing bill agreement explicitly prohibits central bank digital currencies in the United States until 2030, marking a significant legislative constraint on Federal Reserve digital currency experimentation. The ban reflects ongoing congressional skepticism toward government-issued digital money amid concerns about privacy and financial surveillance.<br />
+<a href="https://t.me/TheBlock001/6980" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Gaming Industry Lobbies Congress to Block Sports Prediction Markets in Crypto Bill</strong><br />
+The American Gaming Association, Indian Gaming Association, AFL-CIO gaming unions, and tribal groups are pressing Congress to exclude sports prediction markets from pending crypto legislation. These established gambling interests view blockchain-based prediction platforms as competitive threats that could circumvent existing licensing and regulatory frameworks, potentially reshaping the legal landscape for decentralized wagering.<br />
+<a href="https://t.me/TheBlock001/6979" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/leviathan_news/19726</p>
+
+<p><strong>Bipartisan Senators Push Treasury to Preserve State Authority Under GENIUS Act</strong><br />
+U.S. senators urged the Treasury Department to uphold state-level oversight for stablecoin issuers under the GENIUS Act, warning that federal preemption could stifle innovation and create regulatory uncertainty. With $314 billion in USD stablecoin circulation, the state-supervised pathway represents a critical on-ramp for new entrants, and the legislative tug-of-war will determine whether issuers face a patchwork of state rules or a unified federal regime.<br />
+<a href="https://t.me/TheBlock001/6978" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/leviathan_news/19709</p>
+
+<p><strong>Australia High Court Rules Block Earner Crypto Yield Product Required License</strong><br />
+Australia's High Court unanimously sided with ASIC, ruling that Block Earner's crypto yield product required a financial services license under existing law. The 7-0 decision, coupled with a derivative finding, gives ASIC a clearer enforcement path ahead of the Digital Assets Framework's April 2027 launch, and sets a precedent that any CeFi yield app paying interest on crypto deposits likely falls under securities regulation.<br />
+<a href="https://t.me/TheBlock001/6981" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/leviathan_news/19731</p>
+
+<p><strong>Singapore MAS Places Bybit on Investor Alert List</strong><br />
+The Monetary Authority of Singapore added Bybit Fintech Limited to its Investor Alert List on June 17, flagging the exchange as operating without a required license. The warning registry alerts consumers to entities that may be mistaken for licensed firms, escalating regulatory pressure on unlicensed offshore platforms serving Singaporean users.<br />
+<a href="https://t.me/leviathan_news/19744" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Fairshake Crypto PAC's Barry Moore Wins Alabama GOP Senate Primary</strong><br />
+Fairshake, the crypto industry's super PAC, notched its biggest single-race expenditure of the cycle after backing Barry Moore to victory in Alabama's Republican Senate primary. The win underscores the political influence of crypto lobbying dollars as the industry seeks Congressional allies ahead of pivotal stablecoin and market structure legislation.<br />
+<a href="https://t.me/TheBlock001/6986" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BitGo Pitches MiCA-Ready Sub-Accounts to EU Firms Ahead of License Deadline</strong><br />
+BitGo Europe, authorized by Germany's BaFin, is offering Crypto-as-a-Service infrastructure to EU firms racing to comply with MiCA rules before the end-June license deadline. The move positions BitGo as a compliance lifeline for companies that need to remain operational as the EU's landmark crypto regulation takes full effect.<br />
+<a href="https://t.me/leviathan_news/19724" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. DOJ Seizes Nearly $9M USDT Linked to "Pig Butchering" Scam Network</strong><br />
+The U.S. Department of Justice froze close to $9 million in USDT tied to an organized fraud network that defrauded over 70 American victims through romance and investment scams, commonly known as "pig butchering." The seizure highlights ongoing law enforcement efforts to trace and recover crypto-denominated proceeds from transnational cybercrime rings.<br />
+<a href="https://t.me/theblockbeats/181715" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Man Pleads Guilty in $1.8 Billion HyperFund Crypto Ponzi Scheme</strong><br />
+Rodney Burton admitted to conspiring to operate unlicensed money transmission services for HyperFund, a global Ponzi scheme that collected $1.8 billion from investors worldwide between 2020 and 2022. Burton personally received over $7.85 million and faces up to five years in federal prison, underscoring the scale of fraud enforcement in the crypto sector.<br />
+<a href="https://t.me/theblockbeats/181747" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>SpaceX Acquires AI Coding Startup Cursor (Anysphere) for $60 Billion in Stock</strong><br />
+SpaceX purchased Anysphere Inc., parent of AI coding assistant Cursor, in a $60 billion stock deal priced on seven-day VWAP. At SpaceX's ~$2.7 trillion post-IPO valuation, the acquisition represents barely 2% dilution, demonstrating how public-market reflexivity can fuel M&amp;A firepower and turning SpaceX into a consolidator in the AI tooling space.<br />
+<a href="https://t.me/leviathan_news/19739" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic Opens Seoul Office, Partners with Korean AI Ecosystem</strong><br />
+Anthropic launched its Seoul office and announced collaborations with Korean enterprises, startups, and research institutions. NAVER has deployed Claude Code across engineering teams, Nexon's game development uses it for real-time service code, and major conglomerates—including LG CNS, Hanwha Solutions, and Samsung SDS—are rolling out Claude to thousands of employees, signaling deep enterprise AI adoption in Korea.<br />
+<a href="https://t.me/theblockbeats/181751" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI, Anthropic, Google DeepMind CEOs Attend G7 AI Summit</strong><br />
+Sam Altman, Dario Amodei, and Demis Hassabis will join approximately ten other tech executives at a G7 luncheon in France to discuss frontier AI risks, infrastructure, sovereignty, and child safety online. The gathering reflects the rising geopolitical influence of AI company leaders as governments seek binding commitments and technical assurances from the private sector.<br />
+<a href="https://t.me/theblockbeats/181706" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic Research: Domain Expertise—Not Coding Skill—Drives AI Coding Success</strong><br />
+Analysis of ~400,000 Claude Code sessions revealed that domain experts achieve 28–33% verified success rates versus 15% for novices, while non-software professionals succeed at nearly identical rates (26%) to software engineers (30%). The findings suggest that effective AI-assisted coding depends more on understanding the problem domain than on traditional programming proficiency, with implications for how DeFi teams allocate AI tooling budgets.<br />
+<a href="https://t.me/leviathan_news/19733" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Awards SandboxAQ $500M to Develop Semiconductor Materials and PFAS Alternatives</strong><br />
+The Commerce Department allocated $500 million under the CHIPS Act to SandboxAQ (valued at $5.75B in April 2025) for R&amp;D into new chemicals and materials for U.S. semiconductor manufacturing, including PFAS substitutes. The grant supports AI data center optical networking demand and aims to bolster domestic supply chains, with over 1,000 jobs expected at completion.<br />
+<a href="https://t.me/theblockbeats/181709" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Dragonfly Partner Praises Zhipu's GLM Model Performance, Reversing Open-Source Stance</strong><br />
+Dragonfly managing partner Haseeb Qureshi publicly acknowledged he was wrong to expect open-source models to lag closed-source counterparts due to data, hardware, and distillation gaps. He praised Zhipu's Z.ai benchmark results and early user feedback, and disclosed he is running his Hermes Agent on GLM 5.2 via the AskVenice API, signaling a reassessment of China's AI competitiveness.<br />
+<a href="https://t.me/theblockbeats/181767" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coherent Receives Up to $50M CHIPS Act Funding for InP Fab Expansion</strong><br />
+Coherent (COHR) signed a preliminary term sheet with the U.S. Commerce Department for up to $50 million in direct CHIPS Act funding to expand its 6-inch indium phosphide semiconductor fab in Sherman, Texas. The project will quadruple wafer capacity and create over 1,000 jobs, supporting AI data center optical components and deepening the partnership with NVIDIA, which recently committed a $2 billion investment.<br />
+<a href="https://t.me/theblockbeats/181755" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ray Dalio Warns AI Bets Could Repeat Historic Boom-Bust Cycles, Calls Diversification "Holy Grail"</strong><br />
+Bridgewater founder Ray Dalio cautioned that concentrated AI investments risk repeating historical asset bubbles, noting that five AI hyperscalers have raised $255 billion through June 4 and Goldman projects 2026 capex near 100% of operating cash flow. Dalio's warning comes as crypto AI beta tokens trade at elevated valuations relative to underlying infrastructure fundamentals.<br />
+<a href="https://t.me/leviathan_news/19719" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ECB President Lagarde Warns AI Could Trigger Financial Crisis Risks</strong><br />
+European Central Bank President Christine Lagarde stated that artificial intelligence has the potential to cause a financial crisis, emphasizing that the ECB is determined to prevent such an outcome. She warned that the real risk lies not in AI itself but in the disruption it could unleash once deployed at scale, and called for a global AI governance framework akin to Cold War-era nuclear non-proliferation treaties.<br />
+<a href="https://t.me/theblockbeats/181730" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>More Than Half a Million ERC-8004 Agents Deployed; 95% Already Dead</strong><br />
+Data from thespawn.io shows 540,341 ERC-8004 agents have been deployed, but only 1,546 remain callable—a usable rate of 0.29%. With 208,525 agents claiming x402/MPP support, the figures suggest widespread reputation farming and highlight that most onchain AI agent experiments fail to achieve sustainable utility.<br />
+<a href="https://t.me/leviathan_news/19734" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Warp Founder Proposes Self-Improvement Loop for AI Agents via Human Feedback</strong><br />
+Warp founder Zach Lloyd outlined a framework enabling AI agents to evolve Skills automatically through daily refinement cycles driven by human feedback. However, AgentTrap research documented 141 runtime tasks and 91 malicious skill flows, showing agents often complete visible jobs while executing harmful background actions—underscoring the policy-state challenges in ERC-8004 and similar agent standards.<br />
+<a href="https://t.me/leviathan_news/19722" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Fidelity Joins Wall Street's Stablecoin Push, Targets Reserve Asset Management</strong><br />
+Fidelity is entering the stablecoin infrastructure market by focusing on reserve asset management as issuers race to secure backing for rapidly growing tokenized dollars. The move positions Fidelity to capture yield and custody fees in a segment where quality of reserves increasingly differentiates issuers competing for institutional adoption.<br />
+<a href="https://t.me/leviathan_news/19746" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Stablecoin Infrastructure Firm Trace Finance Raises $32M Series A, Valuation Up 10x from Seed</strong><br />
+Brazil-based Trace Finance closed a $32 million Series A led by CoinFund, with Coinbase Ventures, Haun Ventures, Jump Capital, Paxos, Chainlink Labs, HOF Capital, and others participating. CEO Bernardo Brites said the company's valuation grew approximately 10x since its 2022 seed round. Trace provides cross-border stablecoin payment rails combining local banking channels, FX, compliance, and settlement, and holds licenses in the U.S. and Brazil with plans to expand across Latin America and Asia-Pacific.<br />
+<a href="https://t.me/TheBlock001/6985" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/181742</p>
+
+<p><strong>Ready Wallet Users Report USDC Card Cutoffs Outside EEA After One-Hour Warning</strong><br />
+Ready users say the app's USDC card service was abruptly shut off for accounts outside the European Economic Area following a card provider switch, with in-app notices giving approximately one hour of warning. The incident highlights operational fragility in cross-border crypto card programs and the concentration risk when a single provider pivot can strand users.<br />
+<a href="https://t.me/leviathan_news/19741" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Revolut Receives UAE Central Bank License Approval, Plans Middle East and North Africa Expansion</strong><br />
+Digital bank Revolut secured storage-value tool and retail payment service licenses from the UAE Central Bank, marking its entry into the Middle East. The London-based fintech plans to build out local capabilities before full launch and is considering further expansion into Turkey and Morocco, as well as exploring acquisition of Turkish digital bank FUPS.<br />
+<a href="https://t.me/theblockbeats/181716" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Delphi Digital Report Warns Stablecoin Payment Ships May Not Weather the Storm</strong><br />
+Delphi Digital's latest report cautions that while stablecoin payments are inevitable, the crypto infrastructure built for them may prove fragile. With 190+ crypto card programs and roughly 90% of onchain volume concentrated in two names, the market structure reflects brutal consolidation rather than healthy early-stage fragmentation, raising questions about which players will survive the transition to mainstream adoption.<br />
+<a href="https://t.me/leviathan_news/19710" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Plasma Launches Plasma One Stablecoin-Native Neobank; Early Users Get $1,000+ First-Year Tier Free</strong><br />
+Plasma officially launched Plasma One on iOS, offering users who join within seven days a free Core tier for the first year, valued over $1,000. The Core tier includes $500 base value, $350 AI credits, and $240 ChatGPT Go access against a $120/year fee or 10,000 XPL lock. Android version arrives later this month, and Plasma One Platinum cards will open to XPL holders with up to 10% cashback on AI, aviation, and other spending categories.<br />
+<a href="https://t.me/leviathan_news/19735" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/zoomerfiedNews/1419 | https://t.me/wublockchainenglish/24783 | https://t.me/theblockbeats/181726 | https://t.me/theblockbeats/181725</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Benchmark Reiterates Coinbase "Buy" at $270 Target, Cites Move Beyond "Cyclical Crypto Brokerage"</strong><br />
+Benchmark reiterated its Buy rating and $270 price target on Coinbase (COIN) following the exchange's Monday system update, which analyst Mark Palmer said provides the clearest evidence yet that Coinbase is evolving from a cyclical crypto brokerage into infrastructure connecting the emerging onchain economy with traditional finance. Palmer highlighted that CFTC approval for Coinbase to operate as a regulated futures commission merchant enables U.S. customers to access global crypto perpetuals and options via acquired platform Deribit, and noted the regulatory green light supports cross-jurisdictional liquidity integration—critical for institutional adoption.<br />
+<a href="https://t.me/TheBlock001/6983" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/181718</p>
+
+<p><strong>Coinbase Launches Transfer Protections with Daily Thresholds and Trusted-Contact Approvals</strong><br />
+Coinbase rolled out Transfer Protections for all users, introducing daily transaction limits and trusted-contact approval workflows to mitigate scam losses. The consumer-focused guardrails aim to reduce social engineering attacks while preserving self-custody principles, reflecting exchange liability concerns amid rising fraud complaints.<br />
+<a href="https://t.me/leviathan_news/19713" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Adds Re (RE) Spot Trading, Opens Deposits Before Issuer Unlocks Transfers</strong><br />
+Coinbase announced support for Re (RE) on coinbase.com, the Coinbase app, and Coinbase Exchange in eligible regions, with deposit addresses now open ahead of the issuer unlocking token transfers. The preemptive listing allows Coinbase to onboard liquidity before RE becomes freely tradable.<br />
+<a href="https://t.me/leviathan_news/19743" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/181759</p>
+
+<p><strong>Bybit Added to Singapore MAS Investor Alert List</strong><br />
+[Duplicate of story in Regulation &amp; Policy section]<br />
+<a href="https://t.me/leviathan_news/19744" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>KuCoin Wealth Debuts First High-Yield Market-Neutral Quant Fund</strong><br />
+KuCoin launched its first institutional-style market-neutral quantitative fund as crypto wealth management accelerates. The USDT-denominated NAV product offers low minimums and wraps basis arbitrage, long-short, and yield strategies that DeFi users already chase individually, bringing CEX-hosted fund structures into competition with onchain vault protocols.<br />
+<a href="https://t.me/leviathan_news/19732" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BitGo Announces $50M Stock Buyback Program; Shares Jump 20% Intraday</strong><br />
+Digital asset infrastructure provider BitGo (BTGO) unveiled a $50 million stock repurchase plan, allowing the company to buy back up to 8% of its outstanding shares through open-market purchases, privately negotiated transactions, and block trades. Shares surged as much as 20% intraday, though BTGO remains down approximately 65% from its January IPO price of $18, reflecting broader weakness in crypto-related equities.<br />
+<a href="https://t.me/theblockbeats/181749" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trading Technologies Expands into Prediction Markets with Kalshi Integration</strong><br />
+Institutional trading platform Trading Technologies will integrate Kalshi for trade execution in Q3, routing event contracts into the same algo, TCA, surveillance, and post-trade stack that futures desks already use. The integration channels prediction market liquidity into professional workflows, potentially accelerating institutional participation in blockchain-based event derivatives.<br />
+<a href="https://t.me/leviathan_news/19725" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kalshi Perpetual Futures Volume Surpasses $5.5 Billion in Two Weeks</strong><br />
+Prediction market platform Kalshi reported over $5.5 billion in trading volume for its perpetual futures products within two weeks of launch. The platform currently offers 11 crypto-linked perpetual contracts and is in discussions with regulators to expand into additional asset classes, while also recording over $1 billion in daily volume for three consecutive trading days driven by FIFA World Cup and NBA Finals activity.<br />
+<a href="https://t.me/wublockchainenglish/24775" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Federal Reserve Holds Rates Steady at 3.50–3.75%, Dot Plot Shows Nine Officials See 2026 Hikes</strong><br />
+The Federal Reserve kept the federal funds rate target range unchanged at 3.50–3.75% in a unanimous 12-0 vote, as expected. However, the updated dot plot revealed a hawkish tilt: nine of 18 officials now project at least one rate hike in 2026 (six project multiple hikes), up from zero hike projections in March, while only one official expects a cut. The shift reflects stubborn inflation tied to Middle East conflict oil-price spikes and strong labor markets, with markets now fully pricing 25 basis points of tightening by year-end. Bitcoin fell below $65,000 immediately after the release, and analysts warn the repricing from "waiting for cuts" to "higher for longer or even hikes" is unfriendly for crypto and high-beta risk assets.<br />
+<a href="https://t.me/wublockchainenglish/24786" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/181777 | https://t.me/theblockbeats/181776 | https://t.me/theblockbeats/181775 | https://t.me/theblockbeats/181774 | https://t.me/theblockbeats/181773 | https://t.me/theblockbeats/181772 | https://t.me/theblockbeats/181690</p>
+
+<p><strong>Bitcoin Rebounds 6% After Two Weeks of Double-Digit Losses; K33 Says Long-Term HODLers at Record High</strong><br />
+Bitcoin climbed approximately 6% over the past week to around $65,000, recovering from consecutive weeks of sharp declines. Research firm K33 noted that the supply held by long-term holders (coins dormant for two years or more) has reached a record 79% of circulating BTC, with only 218,421 BTC reactivated year-to-date versus 1.18 million reactivated by the same date in 2024. K33 Research Director Vetle Lunde said the drop in old-coin activity and rising long-term holder accumulation may signal the bear market is nearing its end, though other analysts—including Wintermute, Glassnode, and Bitfinex—caution that ETF inflows, stablecoin growth, and institutional demand remain insufficient to confirm a durable reversal.<br />
+<a href="https://t.me/TheBlock001/6982" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/181710</p>
+
+<p><strong>Crypto Market Wobbles on Hawkish Fed Projections; BTC, ETH, SOL, XRP Slide</strong><br />
+Major crypto assets declined as investors digested higher inflation expectations and delayed rate-cut forecasts following the Federal Reserve's June meeting. Bitcoin briefly broke $65,000 support, Ethereum and Solana extended losses, and analysts attributed weakness to repricing of macro liquidity expectations rather than crypto-specific fundamentals.<br />
+<a href="https://t.me/leviathan_news/19747" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy's Yield-Focused Crypto Stock Slides Further Below Par Amid Dividend Coverage Concerns</strong><br />
+Strategy's STRC shares traded at $91.79 with a 12.53% market yield, opening an $8.20 spread versus Strive's SATA preferred. The discount reflects market concerns that Strategy may need to sell more Bitcoin to fund dividend payments, with current cash runway for dividends estimated at roughly 7.5 months despite recent buybacks of $1.5 billion in 2029 convertible notes and approximately $200 million in MSTR share sales.<br />
+<a href="https://t.me/leviathan_news/19720" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strive's SATA Dashboard Estimates 249 BTC Purchase After $97.9M Volume</strong><br />
+Strive's SATA tracker showed an estimated 249 BTC acquired in a single day, with $97.9 million in volume and 36% of trades above $100,000. The dashboard provides real-time transparency into Strive's Bitcoin treasury accumulation strategy, competing directly with Strategy's model.<br />
+<a href="https://t.me/leviathan_news/19714" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Altcoin Spot Sell Pressure Hits Five-Year Extreme; 15 Months of Net Selling</strong><br />
+CryptoQuant analyst IT Tech reported that altcoin sell pressure on spot exchanges (excluding BTC and ETH) has reached a five-year extreme, with the spot market recording 15 consecutive months of net selling. The cumulative buy/sell volume difference has fallen to its deepest negative level since data collection began in 2020, after nearly returning to flat in early 2025 before reversing sharply lower.<br />
+<a href="https://t.me/wublockchainenglish/24780" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Spot Bitcoin ETFs See $10.06M Net Inflows; BlackRock's IBIT Leads with $16.35M</strong><br />
+According to SoSoValue, U.S. spot Bitcoin ETFs recorded total net inflows of $10.06 million on June 16 (U.S. Eastern Time), with BlackRock's IBIT attracting $16.35 million. Spot Ethereum ETFs posted $9.59 million in net inflows, led by BlackRock's ETHA with $17.34 million.<br />
+<a href="https://t.me/wublockchainenglish/24779" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Wintermute Completes First SpaceX OTC Options Trade</strong><br />
+Market maker Wintermute announced completion of its first over-the-counter options trade on SpaceX (SPCX) stock, signaling the emergence of derivatives liquidity for the newly public space</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

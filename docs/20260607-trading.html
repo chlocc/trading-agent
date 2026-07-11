@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 07, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260607-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260607-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — June 07, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Macro Risk-Off Into CPI Week</strong> — Strong NFP data (172K vs 85K expected) triggered hawkish Fed repricing with rate hike odds spiking to 63%, driving $1T single-day tech selloff Friday. Historical data shows 70% probability of Monday declines following Friday drops &gt;3%, and S&amp;P fell 2.65% Friday. Week ahead features accelerating CPI (4.2% expected) Wednesday and SpaceX IPO Thursday, creating volatility setup. <strong>Affected:</strong> SPY, QQQ, BTC, ETH, NVDA, MSFT, GOOG</p>
+
+<p>• <strong>Crypto Leverage Unwind</strong> — DWF co-founder warns Strategy (MSTR) and BitMine holdings pose systemic collapse risk, targeting BTC $10-20K scenarios. PiggyBank suffered 15% NAV drawdown from LAB hedge blowup, exposing fragility in DeFi yield strategies. ETH/BTC ratio crashed to 2016 levels (0.026), signaling decade-long Ethereum underperformance. <strong>Affected:</strong> BTC, ETH, MSTR, USDC, SOL</p>
+
+<p>• <strong>AI Infrastructure Bifurcation</strong> — Nvidia CEO confirms memory shortages will persist for years, validating multi-year AI chip thesis, while Anthropic secures $35B debt financing for Google TPU infrastructure. However, Serenity warns toxic financing structures plague mining/AI stocks (IREN, CRWV), and Korean semiconductor ETF faces forced deleveraging Monday (2M shares, 40% daily volume). <strong>Affected:</strong> NVDA, GOOG, IREN, CRWV, MU</p>
+
+<p>• <strong>Exchange &amp; Stablecoin Fragility</strong> — CEX spot volume hit 18-month low ($679B, -46% YoY) signaling retail capitulation. ZachXBT flagged JuCoin's questionable $511M reserves backed by self-issued stablecoins on JuChain, while HTX forcibly converted Trump-backed USD1 to USDT after freezing addresses. <strong>Affected:</strong> BNB, USDC, USDT, COIN</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>MSTR</strong> — Michael Saylor posted Bitcoin Tracker hint suggesting Strategy will announce additional BTC purchase Monday, maintaining accumulation strategy despite market weakness. This would mark continuation of aggressive buying into dips, though timing appears contrarian given DWF systemic risk warnings. Catalyst could provide short-term floor under $60K BTC. <a href="https://t.me/theblockbeats/180053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA</strong> — Jensen Huang confirms memory shortages will persist for years, directly validating AI infrastructure investment thesis and supporting HBM pricing power. Monday partnership announcement with SK Group expected, plus gaming AI collaborations with KRAFTON/NCSOFT. Supply constraints lock in multi-year revenue visibility despite Friday's tech selloff. <a href="https://t.me/theblockbeats/180044" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GOOG</strong> — Anthropic secured $35B debt financing from Apollo and Blackstone specifically to lease Google TPUs for AI infrastructure expansion, validating Google Cloud's AI accelerator ecosystem. This represents major validation of TPU competitiveness vs. Nvidia and long-term cloud revenue stream tied to frontier AI model training. <a href="https://t.me/theblockbeats/180049" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ZEC</strong> — Zcash surged 9.4% past $400, rebounding 60% from vulnerability-driven $250 low ahead of late-July Ironwood upgrade. Upgrade introduces new privacy pool and enhanced supply verifiability, directly addressing concerns from Orchard counterfeiting vulnerability. Technical momentum building into catalyst-rich period. <a href="https://t.me/theblockbeats/180020" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — Glassnode co-founder identifies $46K-$54K as high-probability bottom zone based on on-chain valuation models (realized price, thermocap). Current $62K level sits well above accumulation zone, but MVRV indicator suggests optimal entry below $53,900. RSI hit extreme oversold 15.5 (lowest since March 2020), setting up technical bounce conditions toward $70K. <a href="https://t.me/theblockbeats/180035" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>ETH</strong> — ETH/BTC ratio collapsed to 0.026, matching 2016 levels and confirming decade-long underperformance versus Bitcoin. Whale borrowed 9,000 ETH ($14.7M) from Aave V3 and deposited to Binance, suggesting institutional distribution. Despite contrarian whale buying 35,723 ETH at $1,563, macro deleveraging and Layer-2 cannibalization (RARI Chain sunset by June 14) undermine structural thesis. <a href="https://t.me/wublockchainenglish/24657" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSTR</strong> — DWF co-founder warns Strategy's leveraged Bitcoin position could trigger crypto's largest collapse, modeling BTC crash to $10-20K scenarios. This represents direct structural risk to MSTR's NAV premium and convertible debt refinancing ability. While Saylor hints at new BTC purchase Monday, systemic leverage warnings create asymmetric downside. <a href="https://t.me/theblockbeats/179989" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>USDC/USDT</strong> — ZachXBT flagged JuCoin's $511M reserves containing JuChain-issued USDC/USDT with questionable backing, raising systemic stablecoin counterparty risk. HTX forcibly converted Trump-backed USD1 to USDT after freezing addresses, exposing governance fragility. PiggyBank suffered 15% NAV drawdown from USDC vault LAB hedge blowup. Contagion risk elevated into CPI volatility week. <a href="https://t.me/wublockchainenglish/24655" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BNB</strong> — Centralized exchange spot volume crashed to $679B in April (lowest since October 2023, -46% YoY), signaling retail capitulation and structural volume headwinds for exchange tokens. Despite Binance Life project whale accumulation, macro deleveraging and regulatory uncertainty (SpaceX IPO retail access warnings) pressure CEX revenue models. <a href="https://t.me/wublockchainenglish/24654" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>IREN, CRWV</strong> — Serenity explicitly warns investors to avoid toxic financing structures and debt-heavy Bitcoin mining/AI infrastructure companies, naming IREN and CRWV as examples. These stocks face forced selling pressure from equity dilution and refinancing risk into hawkish Fed repricing (63% rate hike odds). Structural shorts into Monday deleveraging. <a href="https://t.me/theblockbeats/180047" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SPY</strong> — Historical data shows 70% Monday decline probability when S&amp;P falls &gt;3% on Friday; Friday dropped 2.65%. Analyst warns current setup mirrors 1987 Black Monday pattern with rare multi-asset sell signals, targeting 5500. Negative gamma cleared at $740 Friday; institutional rebalancing Monday determines if structure breaks below $724 floor. CPI Wednesday adds volatility accelerant. <a href="https://t.me/theblockbeats/180019" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Short ARKQ (AI/Robotics ETF)</strong></p>
+
+<ul>
+<li>Rationale: Korean semiconductor forced deleveraging Monday (leveraged SK Hynix ETF must sell 2M shares, 40% daily volume) creates cascading gamma selloff risk. Memory shortage narrative bullish long-term but Google's TurboQuant algorithm reducing memory demand creates near-term technical headwind. ARKQ holds concentration in vulnerable semis into rebalancing chaos.</li>
+<li>Entry: Market open Monday or on any bounce toward $48</li>
+<li>Risks: Nvidia partnership announcement Monday could override deleveraging pressure</li>
+<li>Related signals:
+<ul>
+<li>Leveraged SK Hynix ETF forced selling <a href="https://t.me/theblockbeats/180000" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>TurboQuant memory demand reduction <a href="https://t.me/theblockbeats/180010" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Korean trader predicting Monday crash <a href="https://t.me/theblockbeats/180018" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>2. Long GOOG calls (2-week expiry)</strong></p>
+
+<ul>
+<li>Rationale: Anthropic's $35B debt financing specifically for Google TPU leasing validates multi-year cloud AI revenue stream and TPU competitiveness. OpenAI pivoting to enterprise 'super app' increases enterprise AI spend across cloud providers. Google benefits from both frontier model training demand and application layer growth. Friday's $1T tech selloff created entry opportunity.</li>
+<li>Entry: ATM or slightly OTM calls on Monday dip, targeting post-CPI recovery</li>
+<li>Risks: Broader tech deleveraging overwhelms stock-specific catalysts; CPI Wednesday could trigger additional volatility</li>
+<li>Related signals:
+<ul>
+<li>Anthropic TPU financing <a href="https://t.me/theblockbeats/180049" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>OpenAI enterprise pivot <a href="https://t.me/theblockbeats/180013" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Tech $1T selloff <a href="https://t.me/theblockbeats/179978" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>3. Short IBIT (Bitcoin ETF) / Long FBTC (inverse pair trade)</strong></p>
+
+<ul>
+<li>Rationale: MSTR systemic risk warnings create asymmetric risk to Bitcoin spot ETFs, but Strategy's hinted Monday purchase could temporarily support BTC. Pair trade isolates relative value: short largest/most liquid ETF (IBIT) against long position in competitor (FBTC) to hedge directional BTC exposure while capturing MSTR-driven volatility spreads. DWF warning targets $10-20K BTC scenarios.</li>
+<li>Entry: Establish pair Monday after MSTR announcement clarity</li>
+<li>Risks: Coordinated short-squeeze if MSTR purchase exceeds expectations; Bitcoin breaking above $65K invalidates bearish structure</li>
+<li>Related signals:
+<ul>
+<li>DWF systemic collapse warning <a href="https://t.me/theblockbeats/179989" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Saylor BTC purchase hint <a href="https://t.me/theblockbeats/180053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Glassnode bottom zone $46K-$54K <a href="https://t.me/theblockbeats/180035" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>4. Buy NVDA June dip (shares or LEAPs)</strong></p>
+
+<ul>
+<li>Rationale: Memory shortage persistence confirmed by CEO provides multi-year revenue visibility. Monday SK Group partnership announcement plus gaming AI collaborations (KRAFTON/NCSOFT) add near-term catalysts. Friday's tech selloff driven by macro repricing, not fundamental deterioration. Supply constraints create pricing power moat regardless of rate environment.</li>
+<li>Entry: $115-$120 zone if Monday Korean deleveraging creates spillover weakness</li>
+<li>Risks: Cascading Korean semi selloff spreads to Nvidia; CPI upside surprise Wednesday extends hawkish repricing</li>
+<li>Related signals:
+<ul>
+<li>Jensen memory shortage comments <a href="https://t.me/theblockbeats/180044" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>SK Group partnership Monday <a href="https://t.me/theblockbeats/180045" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Gaming AI meetings <a href="https://t.me/theblockbeats/180026" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>5. Long BTC $55K-$58K zone (spot or BITO calls)</strong></p>
+
+<ul>
+<li>Rationale: Glassnode identifies $46K-$54K as high-probability bottom based on on-chain models; current $62K sits above that zone. RSI extreme oversold (15.5, lowest since March 2020 COVID crash) sets up technical bounce toward $70K. MSTR likely announces Monday purchase, providing short-term catalyst. Systemic risk warnings create vol premium in options.</li>
+<li>Entry: Accumulate spot $55K-$58K or buy 2-week BITO ATM calls on Monday dip</li>
+<li>Risks: DWF systemic collapse thesis accelerates if MSTR convertible refinancing fails; CPI upside extends crypto deleveraging</li>
+<li>Related signals:
+<ul>
+<li>Glassnode bottom zone <a href="https://t.me/theblockbeats/180035" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>RSI extreme oversold <a href="https://t.me/theblockbeats/179985" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>MSTR purchase hint <a href="https://t.me/theblockbeats/180053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>DWF collapse warning <a href="https://t.me/theblockbeats/179989" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>6. Fade ZEC rally (short or buy puts)</strong></p>
+
+<ul>
+<li>Rationale: 60% rebound from $250 to $400 ahead of Ironwood upgrade in late July appears overextended given Orchard vulnerability created supply uncertainty. ZachXBT questioned Arthur Hayes for pumping then dumping ZEC along with WLD, NEAR, HYPE, suggesting smart money distribution. Technical bounce into known catalyst creates favorable short setup.</li>
+<li>Entry: Short $400-$420 or buy puts 30-45 days out</li>
+<li>Risks: Ironwood upgrade successfully addresses vulnerability concerns; privacy coin narrative strengthens into regulatory clarity</li>
+<li>Related signals:
+<ul>
+<li>ZEC 60% bounce <a href="https://t.me/theblockbeats/180020" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Ironwood upgrade timeline <a href="https://t.me/theblockbeats/179984" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>ZachXBT Hayes criticism <a href="https://t.me/wublockchainenglish/24650" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>7. Short COIN on exchange volume collapse</strong></p>
+
+<ul>
+<li>Rationale: CEX spot volume hit 18-month low ($679B, -46% YoY) signals structural retail capitulation. Despite Coinbase India INR deposits launch, macro deleveraging and regulatory warnings around SpaceX IPO retail access (PDT removal concerns) undermine exchange revenue models. Friday's tech selloff likely accelerates retail flight.</li>
+<li>Entry: Short $180-$185 or buy 30-day puts</li>
+<li>Risks: Institutional crypto adoption (spot ETF flows) offsets retail weakness; regulatory clarity catalyzes re-rating</li>
+<li>Related signals:
+<ul>
+<li>CEX volume 18-month low <a href="https://t.me/wublockchainenglish/24654" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>SpaceX IPO retail warnings <a href="https://t.me/theblockbeats/180030" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Asia expansion <a href="https://t.me/wublockchainenglish/24659" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Monday Korean Semi Forced Selling</strong> — Leveraged SK Hynix ETF (7709.HK) must sell ~2M shares Monday (40% daily volume) due to rebalancing, potentially triggering gamma-driven cascading selloff across Korean semiconductor complex. Given tight correlations with Nvidia and global tech, spillover effects could amplify Friday's momentum into Asia open.</p>
+
+<p>• <strong>CPI Upside Surprise Wednesday</strong> — Consensus expects 4.2% headline CPI acceleration; any print above 4.4% would push Fed rate hike odds above 75% and invalidate "normal bull market pause" narrative. Tech stocks already down $1T would face additional deleveraging, with Bitcoin testing Glassnode's $46K bottom zone.</p>
+
+<p>• <strong>MSTR/Strategy Systemic Unwind</strong> — DWF co-founder's explicit warning about Strategy holdings triggering crypto collapse creates binary risk around Monday's hinted BTC purchase announcement. If purchase fails to materialize or convertible debt refinancing concerns surface, cascade to $10-20K BTC scenarios becomes plausible, destroying crypto ETF complex.</p>
+
+<p>• <strong>Stablecoin Contagion</strong> — JuCoin reserve concerns, HTX forced USD1 conversions, and PiggyBank 15% NAV drawdown expose fragility in stablecoin/DeFi infrastructure into volatility week. Any additional exchange withdrawal freezes or vault blowups could trigger USDC/USDT redemption cascades, particularly given low exchange volumes and thin liquidity.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Friday's NFP beat (172K vs 85K) flipped Fed expectations hawkish, driving 10-year yields higher and crushing tech's duration trade with $1T single-day wipeout. Rate hike odds spiked to 63%, setting up Wednesday's CPI as critical inflection point. Historical patterns warn of Monday continuation (70% probability after Friday &gt;3% drops), while institutional rebalancing around SPY $724 gamma floor could determine whether this is healthy correction or structural break. Crypto faces dual pressure from macro deleveraging and MSTR systemic risk warnings, though extreme RSI oversold (15.5) and Glassnode's $46K-$54K bottom zone framework suggest asymmetric risk/reward for patient buyers. AI infrastructure bifurcating between validated winners (Nvidia, Google TPU) and toxic financing structures (mining stocks, Korean semi forced selling), creating stock-picking opportunities within broader sector weakness.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+58 tradeable signals</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

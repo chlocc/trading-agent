@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 03, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260703-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260703-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 03, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Memory Chip Supply Crunch Intensifies</strong> — UBS raises DRAM/NAND price targets through 2028 as AI server demand overwhelms supply. Samsung pushing Q3 DRAM prices up 20%, with KOSPI rallying 4% on semiconductor strength. This is a structural bull thesis for memory manufacturers with SK Hynix and Samsung leading the charge. Key tickers: SKHX, SSNLF, SKM, MU, NVDA.</p>
+
+<p>• <strong>Institutional Bitcoin Accumulation Resumes</strong> — After 10 days of brutal outflows ($2.73B), spot BTC ETFs recorded $221.7M in net inflows as public companies continue hoovering up supply (912 BTC/day, 2x mining output). Long-term holders now control 78% of supply, up from 68% in December. Market structure suggests distribution phase ending but final capitulation possible before sustained reversal. Key tickers: BTC, IBIT, FBTC, MSTR, COIN.</p>
+
+<p>• <strong>Hyperliquid Crosses Institutional Threshold</strong> — The decentralized perps exchange hit $4T cumulative volume as TradingView integrates feeds and VALR (Africa's largest exchange) goes live with 200+ markets. HYPE buybacks ($283M) now exceed emission with smart money aggressively accumulating. This infrastructure moment legitimizes DeFi derivatives at scale. Key tickers: HYPE, BTC, ETH, SKHX.</p>
+
+<p>• <strong>DeFi Exploit Season Heats Up</strong> — $10M THORChain zero-day, $820K Hinkal protocol breach, prediction market manipulation scandals. Concentrated attack surface as TVL concentrates. Risk-off sentiment spreading through altcoin space with Binance adding monitoring tags to AEUR, PYR, SCRT, VANRY. Key tickers: RUNE, ETH (downside), DeFi tokens (caution).</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>SKHX (SK Hynix)</strong> — Smart money caught the falling knife perfectly: $2M deployed at $1,413 average now floating 115% gains as stock recovered to $1,580. The broader SKHX perpetual on Hyperliquid traded $8.8B in 24h volume with aggressive long liquidation cascade triggering bottom-fishing. Korean semiconductor rally (+7-8%) driven by Samsung's 20% Q3 DRAM pricing power validates the memory supply squeeze thesis. Watch for continuation above $1,600. (<a href="https://t.me/theblockbeats/184174," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184175" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>BTC</strong> — First green ETF day in 10 sessions with $221.7M inflows led by Fidelity, coinciding with public company accumulation hitting 912 BTC/day (2x mining output). Long-term holders now control 78% of supply in strongest HODLing behavior since December. Power Law support sits at $58,237 with immediate technical resistance at $63K where $6.57B in short liquidations cluster. Polymarket odds of $70K by year-end jumped from 54% to 65%. Near-term upside capped by lack of macro catalyst but downside increasingly limited. (<a href="https://t.me/leviathan_news/20322," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184231," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184228" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>ETH</strong> — Monthly TD Sequential buy signal just printed—previous three instances perfectly predicted major trend reversals. "Machi Big Brother" whale continuously adding leveraged longs, now up $5M on 5,325 ETH position at $1,655 average. Technical exhaustion suggests near-term bottom formation despite persistent bearish sentiment. Options expiry today (135K contracts) shows elevated put/call ratio of 1.29, setting up potential short squeeze if $1,700 breaks. (<a href="https://t.me/theblockbeats/184165," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184217" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>V (Visa)</strong> — Joined Canton Network as super validator, enabling $4.6B stablecoin settlement run rate for regulated institutional finance. This infrastructure play positions Visa at the nexus of TradFi-crypto convergence as regulated stablecoin flows accelerate. Complements existing crypto card partnerships and validates blockchain rails for cross-border payment infrastructure. <a href="https://t.me/leviathan_news/20347" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GOOG (Alphabet/Anthropic)</strong> — Claude API rate limits raised up to 5x across Sonnet and Haiku models, enabling always-on production infrastructure for enterprise customers. Signals Anthropic's confidence in scaling and margin expansion as AI inference demand explodes. Meta simultaneously negotiating for Claude private instances to build proprietary AI service platform, validating Claude's enterprise moat. <a href="https://t.me/leviathan_news/20326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Memory Manufacturers (MU, NVDA ecosystem)</strong> — UBS raises DRAM revenue forecasts to $9.92B (2026) and $17.63B (2027) as supply shortage persists through 2028. Q3 2026 DRAM prices expected up 13-18%, NAND up 10-15% driven by AI server proliferation. SPHBM4 standard eases HBM4 bottleneck, reducing advanced packaging dependency. Korean leveraged semiconductor ETFs surged to $45B AUM (800% YTD) with SK Hynix product alone at $15B. (<a href="https://t.me/theblockbeats/184207," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184161," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184158" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>HYPE (Hyperliquid)</strong> — HypeStrat (ecosystem company) purchased 6M tokens worth $40.6M over 7 days while platform executed $283M in buybacks exceeding supply growth. Institutional integration accelerating with VALR and TradingView adoption. Token broke $70 (+7.24% 24h) as cumulative volume crossed $4T milestone. Deflationary mechanics kicking in at scale. (<a href="https://t.me/theblockbeats/184198," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/20333" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>ARKQ/BOTZ (Quant AI Exposure)</strong> — Chinese quantitative fund assets hit 2.6 trillion yuan in under a year with AI-driven strategies outperforming traditional equity by 20.3 percentage points. Structural shift toward algorithmic trading powered by LLMs creates sustained demand for AI infrastructure. Clean thematic play on AI democratization in capital markets. <a href="https://t.me/theblockbeats/184142" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Ecosystem</strong> — TradingView integration and VALR onboarding (200+ perp markets) signal institutional adoption inflection point. Platform crossed $4T cumulative volume as regulated exchanges choose to integrate rather than compete. This is the "Uniswap moment" for decentralized derivatives—network effects accelerating. (<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/20324, <a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></em>news/20318)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>RUNE (THORChain)</strong> — $10M vault exploit traced to zero-day vulnerability after 864 failed signing attempts. Cross-chain bridge protocols remain high-risk attack surfaces despite maturation. Expect persistent sell pressure and diminished TVL as security concerns override yield opportunities. Adjacent DeFi protocols with similar architecture face contagion risk. <a href="https://t.me/leviathan_news/20346" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GBTC (Grayscale Bitcoin Trust)</strong> — Tenth consecutive day of outflows totaling 35,980 BTC ($2.24B) signals persistent structural selling from discount arbitrageurs unwinding positions. While spot ETF complex turned positive, Grayscale remains the bleed point. Discount to NAV compression complete; remaining holders are true sellers, not arbs. <a href="https://t.me/theblockbeats/184218" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AEUR, PYR, SCRT, VANRY</strong> — Binance added all four to monitoring tag list, a historically reliable delisting predictor. Regulatory scrutiny and liquidity concerns drive exchange de-risking. Expect 30-60% drawdowns into illiquid exits as market makers pull bids ahead of formal delisting announcements. <a href="https://t.me/wublockchainenglish/24991" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>US Equity Funds</strong> — Worst single-week outflow since March 2026 at $17.2B with sell signal persisting for 7 consecutive weeks. Despite foreign investor inflows, domestic institutions aggressively reducing equity exposure. Broad risk-off sentiment despite semiconductor rally suggests rotation, not conviction. Tech concentration risk mounting. <a href="https://t.me/theblockbeats/184211" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSTR (MicroStrategy)</strong> — Announces capital restructuring with STRC dividend hike to 12% and BTC monetization framework to address structural criticism. Bitwise CIO notes company no longer one-way buyer, signaling end-of-cycle deleveraging. MSTR-to-BTC premium compression continues as NAV arbitrage disappears. Avoid until capital allocation stabilizes. (<a href="https://t.me/wublockchainenglish/24996," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/184212" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long IBIT (iShares Bitcoin Trust ETF)</strong></p>
+
+<ul>
+<li>Rationale: First net inflow day after 10-session bleed coincides with public company accumulation at 2x mining output and long-term holder supply hitting 78%. Technical support at $58K Power Law level with clustered short liquidations at $63K creates asymmetric setup. Polymarket $70K year-end probability jumped 11 percentage points to 65%.</li>
+<li>Entry: Current levels ($61-62K BTC equivalent) or on retest of $59-60K</li>
+<li>Risks: Final capitulation washout to $56-58K invalidates near-term thesis; lack of macro catalyst limits upside velocity</li>
+<li>Related signals: 
+<ul>
+<li>BTC ETF $221.7M inflows <a href="https://t.me/leviathan_news/20322" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Public companies accumulating 912 BTC/day <a href="https://t.me/theblockbeats/184231" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>78% LTH supply concentration <a href="https://t.me/theblockbeats/184194" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>2. Long MU (Micron Technology) calls, 3-month expiry</strong></p>
+
+<ul>
+<li>Rationale: Memory supply crunch accelerating with UBS raising 2027 revenue targets to $17.63B and Q3 DRAM prices up 13-18%. AI server demand structural, not cyclical, with Samsung pushing 20% ASP increases. Three whales opened $4.66M long on MU perps despite funding rate showing net short bias—contrarian setup with institutional validation.</li>
+<li>Entry: Current levels or on dips below $100 (if accessible); alternatively use leveraged MU exposure via options</li>
+<li>Risks: Broader semiconductor selloff (sector down 11% in 2 days) or AI capex slowdown thesis gains traction</li>
+<li>Related signals:
+<ul>
+<li>UBS DRAM forecast raise <a href="https://t.me/theblockbeats/184207" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Samsung 20% DRAM pricing <a href="https://t.me/theblockbeats/184158" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Whale $4.66M long <a href="https://t.me/theblockbeats/184193" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>3. Pair Trade: Long ETHA / Short GBTC</strong></p>
+
+<ul>
+<li>Rationale: ETH showing technical exhaustion (TD Sequential buy signal) while Grayscale continues structural bleed (10 days, $2.24B out). ETH monthly chart setups historically accurate (3 for 3 on reversals) while GBTC discount arbitrage complete. Capture crypto beta with structural alpha from flow divergence.</li>
+<li>Entry: Establish 2:1 notional ratio (ETHA:GBTC short) at current levels</li>
+<li>Risks: Synchronized crypto selloff compresses spread; ETH underperformance vs BTC continues</li>
+<li>Related signals:
+<ul>
+<li>ETH TD Sequential <a href="https://t.me/theblockbeats/184165" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>GBTC 10-day outflow <a href="https://t.me/theblockbeats/184218" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Machi whale adding ETH leverage <a href="https://t.me/theblockbeats/184217" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>4. Long BOTZ or ARKQ (AI/Robotics ETFs)</strong></p>
+
+<ul>
+<li>Rationale: Chinese quant fund explosion (2.6T yuan, 800% YTD growth) with AI strategies outperforming traditional by 20.3pp validates secular shift toward algorithmic capital allocation. Hyperscale AI infrastructure demand remains robust despite semiconductor correction. Clean thematic exposure without single-stock risk.</li>
+<li>Entry: Scale in over 3-5 days to smooth volatility</li>
+<li>Risks: Semiconductor correction deepens; AI capex growth slows from 100% to 22% by 2027 as forecasted</li>
+<li>Related signals:
+<ul>
+<li>Chinese quant surge <a href="https://t.me/theblockbeats/184142" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Memory supply constraints <a href="https://t.me/theblockbeats/184207" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Anthropic scaling <a href="https://t.me/leviathan_news/20326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>5. Short AEUR, PYR, SCRT, VANRY (Binance monitoring list)</strong></p>
+
+<ul>
+<li>Rationale: Binance monitoring tag historically precedes delisting with 30-60% drawdowns as market makers pull liquidity. Exchange de-risking amid regulatory pressure creates predictable exit cascade. High conviction fade with clear catalyst timeline (30-90 days typical).</li>
+<li>Entry: Establish shorts at current levels with tight stops above recent highs</li>
+<li>Risks: Binance reverses monitoring decision (rare); tokens pump on "survival" narrative before ultimate delisting</li>
+<li>Related signals:
+<ul>
+<li>Binance monitoring tag addition <a href="https://t.me/wublockchainenglish/24991" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Broader exchange regulatory pressure <a href="https://t.me/leviathan_news/20330" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>6. Long COIN (Coinbase) on dips</strong></p>
+
+<ul>
+<li>Rationale: Public company Bitcoin accumulation (6% of supply, 1.26M BTC) concentrated in names like COIN with operational leverage to crypto infrastructure buildout. Hyperliquid institutional adoption (VALR, TradingView) validates on-chain derivatives as complement to CEX model. Regulatory clarity improving with SEC chairman promoting blockchain adoption. Structural crypto winner with equity market liquidity.</li>
+<li>Entry: $180-190 range if accessible, or scale in at current levels</li>
+<li>Risks: Crypto winter persists; competition from decentralized alternatives (Hyperliquid) erodes CEX margins</li>
+<li>Related signals:
+<ul>
+<li>Public company 1.26M BTC holdings <a href="https://t.me/wublockchainenglish/24995" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Hyperliquid institutional integration <a href="https://t.me/leviathan<em>news/20318" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>BTC ETF inflow resumption <a href="https://t.me/leviathan</em>news/20322" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>7. Long V (Visa) on stablecoin infrastructure thesis</strong></p>
+
+<ul>
+<li>Rationale: Canton Network super validator role positions Visa at center of $4.6B regulated stablecoin settlement run rate. TradFi giants recognizing blockchain rails as inevitable for cross-border payments. Visa's existing crypto partnerships (card issuance, USDC settlement) create network effects as institutional stablecoin flows accelerate. Defensive growth with crypto optionality.</li>
+<li>Entry: Current levels with 6-12 month horizon</li>
+<li>Risks: Regulatory delays on stablecoin frameworks; blockchain settlement adoption slower than anticipated</li>
+<li>Related signals:
+<ul>
+<li>Visa Canton Network validation <a href="https://t.me/leviathan_news/20347" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Institutional stablecoin infrastructure build <a href="https://t.me/wublockchainenglish/24988" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Final Bitcoin Capitulation</strong> — Despite improving ETF flows and LTH accumulation, on-chain data shows miners increasing outflows and old coins moving to exchanges. Stablecoin buy/sell delta at 5-year lows indicates sustained selling pressure. Market may need one more flush to $56-58K before sustained reversal, especially given lack of macro catalyst and weak Fed rate cut expectations.</p>
+
+<p>• <strong>AI Capex Slowdown Narrative</strong> — Semiconductor stocks down 11% in two days as market prices in potential moderation from 100% growth to 22% by 2027. If hypersca</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

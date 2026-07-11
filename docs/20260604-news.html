@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — June 04, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+    <a href="20260705-trading.html" class="">07/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260604-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260604-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — June 04, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>Anthropic Files Confidentially for IPO, Nearing $100M+ Deal with US Intelligence</strong><br />
+Anthropic has filed confidentially for an IPO after releasing Claude Opus 4.8 and securing a near-deal for U.S. spy agencies to use its AI tools. The company is also developing Mythos, expected to go public within weeks, though safeguards against misuse are delaying full rollout. With 28% Polymarket odds of a June release, this represents a major inflection point for enterprise AI deployment in sensitive government applications.<br />
+<a href="https://t.me/zoomerfiedNews/1393" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/zoomerfiedNews/1382" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/zoomerfiedNews/1387" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Y Combinator-Backed Miso Labs Launches Miso One Open-Source Voice AI</strong><br />
+Miso Labs unveiled Miso One, an 8.19-billion parameter voice AI model that delivers human-like emotions at reaction speeds faster than typical humans. The 32.75GB public checkpoint fits within 16GB VRAM budgets, making it feasible for crypto wallet agents, on-chain game NPCs, and customer support bots—key use cases for projects like Olas and Giza's autonomous agent frameworks.<br />
+<a href="https://t.me/leviathan_news/19366" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Google Releases Gemma 4 12B Encoder-Free Model for Local Deployment</strong><br />
+Google launched Gemma 4 12B, an encoder-free multimodal AI model that runs on 16GB VRAM or unified memory—the same footprint as validator sidecars or keeper infrastructure. This enables crypto projects to embed voice, vision, and text agents locally without cloud dependencies, critical for decentralized keeper networks and autonomous DeFi operations.<br />
+<a href="https://t.me/leviathan_news/19381" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bernstein Initiates Coverage on Bitcoin Miners TeraWulf and Cipher, Sees 9x AI Revenue by 2030</strong><br />
+Bernstein dubbed bitcoin miners "the power landlords of AI," initiating coverage on TeraWulf and Cipher Digital with projections of ninefold AI data center revenue growth by 2030. The thesis hinges on miners' existing energy contracts and cooling infrastructure being repurposed for GPU-heavy AI workloads, positioning them as beneficiaries of the compute arms race beyond bitcoin mining alone.<br />
+<a href="https://t.me/TheBlock001/6940" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Monako Glass Launches Wearable Linux Glasses Running Desktop AI Agents</strong><br />
+Monako Glass released 48-gram wearable Linux glasses capable of running full desktop AI coding agents like Claude Code and Codex in the user's field of view. The device's cloud/PC handoff makes it viable for DeFi operations—Safe multisig proposal reviews, Tenderly trace analysis, Hyperliquid perps monitoring—turning heads-up displays into real-time on-chain ops dashboards.<br />
+<a href="https://t.me/leviathan_news/19380" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kaytus Launches MotusAI Platform for Enterprise Token Management</strong><br />
+Kaytus introduced MotusAI, targeting 30–50% lower token operating expenses, 1.5–2.5x throughput improvements, and millisecond anomaly detection. The platform functions closer to an on-premises LLM gateway than traditional token management tools, aimed at enterprises handling high-volume blockchain operations with strict compliance and latency requirements.<br />
+<a href="https://t.me/leviathan_news/19377" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Mastercard Expands Stablecoin Settlement to USDC, PYUSD, and RLUSD</strong><br />
+Mastercard added Circle's USDC, PayPal's PYUSD, and Ripple's RLUSD to its stablecoin settlement infrastructure, expanding its multi-blockchain pilot that now spans nine chains. This move positions Mastercard to capture a share of the $325 billion stablecoin market as traditional payment networks integrate on-chain liquidity for cross-border and merchant settlement.<br />
+<a href="https://t.me/TheBlock001/6928" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cash App Enables Fee-Free USDC Transfers Across Solana, Ethereum, Polygon, and Arbitrum</strong><br />
+Cash App launched native USDC transfers across Solana, Ethereum, Polygon, and Arbitrum with zero fees at launch, opening crypto rails to its tens of millions of users. The integration bypasses traditional banking intermediaries and could accelerate everyday stablecoin adoption if uptake mirrors Cash App's Bitcoin success.<br />
+<a href="https://t.me/leviathan_news/19369" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Visa and Brale Test Privacy-Enabled Stablecoin Settlement on Canton Network</strong><br />
+Visa partnered with Brale to pilot privacy-enabled SBC stablecoin settlement on the Canton Network, a permissioned blockchain framework. The test emphasizes institutional-grade confidentiality for financial flows, addressing compliance and data-privacy concerns that have slowed bank adoption of public stablecoin rails.<br />
+<a href="https://t.me/TheBlock001/6941" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether and Fasset Launch First Gold-Backed Payment Card</strong><br />
+Tether and Fasset debuted a payment card backed by Tether Gold (XAUT), allowing users to spend tokenized gold in real-world transactions. While the $1 million XAUT reward pool is modest relative to the ~$2.7 billion XAUT market cap, distribution across Fasset's Asia and Africa footprint could test real consumer appetite for commodity-backed digital payments beyond stablecoins.<br />
+<a href="https://t.me/leviathan_news/19367" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Stripe, Visa, and Mastercard Near Launch of Joint Stablecoin Platform; Coinbase Exploring Participation</strong><br />
+Stripe, Visa, and Mastercard are reportedly close to unveiling a new stablecoin platform, with Coinbase exploring potential involvement. If realized, this consortium would represent the most significant traditional finance integration into stablecoins to date, potentially reshaping issuance, settlement, and custody standards across the $325 billion market.<br />
+<a href="https://t.me/wublockchainenglish/24606" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Invests in ProShares Stablecoin Reserves ETF</strong><br />
+Coinbase invested in a stablecoin reserves ETF issued by ProShares, signaling institutional appetite for exposure to the yield and liquidity characteristics of stablecoin backing assets. The move bridges crypto-native stablecoins and TradFi ETF wrappers, opening a new channel for conservative investors to access stablecoin economics without direct token custody.<br />
+<a href="https://t.me/TheBlock001/6924" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Binance Shuts Down Centralized NFT Service, Gives Users One Month to Withdraw</strong><br />
+Binance announced it will wind down its centralized NFT marketplace, giving users 30 days to withdraw assets. The closure reflects the broader contraction in NFT trading volumes and Binance's pivot toward higher-margin products like derivatives and institutional services, marking another retreat from retail-focused experimental verticals.<br />
+<a href="https://t.me/TheBlock001/6930" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kraken Launches xStocks for Tokenized US IPO Access to Global Retail Investors</strong><br />
+Kraken introduced xStocks, enabling global retail investors to access tokenized U.S. IPOs. The product lowers barriers to U.S. equity markets for non-U.S. users and positions Kraken to capture flows from the wave of high-profile IPOs—including SpaceX's upcoming $75 billion raise at a $1.75 trillion valuation—using blockchain rails for 24/7 settlement.<br />
+<a href="https://t.me/TheBlock001/6931" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/zoomerfiedNews/1396" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Launches Pre-IPO Perpetual Futures Starting with SpaceX</strong><br />
+Coinbase rolled out pre-IPO perpetual futures, debuting with SpaceX contracts ahead of its $75 billion IPO priced at $135 per share. The product allows speculative exposure to private-company valuations before public trading begins, tapping into pent-up demand for high-growth private equity in a derivatives wrapper accessible to crypto traders.<br />
+<a href="https://t.me/TheBlock001/6938" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Galaxy Digital Opens OTC Prediction Market Trading for Institutions with $10M Kalshi Trade</strong><br />
+Galaxy Digital launched institutional OTC prediction market trading, kicking off with a $10 million trade on Kalshi. The service brings institutional liquidity and size to prediction markets, historically dominated by retail, and could deepen the market ahead of election cycles and macro event hedging demand.<br />
+<a href="https://t.me/TheBlock001/6923" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Holds Minority Stake in Alpaca, Receives 50% of PFOF and 65% of Stock Lending Profit</strong><br />
+Binance disclosed a minority equity position in Alpaca, which commands ~94% market share in custody of tokenized U.S. stocks and ETFs. Under their partnership agreement, Binance receives 50% of Alpaca's Payment for Order Flow fees and 65% of net profit from user stock lending—an undisclosed but potentially significant revenue stream as tokenized equities gain traction.<br />
+<a href="https://t.me/wublockchainenglish/24602" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Robinhood Crypto COO Departs as Company Reduces Reliance on Crypto Revenue</strong><br />
+Robinhood's crypto COO left the company amid a sharp decline in crypto revenue and strategic efforts to lessen dependence on digital assets. The departure underscores broader challenges facing retail crypto platforms as trading volumes sag and regulatory uncertainty persists, prompting a pivot toward equities and options trading.<br />
+<a href="https://t.me/zoomerfiedNews/1381" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid's May Perps Volume Hits Record 6.63% of Global CEX Total and 14.4% of Binance</strong><br />
+Hyperliquid captured a record 6.63% of global CEX perpetual futures volume in May and reached 14.4% relative to Binance alone, driven by its HIP-3 framework that generated over $62 billion in volume and ~$3 billion in open interest. Despite gains in framework-driven products, the report notes pure crypto perps volume declined year-over-year, highlighting ongoing market weakness.<br />
+<a href="https://t.me/wublockchainenglish/24612" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Bitcoin Dips Below $66,000 Amid Record 13-Day ETF Outflow Streak Totaling $4.33 Billion</strong><br />
+Bitcoin briefly fell below $66,000 as U.S. spot Bitcoin ETFs logged a historic 13 consecutive days of net outflows from May 15 to June 3, totaling $4.33 billion (~59,351 BTC). Galaxy Research noted the 7-day, 10-day, and 20-day rolling outflow windows each set all-time records, with geopolitical fears and weakening risk sentiment compounding selling pressure.<br />
+<a href="https://t.me/TheBlock001/6927" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/wublockchainenglish/24616" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid's HYPE Token Surpasses Solana in Price as SOL Falls to Lowest Since 2023</strong><br />
+HYPE overtook Solana's token price as SOL dropped to levels not seen since 2023, reflecting sustained capital rotation out of legacy L1s and into newer platforms with momentum and novel incentive structures. The price flip underscores the volatility in Layer 1 valuations as narratives shift and DeFi activity fragments across chains.<br />
+<a href="https://t.me/TheBlock001/6934" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy Sells 32 BTC, Continues 10%+ Decline Since Announcement</strong><br />
+Strategy sold 32 BTC over the past week and has fallen more than 10% since disclosing the sale, signaling a potential shift in its bitcoin accumulation strategy. The move rattled markets accustomed to Strategy as a perpetual buyer, raising questions about liquidity needs or strategic pivots as the company updates its capital structure following recent debt purchases.<br />
+<a href="https://t.me/zoomerfiedNews/1391" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+<a href="https://t.me/zoomerfiedNews/1394" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Down 16% in One Month While S&amp;P 500 Gains 5% as Capital Rotates to AI and IPOs</strong><br />
+Bitcoin has declined over 16% in the past month while the S&amp;P 500 rallied about 5%, as capital flows into AI stocks, gold, commodities, and high-profile IPOs. Charles Schwab's Jim Ferraioli said BTC lost its momentum-trade appeal, with Strategy's small sale less significant than the broader rotation away from crypto into higher-conviction themes.<br />
+<a href="https://t.me/wublockchainenglish/24611" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CryptoQuant: BTC Short-Term Holders Show Strongest Capitulation Signal of 2026</strong><br />
+CryptoQuant reported that Bitcoin short-term holders exhibited their most extreme capitulation event of the year, with 53,800 BTC transferred to exchanges at a loss over 24 hours while profit-taking inflows dropped to zero. Investors who bought near $80,000 are now selling into weakness rather than holding, marking a sentiment inflection point.<br />
+<a href="https://t.me/wublockchainenglish/24615" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Arthur Hayes Sells HYPE and NEAR, Warns Market May Peak Before September</strong><br />
+BitMEX co-founder Arthur Hayes sold all his HYPE and NEAR holdings, warning the crypto market could top between now and September due to rising energy prices from the Iran conflict, inventory restocking, three major AI IPOs expected by Q3, and the risk that Trump pivots against AI ahead of midterm elections. Hayes said he is taking profits ahead of the anticipated turn.<br />
+<a href="https://t.me/wublockchainenglish/24613" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bloomberg's Joe Weisenthal Calls This the "Coldest Crypto Winter Ever"</strong><br />
+Bloomberg Odd Lots host Joe Weisenthal argued this may be the "coldest crypto winter ever," citing fading "we're still early" narratives, realized institutional adoption removing upside surprise, AI siphoning capital and electricity, quantum-security concerns around Bitcoin, and firms like Strategy shifting from buyers to sellers. Strong AI and tech rallies are further drawing attention and liquidity away from crypto.<br />
+<a href="https://t.me/wublockchainenglish/24599" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto VC Deal Count Slumps to Five-Year Low as Investors Grow Selective</strong><br />
+Crypto venture capital deal count fell to a five-year low as investors become increasingly selective amid market weakness and tighter capital conditions. The slowdown reflects a shift from spray-and-pray token launches toward revenue-generating businesses, with only the most differentiated projects securing funding.<br />
+<a href="https://t.me/TheBlock001/6933" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Delphi Digital Report: Most Tokens Trade Below Launch Price; Capital Shifts to Cash Flows</strong><br />
+Delphi Digital's latest "state of token markets" report found 652 CEX listings with a median -82% return from launch, turning exchange access into a retail distribution channel for unlock overhang rather than price discovery. The firm noted capital is shifting toward tokens with real cash flows and buybacks, as speculative momentum fades and fundamentals gain renewed focus.<br />
+<a href="https://t.me/leviathan_news/19382" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Researcher: Crypto's Next Cycle Will Favor Revenue-Generating Assets Over Speculative Tokens</strong><br />
+A prominent researcher argued that crypto's next bull cycle will favor revenue-generating protocols like Aave and Jupiter over speculative tokens, as buybacks and value accrual mechanisms gain traction. Aave's February buyback totaled $42 million for 205,000 AAVE (1.28% of supply), and the market is beginning to price protocols on net take-rate and emission schedules rather than pure TVL.<br />
+<a href="https://t.me/leviathan_news/19371" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bankless Co-Founder David Hoffman Sells All ETH, Reallocates 50% to VVV, NEAR, ZEC, HYPE, 50% to LIT</strong><br />
+Bankless co-founder David Hoffman sold all his ETH and immediately reallocated approximately 50% to VVV, NEAR, ZEC, and HYPE, and the remaining 50% to LIT. Hoffman previously stated Ethereum has reached a market cap commensurate with its performance but lacks a catalyst for significant structural revaluation, prompting the pivot to higher-opportunity-cost assets.<br />
+<a href="https://t.me/wublockchainenglish/24605" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bankless Co-Founder Hoffman Explains ETH Sale: "Opportunity Cost, Not Bearishness"</strong><br />
+In a May 29 Unchained interview, Bankless co-founder David Hoffman clarified he sold all his ETH due to opportunity cost rather than bearishness on Ethereum. He noted Ethereum lacks the strong coordination and execution needed to regain unique momentum, and that the "Ether as money" thesis—central to Bankless's founding narrative—has become difficult to re-rate in the current environment.<br />
+<a href="https://t.me/wublockchainenglish/24610" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ryan Sean Adams Counters Hoffman: "Ethereum Is a Failed Project if ETH Fails as Store of Value"</strong><br />
+Bankless co-founder Ryan Sean Adams responded to David Hoffman, calling it a "mental fallacy" to be bullish on Ethereum but not ETH. Adams argued Ethereum should be considered a failed project if ETH does not become a global store of value, while Hoffman maintained that Ethereum's architecture minimizes explicit value capture and lacks a clear mechanism linking growth to sustained ETH value accrual.<br />
+<a href="https://t.me/wublockchainenglish/24619" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ethereum Maxirealist Argues Vitalik's Sci-Fi Novel Is a Blueprint for Crypto's Future</strong><br />
+An Ethereum supporter claimed Vitalik Buterin's sci-fi novel embeds 17 governance, identity, and privacy mechanisms beneath its narrative. The analysis describes "Veridia's" tax-rubric system—three independent Sentinel panels, median-of-nine judgments, deanonymization bounds—as mechanism-design middleware that prefigures scalable, privacy-preserving governance for future Ethereum applications.<br />
+<a href="https://t.me/leviathan_news/19379" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>New Bull Thesis: Ethereum to Dominate $700T Tokenization Market as Leading Settlement Layer</strong><br />
+A new ETH bull case predicts Ethereum will dominate the tokenization of a $700 trillion global asset market, leveraging its security, liquidity, and status as the leading settlement layer. RWA.xyz data shows Ethereum hosts $16.8 billion in non-stablecoin RWAs and $162 billion in stablecoins, though Solana already lists more RWA instruments by count, making execution and ecosystem growth critical to the thesis.<br />
+<a href="https://t.me/leviathan_news/19374" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ethereum Spot ETF Outflows Extend to 16 Consecutive Days, Total $90.15 Million on June 2</strong><br />
+U.S. spot Ethereum ETFs recorded $90.15 million in net outflows on June 2, marking the 16th consecutive day of redemptions. The sustained selling mirrors broader weakness in altcoin markets and reflects ongoing rotation out of ETH-based products as investors reassess Ethereum's value proposition relative to newer L1s and real-yield DeFi protocols.<br />
+<a href="https://t.me/wublockchainenglish/24600" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Vitalik Buterin Proposes Options-Based Synthetic Assets to Eliminate Liquidations and Oracle Dependency</strong><br />
+Vitalik Buterin proposed an options-based synthetic asset framework designed to eliminate liquidations and reduce reliance on real-time oracles. The model aims to solve DeFi's cliff-risk problem by embedding self-hedging mechanisms into collateral positions, potentially transforming how leverage and derivatives are structured on Ethereum and beyond.<br />
+<a href="https://t.me/TheBlock001/6922" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Protocol Architect Outlines Fixed-Rate Lending Model with Self-Hedging Collateral Before Liquidation</strong><br />
+Inspired by Curve's LLAMMA and f(x) Protocol's Liquidation Brake, a DeFi architect detailed a fixed-rate lending design where collateral automatically hedges before hitting liquidation thresholds. With $10.2 billion in Aave borrowed debt still subject to cliff risk and Pendle's $1.24 billion TVL proving demand for fixed-maturity products, the proposal addresses a major pain point in over-collateralized lending.<br />
+<a href="https://t.me/leviathan_news/19372" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Spark Unveils Spark Prime: Institutional Portfolio-Margin Lending On-Chain via Arkis</strong><br />
+Spark launched Spark Prime, an institutional financing platform powered by Arkis that brings portfolio-margin lending on-chain, enabling funding-rate and crypto-backed yield strategies. With $15 million in Spark USDC and ~$5 million in M1 collateral as a pilot, the structure wires USDS liquidity into credit-desk workflows, targeting hedge funds and prop desks seeking capital-efficient on-chain leverage.<br />
+<a href="https://t.me/leviathan_news/19375" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Polymarket's UMA Vote Upholds "No" Outcome on Strategy Bitcoin Sale Market Despite Backlash</strong><br />
+Polymarket's UMA dispute resolution upheld the "No" outcome on a market tracking whether Strategy sold bitcoin, despite public backlash over the interpretation. The decision highlights ongoing challenges in prediction market resolution mechanisms and underscores the importance of precise market wording and oracle design as volumes scale.<br />
+<a href="https://t.me/TheBlock001/6936" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Developer Reveals Quant Strategy for Trading FIFA World Cup Markets on Polymarket</strong><br />
+A developer unveiled a quantitative strategy for trading FIFA World Cup markets on Polymarket, which has already seen $1.26 billion in volume on the winner book before kickoff. The edge lies in exploiting live microstructure inefficiencies—stale orders, thin ladders, and broadcast lags—highlighting prediction markets as a new venue for algo trading and market-making talent.<br />
+<a href="https://t.me/leviathan_news/19373" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kalshi Launches Bitcoin Perpetual Contracts After CFTC Approval</strong><br />
+Prediction market platform Kalshi launched Bitcoin perpetual contracts following CFTC approval, which confirmed the product complies with the Commodity Exchange Act and designated contract market principles. Kalshi's BTCPERP is tied to Bitcoin spot price, and the approval paves the way for fully regulated perpetual futures trading on a U.S. prediction market platform—joining Polymarket's invite-only perps rollout.<br />
+<a href="https://t.me/wublockchainenglish/24607" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CFTC Approves Perpetual Futures for U.S. Users in Landmark Regulatory Filing</strong><br />
+The CFTC approved perpetual futures contracts to be offered to U.S. users, marking a landmark shift in derivatives regulation. The decision expands the playbook for U.S.-compliant crypto exchanges and prediction markets, opening the door for domestic retail and institutional access to perps previously limited to offshore platforms.<br />
+<a href="https://t.me/zoomerfiedNews/1388" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Injective Vulcan Upgrade Targets 90% Lower Oracle Gas, Enhanced RWA/Stablecoin Tooling</strong><br />
+Injective's Vulcan v1.20.0 upgrade is scheduled for June 4 at block 169,334,500, targeting a 90% reduction in oracle gas fees and new infrastructure for RWAs and stablecoins. The upgrade is expected to halt the chain briefly before resuming on the new binary, contingent on governance approval, and aims to lower friction for high-frequency oracle-dependent applications.<br />
+<a href="https://t.me/leviathan_news/19378" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Sei Giga Roadmap Targets 200,000 TPS and 400ms Finality for Perps, RWAs, and Stablecoins</strong><br />
+Sei's Giga roadmap aims for 200,000 transactions per second and 400-millisecond finality, positioning the chain for high-throughput perpetuals, real-world assets, and stablecoin applications. If achieved, these performance benchmarks would place Sei among the fastest production blockchains, addressing latency and capacity constraints that have limited institutional DeFi adoption.<br />
+<a href="https://t.me/leviathan_news/19363" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aave's February Buyback Totaled $42M for 205K AAVE, Representing 1.28% of Supply</strong><br />
+Aave's own February funding note disclosed a $42 million buyback for 205,000 AAVE tokens, representing just 1.28% of circulating supply. While modest in scale, the buyback signals a shift toward value return mechanisms in DeFi, with markets beginning to underwrite protocols based on net take-rate, emission schedules, and sustainable fee generation rather than TVL theater.<br />
+<a href="https://t.me/leviathan_news/19371" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>**Zcash Foundation Patches Critical Orchard Circuit Bug via Emergency Soft Fork</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

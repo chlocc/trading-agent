@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 12, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260712-trading.html" class="active">07/12/2026</a>
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+    <a href="20260706-trading.html" class="">07/06/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260712-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260712-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — July 12, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>Circle Receives Final OCC Approval to Launch First National Digital Currency Bank</strong><br />
+Circle secured final approval from the Office of the Comptroller of the Currency (OCC) to establish the First National Digital Currency Bank, strengthening USDC's position with federally regulated custody and trust infrastructure. The OCC's charter decision clarifies that Circle National Trust will not directly issue USDC initially, with reserve management capabilities planned for the future. This marks a major milestone in stablecoin regulation and institutional adoption.<br />
+<a href="https://t.me/leviathan_news/20521" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Thailand's Central Bank and SEC Probe High-Value USDT Transactions</strong><br />
+The Bank of Thailand now requires individuals depositing THB 5 million ($150,000+) in cash to verify the source of funds and is collaborating with Thailand's SEC to review large stablecoin transactions, particularly USDT. Authorities are concerned about concealed ownership and attempts to bypass domestic remittance channels, signaling increased scrutiny of crypto-to-fiat on-ramps in Southeast Asia.<br />
+<a href="https://t.me/wublockchainenglish/25106" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Adam Back and Michael Saylor Oppose Bitcoin's BIP-110 Proposal</strong><br />
+Blockstream co-founder Adam Back and Strategy founder Michael Saylor publicly opposed BIP-110, which attempts to restrict arbitrary data inscriptions on Bitcoin. Back argued it conflicts with Bitcoin's principles of decentralization and permissionlessness, while Saylor warned that turning a spam dispute into a consensus change could invalidate currently valid, fee-paying transactions. With the August deadline approaching and zero miner support, the proposal faces effectively insurmountable odds.<br />
+<a href="https://t.me/wublockchainenglish/25102" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Senate Plans Full Vote on CLARITY Act by July 20</strong><br />
+The Senate aims to bring the CLARITY Act — which provides a regulatory framework for digital assets — to a full vote by July 20. Bipartisan negotiations remain stalled on key issues including government ethics rules and anti-money laundering provisions. If the bill doesn't advance before the August recess, it could be pushed beyond the midterm elections, effectively resetting the legislative process.<br />
+<a href="https://t.me/theblockbeats/185223" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ripple CEO Says Company Nearly Shut Down After 2020 SEC Lawsuit</strong><br />
+Ripple CEO Brad Garlinghouse revealed that the company seriously considered shutting down and distributing its XRP holdings to shareholders after the SEC sued it in 2020. Ripple ultimately chose to fight the four-year legal battle to avoid hundreds of job losses. The disclosure underscores the existential threat regulatory actions posed to the crypto industry before recent policy shifts.<br />
+<a href="https://t.me/wublockchainenglish/25103" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>AI Data Center Bottleneck Shifts from Power to Rack-Level Components</strong><br />
+AI's biggest infrastructure challenge has moved from grid-level power to socket-level wins, scarce suppliers, and design-ins that will determine long-term profits. Rack-level component availability — not electricity — now dictates who captures value in the AI buildout. This mirrors Bitcoin mining's hardware concentration, where permissionless hashrate did not prevent Bitmain from controlling 82% of SHA-256 ASIC supply at its peak.<br />
+<a href="https://t.me/leviathan_news/20539" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tata Consultancy to Build 8,900-Person AI Deployment Team</strong><br />
+India's Tata Consultancy Services (TCS) is assembling a frontline AI deployment engineering team of up to 8,900 people and actively seeking AI acquisitions. TCS sees AI as creating new business opportunities rather than cannibalizing its traditional IT outsourcing work. The move comes as investors worry AI could reduce demand for engineering teams and compress project timelines and profit margins.<br />
+<a href="https://t.me/theblockbeats/185262" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI Investment Now Accounts for 25% of U.S. GDP Growth</strong><br />
+AI-related investment — including software, IT equipment, R&amp;D, and data center construction — now contributes over 25% of U.S. GDP growth, a historic high. For every $4 of U.S. economic growth, more than $1 comes from AI investment. AI spending has reached approximately 8% of GDP, surpassing the 6.5% peak seen during the 2000 dot-com bubble.<br />
+<a href="https://t.me/theblockbeats/185248" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Claude Code Adds In-App Browser for Seamless Development</strong><br />
+Anthropic's Claude Code desktop app now includes an integrated browser, letting developers browse documentation, designs, and websites directly while coding. Auto and Bypass modes skip the domain allowlist, while Claude Desktop's browser integration allows the AI to navigate external sites during development sessions, streamlining the workflow for AI-assisted coding.<br />
+<a href="https://t.me/leviathan_news/20532" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ethereum Foundation AI Agents Uncover Validator Crash Bug</strong><br />
+AI agents deployed by the Ethereum Foundation discovered a critical networking layer bug that could crash validators. However, human engineers were essential in separating real vulnerabilities from AI hallucinations. The bug (CVE-2026-34219) affected libp2p's rust implementation, impacting any application using the compromised version — validators were just one downstream surface.<br />
+<a href="https://t.me/leviathan_news/20519" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Stablecoin Market Loses $10B Since May in Biggest Retreat Since Terra Crash</strong><br />
+Stablecoin market cap fell by roughly $10 billion from its May peak, including a $7.7 billion drop in June — the largest monthly decline in dollar terms since May 2022. USDT declined from ~$190B to $184B, while USDC fell to ~$73B. Despite the headline drop, the overall contraction was only about 3%, far smaller than the 26% decline during the 2022 crypto winter.<br />
+<a href="https://t.me/wublockchainenglish/25108" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Delphi Digital: Global Demand for Dollars Shifting from Treasuries to Stablecoins</strong><br />
+Delphi Digital argues that global households are increasingly seeking dollar protection through stablecoins rather than U.S. Treasuries as local currencies weaken. USDT and USDC effectively convert offshore dollar demand into front-end Treasury bids through issuer reserves. A BIS study found that stablecoin growth correlates with rising U.S. Treasury holdings by issuers, creating a new transmission mechanism for dollar demand.<br />
+<a href="https://t.me/leviathan_news/20524" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Privy Enables AWS Bedrock AI Agents to Pay with USDC</strong><br />
+Privy now allows AWS Bedrock AgentCore AI agents to autonomously pay for APIs, MCP tools, and web content using USDC via secure Privy wallets. A 402 HTTP response plus one cryptographic proof retry is sufficient to sell sub-dollar data or inference calls without account-level billing. This enables AI agents to transact independently using stablecoins for micropayments.<br />
+<a href="https://t.me/leviathan_news/20523" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Wallet Integrates Robinhood Chain</strong><br />
+Binance Wallet now supports Robinhood Chain across both its mobile app and browser extension, enabling users to directly access and trade tokens on the rapidly growing Layer-2 network. The integration comes as Robinhood Chain records explosive growth with over $8.77 billion in 24-hour DEX volume.<br />
+<a href="https://t.me/theblockbeats/185251" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Gate Sees $207 Million Net Outflows in 7 Days After User Theft Incident</strong><br />
+Gate.io recorded $207 million in net outflows over the past week amid fallout from a user theft incident, ranking second among centralized exchanges by outflows. Binance led CEX inflows with $308 million in net deposits over the same period. Binance and Bybit have also seen significant monthly outflows due to EU delisting policies.<br />
+<a href="https://t.me/wublockchainenglish/25101" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Phantom Wallet Resolves 5.5-Hour Authentication Outage</strong><br />
+Phantom marked a major authentication incident resolved after 5 hours and 37 minutes affecting its browser extension, mobile app, and backend systems. The outage disrupted user access and transactions across all platforms. Phantom's status page confirmed full service restoration at 03:13 EDT on July 12.<br />
+<a href="https://t.me/leviathan_news/20531" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Robinhood Chain Surges to #2 in DEX Volume with $877M in 24 Hours</strong><br />
+Robinhood Chain recorded $877 million in DEX trading volume over the past 24 hours, ranking second globally behind only Solana's $1.13 billion. Over the past week, Robinhood Chain generated $2.3 billion in DEX volume. The explosive growth comes as ETH bridged from Ethereum mainnet to Robinhood Chain increased 10x in one week to over $100 million.<br />
+<a href="https://t.me/theblockbeats/185256" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/185253</p>
+
+<p><strong>Hedera's Bonzo Lend Exploited for $9M via Supra Oracle Manipulation</strong><br />
+Hedera-based lending protocol Bonzo Lend lost $9 million after attackers exploited a flaw in Supra's oracle verifier to inflate SAUCE token prices and drain protocol liquidity. Bonzo documented a 0.5% deviation threshold on the Supra feed, but it wasn't a consumer-side circuit breaker — one accepted update turned 250 SAUCE into $4.2 million in borrowing power.<br />
+<a href="https://t.me/TheBlock001/7137" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/leviathan_news/20526</p>
+
+<p><strong>Ethereum Lost $459M in H1 2026 Across 34 Incidents</strong><br />
+Ethereum suffered $459 million in losses across 34 security incidents in H1 2026, while Solana recorded $328 million across five incidents. One Drift Trade hack alone accounted for $295 million of Solana's total. QuillAudits data shows Ethereum's higher incident count reflects its larger DeFi ecosystem, though Solana's average loss per incident remains significantly higher.<br />
+<a href="https://t.me/leviathan_news/20538" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Mining Difficulty Drops 5% to 127.17T</strong><br />
+Bitcoin mining difficulty decreased 5% to 127.17T at block height 957,600. The network's seven-day average hashrate currently stands at 866.28 EH/s. The downward adjustment reflects reduced global hashrate following recent price weakness and the conclusion of favorable seasonal power pricing in some regions.<br />
+<a href="https://t.me/theblockbeats/185266" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solo Miner with 1TH/s Machine Wins Full 3.14 BTC Block Reward</strong><br />
+A solo miner using a single-chip Bitaxe ASIC machine with ~1 TH/s of hashrate successfully mined Bitcoin block 957,382, earning the full 3.1382 BTC block reward worth approximately $200,000. With 1 TH/s of hashrate, the average time to mine a block is approximately 16,000 years — the probability of this occurring is roughly once every 16 millennia, though still 53x higher than winning typical lottery jackpots.<br />
+<a href="https://t.me/theblockbeats/185222" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Michael Saylor Posts Bitcoin Tracker, Signaling Potential BTC Purchase</strong><br />
+Strategy founder and executive chairman Michael Saylor posted another Bitcoin tracker message with the caption "Orange dots tell only part of the story." Following historical patterns, Strategy typically announces increased Bitcoin holdings the day after Saylor posts tracker-related messages.<br />
+<a href="https://t.me/theblockbeats/185272" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Bitcoin and Ethereum Spot ETFs End 8-Week Outflow Streak</strong><br />
+U.S. Bitcoin and Ethereum spot ETFs recorded combined net inflows of $281.8 million this week, ending an 8-week outflow streak dating back to early May. Bitcoin ETFs saw $197.4 million in net inflows, while Ethereum ETFs recorded $84.4 million. However, this represents only 2.4% recovery of Bitcoin ETF outflows and 7% of Ethereum ETF outflows from the prior eight weeks.<br />
+<a href="https://t.me/theblockbeats/185214" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Polymarket Revenue Hits $11M This Week, Setting All-Time High</strong><br />
+Polymarket generated over $11 million in revenue this week, setting a new all-time high and vaulting the prediction market platform to #3 among crypto protocols by 24-hour revenue. Protocol cumulative revenue has now exceeded $94 million. The surge coincides with intense betting activity around the 2026 World Cup and escalating Middle East tensions.<br />
+<a href="https://t.me/theblockbeats/185255" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/185216</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>BlackRock's BUIDL Tops $900M on Avalanche, Doubles in One Week</strong><br />
+BlackRock's tokenized money market fund BUIDL surpassed $900 million in AUM on Avalanche after adding approximately $436 million (105% growth) over the past week. Launched in March 2024, BUIDL now has total AUM of about $2.87 billion across eight blockchains, making it one of the world's largest onchain tokenized U.S. Treasury funds.<br />
+<a href="https://t.me/wublockchainenglish/25105" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/leviathan_news/20536</p>
+
+<p><strong>Jupiter Launches 'Earn on Recurring' for DCA Orders</strong><br />
+Jupiter introduced "Earn on Recurring," allowing USDC in dollar-cost averaging (DCA) orders to earn yield through Jupiter Lend until each scheduled purchase executes. Jupiter's example applies 4.65% APY to the full $25,000 for a year; a 12-month equal-weight DCA would earn materially less as capital deploys progressively.<br />
+<a href="https://t.me/leviathan_news/20535" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Activates ALO Priority and Expands IOC Priority Fees to 100%</strong><br />
+Hyperliquid has activated ALO (Add Liquidity Only) priority and expanded IOC (Immediate or Cancel) priority-fee range to 0-100% on mainnet without breaking API changes. ALO fees reorder each price level by fee paid, while the full IOC priority range allows sophisticated traders to optimize execution during volatile periods.<br />
+<a href="https://t.me/leviathan_news/20533" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bubblemaps Launches Beta on Robinhood Chain</strong><br />
+Bubblemaps launched its token visualization and onchain analytics tools in beta directly on the Robinhood trading platform. Robinhood Chain went permissionless on July 1, and eight days later Bubblemaps flagged $ARROW as 80% bundled after tracing a 200-wallet cluster funded from a single source — demonstrating immediate utility for retail traders.<br />
+<a href="https://t.me/leviathan_news/20520" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔦 Other</p>
+
+<p><strong>Organized Crypto Hacking Gangs Scale Social Engineering to Steal Millions</strong><br />
+Security researcher Vladimir S. detailed how organized crypto hacking gangs exploit email, malware, fake support channels, and wallet approvals to steal millions through scalable social engineering. The operations combine technical sophistication with psychological manipulation, targeting victims through compromised support channels and phishing campaigns that appear legitimate.<br />
+<a href="https://t.me/leviathan_news/20540" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto IPO Activity Stalls as Capital Shifts to AI</strong><br />
+Crypto IPO activity has ground to a halt as investor capital shifts toward AI opportunities, while macro uncertainty and tighter funding conditions delay public listings. Public markets are sorting crypto by cash-flow quality: Circle posted $694 million in Q1 2026 revenue on $77 billion of USDC reserves, while many crypto-native companies struggle to demonstrate sustainable unit economics.<br />
+<a href="https://t.me/leviathan_news/20527" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Ventures Leads Crypto VC Deal Count in H1 2026</strong><br />
+Coinbase Ventures was the most active crypto investor in H1 2026, participating in 30 deals. It was followed by Animoca Brands with 19 deals, a16z crypto with 18, and Tether with 15. Castrum Capital, Becker Ventures, and Galaxy each recorded 10 deals during the period.<br />
+<a href="https://t.me/wublockchainenglish/25104" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SK Hynix CEO: 2027 Will Be the Tightest Supply Year in Memory History</strong><br />
+SK Hynix CEO Kwak Noh-jung stated that 2027 is expected to be the year with the tightest memory supply in industry history, with customers actively seeking long-term supply agreements. Even with continued capacity expansion, demand may still exceed supply through 2030. SK Hynix's U.S. ADR listing raised approximately $26.5 billion, setting a record for foreign companies' U.S. IPO fundraising.<br />
+<a href="https://t.me/theblockbeats/185233" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HBM4 Prices Expected to Rise to $4-5 per Kilobit in H2 2026</strong><br />
+Next-generation HBM4 memory prices may surge from $2 per kilobit to $4-5+ in H2 2026 due to surging AI demand and structural supply bottlenecks. HBM production requires three times the wafer capacity of standard DDR5 DRAM and has a four-to-six-month production cycle with significantly lower initial yields, severely limiting manufacturers' total memory output.<br />
+<a href="https://t.me/theblockbeats/185252" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Middle East Tensions Escalate: U.S. Conducts Third Round of Iran Strikes</strong><br />
+U.S. Central Command announced completion of the third round of strikes against Iran this week, hitting approximately 140 military targets using precision munitions from land-based and carrier-based aircraft, drones, and naval vessels. Iran subsequently announced the closure of the Strait of Hormuz. Multiple Gulf nations — including Bahrain, Jordan, Kuwait, UAE, and Qatar — simultaneously activated air defense systems, with commercial shipping through the strait dropping to 22 vessels daily from 130+ pre-conflict.<br />
+<a href="https://t.me/theblockbeats/185234" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/185238</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

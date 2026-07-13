@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 13, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260713-trading.html" class="active">07/13/2026</a>
+    <a href="20260712-trading.html" class="">07/12/2026</a>
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+    <a href="20260708-trading.html" class="">07/08/2026</a>
+    <a href="20260707-trading.html" class="">07/07/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260713-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260713-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 13, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Asian Tech Meltdown</strong>: South Korea's KOSPI crashed 8.96% triggering circuit breakers with SK Hynix down 15.3% and Samsung down 10.7%, while leveraged Korea ETFs plunged 20-30%. This matters NOW because foreign capital is fleeing concentrated tech positions, with banks already 85% through annual lending quotas—credit tightening will accelerate the unwind. Direct exposure: SK Hynix ADR, MU, NVDA. Hedge via: QQQ puts, SOXS. <a href="https://t.me/theblockbeats/185353" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>Robinhood Chain Breakout</strong>: Robinhood's L2 hit top-five DEX volume with $3B weekly trades, $1B in Uniswap swaps triggering protocol fee activation, and positioned as first institutional-grade RWA tokenization chain with 28M user base. This matters because HOOD is bridging tradfi infrastructure to onchain rails RIGHT as UK Treasury launches RWA task force targeting $880B by 2035. Plays: HOOD direct, ETH infrastructure bet, UNI protocol revenue. (<a href="https://t.me/TheBlock001/7143," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/20553)</p>
+
+<p>• <strong>Memory Supercycle Under Pressure</strong>: BofA projects 325% DRAM revenue growth for 2026 and Taiwan Semi posted 67.9% YoY revenue growth, but sector sold off hard on margin concerns and DeepSeek-driven efficiency fears. This matters because the bull case (AI capacity expansion) collides with bear case (multiple compression, profit taking) at precisely CPI/Fed week. Asymmetric volatility ahead. Tickers: MU, WDC, TSM. (<a href="https://t.me/theblockbeats/185360," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185346)</p>
+
+<p>• <strong>Crypto Deleveraging Reversal</strong>: Bitcoin ETFs ended 8-week outflow streak with $197M inflows, Ethereum ETFs added $84M, while Korean exchange volumes surged 436% as equities panic drives capital back to crypto. This matters because the forced deleveraging that crushed Q2 (spot volume at 16-month lows, OI down to $53B) may be bottoming as tradfi alternatives deteriorate. Setup for Q3 reversal. (<a href="https://t.me/wublockchainenglish/25113," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185354)</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>HOOD</strong> — Robinhood Chain reached top-five DEX volume with $3B in weekly trades and crossed $1B in Uniswap swaps, triggering protocol fee activation that monetizes the ecosystem. The chain is positioned as the first institutional L2 for tokenized RWAs, leveraging 28M retail users plus brokerage infrastructure while UK Treasury formalizes $880B RWA roadmap with BlackRock and Goldman Sachs. Next catalyst: expansion of tokenized securities trading and stablecoin integration. (<a href="https://t.me/TheBlock001/7143," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/20553)</p>
+
+<p><strong>ETH</strong> — BitMine accumulated 27,801 ETH bringing holdings to 5.77M ETH (4.8% of total supply) with $11.3B in crypto+cash, while Robinhood Chain adoption validates Ethereum as dominant onchain business infrastructure. ETF inflows resumed at $84M after prolonged drought, and Tom Lee argues $300B market cap is "grossly undervalued" versus $1-5T target as traditional assets tokenize. Risk: needs sustained L2 adoption and macro stability. (<a href="https://t.me/wublockchainenglish/25120," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/20541)</p>
+
+<p><strong>SOL</strong> — SBI Holdings partnered with Solana Foundation to build Japan-focused onchain financial market (SBI Solana Global) targeting JPY stablecoins, RWA tokenization, and AI agent payments. This brings Japan's largest financial institution into Solana ecosystem precisely as Japanese stablecoin trials begin (Lawson POS pilot in August). Multicoin Capital partner called market bottom with SOL as top conviction long-term hold. Entry on dips toward $130-135. (<a href="https://t.me/wublockchainenglish/25115," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185403, https://t.me/theblockbeats/185349)</p>
+
+<p><strong>UNI</strong> — Uniswap activated protocol fees on Robinhood Chain after $1B in swap volume, directly monetizing the DAO treasury from enterprise-grade L2 activity. This is the first major L2 fee switch since governance changes, validating the revenue model as institutional chains scale. Fee accrual mechanism makes UNI a direct beneficiary of Robinhood Chain growth without needing to hold HOOD equity. Watch for additional fee activations on Base, Arbitrum. <a href="https://t.me/leviathan_news/20544" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — Spot ETFs recorded $197M net inflows ending 8-week outflow streak, while global debt exceeding 300% of GDP reinforces scarcity narrative for Bitcoin and gold. Korean exchange volumes surged 436% as equities collapse drives capital rotation back to crypto. Technicals: holding $62K support; bearish funding rates suggest overleveraged shorts vulnerable to squeeze. Invalidation below $60K on volume. (<a href="https://t.me/wublockchainenglish/25113," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/20543)</p>
+
+<p><strong>META</strong> — Meta committed additional $400M to Louisiana data center, raising total AI infrastructure capex above $2.5B and positioning for $1.4T cumulative AI investment by 2028. Wall Street banks expect investment banking revenues up 26% YoY driven by SpaceX IPO and tech M&amp;A pipeline. Near-term headline risk from BBC child safety investigation, but capex cycle intact and monetization thesis remains on track. Buy dips below $550. (<a href="https://t.me/theblockbeats/185385," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185371)</p>
+
+<p><strong>WDC</strong> — Jefferies raised price target from $685 to $800 on Western Digital as storage demand accelerates alongside AI datacenter buildouts. Sector sold off 4.78% creating entry opportunity; memory supercycle thesis intact per BofA's 325% DRAM / 299% NAND revenue growth forecast for 2026. Watch for rebound as panic selling exhausts. (<a href="https://t.me/theblockbeats/185391," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185360)</p>
+
+<p><strong>BAC, GS, JPM, WFC</strong> — Wall Street earnings season begins with analysts projecting 26% YoY investment banking fee growth driven by SpaceX IPO, Iran geopolitical tensions boosting trading revenues, and tech M&amp;A pipeline. Banks positioned to benefit from volatility and deal flow acceleration. Setup favors trading desk revenues and IB surprises. Watch earnings calls for Q3 guidance. <a href="https://t.me/theblockbeats/185408" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CL, BRENT</strong> — WTI and Brent crude both up 3.3% as Iran keeps Strait of Hormuz closed, with geopolitical risk premiums spiking on Middle East escalation. Oil positioning was light coming into this move; energy equities lagging crude gains creates catch-up trade opportunity. Risk: diplomatic resolution or demand destruction fears. Entry: /CL above $82, XLE above $88. <a href="https://t.me/theblockbeats/185393" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MU</strong> — BofA forecasts memory supercycle continuing with 2026 DRAM revenue growth of 325% and NAND up 299% driven by ASP expansion and AI/datacenter demand. Stock sold off 4%+ on Korean contagion and DeepSeek efficiency fears, but fundamentals remain intact. Taiwan Semi's 67.9% YoY revenue growth confirms chip demand resilience. Oversold entry opportunity; target $145-150. (<a href="https://t.me/theblockbeats/185360," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185346)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>MSTR</strong> — MicroStrategy sold $466.7M in shares via ATM offering with ZERO Bitcoin purchases, leaving holdings flat at 843,775 BTC for the first week in recent history. This marks a strategic shift to building USD cash reserves rather than accumulating BTC, signaling either balance sheet caution or anticipation of better entry prices. MSTR premium to NAV vulnerable if BTC buying pauses persist. Avoid new longs; watch for sub-$1,400 breakdown. (<a href="https://t.me/TheBlock001/7142," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/25121)</p>
+
+<p><strong>NVDA, AMAT, LRCX</strong> — US AI semiconductor complex plunged across the board with NVDA down 6.6%, Applied Materials and Lam Research down 4%+ on sector weakness and DeepSeek efficiency concerns. CoWoS advanced packaging capacity gap expanding to 20% creates supply bottleneck that could pressure margins. Near-term momentum broken; watch for retest of $115 on NVDA before considering re-entry. (<a href="https://t.me/theblockbeats/185364," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185384)</p>
+
+<p><strong>KOSPI, SK Hynix</strong> — South Korean equity market crashed 8.96% triggering circuit breaker (7th this year, 35 total halt triggers YTD) with SK Hynix down 15.3% and Samsung down 10.7%. Foreign capital fleeing concentrated tech positions while domestic banks deployed 85% of annual household lending quota—credit tightening ahead will constrain margin financing. Structural vulnerabilities echo 1997 Asian crisis: extreme tech export reliance, foreign equity holdings at peaks, external debt surging. Avoid Korean tech exposure; liquidate leveraged Korea ETFs. (<a href="https://t.me/wublockchainenglish/25114," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185353, https://t.me/theblockbeats/185379)</p>
+
+<p><strong>BTC (tactical)</strong> — Despite ETF inflow reversal, Bitcoin remains range-bound between $62K-$64K with bearish funding rates across CEX/DEX indicating overleveraged market structure. QCP Capital notes BTC likely stuck until US CPI and Fed commentary clarify rate path. Geopolitical tensions creating risk-off pressure; dropped 1% to $63K as Iran escalation intensifies. Near-term downside to $57.8K if $62K support breaks on volume. (<a href="https://t.me/theblockbeats/185401," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/185352, https://t.me/theblockbeats/185386)</p>
+
+<p><strong>USDT, USDC</strong> — Stablecoin market cap fell $10B from May peak with both USDT and USDC declining—the largest monthly drop since Terra crash. This signals genuine deleveraging and reduced onchain activity, contradicting bullish narratives. Until stablecoin supply stabilizes and begins growing again, crypto upside remains constrained. Monitor for reversal but avoid catching falling knife. <a href="https://t.me/wublockchainenglish/25108" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Privacy Coins, Mixers</strong> — China's prosecutors proposed treating crypto mixers and privacy coins as presumptive money laundering signals, marking stricter enforcement regime. This regulatory tightening could spread to other jurisdictions and pressure privacy-focused projects. Avoid ZEC, XMR, and mixer-adjacent protocols until regulatory clarity improves. <a href="https://t.me/wublockchainenglish/25118" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long HOOD calls (3-month dated)</strong></p>
+
+<ul>
+<li>Rationale: Robinhood Chain hitting top-five DEX volume with $3B weekly trades, Uniswap fee activation, and institutional RWA positioning creates fundamental re-rating catalyst. UK Treasury RWA task force with BlackRock/Goldman signals $880B market by 2035. HOOD bridges 28M retail users to tokenized securities, uniquely positioned as tradfi-to-crypto infrastructure play.</li>
+<li>Entry: $35-37 range on any pullback; target $42-45 by September</li>
+<li>Risks: Broader market correction, regulatory delays on tokenized securities, execution risk on L2 adoption</li>
+<li>Related signals: <a href="https://t.me/TheBlock001/7143" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/leviathan_news/20553" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/185406" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long ETH vs. Short BTC pairs trade</strong></p>
+
+<ul>
+<li>Rationale: BitMine accumulating 4.8% of ETH supply, L2 enterprise adoption (Robinhood Chain), and ETF inflows resuming at $84M while Bitcoin narratives weaken (MSTR stops buying, range-bound price action, bearish funding). Tom Lee's $1-5T valuation case gains traction as RWA tokenization accelerates. Structural ETH outperformance setup.</li>
+<li>Entry: Long ETH futures / Short BTC futures at 0.038 ratio or better</li>
+<li>Risks: Broad crypto selloff compresses both assets; Bitcoin breakout above $66K invalidates relative weakness</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25120" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/leviathan_news/20541" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/TheBlock001/7142" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Short KOSPI via EWY puts</strong></p>
+
+<ul>
+<li>Rationale: South Korean equity market showing 1997 crisis vulnerabilities—8.96% single-day crash, 85% of annual bank lending deployed in H1, foreign capital exodus, extreme tech concentration. Circuit breaker triggered 7 times this year (35 total halts). Credit tightening cycle just beginning will crush margin-financed retail positions. Structural short with defined catalysts.</li>
+<li>Entry: EWY Aug/Sep 60 puts on any bounce above 64</li>
+<li>Risks: Korean government intervention, Fed dovish pivot, semiconductor demand surprise</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/185353" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/185379" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/185356" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long IBIT + ETHA (BTC/ETH spot ETF basket)</strong></p>
+
+<ul>
+<li>Rationale: Crypto ETFs ended 8-week outflow streak with $197M BTC / $84M ETH inflows as Korean equities collapse drives 436% volume surge on exchanges—capital rotation back to crypto. Q2 deleveraging (spot volume at 16-month lows, OI down to $53B) creates mean reversion setup. ETF structure captures institutional flows without execution risk.</li>
+<li>Entry: Equal-weight IBIT + ETHA on any 3-5% daily pullback</li>
+<li>Risks: CPI upside surprise, Fed hawkish hold, geopolitical escalation intensifies risk-off</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25113" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/185354" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/185421" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long SOL (spot or futures)</strong></p>
+
+<ul>
+<li>Rationale: SBI Holdings (Japan's largest financial institution) partnering with Solana Foundation to build onchain financial markets for JPY stablecoins, RWAs, and AI agent payments. Lawson stablecoin trial begins August. Multicoin Capital called market bottom with SOL as top long-term conviction. Combination of institutional adoption + retail infrastructure + technical base formation.</li>
+<li>Entry: $132-138 range; scale in on 5-8% dips</li>
+<li>Risks: Ethereum L2 competition intensifies, SBI execution delays, broader crypto correction</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25115" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/185403" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/185349" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long MU calls (2-month dated)</strong></p>
+
+<ul>
+<li>Rationale: BofA memory supercycle thesis intact with 325% DRAM / 299% NAND revenue growth forecast for 2026, while Taiwan Semi confirmed demand with 67.9% YoY revenue growth. Stock oversold at -4% on Korean contagion and sentiment panic, but fundamentals disconnected from price. DeepSeek efficiency fears overdone—AI datacenter buildout requires massive DRAM/HBM capacity regardless of model efficiency.</li>
+<li>Entry: MU $125-128</li>
+</ul>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

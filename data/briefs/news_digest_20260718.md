@@ -4,160 +4,155 @@
 
 🏛️ Regulation & Policy
 
-**U.S. House Panel Holds NYC Field Hearing on CLARITY Act Amid State Licensing Tensions**
-The House digital assets subcommittee convened in New York to discuss how the CLARITY Act could streamline crypto regulation, even as the state maintains its restrictive BitLicense regime that has driven exchanges like Kraken out since 2015. The hearing highlights the ongoing federal-state tension over who controls crypto policy and whether national legislation can override local barriers to innovation.
+**U.S. House Digital Assets Panel Holds Field Hearing on CLARITY Act in New York**
+The House Financial Services Committee's digital assets subpanel convened a New York field hearing to examine how the CLARITY Act could unlock crypto innovation, despite the state's restrictive BitLicense regime that has driven companies like Kraken out since 2015. The hearing signals federal momentum toward clearer regulatory frameworks even as state-level friction persists around crypto licensing.
 → https://t.me/leviathan_news/20754
 
-**Tether Freezes $131M USDT Linked to Iran's IRGC as U.S. and U.K. Align Stablecoin Rules**
-Tether blocked over $131 million in USDT tied to Iran's Islamic Revolutionary Guard Corps as part of sanctions enforcement, while U.S. and U.K. regulators advance coordinated stablecoin frameworks. The freeze underscores how centralized stablecoins remain the most responsive tool for geopolitical compliance, even as their $257 billion combined market cap continues to grow.
-→ https://t.me/wublockchainenglish/25192
-
-**HSBC Orion Becomes First Platform Approved for UK's Digital Securities Sandbox**
-The Bank of England cleared HSBC's Orion platform for live operations in its Digital Securities Sandbox, marking the first institutional settlement system authorized to handle tokenized assets using sterling central bank money via RTGS. The approval signals the UK's intent to lead regulated tokenization infrastructure rather than permissionless alternatives.
-→ https://t.me/leviathan_news/20759
-
-**Apple Bans Crypto ATM and Home Services Ads from Maps Under July 14 Policy Update**
-Apple removed crypto ATM and home services ads from Apple Maps, citing consumer protection concerns under policies effective July 14. The move comes as Cupertino has yet to launch its own crypto on-ramp, effectively blocking Maps advertising for competitors who have built operational crypto infrastructure.
+**Apple Bans Crypto ATM and Home Services Ads from Maps Platform**
+Under policies effective July 14, Apple removed all crypto ATM and home-service advertisements from its Maps platform, cutting off a key consumer on-ramp without offering its own alternative. The move, framed as consumer protection, leaves users without mainstream discovery tools for physical crypto services while Apple continues to restrict native crypto integrations.
 → https://t.me/leviathan_news/20775
+
+**HSBC Orion Becomes First Platform Cleared by Bank of England for Live Digital Securities Sandbox**
+HSBC's Orion platform received operational approval from the Bank of England to conduct live trades in its Digital Securities Sandbox, settling transactions in sterling via RTGS. This marks the first institutional-grade, central-bank-backed tokenized securities infrastructure in the U.K., validating the convergence of traditional banking rails and blockchain settlement.
+→ https://t.me/leviathan_news/20759
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🤖 AI & Tech
 
-**Anthropic IPO Odds Hit 77% as Kimi K3 Launch Drags $2T Valuation Forecast to 35%**
-Prediction markets now price a 77% chance Anthropic goes public this year, but the odds of it reaching a $2 trillion valuation dropped to 35% following the release of competing model Kimi K3. The divergence suggests investors expect a liquidity event but are tempering hypergrowth expectations amid intensifying AI model competition.
-→ https://t.me/zoomerfiedNews/1445
-
-**Paragon Launches Perpetual Markets for AI Infrastructure Stocks Including Corning and Credo**
-Paragon introduced three new perpetual contracts covering AI connectivity layer companies—Corning, Credo Technology, and Coherent—allowing traders to speculate on legacy optical-fiber and telecom infrastructure benefiting from AI data-center buildouts. The move rebrands decades-old hardware suppliers as "AI plays" to capitalize on current market appetite.
-→ https://t.me/leviathan_news/20764
-
-**Building Proprietary AI Systems Beats Using ChatGPT, Argues Investor**
-Investor commentary highlighted that competitive advantage in AI comes not from consuming generic ChatGPT answers but from encoding unique, proprietary knowledge into repeatable AI systems. The thesis positions custom-trained models as strategic compounders for firms with genuinely differentiated data sets.
+**Specialized AI Systems Beat Generic Models, Says LinkedIn Post**
+A LinkedIn thought piece argues that AI's real edge comes from building proprietary, repeatable intelligence systems rather than consuming generic ChatGPT outputs. For firms with unique operational knowledge, encoding it into specialized models creates a compounding advantage that off-the-shelf tools cannot replicate, shifting the competitive dynamic from consumption to architecture.
 → https://t.me/leviathan_news/20768
 
-**MoonPay and AskVenice Launch Lumara Film Festival with $100K Prize Pool for AI-Generated Films**
-MoonPay and AI platform AskVenice announced the Lumara Film Festival, offering $100,000 in prizes for AI-generated films. While framed as an innovation push, the initiative appears more co-marketing than protocol-level infrastructure, positioning two brands at the intersection of crypto payments and generative media.
+**MoonPay and AskVenice Launch $100,000 AI Film Festival**
+MoonPay and AI platform AskVenice announced the Lumara Film Festival, offering $100,000 in prizes for AI-generated films. The initiative blends payments infrastructure with content creation, though critics note it's more brand collaboration than protocol innovation, with the funding split across multiple categories rather than concentrated on breakthrough work.
 → https://t.me/leviathan_news/20766
+
+**Paragon Launches Perpetual Markets for AI Connectivity Stocks**
+Paragon introduced three new perpetual futures markets covering Corning, Credo Technology, and Coherent—companies it labels part of the "AI connectivity layer." While the branding emphasizes AI, these firms have decades-long histories in optical fiber and photonics, raising questions about whether the market positioning reflects genuine AI exposure or rebranding legacy infrastructure plays.
+→ https://t.me/leviathan_news/20764
+
+**Anthropic IPO Odds at 77% This Year, $2T Valuation Odds Drop to 35%**
+Polymarket shows 77% odds for an Anthropic IPO in 2026, but the probability of the company hitting a $2 trillion valuation this year has slipped to 35% following the release of competitor Kimi K3. The declining valuation odds suggest the market is recalibrating expectations around AI hyperscaler trajectories amid intensifying model competition.
+→ https://t.me/zoomerfiedNews/1445
+
+**SlowMist Uncovers macOS Malware Stealing Telegram Sessions and Hardware Wallet Apps**
+Security firm SlowMist disclosed macOS malware that copies authenticated Telegram session files and replaces Ledger and Trezor apps with phishing loaders, bypassing 2FA entirely. The attack vector exploits session persistence, allowing attackers to hijack accounts without triggering authentication prompts—a critical escalation in supply-chain and endpoint security threats.
+→ https://t.me/leviathan_news/20756
+
+**Firepan Sentinel Launches Free Contract Safety Scanner for Base**
+Firepan released Sentinel, a free tool that analyzes token contracts on Base in seconds, flagging admin permissions, holder concentration, and liquidity risks without requiring signup. Built to accelerate risk assessment in the Base ecosystem, the tool aims to surface vulnerabilities before they become exploits, though it cannot predict future malicious admin actions.
+→ https://t.me/leviathan_news/20755
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 💳 Payments & Stablecoins
 
-**Bank of America Appoints AI and Digital Assets Leaders to Scale Stablecoin Infrastructure**
-Bank of America named dedicated leadership for AI and digital assets—including stablecoins, tokenized deposits, and blockchain settlement—across its markets division. The appointments mark a 20-year internal hire rather than an external crypto-native recruit, signaling institutional confidence in blockchain infrastructure without headline-grabbing mercenary talent.
+**Bank of America Appoints Dedicated AI and Digital Assets Leaders**
+Bank of America tapped veteran internal executives to lead its AI and digital assets strategy, focusing on stablecoins, tokenized deposits, crypto settlement, and blockchain infrastructure across its markets business. The 20-year BofA lifer appointments signal institutional commitment over flashy crypto-native hires, prioritizing credibility and operational integration as the bank scales tokenized products.
 → https://t.me/leviathan_news/20772
+→ https://t.me/TheBlock001/7176
 
-**Stablecoins Face Regulatory and Market Headwinds Despite $257B Market Cap Success**
-GSR analysis noted stablecoins remain a crypto success story with USDT at $184 billion and USDC at $73 billion, but highlighted an inversion in June settlement volume: USDC processed $1.21 trillion versus USDT's lower figure. The shift underscores growing regulatory scrutiny and market-structure challenges facing the sector over the next five years.
+**Stablecoins Face Regulatory and Market Challenges Despite Success**
+A GSR report highlights stablecoins as a major crypto success story—USDT at $184B and USDC at $73B market cap—but warns that the next five years face regulatory headwinds and market evolution. Notably, June settlement volume inverted: USDC ran $1.21T versus USDT's lower adjusted figure, signaling a potential shift in institutional preference toward compliance-focused issuers.
 → https://t.me/leviathan_news/20774
+
+**Aave Proposes V4 Deployment on Stripe-Backed Tempo L1**
+Aave governance introduced a proposal to deploy V4 on Tempo, a stablecoin-focused layer-1 blockchain backed by Stripe and Paradigm. The move underscores DeFi protocols' push to integrate directly with payment-optimized chains, positioning liquidity infrastructure closer to regulated stablecoin rails and institutional onboarding flows.
+→ https://t.me/leviathan_news/20765
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🏦 Exchanges & Platforms
 
-**FTX to Distribute $900M to Creditors in Fifth Payout on July 31**
-FTX will disburse approximately $900 million to eligible creditors and preferred equity holders on July 31 as part of its fifth distribution under the reorganization plan. Convenience-class creditors are expected to recover over 120% using court-approved conversion tables that locked in dollar values rather than returning actual crypto holdings.
-→ https://t.me/leviathan_news/20771
-
-**Coinbase Bitcoin Premium Index Stays Negative for Record 60 Days, Signaling Weak U.S. Demand**
-The Coinbase Bitcoin Premium Index remained negative for 60 consecutive days—the longest streak on record—indicating persistently weak U.S. institutional demand since May 19. The extended stretch surpasses the 40-day negative run earlier this year and historically correlates with near-term price pressure.
-→ https://t.me/wublockchainenglish/25190
-
-**Cobie Takes Over Coinbase Trading Products and Base App, Vows to Rebuild Trust**
-Former KOL and newly appointed Coinbase trading product lead Cobie acknowledged that both Coinbase and Base have "severely eroded user trust" through avoidable mistakes and said he plans to listen more closely to crypto-native users. His comments followed questions about how the Base App will attract onchain users after recent ecosystem issues.
-→ https://t.me/wublockchainenglish/25198
-
-**Consensys Says North Korea-Linked Developer Contributed to MetaMask Code Before Access Revoked**
-Consensys disclosed it accidentally hired a software developer tied to North Korea—using the alias "Tyler Knapp"—who contributed to MetaMask code, including crypto-to-fiat features. The firm revoked access after identifying the security risk and confirmed no assets, data, or users were compromised and no malicious code was deployed.
+**Consensys Hired North Korea-Linked Developer, Revoked Access Before Damage**
+Consensys accidentally onboarded a North Korea-linked developer using the alias "Tyler Knapp" via a third-party contractor, who contributed to MetaMask code including crypto-to-fiat features. The company revoked access after identifying the security risk and confirmed no malicious code was deployed, no assets compromised, and no user impact—highlighting supply-chain vulnerabilities in decentralized development workflows.
 → https://t.me/wublockchainenglish/25195
 
-**Morgan Stanley's E*TRADE Launches Crypto Spot Trading in Landmark Retail Expansion**
-E*TRADE, owned by Morgan Stanley, began offering crypto spot trading to retail clients, marking one of the largest traditional brokerage entries into direct crypto access. The launch extends institutional crypto infrastructure into mass-market retail distribution and could pressure competitors like Schwab and Fidelity to follow.
-→ https://t.me/wublockchainenglish/25192
+**Coinbase Bitcoin Premium Index Negative for Record 60 Days**
+Coinbase's Bitcoin premium index has remained negative for 60 consecutive days since May 19, reaching -0.1025%—surpassing the previous 40-day record and the ~30-day stretch during October's crash. The sustained discount versus other exchanges suggests weakened U.S. institutional demand and raises concerns about near-term pullback pressure, contrasting sharply with bullish retail narratives.
+→ https://t.me/wublockchainenglish/25190
+
+**Cobie Takes Over Coinbase Trading and Base App Products**
+KOL Cobie announced he assumed leadership of Coinbase's trading products and the Base App just days ago, acknowledging that both Coinbase and Base have "severely eroded user trust through a series of avoidable mistakes." He emphasized that Coinbase has been distant from crypto-native users and pledged to listen more closely, signaling a strategic reset after trust damage within the Base ecosystem.
+→ https://t.me/wublockchainenglish/25198
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📈 Crypto Trading & Markets
 
-**Bitcoin and Ethereum ETFs Record $132M and $36.7M Net Inflows on July 17**
-Spot Bitcoin ETFs posted $132 million in net inflows while Ethereum ETFs added $36.73 million on July 17, continuing a recovery from the prior eight-week, $8 billion outflow streak. The inflows followed softer-than-expected U.S. inflation data but analysts still expect BTC to remain rangebound without clearer monetary policy shifts.
-→ https://t.me/wublockchainenglish/25197
-
-**CoinShares: Record $8B Outflow Streak Ends as Bitcoin Funds Return to Inflows**
-Digital asset investment products ended an eight-week, $8 billion outflow streak with $287 million in inflows last week, driven by softer U.S. CPI and PPI data. An additional $415 million flowed in over Tuesday and Wednesday, primarily into Bitcoin. CoinShares still expects BTC to trade sideways and sees a break above $80,000 as unlikely without monetary-policy catalysts.
+**CoinShares: Record $8B Outflow Streak Ends as Bitcoin Funds See Inflows**
+Digital asset investment products ended an eight-week, $8 billion outflow streak with $287 million in inflows last week, followed by another $415 million Tuesday-Wednesday after softer U.S. inflation data. Despite the reversal, CoinShares expects Bitcoin to remain rangebound and sees a break above $80,000 as unlikely without a clearer shift in Fed policy expectations.
 → https://t.me/wublockchainenglish/25191
 
-**Tom Lee Says Ethereum Will 'Penalize Impatient Investors' Despite Underperformance**
-Fundstrat's Tom Lee argued Ethereum's recent lag mirrors Nvidia's three-month consolidation before a $2 trillion rally, stating that fundamentals remain intact and that both stocks and crypto "penalize impatient investors." He attributed the broader market pullback to post-deleveraging capital rotation toward yield-bearing assets.
+**Spot Bitcoin and Ethereum ETFs Record $132M and $36.73M Net Inflows**
+On July 17, spot Bitcoin ETFs logged $132 million in net inflows while spot Ethereum ETFs recorded $36.73 million, per SoSoValue data. The flows suggest sustained institutional appetite despite rangebound price action, with Ethereum products narrowing the gap relative to Bitcoin's dominant share of inflows year-to-date.
+→ https://t.me/wublockchainenglish/25197
+
+**Tom Lee: Ethereum Will "Penalize Impatient Investors"**
+Fundstrat's Tom Lee told the New Era Finance Podcast that Ethereum's recent lag is due to deleveraging and capital rotation into yield-bearing sectors, but fundamentals remain intact. Drawing parallels to Nvidia's $2 trillion surge after consolidating at $160, he argued that both stocks and crypto markets reward patient conviction during drawdowns, especially when narrative and infrastructure remain strong.
 → https://t.me/wublockchainenglish/25196
 
-**CryptoQuant: Strategy's New Capital Framework Lacks Discipline for BTC Accumulation and Sales**
-CryptoQuant noted that Strategy's updated capital framework improves liquidity but lacks clear rules for Bitcoin accumulation timing and disciplined selling during bull markets. The firm's July 6 filing showed its first 3,588 BTC sale left its $1.25 billion monetization authorization entirely untouched, raising questions about governance and execution strategy.
+**Privacy Tokens Surge 127.3% Over Past Year, Outperforming All Sectors**
+Privacy-focused cryptocurrencies posted a 127.3% gain over the past year, topping every other crypto sector as investors sought fungibility and zero-knowledge privacy beyond Bitcoin's transparent ledger. Seventy-three exchanges delisted Monero under FATF travel rules, accelerating demand for alternatives as regulatory pressure inadvertently validated the use case for truly private assets.
+→ https://t.me/leviathan_news/20769
+
+**CryptoQuant: Strategy's Capital Framework Strengthens Liquidity but Lacks Discipline**
+CryptoQuant praised Strategy's new capital framework for improving liquidity but criticized the absence of clear rules for Bitcoin accumulation timing and selling discipline during future bull markets. The firm's July 6 filing showed its first 3,588 BTC sale left the full $1.25 billion monetization authorization unused, raising questions about execution strategy as enterprise mNAV approaches key thresholds.
 → https://t.me/leviathan_news/20773
 
-**Privacy Tokens Surge 127% Over Past Year, Outperforming All Crypto Sectors**
-Research highlighted that privacy tokens gained 127.3% year-over-year, topping every other crypto category as investors seek fungibility and zero-knowledge privacy beyond Bitcoin's transparent ledger. Seventy-three exchanges delisted Monero under FATF travel rules, but demand accelerated, signaling sustained appetite for non-traceable assets.
-→ https://t.me/leviathan_news/20769
+**FTX to Distribute $900M to Creditors in Fifth Payout on July 31**
+FTX will begin its fifth distribution round on July 31, paying approximately $900 million to creditors with allowed claims who completed pre-distribution steps by the June 16 deadline. The 120% convenience-class recovery reflects bankruptcy math: customer balances were dollarized via court-approved conversion rather than returning actual crypto, turning liquidation gains into distribution surplus.
+→ https://t.me/leviathan_news/20771
+→ https://t.me/wublockchainenglish/25194
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔷 DeFi & Protocols
 
-**Base, Optimism and Coinbase Launch Native Account Abstraction (EIP-8130) to Cut Transaction Costs 2x**
-Base, Optimism, Coinbase, and WalletConnect announced Native Account Abstraction under draft EIP-8130, claiming it reduces transaction costs by over 2x and brings smarter wallets to EVM chains. Critics note the EIP remains in draft status and was authored by a Coinbase engineer, raising questions about whether the "launch" is premature branding over ratified standard.
+**Base, Optimism, Coinbase and WalletConnect Launch Native Account Abstraction (EIP-8130)**
+Base, Optimism, Coinbase, and WalletConnect announced Native Account Abstraction via draft EIP-8130, claiming transaction costs will drop by over 2x and bring smarter wallets to EVM chains. Critics note the "launch" terminology is premature—the EIP remains in draft status and was authored by a Coinbase employee on Coinbase's chain, raising questions about decentralized governance versus unilateral rollout.
 → https://t.me/leviathan_news/20767
 
-**Aave Proposes Deploying V4 on Tempo, a Stablecoin-Focused Layer 1 Backed by Stripe and Paradigm**
-Aave governance floated a proposal to deploy Aave V4 on Tempo, a new stablecoin-centric layer-1 blockchain supported by Stripe and Paradigm. The move positions Aave to anchor liquidity on a payments-focused chain designed for institutional settlement infrastructure.
-→ https://t.me/leviathan_news/20765
-
-**ether.fi Secures Crypto's Largest Slashing Cover from Nexus Mutual, Protecting Up to 15,000 ETH**
-Liquid staking protocol ether.fi purchased slashing insurance from Nexus Mutual covering up to 15,000 ETH—more than the total cumulative slashing losses Ethereum has ever recorded. The policy appears designed to protect against tail risks like coordinated validator failures or exploit-driven mass slashing events rather than routine operational penalties.
+**ether.fi Secures Crypto's Largest Slashing Cover with Nexus Mutual**
+Liquid staking protocol ether.fi purchased slashing insurance from Nexus Mutual covering up to 15,000 ETH—more than the cumulative slashing losses in Ethereum's history. The policy insures against correlated validator failures and operational risk rather than individual slashing events, reflecting ether.fi's scale and the systemic risk inherent in concentrated staking infrastructure.
 → https://t.me/leviathan_news/20758
 
-**Across Restores Solana Deposits After Attack, Contains Losses to Risk Labs Relayer**
-Bridge protocol Across resumed Solana deposits after an attack that affected only the Risk Labs relayer, with no user funds lost. The incident occurred within Across's first quarter supporting Solana, breaking a five-year, $34 billion track record with zero exploits—highlighting the challenges of integrating new chains into intent-based bridge architectures.
+**Across Protocol Restores Solana Deposits After Attack, No User Funds Lost**
+Cross-chain bridge Across restored Solana deposits following an attack that affected only the Risk Labs relayer, with no user funds compromised. The protocol's intent-based architecture held: relayers front liquidity and are reimbursed on-chain, so the exploit remained contained to internal operations while user flows continued uninterrupted after a brief pause.
 → https://t.me/leviathan_news/20761
 
-**Polygon Schedules Ithaca Hardfork for July 29 to Fix Stalled Block Producer Issue**
-Polygon will activate the Ithaca hardfork on July 20 on testnet Amoy and July 29 on mainnet to address stalled block producers caused by a pending-milestone wedge. The upgrade follows three liveness failures in twelve months (July, September, and December 2025) traced to the same underlying bug.
+**Polygon Schedules Ithaca Hardfork to Fix Validator Rotation Issues**
+Polygon will deploy the Ithaca hardfork July 20 on Amoy testnet and July 29 on mainnet to address validator rotation failures that caused three liveness outages in twelve months. The upgrade targets the pending-milestone bottleneck that has repeatedly stalled block production, aiming to restore reliability after July, September, and December 2025 incidents exposed structural fragility.
 → https://t.me/leviathan_news/20757
 
 **KaleidoSwap Demonstrates RGB Asset Transfers and Atomic Swaps on Liquid**
-KaleidoSwap released a proof of concept showing RGB protocol asset issuance, transfers, and atomic swaps on the Liquid sidechain. The demo marks an early step toward Bitcoin-native DeFi using client-side contracts and federated settlement, though production readiness remains unconfirmed.
+KaleidoSwap released a proof-of-concept showing RGB protocol assets can be issued, transferred, and atomically swapped on Liquid—a Bitcoin sidechain. The demo marks an early step toward production-ready Bitcoin-native DeFi, leveraging client-side contracts and federation-based settlement to enable decentralized exchange without exposing base-layer Bitcoin to smart contract risk.
 → https://t.me/leviathan_news/20763
 
-**Pascal Raises Series A from Union Square Ventures, Bringing Total Funding to $15M**
-Prediction-market platform Pascal closed a Series A led by Union Square Ventures, bringing total funding to $15 million. The startup enters a market where Kalshi won regulatory approval via litigation and Polymarket already processes nine-figure election volume, leaving Pascal to carve out differentiation in a crowded field.
-→ https://t.me/leviathan_news/20753
+**Zcash Urges Node Operators to Migrate Before Legacy Client Halts**
+Zcash announced that zcashd node operators must migrate to the Z3 client before block 3,417,100, when the legacy client will halt. The forced upgrade consolidates the network onto a single maintained implementation, reducing fragmentation but also concentrating development risk around a narrower client base.
+→ https://t.me/leviathan_news/20762
+
+**Input Output Shifts Cardano Core Development to External Teams**
+Input Output announced it will begin transferring responsibility for Cardano's Haskell node, Plutus, and Daedalus wallet to external teams starting in August. Critics view the handoff as "ballast-tossing," questioning whether new maintainers possess the institutional knowledge to sustain development velocity, while supporters frame it as decentralization of protocol stewardship.
+→ https://t.me/leviathan_news/20760
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔦 Other
 
-**Galaxy Digital Signs $75M, 15-Year Naming Deal for Texas Tech Football Stadium**
-Galaxy Digital secured a 15-year, $75 million naming-rights partnership to rebrand Texas Tech's Jones AT&T Stadium as Galaxy Stadium starting in the 2026 season. The deal ranks among the largest in college athletics and makes Galaxy the university's official data center and digital assets partner.
+**Galaxy Digital Signs $75M, 15-Year Texas Tech Stadium Naming Deal**
+Galaxy Digital secured a 15-year, $75 million naming-rights partnership with Texas Tech, rebranding Jones AT&T Stadium as Galaxy Stadium starting in 2026. The deal ranks among the largest in college athletics and positions Galaxy as the university's official data center and digital assets partner, extending the firm's institutional branding beyond finance into mainstream sports.
+→ https://t.me/TheBlock001/7175
 → https://t.me/wublockchainenglish/25193
 
-**Trezor Defends Hardware Wallets After ZachXBT Calls Them 'Complete Garbage'**
-Trezor responded to on-chain investigator ZachXBT's criticism of hardware wallets, arguing they remain the strongest self-custody option despite usability tradeoffs. The debate centers on whether dedicated hardware security outweighs the friction and user-error risks compared to mobile alternatives like Apple's Secure Enclave, which uses incompatible elliptic curves for Ethereum.
+**Trezor Defends Hardware Wallets After ZachXBT Criticism**
+Trezor responded to on-chain investigator ZachXBT calling hardware wallets "complete garbage," arguing they remain the strongest self-custody option despite usability tradeoffs. The company acknowledged UI friction but emphasized that dedicated secure hardware is still more resilient than smartphone-based wallets, which cannot natively support Ethereum's secp256k1 curve via Apple's Secure Enclave APIs.
 → https://t.me/leviathan_news/20770
 
-**Input Output Begins Shifting Cardano Core Development to External Teams in August**
-Input Output announced it will transition Cardano's Haskell node, Plutus smart-contract language, and Daedalus wallet to external teams starting in August. Critics interpret the move as off-loading technical debt to contributors unfamiliar with the original architecture, while supporters frame it as decentralization of network stewardship.
-→ https://t.me/leviathan_news/20760
-
-**Zcash Urges Node Operators to Migrate to Z3 Before Legacy Client Halts at Block 3,417,100**
-Zcash developers issued an urgent migration notice for zcashd node operators to switch to the Z3 client before the legacy implementation halts at block 3,417,100. Failure to upgrade risks node operators falling out of consensus with the network.
-→ https://t.me/leviathan_news/20762
-
-**SlowMist Uncovers macOS Malware That Steals Telegram Sessions and Swaps Ledger/Trezor Apps**
-Cybersecurity firm SlowMist discovered macOS malware that copies authenticated Telegram session files and replaces legitimate Ledger and Trezor applications with phishing loaders. The attack bypasses two-factor authentication by hijacking already-active sessions rather than attempting to crack credentials, posing elevated risks for crypto users on Apple hardware.
-→ https://t.me/leviathan_news/20756
-
-**Firepan Sentinel Offers Free Contract Risk Analysis for Base Ecosystem**
-Firepan launched Sentinel, a free tool that analyzes Base token contracts for admin permissions, holder concentration, liquidity risk, and contract safety within seconds. The service aims to help users identify rug-pull risks before interacting with unaudited tokens, though it cannot predict future developer actions like malicious function calls.
-→ https://t.me/leviathan_news/20755
+**Pascal Raises $15M Series A Led by Union Square Ventures**
+Prediction-market platform Pascal closed a $15 million Series A led by Union Square Ventures, bringing total funding to date to $15 million. Observers note Pascal enters a market where Kalshi won regulatory approval via litigation and Polymarket already runs nine-figure election volumes, leaving the startup to differentiate on UX, liquidity depth, or novel market mechanics.
+→ https://t.me/leviathan_news/20753
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

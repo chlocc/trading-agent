@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 19, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260719-trading.html" class="active">07/19/2026</a>
+    <a href="20260718-trading.html" class="">07/18/2026</a>
+    <a href="20260713-trading.html" class="">07/13/2026</a>
+    <a href="20260712-trading.html" class="">07/12/2026</a>
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+    <a href="20260709-trading.html" class="">07/09/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260719-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260719-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 19, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Memory Supercycle Intensifies</strong> — Middle Eastern sovereign AI investors are now negotiating long-term supply contracts with Korean memory makers, with Q3 DRAM contracts expected to rise 15% QoQ and 2027 demand projected to surge 50-60%. This validates the structural supply shortage thesis and should drive SK Hynix, Samsung, and Micron higher. (<a href="https://t.me/theblockbeats/186341," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186340," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186318" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Stablecoin Regulatory Pressure</strong> — The GENIUS Act's two-year compliance countdown is squeezing USDT's U.S. footprint while Circle faces a brutal downgrade to $50 (from $85) as UBS cites existential competitive threats from Visa, Stripe, and Coinbase's OUSD. Circle's 76% stock plunge reflects real structural headwinds in payment stablecoin market share. (<a href="https://t.me/leviathan_news/20797," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186332" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Bitcoin Technical Inflection</strong> — Multiple conflicting signals: smart money like Doctor Profit is flipping long at $64k citing structural bottom, while funding rates remain bearish and on-chain analysts warn of resistance at $66k. The 50% of supply that changed hands above $59k creates both support and resistance dynamics. Position accordingly for volatility around $63-66k range. (<a href="https://t.me/theblockbeats/186337," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186316," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186330" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>AI Momentum Rotation Risk</strong> — AI stock volatility has spiked to 4x the S&amp;P 500 with the momentum index down 24% in July, yet underlying thesis remains intact per UBS/Barclays. This creates dip-buying opportunity in semiconductors amid technical washout, though near-term chop likely continues. (<a href="https://t.me/theblockbeats/186339," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>MU, SKHY (SK Hynix ADR), SSNLF (Samsung)</strong> — Analyst projections for Q3 DRAM average selling prices now point to 21% QoQ increase, well above consensus, driven by server DRAM and HBM demand. Separately, Middle Eastern sovereign wealth funds are entering long-term procurement talks with Korean suppliers, validating multi-year demand visibility. SK Group chairman's forecast of 50-60% demand growth in 2027 underscores supply will remain tight. (<a href="https://t.me/theblockbeats/186318," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186341," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186340" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>BTC, MSTR</strong> — Michael Saylor posted another Bitcoin tracker update, signaling Strategy may continue accumulating BTC. Separately, prominent trader Doctor Profit closed all crypto shorts and went long spot Bitcoin at $64k, citing early cycle bottom formation and structural reasons. On-chain data shows 50% of BTC supply has turned over above $59k, creating technical base. (<a href="https://t.me/theblockbeats/186356," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186337," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186347" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>ZEC (Zcash)</strong> — Crypto influencer Ansem is bullish on ZEC breakout potential with upside targets, already setting price alert at $750. Privacy coins seeing renewed interest as regulatory landscape shifts. <a href="https://t.me/theblockbeats/186343" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SPCX (SpaceX proxy via ARK funds)</strong> — Ark Invest has been buying SpaceX shares aggressively after price fell below IPO levels, increasing total investment past $4.75B. Cathie Wood doubling down at distressed valuations historically signals near-term bottom in high-conviction positions. <a href="https://t.me/theblockbeats/186304" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA, ANET, MRVL</strong> — Despite near-term efficiency concerns from Kimi K3, SemiAnalysis invokes Jevons paradox: efficiency gains will expand AI workload demand rather than reduce it, supporting networking infrastructure stocks. Lower cost-per-inference means more inference volume, benefiting datacenter networking players. <a href="https://t.me/theblockbeats/186314" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ADA (Cardano)</strong> — Van Rossem hard fork activated successfully, marking first upgrade approved entirely through on-chain governance. The fork lowers smart contract costs, improving competitiveness against other L1s. Governance milestone reduces execution risk for future upgrades. <a href="https://t.me/wublockchainenglish/25204" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>USDT (Tether)</strong> — The GENIUS Act imposes a two-year compliance countdown for stablecoins, with federal regulators already missing initial deadlines. This compresses Tether's timeline to early 2027 and increases pressure on U.S. exchange listings. Regulatory overhang likely to weigh on USDT dominance and force market share shifts. <a href="https://t.me/leviathan_news/20797" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CRCL (Circle)</strong> — UBS downgraded Circle to underperform with $50 target (down from $85), citing intensifying competition from Visa, Stripe, and Coinbase's OUSD stablecoin. Stock has already cratered 76%. Circle CEO's defensive response suggests management was caught off-guard by competitive dynamics. Payment stablecoin monetization under structural pressure. (<a href="https://t.me/theblockbeats/186332," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186351" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>BTC</strong> — Despite bounce, Bitcoin funding rates remain below the bearish threshold, indicating lack of bullish conviction from leveraged traders. Technical analyst warns failure to break $66k could form local top, as cost basis clusters create resistance. On-chain shows $6.58B in long liquidations lurk at $63k. (<a href="https://t.me/theblockbeats/186316," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186330," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186333" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>BTC (consensus bug risk)</strong> — Newly disclosed BIP 110 consensus bug could split upgraded Bitcoin nodes onto different chains if triggered, increasing network risk. While low probability, this introduces tail risk to holding BTC through upgrade cycles. <a href="https://t.me/leviathan_news/20799" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>KOSPI, Samsung, SK Hynix</strong> — Korean equity market's forward P/E ratio has fallen to 20-year lows despite strong semiconductor fundamentals. Goldman maintains 12,000 target but recommends buying dips, suggesting near-term downside. Foreign selling pressure and macro headwinds outweighing micro positives in near term. <a href="https://t.me/theblockbeats/186355" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MAGS (Mag 7 proxy)</strong> — Bank of America's chief strategist recommends rotating from risk assets to defense this summer, favoring long-term Treasuries, dividend stocks, and USD. This institutional de-risking could pressure mega-cap tech and crypto into August. <a href="https://t.me/theblockbeats/186352" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CXMT (ChangXin Memory pre-IPO)</strong> — Pre-IPO contract price for Chinese memory maker has fallen to $6.81, below the $7.18 opening short position taken by a whale on Hyperliquid. Market pricing in weak listing performance. Separately, a trader opened $2.15M short at $7.18 average. (<a href="https://t.me/theblockbeats/186359," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186346" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>BONK</strong> — Treasury attacker deposited another 400B BONK tokens to Coinbase, continuing relentless sell pressure that has driven price down 41%. More selling likely as attacker liquidates remaining position. <a href="https://t.me/theblockbeats/186307" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GOOGL</strong> — Alphabet's $16.5B AI data center project faces environmental approval delays in Kansas, potentially adding billions in costs and pushing timelines. Regulatory friction increasing AI capex risk profile. <a href="https://t.me/theblockbeats/186323" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long MU calls (or SOXL for leverage)</strong></p>
+
+<ul>
+<li>Rationale: Q3 DRAM ASP revision to +21% QoQ (vs. prior +10-15% estimates) driven by HBM and server DRAM tightness. Middle East sovereign buyers entering multi-year contracts. Micron reports Sept 25 — position ahead of print.</li>
+<li>Entry: MU $105-110 calls, 45-60 DTE, or SOXL shares/calls on any dip below $32</li>
+<li>Risks: Broader tech selloff, China demand concerns, or Moon AI efficiency narrative gaining traction</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186318" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186341" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186340" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long IBIT / FBTC (Bitcoin ETFs), fade rallies above $66k</strong></p>
+
+<ul>
+<li>Rationale: Doctor Profit and other smart money turning long at $64k after closing shorts. 50% supply turnover above $59k creates technical base. However, $66k is key resistance with $5.23B in short stops above and bearish funding below. Trade the range.</li>
+<li>Entry: Spot or ETF accumulation $63-65k, scale out $66-68k, re-enter on flush to $62k</li>
+<li>Risks: Consensus bug fears or macro risk-off breaks $63k support, triggering $6.58B long liquidation cascade</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186337" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186347" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186333" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/leviathan_news/20799" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Short CRCL (Circle) via puts or shares</strong></p>
+
+<ul>
+<li>Rationale: UBS downgrade to underperform/$50 target from $85 citing structural competitive threats (Visa, Stripe, Coinbase OUSD). Stock down 76% but downgrade suggests more pain. Stablecoin payment rails being commoditized.</li>
+<li>Entry: CRCL puts, 30-60 DTE, $50-55 strikes, or outright short on bounces above $60</li>
+<li>Risks: Positive regulatory clarity on stablecoins or strategic acquisition interest</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186332" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186351" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Pairs trade: Long MU / Short NVDA (or long MU, short SMH to isolate memory)</strong></p>
+
+<ul>
+<li>Rationale: Memory seeing structural upgrade cycle with pricing power (DRAM +21% QoQ) while AI chip momentum is rolling over (volatility 4x S&amp;P, index down 24% in July). Rotate within semis from compute to memory.</li>
+<li>Entry: Long MU shares/calls, short NVDA shares/puts in 1:2 notional ratio, or long MU vs. short SMH ETF</li>
+<li>Risks: Broad semiconductor selloff doesn't discriminate, or NVDA finds support on Blackwell launch timing</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186318" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186339" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186334" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long MSTR as leveraged BTC exposure with Saylor accumulation catalyst</strong></p>
+
+<ul>
+<li>Rationale: Saylor's Bitcoin tracker post signals Strategy likely to announce additional BTC purchases. MSTR offers 2-3x BTC beta with corporate treasury buying providing support. BTC forming base at $64k.</li>
+<li>Entry: MSTR shares $1,200-1,300 or near-dated calls on BTC strength</li>
+<li>Risks: BTC breaks $63k invalidating base case, or MSTR premium to NAV compresses on deleveraging fears</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186356" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186337" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Defensive rotation: Long TLT (long-duration Treasuries)</strong></p>
+
+<ul>
+<li>Rationale: BofA chief strategist calling for summer de-risking into Treasuries, dividend stocks, and USD. If tech/crypto rollover accelerates, long-duration bonds offer negative correlation. Yields near resistance.</li>
+<li>Entry: TLT shares or calls on 10Y yield above 4.3%, target 3.8-4.0%</li>
+<li>Risks: Inflation re-acceleration or Fed hawkish pivot keeps yields elevated</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186352" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Tactical long ZEC on breakout</strong></p>
+
+<ul>
+<li>Rationale: Ansem flagging ZEC for breakout potential with $750 alert set. Privacy coins seeing renewed interest. Small position size given volatility, but risk/reward attractive on momentum.</li>
+<li>Entry: ZEC spot or perps on break above recent range highs (~$30-32 zone), target $40-50</li>
+<li>Risks: Regulatory crackdown on privacy coins, or momentum fades</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186343" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>BTC consensus bug (BIP 110)</strong> — If triggered, could split the network onto different chains, creating chaos across crypto markets. Low probability but high impact. Monitor Bitcoin Core developer communications closely. <a href="https://t.me/leviathan_news/20799" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>$63k BTC liquidation cascade</strong> — $6.58B in long positions liquidate if Bitcoin breaks below $63k. This could trigger forced selling spiral into the high $50k range. Watch funding rates and open interest for warning signs. <a href="https://t.me/theblockbeats/186333" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>AI momentum unwind accelerating</strong> — With AI stock volatility at 4x S&amp;P and momentum index down 24% in July, further deleveraging could pressure NVDA, SMCI, and related names. Moon AI efficiency narrative adding fuel. Watch for capitulation volume. (<a href="https://t.me/theblockbeats/186339," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186334" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Korean equity discount deepening</strong> — KOSPI P/E at 20-year lows despite Samsung/SK Hynix strength suggests macro or geopolitical concerns overriding fundamentals. Could spread to semiconductor ADRs if foreign selling intensifies. <a href="https://t.me/theblockbeats/186355" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Summer doldrums meeting structural crosscurrents: memory markets are tightening dramatically with sovereign buyers entering long-term contracts, validating the AI infrastructure supercycle, yet momentum stocks are experiencing violent volatility (4x S&amp;P) as efficiency narratives and profit-taking collide. Bitcoin is caught in no-man's-land between $63-66k with massive liquidation clusters on both sides. Stablecoin regulatory pressure is reshaping competitive dynamics, with Circle taking the brunt. The setup favors tactical stock-picking over directional macro bets — fade crowded AI momentum, accumulate memory on dips, and trade crypto technically until conviction returns.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+45 signals | 45 tradeable | 23 bullish | 16 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

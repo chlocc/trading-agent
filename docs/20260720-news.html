@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 20, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260720-trading.html" class="active">07/20/2026</a>
+    <a href="20260719-trading.html" class="">07/19/2026</a>
+    <a href="20260718-trading.html" class="">07/18/2026</a>
+    <a href="20260713-trading.html" class="">07/13/2026</a>
+    <a href="20260712-trading.html" class="">07/12/2026</a>
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+    <a href="20260710-trading.html" class="">07/10/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260720-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260720-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — July 20, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>Clarity Act Stalls in U.S. Senate Over Ethics Provisions</strong><br />
+The Clarity Act, aimed at regulating U.S. crypto markets, faces delays as the White House has yet to reach consensus on ethics restrictions for government officials holding digital assets. With only 14 working days left before the August recess, the Senate has not scheduled a vote, and industry stakeholders await an updated bill text addressing conflicts of interest.<br />
+<a href="https://t.me/theblockbeats/186474" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether Faces 2028 Compliance Deadline for U.S. Exchange Access</strong><br />
+Foreign stablecoin issuers including Tether may have until July 2028 to meet GENIUS Act requirements or risk delisting from U.S. centralized exchanges. Compliance could require OCC registration, adherence to U.S. freeze and seizure orders, and potential changes to USDT's reserve structure, as federal regulators have yet to finalize implementing rules.<br />
+<a href="https://t.me/wublockchainenglish/25206" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Paymonade Secures MiCA Authorization in Liechtenstein</strong><br />
+Paymonade has obtained MiCA authorization from Liechtenstein for fiat-crypto exchange and transfer services across the European Economic Area, marking another step in the EU's regulatory framework rollout.<br />
+<a href="https://t.me/leviathan_news/20805" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Fred Krueger Backs BIP 110 to Preserve Bitcoin Decentralization</strong><br />
+Fred Krueger argues Bitcoin should prioritize sound money over on-chain data storage by supporting BIP 110, which aims to reduce node costs and preserve scarce blockspace. He warns that without the proposal, full node requirements (currently 35 TB) could favor data centers over decentralized operators, as bandwidth bottlenecks shift from disk space to network capacity.<br />
+<a href="https://t.me/leviathan_news/20802" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Michael Saylor Opposes BIP-110 in 110-Point Essay</strong><br />
+Michael Saylor has urged Bitcoin to reject BIP-110 ahead of the soft fork's August showdown, publishing a detailed 110-point essay outlining his concerns about the proposal's implications for Bitcoin's future.<br />
+<a href="https://t.me/TheBlock001/7179" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>Google Develops "Frozen V2" Chip for Gemini AI Models</strong><br />
+Google is developing the "Frozen V2" chip to serve its Gemini AI models more efficiently, with expected performance 6 to 10 times higher than current TPUs. The company plans to deploy Frozen V2 chips as early as 2028, aiming to compete more effectively in the AI infrastructure space.<br />
+<a href="https://t.me/theblockbeats/186498" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AMD Launches Helios AI System, Microsoft Joins as Major Customer</strong><br />
+AMD officially launched Helios, its first rack-scale AI system targeting Nvidia's Grace Blackwell and Vera Rubin platforms. Microsoft will deploy Helios in Azure data centers for frontier model inference and AI application development. The system integrates AMD's MI400 series GPUs with EPYC CPUs, offering lower per-token costs and is expected to begin deliveries later this year.<br />
+<a href="https://t.me/theblockbeats/186496" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Palantir CEO Projects 20x Wealth Growth from AI, Warns of Inequality</strong><br />
+Palantir CEO Alex Karp stated that AI could increase his personal wealth approximately 20-fold to near $300 billion, while acknowledging that wealth gains will be highly concentrated among technology and capital owners. He warned that ordinary workers' income may double over a decade, but this pales compared to the hundreds of billions earned by AI beneficiaries, potentially creating unprecedented wealth disparity.<br />
+<a href="https://t.me/theblockbeats/186490" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SemiAnalysis: Kimi K3 Ranks Third Globally, Reveals Closed-Source Model Economics</strong><br />
+SemiAnalysis analysts Jordan Nanos and Max Kan report that Kimi K3 ranks third globally in comprehensive benchmarks, surpassing Google Gemini. With 28 trillion parameters—far exceeding most public models—K3's disclosed specs and pricing suggest Anthropic and OpenAI's flagship models may be similarly sized rather than having scale advantages, potentially indicating significant profit margins at current closed-source pricing.<br />
+<a href="https://t.me/theblockbeats/186478" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CuspAI Raises $500M for AI-Powered Materials Discovery</strong><br />
+British AI startup CuspAI has raised nearly $500 million and announced the formation of the AI Materials Foundry alliance, bringing together over 48 tech giants, industrial enterprises, and research institutions including Nvidia, Meta, and Hyundai Motor Group. The initiative aims to develop AI software to help researchers design new materials for chip manufacturing and other industries more cost-effectively and rapidly.<br />
+<a href="https://t.me/theblockbeats/186425" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Plazza Raises $15M to Expand AI-Powered Medicine Delivery in Bengaluru</strong><br />
+Plazza has secured $15 million in funding to expand its AI-powered medicine delivery service in Bengaluru, according to Entrackr reporting.<br />
+<a href="https://t.me/leviathan_news/20808" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Japanese Logistics Firm Adopts JPYC Stablecoin to Combat Labor Shortages</strong><br />
+A Japanese logistics company has turned to the JPYC stablecoin to address labor shortage challenges, according to reports, demonstrating real-world utility for stablecoins in solving business operational issues.<br />
+<a href="https://t.me/TheBlock001/7181" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Mandela Digital Opens Mandela Dollar Early Access for Institutional Partners</strong><br />
+Mandela Digital has opened early access applications for institutional partners to the Mandela Dollar on Nelson Mandela Day, marking a step toward broader institutional adoption of the digital currency.<br />
+<a href="https://t.me/leviathan_news/20807" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Bernstein Lifts Robinhood Price Target to $160, Prediction Markets to Overtake Crypto</strong><br />
+Bernstein raised its Robinhood (HOOD) price target from $130 to $160, maintaining an "Outperform" rating. The firm projects that Q2 2026 will mark the first quarter where Robinhood's prediction market revenue (estimated at $150M) exceeds crypto trading revenue (projected to decline ~38% sequentially). By 2028, prediction market revenue could reach $1.7 billion at a 64% CAGR, driven by Rothera's growth since its May launch.<br />
+<a href="https://t.me/theblockbeats/186501" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Former New York Governor Andrew Cuomo Joins OKX Board</strong><br />
+OKX announced that former New York Governor Andrew M. Cuomo has joined its board of directors. Cuomo, who previously served as New York attorney general and U.S. secretary of housing and urban development, has advised OKX on U.S. regulatory and institutional strategy since 2023 and will also serve as co-chair of the joint venture between OKX and NYSE parent ICE.<br />
+<a href="https://t.me/wublockchainenglish/25216" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Underdog Launches Prediction Markets on Its Own Exchange</strong><br />
+Underdog has launched prediction markets on its own exchange, allowing users to bet on event outcomes. One commentator noted that the platform saw 12k whale ETH volume in one week, suggesting this represents liquidity provision rather than pure betting demand, raising questions about the exchange operator's dual role.<br />
+<a href="https://t.me/leviathan_news/20806" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Arkham Adds Hyperliquid Trading Data to Intel Platform</strong><br />
+Arkham has added Hyperliquid trades, positions, and PnL tracking to its Intel platform, expanding on-chain intelligence capabilities for the decentralized perpetuals exchange.<br />
+<a href="https://t.me/leviathan_news/20803" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>TD Cowen Cuts Smarter Web Company Price Target 36% on Revised Bitcoin Outlook</strong><br />
+TD Cowen has reduced the Smarter Web Company price target by 36% citing a revised outlook on Bitcoin's near-term performance, reflecting broader caution among traditional finance analysts on crypto-related equities.<br />
+<a href="https://t.me/TheBlock001/7183" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance and Bybit See $2.3B in Stablecoin Outflows Over 30 Days</strong><br />
+Binance's stablecoin reserves fell by approximately $1.55 billion over the past 30 days, while Bybit recorded roughly $786 million in outflows, totaling nearly $2.3 billion combined. CryptoQuant analyst Darkfost suggests the decline may partly reflect MiCA-related user migration in Europe, weaker fresh inflows, and stablecoins moving into self-custody or on-chain yield products.<br />
+<a href="https://t.me/wublockchainenglish/25214" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy Sells $263.5M in MSTR Shares, Makes No Bitcoin Purchases</strong><br />
+Strategy reported selling 2.73 million MSTR shares for $263.5 million in net proceeds between July 13-19, with no Bitcoin purchases during the week. Holdings remain at 843,775 BTC (acquired for $63.69 billion at $75,476 average), while the U.S. dollar reserve increased to $3.225 billion.<br />
+<a href="https://t.me/wublockchainenglish/25219" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BitMine Adds 7,430 ETH, Holdings Reach 5.78M ETH</strong><br />
+BitMine acquired 7,430 ETH over the past week, bringing total holdings to 5,777,468 ETH (approximately 4.8% of Ethereum's supply). The company has staked 4.92 million ETH (85% of holdings) and repurchased 5.5 million shares at an average price of $15.62. Total crypto, cash, and other investments reached $11.5 billion.<br />
+<a href="https://t.me/wublockchainenglish/25220" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Two-Thirds of Polymarket World Cup Traders Lost Money</strong><br />
+According to @defioasis analysis, nearly 130,000 of over 194,000 unique addresses trading Polymarket's World Cup winner market recorded losses (66.7% of participants). Most lost less than $100, while 43 addresses lost more than $100,000 each (totaling over $15 million). Conversely, 54 addresses earned more than $100,000 each, collectively making over $22 million, demonstrating extreme profit concentration.<br />
+<a href="https://t.me/wublockchainenglish/25218" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trader Profits $250K from World Cup Prediction Market Arbitrage</strong><br />
+A trader turned $250,000 in World Cup ticket profit through prediction market arbitrage, according to @CirrusNFT. One commentator noted the real arbitrage wasn't on match odds but exploiting structural inefficiencies between centralized and decentralized prediction markets.<br />
+<a href="https://t.me/leviathan_news/20801" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Grayscale Plans Quarterly Cash Payouts from ETH and SOL Staking Rewards</strong><br />
+According to CryptoSlate, Grayscale plans to amend trust agreements for its Ethereum Staking ETF (ETHE) and Solana Staking ETF (GSOL) to convert staking rewards into cash for quarterly distribution to shareholders after fees. Changes could take effect as early as August 7, with payment dates and amounts depending on staking rewards, expenses, and tax considerations.<br />
+<a href="https://t.me/wublockchainenglish/25213" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ethereum Spot ETFs Recorded $105M in Net Inflows Last Week</strong><br />
+From July 13-17 (ET), Ethereum spot ETFs recorded net inflows of $105 million, Bitcoin spot ETFs $75.67 million, SOL spot ETFs $948,200, and XRP spot ETFs $6.78 million, while HYPE spot ETFs saw $7.26 million in net outflows.<br />
+<a href="https://t.me/wublockchainenglish/25210" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Allbridge Core Pauses After $1.65M Flash Loan Exploit on Solana</strong><br />
+Cross-chain bridge protocol Allbridge paused Allbridge Core following a security incident where approximately $1.65 million was stolen from Solana liquidity pools. PeckShield and CertiK analysts report the attacker used a $1.12 million USDC flash loan from Kamino to manipulate the USDC/USDT pool ratio, withdrawing liquidity at manipulated rates before bridging funds from Solana to Ethereum.<br />
+<a href="https://t.me/TheBlock001/7180" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> &amp; https://t.me/leviathan_news/20804 &amp; https://t.me/wublockchainenglish/25207</p>
+
+<p><strong>Hyperliquid's HIP-4 to Support Permissionless Deployment for Outcome Markets</strong><br />
+Hyperliquid announced HIP-4 will enable permissionless outcome market deployment, requiring deployers to stake 500,000 HYPE (~$30.4 million) with slashing penalties for unclear market definitions or incorrect settlement. The mechanism will first launch on testnet before mainnet deployment, with validators approving standardized templates and deployers able to create markets with up to 50% fee share.<br />
+<a href="https://t.me/TheBlock001/7182" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> &amp; https://t.me/wublockchainenglish/25209</p>
+
+<p><strong>Hinkal Protocol to Complete User Fund Returns by July 22</strong><br />
+Privacy protocol Hinkal stated it will fully return funds to users who completed the recovery process this week, with completion expected by July 22. Users who have not yet completed recovery can still submit applications. Previously, Hinkal suffered an attack resulting in approximately $797,000 USDC loss.<br />
+<a href="https://t.me/theblockbeats/186439" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other</p>
+
+<p><strong>Zilliqa Reports Theft from Exchange Partner's Cold Wallet</strong><br />
+Zilliqa announced that one exchange partner suffered a security incident with ZIL stolen from a cold wallet. The incident is under active investigation, and all exchanges have been asked to temporarily pause ZIL deposits and withdrawals to prevent stolen funds from being moved or sold through centralized platforms. The affected exchange and amount stolen have not been disclosed.<br />
+<a href="https://t.me/wublockchainenglish/25215" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto Payments to Gray-Market Peptide Vendors Reach $32M in Q1</strong><br />
+According to Bloomberg citing Chainalysis data, U.S. consumers increasingly use cryptocurrency to buy gray-market peptides after banks and card networks restricted payments. Vendors received about $32 million in crypto in Q1 2026, up 159% from the previous quarter, putting the market on pace to exceed $100 million annually. Some China-based suppliers accept only Bitcoin, prompting first-time buyers to open Coinbase accounts.<br />
+<a href="https://t.me/wublockchainenglish/25217" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aurora Mainnet Experiences Downtime</strong><br />
+According to Onchain Lens, Aurora mainnet was down since 02:16:11 UTC. Aurora is an EVM-compatible network built on NEAR Protocol. DefiLlama data shows the network's TVL peaked at about $2.5 billion in 2022 but has since fallen 99% to $4.65 million. Aurora Explorer shows that the mainnet has since resumed block production.<br />
+<a href="https://t.me/wublockchainenglish/25208" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

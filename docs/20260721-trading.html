@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 21, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260721-trading.html" class="active">07/21/2026</a>
+    <a href="20260720-trading.html" class="">07/20/2026</a>
+    <a href="20260719-trading.html" class="">07/19/2026</a>
+    <a href="20260718-trading.html" class="">07/18/2026</a>
+    <a href="20260713-trading.html" class="">07/13/2026</a>
+    <a href="20260712-trading.html" class="">07/12/2026</a>
+    <a href="20260711-trading.html" class="">07/11/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260721-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260721-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 21, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Pivot</strong> — Crypto miners are successfully transitioning to AI hosting, securing billions in long-term contracts. This validates the thesis that mining infrastructure can be repurposed for high-margin AI compute. Key plays: HUT, IREN, and downstream exposure via NVDA. This is the story driving double-digit rallies today.</p>
+
+<p>• <strong>Semiconductor Pricing Power</strong> — TSMC's announced 10% price hikes for 2027 signal tight supply and strong demand across both advanced and mature nodes. This pricing power extends through the entire chip ecosystem, benefiting fabless (MRVL, AMD) and equipment players. Optical interconnects are rallying in sympathy as data center buildouts accelerate.</p>
+
+<p>• <strong>AI Data Center Demand</strong> — Bloomberg NEF projects US data centers could consume 20% of total electricity by 2035 driven by AI. This mega-trend supports cloud hyperscalers (MSFT, GOOG, AMZN), power infrastructure, and specialized compute providers. The Zhongji Innolight IPO backing from Berkshire validates optical networking as critical infrastructure.</p>
+
+<p>• <strong>Stablecoin Infrastructure Maturation</strong> — Circle's OCC approval for national trust charter is a watershed moment for USDC, giving it bank-level regulatory status. This strengthens USDC's position against USDT and enables deeper institutional adoption across DeFi and payment rails.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>HUT, IREN</strong> — Both miners secured multi-billion dollar AI infrastructure deals, sending shares up double digits. Hut 8 and IREN are pivoting from low-margin Bitcoin mining to high-margin AI hosting contracts with hyperscalers. This proves out the infrastructure arbitrage thesis and derisks their business models. Watch for margin guidance updates and capacity expansion announcements. <a href="https://t.me/TheBlock001/7186" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25223" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>USDC</strong> — Circle received final OCC approval to launch Circle National Trust, giving USDC federally regulated banking infrastructure. This is the first crypto-native stablecoin issuer to achieve national bank status, materially strengthening USDC's competitive position against Tether and positioning it as the institutional standard. Watch for accelerated DeFi integration and TradFi partnerships. <a href="https://t.me/leviathan_news/20815" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>TSM</strong> — TSMC announced up to 10% price increases across advanced and mature chip manufacturing for 2027, driving shares up 3.5% pre-market. This pricing power reflects sustained capacity constraints and strong AI/data center demand. TSMC's move will likely force competitors to follow suit and validates margin expansion across the semiconductor supply chain. Entry on any pullback below $195. <a href="https://t.me/theblockbeats/186642" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186639" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MRVL, FOTO, AAOI, LITE, COHR, CIEN</strong> — Optical communication stocks rallying pre-market with Marvell up 6.24% as leaders. The move follows Zhongji Innolight's $8B Hong Kong IPO attracting Berkshire, Goldman, and T. Rowe Price as cornerstone investors, validating optical interconnects as critical AI infrastructure. Samsung's V10 NAND production for Nvidia's CMX and AMD's upcoming CPO roadmap further support the theme. <a href="https://t.me/theblockbeats/186660" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186646" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC (via IBIT, FBTC)</strong> — Spot Bitcoin ETFs recorded $227M net inflows, marking the fifth consecutive day of institutional buying. This sustained inflow streak suggests renewed conviction after recent consolidation. A whale accumulated $109M in WBTC and ETH with $12.5M unrealized profit, signaling smart money positioning ahead of potential breakout. <a href="https://t.me/wublockchainenglish/25230" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186691" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA, MSFT, GOOG, AMZN</strong> — Bloomberg NEF report forecasts US data center electricity consumption reaching 20% of total by 2035 due to AI demand. This validates the multi-year capex cycle for cloud hyperscalers and supports sustained GPU demand. Morgan Stanley's preference for large-scale cloud over chips reflects margin advantages in owning the full stack. <a href="https://t.me/theblockbeats/186666" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186679" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HOOD</strong> — Robinhood Chain surpassed $430M in TVL and 250k daily active users in under three weeks, reaching $700M total onchain assets including stablecoins. The rapid adoption validates HOOD's strategy to compete with Coinbase's Base. Partnership rumors with tokenized stock launches could drive further user migration. <a href="https://t.me/theblockbeats/186661" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25237" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>NIGHT, WAN</strong> — Wanchain's Cardano bridge was exploited for ~515M NIGHT tokens ($9M) due to a signature verification flaw, sending NIGHT down 30%. The exploit highlights ongoing smart contract risks in cross-chain infrastructure. Avoid both tokens until the full post-mortem is released and funds are recovered or protocol security is hardened. ADA may see contagion selling. <a href="https://t.me/wublockchainenglish/25234" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/186608" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long BOTZ (AI/Robotics ETF)</strong></p>
+
+<ul>
+<li>Rationale: Broad exposure to AI infrastructure pivot theme without single-stock risk. HUT and IREN's AI deals validate the shift from crypto mining to AI compute, and BOTZ captures multiple beneficiaries including robotics, automation, and compute infrastructure. TSMC pricing power and data center demand support sustained upside.</li>
+<li>Entry: Market open or on any 2% pullback below $38.50</li>
+<li>Risks: Invalidated if NVDA breaks below $130 or broader tech selloff on macro concerns</li>
+<li>Related signals: <a href="https://t.me/TheBlock001/7186">HUT/IREN AI deals</a>, <a href="https://t.me/theblockbeats/186642">TSMC pricing</a>, <a href="https://t.me/theblockbeats/186666">Data center demand</a></li>
+</ul>
+
+<p><strong>2. Long MRVL (Marvell Technology)</strong></p>
+
+<ul>
+<li>Rationale: Leading the optical communication rally (+6.24% pre-market) as Zhongji Innolight's $8B IPO validates optical networking as critical AI infrastructure. AMD's upcoming Advancing AI event may reveal CPO roadmap, providing another catalyst. MRVL offers pure-play exposure to the optical interconnect theme with strong positioning in data center switching.</li>
+<li>Entry: On open or pullback to $85, stop below $82</li>
+<li>Risks: Invalidated if optical IPO pricing disappoints or AMD event lacks CPO details</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186660">Optical rally</a>, <a href="https://t.me/theblockbeats/186646">Innolight IPO</a>, <a href="https://t.me/theblockbeats/186650">AMD event</a></li>
+</ul>
+
+<p><strong>3. Long IBIT (iShares Bitcoin Trust ETF)</strong></p>
+
+<ul>
+<li>Rationale: Fifth consecutive day of spot Bitcoin ETF inflows ($227M) signals institutional re-accumulation. Whale activity shows $109M positioning with $12.5M profit. CLARITY Act clearing ethics hurdle removes regulatory overhang. IBIT offers cleanest regulated exposure to BTC upside.</li>
+<li>Entry: On any intraday dip below $50, targeting $54-55 on momentum continuation</li>
+<li>Risks: Invalidated if daily inflows reverse or BTC breaks below $92k support</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25230">ETF inflows</a>, <a href="https://t.me/theblockbeats/186691">Whale accumulation</a>, <a href="https://t.me/wublockchainenglish/25227">CLARITY Act</a></li>
+</ul>
+
+<p><strong>4. Long TSM (Taiwan Semiconductor)</strong></p>
+
+<ul>
+<li>Rationale: 10% price hike for 2027 demonstrates pricing power and tight capacity. This flows through to margin expansion and validates sustained AI chip demand. Samsung's V10 NAND production for Nvidia and TSMC's dual pricing across advanced and mature nodes show broad-based strength. Already up 3.5% pre-market but room to run on earnings revisions.</li>
+<li>Entry: Add on any pullback to $192-194, stop below $188</li>
+<li>Risks: Invalidated if China tensions escalate or semiconductor demand signals weaken</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186639">Price increase</a>, <a href="https://t.me/theblockbeats/186642">Pre-market move</a>, <a href="https://t.me/theblockbeats/186654">Samsung production</a></li>
+</ul>
+
+<p><strong>5. Pair Trade: Long COIN / Short HOOD</strong></p>
+
+<ul>
+<li>Rationale: While Robinhood Chain shows strong TVL growth, Coinbase's Base is developing 1:1 asset-backed tokenized stocks to compete directly. COIN has deeper liquidity, regulatory relationships, and derivatives approval (HashKey partnership). HOOD's valuation appears stretched after the rally, while COIN offers better risk/reward with institutional tailwinds.</li>
+<li>Entry: Establish at current levels, ratio neutral or slight COIN overweight</li>
+<li>Risks: Invalidated if HOOD announces major partnership or COIN faces regulatory setback</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186661">HOOD TVL</a>, <a href="https://t.me/wublockchainenglish/25233">COIN tokenized stocks</a>, <a href="https://t.me/theblockbeats/186648">HashKey derivatives</a></li>
+</ul>
+
+<p><strong>6. Short INTC (Intel Corporation)</strong></p>
+
+<ul>
+<li>Rationale: Intel is planning layoffs in its data center division even as competitors demonstrate pricing power and capacity expansion. TSMC's price hikes and HUT/IREN's AI infrastructure wins show the market favoring specialized compute over Intel's jack-of-all-trades approach. One whale's speculative long into earnings adds contrarian appeal to the short.</li>
+<li>Entry: Establish short on any bounce above $22, target $19-20</li>
+<li>Risks: Invalidated if earnings surprise positive or foundry business shows unexpected traction</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186695">Intel layoffs</a>, <a href="https://t.me/theblockbeats/186639">TSMC pricing</a>, <a href="https://t.me/theblockbeats/186617">Whale long</a></li>
+</ul>
+
+<p><strong>7. Long ARKQ (Autonomous Tech &amp; Robotics ETF)</strong></p>
+
+<ul>
+<li>Rationale: Thematic play on AI infrastructure convergence with exposure to TSMC, NVDA, and emerging robotics platforms. Fluidstack's $8.3B Series A at $7.5B valuation shows private market validation of AI cloud infrastructure. ARKQ captures both public leaders and pre-IPO exposure to this ecosystem without China risk of BOTZ.</li>
+<li>Entry: Market or on 2% dip, targeting 15% upside over 30 days</li>
+<li>Risks: Invalidated if AI capex guidance disappoints from hyperscalers or ARK flows turn negative</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186666">Data center demand</a>, <a href="https://t.me/theblockbeats/186599">Fluidstack raise</a>, <a href="https://t.me/TheBlock001/7186">HUT/IREN pivot</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Cross-chain exploit contagion</strong> — The $9M Wanchain bridge hack could trigger broader DeFi deleveraging if other bridges show vulnerabilities. Watch for unusual withdrawals from major bridge protocols or spikes in bridge audit announcements. Impact: 10-20% downside in DeFi tokens, flight to quality in BTC/ETH.</p>
+
+<p>• <strong>Fed policy paralysis</strong> — Reuters poll shows 75% of economists expect rates unchanged at 3.50-3.75% through 2026, but any shift in inflation data or employment could trigger repricing. Trigger: CPI print above 3.5% or unemployment below 3.8%. Impact: Tech multiple compression, crypto selloff as liquidity expectations reset.</p>
+
+<p>• <strong>Intel earnings disappointment</strong> — Data center layoffs ahead of earnings suggest weakness. If Intel misses and guides down, it could trigger broader semiconductor reassessment despite TSMC strength. Trigger: Thursday earnings after close. Impact: 5-8% downside in SMH, flight to quality toward NVDA/TSM.</p>
+
+<p>• <strong>Geopolitical escalation around Taiwan</strong> — TSMC's pricing power makes it critical infrastructure, but any China/Taiwan tensions could disrupt supply. Watch for unusual military activity or semiconductor export restriction announcements. Impact: Immediate 10-15% gap down in TSM, ripple through entire chip supply chain.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>The Fed is likely on hold through 2026 per economist consensus, maintaining the current goldilocks scenario for risk assets. This backdrop supports continued institutional flows into Bitcoin ETFs (5-day streak) and aggressive AI infrastructure buildouts (20% of US electricity by 2035). The AI trade is broadening from pure-play chips into infrastructure (miners pivoting to hosting), networking (optical interconnects), and cloud platforms. Regulatory clarity is improving with Circle's banking charter and potential CLARITY Act passage, removing key overhangs. Today's setup favors momentum continuation in AI infrastructure and selective crypto exposure through regulated vehicles.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+50 signals | 50 tradeable | 37 bullish | 11 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

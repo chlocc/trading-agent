@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 22, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260722-trading.html" class="active">07/22/2026</a>
+    <a href="20260721-trading.html" class="">07/21/2026</a>
+    <a href="20260720-trading.html" class="">07/20/2026</a>
+    <a href="20260719-trading.html" class="">07/19/2026</a>
+    <a href="20260718-trading.html" class="">07/18/2026</a>
+    <a href="20260713-trading.html" class="">07/13/2026</a>
+    <a href="20260712-trading.html" class="">07/12/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260722-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260722-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 22, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Arms Race Intensifies</strong> — OpenAI's $750B cloud spending projection and NVIDIA's Vera Rubin test deployments signal unprecedented AI capex acceleration, driving semiconductor and hyperscaler demand. Key tickers: NVDA, MSFT, MU, AMD. The counterpoint: Alphabet faces scrutiny over potential AI spending cuts, creating a divergence play between infrastructure leaders and potential capex cutters.</p>
+
+<p>• <strong>Zilliqa Critical Security Failure</strong> — A catastrophic Ledger app vulnerability allows private key extraction from on-chain signatures, prompting Upbit to flag ZIL for potential delisting. This is a terminal risk event for the network, not a tradeable dip. Affected: ZIL (→ multiple exchange warnings).</p>
+
+<p>• <strong>Crypto Institutional Flows Diverge</strong> — Bitcoin ETFs post 6 consecutive days of inflows ($203.2M yesterday), while South Korean exchange volumes crater 89% YoY as retail rotates to equities. The West accumulates while Asia liquidates, creating regional flow arbitrage opportunities. Tickers: IBIT, FBTC, COIN, MSTR.</p>
+
+<p>• <strong>Memory Chip Valuation Correction</strong> — Korean memory stocks under pressure as analysts warn earnings expectations may be too optimistic with HBM supply increasing and DRAM price momentum slowing. SK Hynix ADR down 6% pre-market signals broad semiconductor correction risk. Tickers: SKHY, MU, WDC.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>AMD</strong> — AMD commits $5 billion to Anthropic as part of a chip supply agreement, securing a strategic AI customer and validating AMD's positioning as the second AI accelerator provider. This reduces NVIDIA-dependency risk for hyperscalers and expands AMD's AI TAM. Entry on pullback toward $140 support. <a href="https://t.me/theblockbeats/186860" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA, MU, MSFT</strong> — NVIDIA's Vera Rubin servers entering customer testing phase with potential quarterly rack revenue of at least $630 billion. Daily production capacity hit 1,000 units, indicating supply chain is scaling to meet insatiable AI infrastructure demand. This reignites the supply shortage narrative that drove the 2025 rally. Memory suppliers (MU) and cloud partners (MSFT) are direct beneficiaries. <a href="https://t.me/theblockbeats/186780" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HOOD</strong> — Robinhood Chain hits $90B cumulative DEX volume in just three weeks, ranking top-five globally by weekly volume. This validates the thesis that consumer-facing apps can bootstrap L2 liquidity faster than protocol-first chains. HOOD's crypto revenue multiple should expand as the chain drives stickiness and reduces customer acquisition costs. <a href="https://t.me/theblockbeats/186844" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC (via IBIT, FBTC, BITO)</strong> — Spot Bitcoin ETFs post sixth consecutive day of inflows, with $203.2M net yesterday led by IBIT's $163.9M. Institutional accumulation continues despite price consolidation near $66K. Bitcoin volatility dropped to 2016 lows as leverage unwinds, creating asymmetric upside setup once $66K resistance breaks. Binance just posted its largest BTC net outflow in five months, historically a leading indicator for price appreciation. (<a href="https://t.me/theblockbeats/186783," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/186812)</p>
+
+<p><strong>ETH (via ETHA)</strong> — Ethereum ETFs see third consecutive day of inflows with $37.5M net, ETHA leading at $52.8M. The lag behind Bitcoin ETF flows is narrowing, and historical ETH/BTC ratio suggests catch-up trade is coming. Layer-2 activity and stablecoin utility keep structural demand intact. <a href="https://t.me/theblockbeats/186791" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL, JTO</strong> — Delphi predicts JTX (Jito's exchange) could become Solana's dominant trading hub by leveraging Jito infrastructure for tighter spreads. MetaMask now covers gas fees on Solana swaps over $200, reducing friction for mainstream users. Solana's consumer app flywheel is accelerating. (<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/20845, https://t.me/leviathan</em>news/20846)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>ZIL</strong> — Zilliqa faces existential threat from critical Ledger app vulnerability that enables private key recovery from on-chain signatures. Network halted native transactions, Upbit flagged ZIL as "cautionary asset" with potential trading suspension. This is not a bug fix situation—users with affected wallets have permanently exposed keys. Zero-bid scenario is live risk. (<a href="https://t.me/theblockbeats/186857," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/186835, https://t.me/wublockchainenglish/25247)</p>
+
+<p><strong>GOOGL</strong> — Alphabet earnings tonight face unprecedented scrutiny as analysts warn AI capex could surge to $250B by 2027, crushing free cash flow. Market rumors suggest Google may be first mega-cap to signal AI spending cuts. Cloud growth expectations (65% YoY) are priced in; any guidance miss or capex concern triggers de-rating. Pre-market weakness confirms positioning is defensive. (<a href="https://t.me/theblockbeats/186837," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/186811)</p>
+
+<p><strong>SKHY, MU, WDC, INTC, STX</strong> — Broad semiconductor selloff in pre-market with SK Hynix ADR down 6%+. Analyst report warns Korean memory chip valuations are stretched with earnings expectations too optimistic—DRAM price momentum slowing and HBM supply increasing. Memory stocks rallied 40%+ in six weeks; technical correction underway. (<a href="https://t.me/theblockbeats/186854," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/186859)</p>
+
+<p><strong>ADA</strong> — Cardano wallet provider SecondFi shuts down after $2.4M hack exploiting transaction-signing flaw. While not a protocol-level issue, it highlights ongoing security concerns in the Cardano ecosystem and erodes confidence in wallet infrastructure. <a href="https://t.me/leviathan_news/20853" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC (Korean Exchanges)</strong> — South Korean crypto exchange volumes collapsed 89% YoY as retail capital rotates to KOSPI equities. Korbit forced to sell 15 BTC and 60 ETH just to cover operational fees. This signals structural deleveraging in a historically critical crypto market, reducing global liquidity and removing a marginal buyer. <a href="https://t.me/wublockchainenglish/25249" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BLC, BNB DeFi</strong> — Balance Coin algorithmic stablecoin crashed 99% after suspected 42DAO exploit caused $915K loss on BNB Chain. Another algorithmic stablecoin death spiral reinforces that undercollateralized designs remain structurally fragile. Contagion risk to other BNB Chain DeFi protocols. (<a href="https://t.me/leviathan_news/20843," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/186776)</p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long AMD calls (3-month expiry, $145-150 strike)</strong></p>
+
+<ul>
+<li>Rationale: $5B Anthropic investment secures strategic AI customer and validates AMD's competitive positioning. This reduces hyperscaler dependency on NVDA monopoly and expands AMD's AI TAM. Stock consolidating after run, option premiums reasonable.</li>
+<li>Entry: AMD $138-142 range on any tech sector weakness</li>
+<li>Risks: Anthropic deal doesn't translate to near-term revenue; broader semiconductor correction drags all names lower</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186860" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Short GOOGL into earnings (put spreads or outright)</strong></p>
+
+<ul>
+<li>Rationale: Consensus expects $250B AI capex by 2027 with questionable ROI visibility. Rumors of spending cuts are circulating, and any guidance disappointment triggers multiple compression. Cloud growth is priced to perfection. Risk/reward favors downside into print.</li>
+<li>Entry: Current levels ($175 range); use put spreads to cap premium</li>
+<li>Risks: Strong Cloud revenue beat and capex discipline narrative; short squeeze on positive surprise</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186837" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186811" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186847" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long IBIT (Bitcoin ETF)</strong></p>
+
+<ul>
+<li>Rationale: Six consecutive days of inflows ($203M yesterday) signal persistent institutional accumulation. Bitcoin volatility at 2016 lows with leverage unwound creates asymmetric risk/reward. Binance outflows (largest in 5 months) historically precede rallies. Price consolidating at $66K resistance—break higher targets $72K.</li>
+<li>Entry: Current levels or on any dip to $65K support</li>
+<li>Risks: Macro risk-off from geopolitical events; Fed hawkish pivot; failure to hold $64K invalidates structure</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186783" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186812" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/wublockchainenglish/25245" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Short ZIL with tight stop</strong></p>
+
+<ul>
+<li>Rationale: Catastrophic security vulnerability with no fix—private keys compromised from on-chain data. Upbit delisting risk is imminent. This is a zero-bid scenario, not a recovery play.</li>
+<li>Entry: Any bounce above current levels (likely $0.015-0.018 range)</li>
+<li>Risks: If somehow a credible fix is announced (extremely unlikely given nature of cryptographic flaw), short squeeze possible</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186857" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186835" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/wublockchainenglish/25247" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long ARKQ or BOTZ (robotics/AI ETF exposure)</strong></p>
+
+<ul>
+<li>Rationale: OpenAI's $750B cloud spending projection and NVIDIA Vera Rubin scaling suggest AI infrastructure boom entering next phase. ETF approach captures basket exposure to NVDA, AMD, MSFT, cloud infra without single-name risk ahead of Alphabet earnings volatility.</li>
+<li>Entry: Scale in on any 2-3% pullback in tech</li>
+<li>Risks: Alphabet earnings disappoint and trigger sector-wide AI capex concerns</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186865" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186780" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Pairs trade: Long AMD / Short MU</strong></p>
+
+<ul>
+<li>Rationale: AMD secures strategic positioning with Anthropic deal while memory stocks face valuation compression from slowing DRAM pricing and increasing HBM supply. Capture AI infrastructure thesis while hedging semiconductor sector correction risk.</li>
+<li>Entry: Establish at current ratio; rebalance if MU drops 5%+ faster than AMD</li>
+<li>Risks: Broad sector selloff takes both down; NVDA earnings in two weeks could reset all semiconductor multiples</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186860" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186859" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/186854" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Long HOOD on consolidation</strong></p>
+
+<ul>
+<li>Rationale: Robinhood Chain hitting $90B DEX volume in three weeks validates consumer-app-first L2 strategy. This drives stickiness, reduces CAC, and expands crypto revenue multiples. Stock consolidating after run; entry opportunity before next crypto leg up.</li>
+<li>Entry: $28-29 support zone or on any broader market dip</li>
+<li>Risks: Crypto winter returns; regulatory scrutiny of Robinhood's crypto business; competition from Coinbase Base chain</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/186844" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Alphabet Earnings Contagion</strong> — If GOOGL signals AI capex cuts or disappointing Cloud growth tonight, expect violent sector rotation out of AI infrastructure names. This would trigger 5-10% corrections across NVDA, MSFT, AMD, hyperscalers, and semiconductor supply chain. Watch for any language around "ROI timeline" or "investment pacing."</p>
+
+<p>• <strong>BOJ Rate Hike Acceleration</strong> — Japanese officials signaling openness to faster rate hikes due to yen weakness (now at 40-year lows). Yen carry trade unwind would trigger leveraged equity liquidations globally, especially in tech/crypto. Monitor USDJPY breaking above 162 as trigger level. <a href="https://t.me/theblockbeats/186814" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>Korean Retail Leveraged Liquidation Cascade</strong> — South Korean retail now holds 3.3 trillion won in leveraged CFD positions on SK Hynix and Samsung. If memory stocks continue correcting, forced liquidations could amplify downside volatility 2-3x and spill into global semiconductor trade. <a href="https://t.me/theblockbeats/186778" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>Middle East Shipping Disruption</strong> — CMA CGM imposing emergency fuel surcharges from Aug 1 due to Strait of Hormuz hostilities. If tensions escalate further, oil spike and supply chain disruption hit margins across tech manufacturing and crypto mining operations. <a href="https://t.me/theblockbeats/186797" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Markets are caught between AI infrastructure euphoria (OpenAI's $750B spending, NVIDIA scaling) and valuation reckoning (Alphabet's looming capex scrutiny, memory chip correction). Bitcoin is consolidating near resistance with institutional flows intact but retail deleveraging in Asia. Tonight's Alphabet earnings will either validate or puncture the AI capex narrative—trade accordingly with defined risk parameters. Volatility is compressed but regime change is brewing.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+67 tradeable signals | 18 high-confidence | 8 bullish | 10 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

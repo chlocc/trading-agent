@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 23, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260723-trading.html" class="active">07/23/2026</a>
+    <a href="20260722-trading.html" class="">07/22/2026</a>
+    <a href="20260721-trading.html" class="">07/21/2026</a>
+    <a href="20260720-trading.html" class="">07/20/2026</a>
+    <a href="20260719-trading.html" class="">07/19/2026</a>
+    <a href="20260718-trading.html" class="">07/18/2026</a>
+    <a href="20260713-trading.html" class="">07/13/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260723-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260723-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — July 23, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>Bipartisan Split on GOP Crypto Ethics Bill</strong><br />
+Senate Republicans released updated CLARITY Act text, with ethics rules becoming the main dispute. The proposal would bar officials from issuing paid tokens and require divestment or blind trusts, while giving DOJ civil enforcement authority. Democrats are pushing back on ethics grounds, making bipartisan support critical for passage.<br />
+<a href="https://t.me/TheBlock001/7202" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EU Hits Google with €890M in Combined Fines for Rule Violations</strong><br />
+The European Commission announced Google has been fined a total of €890 million for violating EU regulations across multiple infractions, adding to the tech giant's mounting regulatory challenges in the region.<br />
+<a href="https://t.me/theblockbeats/186966" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EU Expands Russia Sanctions to Include Crypto Platforms</strong><br />
+EU member states agreed on the 21st sanctions package against Russia, placing 94 financial institutions and Moscow Exchange under full sanctions while expanding transaction bans on additional crypto platforms. The package also targets vessels supporting Russia's shadow fleet for the first time and freezes the Russian oil price cap at $44.10 per barrel for 12 months.<br />
+<a href="https://t.me/wublockchainenglish/25263" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Japan Eyes First Bitcoin ETF Launch by 2028</strong><br />
+Japan could introduce its first Bitcoin exchange-traded fund as early as 2028, with the Financial Services Agency preparing to revise investment-fund rules. Several major asset managers are considering market entry, with estimates suggesting Japanese Bitcoin ETFs could attract up to ¥3 trillion by fiscal 2028.<br />
+<a href="https://t.me/wublockchainenglish/25255" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>China Commerce Ministry to Fast-Track Foreign Investment M&amp;A Rules</strong><br />
+China's Ministry of Commerce announced plans to accelerate the revision and release of regulations governing foreign investor acquisitions of domestic enterprises, part of broader efforts to stabilize and optimize foreign capital utilization in the second half of 2026.<br />
+<a href="https://t.me/theblockbeats/186991" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>Jack Dorsey Unveils Buzz: Cryptographic Identity for AI Workspaces</strong><br />
+Jack Dorsey launched Buzz, an open-source AI workspace where people, agents, code, and conversations share one cryptographic identity, aiming to replace fragmented tools like Slack and GitHub. The system provides cryptographically-anchored collaboration infrastructure, though critics note the bottleneck remains human review rather than agent capabilities.<br />
+<a href="https://t.me/leviathan_news/20879" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Alibaba Cloud's Truewu M890 Successfully Runs Qwen3.8 Model</strong><br />
+Alibaba Cloud announced its Truewu M890 supernode has successfully adapted Qwen3.8, becoming China's first supernode to run models exceeding 20 trillion parameters. The system is now available on Alibaba Cloud's Bailian platform for model inference services.<br />
+<a href="https://t.me/theblockbeats/186968" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>China Releases First Intelligent Agent Interconnection Standards</strong><br />
+China published its first national standard system covering intelligent agents' full lifecycle, establishing unified underlying rules for AI collaboration. The system issued over 2,000 "Agent Identity Codes" to assign unique digital identities to intelligent agents, representing the world's first systematic agent interconnection standard.<br />
+<a href="https://t.me/theblockbeats/186970" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic Considering Mandatory Trading Plans for Employees Post-IPO</strong><br />
+AI giant Anthropic is considering requiring ordinary employees to sell shares through preset trading plans (10b5-1) after going public to avoid insider trading violations. This unusually broad application would extend requirements typically limited to executives to all staff.<br />
+<a href="https://t.me/theblockbeats/187042" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tencent Cloud Launches First R&amp;D AI Agent CodeBuddy NPC</strong><br />
+Tencent Cloud released CodeBuddy NPC, its first intelligent agent for development workflows and a key upgrade around Harness (runtime governance layer). Targeting developer teams, it can autonomously acquire context, complete tasks in closed loops, and deliver results.<br />
+<a href="https://t.me/theblockbeats/187005" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVIDIA Confirms HBM3e Production Shortages Will Persist</strong><br />
+Citrini analyst Jukan warns not to underestimate Yangtze Memory's competitiveness, noting NAND flash remains in tight supply and the shortage will continue. Intel's CMX cabinets are severely affected by NAND supply constraints, with some customers reportedly required to procure NAND components themselves.<br />
+<a href="https://t.me/theblockbeats/187014" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Circle Partners with Kakao and Toss Bank for Korea Stablecoin Exploration</strong><br />
+Circle announced partnerships with Kakao Group and Toss Bank to explore won-denominated stablecoin payment rails for remittances and merchant settlement in South Korea. The collaboration aims to integrate compliant stablecoin infrastructure into Korea's fintech ecosystem, though regulatory frameworks remain under development.<br />
+<a href="https://t.me/TheBlock001/7206" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/leviathan_news/20883</p>
+
+<p><strong>Flow Traders Pilots Bitcoin-Backed Credit for Stablecoin Borrowing</strong><br />
+Flow Traders is piloting Lombard's new bitcoin-backed credit strategy for stablecoin borrowing, representing institutional adoption of crypto-native lending mechanisms. The move signals growing demand for DeFi-adjacent products among traditional market makers.<br />
+<a href="https://t.me/TheBlock001/7207" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Keeta Launches Tokenized Bank Deposits Across Four Chains</strong><br />
+Keeta tapped LayerZero to launch tokenized bank deposits in nine currencies across four public chains, offering programmable, cross-chain bank account functionality. The initiative aims to accelerate institutional payment network adoption of compliant stablecoin infrastructure.<br />
+<a href="https://t.me/leviathan_news/20893" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ripple Invests in Stablecoin Operator Notabene for Enterprise Payments</strong><br />
+Stablecoin operator Notabene announced a strategic investment from Ripple (amount undisclosed), with plans to integrate Ripple's RLUSD stablecoin into Notabene's Flow B2B payment platform. The partnership aims to expand RLUSD adoption across institutional payment networks.<br />
+<a href="https://t.me/theblockbeats/187031" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Mandela Digital Raises $5M for AI Stablecoin MUSD Launch</strong><br />
+Stablecoin issuer Mandela Digital completed a $5 million funding round with participation from Datavault AI. Funds will support stablecoin infrastructure, compliance, exchange integration, liquidity, and marketing for the 1:1 USD-pegged Mandela Dollar (MUSD).<br />
+<a href="https://t.me/theblockbeats/187025" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>BitMEX to Permanently Shut Down September 23, 2026</strong><br />
+BitMEX announced it will permanently close trading operations on September 23, 2026, at 04:00 UTC, immediately halting new user registrations. Founded by Arthur Hayes in 2014 and once the world's largest crypto derivatives exchange after pioneering 100x leveraged perpetual swaps, BitMEX will implement risk limits from August 26 before forced liquidations ahead of final closure. Platform token BMEX crashed 92.3% to just $480,000 market cap on the news.<br />
+<a href="https://t.me/theblockbeats/186994" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/wublockchainenglish/25262</p>
+
+<p><strong>Coinbase Opens Singapore Office, Plans 200 Staff by Year-End</strong><br />
+Coinbase officially launched its Singapore office at One Raffles Quay, with plans to expand local headcount from ~150 to ~200 by end-2026. Singapore Managing Director Hassan Ahmed positioned the city-state as "one of the most trusted financial centers globally" and Coinbase's fastest-growing international market.<br />
+<a href="https://t.me/theblockbeats/186993" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korea's Mirae Asset Completes Korbit Exchange Acquisition</strong><br />
+Mirae Asset, a major South Korean wealth manager, has completed its acquisition of crypto exchange Korbit, marking continued institutional consolidation in Korea's digital asset market.<br />
+<a href="https://t.me/TheBlock001/7204" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Upbit 24-Hour Volume Surges 36.4% Amid Korean Market Rally</strong><br />
+According to CoinGecko data, Upbit's trading volume increased 36.4% over the past 24 hours, with ERA/KRW leading Korean won trading pairs at 8.61% of total volume, followed by BTC, ETH, RE, and XRP.<br />
+<a href="https://t.me/theblockbeats/186983" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Citi Downgrades Coinbase Price Target from $400 to $235</strong><br />
+Citigroup reduced Coinbase's target stock price from $400 to $235 per share, reflecting revised expectations for the exchange's growth trajectory amid challenging market conditions.<br />
+<a href="https://t.me/theblockbeats/187019" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>BlackRock, Strategy, Coinbase Launch Bitcoin Security Consortium</strong><br />
+Nine firms including BlackRock, Strategy, Coinbase, Galaxy, Anchorage, ARK Invest, Blockstream, Block, and Digital Asset launched the Bitcoin Security Consortium with a $15 million three-year commitment. The alliance will fund Bitcoin developers and security research, with initial focus on preparing for quantum computing threats to Bitcoin cryptography, though members stress they will not dictate protocol development.<br />
+<a href="https://t.me/TheBlock001/7208" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/wublockchainenglish/25264 | https://t.me/theblockbeats/187029</p>
+
+<p><strong>Tokenized Equity Perps Drive RWA Trading to $470B Monthly Volume</strong><br />
+Tokenized equity perpetuals are fueling a boom in real-world asset (RWA) trading, with monthly volumes reaching $470 billion. The surge reflects growing institutional interest in bringing traditional financial products onchain, though regulatory frameworks remain in development.<br />
+<a href="https://t.me/TheBlock001/7201" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin ETFs Post Longest Inflow Streak Since Early May</strong><br />
+U.S. spot Bitcoin ETFs recorded six consecutive days of net inflows from July 14-21, the longest streak since early May. Cumulative net inflows since launch reached $51.8 billion, while Ethereum ETFs saw renewed demand with $196 million in net inflows during the period, bringing cumulative inflows to $11.2 billion.<br />
+<a href="https://t.me/wublockchainenglish/25252" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ethereum Validator Exit Queue Falls to Zero From 2.6M ETH Peak</strong><br />
+According to beaconcha.in data cited by Arkham, Ethereum's validator exit queue has dropped to zero from over 2.6 million ETH in September 2025, meaning unstaking now requires no wait time. Meanwhile, approximately 2.48 million ETH awaits entry to staking with an estimated 43-day queue. About 40.9 million ETH is currently staked (33.55% of supply) across roughly 885,000 validators at 2.64% average APR.<br />
+<a href="https://t.me/wublockchainenglish/25251" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CryptoQuant: Bitcoin Spot Demand Weakening, Futures Remain Positive</strong><br />
+CryptoQuant founder Ki Young Ju reported Bitcoin spot demand is weakening while futures market demand remains positive, though significantly below levels seen during the market rebound three months ago, suggesting cooling momentum.<br />
+<a href="https://t.me/theblockbeats/186983" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Grayscale: Bitcoin Bear Market Could Last Until September-October</strong><br />
+Grayscale said Bitcoin's current bear market could extend until September or October if traditional four-year cycles hold, as previous downturns typically bottomed about a year after peak with ~80% average drawdowns. However, the firm favors a macro-driven framework tied to economic growth and real interest rates, suggesting Bitcoin may have already bottomed if U.S. resilience continues.<br />
+<a href="https://t.me/wublockchainenglish/25257" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Three Major Bridge Exploits Drain $35.5M in Six Hours</strong><br />
+Cross-chain exploits hit AFX Trade ($24.15M USDC on Arbitrum), Verus-Ethereum bridge ($7.5M via repeated import flaw from May), and B² Network ($3.86M from governance compromise) within six hours on July 23. The Verus attack marks the second exploitation of the same vulnerability in two months, exposing persistent validation and key management weaknesses across bridge infrastructure.<br />
+<a href="https://t.me/TheBlock001/7205" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/TheBlock001/7203 | https://t.me/leviathan_news/20886 | https://t.me/wublockchainenglish/25261 | https://t.me/wublockchainenglish/25254</p>
+
+<p><strong>Drift Protocol $285M Exploiter Moves Funds After 3-Month Dormancy</strong><br />
+The attacker behind the $285 million Drift Protocol exploit began moving stolen funds through Tornado Cash in rapid 100 ETH deposits after three months of inactivity, depositing funds nearly every minute in an apparent laundering operation.<br />
+<a href="https://t.me/leviathan_news/20889" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/186980</p>
+
+<p><strong>Polygon (POL) Network Upgrade Scheduled for July 29</strong><br />
+Binance will support the Polygon (POL) network upgrade and hard fork, scheduled for block height 50,185,000 (approximately July 29, 22:00 Beijing time). Binance will suspend POL deposits and withdrawals at 21:00 (UTC+8) on July 29, resuming after network stability is confirmed.<br />
+<a href="https://t.me/theblockbeats/186963" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Pons Announces V2 Upgrade with UniV4 Integration and RWA Support</strong><br />
+Pons unveiled its V2 upgrade for Robinhood Chain, introducing ETH-denominated bonding curves, UniV4 Hooks support for fee collection in ETH (avoiding Meme token sell pressure), and native RWA trading pairs (USDG, NVDA, AAPL, HOOD). Tokens will graduate from bonding curve to Uniswap V4 at 4.2 ETH raised. The V2 contract is undergoing dual audits and expected to launch next week.<br />
+<a href="https://t.me/theblockbeats/186977" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Variant Leads Seed Round for Fixed-Income DeFi Protocol Tenor</strong><br />
+Variant led a seed funding round for Tenor, a decentralized finance protocol focused on fixed-income lending. Fixed-rate debt markets represent one of TradFi's last remaining moats that DeFi has yet to crack at scale, making Tenor's approach strategically significant.<br />
+<a href="https://t.me/leviathan_news/20873" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Zilliqa Suspends Transactions After Ledger App Flaw Exposes Private Keys</strong><br />
+Zilliqa suspended native transactions after a Ledger app vulnerability was discovered that can expose private keys from just five signatures, representing a critical security flaw for hardware wallet users. Price impact was immediate with sharp declines as the security issue unfolded.<br />
+<a href="https://t.me/leviathan_news/20861" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other</p>
+
+<p><strong>WTI Crude Surges Past $90 on Middle East Escalation</strong><br />
+WTI crude oil jumped over 5% intraday to breach $90/barrel (first time since June 11) while Brent crude rose 3.5% to $93.83 as U.S. forces conducted their 12th consecutive night of strikes on Iranian targets. Polymarket shows 34% odds of WTI hitting $110 this month, 10% for $120, and 4% for $130.<br />
+<a href="https://t.me/theblockbeats/187024" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/186976</p>
+
+<p><strong>KOSPI Index Surges 4.4% as Foreign Investors Return to Korean Markets</strong><br />
+Korea's KOSPI index closed up 299.12 points (+4.4%) at 7,096.82 on July 23, marking the fourth consecutive day of foreign net buying totaling ₩5.57 trillion (~$3.79B). SK Hynix and Samsung Electronics accounted for ₩4.49 trillion of inflows. Goldman Sachs noted this represents the largest single-week foreign buying on record, driven by AI capex optimism after Alphabet raised 2026 guidance, with memory sector valuations now at attractive levels after corrections.<br />
+<a href="https://t.me/theblockbeats/187012" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/187022</p>
+
+<p><strong>SK Hynix Hits 2.5% ADR Conversion Cap, 51% Arbitrage Trade Blocked</strong><br />
+Korea Securities Depository confirmed SK Hynix has reached the 2.5% cap for converting Korean shares to U.S. ADRs, with conversion quota now fully exhausted. The ADR premium has persisted for two weeks at 16-33% without closing, blocking what had been one of the most attractive global arbitrage opportunities.<br />
+<a href="https://t.me/theblockbeats/186989" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/187009</p>
+
+<p><strong>Alphabet Reports Record Cash Flow Deficit Amid AI Spending Surge</strong><br />
+Alphabet posted its first-ever quarterly negative free cash flow at -$5.86 billion in Q2 as capital expenditure doubled year-over-year to $44.92 billion. Google Cloud revenue surged 81.8% to $24.77 billion, beating expectations, but the company raised full-year capex guidance to $195-205 billion and warned cash flow pressure will persist. Shares fell ~3% after-hours.<br />
+<a href="https://t.me/wublockchainenglish/25260" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/186995</p>
+
+<p><strong>Tesla Plunges on Earnings Miss and First Negative Free Cash Flow Since 2022</strong><br />
+Tesla shares dropped ~9% pre-market after Q2 profit missed expectations and free cash flow turned negative for the first time in over two years. Multiple analysts downgraded price targets: TD Cowen cut from $490 to $460, while Morgan Stanley reduced from $417 to $400.<br />
+<a href="https://t.me/theblockbeats/187040" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | https://t.me/theblockbeats/187010</p>
+
+<p><strong>SpaceX Starship Flight 13 Reattempt Scheduled for July 24</strong><br />
+SpaceX now plans to attempt Starship Flight 13 launch between 6:45-8:15 Beijing time on July 24 after replacing two engines following the July 17 ignition abort. One Hyperliquid trader opened a $1.27M long position in SPCX ahead of the launch window, betting on successful liftoff.<br />
+<a href="https://t.me/theblockbeats/186978" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Jobless Claims Hit Nearly 60-Year Low at 187,000</strong><br />
+Initial jobless claims fell by 22,000 to 187,000 for the week ending July 18, well below expectations of 212,000 and marking the lowest claim count in nearly 60 years, signaling exceptional labor market strength.<br />
+<a href="https://t.me/wublockchainenglish/25265" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

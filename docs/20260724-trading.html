@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 24, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260724-trading.html" class="active">07/24/2026</a>
+    <a href="20260723-trading.html" class="">07/23/2026</a>
+    <a href="20260722-trading.html" class="">07/22/2026</a>
+    <a href="20260721-trading.html" class="">07/21/2026</a>
+    <a href="20260720-trading.html" class="">07/20/2026</a>
+    <a href="20260719-trading.html" class="">07/19/2026</a>
+    <a href="20260718-trading.html" class="">07/18/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260724-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260724-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 24, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Bifurcation</strong>: Chip sector showing divergence as AMD and Intel surge on hyperscaler deployments while Oracle's credit risk spikes and memory stocks face profit-taking. Goldman, UBS, and Baird issue aggressive upside targets ($640-$1250 for AMD, $85-$160 for INTC) just as 5-year AI capex concerns emerge. Key tickers: AMD, NVDA, INTC, MU vs. ORCL credit.</p>
+
+<p>• <strong>Macro Risk-Off Accelerating</strong>: S&amp;P 500 testing 7500 support, Nasdaq 100 breaking its 50-day MA, and JPMorgan's Dimon publicly avoiding long bonds and equities. BofA warns of "pricing in perfection" with $25B in potential CTA selling ahead. Bitcoin ETFs broke a 7-day inflow streak with $225M outflow. Key tickers: SPY, QQQ, TLT, BTC.</p>
+
+<p>• <strong>Crypto Regulatory Clarity Trade</strong>: CLARITY Act draft mandates customer asset segregation for exchanges (bullish COIN), while Tether faces White House opposition and South Korea blocks 29 offshore exchange apps. Institutional capital rotating from memecoins into Bitcoin/ETF products. Key tickers: COIN, USDT risk, IBIT, FBTC.</p>
+
+<p>• <strong>Stablecoin Expansion Pulse</strong>: Circle minting 250M USDC on Solana repeatedly (4x in 2 days), Ripple launches institutional RLUSD APIs, and Hyperliquid burns $7.65M HYPE. Strong demand signals for compliant stablecoin infrastructure. Key tickers: SOL ecosystem, HYPE.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>AMD</strong> — Baird doubles price target to $1250, UBS raises to $730, and Goldman hits $640 as Microsoft and Anthropic deploy AMD's Helios AI platform while Samsung nears final HBM4 supply agreement. Jensen Huang's 5-10x AI scale commentary removes cyclical fear. This is institutional re-rating in real-time as AMD closes the CUDA moat. (<a href="https://t.me/theblockbeats/187190," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187180," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187175," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187152" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>NVDA</strong> — CEO Jensen Huang dismisses chip cycle concerns, stating industry needs 5-10x current scale for AI infrastructure. NVIDIA raising prices on GDDR6/GDDR7 memory kits demonstrates pricing power amid supply constraints. Multiple analyst upgrades and open-weight AI advocacy signal ecosystem confidence. (<a href="https://t.me/theblockbeats/187197," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187183," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187217" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>INTC</strong> — Morgan Stanley raises target from $45 to $85 after Intel beats Q2 and guides Q3 above expectations on data center strength. Stock surged 13% after-hours. US Bank maintains $160 target citing foundry prospects. Turnaround narrative gaining institutional validation. (<a href="https://t.me/theblockbeats/187146," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187127," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187177" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>COIN</strong> — CLARITY Act draft mandates customer asset segregation, directly reducing counterparty risk for regulated US exchanges. Coinbase also positioning as wallet provider for AI agent economy. Regulatory tailwinds accelerating while offshore platforms face crackdowns. (<a href="https://t.me/theblockbeats/187210," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/20902" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>MSTR/BTC</strong> — MicroStrategy and BlackRock form Bitcoin Security Consortium to address quantum threats, strengthening institutional security narrative. Despite $225M ETF outflow breaking 7-day streak, institutional pivot from memecoins to BTC/ETFs continues. (<a href="https://t.me/TheBlock001/7208," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/20924" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>SOL</strong> — Circle minting 250M USDC on Solana four times in two days signals explosive demand. Raydium launches permissioned AMMs for KYC-gated assets, and Robinhood Chain goes live on Phantom wallet. Institutional DeFi infrastructure buildout accelerating. (<a href="https://t.me/theblockbeats/187198," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/20920, <a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></em>news/20916)</p>
+
+<p><strong>HYPE</strong> — Hyperliquid bought back and burned 130.9K HYPE ($7.65M) over 7 days at ~$58.45, reducing circulating supply. Suspected a16z address staked 278.5k HYPE worth ~$164M, indicating whale conviction in the protocol. (<a href="https://t.me/theblockbeats/187209," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187168" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>SPY/QQQ</strong> — JPMorgan CEO Dimon publicly states he wouldn't buy S&amp;P 500 or long-dated Treasuries at current levels due to fiscal deficits. BofA warns markets pricing in perfection with high valuations and complacency. Nasdaq 100 broke 50-day MA, S&amp;P testing 7500 support, with potential $25B in CTA selling ahead. Korean KOSPI down 5.61% overnight. (<a href="https://t.me/wublockchainenglish/25270," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187206," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187126" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>ORCL</strong> — Oracle's 5-year CDS spikes to record 203 bps, up 4x since mid-2025, reflecting heightened credit risk from aggressive AI infrastructure spending. Cloud hyperscalers building in-house capacity may squeeze Oracle's positioning. <a href="https://t.me/theblockbeats/187218" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — US spot Bitcoin ETFs saw net outflow of $225.1M yesterday, breaking seven-day inflow streak. Short-term weakness vs. ETH which gained $26M. Liquidation heatmap shows long liquidation risk below $63K with support at $58K. (<a href="https://t.me/theblockbeats/187139," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25272" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>ACX/LSK/STX</strong> — Binance adds all three to Monitoring Tag list due to high volatility and elevated delisting risk. Immediate sell-on-news pressure expected with potential for cascading liquidations. (<a href="https://t.me/theblockbeats/187124," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25271" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>SKHX/SMSN (Korean Chips)</strong> — South Korea raising barriers for leveraged ETFs cooling AI chip rally. Samsung and SK Hynix fell 5-6% as KOSPI dropped 5.61%. Morgan Stanley bearish memory chip report triggering sector rotation. Whale liquidations of $7.26M in QQQ/GOOGL/SKHX longs. (<a href="https://t.me/theblockbeats/187156," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187141," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187145" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long AMD calls (6-month expiry)</strong></p>
+
+<ul>
+<li>Rationale: Three major banks raising targets to $640-$1250 as Helios deployment with MSFT/Anthropic validates datacenter competitiveness. Samsung HBM4 deal removes supply constraint. Jensen's 5-10x scale comment removes cyclical risk overhang.</li>
+<li>Entry: On pullback to $580-590 or breakout above $610</li>
+<li>Risks: Broader tech selloff or memory supply chain disruption</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187190," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187180," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187175," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187152" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long ARKQ (AI/Robotics ETF)</strong></p>
+
+<ul>
+<li>Rationale: Captures AMD, NVDA, INTC upside while diversifying single-stock risk. Chip sector bifurcation favors leaders with hyperscaler validation. Memory weakness (MU/SK Hynix) creates entry point for quality AI exposure.</li>
+<li>Entry: Current levels or 3-5% pullback</li>
+<li>Risks: Broad tech multiple compression or AI capex slowdown narrative</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187197," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187183," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187217" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Short SPY (hedge position)</strong></p>
+
+<ul>
+<li>Rationale: Dimon avoiding equities publicly, BofA warning on perfection pricing, $25B CTA selling potential, and 50-day MA break on QQQ. Korean market -5.6% overnight provides leading indicator. VIX likely to spike.</li>
+<li>Entry: Current levels or bounce to 7520-7530</li>
+<li>Risks: Fed pivot signal or geopolitical de-escalation</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25270," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187206," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187126" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long COIN (direct equity)</strong></p>
+
+<ul>
+<li>Rationale: CLARITY Act mandates customer asset segregation, reducing bankruptcy risk and creating regulatory moat vs. offshore platforms. South Korea blocking 29 exchange apps validates US-based exchange premium. AI agent wallet positioning adds optionality.</li>
+<li>Entry: On broad market weakness or below $185</li>
+<li>Risks: CLARITY Act stalls (10-20% passage probability) or crypto bear market</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187210," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/20902," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25274" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long IBIT/FBTC (Bitcoin ETFs) on dips</strong></p>
+
+<ul>
+<li>Rationale: $225M outflow is profit-taking after 7-day streak, not structural shift. MicroStrategy/BlackRock quantum security consortium strengthens institutional thesis. Institutional rotation from memecoins to BTC continuing.</li>
+<li>Entry: If BTC tests $63K support or ETFs pull back 4-6%</li>
+<li>Risks: Macro risk-off intensifies or regulatory headwinds emerge</li>
+<li>Related signals: <a href="https://t.me/TheBlock001/7208," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/20924," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187139" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long SOL perpetuals</strong></p>
+
+<ul>
+<li>Rationale: Circle minting 250M USDC 4x in 2 days is massive demand signal. Raydium permissioned AMMs and Robinhood Chain launch on Phantom expand institutional DeFi infrastructure. Stablecoin velocity increasing.</li>
+<li>Entry: On pullback to $140-145 or breakout above $155</li>
+<li>Risks: Ethereum competition or broader crypto selloff</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187198," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/20920, <a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></em>news/20916</li>
+</ul>
+
+<p><strong>7. Pair Trade: Long AMD / Short MU</strong></p>
+
+<ul>
+<li>Rationale: AMD getting hyperscaler validation while memory stocks (MU) face profit-taking and Morgan Stanley bearish report. Whale on Hyperliquid planning same trade. Captures AI infrastructure bifurcation.</li>
+<li>Entry: Ratio near current levels</li>
+<li>Risks: Broad sector selloff or memory supply shock</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187152," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187147," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187156" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>CTA Selling Cascade</strong>: $25B in potential systematic selling if S&amp;P breaks 7500 support decisively. Trigger: close below 7480. Impact: 3-5% drawdown acceleration with VIX spike to 25+.</p>
+
+<p>• <strong>Korean Market Contagion</strong>: KOSPI down 5.61% overnight with chip stocks leading losses. Trigger: continued Asia weakness or leveraged ETF unwinding. Impact: spills into US tech session, particularly NVDA/AMD/semiconductor equipment.</p>
+
+<p>• <strong>CLARITY Act Failure</strong>: Only 10-20% passage probability due to ethical clause disagreements. Trigger: bill stalls in committee or White House opposition intensifies. Impact: crypto regulatory premium evaporates, COIN -8-12%.</p>
+
+<p>• <strong>Oracle Credit Event</strong>: 5-year CDS at record 203 bps, up 4x since mid-2025. Trigger: downgrade below investment grade or capex guidance cut. Impact: cloud sector repricing, questions about AI infrastructure ROI spread to hyperscalers.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Global liquidity tightening is forcing a "shrinking circle" rally where capital concentrates in proven AI winners (AMD, NVDA) while speculative plays (memecoins, marginal chips) and broader indices face distribution. JPMorgan and BofA warnings signal institutional profit-taking at extremes. Asian markets leading overnight with Korean tech -5.6%, while oil surges add stagflation concerns. The setup favors quality AI exposure over broad beta, defensive hedges via SPY shorts, and selective crypto plays with regulatory clarity (COIN, BTC ETFs) over offshore platforms facing crackdowns.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+59 signals | 59 tradeable | 31 bullish | 25 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 27, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260727-trading.html" class="active">07/27/2026</a>
+    <a href="20260725-trading.html" class="">07/25/2026</a>
+    <a href="20260724-trading.html" class="">07/24/2026</a>
+    <a href="20260723-trading.html" class="">07/23/2026</a>
+    <a href="20260722-trading.html" class="">07/22/2026</a>
+    <a href="20260721-trading.html" class="">07/21/2026</a>
+    <a href="20260720-trading.html" class="">07/20/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260727-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260727-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — July 27, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ <strong>Regulation &amp; Policy</strong></p>
+
+<p><strong>Senate CLARITY Act Draft Merges Banking and Agriculture Texts, Adds Ethics Rules</strong><br />
+A merged draft of the Senate CLARITY Act combines language from the Banking and Agriculture committees and introduces new ethics requirements for lawmakers. The bill could reach a floor vote as early as the week of August 3, marking a significant step toward comprehensive crypto regulation in the U.S.<br />
+<a href="https://t.me/leviathan_news/20991" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Sanctions Turkish Fintech Zedpay for Supporting IRGC-Linked Crypto Exchanges</strong><br />
+The U.S. Treasury sanctioned Turkish payment processor Zedpay for facilitating transactions for crypto exchanges Zedxion and Zedcex, which laundered funds for Iran's Islamic Revolutionary Guard Corps. This follows January sanctions on the exchanges themselves, tightening the net on Tehran's financial infrastructure.<br />
+<a href="https://t.me/leviathan_news/20987" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Sen. Lummis: CLARITY Act Would Grant Treasury New Sanctions Powers and Transaction Freeze Authority</strong><br />
+Senator Cynthia Lummis stated the CLARITY Act would empower the U.S. Treasury with expanded sanctions tools and allow crypto firms to freeze suspicious transactions proactively. The provision aims to intercept illicit flows before they move, though critics warn it could grant Treasury de facto control over transaction screening.<br />
+<a href="https://t.me/leviathan_news/20985" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DeFi Vault Regulation Should Target Curators, Not Infrastructure, Industry Leaders Argue</strong><br />
+Industry figures say regulators should focus on discretionary vault curators rather than non-custodial infrastructure as tokenized asset management scales. The distinction is critical as institutions adopt DeFi vaults, with operators seeking clarity on who bears regulatory responsibility.<br />
+<a href="https://t.me/leviathan_news/20989" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 <strong>AI &amp; Tech</strong></p>
+
+<p><strong>Tiger Research: AI Wallet Providers Position for $50B Agent Economy</strong><br />
+AI wallet providers are building infrastructure for a $50 billion autonomous agent economy, where payment data powers lending, programmable finance, and commerce. The Stripe Capital analogy holds: just as Stripe lent to merchants with verifiable revenue, AI wallets could underwrite agents with on-chain transaction history.<br />
+<a href="https://t.me/leviathan_news/20990" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Nvidia Invests in Seoul and U.S. Gigawatt AI Cloud Infrastructure with Naver and Brookfield</strong><br />
+Naver, Nvidia, and Brookfield plan to build gigawatt-scale, multi-tenant AI cloud infrastructure targeting next-gen AI enterprises in Korea and the U.S. Naver's Sejong AI Factory will expand to 200 MW by 2028, with further plans to reach 1 GW capacity using Nvidia's latest Vera Rubin and Blackwell platforms.<br />
+<a href="https://t.me/theblockbeats/187566" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Nvidia to Invest $1 Billion in Naver, Taking ~5% Stake to Bolster AI Factory Strategy</strong><br />
+Naver will issue 720,000 shares to Nvidia at 204,500 KRW each (~$10 billion total), granting the chipmaker roughly 5% ownership. Bernstein says the deal de-risks concerns over hardware procurement, demand visibility, and long-term ecosystem support, positioning Naver's AI Factory closer to a "neocloud" co-investment model.<br />
+<a href="https://t.me/theblockbeats/187496" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AMD to Establish AI Research Center in South Korea, Building Open AI Infrastructure Ecosystem</strong><br />
+AMD will set up an AI Excellence Center in Korea to support tech collaboration, chip software development, and joint research. The initiative includes building heterogeneous AI compute infrastructure linking AMD CPUs/GPUs with Korean NPU chips, aiming for an open AI ecosystem spanning storage, networking, servers, and software.<br />
+<a href="https://t.me/theblockbeats/187473" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Six Silicon Valley VCs Partner with Korea's National Pension Fund on Strategic AI Investments</strong><br />
+Sequoia, a16z, Khosla, Lightspeed, General Catalyst, and NEA signed MOUs with Korea's National Pension Service to share deal flow and co-invest globally. Coupled with Korea's 20 trillion KRW (~$14B) National Growth Fund, the move signals a policy-capital-VC triple boost for AI and semiconductors—though analysts warn concentrated inflows into hot deals risk valuation bubbles.<br />
+<a href="https://t.me/theblockbeats/187493" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💳 <strong>Payments &amp; Stablecoins</strong></p>
+
+<p><strong>South Korea's KB Kookmin Bank to Launch Cross-Border Payment Service on JPMorgan's Kinexys</strong><br />
+KB Kookmin Bank will use JPMorgan's Kinexys blockchain rail for cross-border USD payments across 10 countries. The move reflects institutions choosing private, KYC-compliant chains for settlement, signaling public rails had their chance and lost to permissioned infrastructure.<br />
+<a href="https://t.me/leviathan_news/20976" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>POSCO International and LG CNS Tokenize Live Trade Receivables on Injective in Corporate Finance Test</strong><br />
+The Korean conglomerate and LG's IT arm completed a pilot tokenizing actual trade receivables on Injective, though CoinDesk couldn't extract transaction sizes or settlement times. Still, it's live corporate finance on-chain—proof of concept met, scale TBD.<br />
+<a href="https://t.me/leviathan_news/20984" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Circle Acquires Nearly 1,000 IBM Blockchain Patents</strong><br />
+Circle purchased over 680 patent families covering blockchain infrastructure, banking, payments, insurance, supply chains, and secure cloud operations from IBM. The company says the deal makes it the largest U.S. holder of blockchain patents and will support USDC, Circle Payments Network, Arc, and agentic finance products.<br />
+<a href="https://t.me/wublockchainenglish/25307" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether's Gold Token XAUT Receives Shariah Certification, Unlocking Middle East and Global Muslim Markets</strong><br />
+Tether announced its gold-backed XAUT received Shariah compliance certification from Amanah Advisors, positioning it as a halal digital gold investment for Muslim users, Islamic banks, and institutional investors globally. Each XAUT represents direct ownership of physical gold in Swiss vaults with no interest, leverage, or speculative derivatives.<br />
+<a href="https://t.me/theblockbeats/187556" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏦 <strong>Exchanges &amp; Platforms</strong></p>
+
+<p><strong>Kraken Parent Payward Acquires Magic Labs' Embedded Wallet Business</strong><br />
+Kraken's parent company acquired Magic Labs' embedded wallet unit through an asset purchase, with wallet customers migrating to Payward Services. Magic Labs, which raised over $80M including a $52M PayPal Ventures round in 2023, will rebrand as Newton Labs and focus on the Newton Protocol for on-chain compliance and authorization.<br />
+<a href="https://t.me/theblockbeats/187557" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Triple-A Hot Wallet Losses Reach $11.8 Million as Fresh Deposits Continue to Be Drained</strong><br />
+Triple-A's hot wallet exploit has now resulted in $11.8 million in losses, with new deposits still being swept by attackers. OnChainOracle flagged an $8M whale exit before the drain began, suggesting insiders or sophisticated actors knew the tap was open.<br />
+<a href="https://t.me/leviathan_news/20988" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Saw $37M Net Inflows in July While 77 Exchanges Lost Nearly $1B Since June</strong><br />
+CoinDesk Research data shows 77 global exchanges collectively lost nearly $1 billion in net outflows from June onward, yet Binance posted $37 million in net inflows. Binance maintains ~100%+ USDT and USDC reserves, a publicly auditable ~$1B SAFU fund, and holds roughly 24% spot, 36% perps, and 55% of centralized exchange reserve assets.<br />
+<a href="https://t.me/theblockbeats/187549" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>📈 <strong>Crypto Trading &amp; Markets</strong></p>
+
+<p><strong>Bitcoin MVRV Z-Score Drops to Multi-Year Lows, Market Enters Undervalued Zone but Not Capitulation</strong><br />
+BTC's MVRV Z-Score sits at ~0.42, far below the historical average of 1.7, and has hovered near zero for 30 days—touching ~0.185 on June 30. Yet it hasn't entered negative territory, meaning the market is undervalued and stabilizing, not capitulating. Meanwhile, 7-day realized P/L flipped positive to ~$239M after June's -$8.5B losses, signaling selling pressure is easing.<br />
+<a href="https://t.me/theblockbeats/187497" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Spot Bitcoin ETFs Record $34M Net Inflows in Third Consecutive Week, Ethereum ETFs Add $104M</strong><br />
+From July 20–24, U.S. spot Bitcoin ETFs posted $34 million in net inflows, marking three straight weeks of gains. Spot Ethereum ETFs saw $104 million in inflows, also extending their streak to three weeks. Spot SOL and XRP ETFs added $7.2M and $8.15M respectively, while spot HYPE ETFs recorded $8.61M in outflows.<br />
+<a href="https://t.me/wublockchainenglish/25302" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy Pauses Bitcoin Buying for Third Straight Week, USD Reserves Rise to $3.75B</strong><br />
+Strategy (formerly MicroStrategy) made no bitcoin purchases for the third consecutive week, though it raised $1.2B in USD reserves via MSTR share sales and other means. The company now holds 843,775 BTC (cost basis $75,476) with an unrealized loss of -$8.85B (-13.9%), and $3.75B in cash—enough to cover 25 months of interest payments.<br />
+<a href="https://t.me/theblockbeats/187554" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitmine Adds 9,946 ETH, Total Holdings Reach 5.79M ETH Worth $11.8B</strong><br />
+Ethereum treasury company Bitmine purchased 9,946 ETH over the past week at ~$1,897 each, bringing total holdings to 5,787,414 ETH (~4.8% of circulating supply). The company has staked 4,917,189 ETH (85% of holdings) and now reports $11.8 billion in total crypto, cash, and marketable securities.<br />
+<a href="https://t.me/wublockchainenglish/25306" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid's Top 9 Whale Addresses Hold Combined $1.28B in Positions, Down $48.6M Unrealized</strong><br />
+Hyperinsight monitoring shows the top 9 whale addresses on Hyperliquid each hold positions between $97M and $314M (combined ~$1.28B nominal). All nine are currently underwater, with combined floating losses of ~$48.6M. The two largest whales each have losses exceeding $10M, with ETH shorts concentrated among six addresses holding ~22.2K ETH short (~$456M notional, -$36.2M unrealized).<br />
+<a href="https://t.me/theblockbeats/187537" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔷 <strong>DeFi &amp; Protocols</strong></p>
+
+<p><strong>Runaway Bot Loses $482K Trading HYPE and ZEC on Lighter as Risk Engine Prevents Liquidations</strong><br />
+A bot on Lighter DEX lost $482K trading HYPE and ZEC, though the platform's risk engine prevented full liquidation. The headline crowns Lighter's risk controls the hero, but the real question is: what were the bot's own position limits, and why did they fail first?<br />
+<a href="https://t.me/leviathan_news/20983" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EVM.chat Unveils Wallet-Native Messaging App, Turns Every EVM Address into Cross-Chain Inbox</strong><br />
+EVM.chat launched a wallet-native messaging app that converts every EVM address into a universal cross-chain inbox, with its first bonding curve presale launching on Robinhood Chain. The load-bearing plank: Robinhood Chain adoption and whether users actually want their wallet to double as a messaging identity layer.<br />
+<a href="https://t.me/leviathan_news/20986" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Unofficial Arc Bridge Lets Anonymous Owner Sweep $490K USDC Reserve from Unverified Vault</strong><br />
+An unverified Arc bridge vault saw its anonymous owner sweep $490K in USDC reserves. OnChainOracle tracked insider movements, but the real lesson: follow the reserve, not the exit—any vault that lets an anonymous hand scoop the treasury without multi-sig or verification is a rug waiting to happen.<br />
+<a href="https://t.me/leviathan_news/20980" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Stacks 4.0 Hard Fork Targets Bitcoin Block 960,230 on July 29, Activating Clarity 6 and Bitcoin Stacking</strong><br />
+Stacks 4.0 mainnet upgrade is set for Bitcoin block 960,230 on July 29, activating Clarity 6 and Bitcoin Stacking. With $1.2 billion locked in stacking contracts, the upgrade everyone's sailing for is a smart-contract language revision and a re-org of how Stacks anchors to Bitcoin L1.<br />
+<a href="https://t.me/leviathan_news/20981" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cascade Restores 100% of CLS User Balances After Recovering Funds from $1.34M Exploit</strong><br />
+Cascade announced it recovered funds from a $1.34M exploit and restored 100% of CLS user balances. No details yet on how the recovery happened or whether the attacker returned funds voluntarily, but users are whole.<br />
+<a href="https://t.me/leviathan_news/20977" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔦 <strong>Other</strong></p>
+
+<p><strong>SparkKitty Malware Hidden in Mobile Apps Scans Photos for Crypto Wallet Seed Phrases</strong><br />
+Check Point disclosed SparkKitty, a cross-platform malware distributed via Apple App Store, Google Play, and third-party Android stores. It uses OCR to scan users' photo libraries for crypto wallet seed phrases, passwords, and QR codes. The iOS version was embedded in a crypto app called "币 coin" and bypassed Apple review via code obfuscation; on Android, an app called "SOEX" accumulated 10K+ downloads before removal.<br />
+<a href="https://t.me/theblockbeats/187545" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bankr Loses 1.5 Billion $BNKR in Smart-Account Drain as Hijacked X Account Pushes Fake Airdrops</strong><br />
+Bankr lost 1.5B $BNKR (~value undisclosed) in a smart-account drain linked to a hijacked X (Twitter) account pushing fake airdrop links. The keys were already warm—smart accounts that route through X's API credentials and pre-authorized signing infrastructure made the exploit trivial once social access was compromised.<br />
+<a href="https://t.me/leviathan_news/20982" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Storj Labs Files for Chapter 11 Bankruptcy After Raising ~$35 Million</strong><br />
+Storj Labs, the company behind decentralized cloud storage network Storj, voluntarily filed for Chapter 11 bankruptcy to address legacy debt while continuing operations. Customer services remain uninterrupted, and management, community, STORJ token holders, and investors are expected to jointly own the reorganized company. Storj previously raised ~$5M in traditional funding plus ~$30M in a 2017 token sale.<br />
+<a href="https://t.me/wublockchainenglish/25298" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>WEMIX Contract Owner Privileges Compromised, $6.25M in Tokens Illegally Minted and Transferred</strong><br />
+WEMIX, the blockchain backed by Korean gaming giant Wemade, confirmed a security incident on July 26 in which an attacker obtained owner privileges, enabling ~$6.25M worth of WEMIX tokens to be abnormally minted and transferred. WEMIX is working with exchanges and blockchain security firms to trace funds and may involve law enforcement.<br />
+<a href="https://t.me/wublockchainenglish/25299" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Zcash to Activate Ironwood Upgrade With New Shielded Pool and Supply Safeguards</strong><br />
+Zcash will activate its Ironwood upgrade at block 3,428,143 on July 28, introducing a new shielded pool with quantum-recoverable notes and a turnstile mechanism to strengthen verification of ZEC supply following concerns over a potential counterfeiting vulnerability in the legacy Orchard pool.<br />
+<a href="https://t.me/wublockchainenglish/25304" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ChangXin Memory Technologies (CXMT) Debuts on Shanghai STAR Market, Soars 466% on First Day</strong><br />
+Chinese DRAM maker ChangXin Memory (688825.SH) listed on the STAR Market and closed up 465.82% at 49 yuan, reaching a total market cap of ~3.28 trillion yuan (~$450B). The IPO broke multiple A-share records and saw turnover exceed 141 billion yuan with a turnover rate of 61.5%. Top five shareholders' paper gains totaled ~1.42 trillion yuan.<br />
+<a href="https://t.me/theblockbeats/187527" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

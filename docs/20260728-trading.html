@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 28, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260728-trading.html" class="active">07/28/2026</a>
+    <a href="20260727-trading.html" class="">07/27/2026</a>
+    <a href="20260725-trading.html" class="">07/25/2026</a>
+    <a href="20260724-trading.html" class="">07/24/2026</a>
+    <a href="20260723-trading.html" class="">07/23/2026</a>
+    <a href="20260722-trading.html" class="">07/22/2026</a>
+    <a href="20260721-trading.html" class="">07/21/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260728-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260728-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 28, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Memory Chip Sector Collapse</strong> — A historic selloff is unfolding across global memory markets. SK Hynix has plunged ~50% from highs, Samsung Electronics down ~41%, and the KOSPI index crashed through 6,000 after an 8% single-day plunge that triggered trading halts. The DRAM ETF is down 35%+ from recent peaks. This isn't just a correction—it's a full-blown bear market driven by HBM4 cost concerns and oversupply fears. <em>Affected: SKHY, SSNLF, MU, WDC, STX, SNDK, DRAM, SOXX</em></p>
+
+<p>• <strong>Tech Correction Deepens</strong> — The Nasdaq 100 has officially entered correction territory with a 10% decline from its record high, while the Philadelphia Semiconductor Index dropped 5% in a single session. This follows Moody's warning that AI market correction has become a "major global credit risk," amplifying concerns about tech valuations and capex spend. The selloff is broad-based, hitting everything from chips to AI infrastructure plays. <em>Affected: QQQ, SOX, NVDA, AMD, INTC, TSLA, META, MSFT</em></p>
+
+<p>• <strong>Institutional Crypto Expansion</strong> — Morgan Stanley just launched Ethereum and Solana spot ETPs (MSSE, MSOL) with integrated staking, marking a major milestone for institutional access to alt-L1s. Meanwhile, Benchmark reiterated its $570 price target for Strategy (MSTR), though the company has now paused BTC purchases for 5 consecutive weeks as its preferred stock trades below $100. This dual dynamic—institutional products expanding while retail volume collapses 75% from late-2024 peaks—defines the current crypto landscape. <em>Affected: ETH, SOL, MSTR, BTC, IBIT, ETHA</em></p>
+
+<p>• <strong>AI Infrastructure Pivot</strong> — Two critical developments: MARA's CEO confirmed that electricity for AI is "far more profitable" than bitcoin mining, accelerating the industry's pivot to AI data centers, while Meta announced a $14B data center partnership with Bayer delivering 1 gigawatt of compute capacity. This validates the thesis that bitcoin miners are becoming AI infrastructure plays. <em>Affected: MARA, CORZ, META, NVDA</em></p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>MSTR</strong> — Benchmark has reiterated its $570 price target for Strategy, citing the company's substantial cash reserves available for bitcoin acquisitions. Despite a 5-week pause in purchases (driven by preferred stock trading below $100), the long-term accumulation thesis remains intact. The stock offers leveraged BTC exposure without direct crypto custody risk. <a href="https://t.me/TheBlock001/7222" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH / SOL / MS</strong> — Morgan Stanley's launch of Ethereum (MSSE) and Solana (MSOL) spot ETPs with integrated staking represents a major legitimization of alt-L1 exposure for institutional allocators. This follows the broader trend of TradFi expanding beyond Bitcoin-only products and could drive significant inflows from wealth management platforms where Morgan Stanley has deep distribution. <a href="https://t.me/wublockchainenglish/25321" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187774" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA</strong> — Despite the broader tech selloff, analysts remain confident in NVIDIA's pricing power and gross margin stability within the AI compute ecosystem. The upcoming HBM4 generation's cost increases are expected to be passed through to customers, not absorbed, protecting margins. Additionally, NVIDIA generates $6M revenue per employee—the highest in chip manufacturing—demonstrating exceptional AI-driven productivity. The stock has pricing power even in a downturn. <a href="https://t.me/theblockbeats/187750" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>META</strong> — Meta's $14B joint investment with Bayer to develop data centers providing 1 gigawatt of compute capacity is a massive bet on AI infrastructure. This scale of investment—comparable to entire small-country power grids—positions Meta to monetize AI compute beyond its own platforms, potentially competing with hyperscalers in the inference layer. <a href="https://t.me/theblockbeats/187740" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Solana is implementing a 66% increase in block compute limits, raising the cap from 60M to 100M compute units. This technical upgrade directly addresses congestion and fee spikes that have plagued the network during high-activity periods. If successful, it should improve user experience and potentially drive higher transaction throughput without proportional fee increases. <a href="https://t.me/theblockbeats/187747" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>1INCH / ETH</strong> — 1inch has launched its Aqua shared liquidity protocol, allowing users to provide liquidity without depositing capital directly—a capital efficiency breakthrough for DeFi. This innovation could attract liquidity providers who were previously sidelined by capital lock-up requirements, potentially improving DEX depth and execution quality across the Ethereum ecosystem. <a href="https://t.me/theblockbeats/187752" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>SKHY / SKHX</strong> — SK Hynix has entered a catastrophic decline, with the ADR down 11.9% in pre-market and the underlying Korean stock down over 50% from recent highs. KOSPI trading was halted after an 8% single-day plunge. A whale attempting to buy the dip with $10M in layered orders on a 5x long position faces imminent liquidation risk. The memory sector is in full crisis mode, driven by HBM4 cost concerns and demand uncertainty. <a href="https://t.me/wublockchainenglish/25312" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187720" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187704" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>QQQ</strong> — The Nasdaq 100 has fallen 10% from its record high, officially entering correction territory. This drawdown reflects growing concerns about AI spending sustainability, high valuations, and macro headwinds including persistent inflation keeping Fed rate cut expectations muted. The technical breakdown suggests further downside risk if the correction extends to 15-20%. <a href="https://t.me/theblockbeats/187786" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOX / NVDA / AMD / INTC / MU</strong> — The Philadelphia Semiconductor Index dropped 5% as memory and chip stocks led a sector-wide decline. This selloff is broader than just memory—it reflects concerns about the entire AI supply chain's near-term ROI. Even leaders like NVIDIA are down ~1% pre-market despite strong fundamental positioning. <a href="https://t.me/theblockbeats/187785" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — Bitcoin spot trading volume has collapsed over 75% from its late-2024 peak to levels not seen since the 2023 bear market. This volume drought reflects waning retail interest, macro pressures from tech stock volatility, and institutional rotation away from crypto. Additionally, long-term holder transfers to exchanges hit 5.1%, nearing historical peaks that often precede selling waves. <a href="https://t.me/theblockbeats/187721" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DRAM / MU / WDC / STX / SNDK</strong> — Pre-market U.S. memory stocks and the DRAM ETF are sharply down, with the DRAM ETF off 35%+ from highs. Micron, Western Digital, SanDisk, and Seagate are all in deep red, reflecting fundamental concerns about memory oversupply and HBM pricing. This is no longer a tactical dip—it's a structural bear market in memory semiconductors. <a href="https://t.me/theblockbeats/187724" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/187710" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GLW</strong> — Corning pre-announced Q3 core sales below market expectations, sending the stock down 15% in pre-market. The miss signals weak demand across its display and specialty materials segments, likely tied to smartphone and PC end-market softness. This is a direct read-through to consumer electronics weakness. <a href="https://t.me/theblockbeats/187755" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>STORJ</strong> — Upbit has designated STORJ as a "trading warning" asset and suspended deposits after Storj Labs' parent company filed for bankruptcy. This is a potential zero scenario—exchange delistings typically cascade, and bankruptcy proceedings can freeze token liquidity indefinitely. <a href="https://t.me/theblockbeats/187735" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Short SOX via puts or inverse ETF (SOXS)</strong></p>
+
+<ul>
+<li>Rationale: The Philadelphia Semiconductor Index has broken technical support and is leading the broader tech selloff. With memory stocks in freefall (SK Hynix -50%, DRAM ETF -35%) and Moody's flagging AI as a "major credit risk," the sector faces both fundamental deterioration and negative momentum. The 5% single-day drop suggests this is just the beginning of a larger de-rating.</li>
+<li>Entry: SOX below 5,000 or SOXS on any bounce below $12</li>
+<li>Risks: A sharp Fed pivot or major AI infrastructure deal (like more Meta/Bayer-style announcements) could trigger a violent short squeeze</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187785">SOX decline</a>, <a href="https://t.me/theblockbeats/187710">memory bear market</a>, <a href="https://t.me/theblockbeats/187704">KOSPI crash</a>, <a href="https://t.me/wublockchainenglish/25312">SKHY collapse</a></li>
+</ul>
+
+<p><strong>2. Long META on pullbacks</strong></p>
+
+<ul>
+<li>Rationale: Meta's $14B data center investment with Bayer providing 1GW of compute is a game-changer. While the stock is caught in the broader tech selloff, this positions Meta as an AI infrastructure provider, not just a consumer. The company is essentially building a power plant's worth of compute—this scale separates leaders from laggards in the AI race.</li>
+<li>Entry: META below $550 or on a test of the 200-day MA</li>
+<li>Risks: If the broader Nasdaq correction extends to -20%, no stock will be spared; also watch for disappointing ads revenue in upcoming earnings</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187740">Meta data center deal</a>, <a href="https://t.me/theblockbeats/187786">tech correction deepens</a></li>
+</ul>
+
+<p><strong>3. Pair trade: Long NVDA vs. Short MU</strong></p>
+
+<ul>
+<li>Rationale: NVIDIA maintains pricing power and margin stability in AI compute with HBM4 cost pass-through ability, while Micron is at ground zero of the memory collapse. NVDA's revenue per employee ($6M) and ecosystem dominance insulates it relative to commodity memory suppliers. This isolates exposure to AI compute strength while hedging memory sector risk.</li>
+<li>Entry: Establish at current levels with 2:1 notional ratio (short 2x MU exposure vs. 1x NVDA long)</li>
+<li>Risks: A broad semiconductor bounce could see MU rally harder on short-covering; NVDA's premium valuation remains vulnerable in a growth scare</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187750">NVDA pricing power</a>, <a href="https://t.me/theblockbeats/187710">memory sector collapse</a>, <a href="https://t.me/theblockbeats/187724">DRAM ETF down 35%</a></li>
+</ul>
+
+<p><strong>4. Long ETHA (BlackRock Ethereum ETF)</strong></p>
+
+<ul>
+<li>Rationale: Morgan Stanley's launch of staking-enabled Ethereum ETPs legitimizes ETH for institutional allocators. BlackRock's ETHA just captured $9.2M in inflows while Bitcoin ETFs saw outflows. With Solana compute limits rising 66% and 1inch's Aqua protocol improving DeFi capital efficiency, the Ethereum ecosystem is delivering tangible infrastructure upgrades that should support price. This is a structural shift, not a momentum trade.</li>
+<li>Entry: ETHA on any dip below $25 or ETH spot below $1,800</li>
+<li>Risks: If Bitcoin volume collapse (down 75%) spreads to ETH, or if DeFi TVL continues declining, the institutional bid may not materialize</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187774">Morgan Stanley ETPs</a>, <a href="https://t.me/wublockchainenglish/25315">ETH inflows</a>, <a href="https://t.me/theblockbeats/187747">Solana upgrade</a>, <a href="https://t.me/theblockbeats/187752">1inch Aqua launch</a></li>
+</ul>
+
+<p><strong>5. Short MSTR via put spreads</strong></p>
+
+<ul>
+<li>Rationale: Despite Benchmark's $570 price target, MSTR has stopped buying Bitcoin for 5 consecutive weeks because its preferred stock trades below $100. The company's bitcoin accumulation machine has stalled precisely when BTC volume has collapsed 75%. If BTC can't rally, MSTR's leverage works in reverse—it's a double-down bet on a market in volume freefall.</li>
+<li>Entry: MSTR put spread (e.g., buy $140 put / sell $120 put) expiring 60 days out</li>
+<li>Risks: Any resumption of BTC purchases or a Bitcoin rally above $70k would invalidate this quickly; Benchmark's reiteration could attract dip buyers</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187748">MSTR buying pause</a>, <a href="https://t.me/TheBlock001/7222">Benchmark price target</a>, <a href="https://t.me/theblockbeats/187721">BTC volume collapse</a></li>
+</ul>
+
+<p><strong>6. Long CORZ (Core Scientific) + AMD exposure</strong></p>
+
+<ul>
+<li>Rationale: MARA's CEO explicitly stated electricity for AI is "far more profitable than bitcoin mining," and Core Scientific just announced infrastructure partnership with AMD. Bitcoin miners are pivoting to AI data centers, and CORZ is ahead of the curve. This is a way to play the AI infrastructure buildout through the power/facility angle rather than pure chip exposure.</li>
+<li>Entry: CORZ below $8 or AMD below $140</li>
+<li>Risks: If power costs spike or AI capex spending slowdown accelerates (per Moody's warning), these infrastructure plays lose their thesis</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25316">MARA AI pivot</a>, <a href="https://t.me/theblockbeats/187751">CORZ-AMD partnership</a></li>
+</ul>
+
+<p><strong>7. Short QQQ via put calendar spreads</strong></p>
+
+<ul>
+<li>Rationale: The Nasdaq 100 is now in official correction (-10%) with technical breakdown below key support. Moody's warning about AI as a major credit risk, persistent inflation keeping Fed cuts off the table, and memory sector collapse all point to further downside. A put calendar spread (sell near-term, buy longer-dated) benefits from time decay if we chop, but provides gamma if the correction accelerates.</li>
+<li>Entry: QQQ put calendar spread at $480 strike (sell 30-day, buy 90-day)</li>
+<li>Risks: Any surprise Fed dovish pivot or cease-fire in trade tensions could spark a violent rally; also, if this is just a healthy correction, support may hold at -12%</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/187786">Nasdaq correction</a>, <a href="https://t.me/theblockbeats/187749">Moody's AI warning</a>, <a href="https://t.me/theblockbeats/187785">SOX decline</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Memory sector liquidation cascade</strong> — SK Hynix is down 50%, and whales are getting liquidated on 5x long positions with $10M in desperate buy orders. If KOSPI breaks below 5,500 or SK Hynix tests $40, forced selling from leveraged funds could accelerate into a full panic. This could spill over into broader tech via correlation.</p>
+
+<p>• <strong>Bitcoin volume death spiral</strong> — Spot BTC volume down 75% from peak is a structural red flag. If volume continues declining toward 2023 bear market lows while long-term holders send coins to exchanges (5.1% transfer rate near historical peaks), a cascading liquidation in perpetual futures could drive BTC below $50k, taking MSTR, COIN, and crypto ETFs down violently.</p>
+
+<p>• <strong>Fed stays hawkish longer</strong> — Inflation remains above target, and rate cut probability is declining per futures markets. If July CPI comes in hot or labor data stays resilient, the Fed could signal "higher for even longer," which would crater tech valuations further. The Nasdaq has 20%+ downside if 10-year yields break above 4.5% sustainably.</p>
+
+<p>• <strong>STORJ contagion to other exchange-listed alts</strong> — Upbit's warning designation and deposit suspension for STORJ after parent bankruptcy could trigger exchange reviews of other marginal projects. Watch for cascade delistings on Binance (which just announced pair removals for ERA, MAGIC, MOVE, etc.) and Coinbase. Illiquidity spirals can turn $100M market caps into $10M overnight.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Global risk assets</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

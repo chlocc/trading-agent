@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — July 30, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260730-trading.html" class="active">07/30/2026</a>
+    <a href="20260729-trading.html" class="">07/29/2026</a>
+    <a href="20260728-trading.html" class="">07/28/2026</a>
+    <a href="20260727-trading.html" class="">07/27/2026</a>
+    <a href="20260725-trading.html" class="">07/25/2026</a>
+    <a href="20260724-trading.html" class="">07/24/2026</a>
+    <a href="20260723-trading.html" class="">07/23/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260730-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260730-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — July 30, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Revival</strong> — After a brutal July selloff that wiped out Asia equity hedge funds (-18.6% monthly), semis and memory stocks are staging a violent reversal led by Microsoft's Azure strength and Lam Research earnings beat. This matters because it signals institutional capitulation turning to accumulation, with Korean chip stocks triggering circuit breakers on the upside. Key tickers: MSFT, MU, SNDK, LRCX, SKHX, ARM.</p>
+
+<p>• <strong>Corporate Treasury Liquidations</strong> — Companies are selling crypto treasuries to fund AI data centers, with Hyperscale Data dumping 100 BTC and Japan's largest ETH holder selling 1,000 ETH. This dual signal of AI capex acceleration and crypto supply pressure creates a tactical headwind for BTC/ETH while confirming the AI infrastructure build-out is real and capital-intensive.</p>
+
+<p>• <strong>Korean Market Dislocation</strong> — KOSPI 200 futures hit +8% limit up overnight after a 40% crash from June highs left 70% of SK Hynix retail holders underwater. Regulators are considering emergency measures including short-selling bans. This extreme volatility creates asymmetric opportunities in Korean tech exposure and related derivatives.</p>
+
+<p>• <strong>Regulatory Tightening in Asia</strong> — South Korea confirms crypto tax implementation for Jan 2027 and proposes exchange account freezing powers, while Asian DeFi shows severe contraction (TVL -38%, L1 mcap -42% in H1). The regulatory vise is closing, favoring compliant infrastructure plays over pure crypto beta.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>CORZ / AMD</strong> — Bernstein projects Core Scientific's AMD partnership will generate $14B in revenue over 15 years, a massive validation of the pivot from Bitcoin mining to AI infrastructure hosting. This transforms CORZ from a distressed crypto miner into an AI datacenter play with contracted revenue visibility. The AMD tie-up provides credibility and scale that competitors lack. <a href="https://t.me/TheBlock001/7236" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSFT</strong> — Surged 15% after Q4 earnings revealed Azure annual revenue crossed $100B for the first time, with robust cloud growth momentum. This obliterates the "AI spending isn't translating to revenue" bear case and provides top-down validation for the entire AI infrastructure stack. The pre-market rally triggered sector-wide rotation back into semis and storage. <a href="https://t.me/theblockbeats/188224" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MU / SNDK / SKHX / WDC</strong> — US memory stocks exploded with SanDisk +23%, Micron +16%, SK Hynix ADR +16%, Western Digital +17.6% in pre-market as investors rotated into oversold AI infrastructure names after MSFT's cloud beat. The memory sector had become the epicenter of forced selling, creating extreme value for those betting on AI-driven demand persistence. <a href="https://t.me/theblockbeats/188229" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>LRCX</strong> — Lam Research posted beat-and-raise earnings, catalyzing a +7.65% pre-market pop that lifted the entire semiconductor capital equipment complex. This is critical validation that wafer fab equipment spending remains robust despite macro concerns, with wafer fab equipment being the earliest indicator of sustained chip demand. <a href="https://t.me/theblockbeats/188200" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ARM</strong> — Shares soared 19% at the open, reversing earlier post-earnings weakness to record its best day since March. The violent reversal suggests institutional accumulation after an earnings-driven shakeout, with ARM's AI-optimized chip architecture benefiting from Microsoft's Azure momentum and the broader AI infrastructure reflation. <a href="https://t.me/theblockbeats/188223" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EWY</strong> — KOSPI 200 overnight futures surged 8% and hit the daily price limit, signaling extreme bullish momentum for Korean equities after regulatory intervention and insider buying (SK Group chairman purchased SK Hynix shares for the first time). This circuit-breaker rally suggests capitulation-level bottoming after the 40% drawdown. <a href="https://t.me/theblockbeats/188234" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HOOD</strong> — Q2 revenue hit record $1.31B with event contract revenue surging 10x, despite crypto revenue falling 38%. The diversification into prediction markets and equity trading is working, reducing crypto dependency while expanding margin-rich product lines. The crypto weakness is priced in; the events business is not. <a href="https://t.me/wublockchainenglish/25344" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC / ETH (ETFs)</strong> — Bitcoin ETFs drew $32M in net inflows led by BlackRock, with Morgan Stanley's Ethereum Trust also seeing inflows. Institutional accumulation continues despite choppy price action, with ETF flows providing a durable bid beneath the market. This matters more than spot price noise. <a href="https://t.me/wublockchainenglish/25350" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL / JUP / KMNO</strong> — WalletConnect processed $3.82B in Solana value in H1 2026, driven by Kamino and Jupiter, reflecting strong ecosystem growth even as broader crypto contracts. Solana is gaining market share in the DeFi downturn, with Jupiter's new Spot V2 launch consolidating its position as the go-to DEX aggregator. <a href="https://t.me/leviathan_news/21115" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HYPE</strong> — First Japan-listed company (eole) bought 1,078 HYPE tokens and plans further purchases, signaling growing institutional adoption. This creates a new buyer category for mid-cap exchange tokens and validates the Japan crypto expansion narrative. <a href="https://t.me/leviathan_news/21116" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>QCOM</strong> — UBS slashed price target to $170 after Q3 revenue fell 4% YoY, with shares dropping ~6% pre-market. The smartphone market remains structurally weak and Qualcomm is losing share in the AI edge computing transition, making it the wrong way to play AI infrastructure. <a href="https://t.me/theblockbeats/188203" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>META</strong> — Down 8% post-earnings alongside ARM (-7% initially) and QCOM (-6%), showing tech earnings are creating sharp bifurcation between cloud/infrastructure winners (MSFT) and consumer-facing losers. Metaverse spending continues to pressure margins without revenue payoff. <a href="https://t.me/theblockbeats/188177" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AAVE</strong> — Winding down deployments on six chains affecting $98.1M in deposits to reduce economic and technical risks. While prudent risk management, this signals DeFi contraction and competitive pressure, with Aave retreating to focus on core chains. The $98M withdrawal could pressure AAVE token as protocol revenues shrink. <a href="https://t.me/wublockchainenglish/25352" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC (Corporate Selling)</strong> — Hyperscale Data sold 100 BTC and opened a Bitcoin-backed credit facility to fund AI data centers, while Japan's largest Ethereum treasury company sold 1,000 ETH with plans to sell more. Corporate treasuries are liquidating crypto to fund AI capex, creating persistent supply pressure. <a href="https://t.me/wublockchainenglish/25356" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — Japan's largest ETH holder is selling and raising sell limits to fund AIDC businesses, while Grayscale deposited 9,453 ETH ($18.14M) to Coinbase Prime. Institutional holders are rotating out of ETH into AI infrastructure equity, pressuring ETH/BTC and absolute ETH prices. <a href="https://t.me/wublockchainenglish/25354" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC / ETH / SOL / BNB (Ecosystem)</strong> — Binance Research reports broad onchain contraction in H1 2026 with DeFi TVL down 38% and L1 market cap down 42%. This is not a sector rotation but a structural deleveraging, with capital fleeing crypto ecosystems entirely rather than rotating between chains. <a href="https://t.me/wublockchainenglish/25357" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SKHX / SSNLF (Retail Carnage)</strong> — Korean stock crash has left 70% of SK Hynix buyers and 50% of Samsung Electronics buyers underwater after KOSPI dropped 40% from June highs. While potentially a contrarian signal, the retail pain suggests further forced selling and margin calls remain unresolved despite the overnight futures rally. <a href="https://t.me/theblockbeats/188169" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto (Asia Regulation)</strong> — South Korea confirms crypto tax starting January 2027 and proposes allowing regulators to freeze exchange accounts for illicit transfers. This regulatory tightening will reduce trading volumes and force capital offshore, creating structural headwinds for Korea-focused exchanges and tokens. <a href="https://t.me/wublockchainenglish/25351" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long MSFT / Short QQQ spread</strong></p>
+
+<ul>
+<li>Rationale: MSFT's Azure strength ($100B annual run-rate) proves AI spending is monetizing, but the move also exposes the bifurcation in tech. MSFT is taking share from the bloated QQQ portfolio of AI wannabes. Express this as long MSFT vs short equal dollar amount of QQQ to isolate MSFT's alpha while hedging sector risk.</li>
+<li>Entry: Establish spread at current levels; MSFT already up 15% pre-market but momentum likely continues as funds rotate into quality</li>
+<li>Risks: Broad tech selloff resumes, dragging MSFT with the index despite relative strength</li>
+<li>Related signals: MSFT surge <a href="https://t.me/theblockbeats/188224" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, Tech bifurcation <a href="https://t.me/theblockbeats/188177" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long MU calls (2-month expiry, 10% OTM)</strong></p>
+
+<ul>
+<li>Rationale: Memory stocks are exhibiting classic capitulation-to-reversal dynamics. Micron saw +$2.5M in new smart money longs on Hyperliquid while peers saw net exits, signaling relative value preference. The stock is up 16% pre-market but the violence of this move suggests a multi-day short squeeze is underway.</li>
+<li>Entry: Buy 2-month ATM or slightly OTM calls on any intraday pullback below +12%</li>
+<li>Risks: MSFT's cloud strength is already priced into memory stocks; Korea market instability spills over</li>
+<li>Related signals: Memory rally <a href="https://t.me/theblockbeats/188229" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, Smart money rotation to MU <a href="https://t.me/theblockbeats/188189" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, Lam Research beat signals equipment demand <a href="https://t.me/theblockbeats/188200" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long CORZ equity</strong></p>
+
+<ul>
+<li>Rationale: Bernstein's $14B revenue projection over 15 years for the AMD partnership transforms CORZ from a distressed miner into a contracted AI datacenter operator. The market hasn't fully priced the business model pivot. This is a structural call on AI datacenter scarcity, not a crypto mining trade.</li>
+<li>Entry: Buy on dips; stock likely gaps up on this catalyst but any pullback to yesterday's close is a gift</li>
+<li>Risks: Bitcoin mining revenue still matters short-term; execution risk on datacenter build-out; AMD partnership terms could disappoint</li>
+<li>Related signals: Bernstein AMD partnership projection <a href="https://t.me/TheBlock001/7236" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Short ETHA (Ethereum ETF) / Long IBIT (Bitcoin ETF) pairs trade</strong></p>
+
+<ul>
+<li>Rationale: Corporate treasuries are liquidating ETH specifically to fund AI capex (100 BTC sold vs 1,000 ETH sold by different entities), while BTC ETFs continue to see institutional inflows ($32M net). ETH is structurally weak due to DeFi contraction (-38% TVL) and lacks a clear institutional narrative vs BTC's macro/treasury story. Express as short ETHA vs long IBIT to capture the relative weakness.</li>
+<li>Entry: Establish 1:1.5 ratio (short $100 ETHA, long $150 IBIT) to account for volatility differential</li>
+<li>Risks: ETH 2.0 upgrade narrative resurfaces; DeFi recovers faster than expected; relative trade can bleed during broad crypto selloffs</li>
+<li>Related signals: Japan ETH selling <a href="https://t.me/wublockchainenglish/25354" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, BTC vs ETH flows <a href="https://t.me/wublockchainenglish/25350" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, DeFi contraction <a href="https://t.me/wublockchainenglish/25357" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long EWY (Korea ETF) with tight stops</strong></p>
+
+<ul>
+<li>Rationale: KOSPI 200 futures hit limit-up after extreme oversold conditions, regulatory intervention signals (potential short-selling ban), and the SK Group chairman buying SK Hynix shares for the first time. This is a violent mean-reversion setup after 40% drawdown. Retail is completely washed out, creating asymmetric upside if the policy response is aggressive.</li>
+<li>Entry: Buy EWY at the open; place stops 5% below entry</li>
+<li>Risks: This is a dead-cat bounce before further deterioration; Korean regulatory intervention fails; retail margin liquidations continue despite rally</li>
+<li>Related signals: KOSPI futures limit-up <a href="https://t.me/theblockbeats/188234" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, SK chairman insider buying <a href="https://t.me/theblockbeats/188196" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, Regulatory intervention potential <a href="https://t.me/theblockbeats/188179" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, Retail capitulation <a href="https://t.me/theblockbeats/188169" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Short AAVE token (via perpetuals)</strong></p>
+
+<ul>
+<li>Rationale: Aave is winding down 6 chain deployments affecting $98.1M in deposits, reducing protocol revenues and ecosystem footprint. This comes amid broader DeFi contraction (-38% TVL H1 2026) and signals competitive pressure. The protocol is retreating rather than expanding, which is bearish for token value accrual.</li>
+<li>Entry: Short AAVE perps with 3x leverage; enter in tranches on any relief rally above $95</li>
+<li>Risks: Wind-down is viewed as prudent risk management and actually bullish; DeFi sentiment improves; Aave announces new chain deployments or product launches</li>
+<li>Related signals: Aave chain wind-down <a href="https://t.me/wublockchainenglish/25352" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, Broader DeFi contraction <a href="https://t.me/wublockchainenglish/25357" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Long HOOD equity</strong></p>
+
+<ul>
+<li>Rationale: Record Q2 revenue of $1.31B driven by 10x surge in event contract revenue proves business diversification is working. Crypto revenue fell 38% but is now a smaller part of the mix, reducing correlation to crypto volatility. The prediction market business (likely Kalshi-competitive) has explosive margins and is under-appreciated. This is a fintech growth story wearing a crypto label.</li>
+<li>Entry: Buy on any dip below $95; trailing stop at 8%</li>
+<li>Risks: Crypto weakness accelerates; regulatory crackdown on prediction markets; event contracts revenue was one-time election-driven spike</li>
+<li>Related signals: HOOD record revenue <a href="https://t.me/wublockchainenglish/25344" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, Binance US prediction market plans signal sector growth <a href="https://t.me/leviathan_news/21117" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Asia Deleveraging Incomplete</strong> — Goldman reports record 18.6% monthly drawdown in Asia equity hedge funds due to AI stock selloff. Despite overnight Korea futures rally, forced liquidations may continue if funds face redemptions. Watch for secondary waves of selling in SKHX, TSM, AMAT that could spill into US semis. <a href="https://t.me/theblockbeats/188183" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>Korean Regulatory Circuit-Breakers</strong> — Seoul is considering temporary short-selling bans and reduced price limits, which historically signal policy panic rather than confidence. If implemented, these emergency measures could trigger capital flight from Korean markets despite near-term rally. Watch for MSCI Korea ETF flows. <a href="https://t.me/theblockbeats/188179" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>Corporate Crypto Treasury Exodus</strong> — Multiple entities (Hyperscale Data, Japan's largest ETH holder) are selling crypto treasuries to fund AI infrastructure. If this becomes a trend among public companies, it creates persistent supply pressure on BTC/ETH while confirming the AI capex supercycle is real. Watch for more treasury sale announcements. <a href="https://t.me/wublockchainenglish/25356" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>Options Expiry Gravity</strong> — $10.3B in crypto options expire tomorrow with BTC max pain at $64K and ETH at $1,800. Prices tend to gravitate toward</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

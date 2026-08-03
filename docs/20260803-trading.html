@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 03, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260803-trading.html" class="active">08/03/2026</a>
+    <a href="20260730-trading.html" class="">07/30/2026</a>
+    <a href="20260729-trading.html" class="">07/29/2026</a>
+    <a href="20260728-trading.html" class="">07/28/2026</a>
+    <a href="20260727-trading.html" class="">07/27/2026</a>
+    <a href="20260725-trading.html" class="">07/25/2026</a>
+    <a href="20260724-trading.html" class="">07/24/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260803-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260803-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 03, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Corporate Bitcoin Capitulation</strong>: Strategy (MSTR proxy) sold 1,638 BTC for $105M at a ~$19M loss, marking the first major sell-off from a prominent BTC treasury company. This breaks the narrative of perpetual accumulation and signals potential liquidity stress among levered crypto plays. Affects: BTC, MSTR, COIN, crypto miners.</p>
+
+<p>• <strong>Token Unlock Tsunami</strong>: $1.28B in token unlocks scheduled through September 3, led by RAIN ($569M) and SOL ($146M). Combined with $61.53M BTC ETF outflows breaking a three-week streak, supply pressure is mounting across crypto. Affects: SOL, RAIN, ENA, HYPE, AVAX, DOGE.</p>
+
+<p>• <strong>ETH Institutional Accumulation vs BTC Distribution</strong>: While Strategy dumps BTC, BitMine aggressively adds 10,399 ETH, now controlling 4.8% of total supply with 85% staked. This divergence suggests institutional rotation from BTC to ETH. A mysterious whale also accumulated $220M in ETH/WBTC since July. Affects: ETH, ETHA, BTC, IBIT.</p>
+
+<p>• <strong>Memory/Storage Supply Chain Inflection</strong>: Kioxia posts record results and Samsung foundry expects full capacity by H2 2026 driven by AI/HPC demand, but Hyperliquid shows major capital outflows from MU/SKHX with rotation into SNDK. Semiconductor positioning is messy. Affects: MU, SNDK, SKHX, WDC, STX, BOTZ.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>ETH</strong> — BitMine increases holdings by 10,399 ETH, now controlling 4.8% of total supply (5.8M ETH) with 85% staked generating ~$247M annual revenue. This marks continued weekly accumulation at scale while Strategy sells BTC. Additionally, a whale accumulated over $220M in ETH/WBTC since July at $1,770 average. BlackRock's launch of tokenized money market funds (BSTBL/BRSRV) on Ethereum further validates the chain for institutional capital. <a href="https://t.me/wublockchainenglish/25407" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188727" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188729" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Bitwise's SOL ETF accounts for 80% of all US SOL ETF inflows, accumulating nearly $9B in SOL tokens. This overwhelming market share signals institutional conviction despite upcoming unlock pressure. The concentration of flows suggests Bitwise has become the institutional venue of choice for Solana exposure. <a href="https://t.me/theblockbeats/188682" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>KIOXF/MU/STX/WDC</strong> — Kioxia reports record quarterly performance with strong NAND/SSD demand outlook, backed by a share buyback program. Morgan Stanley separately confirms enterprise SSD shipment capacity expected to double in 2026 driven by AI capex. Kioxia's results validate the memory/storage thesis despite recent equity volatility. <a href="https://t.me/theblockbeats/188648" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188652" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA/AMD/GOOG/TSLA</strong> — Samsung foundry business expects full capacity utilization and turnaround by H2 2026, driven by AI/HPC orders and 2nm process demand from major clients including Qualcomm, AMD, Google, and Tesla. This validates the AI infrastructure buildout continuing through 2026 and supports the semiconductor supply chain. <a href="https://t.me/theblockbeats/188659" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ABTC/BTC</strong> — American Bitcoin reports record quarterly BTC production with holdings now exceeding 8,000 BTC despite a $57.2M Q2 loss. Unlike Strategy's selling, American Bitcoin continues operational expansion with mining costs of ~$36,500 per BTC providing a fundamental floor. <a href="https://t.me/theblockbeats/188694" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>XRP</strong> — Ripple invests in tokenization firms Zilo and Licuido to accelerate real-world asset capabilities on XRP Ledger, bringing regulated issuance and collateral mobility. This expands XRPL's institutional use cases beyond payments. <a href="https://t.me/theblockbeats/188699" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/21250" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HOOD</strong> — Robinhood secures UK FCA crypto registration ahead of new regulatory regime starting Q1 2027, positioning for market share capture in a major regulated market. This is a competitive advantage as many crypto firms struggle with UK compliance. <a href="https://t.me/wublockchainenglish/25402" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188687" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BTC/MSTR</strong> — Strategy sold 1,638 BTC for $104.7M at ~$63,957 (realizing ~$18.77M loss) to fund dividends and share buybacks, marking its first significant BTC reduction despite previously raising capital for more purchases. This breaks the perpetual accumulation narrative and suggests balance sheet stress. Multiple channels confirm the sale. <a href="https://t.me/TheBlock001/7260" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25406" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188716" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — Bitcoin spot ETFs see $61.53M net outflows, breaking a three-week inflow streak. Combined with Strategy's selling and warnings that CLARITY Act failure (now 31% probability) could trigger a sell-off, BTC faces multiple headwinds. Additionally, Coldcard wallet users are under a fourth organized attack wave involving ~388.9 BTC, creating security concerns. <a href="https://t.me/wublockchainenglish/25398" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188720" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25394" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL/RAIN/ENA/HYPE/AVAX</strong> — Over $1.28B in token unlocks scheduled through September 3, with RAIN leading at $569M (44%), SOL at $146M, ENA, HYPE, and AVAX following. This represents significant supply overhang that could create sustained selling pressure across the alt complex. <a href="https://t.me/leviathan_news/21246" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25399" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ACX/HFT/PIVX/PYR/VANRY/VIC</strong> — Binance announces delisting effective immediately. These tokens typically drop 40-70% on delisting announcements as liquidity evaporates and holders rush for exits. Avoid entirely. <a href="https://t.me/wublockchainenglish/25396" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GOOG/MSFT</strong> — EU AI Act enforcement takes effect today, targeting major AI firms including OpenAI and Google with potential fines and compliance costs. This creates regulatory overhang for AI leaders. Morgan Stanley also predicts AI stocks will underperform in H2 as market rotation broadens away from tech. <a href="https://t.me/theblockbeats/188701" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188677" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GME</strong> — GameStop drops 12% in pre-market with no specific catalyst disclosed, signaling renewed pressure on meme stocks. <a href="https://t.me/theblockbeats/188696" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MU/SKHX</strong> — Hyperliquid shows major capital outflows from Micron and SK Hynix positions, with SKHX open interest dropping nearly 50% from peak. Despite strong fundamental backdrops from Kioxia/Samsung, equity positioning has turned aggressively negative. Southern 2x leveraged Korean semiconductor ETFs dropped 12-15%. <a href="https://t.me/theblockbeats/188632" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188695" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188633" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH (short-term)</strong> — Whale Loracle opens $28M+ ETH short alongside increased gold longs, suggesting a tactical bearish bet despite strong accumulation from other whales. <a href="https://t.me/theblockbeats/188697" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>0G</strong> — ZeroStack's 10-Q reveals 91% unrealized loss on 0G holdings with negative working capital, creating extreme price dependence and potential forced selling risk. <a href="https://t.me/theblockbeats/188678" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long ETHA (Ethereum ETF exposure)</strong></p>
+
+<ul>
+<li>Rationale: BitMine's continued aggressive accumulation (10,399 ETH last week, 4.8% of supply controlled) combined with whale buying and BlackRock tokenized products on Ethereum create a strong institutional bid. ETH is gaining share vs BTC as Strategy sells and ETF flows diverge.</li>
+<li>Entry: Current levels or on dip toward $1,750 spot equivalent</li>
+<li>Risks: Token unlock selling pressure could create cross-asset contagion; whale short position at $28M could trigger cascade</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25407">BitMine accumulation</a>, <a href="https://t.me/theblockbeats/188727">Whale accumulation</a>, <a href="https://t.me/theblockbeats/188729">BlackRock tokenization</a></li>
+</ul>
+
+<p><strong>2. Short IBIT (Bitcoin ETF exposure) or MSTR</strong></p>
+
+<ul>
+<li>Rationale: Strategy's first major BTC sale at a loss combined with ETF outflows breaking three-week streak signals deteriorating conviction. CLARITY Act failure risk (69% odds per Polymarket) could trigger broader crypto sell-off. Coldcard hack concerns add security premium.</li>
+<li>Entry: Current levels, add on bounces toward $65k BTC equivalent</li>
+<li>Risks: Institutional buying on dip; CLARITY Act surprise passage would invalidate thesis</li>
+<li>Related signals: <a href="https://t.me/TheBlock001/7260">Strategy selling</a>, <a href="https://t.me/wublockchainenglish/25398">ETF outflows</a>, <a href="https://t.me/theblockbeats/188720">CLARITY risk</a>, <a href="https://t.me/wublockchainenglish/25394">Coldcard hack</a></li>
+</ul>
+
+<p><strong>3. Pairs Trade: Long ETH/Short BTC (via ETHA/IBIT or futures)</strong></p>
+
+<ul>
+<li>Rationale: Clear divergence in institutional behavior with BitMine buying ETH while Strategy sells BTC. ETH now has tokenization narrative (BlackRock) while BTC faces supply pressure and regulatory uncertainty.</li>
+<li>Entry: Current ETH/BTC ratio or on ratio dips below 0.027</li>
+<li>Risks: Broad crypto sell-off would hurt both; BTC dominance could reassert</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25407">BitMine ETH buying</a>, <a href="https://t.me/theblockbeats/188725">Strategy BTC selling</a>, <a href="https://t.me/theblockbeats/188727">Whale ETH accumulation</a></li>
+</ul>
+
+<p><strong>4. Fade SOL ahead of unlock</strong></p>
+
+<ul>
+<li>Rationale: $146M SOL unlock (plus $569M RAIN, $1.28B total across ecosystem) creates massive supply pressure over next 30 days. Despite Bitwise ETF accumulation, unlock timing creates tactical short opportunity.</li>
+<li>Entry: Current levels or bounces toward $165-170</li>
+<li>Risks: Bitwise ETF buying could absorb supply; broader alt rally invalidates timing</li>
+<li>Related signals: <a href="https://t.me/leviathan_news/21246">Token unlocks</a>, <a href="https://t.me/wublockchainenglish/25399">Unlock schedule</a></li>
+</ul>
+
+<p><strong>5. Long WDC/STX (SSD/HDD exposure)</strong></p>
+
+<ul>
+<li>Rationale: Kioxia record results validate enterprise SSD demand doubling in 2026 per Morgan Stanley. Samsung foundry at full capacity signals memory/storage shortage developing. Cleaner alternative to MU/SKHX which show heavy deleveraging.</li>
+<li>Entry: On pullback to support levels; WDC ~$52, STX ~$85</li>
+<li>Risks: Macro slowdown reduces AI capex; Chinese competition in NAND</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/188648">Kioxia results</a>, <a href="https://t.me/theblockbeats/188652">Morgan Stanley SSD demand</a>, <a href="https://t.me/theblockbeats/188632">MU/SKHX outflows suggest rotation</a></li>
+</ul>
+
+<p><strong>6. BOTZ/ARKQ (AI infrastructure basket) on dips</strong></p>
+
+<ul>
+<li>Rationale: Samsung foundry turnaround and Kioxia results validate AI buildout continuing through H2 2026. ETF exposure avoids single-stock risk from MU/SKHX deleveraging while capturing memory/storage/compute thesis.</li>
+<li>Entry: 5-7% pullback from current levels</li>
+<li>Risks: Morgan Stanley warns AI stocks underperform H2; EU AI Act enforcement creates regulatory drag</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/188659">Samsung foundry outlook</a>, <a href="https://t.me/theblockbeats/188648">Kioxia demand</a>, <a href="https://t.me/theblockbeats/188652">MS SSD forecast</a></li>
+</ul>
+
+<p><strong>7. Short COIN (crypto exchange exposure)</strong></p>
+
+<ul>
+<li>Rationale: CLARITY Act likely failure (31% pass probability) creates regulatory overhang. Crypto volumes declining with BTC ETF outflows. COIN down in pre-market with sector weakness. Strategy's BTC sale suggests liquidity stress among crypto-native firms.</li>
+<li>Entry: Current levels or bounces toward $210</li>
+<li>Risks: Surprise regulatory clarity; crypto volatility spike increases trading revenue</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/188720">CLARITY Act risk</a>, <a href="https://t.me/wublockchainenglish/25398">BTC ETF outflows</a>, <a href="https://t.me/theblockbeats/188683">Pre-market weakness</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>CLARITY Act Vote (72-hour window)</strong>: The Act is absent from Senate schedule with only 31% passage odds. Failure could trigger 10-15% crypto sell-off per Bernstein. Watch for emergency scheduling or recess confirmation. Trigger: Recess announcement without vote. Impact: Broad crypto liquidation, -15-20% on MSTR/COIN/miners.</p>
+
+<p>• <strong>Token Unlock Cascade</strong>: $1.28B unlocking through September 3 with RAIN ($569M, 44% of total) leading. If early unlocks are sold aggressively, could trigger stop-losses and forced selling across alt complex. Trigger: RAIN or SOL &gt;20% single-day dump. Impact: Systematic alt devaluation, flight to BTC/stables.</p>
+
+<p>• <strong>Memory Sector Liquidation</strong>: Despite strong fundamentals, MU/SKHX see 50% open interest collapse and capital flight on Hyperliquid. If whales are forced to unwind remaining $29M+ long positions, could trigger broader semiconductor correction. Trigger: MU breaks $85 or SKHX breaks key support. Impact: -10-15% across memory complex, BOTZ/ARKQ -5-8%.</p>
+
+<p>• <strong>Federal Reserve Surprise Hike</strong>: Banque de France predicts Fed rate hikes from December despite market pricing cuts. Combined with US-Japan intervention and rising long bond yields, liquidity conditions are tightening. Trigger: Hawkish Fed speak or stronger-than-expected employment data. Impact: Risk asset repricing, crypto -15-25%, growth stocks -8-12%.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Bitcoin's institutional facade is cracking as Strategy sells into weakness for the first time, while regulatory uncertainty (CLARITY Act failure risk) and token unlock supply pressure mount. Yet Ethereum is seeing aggressive accumulation from BitMine and whales, suggesting sector rotation rather than capitulation. In traditional markets, AI infrastructure fundamentals remain strong (Samsung, Kioxia) but equity positioning has turned violent (MU/SKHX deleveraging), creating dislocation between fundamentals and flows. The setup favors tactical shorts on BTC/MSTR/COIN and rotation into ETH, with selective memory/storage exposure via WDC/STX or BOTZ avoiding the MU/SKHX liquidation. Next 72 hours are critical for CLARITY Act—failure would validate the bearish crypto thesis.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

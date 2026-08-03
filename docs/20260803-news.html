@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 03, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260803-trading.html" class="active">08/03/2026</a>
+    <a href="20260730-trading.html" class="">07/30/2026</a>
+    <a href="20260729-trading.html" class="">07/29/2026</a>
+    <a href="20260728-trading.html" class="">07/28/2026</a>
+    <a href="20260727-trading.html" class="">07/27/2026</a>
+    <a href="20260725-trading.html" class="">07/25/2026</a>
+    <a href="20260724-trading.html" class="">07/24/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260803-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260803-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — August 03, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>U.S. and Japan Conduct Rare Joint FX Intervention to Support Yen</strong><br />
+The U.S. Treasury and Bank of Japan executed their first coordinated currency intervention since 2011, with Japan deploying an estimated $34 billion on Friday alone to stabilize the yen after it hit 164 per dollar—its weakest level since 1986. This marks the first joint action specifically targeting yen support since 1998 and reflects mounting concerns over inflationary pressure from currency weakness, though the move also underscores geopolitical coordination at a time of heightened global volatility.<br />
+<a href="https://t.me/theblockbeats/188714" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bernstein Warns CLARITY Act Failure Could Accelerate SEC, CFTC Crypto Rulemaking</strong><br />
+Investment firm Bernstein stated that the odds of the Digital Asset Market Clarity Act passing before the congressional recess are declining, with Polymarket pricing the chance of 2026 passage at just 31%, down 9 percentage points over the past month. If the bill stalls, Bernstein expects the SEC and CFTC to accelerate their own regulatory actions—including token classification rules, DeFi frameworks, and token issuance exemptions—potentially triggering short-term market volatility but ultimately providing greater regulatory clarity for crypto assets.<br />
+<a href="https://t.me/TheBlock001/7257" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>New York Demands Kalshi Hand Over Bettor Data in Regulatory Probe</strong><br />
+New York regulators have asked a judge to compel prediction market Kalshi to disclose the names, wagers, and losses of its New York-based users, escalating a regulatory clash over the platform's operations. Kalshi and Polymarket's combined volume hit an all-time high of over $50 billion in July, demonstrating surging retail interest in prediction markets even as legal scrutiny intensifies.<br />
+<a href="https://t.me/TheBlock001/7251" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korea's Bithumb Officially Targets 2028 IPO, Outlines Multi-Year Roadmap</strong><br />
+South Korea's second-largest crypto exchange, Bithumb, announced plans to complete an IPO in 2028 after filing for preliminary listing review in 2027, strengthening internal controls and transitioning to K-IFRS accounting standards as part of the preparations. The move signals the exchange's push for institutional legitimacy and comes amid broader Korean regulatory reforms aimed at bringing crypto platforms under stricter oversight.<br />
+<a href="https://t.me/TheBlock001/7258" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Robinhood Secures UK Crypto Registration Under FCA's AML Regime</strong><br />
+Robinhood's UK entity was added to the FCA's cryptoasset register on July 31, allowing it to provide certain crypto services under the UK's current anti-money laundering framework ahead of the broader crypto regulatory regime expected to take effect in October 2027. The early registration positions Robinhood to navigate upcoming stricter authorization requirements and reflects intensifying competition among exchanges to establish compliant footprints in major jurisdictions.<br />
+<a href="https://t.me/leviathan_news/21256" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitget Exits Japan, Closing All Positions by Year-End Amid FSA Crackdown</strong><br />
+Crypto exchange Bitget announced it will cease serving Japanese residents and close all remaining positions by December 31, 2026, following a February order from Japan's FSA that saw five major exchanges—Bybit, MEXC, LBank, KuCoin, and Bitget—removed from app stores for operating without registration. Japan's new legislation reclassifies crypto assets as financial instruments, exposing unregistered platforms to fines up to $62,800 and imprisonment of up to 10 years.<br />
+<a href="https://t.me/leviathan_news/21255" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korea Stablecoin Outflows Extend to 18 Months, Totaling $367M in June</strong><br />
+South Korea's five largest crypto exchanges recorded net stablecoin outflows of $367 million in June, marking the 18th consecutive month of retail capital exiting local platforms—likely driven by arbitrage seeking higher leverage, DeFi yields, and tokenized real-world assets unavailable under domestic restrictions. The sustained capital flight underscores the tension between Korea's strict regulatory cage and offshore opportunities, with implications for local exchange liquidity and competitiveness.<br />
+<a href="https://t.me/leviathan_news/21249" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>EU Grants Itself New AI Enforcement Powers, Targeting OpenAI, Anthropic</strong><br />
+The European Commission gained new AI regulatory enforcement powers effective August 2, enabling it to assess general-purpose AI (GPAI) models, restrict market access, and impose fines up to €15 million or 3% of global annual revenue—whichever is higher—on companies like OpenAI, Anthropic, and Google. The move is seen as a key step in the EU's push for "technological sovereignty," though it risks further escalating transatlantic tech friction following prior clashes over the Digital Markets Act.<br />
+<a href="https://t.me/theblockbeats/188701" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Sam Altman Pitches AI-Generated 'Child Growth Podcast' as Family Management Tool</strong><br />
+OpenAI CEO Sam Altman suggested that ChatGPT could generate daily AI podcasts summarizing children's activities—from soccer games to upcoming birthdays—for parents to listen to during commutes, describing it as a "very cool application scenario." The proposal sparked widespread criticism online, with many arguing that replacing genuine human connection with AI-mediated summaries represents "the worst use case" for the technology and raises concerns about the erosion of authentic family relationships.<br />
+<a href="https://t.me/theblockbeats/188708" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Morgan Stanley: AI Investment Unlikely to Drive Second-Half Returns</strong><br />
+Morgan Stanley strategists believe that tech stocks and AI-related equities are unlikely to be the primary driver of market returns in the second half of the year as performance broadens across more sectors. The team, led by Mislav Matejka, noted that while momentum-driven selling in semiconductors may be largely over and fundamentals remain supportive, the outsized AI rally has likely run its course for now—though the firm maintains a cautiously constructive stance on dip-buying opportunities.<br />
+<a href="https://t.me/theblockbeats/188677" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bank of Japan Warns AI Demand Could Push Up Inflation Pressures</strong><br />
+The Bank of Japan stated that global AI-related demand may exert sustained upward pressure on Japan's inflation, as short-term investment booms could outweigh longer-term productivity gains from AI adoption. The BoJ highlighted that producer price increases driven by AI-linked commodities, combined with yen depreciation raising import costs, may continue to create persistent inflationary headwinds—a signal that tightening monetary policy remains on the table.<br />
+<a href="https://t.me/theblockbeats/188669" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI Transforms OSINT, GEOINT, and SIGINT by Automating Analysis</strong><br />
+AI is revolutionizing open-source intelligence (OSINT), geospatial intelligence (GEOINT), and signals intelligence (SIGINT) by automating research, geolocation, and signal analysis—though human verification remains central to intelligence work. Examples like the 2018 Strava heat map leak, which exposed U.S. patrol routes in Syria and Niger within hours of a grad student's analysis, underscore both AI's power and the critical need for oversight to prevent misuse or misinterpretation of automated findings.<br />
+<a href="https://t.me/leviathan_news/21244" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>BlackRock Launches Two Tokenized Money Market Funds on Ethereum</strong><br />
+BlackRock announced the launch of two tokenized money market products: the BlackRock Select Treasury Based Liquidity Fund (BSTBL) tokenized shares on Ethereum, and the BlackRock Daily Reinvestment Stablecoin Reserve Vehicle (BRSRV) targeting digital asset institutions. Both funds invest in cash, short-term U.S. Treasuries, and Treasury-backed overnight repos, aiming to provide yield while maintaining liquidity and principal stability—positioning BlackRock deeper into the on-chain treasury and stablecoin reserve management space as demand for high-quality reserve assets grows.<br />
+<a href="https://t.me/theblockbeats/188729" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Standard Bank to Announce HKD Stablecoin HKDAP in August</strong><br />
+Standard Chartered's Hong Kong-led entity, Mox Financial, is expected to announce its Hong Kong dollar stablecoin (HKDAP) in August following approval from the Hong Kong Monetary Authority. Mox will adopt a B2B2C model, distributing the stablecoin through recognized partners for use in cross-border settlements and tokenized assets, rather than directly targeting retail users—marking a significant step in institutional stablecoin adoption.<br />
+<a href="https://t.me/theblockbeats/188661" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Strategy Sells 1,638 BTC for $105M, Holdings Drop to 842,138 BTC</strong><br />
+Michael Saylor's Strategy (formerly MicroStrategy) sold 1,638 BTC between July 27 and August 2 at an average price of $63,957, using approximately half the proceeds to fund preferred-stock dividends and the remainder to repurchase STRC shares. The sale resulted in a loss of roughly $18.77 million relative to the company's average cost basis of $75,419 per BTC, and Strategy now holds 842,138 BTC acquired for $63.51 billion—down from previous holdings but still representing the largest corporate Bitcoin treasury globally.<br />
+<a href="https://t.me/TheBlock001/7260" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BitGo Launches Link Platform, Connecting Clients to Coinbase, Kraken, Crypto.com</strong><br />
+Crypto custody firm BitGo launched BitGo Link, a new platform allowing institutional clients to connect accounts at centralized exchanges like Coinbase, Kraken, and Crypto.com to BitGo's systems for unified asset management. The platform provides real-time visibility, direct asset transfers across platforms, and integrates with BitGo's Policy Engine for enhanced permissions control—addressing a key pain point for institutional treasuries managing fragmented exchange balances and enabling more efficient capital deployment.<br />
+<a href="https://t.me/TheBlock001/7259" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitmine Adds 10,399 ETH Over Past Week, Holdings Reach 5.8M ETH</strong><br />
+Ethereum treasury company Bitmine (NYSE: BMNR) announced it acquired 10,399 ETH over the past week, bringing total holdings to 5,797,813 ETH—roughly 4.8% of Ethereum's circulating supply. The company has staked 4,917,189 ETH (approximately 85% of holdings) and estimates current annualized staking revenue at about $247 million, while also repurchasing 4.5 million shares and maintaining total crypto, cash, and investments of $11.3 billion.<br />
+<a href="https://t.me/wublockchainenglish/25407" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HashKey Exchange Secures JPMorgan Client Money Account, Claims Asia First</strong><br />
+Hong Kong's largest licensed crypto exchange, HashKey, announced that its trading platform HashKey Exchange has been approved by JPMorgan to open a client money account, claiming to be the first licensed digital asset exchange in Asia to receive such approval. The arrangement creates a three-way relationship where JPMorgan banks HashKey's client funds, underwrites their $215M Hong Kong IPO, and holds equity stakes—raising questions about concentration risk and conflicts of interest.<br />
+<a href="https://t.me/leviathan_news/21247" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>American Bitcoin Reports $57.2M Q2 Loss, Holdings Reach 8,002 BTC</strong><br />
+American Bitcoin, co-founded by Eric Trump, reported a second-quarter net loss of $57.2 million, including a $71.2 million loss on digital assets, though mining revenue rose 8% quarter-over-quarter to $67 million. The company mined 932 BTC during the quarter and increased holdings by 14% to approximately 8,002 BTC (with about 3,090 BTC pledged under miner-purchase agreements with Bitmain), while the cost to mine each bitcoin was approximately $36,500.<br />
+<a href="https://t.me/wublockchainenglish/25403" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>RAIN and SOL Lead $1.28B Token Unlock Through September 3</strong><br />
+Tokens worth over $1.282 billion face major unlocks through September 3, with RAIN leading at $569 million (linear release) and SOL at $146 million, according to Tokenomist data. Other significant one-time unlocks exceeding $10 million include HYPE, YZY, PROVE, KAITO, H, ENA, ZRO, CONX, and AVAX—potentially creating supply pressure across multiple ecosystems though the impact will vary depending on release structure and market depth.<br />
+<a href="https://t.me/leviathan_news/21246" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Spot ETFs See $61.53M Net Outflows, Ending Three-Week Inflow Streak</strong><br />
+From July 27–31 (ET), Bitcoin spot ETFs recorded $61.53 million in net outflows, ending a three-week inflow streak, while Ethereum spot ETFs saw $27.42 million in net inflows extending their streak to four weeks. SOL and XRP spot ETFs recorded inflows of $2.82 million and $14.86 million respectively, while HYPE spot ETFs saw $14.75 million in net outflows—signaling rotation dynamics within the crypto ETF landscape.<br />
+<a href="https://t.me/wublockchainenglish/25398" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Polymarket, Polymarket US, and Kalshi Reach Record $50.6B Monthly Volume in July</strong><br />
+Prediction markets Polymarket, Polymarket US, and Kalshi posted combined monthly volume of $50.6 billion in July—an all-time high—with Polymarket US volume rising 54% to $5 billion while Polymarket volume fell 26% to $7.9 billion. Major sporting events such as the World Cup may have been among the key drivers, alongside political and macro prediction markets gaining mainstream traction.<br />
+<a href="https://t.me/wublockchainenglish/25395" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ray Dalio: I Keep About 1% of My Portfolio in Bitcoin, but Prefer Gold</strong><br />
+Bridgewater founder Ray Dalio revealed on <em>The Diary Of A CEO</em> that roughly 1% of his portfolio is in Bitcoin, counting it as "money that can't be printed," though he suggests most people hold 5–15% of their portfolio in hard money and personally prefers gold within that allocation. Dalio argued Bitcoin faces risks from quantum computing, government surveillance, and taxation, adding that central banks will never hold it in size because they need privacy and control.<br />
+<a href="https://t.me/wublockchainenglish/25392" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Mysterious Whale Accumulates $220M in ETH and WBTC Since July</strong><br />
+A mysterious whale has continued to increase its crypto holdings, accumulating over $220 million worth of ETH and WBTC since July, according to AI monitoring. The address withdrew 200 BTC from Binance four hours ago, bringing cumulative withdrawals to 74,265 ETH and 1,400 WBTC with average costs of approximately $1,770 and $63,887 respectively—currently showing a floating profit of about $3.8 million.<br />
+<a href="https://t.me/theblockbeats/188727" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Ripple Invests in ZILO and Licuido to Bring Regulated Issuance to XRPL</strong><br />
+Ripple announced strategic investments in UK asset transfer agent ZILO and FCA-regulated tokenization provider Licuido to accelerate tokenized financial asset applications on XRP Ledger (XRPL). The partnership aims to introduce regulated asset transfer agency, asset issuance, and collateral mobility to XRPL infrastructure, enabling tokenized funds to serve as collateral from issuance—a key step toward institutional adoption as XRPL's tokenized RWA scale currently stands at $368 million, ranking 11th globally.<br />
+<a href="https://t.me/leviathan_news/21250" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase July Recap: $600B Sovereign Wealth Tokenized on Base, Legal Wins</strong><br />
+Coinbase's July update highlighted global expansion, stablecoins as core collateral, $600 billion in sovereign wealth tokenized on Base, new AI/agent tools, a Bitcoin security consortium, and legal/policy wins for crypto. The figures underscore Base's rapid emergence as a leading Layer 2 platform for institutional tokenization and the growing convergence between DeFi infrastructure and traditional finance.<br />
+<a href="https://t.me/leviathan_news/21251" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Manta Atlantic Stops Producing Blocks as Deprecation Shifts Ecosystem to Manta Pacific</strong><br />
+Manta Atlantic has ceased block production as the network's deprecation officially shifts the ecosystem to Manta Pacific, consolidating development and liquidity onto a single chain. The migration reflects broader industry consolidation trends as ecosystems rationalize infrastructure to improve capital efficiency and developer focus.<br />
+<a href="https://t.me/leviathan_news/21245" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔦 Other</p>
+
+<p><strong>Hong Kong Police Flag $3.3M Romance Scam Involving Fake Crypto App</strong><br />
+Hong Kong police warned of a $3.3 million crypto romance scam after a fake investment app lured an insurance agent into transferring funds over six months. The case follows the well-documented "CryptoRom" pattern identified by Sophos in October 2021: fake trading apps, months of manufactured romance, then the "investment opportunity"—highlighting the persistent threat of social engineering in crypto onboarding.<br />
+<a href="https://t.me/TheBlock001/7254" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coldcard Five-Year RNG Flaw Exposes Hardware Wallet Testing Blind Spot</strong><br />
+Kraken's security chief stated that Coldcard's five-year random number generator (RNG) flaw exposed a critical hardware wallet testing blind spot, urging independent entropy verification across the industry. The flaw affected four models over five years and passed multiple code reviews because the true random number generator (TRNG) was present—it just wasn't the path being used for seed generation, underscoring the need for runtime verification beyond static code audits.<br />
+<a href="https://t.me/leviathan_news/21248" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BitGo CEO Challenges Anthropic's Claude with 100 BTC</strong><br />
+BitGo CEO Mike Belshe challenged Anthropic's Claude AI model by placing 100 BTC in a public address and inviting it to move the funds—an experiment testing AI's ability to access and exploit blockchain systems. As of August 2, on-chain data showed no outflows, though the stunt highlights ongoing debates about AI safety, autonomy, and the intersection of artificial intelligence with self-custodial crypto infrastructure.<br />
+<a href="https://t.me/leviathan_news/21254" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Miner Gambles on 4-Day Bridge Loan Equal to 97% of Its BTC Treasury</strong><br />
+An unnamed Bitcoin mining company took out a four-day bridge loan equal to 97% of its BTC treasury value, with the deadline passing in total silence—raising concerns about undisclosed financial stress or distressed asset sales within the mining sector. The incident underscores the liquidity pressures facing miners amid persistent low Bitcoin prices and elevated operational costs.<br />
+<a href="https://t.me/TheBlock001/7256" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Interactive Strength Erases $50M FET Token Bet, Sends Common Shareholders to Back of Line</strong><br />
+Interactive Strength wiped out a $50 million FET token position and restructured its capital stack, sending common shareholders to the back of the line in priority. The move highlights the volatility and creditor-unfriendly dynamics that can emerge when crypto-native firms face financial restructuring, particularly when token holdings constitute a significant portion of enterprise value.<br />
+<a href="https://t.me/TheBlock001/7253" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

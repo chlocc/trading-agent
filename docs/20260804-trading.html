@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 04, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260804-trading.html" class="active">08/04/2026</a>
+    <a href="20260803-trading.html" class="">08/03/2026</a>
+    <a href="20260730-trading.html" class="">07/30/2026</a>
+    <a href="20260729-trading.html" class="">07/29/2026</a>
+    <a href="20260728-trading.html" class="">07/28/2026</a>
+    <a href="20260727-trading.html" class="">07/27/2026</a>
+    <a href="20260725-trading.html" class="">07/25/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260804-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260804-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 04, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Institutional Tokenization Accelerates</strong> — BlackRock filing to issue $311B in tokenized money market fund shares on Solana marks a watershed moment for institutional DeFi adoption. This validates blockchain infrastructure for traditional finance and creates direct utility for SOL while expanding the addressable market for USDC and Ethereum-based stablecoins. <strong>Tickers:</strong> BLK, SOL, USDC, ETH</p>
+
+<p>• <strong>US-China Tech Decoupling Drives Optical Boom</strong> — Reports of imminent US bans on Chinese data center components are triggering sharp pre-market rallies in American optical communication stocks. This represents a structural shift in the AI infrastructure supply chain with immediate winners among US suppliers. <strong>Tickers:</strong> LITE, FOTO, GLW, MRVL, AAOI, COHR, CIEN</p>
+
+<p>• <strong>AI Infrastructure Monetization Wave</strong> — Bitdeer's $4.7B 16-year data center deal with Anthropic (via AI cloud provider) demonstrates the massive revenue potential in AI hosting. Combined with Corvex's multi-year Blackwell GPU supply agreement and Palantir's beat-and-raise, this confirms AI capex is translating into real contracts. <strong>Tickers:</strong> BTDR, CORVX, PLTR, NVDA</p>
+
+<p>• <strong>Bitcoin Structural Weakness Persists</strong> — Coinbase Premium Index negative for 78 consecutive days signals sustained US institutional disinterest, while whale short positions and hardware wallet exploits add technical pressure. Yet short-term holder capitulation nearing historical bottoms suggests oversold conditions. <strong>Tickers:</strong> BTC, COIN, MSTR, IBIT</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>LITE</strong> — Lumentum is the clearest beneficiary of US optical module export restrictions targeting China, with reports of whale accumulation ahead of the policy announcement. The company's positioning in data center transceivers aligns perfectly with forced supply chain reshoring. Pre-market action confirms smart money was front-running this catalyst. <a href="https://t.me/theblockbeats/188907" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTDR</strong> — Bitdeer stock surged 23% pre-market on a $4.7B AI data center hosting deal, representing a 16-year revenue commitment. This transforms the company from speculative mining play to infrastructure provider with visible contracted cash flows. The deal validates the pivot from Bitcoin mining to AI compute hosting. <a href="https://t.me/wublockchainenglish/25423" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>PLTR</strong> — Palantir jumped 15.7% pre-market after beating earnings and raising revenue guidance, with management highlighting AI sovereignty strategy gaining traction with government customers. The company's software layer is becoming critical infrastructure for AI deployment in defense and intelligence, creating sticky enterprise revenue. <a href="https://t.me/theblockbeats/188869" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Solana is landing institutional validation on two fronts: BlackRock's SEC filing to issue tokenized fund shares directly on Solana, and protocol proposals (SIMD-0553, SIMD-0550) that could boost daily SOL burns 14x while cutting issuance. Supply-side tightening plus demand from tokenized securities creates a fundamental setup. <a href="https://t.me/leviathan<em>news/21276" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan</em>news/21264" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MA</strong> — Mastercard's completed BVNK acquisition accelerates its stablecoin payments infrastructure buildout, positioning the company to capture transaction flows as digital dollars move on-chain. This follows Visa's similar moves and confirms traditional payment networks see blockchain rails as strategic necessity. <a href="https://t.me/TheBlock001/7263" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BLK</strong> — BlackRock launching tokenized share classes for $311B in European money market funds represents the largest institutional commitment to on-chain securities to date. The move creates immediate utility for blockchain infrastructure and validates the RWA thesis at scale. <a href="https://t.me/TheBlock001/7266" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CORVX</strong> — Shares surged 110% pre-market after signing a multi-year agreement to supply Nvidia Blackwell GPUs to AI companies. This positions Corvex as a critical supply chain node in the most supply-constrained part of AI infrastructure. <a href="https://t.me/theblockbeats/188926" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ORCL</strong> — Oracle price rallied as on-chain holdings surged 88%, with smart money opening large long positions. This precedes earnings and suggests informed positioning around cloud/AI database monetization. <a href="https://t.me/theblockbeats/188842" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>FOTO, GLW, MRVL, AAOI, COHR, CIEN</strong> — Entire US optical communications sector rallying pre-market on reports the US will ban imports of new Chinese data center optical modules. This forces American hyperscalers to sole-source from domestic suppliers, creating pricing power and margin expansion. <a href="https://t.me/theblockbeats/188901" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188899" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — Intesa Sanpaolo, Italy's largest bank, cut IBIT holdings by 94% while tripling staked Ethereum ETF exposure, signaling institutional rotation from BTC to ETH. Ethereum's yield-generating properties plus tokenization momentum (BlackRock filing) make it preferred institutional crypto exposure. <a href="https://t.me/wublockchainenglish/25419" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>COIN, BTC</strong> — Coinbase Bitcoin Premium Index has been negative for 78 consecutive days, the longest streak on record, indicating persistent weakness in US institutional demand. This undermines the narrative that spot ETFs have created sustained buy-side pressure. <a href="https://t.me/wublockchainenglish/25422" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC, MSTR, STRC</strong> — Prominent Polymarket trader TwoEyes opened $2.41M in short positions across Bitcoin, MicroStrategy, and Strategy on Hyperliquid, representing informed bearish conviction. Large size suggests confidence in downside scenario. <a href="https://t.me/theblockbeats/188908" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — Ongoing Coldcard hardware wallet exploit has resulted in 1,816 BTC stolen with the attack cluster still active. Security concerns could trigger panic selling as users rush to move funds, adding supply pressure. <a href="https://t.me/theblockbeats/188909" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>USDC, CIRCLE</strong> — Morgan Stanley downgraded Circle to underweight and slashed price target 64%, citing slower USDC growth and rising competition from BlackRock's tokenized products and other institutional alternatives. The stablecoin leader faces margin compression as RWA protocols offer higher yields. <a href="https://t.me/wublockchainenglish/25410" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA, SPCX</strong> — Bridgewater warns AI bubble has reached 2000-level extremes, suggesting market correction risk. Separately, Huawei's semiconductor chief predicts "avalanche" when Nvidia chips hit physical limits, introducing long-term competitive concerns. <a href="https://t.me/theblockbeats/188883" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188863" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long LITE calls (3-month)</strong></p>
+
+<ul>
+<li>Rationale: US optical module import ban creates immediate monopoly pricing power for American suppliers. Lumentum has dominant position in data center transceivers and whale accumulation confirms smart money positioning. Policy catalyst is imminent and sector-wide, but LITE offers purest exposure with reported front-running already confirmed.</li>
+<li>Entry: Buy ATM or slightly OTM calls on any pre-market dip under +8%</li>
+<li>Risks: Policy delay or watered-down implementation; Chinese supply chain finds workarounds</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/188907" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188901" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188899" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long SOL spot + SOL/BTC pairs trade</strong></p>
+
+<ul>
+<li>Rationale: BlackRock's SEC filing to tokenize $311B on Solana provides institutional validation while protocol burn proposals create 14x supply shock. Solana is outperforming Bitcoin structurally as smart contract utility trumps pure store-of-value narrative. Pair trade captures relative strength while hedging crypto beta.</li>
+<li>Entry: Accumulate SOL on any dips to $25-26; enter SOL/BTC long on ratio weakness</li>
+<li>Risks: SEC filing faces delays; burn proposals fail governance; general crypto market crash</li>
+<li>Related signals: <a href="https://t.me/leviathan<em>news/21276" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan</em>news/21264" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Short BTC via COIN puts or direct MSTR puts</strong></p>
+
+<ul>
+<li>Rationale: 78-day negative premium index shows sustained institutional selling pressure. Whale shorts building, hardware wallet exploit adding fear, and short-term holder capitulation not yet triggering bounce. COIN puts offer levered downside exposure; MSTR puts capture Bitcoin beta with operational leverage.</li>
+<li>Entry: Buy 30-45 DTE puts on COIN at current levels, targeting $180-185 strike; MSTR $300-320 strike</li>
+<li>Risks: Technical bounce from oversold conditions; positive macro catalyst (Fed dovish pivot)</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25422" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188908" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188909" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long ARKQ or BOTZ for AI infrastructure exposure</strong></p>
+
+<ul>
+<li>Rationale: Rather than chase individual AI winners facing bubble concerns (NVDA, PLTR up 15%+), gain diversified exposure to AI infrastructure theme through robotics/autonomous tech ETFs. These capture Bitdeer/Anthropic data center monetization trend, optical buildout, and Palantir-type AI software without concentration risk.</li>
+<li>Entry: Accumulate on morning volatility, especially if NVDA pulls back</li>
+<li>Risks: Bridgewater bubble warning proves prescient; earnings season disappoints</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25423" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188869" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/188901" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long ETH via ETHA, short BTC via BITO puts (pairs trade)</strong></p>
+
+<ul>
+<li>Rationale: Intesa Sanpaolo's 94% IBIT cut + 3x ETH ETF increase signals institutional preference shift. Ethereum offers staking yield, tokenization utility (BlackRock filing), and smart contract moat. Bitcoin faces sustained selling pressure per premium index. Pairs trade isolates this rotation while maintaining crypto exposure.</li>
+<li>Entry: Long spot ETH or ETHA; short BITO via puts or direct short if available</li>
+<li>Risks: Bitcoin short squeeze from oversold; Ethereum-specific technical issues</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25419" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25422" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long MA on pullback</strong></p>
+
+<ul>
+<li>Rationale: BVNK acquisition completion accelerates Mastercard's stablecoin infrastructure play. As digital dollar payment volumes grow (BlackRock tokenization, institutional adoption), Mastercard captures transaction fees. Defensive quality name with crypto upside optionality.</li>
+<li>Entry: Buy on any dip to $475-480 or add to existing positions</li>
+<li>Risks: Stablecoin regulation uncertainty; slower-than-expected adoption</li>
+<li>Related signals: <a href="https://t.me/TheBlock001/7263" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/21265" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Sell CIRCLE on any IPO pop</strong></p>
+
+<ul>
+<li>Rationale: Morgan Stanley 64% price target cut reflects structural margin compression as BlackRock and other RWA protocols compete directly with USDC. Token velocity slowing while alternatives offer higher yields to users. If/when Circle IPOs, fade the initial enthusiasm.</li>
+<li>Entry: Short within first week of trading if IPO occurs; wait for 20%+ pop</li>
+<li>Risks: Regulatory clarity provides monopoly protection; USDC growth reaccelerates</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25410" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>AI Bubble Reversal</strong> — Bridgewater explicitly comparing current AI valuations to dot-com peak. If NVDA earnings disappoint or hyperscaler capex guidance decelerates, the entire AI infrastructure complex (PLTR, BTDR, optical stocks, BOTZ) could face 20-30% corrections. Watch NVDA's August 28 earnings as potential catalyst.</p>
+
+<p>• <strong>Bitcoin Capitulation Event</strong> — 78-day negative premium + hardware wallet exploit + large whale shorts could trigger cascading liquidations if BTC breaks $85K support. This would hit MSTR, COIN, mining stocks, and crypto ETFs hard. Monitor $85K level as critical support.</p>
+
+<p>• <strong>China Retaliation on Optical Ban</strong> — If US implements data center component restrictions, China could retaliate by restricting rare earth exports critical for optical manufacturing, undermining the bull case for LITE, COHR, etc. Watch for Chinese Ministry of Commerce statements.</p>
+
+<p>• <strong>Stablecoin Regulatory Shock</strong> — Morgan Stanley's Circle downgrade cites "rising competition from tokenized products," but if GENIUS Act implementation favors legacy finance over crypto-native issuers, this could benefit BlackRock while crushing USDC, USDT, and exchanges. SEC guidance on tokenized MMF reserve requirements is key trigger.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Treasury Secretary Bessent's comments that core inflation is moderating provide a constructive backdrop for risk assets, but the 78-day Bitcoin weakness streak and Korean retail capitulation suggest risk appetite remains fragmented. The real story is the US-China tech decoupling accelerating—optical component bans, AI data sovereignty (Palantir), and domestic supply chain reshoring are creating structural winners independent of macro. Focus on companies capturing forced reallocation of AI infrastructure spending rather than pure beta plays. Oil down 3% on Iran deal hopes provides slight inflation relief but doesn't change the Fed's tightening bias.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+76 signals | 21 high-confidence | 13 bullish | 5 bearish | 3 macro</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

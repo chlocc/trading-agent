@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 05, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260805-trading.html" class="active">08/05/2026</a>
+    <a href="20260804-trading.html" class="">08/04/2026</a>
+    <a href="20260803-trading.html" class="">08/03/2026</a>
+    <a href="20260730-trading.html" class="">07/30/2026</a>
+    <a href="20260729-trading.html" class="">07/29/2026</a>
+    <a href="20260728-trading.html" class="">07/28/2026</a>
+    <a href="20260727-trading.html" class="">07/27/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260805-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260805-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 05, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Stablecoin Infrastructure Breakout</strong> — Visa integrating USDC into Visa Direct, Circle posting $701M Q2 revenue with BlackRock/DTCC partnerships, and Arc mainnet launching Sept 16 signal traditional finance is embedding stablecoins as core payment rails. This validates the long-term bull case for crypto payment infrastructure. Key plays: USDC exposure, COIN, payment processors.</p>
+
+<p>• <strong>AI Chip Wars Intensify</strong> — Anthropic confirms custom chip development with $320k-$485k engineer salaries, Google in talks for $1.5B Mechanize deal, TeraWulf signs ~$19B Anthropic lease, and SK Hynix gets bullish Wall Street coverage with $300-$320 targets. The AI infrastructure buildout is accelerating despite concerns. Tickers: NVDA, GOOG, AMD, WULF, SK Hynix ADR.</p>
+
+<p>• <strong>Weak Macro Data + Flight to Safety</strong> — July ADP employment missed badly (44k vs 70k expected), gold surged 3% above $4,200/oz, and rate cut expectations spiked. Michael Burry added NVDA/QQQ shorts, signaling macro headwinds persist. Watch for continued labor weakness into Friday's NFP.</p>
+
+<p>• <strong>Crypto Bear Market Deepening</strong> — Over 60 projects shutting down (ElizaOS/ai16z, BitMEX features, Polygon zkEVM), first spot Bitcoin ETF (Hashdex DEFI) closing, and USDT market cap contracting at extreme levels. This is late-stage capitulation — smart money is accumulating but retail remains sidelined.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>USDC</strong> — Circle reported Q2 revenue of $701M with USDC supply at $73.3B (+19% YoY) and partnerships with BlackRock, DTCC, and Visa. Visa's integration of stablecoins into Visa Direct for cross-border payments is a watershed moment for mainstream adoption. Arc mainnet launches Sept 16 with institutional validators including BlackRock and Visa. This positions USDC as the infrastructure winner in regulated stablecoin payments. <a href="https://t.me/TheBlock001/7275" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/189132" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/189098" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA</strong> — Nvidia rallied 4% to highest level since June 4 as Jensen Huang promoted new autonomous driving models. Google is in advanced talks for a $1.5B talent-and-license deal with AI coding startup Mechanize, expanding the AI software ecosystem that drives GPU demand. Anthropic publicly confirmed building custom AI chips but continues to rely on Nvidia, Google, AWS, and AMD in a multi-chip strategy, validating sustained demand for external compute. Chart momentum is strong but watch Burry's fresh short position. <a href="https://t.me/theblockbeats/189142" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/189126" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/189131" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SHOP</strong> — Shopify surged 30%+ pre-market after Q2 revenue beat with 34% growth and strong Q3 guidance. This confirms resilient e-commerce fundamentals and pricing power despite macro headwinds. Entry on any dip below $90 looks attractive with stops under $85. <a href="https://t.me/theblockbeats/189104" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>WULF</strong> — TeraWulf reported $44.8M Q2 revenue with 71% from high-performance compute (HPC) and signed a ~$19B lease with Anthropic for AI data centers. This is a massive pivot from Bitcoin mining to AI infrastructure with long-term contracted revenue. The stock should re-rate as the market digests this transformation. Watch for institutional coverage initiation. <a href="https://t.me/theblockbeats/189111" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SK HYNIX (ADR)</strong> — Wall Street banks initiated bullish coverage with buy ratings and price targets ranging from $300 (Cantor Fitzgerald) to $320, citing AI-driven HBM demand and undervaluation. Apple's rejected request for Changxin Memory to lower DRAM prices confirms tight supply and strong pricing power for Samsung and SK Hynix. The memory sector is set up for a multi-quarter rally. <a href="https://t.me/theblockbeats/189112" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/189050" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HBAR</strong> — Hashgraph joined Mastercard's crypto program, unlocking enterprise adoption for cross-border payments. This partnership validates Hedera's enterprise-grade infrastructure and should drive institutional interest. Small position with tight stops makes sense given the low float and potential for MA-driven use cases. <a href="https://t.me/leviathan_news/21287" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>IBIT/ETHA</strong> — Spot Bitcoin ETFs saw $211M net inflows led by BlackRock's IBIT, with Ethereum ETFs also positive. Despite broader bear market conditions, institutional accumulation continues through regulated vehicles. This is the foundation for the next leg higher once macro stabilizes. <a href="https://t.me/wublockchainenglish/25433" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH/WBTC</strong> — A whale accumulated 79,216 ETH ($140.77M) since June 30 at avg $1,777 and 1,400 WBTC ($89.44M) at avg $63,887, including a fresh 3,960 ETH purchase ($7.4M). Large accumulation at these levels by sophisticated players suggests a bottom is forming. Watch for continuation above $1,900 for ETH. <a href="https://t.me/theblockbeats/189117" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GLD/IAU</strong> — Spot gold surged 3.02% intraday above $4,200/oz on weak US jobs data and safe-haven flows. With rate cut expectations rising and macro uncertainty elevated, gold is breaking out technically. Momentum favors continuation toward $4,300-$4,400 near-term. <a href="https://t.me/theblockbeats/189120" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>BTC</strong> — A whale opened a 40x leveraged short on 1,600 BTC (~$1.03B position) at $64,202 with liquidation at $64,889. Additionally, Binance whale inflow ratio hit a 4-month high, indicating increased selling pressure. Hashdex closed the first spot Bitcoin ETF (DEFI) due to low assets, signaling weak retail demand. USDT market cap contraction at extreme levels suggests liquidity is draining. Downside risk to $58k-$60k support zone is elevated. <a href="https://t.me/theblockbeats/189097" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25437" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI16Z/ELIZA</strong> — ElizaOS founder declared the ai16z token dead, the fund is winding down, no buybacks are planned, and he no longer holds tokens. This is complete capitulation and signals zero value. Any remaining holders should exit immediately. The broader AI token sector is collapsing as over 60 crypto projects shut down this quarter. <a href="https://t.me/wublockchainenglish/25435" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/189054" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA/QQQ/MSFT (shorts)</strong> — Michael Burry added to his NVDA and QQQ shorts, extended expirations, and sold his MSFT long position. He's also short SOXX, MU, CAT, PLTR, TSLA, and AMAT. This broad-based bearish positioning by a proven macro trader suggests he sees significant downside risk in tech/AI equities. The setup for a sharp correction is building. <a href="https://t.me/theblockbeats/189053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AMD</strong> — AMD fell 7% pre-market on weak Q2 guidance despite launching Instinct Coder AI platform claiming 70% cost reduction vs cloud models. The guidance miss overshadows product launches and signals slowing AI infrastructure spending. Avoid the long side until sentiment stabilizes. <a href="https://t.me/theblockbeats/189139" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CIFR</strong> — Cipher Mining stock fell on wider Q2 losses. While Bernstein sees potential upside from a Texas power audit, near-term fundamentals remain weak. This is a show-me story — wait for evidence of improving margins before entering. <a href="https://t.me/TheBlock001/7274" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MARA</strong> — Marathon Digital transferred 6,000 BTC worth $384.6M to custody, suggesting potential selling pressure or hedging activity. Bitcoin miners remain under margin pressure and this transfer could signal distribution ahead. Monitor for follow-through selling. <a href="https://t.me/theblockbeats/189115" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long COIN via calls (Sept expiry)</strong></p>
+
+<ul>
+<li>Rationale: COIN is the cleanest way to play the stablecoin infrastructure buildout (Visa/USDC integration, Circle's institutional partnerships, Arc mainnet launch) combined with spot ETF inflows ($211M last session). The stock is oversold and positioned to outperform if BTC stabilizes.</li>
+<li>Entry: $185-$190 range on any pullback; Sept $200 calls</li>
+<li>Risks: Invalidated below $175 or if BTC breaks $58k</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/189132">USDC infrastructure</a>, <a href="https://t.me/wublockchainenglish/25433">ETF inflows</a>, <a href="https://t.me/theblockbeats/189098">Circle Q2</a></li>
+</ul>
+
+<p><strong>2. Long WULF equity</strong></p>
+
+<ul>
+<li>Rationale: TeraWulf's ~$19B Anthropic lease transforms it from a struggling Bitcoin miner into a long-term contracted AI data center operator with 71% HPC revenue. The market hasn't priced in this business model shift. Fair value is $8-$10 vs current $5 range.</li>
+<li>Entry: $4.80-$5.20 on weakness; size 2-3% of book</li>
+<li>Risks: Invalidated if Anthropic cancels or restructures lease, or if BTC mining remains unprofitable</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/189111">TeraWulf Q2</a>, <a href="https://t.me/theblockbeats/189131">Anthropic chip strategy</a></li>
+</ul>
+
+<p><strong>3. Pair trade: Long SK Hynix ADR / Short MU</strong></p>
+
+<ul>
+<li>Rationale: SK Hynix has multiple Wall Street initiations with $300-$320 targets and superior HBM exposure for AI, while Micron faces memory oversupply and pre-market weakness. The spread should widen as differentiation in AI memory (HBM3E) becomes clear.</li>
+<li>Entry: Long SKH at current levels, short MU on any bounce above $105</li>
+<li>Risks: Invalidated if broader memory sector selloff or if China demand collapses</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/189112">SK Hynix coverage</a>, <a href="https://t.me/theblockbeats/189057">DRAM pricing power</a></li>
+</ul>
+
+<p><strong>4. Short NVDA via put spreads (Aug/Sept)</strong></p>
+
+<ul>
+<li>Rationale: Michael Burry's fresh short position combined with stretched valuations, weak ADP employment data, and rising rate cut expectations set up downside. The Aug/Sept $120/$110 put spread offers asymmetric risk/reward if macro deteriorates into NFP Friday.</li>
+<li>Entry: Buy $120 puts, sell $110 puts (Aug or Sept expiry) for $4-$5 net debit</li>
+<li>Risks: Invalidated above $130 or if macro data stabilizes</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/189053">Burry shorts</a>, <a href="https://t.me/theblockbeats/189127">Weak ADP</a>, <a href="https://t.me/theblockbeats/189097">BTC whale short</a></li>
+</ul>
+
+<p><strong>5. Long GLD/IAU on dips</strong></p>
+
+<ul>
+<li>Rationale: Gold broke out above $4,200 on weak employment data and dovish rate cut expectations. Technical momentum is strong and macro backdrop (labor weakness, geopolitical risk, rate cuts) supports $4,300-$4,400 targets. Any pullback to $4,150-$4,180 is a buy.</li>
+<li>Entry: $4,150-$4,180 on dips; stops below $4,100</li>
+<li>Risks: Invalidated if employment data rebounds or Fed pushes back on rate cut timeline</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/189120">Gold surge</a>, <a href="https://t.me/theblockbeats/189119">Weak ADP</a></li>
+</ul>
+
+<p><strong>6. Long IBIT (Bitcoin ETF) on BTC dip to $58k-$60k</strong></p>
+
+<ul>
+<li>Rationale: Institutional accumulation continues through spot ETFs ($211M inflows) despite bear market conditions. A whale opened a massive 40x short at $64k with tight stops, suggesting a liquidity grab before the next leg up. The whale accumulation in ETH/WBTC at these levels confirms smart money is building positions. Wait for BTC to dip into $58k-$60k support, then scale into IBIT.</li>
+<li>Entry: Scale in $58k-$60k BTC; IBIT around $34-$36</li>
+<li>Risks: Invalidated below $56k or if ETF inflows reverse</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25433">ETF inflows</a>, <a href="https://t.me/theblockbeats/189117">Whale accumulation</a>, <a href="https://t.me/theblockbeats/189097">BTC short positioning</a></li>
+</ul>
+
+<p><strong>7. Long SHOP equity or calls (Sept/Oct)</strong></p>
+
+<ul>
+<li>Rationale: Shopify's 30% pre-market surge on 34% revenue growth and strong Q3 guidance confirms resilient e-commerce demand. The stock was oversold and this earnings beat should drive a re-rating. Any pullback to $88-$92 is a high-probability long setup with stops under $85.</li>
+<li>Entry: $88-$92 on any post-earnings dip; Oct $100 calls</li>
+<li>Risks: Invalidated below $85 or if Q3 guidance is revised lower</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/189104">Shopify earnings</a></li>
+</ul>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Friday NFP Miss</strong> — If Friday's non-farm payrolls confirm the weakness in Wednesday's ADP report (44k vs 70k expected), risk assets could see sharp repricing lower as recession fears spike. Gold and Treasuries would benefit, but equities and crypto would face heavy selling.</p>
+
+<p>• <strong>Michael Burry's Tech Short Cascade</strong> — Burry's positioning (short NVDA, QQQ, MSFT, SOXX, MU, CAT, PLTR, TSLA, AMAT) suggests he sees a systemic risk event brewing in tech/AI. If macro data deteriorates or earnings disappoint, a sharp correction could trigger forced deleveraging across tech and crypto.</p>
+
+<p>• <strong>BTC Support Break at $58k</strong> — The $58k-$60k zone is critical support. A break below with volume would target $52k-$54k and trigger massive liquidations in leveraged positions. The 40x whale short at $64k and rising Binance inflows signal distribution pressure is building.</p>
+
+<p>• <strong>Crypto Project Shutdowns Accelerating</strong> — Over 60 projects shutting down (ElizaOS, BitMEX, Polygon zkEVM, Hashdex DEFI ETF) and USDT market cap contracting at extreme levels suggest the bear market is deepening. If institutional flows reverse (ETF outflows), the sector could see another leg down before bottoming.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Weak US labor data (ADP 44k vs 70k expected) is driving safe-haven flows into gold ($4</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

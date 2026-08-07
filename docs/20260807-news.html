@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 07, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260807-trading.html" class="active">08/07/2026</a>
+    <a href="20260806-trading.html" class="">08/06/2026</a>
+    <a href="20260805-trading.html" class="">08/05/2026</a>
+    <a href="20260804-trading.html" class="">08/04/2026</a>
+    <a href="20260803-trading.html" class="">08/03/2026</a>
+    <a href="20260730-trading.html" class="">07/30/2026</a>
+    <a href="20260729-trading.html" class="">07/29/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260807-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260807-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — August 07, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>US Senate Delays CLARITY Act Vote Until September</strong><br />
+The U.S. Senate has postponed the vote on the landmark CLARITY Act crypto market structure bill until after the August recess, with lawmakers seeking bipartisan support. The delay shifts the vote to September, pushing back a key legislative milestone that could establish clearer regulatory frameworks for digital assets.<br />
+<a href="https://t.me/leviathan_news/21329" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Michigan Judge Denies Coinbase Bid to Block State Enforcement</strong><br />
+A Michigan federal judge rejected Coinbase's request for a preliminary injunction to prevent state enforcement actions regarding Kalshi sports event contracts. The court ruled that Coinbase failed to demonstrate federal law preempts state authority, marking a setback for the exchange's argument that prediction markets fall under exclusive federal jurisdiction.<br />
+<a href="https://t.me/TheBlock001/7286" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto Bill Ethics Provision Could Let Trump Defer Millions in Taxes</strong><br />
+A provision in pending crypto legislation could potentially allow President Trump to defer millions in taxes, according to Bloomberg analysis. The ethics-related clause has raised concerns about unintended consequences in the broader digital assets regulatory framework.<br />
+<a href="https://t.me/TheBlock001/7283" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Japan Financial Services Agency Establishes Crypto and Stablecoin Division</strong><br />
+Japan's FSA announced organizational changes including the creation of a dedicated "Crypto Assets and Stablecoin Department" led by Toshiaki Adomi. The new division will specifically oversee regulation of cryptocurrencies and stablecoins, reflecting Japan's evolving approach to digital asset oversight.<br />
+<a href="https://t.me/theblockbeats/189508" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Russia's MOEX Plans Digital Custody System Launch by Early 2027</strong><br />
+The Moscow Exchange is developing a digital custody platform for crypto assets, expected to launch between late 2026 and early 2027. The system will operate independently of existing exchange infrastructure and will feature anonymous accounts for investors, with multiple Russian banks also planning similar custody solutions.<br />
+<a href="https://t.me/theblockbeats/189444" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>OpenAI Upgrades ChatGPT with GPT-5.6 Models</strong><br />
+OpenAI rolled out GPT-5.6 Sol for Plus and Pro users, enhancing instant and deep reasoning capabilities, while GPT-5.6 Luna is now available for Free and Go tier users. The upgrade represents a significant advancement in the company's model capabilities across different subscription tiers.<br />
+<a href="https://t.me/leviathan_news/21326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cloudflare Launches Kitesurf Browser for AI Agents</strong><br />
+Cloudflare introduced Kitesurf, a lightweight browser designed specifically for AI agents that operates on Workers infrastructure. The new browser consumes up to 7x less CPU and memory than Chromium and spins up per request, offering significant efficiency improvements for AI-powered applications.<br />
+<a href="https://t.me/leviathan_news/21322" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MetaMask Rolls Out Agent Wallet Feature for AI Agents</strong><br />
+MetaMask launched Agent Wallet, giving AI agents dedicated crypto accounts with user-defined spend limits, protocol allowlists, and Guard Mode or Beast Mode options. The feature includes threat scanning, MEV protection, and eliminates the need for native gas tokens, enabling autonomous on-chain operations.<br />
+<a href="https://t.me/leviathan_news/21320" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Former Bitcoin Miner Firmus Raises $2 Billion at $10.5 Billion Valuation</strong><br />
+Firmus, previously a Bitcoin mining operation, secured $2 billion in equity funding at a post-money valuation exceeding $10.5 billion, with Nvidia and Coatue Management participating. The funding will accelerate AI infrastructure buildout in Australia and expansion across Asia, marking another successful pivot from crypto mining to AI.<br />
+<a href="https://t.me/wublockchainenglish/25468" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AMD to Acquire AI Inference Chip Startup Taalas</strong><br />
+AMD announced plans to acquire Taalas, an AI inference chip startup founded in 2023, to strengthen its position in the AI inference market. Taalas, which raised $219 million including a $169 million round in February, specializes in addressing computational and memory bottlenecks in AI inference through dedicated silicon.<br />
+<a href="https://t.me/theblockbeats/189450" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Wintermute USA Secures SEC Broker-Dealer Registration</strong><br />
+Wintermute's U.S. arm obtained broker-dealer registration and FINRA membership, positioning itself to compete with traditional Wall Street market makers. The firm plans to begin trading crypto-related products including commodities and digital-asset ETFs before potentially expanding into tokenized equities pending regulatory approval.<br />
+<a href="https://t.me/leviathan_news/21331" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Stripe's Bridge Joins EU MiCA Registry in Luxembourg</strong><br />
+Bridge Building, Stripe's stablecoin infrastructure subsidiary in Luxembourg, has been added to the EU's MiCA registry after receiving regulatory approval. The registration enables Bridge to provide crypto asset services under Europe's comprehensive digital assets framework, bringing the total number of authorized EMT issuers in the EU to 42.<br />
+<a href="https://t.me/theblockbeats/189490" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tempo and Stripe Discuss Machine Payments Integration</strong><br />
+Tempo met with Stripe to explore machine payments integration, aiming to bring blockchain receipts into physical world transactions. The collaboration could bridge traditional payment infrastructure with on-chain verification, expanding blockchain's utility in everyday commerce.<br />
+<a href="https://t.me/leviathan_news/21325" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Binance.US CEO Outlines Comeback Strategy</strong><br />
+Binance.US CEO Steve Gregory discussed the exchange's recovery plans following regulatory challenges. The platform is plotting its return to competitiveness in the U.S. market after navigating significant legal and operational hurdles over the past year.<br />
+<a href="https://t.me/leviathan_news/21321" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Upbit to Delist BONK on September 7</strong><br />
+South Korea's largest crypto exchange Upbit will delist Bonk (BONK) on September 7, citing unresolved security incidents and insufficient disclosure of material information. The delisting affects BONK/KRW and BONK/USDT pairs, with withdrawals remaining available until October 7.<br />
+<a href="https://t.me/wublockchainenglish/25463" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korean Police Select Upbit Parent for Custody of Seized Crypto</strong><br />
+South Korean police selected Dunamu, Upbit's parent company, to custody seized digital assets through a public tender process. The one-year contract will utilize Upbit Custody service with 100% cold storage, 24/7 monitoring, and multi-signature security protocols.<br />
+<a href="https://t.me/theblockbeats/189461" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cathie Wood's Ark Invest Buys $21M in Block Shares</strong><br />
+Ark Invest purchased $21 million worth of Block (formerly Square) shares following a 6% selloff, while also adding SpaceX stock and trimming its Bullish exchange position. The moves reflect Ark's ongoing portfolio rebalancing amid market volatility.<br />
+<a href="https://t.me/TheBlock001/7285" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Bitcoin Spot ETFs See $129M Inflows, Fourth Consecutive Day</strong><br />
+U.S. Bitcoin spot ETFs recorded net inflows of $129 million on August 6, marking the fourth straight day of positive flows. Ethereum spot ETFs saw $92.15 million in inflows, extending their streak to three days, suggesting renewed institutional interest.<br />
+<a href="https://t.me/wublockchainenglish/25462" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Nearly 23% of Major Bitcoin Miners Operating at a Loss</strong><br />
+According to WuBlockchain Data Center, approximately 22.7% of 22 mainstream Bitcoin mining machines are generating negative daily returns as of August 6. Under current electricity costs and network conditions, the most efficient model has an estimated shutdown price around $46,787.<br />
+<a href="https://t.me/wublockchainenglish/25464" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MARA Reports 29% YoY Decline in Bitcoin Holdings</strong><br />
+MARA, the largest publicly traded Bitcoin miner, reported holdings decreased 29% year-over-year to 35,577 BTC in Q2 2026. Revenue fell 27% to $175 million with a net loss of $611 million, though year-end hashrate increased 22% to 70.3 EH/s.<br />
+<a href="https://t.me/wublockchainenglish/25460" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bernstein Favors CleanSpark Over MARA on AI Execution</strong><br />
+Bernstein gave CleanSpark an "outperform" rating with a $24 target while rating MARA "market perform" at $17. The differentiation reflects CleanSpark's $6.6 billion, 20-year AI lease contracts versus MARA still seeking its first commercial AI deal.<br />
+<a href="https://t.me/TheBlock001/7288" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>American Bitcoin Built 8,002 BTC Reserve, 40% Tied to Bitmain</strong><br />
+American Bitcoin accumulated an 8,002 BTC treasury, but nearly 40% of the holdings are quietly encumbered through arrangements with mining equipment manufacturer Bitmain. The disclosure raises questions about the actual liquidity and control of the company's bitcoin reserves.<br />
+<a href="https://t.me/TheBlock001/7287" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>ether.fi Separates Staking and Restaking Functions</strong><br />
+ether.fi restructured its token architecture: weETH becomes a pure liquid staking token while restaking moves to weETHs via Symbiotic integration. The separation provides clearer utility differentiation for users seeking either staking yields or restaking opportunities.<br />
+<a href="https://t.me/leviathan_news/21323" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>FairClub Launches Platform for Private Capital Formation</strong><br />
+FairClub introduced a platform connecting founders and investors through deal rooms, stablecoin settlements, and investor social scoring. The launch aims to streamline private capital markets using blockchain infrastructure for more efficient fundraising.<br />
+<a href="https://t.me/leviathan_news/21324" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DeFi Saver Locates $50 Million in Lost Crypto Assets</strong><br />
+DeFi Saver announced it has identified $50 million worth of lost crypto assets and outlined a claim process for affected users. The recovery represents a significant effort to return funds that users may have lost access to through various protocol interactions.<br />
+<a href="https://t.me/leviathan_news/21318" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Plume Joins DTCC Digital Assets Working Group</strong><br />
+Plume Network joined the DTCC's Digital Assets Solutions Industry Working Group alongside Charles Schwab, Nasdaq, and Alpaca. The participation will help shape tokenization standards for real-world assets in collaboration with major financial institutions.<br />
+<a href="https://t.me/leviathan_news/21327" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Policy Center Submits CFTC Statement Supporting On-Chain Innovation</strong><br />
+Hyperliquid Policy Center filed a policy statement with the CFTC advocating for U.S. user access to on-chain derivatives markets. The submission calls for a phased approach to perpetual futures regulation and highlights blockchain's potential to modernize financial infrastructure while maintaining CEA compliance.<br />
+<a href="https://t.me/theblockbeats/189516" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other</p>
+
+<p><strong>Eliza Labs Winds Down Token After Lawsuit Settlement</strong><br />
+Eliza Labs announced it is shutting down its token following a lawsuit settlement, with founder stating the treasury and funds are exhausted. The closure marks the end of the project after legal challenges depleted its resources.<br />
+<a href="https://t.me/leviathan_news/21317" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coldcard Manufacturer Faces Estimated $130M in Customer Losses</strong><br />
+Coinkite, maker of the Coldcard hardware wallet, stated it cannot independently verify external estimates suggesting customer losses have reached approximately $130 million from a security incident. The company is focused on assisting affected customers and will publish a post-mortem after completing its investigation.<br />
+<a href="https://t.me/wublockchainenglish/25465" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Violent Crypto Attacks Caused Over $30M in Losses in H1</strong><br />
+Physical "wrench attacks" targeting crypto holders resulted in more than $30 million in losses during the first half of 2026, according to Chainalysis. France has become a major hotspot for such attacks, partly due to a data breach involving tax authorities that exposed information on high-net-worth crypto investors.<br />
+<a href="https://t.me/wublockchainenglish/25455" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

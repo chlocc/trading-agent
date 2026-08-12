@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 12, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260812-trading.html" class="active">08/12/2026</a>
+    <a href="20260811-trading.html" class="">08/11/2026</a>
+    <a href="20260807-trading.html" class="">08/07/2026</a>
+    <a href="20260806-trading.html" class="">08/06/2026</a>
+    <a href="20260805-trading.html" class="">08/05/2026</a>
+    <a href="20260804-trading.html" class="">08/04/2026</a>
+    <a href="20260803-trading.html" class="">08/03/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260812-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260812-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 12, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>AI Infrastructure Mega-Deals Reshape Miner Economics</strong> — Riot Platforms' reported $9.1B compute contract with Anthropic marks the industry's pivot from pure mining to AI hosting. This rewrites the bull case for mining stocks as diversified infrastructure plays. Affects: RIOT, MSTR, MARA, NVDA, COIN.</p>
+
+<p>• <strong>Memory Chip Peak-Out Fears Hit Asia Tech</strong> — Korean brokerages slashed Samsung and SK Hynix targets by 30% on demand cycle concerns, while a major fund plans to liquidate $15M in storage chips. Semiconductor momentum is fragmenting, with capital rotating from hardware into AI software. Affects: MU, SSNLF, HXSCL, NVDA, SMCI.</p>
+
+<p>• <strong>Regulatory Clarity Accelerates in Crypto</strong> — SEC's Aug 14 vote on Reg Crypto and Russia opening BTC/ETH/USDT trading on regulated platforms signal a global shift toward legitimization. Combined with Morgan Stanley's Ethereum institutional primer, this sets up a re-rating cycle. Affects: BTC, ETH, COIN, IBIT, ETHA.</p>
+
+<p>• <strong>Network Security Breaks Expose Alt-Coin Fragility</strong> — Ravencoin's 4-day rollback and Oraichain halt after minting exploits remind traders that outside the majors, protocol risk remains existential. Affects: RVN, ORAI, and broader small-cap crypto.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>RIOT</strong> — Anthropic's $9.1B AI compute deal with Riot for its Rockdale campus transforms the miner into a scaled AI infrastructure provider. Bernstein sees 80% upside. The deal validates the thesis that crypto miners with cheap power and existing data centers can capture AI buildout capex. After-hours pop of 25% may extend on confirmation. <a href="https://t.me/TheBlock001/7300" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25506" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/21452" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — Morgan Stanley published a detailed Ethereum primer positioning it as core infrastructure for stablecoins, tokenized assets, and DeFi—the first major institutional research house to frame ETH this way. Combined with Russia allowing regulated ETH trading and Uniswap launching native yield products, the narrative is shifting from "tech experiment" to "financial rails." <a href="https://t.me/leviathan_news/21426" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GOOGL</strong> — Gemini monthly active users hit 1 billion, making it Google's fastest-growing product ever. Voice interaction is driving adoption. This confirms Google is closing the gap on OpenAI in consumer AI, which should support multiple expansion as the market re-prices GOOGL's AI competitiveness. <a href="https://t.me/theblockbeats/190108" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SMCI</strong> — Super Micro Q4 revenue nearly doubled YoY to $11.12B, and FY2027 guidance blew past consensus. Stock up 7.56% after-hours. The beat reinforces that AI server demand remains robust despite broader semiconductor jitters. SMCI is levered to hyperscaler buildouts and remains a liquid way to play infrastructure capex. <a href="https://t.me/theblockbeats/190098" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CRWV</strong> — CoreWeave Q2 revenue up 112% YoY to $2.575B with a $104B order backlog. Stock surged 16% after-hours. As a private GPU cloud provider now reporting publicly, this is the purest play on AI training and inference demand outside the chipmakers themselves. The backlog visibility is exceptional. <a href="https://t.me/theblockbeats/190094" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>LITE</strong> — Lumentum Q4 revenue jumped 109% YoY to $1.01B, and adjusted EPS of $3.23 crushed estimates. Stock up 2.2% after-hours. The optics supplier is riding the wave of AI data center interconnect buildouts—less headline risk than NVDA but same end-market exposure. <a href="https://t.me/theblockbeats/190095" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>COIN</strong> — Coinbase Business launched AI agent payment rails via the x402 standard and full USDT acceptance for enterprises, won an Abu Dhabi FSRA license for tokenized securities, and rolled out UK derivatives for professionals. The platform is rapidly expanding both geographically and product-wise, which should drive fee revenue and reduce volatility dependence. <a href="https://t.me/theblockbeats/190080" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/21440" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190030" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>IBM / NVDA</strong> — IBM signed a multi-year $2.4B deal with Together AI to deploy NVIDIA HGX B300 clusters. This is another data point confirming enterprises are committing long-term capex to AI infrastructure. Positive for both IBM's cloud pivot and NVIDIA's B-series demand visibility. <a href="https://t.me/theblockbeats/190038" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSTR</strong> — Strategy CEO confirmed continued Bitcoin accumulation through 2025. With BTC hovering near $64k and institutional inflows resuming ($8.5B into BTC ETFs over five days per Wintermute), MSTR remains the highest-beta levered play on spot BTC. <a href="https://t.me/theblockbeats/190075" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190036" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HYPE</strong> — Hyperliquid burned 4.76% of total HYPE supply, worth $26.3B notional. Supply reduction combined with rising DeFi volumes supports price. However, note the flip side: four major market makers lost $23.5M in 30 days, and two may have halted operations—so liquidity risk is real. <a href="https://t.me/theblockbeats/190033" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190031" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>DJT</strong> — Trump Media reported a $360.6M unrealized loss on digital assets in H1. The losses underscore the meme-iness of the underlying business and raise questions about treasury management. DJT holders are betting on narrative, not fundamentals—this erodes that narrative. <a href="https://t.me/TheBlock001/7304" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>RVN</strong> — Ravencoin suffered a consensus exploit that forced a four-day chain rollback. RVN dropped 17% and faces deep reorg risk. The exploit exposes weak developer bandwidth and raises existential concerns. Avoid. <a href="https://t.me/leviathan_news/21442" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25507" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ORAI</strong> — Oraichain halted its network after an EVM cross-chain flaw allowed unauthorized ORAI minting. Network downtime and emergency patches destroy confidence. Until the root cause is fully disclosed and patched, ORAI is uninvestable. <a href="https://t.me/leviathan_news/21437" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GLMR, ICX, MOVR, RARE, SOPH</strong> — Binance added these five tokens to its Monitoring Tag, a precursor to potential delisting. Historically, this is a death sentence for liquidity and price. Exit on any bounce. <a href="https://t.me/wublockchainenglish/25511" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC (short-term)</strong> — Four whale addresses opened $3.4B in short positions at $64k. While this could be a hedge, the size suggests conviction that BTC faces resistance here. Combined with $145M in BTC ETF outflows on Aug 10, the near-term path of least resistance may be lower. <a href="https://t.me/theblockbeats/190111" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25509" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>IBIT / ETHA</strong> — U.S. Bitcoin ETFs saw $145M outflows and Ether ETFs $14.6M outflows on Aug 10. This follows a multi-day streak of inflows, so the reversal warrants caution. Could be profit-taking or a signal that the rally is exhausted. <a href="https://t.me/wublockchainenglish/25509" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA, PLTR, ORCL, CAT, SOXX</strong> — "Big Short" Michael Burry disclosed increased short positions (puts) on these names. While Burry's timing is famously early, his positioning suggests he sees a correction in AI euphoria and industrial cyclicals. Adds to the weight of evidence for a semiconductor pullback. <a href="https://t.me/theblockbeats/190101" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MU, SSNLF, HXSCL</strong> — A major investor plans to liquidate $15.3M in memory chip holdings to cut losses and re-enter lower, while Korean brokerages slashed Samsung and SK Hynix targets by 30% on peak-out fears. Memory is rolling over, and the setup skews bearish into earnings. <a href="https://t.me/theblockbeats/190028" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190022" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HYPE (liquidity risk)</strong> — Despite the bullish supply burn, four major Hyperliquid market makers lost $23.5M in 30 days, and two may have stopped providing liquidity. If liquidity dries up, HYPE could gap violently in either direction. Risk/reward is asymmetric to the downside. <a href="https://t.me/theblockbeats/190031" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long RIOT (equity or calls)</strong></p>
+
+<ul>
+<li>Rationale: The $9.1B Anthropic deal is transformational—Riot's pivot from mining to AI hosting at scale gives it a new, higher-multiple business model. Bernstein's 80% upside target implies $20+ on current price near $11. The after-hours +25% move may be just the start as the Street re-models the cash flows.</li>
+<li>Entry: On any pullback toward $12.50–$13.00, or on confirmation of deal structure in 8-K filing.</li>
+<li>Risks: Deal falls through or is smaller than reported; Bitcoin price collapse forces asset sales; power costs spike.</li>
+<li>Related signals: <a href="https://t.me/TheBlock001/7300" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25506" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/21452" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long IBIT (Bitcoin ETF) on dips below $43</strong></p>
+
+<ul>
+<li>Rationale: $8.5B in net BTC ETF inflows over five days (Wintermute) and Strategy's commitment to keep buying signal institutional accumulation. Russia regulatory clarity and SEC Reg Crypto vote Aug 14 provide fundamental catalysts. Current outflows look like a shakeout before the next leg.</li>
+<li>Entry: $42–$43 area, or after Aug 14 SEC vote if bullish.</li>
+<li>Risks: SEC delays or rejects Reg Crypto; whale shorts at $64k are right and BTC tests $60k; macro deteriorates.</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/190036" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190075" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan_news/21418" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long ETHA (Ethereum ETF)</strong></p>
+
+<ul>
+<li>Rationale: Morgan Stanley's institutional Ethereum primer and Russia allowing regulated ETH trading are watershed endorsements. Uniswap launching native yield and Lido improving liquidity further strengthen the DeFi use case. ETH has lagged BTC but the narrative setup is now superior.</li>
+<li>Entry: On ETF price near $24–$25, or post-Aug 14 if regulatory outcome is positive.</li>
+<li>Risks: Ethereum staking proposal debate creates governance uncertainty; ETF outflows continue; ETH/BTC ratio breaks down further.</li>
+<li>Related signals: <a href="https://t.me/leviathan<em>news/21426" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan</em>news/21456" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long SMCI into earnings momentum</strong></p>
+
+<ul>
+<li>Rationale: Q4 revenue double, FY27 guide crushed, and +7.56% after-hours move. SMCI is a high-beta AI infrastructure play with direct hyperscaler exposure. If NVDA confirms strong B300 demand, SMCI rallies further.</li>
+<li>Entry: Near $550–$560 on any morning dip, or breakout above $580.</li>
+<li>Risks: Accounting issues resurface (SMCI history); supply chain disruptions; NVDA disappoints and kills the whole server complex.</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/190098" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Pair: Long GOOGL / Short NVDA (via ratio or options)</strong></p>
+
+<ul>
+<li>Rationale: Gemini hitting 1B MAU shows Google is winning in consumer AI, but GOOGL trades at a discount to MSFT/NVDA on AI exposure. Meanwhile, NVDA faces Burry shorts, memory peak-out fears, and stretched positioning. Rotate from picks-and-shovels into end-use AI winners.</li>
+<li>Entry: Ratio near 0.06 (GOOGL ~$190, NVDA ~$3,200), or via long GOOGL calls / short NVDA calls.</li>
+<li>Risks: NVDA earnings blowout invalidates the short; GOOGL loses share to ChatGPT; macro selloff hits both.</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/190108" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190101" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190022" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Short memory chips: MU, or SMH (put spreads)</strong></p>
+
+<ul>
+<li>Rationale: Korean brokerages cut Samsung/Hynix targets 30%, a major fund is liquidating $15M in storage chips, and Burry is short SOXX. Memory is rolling over after a multi-quarter run. The setup is a classic late-cycle peak.</li>
+<li>Entry: MU puts below $105, or SMH put spreads below $250.</li>
+<li>Risks: AI memory demand (HBM) stays strong and offsets commodity weakness; earnings surprise to the upside; semis bounce on China stimulus.</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/190028" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190022" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190101" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Long COIN into regulatory clarity and product expansion</strong></p>
+
+<ul>
+<li>Rationale: Abu Dhabi license, UK derivatives launch, AI payment rails, and USDT enterprise acceptance all expand COIN's addressable market. Aug 14 SEC Reg Crypto vote could be the final catalyst to re-rate crypto platforms. COIN is the cleanest, most liquid way to play regulatory normalization.</li>
+<li>Entry: Near $210–$215, or breakout above $225.</li>
+<li>Risks: SEC disappoints; crypto volumes collapse; competitive pressure from decentralized platforms (Hyperliquid).</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/190080" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan<em>news/21440" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/190030" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/leviathan</em>news/21418" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>SEC Reg Crypto Vote Aug 14</strong> — If the SEC delays, punts, or issues restrictive rules, it kills the current optimism around crypto ETFs, stablecoins, and tokenized securities. Watch for intraday volatility in COIN, IBIT, ETHA, and all crypto proxies.</p>
+
+<p>• <strong>Whale BTC Shorts at $64k</strong> — $3.4B in short positions opened by four whales at current levels suggests smart money expects resistance. If BTC fails to break above $65k in the next 48 hours, a flush toward $60k is possible, taking MSTR, COIN, and miners with it.</p>
+
+<p>• <strong>Memory Chip Downgrade Cascade</strong> — Korean brokerages cutting targets 30% and funds liquidating positions could spark a broader de-rating of DRAM and NAND names. If MU or SSNLF guide down in coming weeks, it confirms the peak-out thesis and pressures the entire semiconductor food chain.</p>
+
+<p>• **Hyperliquid Liquidity Crunch</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

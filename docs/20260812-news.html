@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 12, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260812-trading.html" class="active">08/12/2026</a>
+    <a href="20260811-trading.html" class="">08/11/2026</a>
+    <a href="20260807-trading.html" class="">08/07/2026</a>
+    <a href="20260806-trading.html" class="">08/06/2026</a>
+    <a href="20260805-trading.html" class="">08/05/2026</a>
+    <a href="20260804-trading.html" class="">08/04/2026</a>
+    <a href="20260803-trading.html" class="">08/03/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260812-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260812-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><h1>📰 NEWS DIGEST — August 12, 2026</h1>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🏛️ Regulation &amp; Policy</h2>
+
+<p><strong>SEC Schedules August 14 Vote on "Reg Crypto" Framework</strong><br />
+The Securities and Exchange Commission will hold a public meeting Friday to consider a tailored offering regime for investment contracts involving crypto assets. The vote represents the SEC's first major rulemaking specifically addressing crypto investment-contract offerings and could provide a codified pathway for projects to transition from securities to non-securities status similar to the Hinman framework.<br />
+<a href="https://t.me/leviathan_news/21418" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CFTC Invokes Emergency Authority to Keep Kalshi Operating Against New York Lawsuit</strong><br />
+The Commodity Futures Trading Commission exercised emergency powers to ensure prediction market platform Kalshi continues operating in New York despite a lawsuit from state AG Letitia James. The action escalates federal-state jurisdiction tensions over prediction markets, with CFTC Chair Mike Selig asserting that prediction markets fall under federal oversight as interstate financial markets and states lack authority to intervene with state law.<br />
+<a href="https://t.me/TheBlock001/7307" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Russia Proposes $3,645 Annual Crypto Purchase Cap for Retail Investors</strong><br />
+The Bank of Russia has proposed rules limiting non-qualified investors to 300,000 rubles ($3,645) in annual crypto purchases per intermediary, with eligible assets currently restricted to BTC, ETH, and USDT. The cap applies per exchange operator, allowing users working across multiple platforms to exceed the individual limit. Qualified investors would face no purchase restrictions on exchange or OTC markets.<br />
+<a href="https://t.me/wublockchainenglish/25517" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CFTC and SEC File Joint Lawsuit Against $425M Goliath Ventures Ponzi Scheme</strong><br />
+The CFTC and SEC jointly sued Goliath Ventures and founder Christopher Delgado for operating a crypto Ponzi scheme that raised at least $4.25 billion from over 1,300 investors while promising 3-10% monthly returns. Delgado personally misappropriated $51 million for luxury spending and has already pleaded guilty to criminal charges, agreeing to forfeit real estate, vehicles, luxury goods, bank accounts and crypto wallets traceable to the scheme.<br />
+<a href="https://t.me/theblockbeats/190104" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>New York Times Identifies Bobby Zhou Behind $100M World Liberty Financial Investment</strong><br />
+The NYT identified Chinese businessman Guren "Bobby" Zhou, formerly leading Web3Port's UAE operations, as the figure behind Aqua 1's $100 million investment in World Liberty Financial's WLFI token. Under the project's revenue-sharing structure, approximately $75 million of the investment could flow to entities controlled by Donald Trump and his three sons, raising questions about the commercial relationships.<br />
+<a href="https://t.me/wublockchainenglish/25514" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Russian Central Bank Approves BTC, ETH and USDT for Regulated Exchange Trading</strong><br />
+Russia's central bank published a list of crypto assets permitted for public trading on regulated platforms, including Bitcoin, Ethereum, and USDT. The approved assets meet entry criteria including market capitalization, average daily trading volume, and at least five years of overseas price history. The proposal follows President Putin's August 4 law granting the central bank authority to determine which digital currencies can enter organized trading markets.<br />
+<a href="https://t.me/theblockbeats/190053" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🤖 AI &amp; Tech</h2>
+
+<p><strong>Anthropic Secures 191 MW from Riot Platforms in $9.1B Deal Through 2048</strong><br />
+AI company Anthropic struck a 20-year, $9.1 billion data-center agreement with Bitcoin miner Riot Platforms for 191 MW of computing capacity at Riot's Rockdale, Texas campus. Full capacity is expected online by June 2028, with two five-year extension options potentially lifting total contract value to $16.1 billion. The deal represents Riot's pivot from Bitcoin mining to AI infrastructure as demand for AI compute outpaces BTC mining economics.<br />
+<a href="https://t.me/wublockchainenglish/25506" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>xAI Launches Grok Bot in Early Beta for AI Agent Task Execution</strong><br />
+Elon Musk's xAI introduced Grok Bot, positioning it as an AI teammate with its own cloud computer that can log into users' tools, work independently across email and applications, and complete end-to-end tasks without constant supervision. The bot remembers conversation history, learns user preferences, and only returns for approval when needed. It's currently available to SuperGrok Heavy, Cursor Ultra and Teams Premium subscribers on desktop and iOS.<br />
+<a href="https://t.me/leviathan_news/21462" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Google Gemini Surpasses 1 Billion Monthly Active Users, Becomes Fastest-Growing Google Product</strong><br />
+Google announced Gemini app monthly active users officially exceeded 1 billion, making it the company's fastest-growing product in history. Voice has become the core interaction method with 63% of users directly conversing with Gemini, while busy parents use voice to handle daily tasks 43% more than other users. Over 20% of Gemini Live interactions now extend beyond pure voice, with users leveraging real-time camera feeds and screen sharing.<br />
+<a href="https://t.me/theblockbeats/190108" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVIDIA Unveils Nemotron 3.5 Lightning Open 30B MoE Model for Always-On AI Agents</strong><br />
+NVIDIA introduced Nemotron 3.5 Lightning, an open 30-billion-parameter mixture-of-experts model with 3 billion active parameters delivering up to 4x faster output designed for always-on AI agents. At $1.16 for a full agentic workload on A100 hardware, the model targets cost reduction compared to GPT-4-class API bills for continuous agent operations.<br />
+<a href="https://t.me/leviathan_news/21454" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>River AI Raises $1.1B Led by General Catalyst to Build User-Owned AI</strong><br />
+Founded by xAI co-founder Igor Babuschkin, River AI completed $1.1 billion in funding led by General Catalyst and AMP PBC, with strategic investments from NVIDIA and AMD Ventures. The full-stack AI company aims to enable enterprises to train, tune and deploy proprietary AI models through its API, completing complex reinforcement learning training tasks in 15-20 minutes at costs 2-4x lower than closed-source alternatives.<br />
+<a href="https://t.me/leviathan_news/21449" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI Expands Daybreak with GPT-5.6-Cyber Model for Vulnerability Research</strong><br />
+OpenAI launched GPT-5.6-Cyber as part of its Daybreak initiative, a specialized model designed for authorized vulnerability research, exploit validation and advanced cyber defense. The model represents OpenAI's expansion into security-focused AI applications with capabilities tailored for cybersecurity professionals.<br />
+<a href="https://t.me/leviathan_news/21435" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>💳 Payments &amp; Stablecoins</h2>
+
+<p><strong>MoneyGram Opens Solana Cash Ramps with Deposits in 25+ Countries, Withdrawals in 170+</strong><br />
+MoneyGram enabled Solana cash ramps for wallets and exchanges, allowing deposits in over 25 countries and withdrawals in 170+ countries. The asymmetry reveals regulatory constraints—onramp reach covers less than one-sixth of offramp destinations, demonstrating how compliance requirements differ between cash-to-crypto versus crypto-to-cash flows.<br />
+<a href="https://t.me/leviathan_news/21445" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Morph Network Launches Enterprise-Grade Stablecoin Payment Platform</strong><br />
+Morph Network announced Morph Payments, positioned as an enterprise-level stablecoin payment platform for global business needs. Enterprises can register with email, generate payment links where customers pay with stablecoins from any wallet/network, and receive funds in seconds. The platform supports single and batch payouts to suppliers, employees or contractors.<br />
+<a href="https://t.me/theblockbeats/190112" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tempo Proposes 48-Hour Stablecoin Window for Banks' Weekend Liquidity</strong><br />
+Tempo's new "Off-Hours Cash" report proposes a 48-hour stablecoin window to help banks meet weekend demand while creating a potential revenue stream. The proposal addresses how banks can use stablecoin rails to bridge weekend liquidity gaps when traditional banking systems are closed, though blockchains operate 24/7.<br />
+<a href="https://t.me/leviathan_news/21423" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Expands Business Payments with AI Agent Support and USDT Integration</strong><br />
+Coinbase announced Coinbase Business is expanding payment services to support AI agents through the x402 open machine-to-machine payment standard. The platform now fully supports USDT, with users able to collect payments via links, checkout pages and invoices that automatically convert to USDC and settle to Coinbase Business accounts.<br />
+<a href="https://t.me/theblockbeats/190080" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🏦 Exchanges &amp; Platforms</h2>
+
+<p><strong>Coinbase Rolls Out Derivatives for UK Professional Investors with 50x Leverage</strong><br />
+Coinbase launched over 170 derivatives contracts for UK professional investors, offering perpetuals with up to 50x leverage. The FCA's "professional investor" classification primarily relies on self-certification, raising questions about the actual risk management thresholds involved in accessing high-leverage instruments.<br />
+<a href="https://t.me/TheBlock001/7303" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto-Friendly Bank Erebor Seeks $1.5B Funding at $8B Valuation, a16z Among Potential Investors</strong><br />
+Founded by Palmer Luckey and Joe Lonsdale, crypto-friendly bank Erebor Bank is seeking $1.5 billion in funding with a target pre-money valuation of $8 billion, expected to close within weeks. a16z is listed among potential investors. The project completed a $350 million round in December 2025 at a $435 million valuation.<br />
+<a href="https://t.me/theblockbeats/190044" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>eToro to Acquire TradeZero for Up to $231M for US Market Expansion</strong><br />
+eToro announced an agreement to acquire US-focused online broker TradeZero for a maximum total consideration of $231 million, including cash and up to 2.5 million newly issued Class A ordinary shares. The acquisition aims to strengthen eToro's US presence as Q2 cryptoasset revenue dropped 30%.<br />
+<a href="https://t.me/leviathan_news/21448" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Flowdesk Secures Full VARA Broker-Dealer License in Dubai</strong><br />
+Flowdesk obtained a full VARA broker-dealer license for qualified and institutional investors in Dubai, progressing from IPA to full license in just two months. With BlackRock and Coinbase Ventures in its cap table, the swift regulatory approval demonstrates how well-capitalized firms can navigate VARA's multi-stage framework.<br />
+<a href="https://t.me/leviathan_news/21460" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Adds Five Tokens to Monitoring Tag List</strong><br />
+Binance added Moonbeam (GLMR), ICON (ICX), Moonriver (MOVR), SuperRare (RARE) and Sophon (SOPH) to its Monitoring Tag list. Tokens carrying the tag exhibit relatively higher volatility and risk and are subject to periodic reviews, with potential delisting if they no longer meet listing standards.<br />
+<a href="https://t.me/wublockchainenglish/25511" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>📈 Crypto Trading &amp; Markets</h2>
+
+<p><strong>Four Whale Addresses Open $340M Bitcoin Short Positions Near $64K</strong><br />
+Four whale addresses collectively opened short positions on approximately 5,374 BTC worth $340 million near the $64,000 price level. The concentrated shorting occurred between July 14-15, with entry prices ranging from $63,999 to $64,418. The positions represent coordinated bearish bets at current resistance levels.<br />
+<a href="https://t.me/theblockbeats/190111" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Market Makers Collectively Lost $23.5M Over 30 Days</strong><br />
+Four major market-making institutions' associated addresses on Hyperliquid recorded losses over the past 30 days totaling over $23.515 million, with transaction volume of approximately $17.254 billion during the period. While all four addresses remain profitable historically, they've collectively given back about $27.075 million since creating stage profit peaks in early July, with losses concentrated during mid-July volatility.<br />
+<a href="https://t.me/theblockbeats/190031" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>FTX Bankruptcy Wallet Moves 201,740 SOL Worth $15.2M</strong><br />
+An Alameda Research/FTX bankruptcy wallet address unstaked 201,740 SOL worth approximately $15.2 million and transferred the funds to multiple BitGo custody wallets, likely for creditor repayments. The move represents continued liquidation from FTX's bankruptcy estate.<br />
+<a href="https://t.me/theblockbeats/190113" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>US Bitcoin ETFs See $145M Outflow; Ether Funds Lose $14.6M</strong><br />
+US spot Bitcoin ETFs recorded $145 million in net outflows on August 10, while spot Ethereum ETFs posted $14.59 million in net outflows. Grayscale's Bitcoin Mini Trust (BTC) bucked the trend with the largest inflow at $37.06 million, while its Ethereum Mini Trust (ETH) led Ether products with $8.59 million.<br />
+<a href="https://t.me/wublockchainenglish/25509" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>USDT Supply Shrinks $4B Over 60 Days as Investors Exit Crypto</strong><br />
+USDT's 60-day rolling supply change declined by approximately $4 billion, including an $870 million drop over the past 11 days. Analyst Stacy Muur noted some investors appear to be exiting crypto entirely by converting stablecoins back to fiat, while changing stablecoin yields may also be contributing to the decline.<br />
+<a href="https://t.me/wublockchainenglish/25510" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🔷 DeFi &amp; Protocols</h2>
+
+<p><strong>Uniswap Launches Earn Feature Across Web App and Wallet via Morpho</strong><br />
+Uniswap introduced Earn functionality across its Web App and Wallet, enabling users to deposit USDC, USDT and ETH to generate yield through Morpho. The DEX built its reputation on being the simplest swap interface; now it's positioning itself as the simplest yield wrapper by integrating Morpho's infrastructure with Uniswap's interface.<br />
+<a href="https://t.me/leviathan_news/21434" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aave and Ether.fi Leaders Warn Ethereum Staking Proposal Could Push ETH Yield to Zero</strong><br />
+Aave's Stani Kulechov and Ether.fi's Mike Silagadze warned that Ethereum's proposed staking changes could drive ETH yield toward zero and push capital out of DeFi. Six EF researchers proposed burning staking yield to zero at 50% participation to deter LST monopolies, but critics argue this approach cements rather than solves the underlying incentive problems.<br />
+<a href="https://t.me/leviathan_news/21439" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Lido Earn Launches Instant Withdrawals via New Buffer System</strong><br />
+Lido Finance introduced instant withdrawals for EarnETH and EarnUSD through a new buffer mechanism. The "instant" functionality works until the buffer depletes, and buffers historically run dry when depositors collectively decide to exit—presenting the classic bank-run dynamic inherent in fractional reserve systems.<br />
+<a href="https://t.me/leviathan_news/21456" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ENS Foundation Officially Becomes Independent Operating Entity with 1M ENS Token Allocation</strong><br />
+ENS token holders approved the "ENS DAO New Era" proposal, with the ENS Foundation now formally operating as an independent entity. The foundation received a one-time allocation of 1 million ENS tokens to pay employee compensation according to the public salary framework. The new governance structure establishes clear division between ENS DAO, ENS Foundation and ENS Labs.<br />
+<a href="https://t.me/theblockbeats/190070" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Oraichain Halts Network After EVM Cross-Chain Flaw Enables Unauthorized ORAI Minting</strong><br />
+Oraichain suspended network operations following an EVM cross-chain vulnerability that allowed unauthorized ORAI token minting. When the only response is to halt the entire chain, the bridge wasn't just a bridge—it was the mint authority, the rate limit, and the supply ceiling all in one, revealing systemic architectural fragility.<br />
+<a href="https://t.me/leviathan_news/21437" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🔦 Other</h2>
+
+<p><strong>Robinhood Chain Hits 11.6M Daily Transactions as USDe Fuels TVL Growth</strong><br />
+Robinhood Chain reached 11.6 million daily transactions with USDe driving total value locked growth. The Layer-2 network recorded over $650 million in DEX trading volume over 24 hours, ranking fourth across all chains behind only Solana, BNB Chain and Ethereum mainnet.<br />
+<a href="https://t.me/TheBlock001/7308" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trump Media Records $360.6M Unrealized Loss on Digital Assets in H1 2026</strong><br />
+Trump Media reported a $360.6 million unrealized loss on digital assets during the first half of 2026. The disclosure reveals significant exposure to crypto price volatility during a period when major digital assets experienced substantial drawdowns.<br />
+<a href="https://t.me/TheBlock001/7304" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Broadridge's Distributed Ledger Repo Platform Processes $8T in July Volume</strong><br />
+Broadridge's Distributed Ledger Repo platform processed $8 trillion in July volume as blockchain expands into institutional repo, tokenized collateral and onchain shareholder governance. July average daily volume reached $365 billion, representing only 2.2% growth over June's $357 billion, indicating the platform has reached scale but growth has plateaued.<br />
+<a href="https://t.me/TheBlock001/7301" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Lightning Network P2P Bot lnp2pBot Suspends Operations Indefinitely After AI-Assisted Attacks</strong><br />
+Lightning network peer-to-peer trading bot lnp2pBot suspended operations indefinitely following sustained attacks involving AI-assisted adversaries. The non-custodial P2P architecture means there's no treasury to drain or pool of user sats vulnerable to theft—attacks targeted operational disruption rather than fund extraction.<br />
+<a href="https://t.me/leviathan_news/21444" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTCPay Server Offers $190K Bounty After Exploit Drains Merchant Bitcoin Wallets</strong><br />
+BTCPay Server announced a bounty of up to $190,000 following an exploit that drained merchant Bitcoin wallets using stolen LND credentials to access Lightning funds. The patch doesn't change existing locks—it stops new keys from being cut, but every macaroon already stolen remains fully live, and attackers retain access until affected merchants rotate credentials.<br />
+<a href="https://t.me/leviathan_news/21428" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

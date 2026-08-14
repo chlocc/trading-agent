@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 14, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260814-trading.html" class="active">08/14/2026</a>
+    <a href="20260813-trading.html" class="">08/13/2026</a>
+    <a href="20260812-trading.html" class="">08/12/2026</a>
+    <a href="20260811-trading.html" class="">08/11/2026</a>
+    <a href="20260807-trading.html" class="">08/07/2026</a>
+    <a href="20260806-trading.html" class="">08/06/2026</a>
+    <a href="20260805-trading.html" class="">08/05/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260814-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260814-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — August 14, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>SEC Cancels Key Crypto Rules Meeting, Regulatory Progress Stalls</strong><br />
+The SEC unexpectedly canceled Friday's public meeting intended to review a tokenization exemption for crypto asset investment contracts, citing "unforeseeable scheduling issues." The cancellation comes as Congress enters August recess without voting on the CLARITY Act, adding further uncertainty to crypto market structure legislation and leaving the industry without clear regulatory pathways.<br />
+<a href="https://t.me/theblockbeats/190565" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance to Block Transactions from 11 Sanctioned Platforms Starting August 23</strong><br />
+Binance announced it will stop processing transactions involving HTX, EXMO, and nine other EU-sanctioned crypto platforms from August 23, following recent regulatory developments. Restrictions on some platforms took effect earlier in August, with users warned that attempted transactions will be rejected to ensure compliance with evolving sanctions requirements.<br />
+<a href="https://t.me/leviathan_news/21623" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy and Metaplanet Face Potential MSCI Index Removal Over Non-Operating Status</strong><br />
+MSCI is consulting on a new methodology to identify non-operating companies that could remove Strategy and Metaplanet from its Global Investable Market Indexes. A May 2026 simulation shows both firms would be excluded under proposed financial ratio screens, potentially triggering approximately $2.8 billion in passive fund outflows if finalized by October 16.<br />
+<a href="https://t.me/theblockbeats/190590" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>White House to Host Crypto and Prediction Market Executives Next Week</strong><br />
+The White House will convene crypto and prediction market executives next Wednesday, one day before the CFTC's newly formed Innovation Advisory Committee holds its first meeting. The gathering's agenda remains unconfirmed, but comes at a critical juncture as regulatory frameworks for digital assets, AI, and prediction markets remain in flux.<br />
+<a href="https://t.me/theblockbeats/190570" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korea's Upbit to Delist STORJ, JASMY, and TT in September</strong><br />
+South Korea's largest crypto exchange Upbit will end trading support for STORJ, JASMY, and TT on September 14, citing unresolved deficiencies in disclosures, business substance, and circulation plans that led to warning designations. The move affects six trading pairs with all open orders to be canceled at the deadline.<br />
+<a href="https://t.me/wublockchainenglish/25566" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>SpaceX Completes $60 Billion Cursor Acquisition, Integrating AI Development</strong><br />
+SpaceX finalized its acquisition of AI coding startup Cursor for $60 billion on August 14, marking one of the largest tech deals in history and a major strategic move by Musk to strengthen his AI capabilities. Cursor's team will join SpaceX AI to enhance Grok, Grok Build, Grok Bot, Grok API, and other AI products as Musk races to compete with Anthropic and OpenAI.<br />
+<a href="https://t.me/leviathan_news/21625," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/190606</p>
+
+<p><strong>OpenAI Launches Computer History Feature, Raising Privacy Concerns</strong><br />
+OpenAI introduced Computer History in ChatGPT, allowing the AI to learn from computer activity to understand workflows, resume tasks, and suggest automations. The feature has sparked immediate privacy concerns, with users questioning the balance between enhanced AI capabilities and data security as the system monitors and learns from user behavior.<br />
+<a href="https://t.me/leviathan_news/21572" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Databricks Raises $5 Billion at $190 Billion Valuation, CEO Says AGI Has Arrived</strong><br />
+Databricks secured $5 billion in funding at a $190 billion valuation, representing 27x its $7 billion revenue run-rate. CEO declared that AGI has already arrived, with the market pricing in not current earnings but future control of enterprise AI infrastructure as the company expands its data platform capabilities.<br />
+<a href="https://t.me/leviathan_news/21566" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI Faces Executive Exodus Ahead of Planned IPO</strong><br />
+OpenAI's leadership team is experiencing significant departures just months after filing confidential IPO paperwork in June at an $852 billion valuation. Chief Revenue Officer Denise Dresser resigned this week, following Brad Lightcap's exit announcement by two days, with some investors calling the pre-IPO turnover a "huge risk signal" even as enterprise revenue continues growing.<br />
+<a href="https://t.me/theblockbeats/190635" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Zhipu AI Releases GLM-5.3 Model with Enhanced Coding Capabilities</strong><br />
+Zhipu AI announced GLM-5.3, which uses the same base model as GLM-5.2 with all performance improvements coming from post-training optimization. The model shows 50% better performance than its predecessor on internal Z.ai code benchmarks and demonstrates significantly stronger capabilities in complex coding and long-duration tasks.<br />
+<a href="https://t.me/theblockbeats/190542" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>EURC Becomes First Euro Stablecoin to Exceed €400 Million, 10x Growth Since MiCA</strong><br />
+Circle's EURC has surpassed €400 million in circulation, achieving 10-fold growth since the implementation of MiCA regulations. The milestone makes EURC the first euro-denominated stablecoin to cross this threshold, signaling strong European demand for regulated digital euro alternatives.<br />
+<a href="https://t.me/leviathan_news/21626" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>RedotPay Delays $1 Billion U.S. IPO Plans Following Binance Lawsuit</strong><br />
+Stablecoin payments firm RedotPay has postponed its planned U.S. IPO from 2026 to potentially 2027 or later as it seeks regulatory approvals and addresses legal challenges. The delay follows Binance-linked entities suing RedotPay founders for nearly $473 million, alleging improper diversion of over 470,000 Binance Card users, significantly complicating the company's path to a previously targeted $4+ billion valuation.<br />
+<a href="https://t.me/leviathan_news/21612," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/25569</p>
+
+<p><strong>MoonPay, PayPal, and M0 Launch PYUSDx Launchpad for Stablecoin Creation</strong><br />
+MoonPay partnered with PayPal and M0 to launch PYUSDx launchpad, enabling DeFi builders to create custom stablecoins. The initiative marks PayPal's deeper push into decentralized finance infrastructure, notably contrasting with its 2019 exit from the Libra consortium as the first major partner to withdraw.<br />
+<a href="https://t.me/leviathan_news/21592" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Kraken Partners with Mesh for Cross-Exchange Crypto Deposits Without Wallet Addresses</strong><br />
+Kraken integrated Mesh technology to enable users to deposit crypto directly from Coinbase without manually copying wallet addresses. The partnership streamlines cross-platform transfers and includes automated balance conversions, reducing friction for users moving assets between major exchanges.<br />
+<a href="https://t.me/leviathan_news/21624" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>JPMorgan Ended Polymarket Banking Relationship Last Year, Still Seeks IPO Role</strong><br />
+JPMorgan terminated its banking relationship with Polymarket in October 2025 over regulatory concerns, yet continues pursuing a potential underwriting role if the prediction market pursues an IPO. The disconnect highlights the complex dynamics between traditional finance and crypto-native platforms, with ICE having invested $600 million at a $15 billion valuation four months prior.<br />
+<a href="https://t.me/leviathan_news/21598," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/25564</p>
+
+<p><strong>Gemini Posts Fourth Consecutive Quarterly Loss Despite 37% Revenue Growth</strong><br />
+Crypto exchange Gemini reported Q2 net loss of $107.7 million, marking its fourth straight quarterly loss, while revenue rose 37% year-over-year to $45.5 million. Platform assets fell 54% to $8.4 billion, attributed to lower crypto prices and institutional custody outflows, as the company diversifies into prediction markets and stock trading.<br />
+<a href="https://t.me/wublockchainenglish/25563," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/190548</p>
+
+<p><strong>South Korea's Upbit Q2 Operating Profit Falls 73% QoQ to $16.7 Million</strong><br />
+Upbit operator Dunamu reported Q2 revenue of $123 million and operating profit of $16.7 million, down 26.1% and 73.3% quarter-over-quarter respectively. The company attributed the decline to weaker liquidity and cooling investor sentiment across the global crypto market, with net profit falling 60% year-over-year.<br />
+<a href="https://t.me/wublockchainenglish/25574," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/190627</p>
+
+<p><strong>Israel's Largest Bank Leumi to Offer Bitcoin, Ether, and Solana Trading in 2027</strong><br />
+Bank Leumi announced it will become Israel's first bank to offer digital asset trading starting early 2027, allowing Leumi and Pepper customers to buy, hold, and sell BTC, ETH, and SOL through its Leumi Trade app. Galaxy Digital will provide trading via GalaxyOne Institutional and custody infrastructure for the service.<br />
+<a href="https://t.me/wublockchainenglish/25575," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/190618</p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Bitcoin Long-Term Holder Distribution Not Indicating Large-Scale Capitulation</strong><br />
+Analysis shows Bitcoin's 30-day moving average coin dormancy has risen to 19 days, standing above the 365-day moving average for the first time since early year. However, following the Coldcard hacker incident, the uptick may relate more to coins being transferred to new wallets rather than actual selling by long-term holders.<br />
+<a href="https://t.me/theblockbeats/190582" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Norway's Sovereign Wealth Fund Hits Record 11,549 BTC Indirect Exposure</strong><br />
+Norway's sovereign wealth fund reached record indirect Bitcoin exposure of 11,549 BTC (valued at $725 million) through holdings in Strategy, Metaplanet, MARA, Coinbase, Block, and Tesla, with 86% concentrated in Strategy alone. The exposure grew 21.2% in H1 and 60.5% over the past year, marking the sixth consecutive reporting period of increases.<br />
+<a href="https://t.me/leviathan_news/21620," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/190603</p>
+
+<p><strong>JPMorgan Increased IBIT Holdings 25%, Quadrupled ETHA Position in Q2</strong><br />
+JPMorgan's latest 13F filing shows it held approximately 16.5 million shares of BlackRock's IBIT as of June 30, up about 25% from Q1, though the position's market value decreased approximately 18% to $549 million due to Bitcoin's price decline. The firm's ETHA holdings increased over 300% to about 1.17 million shares.<br />
+<a href="https://t.me/leviathan_news/21619" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy CEO Promises Bitcoin Accumulation to Resume Later This Year</strong><br />
+Strategy CEO Phong Le stated the company plans to resume accumulating Bitcoin later in 2026 despite recent sales that drew market scrutiny. Le emphasized that Strategy has purchased around 175,000 BTC since the beginning of the year while selling roughly 7,000 BTC, making buying volume about 25 times greater than sales.<br />
+<a href="https://t.me/wublockchainenglish/25556" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Aave V4 Deposits Surpass $4 Billion, Reaching All-Time High</strong><br />
+Aave announced that Aave V4 deposit volume has exceeded $4 billion, setting a new all-time high for the DeFi lending protocol. The milestone reflects continued growth in decentralized finance adoption and user confidence in Aave's latest protocol iteration.<br />
+<a href="https://t.me/theblockbeats/190636" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Lido Launches Automated $LDO Buybacks Using Protocol Revenue</strong><br />
+Lido initiated automated LDO buybacks using half of revenue above a $40 million baseline, capped at $50,000 daily and $10 million annually. The mechanism mirrors MakerDAO's Smart Burn Engine launched in May 2023, with Lido's annual protocol revenue running well above the threshold required to activate regular buybacks.<br />
+<a href="https://t.me/leviathan_news/21615" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solana's SIMD-0553 Targets 14x Daily SOL Burn by Adjusting Fee Structure</strong><br />
+Solana's SIMD-0553 proposal aims to increase daily SOL burn by 14-fold by making resource-heavy transactions pay higher fees. The change would shift more of the network's fee structure toward computational intensity, potentially having significant deflationary impact on SOL supply.<br />
+<a href="https://t.me/leviathan_news/21617" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ethereum Foundation Drops Poseidon for L1, Shifts to SHA or BLAKE</strong><br />
+Ethereum Foundation researcher Justin Drake announced Ethereum's L1 cryptography roadmap will move from Poseidon to traditional hash functions like SHA or BLAKE due to breakthroughs in binary-field SNARKs. The shift aligns with Vitalik Buterin's emphasis on quantum security and reduces the need for specialized SNARK-friendly hashes.<br />
+<a href="https://t.me/wublockchainenglish/25568" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MegaETH's USDm Supply Plunges Over 95% From $600M Peak to $18M</strong><br />
+According to Castle Labs analysis, MegaETH's native stablecoin USDm supply has fallen to around $18 million, down more than 95% from its May peak of roughly $600 million. Based on current supply and approximately 3.6% SOFR, Castle Labs estimates USDm would generate only about $650,000 in annual yield, attributing the decline to dwindling network usage.<br />
+<a href="https://t.me/wublockchainenglish/25557" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other</p>
+
+<p><strong>Tether Completes First Full Financial Audit, KPMG Issues Unqualified Opinion</strong><br />
+KPMG U.S. completed the first full independent audit of Tether International's 2025 financial statements and issued an unqualified opinion, finding financial position, operating results, and cash flows fairly presented under U.S. GAAP. The audit included substantive testing and physical inspection of every gold bar held by Tether, marking the largest inaugural audit in history.<br />
+<a href="https://t.me/wublockchainenglish/25555," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/21561</p>
+
+<p><strong>Michael Burry's Paid Newsletter Reaches 300K Subscribers, Generating Potential $113.7M Annually</strong><br />
+The "Big Short" investor Michael Burry's Substack newsletter "Cassandra Unchained" crossed 300,000 subscribers 231 days after launch. At $379 annual fee, theoretical maximum revenue could reach $113.7 million, though actual paid subscriber count and platform fees have not been disclosed.<br />
+<a href="https://t.me/theblockbeats/190550" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Scammer Steals $11.8M via Malware-Laced Coding Test in Fake Crypto Job Interview</strong><br />
+A scammer posing as a crypto firm recruiter stole $11.8 million in crypto through a sophisticated scheme involving fake interviews and malware-laced coding tests. The attacker gained access to company code repositories, modified automated deployment commands, remotely accessed internal servers, and stole credentials to bypass transaction limits.<br />
+<a href="https://t.me/leviathan_news/21608" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>StablecoinX Holds 3B ENA (About 20% of Total Supply), Reports Q2 Net Loss</strong><br />
+Nasdaq-listed StablecoinX reported holding approximately 3 billion ENA as of June 30, worth about $218.4 million and representing roughly 20% of total supply. The company posted Q2 net loss of $34.2 million, driven mainly by $36.2 million in digital-asset impairment charges, with total assets at about $232.6 million.<br />
+<a href="https://t.me/wublockchainenglish/25573" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 20, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260820-trading.html" class="active">08/20/2026</a>
+    <a href="20260814-trading.html" class="">08/14/2026</a>
+    <a href="20260813-trading.html" class="">08/13/2026</a>
+    <a href="20260812-trading.html" class="">08/12/2026</a>
+    <a href="20260811-trading.html" class="">08/11/2026</a>
+    <a href="20260807-trading.html" class="">08/07/2026</a>
+    <a href="20260806-trading.html" class="">08/06/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260820-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260820-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — August 19, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>SEC Proposes New "Regulation Crypto Assets" Framework for Digital Asset Offerings</strong><br />
+The U.S. Securities and Exchange Commission has proposed tailored securities offering rules for certain investment contracts involving crypto assets. The proposal creates two registration exemptions: one allowing offerings up to $5 million over four years, and another permitting up to $75 million in any 12-month period. Both require investor disclosures, while the larger exemption also mandates financial statements and ongoing reporting, marking a significant step toward clearer regulatory pathways for token issuers.<br />
+<a href="https://t.me/wublockchainenglish/25631" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>FASB Proposes Treating Certain Stablecoins as "Cash Equivalents" Under U.S. Accounting Rules</strong><br />
+The U.S. accounting body FASB has proposed allowing qualifying dollar-pegged stablecoins to be classified as "cash equivalents" on corporate balance sheets. This would grant institutional-grade stablecoins more favorable accounting treatment and potentially accelerate their adoption in corporate treasury management and financial reporting, aligning digital dollar alternatives more closely with traditional cash holdings.<br />
+<a href="https://t.me/leviathan_news/21715" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>American Bankers Association Pushes for Tighter Stablecoin Reward Restrictions in CLARITY Act</strong><br />
+ABA President Rob Nichols stated the organization supports the CLARITY Act but believes stablecoin reward provisions must be tightened to prevent platforms from offering interest-like incentives that could drain bank deposits. The ABA proposes amending language to prohibit rewards "substantially similar" to interest payments, aiming to protect traditional banking funding sources while still allowing crypto innovation to proceed under clear rules.<br />
+<a href="https://t.me/theblockbeats/191282" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trump to Host White House Tech Leadership Meeting with SEC, CFTC Chairs and Crypto Executives</strong><br />
+President Trump will hold a White House technology leadership conference today at 2:30 PM ET, featuring SEC Chair Paul Atkins, CFTC Chair Selig, and top executives from Coinbase, Ripple, Kraken, Gemini, Chainlink, a16z, ICE, and Nasdaq. The gathering signals continued high-level engagement between the administration and both crypto-native firms and traditional financial infrastructure providers at a pivotal moment for digital asset policy formation.<br />
+<a href="https://t.me/theblockbeats/191288" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solana Policy Institute CEO: CLARITY Act Has 10% Odds Before Midterms, Stuck in "August Recess Purgatory"</strong><br />
+The Solana Policy Institute's CEO assessed the CLARITY Act's chances of passage before the November midterm elections at just 10%, citing legislative gridlock during the August recess. The sobering outlook underscores the continued difficulty of advancing comprehensive crypto legislation despite industry lobbying efforts and growing institutional adoption of digital assets.<br />
+<a href="https://t.me/TheBlock001/7322" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Florida Sues OpenAI and Sam Altman, Alleging ChatGPT Constitutes "Public Nuisance"</strong><br />
+The State of Florida has filed a lawsuit against OpenAI and CEO Sam Altman, claiming their generative AI products and large language models constitute a legal "public nuisance" that threatens public mental health, provides unverified advice, and poses public safety risks. The case represents a novel regulatory approach attempting to establish AI systems as a form of "digital pollution source," potentially creating a precedent for other states to pursue similar liability theories against AI companies.<br />
+<a href="https://t.me/theblockbeats/191225" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>63% of Americans Believe Trump Family Benefits Inappropriately from Crypto Business, Reuters Poll Finds</strong><br />
+A Reuters/Ipsos poll revealed that 69% of U.S. respondents believe President Trump's private business interests influence his policy decisions, while 63% specifically view the Trump family's crypto-related business activities as inappropriate. The findings add political pressure ahead of the November midterm elections as the administration pushes pro-crypto regulatory initiatives.<br />
+<a href="https://t.me/theblockbeats/191256" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>AI "Approaches Superhuman Mathematical Ability," Top Mathematicians Warn of Research Value Erosion</strong><br />
+Approximately 40 leading global mathematicians met at OpenAI's San Francisco office to discuss AI's impending surpassing of human mathematical research capabilities. OpenAI mathematician and Fields Medalist Jacob Tsimerman stated AI may soon reach "stable superhuman" levels in mathematics, with OpenAI recently unveiling 10 AI-generated or AI-assisted mathematical and computer science results. The development raises fundamental questions about the future role of human researchers as AI systems demonstrate breakthrough-level capabilities in domains requiring years of specialized training.<br />
+<a href="https://t.me/theblockbeats/191243" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Florida Lawsuit Against OpenAI Tests "Public Nuisance" Framework for AI Regulation</strong><br />
+Florida's lawsuit against OpenAI represents an attempt by U.S. states to regulate AI companies through "public nuisance" legal frameworks, analogizing generative AI to potential sources of societal harm. The case alleges OpenAI's rapid development was built on misleading conduct and exploitation of users, causing widespread impact on Florida residents and disrupting social order, while seeking both injunctive relief and economic compensation.<br />
+<a href="https://t.me/theblockbeats/191225" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Marvell Signs Custom Chip Deal with Google, Stock Surges 12% Premarket</strong><br />
+Marvell Technology issued warrants to Google allowing purchase of up to 58.97 million Marvell shares at $206.58 per share (approximately 6.7% of outstanding shares), with most warrants vesting as Google generates custom chip revenue for Marvell through fiscal 2033. The products include AI accelerators, networking products, and storage products. Marvell shares jumped over 12% in premarket trading, signaling major hyperscaler commitment to custom silicon partnerships.<br />
+<a href="https://t.me/theblockbeats/191267" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Sherlock Launches "Audit Engine" — AI-Native Security Review System for Smart Contracts</strong><br />
+Sherlock introduced its Audit Engine, an AI-native security review platform combining multiple AI security approaches to analyze high-stakes code. The system aims to provide institutional-grade smart contract auditing by leveraging diverse AI models in parallel, potentially accelerating the security review process for DeFi protocols and blockchain infrastructure while maintaining rigorous standards.<br />
+<a href="https://t.me/leviathan_news/21733" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitwise CIO: Blockchain Transaction Volume to Grow 10-100x as Tokenized Markets and AI Agents Expand</strong><br />
+Bitwise Chief Investment Officer Matt Hougan predicts blockchain transaction volumes could increase 10-100 fold as tokenized asset markets expand and AI agents increasingly execute trades on users' behalf. The forecast highlights the convergence of tokenization and autonomous AI agents as a major driver of on-chain activity, potentially requiring significant infrastructure scaling and presenting opportunities for Layer 1 and Layer 2 networks.<br />
+<a href="https://t.me/leviathan_news/21742" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI Chip Design Startup Velaura AI Raises $1.1B Series A at $10B+ Valuation</strong><br />
+AI chip design company Velaura AI completed a $1.1 billion Series A led by Seligman Ventures, with participation from Capricorn Investment Group and follow-on from Samsung Catalyst Fund, StepStone Group, and Maverick Silicon, valuing the company above $10 billion. Velaura focuses on low-power chip and software technology for data centers and physical AI domains (including robotics and autonomous driving), having recently launched its Titan Core chip design platform. The company has already deployed technology across 30+ million chips and works with three of the four largest cloud providers.<br />
+<a href="https://t.me/theblockbeats/191240" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tesla Rolls Out "Bean Bag" Large Model, Pushes OTA to Vehicle Fleet</strong><br />
+Tesla has begun rolling out its "Bean Bag" large language model to its vehicle fleet via over-the-air updates. The deployment represents Tesla's continued integration of advanced AI capabilities into its automotive products, potentially enhancing in-vehicle assistant functionality and autonomous driving features as the company expands its AI infrastructure beyond data center applications.<br />
+<a href="https://t.me/theblockbeats/191258" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OJO Launches First "Design Agent Team Workspace" for Collaborative AI-Driven Product Development</strong><br />
+OJO introduced the first Design Agent Team Workspace, allowing users to build AI design teams that transform ideas into strategy, PRDs, prototypes, and launch-ready designs. The platform enables deployment of multiple specialized AI agents working collaboratively on different aspects of product development, representing a shift toward multi-agent AI systems in creative and strategic workflows.<br />
+<a href="https://t.me/leviathan_news/21731" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Rain: Stablecoin Payments Already Reach 100,000+ Merchants Through Visa Without Their Knowledge</strong><br />
+Rain revealed that stablecoin payments already reach over 100,000 merchants through Visa networks without merchants being aware, with same-day stablecoin settlement potentially replacing the traditional 3-day payment rails. The disclosure highlights the "stealth" integration of crypto payment infrastructure into legacy financial networks, demonstrating that stablecoin adoption in commerce is more advanced than widely recognized and could accelerate as awareness and optimization increase.<br />
+<a href="https://t.me/leviathan_news/21741" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>TikTok Code Includes Peer-to-Peer Payments Through Messaging, Signaling Deeper Financial Services Push</strong><br />
+TikTok is developing a "peer-to-peer" payment feature that would allow users to transfer money through private messages, according to code found in the U.S. version of the app. The interaction design appears nearly complete, with recipients able to "tap to accept" payments before expiration and support for adding messages similar to PayPal's Venmo. TikTok stated the feature is in early development and not currently being tested in any market, though its presence signals the platform's continued expansion into financial services beyond TikTok Shop.<br />
+<a href="https://t.me/leviathan_news/21740" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/theblockbeats/191209</p>
+
+<p><strong>Bitcoin.com Integrates USDU, UAE's First CBUAE-Registered Stablecoin, to Millions of Wallet Users</strong><br />
+Bitcoin.com has integrated USDU, the United Arab Emirates' first Central Bank-registered USD stablecoin, bringing the regulated digital dollar to millions of wallet users. The integration marks a significant milestone for CBUAE-approved digital assets entering mainstream crypto wallet infrastructure and reflects growing regulatory clarity in Middle Eastern markets.<br />
+<a href="https://t.me/leviathan_news/21730" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Major Japanese Convenience Store Lawson Runs Second Stablecoin Payment Test on Polygon</strong><br />
+Japanese convenience store chain Lawson conducted its second point-of-sale stablecoin payment trial on Polygon. The test demonstrates continued progress in retail stablecoin adoption in Japan, a market where regulatory frameworks for digital payments are relatively advanced. Successful trials could pave the way for broader crypto payment acceptance across Japan's extensive convenience store network.<br />
+<a href="https://t.me/leviathan_news/21719" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MoonPay Adds Cash App Pay for U.S. Customers, Enabling Direct Digital Asset Purchases</strong><br />
+MoonPay announced integration with Cash App Pay for eligible U.S. customers, allowing users to spend their Cash App balance to buy digital assets directly through MoonPay. The partnership bridges one of the most popular peer-to-peer payment apps with crypto on-ramp infrastructure, potentially lowering friction for mainstream users entering digital asset markets.<br />
+<a href="https://t.me/leviathan_news/21720" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kraken Launches "Krak Card" in U.S. with Up to 2% Cashback, Spending Across 600+ Currencies</strong><br />
+Kraken launched the Krak Card in the United States, offering up to 2% cashback and spending capability across 600+ currencies wherever Visa is accepted, powered by Stripe Issuing. The card represents Kraken's push into traditional financial services and allows seamless spending of crypto holdings through established payment networks, competing with offerings from Coinbase and other exchanges.<br />
+<a href="https://t.me/leviathan_news/21722" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Razorpay Launches "Vulcan" — India's First Payments-Focused AI Foundation Model Built with Nvidia and AWS</strong><br />
+Indian payment processor Razorpay unveiled Vulcan, India's first AI foundation model specifically designed for payments, developed in partnership with Nvidia and AWS. The model aims to enhance fraud detection, transaction routing optimization, and payment success rates across India's rapidly growing digital payments ecosystem, demonstrating sector-specific AI model development for financial infrastructure.<br />
+<a href="https://t.me/leviathan_news/21723" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Binance Proof of Reserves Shows User BTC Holdings Rose 2.55% to 657,000 BTC in August</strong><br />
+Binance's 45th Proof of Reserves report (August 1 snapshot) shows user BTC holdings increased 2.55% to approximately 657,000 BTC (+16,349 BTC), while ETH fell 2.57% to 3.98 million ETH (-105,154 ETH), and USDT dropped 2.57% to about 32.9 billion USDT (-870 million USDT). The data suggests users may be rotating into Bitcoin exposure ahead of potential market recovery while reducing stablecoin and ETH positions.<br />
+<a href="https://t.me/wublockchainenglish/25637" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance SNDK Contract Trading Volume Surpasses Bitcoin USDT Perpetuals, 10 of Top 15 Contracts Are TradFi Assets</strong><br />
+Binance market data shows the SNDK (SanDisk) perpetual contract trading volume has reached approximately $6.37 billion, exceeding Bitcoin USDT perpetual contract volume of ~$5.96 billion. Notably, 10 of the top 15 contracts by volume on Binance are now TradFi-related assets (stocks, commodities, indices), reflecting the rapid integration of traditional financial assets into crypto-native trading environments and enabling global users to access U.S. equities and core assets with lower barriers.<br />
+<a href="https://t.me/theblockbeats/191235" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Blockchain Week 2026 to Be Held in Bangkok November 28-29, Themed "EVOLVE"</strong><br />
+Binance announced Binance Blockchain Week 2026 will take place November 28-29 at the Queen Sirikit National Convention Center (QSNCC) in Bangkok, Thailand, with the theme "EVOLVE." The event will cover Bitcoin institutionalization, stablecoin payments, institutional DeFi, RWA tokenization, tokenized stocks, cross-border payments, AI-crypto integration, and regulatory frameworks, gathering thousands of developers, institutional investors, fintech leaders, and policymakers.<br />
+<a href="https://t.me/wublockchainenglish/25641" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Adjusts UNITREE Perpetual Funding Rate Settlement to Every 4 Hours Amid High Volatility</strong><br />
+Binance announced it will adjust the funding rate settlement frequency for the UNITREEUSDT perpetual contract from every 8 hours to every 4 hours starting August 19, 08:15 UTC. The change responds to extreme volatility and elevated funding rates following Unitree Technology's IPO debut, with funding rates reaching -0.3544% per hour (shorts paying longs). The adjustment aims to manage risk while maintaining maximum funding rate caps of +2.00%/-2.00% per settlement.<br />
+<a href="https://t.me/theblockbeats/191224" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Nexo Launches Regulated Crypto-Backed Credit Lines in Australia Under National Consumer Credit Protection Act</strong><br />
+Digital asset platform Nexo has been appointed as an authorized Credit Representative in Australia, launching regulated crypto-backed Credit Lines under the National Consumer Credit Protection Act. Nexo Australia is a member of the Australian Financial Complaints Authority (AFCA). Alongside Credit Lines, Nexo introduced its rebranded Nexo Growth yield product (formerly Nexo Booster) and tiered Wealth Club loyalty program, marking expansion of regulated crypto lending services in the Australian market.<br />
+<a href="https://t.me/wublockchainenglish/25640" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Jupiter Gacha Adds Luxury Watch Packs with Watchdotfun, Offering Real Timepieces and $50,000 in Launch Rewards</strong><br />
+Jupiter Exchange's Gacha platform has partnered with watchdotfun to offer luxury watch packs featuring real timepieces and $50,000 in launch rewards. The integration blends physical luxury goods with on-chain gamification, creating a novel use case for crypto-native rewards platforms and potentially attracting high-net-worth users to Solana DeFi through tangible asset incentives.<br />
+<a href="https://t.me/leviathan_news/21718" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitget CFD Launches Sub-Account Feature with 100% Physical Isolation for Multi-Strategy Management</strong><br />
+Bitget CFD officially launched sub-account functionality designed for institutional clients, professional trading teams, and high-net-worth users to enable granular multi-strategy management with 100% physical isolation between different strategies and positions. Sub-accounts share the main account's KYC status without requiring re-verification, with a default maximum of 5 independent CFD accounts per user, supporting deployment of EA, high-frequency scalping, long-term trend following, and hedging strategies in isolated environments.<br />
+<a href="https://t.me/theblockbeats/191227" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitget Stock Contracts Add UNITREE (Unitree Technology), Now Supporting 277 Stock Contract Tickers</strong><br />
+Bitget announced its stock perpetual contracts platform has added UNITREE (Unitree Technology), settled in USDT with support for up to 20x leverage and 7×24 trading. As of now, Bitget supports a total of 277 stock contract tickers, expanding access to traditional equity markets for global crypto traders.<br />
+<a href="https://t.me/theblockbeats/191244" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Bitcoin Surges Above $68,000 as Crypto Liquidations Reach $1.31 Billion in One Hour</strong><br />
+Binance market data shows BTC rose above $68,000 to $68,418 (up 5.47% over 24 hours) and ETH surpassed $2,000 to $2,081 (up 8.4%). CoinGlass data indicates approximately $1.31 billion in crypto positions were liquidated in one hour, including $1.23 billion in short positions. Over the past 24 hours, total liquidations reached approximately $1.57 billion, with shorts accounting for $1.41 billion and 114,038 traders liquidated. The surge triggered cascading liquidations across major exchanges, driven by a sharp reversal from recent bearish sentiment.<br />
+<a href="https://t.me/wublockchainenglish/25646" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Scaramucci Points to $100,000 Bitcoin as "Magic Number" for OG Sellers, Eyes AI-Blockchain Convergence</strong><br />
+SkyBridge Capital founder Anthony Scaramucci identified $100,000 as a psychological "magic number" where early Bitcoin holders (OGs) may consider selling, while highlighting growing convergence between AI and blockchain technologies as a major thematic driver. The commentary suggests institutional investors are mapping out key resistance levels and sectoral catalysts for the next phase of crypto market evolution.<br />
+<a href="https://t.me/TheBlock001/7324" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> / https://t.me/leviathan_news/21739</p>
+
+<p><strong>Spot Bitcoin ETFs Record $189 Million in Net Inflows on August 18, Hashdex DEFI ETF to Liquidate</strong><br />
+According to SoSoValue, spot Bitcoin ETFs recorded $189 million in net inflows on August 18 (ET). Meanwhile, Hashdex's DEFI spot Bitcoin ETF has begun liquidation due to factors including assets under management, trading liquidity, and operating costs, ceasing trading on NYSE Arca on August 17 before delisting. Spot Ethereum ETFs recorded $71.468 million in net inflows, led by BlackRock's ETHA with $64.6814 million.<br />
+<a href="https://t.me/wublockchainenglish/25638" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Institutional Bitcoin ETF Holdings Rose 7.5% Despite 14.2% Q2 Price Decline</strong><br />
+CryptoSlate reported that while Bitcoin fell 14.2% in Q2 2026, institutional Bitcoin ETF holdings increased 7.5% from 498,389 BTC to 535,723 BTC. The number of institutions reporting Bitcoin positions through 13F filings fell from around 2,000 to approximately 1,900. Banks and quant funds increased exposure while sovereign wealth funds and endowments largely held steady, suggesting institutional conviction remains firm despite price volatility.<br />
+<a href="https://t.me/wublockchainenglish/25643" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>VanEck: Bitcoin May Be Near Accumulation Phase as 8 of 12 Capitulation Signals Trigger</strong><br />
+VanEck's latest report shows 8 of its 12 tracked Bitcoin market capitulation signals were triggering as of August 12, while all 12 had entered capitulation territory at some point over the past three months. VanEck suggests Bitcoin's 10-month drawdown from its October 2025 peak indicates the market may be nearing or already in an accumulation phase, with a potential turning point expected between September and November based on historical cycle patterns.<br />
+<a href="https://t.me/wublockchainenglish/25635" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BlackRock: Bitcoin's 50%+ Pullback Does Not Change Long-Term Investment Case</strong><br />
+BlackRock stated in its latest report that Bitcoin's 50%+ decline from its October 2025 all-time high was driven mainly by deleveraging, weaker capital flows, and slower buying from digital asset treasuries rather than fundamental deterioration. Open interest in crypto futures exceeded $90 billion at the peak (about 80% from perpetual futures outside CME), and subsequent tariff shocks triggered multiple waves of liquidations. Spot Bitcoin ETF inflows remain resilient with continued institutional adoption.<br />
+<a href="https://t.me/wublockchainenglish/25633" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kalshi Files to Launch Perpetual Futures Tied to U.S. Stock Index and Copper</strong><br />
+Prediction market platform Kalshi has filed to launch perpetual futures contracts tied to U.S. stock indices and copper, expanding beyond traditional event contracts into commodity and equity index derivatives. The move signals Kalshi's ambition to compete more directly with traditional derivatives exchanges while leveraging its CFTC-regulated status for mainstream financial products.<br />
+<a href="https://t.me/TheBlock001/7323" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Policy Center and Trade[XYZ] Propose Pre-IPO Perpetuals in SEC Comment Letter</strong><br />
+Hyperliquid Policy Center and trade[XYZ] submitted a comment letter to the SEC proposing pre-IPO perpetual contracts, seeking regulatory clarity for derivatives tied to private company valuations before public listing. The proposal represents an attempt to bring innovation in private market derivatives to crypto-native platforms while navigating securities law constraints.<br />
+<a href="https://t.me/leviathan_news/21724" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Interest Rate Options Market Shifts to Betting on Fed Easing, Traders Position for 2027 Loosening Cycle</strong><br />
+As U.S. economic data weakens, the interest rate options market is adjusting expectations for the Federal Reserve's policy path. Recent data shows July inflation and consumer demand cooling, with nonfarm payrolls unexpectedly declining by 23,000 jobs and retail sales recording the largest drop in over a year. Market expectations for a September Fed rate hike have declined significantly. Interest rate swap markets show the Fed is priced for only about 9 basis points of tightening at the September meeting, with cumulative tightening expectations of approximately 40 basis points by June 2027. Meanwhile, Polymarket, Kalshi, and Myriad prediction markets align in assessing about 74-75% probability that the Fed holds rates unchanged in September.<br />
+<a href="https://t.me/theblockbeats/191229" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Ethena Labs and FalconX Unveil $1 Billion Secured Warehouse Facility for USDe Collateral</strong><br />
+Ethena Labs and digital asset prime broker FalconX established a $1 billion secured warehouse facility to deploy assets backing USDe into overcollateralized institutional loans. FalconX will originate, service, and manage collateral</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

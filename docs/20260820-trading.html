@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 20, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260820-trading.html" class="active">08/20/2026</a>
+    <a href="20260814-trading.html" class="">08/14/2026</a>
+    <a href="20260813-trading.html" class="">08/13/2026</a>
+    <a href="20260812-trading.html" class="">08/12/2026</a>
+    <a href="20260811-trading.html" class="">08/11/2026</a>
+    <a href="20260807-trading.html" class="">08/07/2026</a>
+    <a href="20260806-trading.html" class="">08/06/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260820-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260820-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 20, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Crypto Short Squeeze Accelerates</strong> — Bitcoin cleared $68,000 and Ethereum reclaimed $2,000 after $1.31 billion in liquidations in a single hour, primarily shorts. Multiple whales on Hyperliquid realized massive profits ($13M+, $5.8M BTC, $3M ETH) while a $125M BTC short position was liquidated for $2.9M loss. This represents a violent unwind of bearish positioning that could fuel continuation. <strong>Tickers:</strong> BTC, ETH (<a href="https://t.me/wublockchainenglish/25646," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191305-307" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Semiconductor Supply-Side Shock</strong> — Marvell surged 12% on Google chip partnership, Samsung raising foundry prices 15%, and SK Hynix announcing $40 trillion buyback signals tight supply meeting insatiable AI demand. Optical comms facing multi-year shortages for lasers/TIA components. Nvidia reaffirmed Buy at $282 by Stifel as cloud hyperscaler spending accelerates. This is classic late-cycle supply constraint price power. <strong>Tickers:</strong> MRVL, GOOG, NVDA, SKHY, AAOI (<a href="https://t.me/theblockbeats/191267," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191238," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191280" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Bond Vigilantes vs. Tech Valuations</strong> — 30-year Treasury yields hit multi-year highs in a "bond-stock double kill," pressuring long-duration tech assets. Term premium expansion driven by fiscal deficits and inflation fears raises cost of capital for AI/semiconductor buildouts. Japan's JGB yields climbing, forcing BoJ toward hikes. This macro headwind conflicts with bullish sector fundamentals. <strong>Tickers:</strong> TLT, NVDA, growth indices (<a href="https://t.me/theblockbeats/191228," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191226," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191253" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Institutional Crypto Positioning Shift</strong> — Spot Bitcoin ETFs saw $189M inflows, Ethereum ETFs $71M, while institutional holdings rose 7.5% in Q2 despite price declines. Metaplanet seeding $2,100 BTC into new U.S. treasury platform. VanEck's capitulation signals (8 of 12 triggered) suggest Sept-Nov turning point. Sentiment extremely bearish among retail, setting up contrarian setup. <strong>Tickers:</strong> IBIT, ETHA, MSTR, COIN (<a href="https://t.me/wublockchainenglish/25638," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25635," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25630" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>BTC</strong> — Bitcoin broke through $68,000 (+6.5% in 24h) amid $1.31 billion in liquidations, primarily shorts. Large whale on Hyperliquid realized $13.04M profit (28% return) on leveraged long, while another took $5.82M profit. $125M short position liquidated for $2.9M loss signals capitulation. This violent squeeze could run to $75K-$80K if shorts continue covering. (<a href="https://t.me/wublockchainenglish/25646," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191305," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191307" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>ETH</strong> — Ethereum reclaimed $2,000 (+8.55% in 24h) with $3.05M whale profit realized on Hyperliquid. Spot ETF inflows at $71M signal institutional accumulation. However, one large position shows $19M unrealized loss and whales opened $98M in fresh shorts, suggesting resistance ahead. Strong bounce but needs follow-through above $2,100. (<a href="https://t.me/wublockchainenglish/25646," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191306," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191277" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>MRVL</strong> — Marvell surged 12% after announcing strategic partnership with Google for custom chip manufacturing, with Google acquiring option to purchase up to 58.97M shares plus future custom chip revenue. This validates Marvell's AI networking position and secures major design win. Entry on any pullback to $88-90 range. (<a href="https://t.me/theblockbeats/191267," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191264" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>NVDA</strong> — Stifel reiterated Buy rating with $282 target citing strong AI demand and raised guidance driven by hyperscaler spending acceleration. Nvidia establishing "hyperscaler" network in Northern Europe to connect GPU holders with data centers. Despite bond market pressure, fundamental demand intact. Samsung's 15% price hike on manufacturing reinforces pricing power across supply chain. (<a href="https://t.me/theblockbeats/191280," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191290," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191238" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>SKHY (SK Hynix)</strong> — Announced $40 trillion KRW buyback program (50%+ of 2025-2027 free cash flow), signaling confidence in undervalued shares and strong future cash generation. Stock rebounded after initial dip. Mizuho maintains Buy with 3.1M KRW target. Memory demand surge for AI driving pricing power. (<a href="https://t.me/theblockbeats/191269," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191254," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191268" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>GOOG</strong> — Google partnership with Marvell for custom chips plus option to acquire significant equity stake shows aggressive investment in proprietary silicon for AI infrastructure. Validates build-vs-buy strategy shift. Strengthens competitive position against AMZN/MSFT custom chip efforts. (<a href="https://t.me/theblockbeats/191267," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191264" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>COIN</strong> — Coinbase up 8%+ on crypto rally and institutional positioning shift. Binance's U.S. stock perpetuals now exceed Bitcoin volume, showing TradFi-crypto convergence benefiting regulated players. Institutional Q2 holdings up 7.5% despite price declines. Regulatory tailwinds building. (<a href="https://t.me/theblockbeats/191291," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191235," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191263" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>MSTR</strong> — MicroStrategy's Bitcoin strategy amplifies upside in rallies. Despite shareholder concerns about volatility, company's 28%+ BTC exposure provides pure-play leverage to crypto recovery. Institutional inflows and capitulation signals support continuation. <a href="https://t.me/wublockchainenglish/25639" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>002513.HK (Uprise Technology)</strong> — Robotics company IPO surged on STAR Market debut, founder Wang Xingxing's net worth exceeding 1B yuan. WilderHill projects revenue increasing 8x in three years. China's AI/robotics push creating winners in domestic supply chain. (<a href="https://t.me/theblockbeats/191242," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191231" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>MRNA</strong> — Moderna up 153% as Nasdaq Biotechnology Index hit all-time high (+5% intraday, largest gain since April 2025). AI-driven drug discovery creating breakout opportunities in biotech. (<a href="https://t.me/theblockbeats/191286," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191279" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>ETH</strong> — Despite rally, one Hyperliquid whale position showing $19.17M unrealized loss. Fresh whale shorts totaling $98M (50,838 ETH) opened at current levels suggest heavy resistance. Could stall rally at $2,100-2,150 zone. (<a href="https://t.me/theblockbeats/191308," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191277" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>BTC</strong> — Partial liquidation of $93M short cost whale $314K with 1,152 BTC position remaining. While squeeze continues, some bears doubling down. Risk of exhaustion if can't clear $70K decisively. <a href="https://t.me/theblockbeats/191276" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AAOI (Applied Optoelectronics)</strong> — Severe optical component shortage (lasers, TIA) will constrain AI infrastructure buildout for years. While bullish for pricing, supply bottlenecks could limit deployment speed and create vulnerabilities for dependent systems. Capacity expansion lagging demand by significant margin. <a href="https://t.me/theblockbeats/191247" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Long-Duration Tech</strong> — 30-year Treasury yields at multi-year highs imposing "term premium" on markets. Rising cost of capital pressures valuations of AI/semiconductor companies with long payback periods. Bond-stock double kill creating macro headwind even as fundamentals stay strong. Japanese yields forcing BoJ toward hikes adds global pressure. (<a href="https://t.me/theblockbeats/191228," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191226," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191253" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>DeFi Protocols</strong> — Maya Protocol hacked for $10.9M TVL with CACAO token crashing 89%. Security risks remain elevated in DeFi space, particularly for smaller protocols. <a href="https://t.me/theblockbeats/191222" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long IBIT (Bitcoin ETF) / Long MSTR</strong></p>
+
+<ul>
+<li>Rationale: Short squeeze dynamics remain violent with $1.3B liquidated in one hour. VanEck's capitulation signals (8/12 triggered) suggest Sept-Nov turning point. Institutional positioning up 7.5% in Q2 despite price weakness shows smart money accumulating. MSTR provides 3x+ leverage to BTC moves.</li>
+<li>Entry: IBIT on any pullback to $42-43 range; MSTR at $1,800-1,850</li>
+<li>Risks: Fails to hold $65K on BTC; macro deterioration from bond yields</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25646," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191305," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25635," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191263" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long NVDA / Long BOTZ (AI/Robotics ETF)</strong></p>
+
+<ul>
+<li>Rationale: Stifel $282 target reiterated on hyperscaler spending acceleration. Samsung raising foundry prices 15% shows supply-side pricing power. Northern Europe hyperscaler network expands infrastructure. Supply constraints (optical components multi-year shortage) support pricing. Chinese robotics (Uprise Tech) shows global AI build-out.</li>
+<li>Entry: NVDA $245-250; BOTZ on any 3-5% pullback</li>
+<li>Risks: Bond yields compress tech multiples; recession fears derail capex</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/191280," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191290," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191238," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191242" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long MRVL</strong></p>
+
+<ul>
+<li>Rationale: Google partnership secures major custom chip design win with equity upside (58.97M share option). Validates AI networking position. 12% surge still leaves room if Google relationship expands. Hyperscaler shift to custom silicon accelerating.</li>
+<li>Entry: Any dip to $88-92 range</li>
+<li>Risks: Google scales back orders; competitive threats from Broadcom/internal designs</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/191267," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191264" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long COIN</strong></p>
+
+<ul>
+<li>Rationale: Up 8% on crypto rally; regulatory sentiment improving; Binance U.S. stock perpetuals exceeding BTC volume shows TradFi-crypto convergence benefiting regulated players. Institutional holdings up 7.5% in Q2. Operating leverage to crypto volume recovery.</li>
+<li>Entry: $215-225 range</li>
+<li>Risks: Crypto rally fades; regulatory setbacks; competition from traditional brokers</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/191291," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191235," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191263" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long ETHA (Ethereum ETF)</strong></p>
+
+<ul>
+<li>Rationale: ETH reclaimed $2,000 with $71M ETF inflows. Spot accumulation by institutions. While whale shorts at $98M present near-term resistance, successful break above $2,100 could trigger secondary squeeze. Risk/reward favors longs on pullbacks.</li>
+<li>Entry: On any dip to $1,950-1,980</li>
+<li>Risks: Whale shorts defend $2,100; ratio underperforms BTC</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25646," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191306," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191277" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Pair Trade: Long SKHY / Short TLT (or Long SKHY / Long UST)</strong></p>
+
+<ul>
+<li>Rationale: SK Hynix $40T buyback with memory pricing power vs. rising yields pressuring bond prices. Semiconductors have pricing power and cash flow; bonds facing supply/deficit pressure. Captures sector strength while hedging duration risk.</li>
+<li>Entry: Establish pair at current levels</li>
+<li>Risks: Recession crushes chip demand faster than yields fall; geopolitical shocks</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/191254," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191268," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191228," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191226" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Long ARKQ (Autonomous Tech &amp; Robotics) + Selective GOOG</strong></p>
+
+<ul>
+<li>Rationale: Google's custom chip strategy (Marvell partnership) positions it for AI infrastructure build. Chinese robotics (Uprise) and biotech AI (Moderna up 153%) show broad AI deployment. ARKQ captures diversified exposure to automation/robotics theme.</li>
+<li>Entry: GOOG $172-175; ARKQ on any 4-6% pullback</li>
+<li>Risks: Macro slowdown delays deployment; cost of capital pressure from yields</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/191267," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191242," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191286" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Bond Market Breakdown</strong> — 30-year yields at multi-year highs creating "term premium" shock. If 10-year breaks 4.8% or 30-year exceeds 5.2%, tech valuations face significant compression. Japan's rising yields and expected BoJ hikes add global pressure. Trigger: 10Y &gt;4.8%. Impact: 10-15% drawdown in high-duration growth stocks, crypto risk-off. (<a href="https://t.me/theblockbeats/191228," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191226," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191253" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Crypto Exhaustion After Squeeze</strong> — While $1.3B liquidation drove violent rally, ETH whale shorts ($98M) and remaining BTC short (1,152 BTC) suggest bears regrouping. If BTC fails at $70K or ETH stalls at $2,100, reversal could be swift. Trigger: BTC close below $65K. Impact: Retest of $58K-60K lows. (<a href="https://t.me/theblockbeats/191277," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191276" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p>• <strong>Semiconductor Supply Bottleneck</strong> — Multi-year shortage in optical components (lasers, TIA) could constrain AI infrastructure deployment despite strong demand. Creates vulnerability if hyperscalers can't execute buildouts on schedule. Trigger: Major delays announced by hyperscalers. Impact: 5-10% correction in AI infrastructure stocks. (<a href="https://t.me/the" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

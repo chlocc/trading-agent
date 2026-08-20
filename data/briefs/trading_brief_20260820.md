@@ -4,96 +4,130 @@
 
 🔥 TOP THEMES
 
-• **Crypto Short Squeeze Accelerates** — Bitcoin cleared $68,000 and Ethereum reclaimed $2,000 after $1.31 billion in liquidations in a single hour, primarily shorts. Multiple whales on Hyperliquid realized massive profits ($13M+, $5.8M BTC, $3M ETH) while a $125M BTC short position was liquidated for $2.9M loss. This represents a violent unwind of bearish positioning that could fuel continuation. **Tickers:** BTC, ETH (→ https://t.me/wublockchainenglish/25646, → https://t.me/theblockbeats/191305-307)
+• **Institutional Crypto Adoption Accelerating** — Bitcoin ETFs posted their largest inflows in 3.5 months ($517M), while 12 of MSTR's top 15 holders added $1.2B in Q2. This signals institutional conviction is strengthening after months of sideways action. **Affected tickers:** BTC, IBIT, FBTC, MSTR, COIN
 
-• **Semiconductor Supply-Side Shock** — Marvell surged 12% on Google chip partnership, Samsung raising foundry prices 15%, and SK Hynix announcing $40 trillion buyback signals tight supply meeting insatiable AI demand. Optical comms facing multi-year shortages for lasers/TIA components. Nvidia reaffirmed Buy at $282 by Stifel as cloud hyperscaler spending accelerates. This is classic late-cycle supply constraint price power. **Tickers:** MRVL, GOOG, NVDA, SKHY, AAOI (→ https://t.me/theblockbeats/191267, → https://t.me/theblockbeats/191238, → https://t.me/theblockbeats/191280)
+• **AI Capex Payback Certainty** — Alibaba's CEO confirmed AI compute investments show 3-year payback with potential compression to 2-2.5 years, validating the AI infrastructure thesis. This comes as Riot Platforms pivots to $980M in AI hosting deals, showing real revenue visibility. **Affected tickers:** NVDA, MSFT, GOOG, ARKQ, RIOT
 
-• **Bond Vigilantes vs. Tech Valuations** — 30-year Treasury yields hit multi-year highs in a "bond-stock double kill," pressuring long-duration tech assets. Term premium expansion driven by fiscal deficits and inflation fears raises cost of capital for AI/semiconductor buildouts. Japan's JGB yields climbing, forcing BoJ toward hikes. This macro headwind conflicts with bullish sector fundamentals. **Tickers:** TLT, NVDA, growth indices (→ https://t.me/theblockbeats/191228, → https://t.me/theblockbeats/191226, → https://t.me/theblockbeats/191253)
+• **Regulatory Clarity Momentum** — Trump's explicit call to end the "war on crypto" and push for the Clarity Act, plus CFTC working to bring Hyperliquid compliant onshore, marks a major shift. Market is pricing in structural regulatory improvement. **Affected tickers:** HYPE, COIN, MSTR, BTC, ETH
 
-• **Institutional Crypto Positioning Shift** — Spot Bitcoin ETFs saw $189M inflows, Ethereum ETFs $71M, while institutional holdings rose 7.5% in Q2 despite price declines. Metaplanet seeding $2,100 BTC into new U.S. treasury platform. VanEck's capitulation signals (8 of 12 triggered) suggest Sept-Nov turning point. Sentiment extremely bearish among retail, setting up contrarian setup. **Tickers:** IBIT, ETHA, MSTR, COIN (→ https://t.me/wublockchainenglish/25638, → https://t.me/wublockchainenglish/25635, → https://t.me/wublockchainenglish/25630)
+• **Biotech Breakthrough** — Moderna's personalized cancer vaccine Phase 3 success drove S&P Global to triple its price target ($50→$150), showing mRNA platform validation beyond COVID. This could catalyze a broader biotech rotation. **Affected tickers:** MRNA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🟢 BULLISH SIGNALS
 
-**BTC** — Bitcoin broke through $68,000 (+6.5% in 24h) amid $1.31 billion in liquidations, primarily shorts. Large whale on Hyperliquid realized $13.04M profit (28% return) on leveraged long, while another took $5.82M profit. $125M short position liquidated for $2.9M loss signals capitulation. This violent squeeze could run to $75K-$80K if shorts continue covering. (→ https://t.me/wublockchainenglish/25646, → https://t.me/theblockbeats/191305, → https://t.me/theblockbeats/191307)
+**BTC** — Spot Bitcoin ETFs recorded $517M in net inflows, the largest single-day uptake in 3.5 months, led by BlackRock's IBIT. This institutional buying pressure came as BTC broke through $72k resistance, with CryptoQuant's CEO noting demand has flipped positive for the first time since the ATH. Short-term holders are taking profits near key levels, but the broader trend suggests accumulation phase completion. Bitcoin also approaching a technical "golden cross" with price above the 200-day SMA. (→ https://t.me/TheBlock001/7329)
 
-**ETH** — Ethereum reclaimed $2,000 (+8.55% in 24h) with $3.05M whale profit realized on Hyperliquid. Spot ETF inflows at $71M signal institutional accumulation. However, one large position shows $19M unrealized loss and whales opened $98M in fresh shorts, suggesting resistance ahead. Strong bounce but needs follow-through above $2,100. (→ https://t.me/wublockchainenglish/25646, → https://t.me/theblockbeats/191306, → https://t.me/theblockbeats/191277)
+**NVDA, MSFT, GOOG** — Alibaba CEO Daniel Zhang provided crucial validation for AI capex, stating investments have "high certainty" of 3-year payback with potential to shorten to 2-2.5 years as efficiency improves. This addresses the market's primary concern about AI infrastructure ROI and supports continued hyperscaler spending. Separately, semiconductor price hikes are accelerating due to AI demand and supply constraints, improving margin outlook. (→ https://t.me/theblockbeats/191478)
 
-**MRVL** — Marvell surged 12% after announcing strategic partnership with Google for custom chip manufacturing, with Google acquiring option to purchase up to 58.97M shares plus future custom chip revenue. This validates Marvell's AI networking position and secures major design win. Entry on any pullback to $88-90 range. (→ https://t.me/theblockbeats/191267, → https://t.me/theblockbeats/191264)
+**MRNA** — S&P Global raised Moderna's price target 200% from $50 to $150 following successful Phase 3 trials for its personalized cancer vaccine developed with BioNTech. This validates the mRNA platform's expansion beyond infectious disease and positions Moderna for a major product diversification cycle. The move could trigger fresh institutional coverage and positioning ahead of commercial launch timelines. (→ https://t.me/theblockbeats/191468)
 
-**NVDA** — Stifel reiterated Buy rating with $282 target citing strong AI demand and raised guidance driven by hyperscaler spending acceleration. Nvidia establishing "hyperscaler" network in Northern Europe to connect GPU holders with data centers. Despite bond market pressure, fundamental demand intact. Samsung's 15% price hike on manufacturing reinforces pricing power across supply chain. (→ https://t.me/theblockbeats/191280, → https://t.me/theblockbeats/191290, → https://t.me/theblockbeats/191238)
+**ETH, GNO** — Gnosis Chain received community approval to transition from Layer-1 to an Ethereum rollup, strengthening Ethereum's position as the settlement layer of choice. ETH itself surged 18% in 24 hours with over $736M in short liquidations, breaking through key resistance. Whales accumulated $12.42M worth of ETH in a two-hour window, suggesting smart money positioning for continuation. (→ https://t.me/leviathan_news/21786)
 
-**SKHY (SK Hynix)** — Announced $40 trillion KRW buyback program (50%+ of 2025-2027 free cash flow), signaling confidence in undervalued shares and strong future cash generation. Stock rebounded after initial dip. Mizuho maintains Buy with 3.1M KRW target. Memory demand surge for AI driving pricing power. (→ https://t.me/theblockbeats/191269, → https://t.me/theblockbeats/191254, → https://t.me/theblockbeats/191268)
+**BTC, ETH, SOL, HYPE, PUMP** — High-profile trader Ansem outlined a concentrated 5-token portfolio targeting 3x-5x returns over two years, with HYPE and PUMP identified as highest risk/reward given their positioning in emerging on-chain trading infrastructure. This follows Trump's announcement that CFTC is working to bring Hyperliquid compliant to the US, which sent HYPE up 16%. (→ https://t.me/theblockbeats/191434)
 
-**GOOG** — Google partnership with Marvell for custom chips plus option to acquire significant equity stake shows aggressive investment in proprietary silicon for AI infrastructure. Validates build-vs-buy strategy shift. Strengthens competitive position against AMZN/MSFT custom chip efforts. (→ https://t.me/theblockbeats/191267, → https://t.me/theblockbeats/191264)
+**MSTR, COIN** — MicroStrategy saw 12 of its top 15 institutional holders increase positions in Q2, adding ~$1.2B in aggregate value. MSTR and other crypto equities (COIN, MARA, RIOT) rallied significantly following Trump's pro-crypto remarks. Coinbase CEO Armstrong predicted BTC reaching $300-400k by 2030 and stated we're likely in the "pre-night" of the next bull run. (→ https://t.me/wublockchainenglish/25657)
 
-**COIN** — Coinbase up 8%+ on crypto rally and institutional positioning shift. Binance's U.S. stock perpetuals now exceed Bitcoin volume, showing TradFi-crypto convergence benefiting regulated players. Institutional Q2 holdings up 7.5% despite price declines. Regulatory tailwinds building. (→ https://t.me/theblockbeats/191291, → https://t.me/theblockbeats/191235, → https://t.me/theblockbeats/191263)
+**RIOT** — Riot Platforms signed $980M in AI data center hosting agreements with two major tech clients, marking a strategic pivot from pure Bitcoin mining to large-scale data center infrastructure. This provides multi-year revenue visibility and repositions RIOT as an AI infrastructure play with crypto optionality, potentially warranting multiple expansion. (→ https://t.me/theblockbeats/191481)
 
-**MSTR** — MicroStrategy's Bitcoin strategy amplifies upside in rallies. Despite shareholder concerns about volatility, company's 28%+ BTC exposure provides pure-play leverage to crypto recovery. Institutional inflows and capitulation signals support continuation. (→ https://t.me/wublockchainenglish/25639)
+**HYPE** — President Trump explicitly stated the CFTC is working to bring Hyperliquid into the US "in a compliant manner," providing regulatory clarity for the leading decentralized perpetuals exchange. Token surged 16% on the news, and Coinbase integrated Hyperliquid perps into its Base App with 290+ markets. This legitimizes on-chain derivatives as an institutional product category. (→ https://t.me/wublockchainenglish/25649)
 
-**002513.HK (Uprise Technology)** — Robotics company IPO surged on STAR Market debut, founder Wang Xingxing's net worth exceeding 1B yuan. WilderHill projects revenue increasing 8x in three years. China's AI/robotics push creating winners in domestic supply chain. (→ https://t.me/theblockbeats/191242, → https://t.me/theblockbeats/191231)
+**SOL, SEI** — Eli Lilly shares rose 4% ahead of tokenized listing on Solana via Backpack Securities, marking traditional equities coming on-chain. Separately, Sei Network announced a Mastercard partnership launching financial institution infrastructure next week. Solana meme coins also surging with ecosystem momentum. (→ https://t.me/leviathan_news/21779)
 
-**MRNA** — Moderna up 153% as Nasdaq Biotechnology Index hit all-time high (+5% intraday, largest gain since April 2025). AI-driven drug discovery creating breakout opportunities in biotech. (→ https://t.me/theblockbeats/191286, → https://t.me/theblockbeats/191279)
+**OP** — Optimism's core team successfully reallocated 49.7M OP tokens to strategic ecosystem fund, boosting governance participation and signaling aggressive ecosystem growth push. This treasury management sets up potential grant programs and partnerships. (→ https://t.me/theblockbeats/191479)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔴 BEARISH SIGNALS
 
-**ETH** — Despite rally, one Hyperliquid whale position showing $19.17M unrealized loss. Fresh whale shorts totaling $98M (50,838 ETH) opened at current levels suggest heavy resistance. Could stall rally at $2,100-2,150 zone. (→ https://t.me/theblockbeats/191308, → https://t.me/theblockbeats/191277)
+**BTC (Technical)** — Glassnode analysis warns current Bitcoin rebounds are "local rallies, not trend reversal," with US spot demand yet to return meaningfully. Peter Schiff called the $72k breakout a "false breakout," advising rotation into gold. A whale holding 1,200 BTC short ($85.55M) faces liquidation but signals some large players remain positioned for downside. Technical resistance remains at $80-82.5k zone. (→ https://t.me/wublockchainenglish/25653)
 
-**BTC** — Partial liquidation of $93M short cost whale $314K with 1,152 BTC position remaining. While squeeze continues, some bears doubling down. Risk of exhaustion if can't clear $70K decisively. (→ https://t.me/theblockbeats/191276)
+**WMT** — Walmart stock fell 6% despite beating Q2 revenue expectations after lowering full-year net sales and EPS guidance, signaling consumer spending weakness. This retail warning could indicate broader economic softness affecting discretionary spending and risk appetite. (→ https://t.me/theblockbeats/191466)
 
-**AAOI (Applied Optoelectronics)** — Severe optical component shortage (lasers, TIA) will constrain AI infrastructure buildout for years. While bullish for pricing, supply bottlenecks could limit deployment speed and create vulnerabilities for dependent systems. Capacity expansion lagging demand by significant margin. (→ https://t.me/theblockbeats/191247)
+**USD, Long-duration Treasuries** — Galaxy Strategy lowered 3-month USD Index forecast to 98.34, anticipating dollar weakness from Treasury actions. Simultaneously, long-duration Treasury yields rising (30-year up 6bp to 5.25%), creating challenging macro cross-currents. German 5-year yields hit 3% for first time since 2008, suggesting global rate uncertainty. (→ https://t.me/theblockbeats/191529)
 
-**Long-Duration Tech** — 30-year Treasury yields at multi-year highs imposing "term premium" on markets. Rising cost of capital pressures valuations of AI/semiconductor companies with long payback periods. Bond-stock double kill creating macro headwind even as fundamentals stay strong. Japanese yields forcing BoJ toward hikes adds global pressure. (→ https://t.me/theblockbeats/191228, → https://t.me/theblockbeats/191226, → https://t.me/theblockbeats/191253)
-
-**DeFi Protocols** — Maya Protocol hacked for $10.9M TVL with CACAO token crashing 89%. Security risks remain elevated in DeFi space, particularly for smaller protocols. (→ https://t.me/theblockbeats/191222)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 💡 TRADE IDEAS
 
-**1. Long IBIT (Bitcoin ETF) / Long MSTR**
-- Rationale: Short squeeze dynamics remain violent with $1.3B liquidated in one hour. VanEck's capitulation signals (8/12 triggered) suggest Sept-Nov turning point. Institutional positioning up 7.5% in Q2 despite price weakness shows smart money accumulating. MSTR provides 3x+ leverage to BTC moves.
-- Entry: IBIT on any pullback to $42-43 range; MSTR at $1,800-1,850
-- Risks: Fails to hold $65K on BTC; macro deterioration from bond yields
-- Related signals: → https://t.me/wublockchainenglish/25646, → https://t.me/theblockbeats/191305, → https://t.me/wublockchainenglish/25635, → https://t.me/theblockbeats/191263
+**1. Long IBIT/FBTC (Bitcoin ETF exposure)**
+- Rationale: $517M single-day inflow marks institutional accumulation resumption after 3.5-month drought. Regulatory clarity improving with Trump/CFTC support. Technical golden cross forming. ETF structure captures institutional flow better than spot for swing trades.
+- Entry: Current levels or pullback to $70-71k BTC equivalent
+- Risks: Invalidated if ETF outflows resume or BTC loses $68k support decisively
+- Related signals: 
+  • Spot BTC ETF record inflows (→ https://t.me/TheBlock001/7329)
+  • CryptoQuant demand flip positive (→ https://t.me/theblockbeats/191486)
+  • Technical golden cross forming (→ https://t.me/theblockbeats/191518)
 
-**2. Long NVDA / Long BOTZ (AI/Robotics ETF)**
-- Rationale: Stifel $282 target reiterated on hyperscaler spending acceleration. Samsung raising foundry prices 15% shows supply-side pricing power. Northern Europe hyperscaler network expands infrastructure. Supply constraints (optical components multi-year shortage) support pricing. Chinese robotics (Uprise Tech) shows global AI build-out.
-- Entry: NVDA $245-250; BOTZ on any 3-5% pullback
-- Risks: Bond yields compress tech multiples; recession fears derail capex
-- Related signals: → https://t.me/theblockbeats/191280, → https://t.me/theblockbeats/191290, → https://t.me/theblockbeats/191238, → https://t.me/theblockbeats/191242
+**2. Long ARKQ/BOTZ (AI robotics & automation)**
+- Rationale: Alibaba CEO's 3-year AI capex payback confirmation removes key institutional objection. Riot's $980M AI hosting deals show revenue materialization. Chipmakers seeing fresh price hikes. Robotics positioned at intersection of AI compute and real-world deployment.
+- Entry: Add on any 3-5% dip in ARKQ
+- Risks: Broader tech multiple compression or AI capex guidance cuts from hyperscalers
+- Related signals:
+  • Alibaba confirms AI capex payback (→ https://t.me/theblockbeats/191478)
+  • Semiconductor price hikes accelerating (→ https://t.me/theblockbeats/191503)
+  • Riot pivots to AI infrastructure (→ https://t.me/theblockbeats/191481)
 
-**3. Long MRVL**
-- Rationale: Google partnership secures major custom chip design win with equity upside (58.97M share option). Validates AI networking position. 12% surge still leaves room if Google relationship expands. Hyperscaler shift to custom silicon accelerating.
-- Entry: Any dip to $88-92 range
-- Risks: Google scales back orders; competitive threats from Broadcom/internal designs
-- Related signals: → https://t.me/theblockbeats/191267, → https://t.me/theblockbeats/191264
+**3. Long MRNA (biotech swing)**
+- Rationale: Personalized cancer vaccine Phase 3 success validates mRNA platform beyond COVID. S&P Global tripled target to $150 from $50, suggesting significant undervaluation vs. new opportunity set. Biotech sector positioning light, creating room for momentum.
+- Entry: $50-55 range on any post-pop consolidation
+- Risks: Phase 3 detailed data disappoints, or FDA regulatory timeline extends
+- Related signals:
+  • S&P target raise to $150 (→ https://t.me/theblockbeats/191468)
 
-**4. Long COIN**
-- Rationale: Up 8% on crypto rally; regulatory sentiment improving; Binance U.S. stock perpetuals exceeding BTC volume shows TradFi-crypto convergence benefiting regulated players. Institutional holdings up 7.5% in Q2. Operating leverage to crypto volume recovery.
-- Entry: $215-225 range
-- Risks: Crypto rally fades; regulatory setbacks; competition from traditional brokers
-- Related signals: → https://t.me/theblockbeats/191291, → https://t.me/theblockbeats/191235, → https://t.me/theblockbeats/191263
+**4. Long MSTR (levered BTC exposure with catalyst)**
+- Rationale: 12 of top 15 holders added $1.2B in Q2, showing institutional conviction. MSTR provides 2x+ leveraged BTC exposure with improving sentiment around corporate BTC treasury strategy. Regulatory clarity reduces governance/custody concerns.
+- Entry: Current levels or scale in on BTC dips
+- Risks: BTC breaks down below $68k or Saylor announces dilutive capital raise
+- Related signals:
+  • Top holders increased stakes (→ https://t.me/wublockchainenglish/25657)
+  • Trump crypto support (→ https://t.me/theblockbeats/191488)
+  • Institutional BTC adoption (→ https://t.me/TheBlock001/7329)
 
 **5. Long ETHA (Ethereum ETF)**
-- Rationale: ETH reclaimed $2,000 with $71M ETF inflows. Spot accumulation by institutions. While whale shorts at $98M present near-term resistance, successful break above $2,100 could trigger secondary squeeze. Risk/reward favors longs on pullbacks.
-- Entry: On any dip to $1,950-1,980
-- Risks: Whale shorts defend $2,100; ratio underperforms BTC
-- Related signals: → https://t.me/wublockchainenglish/25646, → https://t.me/theblockbeats/191306, → https://t.me/theblockbeats/191277
+- Rationale: ETH outperformed with 18% 24hr surge and $186.8M ETF inflows. Layer-2 momentum with Gnosis rollup transition strengthens Ethereum as settlement layer. Whale accumulation of $12.42M in 2 hours. ETH/BTC ratio bottoming setup.
+- Entry: Current or small pullback to $2,500-2,600 equivalent
+- Risks: Invalidated if ETH loses $2,300 or ETF outflows resume
+- Related signals:
+  • Gnosis L2 transition (→ https://t.me/leviathan_news/21786)
+  • Whale accumulation (→ https://t.me/theblockbeats/191497)
+  • ETH ETF inflows (→ https://t.me/theblockbeats/191435)
 
-**6. Pair Trade: Long SKHY / Short TLT (or Long SKHY / Long UST)**
-- Rationale: SK Hynix $40T buyback with memory pricing power vs. rising yields pressuring bond prices. Semiconductors have pricing power and cash flow; bonds facing supply/deficit pressure. Captures sector strength while hedging duration risk.
-- Entry: Establish pair at current levels
-- Risks: Recession crushes chip demand faster than yields fall; geopolitical shocks
-- Related signals: → https://t.me/theblockbeats/191254, → https://t.me/theblockbeats/191268, → https://t.me/theblockbeats/191228, → https://t.me/theblockbeats/191226
+**6. Pairs Trade: Long COIN / Short WMT**
+- Rationale: Crypto infrastructure benefits from regulatory clarity and institutional adoption (COIN integrated Hyperliquid, CEO bullish on cycle). Consumer discretionary showing weakness (WMT guidance cut). Rotate from old economy retail to digital asset infrastructure.
+- Entry: Establish at current ratio
+- Risks: Broad market selloff hits growth harder than value, or crypto regulation reverses
+- Related signals:
+  • COIN Hyperliquid integration (→ https://t.me/wublockchainenglish/25654)
+  • Walmart guidance cut (→ https://t.me/theblockbeats/191466)
+  • Crypto stocks rallying (→ https://t.me/theblockbeats/191495)
 
-**7. Long ARKQ (Autonomous Tech & Robotics) + Selective GOOG**
-- Rationale: Google's custom chip strategy (Marvell partnership) positions it for AI infrastructure build. Chinese robotics (Uprise) and biotech AI (Moderna up 153%) show broad AI deployment. ARKQ captures diversified exposure to automation/robotics theme.
-- Entry: GOOG $172-175; ARKQ on any 4-6% pullback
-- Risks: Macro slowdown delays deployment; cost of capital pressure from yields
-- Related signals: → https://t.me/theblockbeats/191267, → https://t.me/theblockbeats/191242, → https://t.me/theblockbeats/191286
+**7. Long HYPE token (high risk/reward spec)**
+- Rationale: Trump/CFTC explicit support for US-compliant onboarding removes existential regulatory risk. Coinbase integration into Base legitimizes decentralized perps for institutions. Trader Ansem highlighted as highest risk/reward in core portfolio. First-mover in on-chain derivatives with $980M daily volume.
+- Entry: Scale in on any 20%+ correction from current levels
+- Risks: CFTC approval process stalls or competitive on-chain perp DEXs emerge; high volatility token
+- Related signals:
+  • Trump CFTC support (→ https://t.me/TheBlock001/7326)
+  • Coinbase Base integration (→ https://t.me/wublockchainenglish/25654)
+  • Ansem portfolio allocation (→ https://t.me/theblockbeats/191434)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ⚠️ RISKS TO WATCH
 
-• **Bond Market Breakdown** — 30-year yields at multi-year highs creating "term premium" shock. If 10-year breaks 4.8% or 30-year exceeds 5.2%, tech valuations face significant compression. Japan's rising yields and expected BoJ hikes add global pressure. Trigger: 10Y >4.8%. Impact: 10-15% drawdown in high-duration growth stocks, crypto risk-off. (→ https://t.me/theblockbeats/191228, → https://t.me/theblockbeats/191226, → https://t.me/theblockbeats/191253)
+• **BTC Technical Rejection** — Key resistance zone at $80-82.5k has rejected multiple times. Glassnode warns rebounds may be local rallies without sustained US demand. If BTC fails to hold $70k on retest, could trigger cascade of stops and invalidate bullish setup.
 
-• **Crypto Exhaustion After Squeeze** — While $1.3B liquidation drove violent rally, ETH whale shorts ($98M) and remaining BTC short (1,152 BTC) suggest bears regrouping. If BTC fails at $70K or ETH stalls at $2,100, reversal could be swift. Trigger: BTC close below $65K. Impact: Retest of $58K-60K lows. (→ https://t.me/theblockbeats/191277, → https://t.me/theblockbeats/191276)
+• **AI Capex Fatigue** — Despite Alibaba's positive payback commentary, any major hyperscaler (MSFT, GOOG, META) cutting AI spending guidance would trigger sector-wide repricing. Meta's multi-billion Azure spend creates execution risk. Monitor upcoming earnings closely.
 
-• **Semiconductor Supply Bottleneck** — Multi-year shortage in optical components (lasers, TIA) could constrain AI infrastructure deployment despite strong demand. Creates vulnerability if hyperscalers can't execute buildouts on schedule. Trigger: Major delays announced by hyperscalers. Impact: 5-10% correction in AI infrastructure stocks. (→ https://t.me/the
+• **Regulatory Reversal** — While Trump/CFTC rhetoric is supportive, actual Clarity Act passage uncertain. Any enforcement action against major crypto firm or Hyperliquid compliance process breakdown would reverse recent gains. CFTC's statement that industry "will ultimately face oversight" suggests regulation isn't going away.
+
+• **Macro Cross-Currents** — Dollar weakness (USD Index target .34) typically bullish for risk assets, but rising long-duration yields (30yr at 5.25%) and Walmart's guidance cut signal economic uncertainty. This creates choppy conditions where rallies may be sold. Watch for broader market correlation breakdown.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 MACRO CONTEXT
+
+Markets are navigating a complex setup: crypto and AI infrastructure showing strong fundamental momentum (ETF inflows, regulatory clarity, AI payback validation) while traditional economy signals mixed (Walmart warning, rising yields). The $517M Bitcoin ETF inflow and Trump's explicit crypto support mark a potential inflection in institutional adoption after months of consolidation. However, technical resistance zones and Glassnode's caution about "local rallies" suggest traders should manage risk carefully and watch for confirmation of sustained demand above $72-75k for BTC and continued ETF flows.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+83 signals | 82 tradeable | 74 bullish | 9 bearish

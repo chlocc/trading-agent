@@ -4,98 +4,105 @@
 
 🔥 TOP THEMES
 
-• **Crypto Debasement Trade Accelerating** — US Treasury's expanded long-term debt buyback program is weakening the dollar and fueling a classic debasement trade into Bitcoin, gold, and risk assets. This is a structural shift, not a tactical bounce. Key tickers: BTC, ETH, IBIT, FBTC, MSTR, GLD (→ https://t.me/theblockbeats/191655)
+• **Liquidity-Driven Crypto Rally** — US Treasury's expansion of long-term debt buybacks is weakening the dollar and flooding risk assets with liquidity, driving BTC above $79k and triggering four consecutive days of ETF inflows totaling $606M yesterday alone. This marks a structural shift from the multi-month downtrend. Tickers: BTC, ETH, IBIT, FBTC, ETHA, COIN, MSTR (→ https://t.me/theblockbeats/191655)
 
-• **Institutional Crypto Demand Surges** — Bitcoin and Ethereum ETFs pulled in $1.59B and $509M this week respectively, while whale flows show rotation OUT of mega-cap tech (MSFT, NVDA) and INTO crypto. This is confirmation that smart money is repositioning aggressively. Key tickers: IBIT, FBTC, ETHA, COIN, MSTR (→ https://t.me/theblockbeats/191648, https://t.me/theblockbeats/191659)
+• **Whale Rotation: Tech → Crypto** — A major institutional player has rotated substantial capital out of AI mega-caps (MSFT, NVDA, META, AMZN, GOOGL, AAPL, ORCL) directly into BTC and ETH, signaling conviction that crypto now offers better risk/reward than overextended tech names. This flow mirrors broader institutional repositioning ahead of potential rate cuts. (→ https://t.me/theblockbeats/191659)
 
-• **Bitcoin Supply-Demand Imbalance** — Spot BTC demand hit annual highs and now exceeds new issuance, creating a structural supply squeeze. Combined with technical breakouts above bear market resistance levels, this signals the early bull phase has begun. Key tickers: BTC, IBIT, MSTR (→ https://t.me/theblockbeats/191656, https://t.me/theblockbeats/191595)
+• **Regulatory Clarity Accelerating** — SEC Chairman announced "Regulation Crypto Assets" to provide clear compliance pathways for capital raises, while Laser Digital Japan became the first new crypto exchange licensed in Japan in four years. Regulatory tailwinds are removing key overhang from institutional adoption. Tickers: COIN, all crypto ETFs (→ https://t.me/wublockchainenglish/25675)
 
-• **AI Infrastructure Under Pressure** — Chip foundry prices are soaring due to AI shortages, squeezing margins for server and consumer electronics companies while benefiting foundries. Volatility remains high in AI stocks with positioning not yet extreme. Key tickers: NVDA, AMD, MSFT, GOOG (→ https://t.me/theblockbeats/191590, https://t.me/theblockbeats/191588)
+• **DeFi Value Accrual Thesis** — Morgan Stanley initiated coverage on DeFi protocols with aggressive price targets (UNI, AAVE, MORPHO, LINK), while ENA executed a $9.59M buyback gaining 68% in three days. Focus shifting to protocols with real yields and sustainable tokenomics. (→ https://t.me/theblockbeats/191669)
 
 🟢 BULLISH SIGNALS
 
-**BTC** — Bitcoin spot demand reached new annual highs and now exceeds new coin issuance, entering a supply-demand imbalance phase that historically precedes sustained rallies. Technical confirmation came via breakouts above multiple bear market resistance levels, signaling the transition from bear to early bull market. With ETF inflows accelerating ($606M yesterday alone) and the next resistance not until $83.3K, momentum is clear. (→ https://t.me/theblockbeats/191656, https://t.me/theblockbeats/191595, https://t.me/theblockbeats/191602)
+**BTC** — Bitcoin broke $79,000 (+10% in 24hrs) on the back of $606M ETF inflows, Treasury buyback-driven dollar weakness, and technical breakout above multi-month trendline resistance. Spot demand now exceeds mining supply by the widest margin this year, entering "oversold buy" territory. MicroStrategy holdings gained $10B in value this week alone. Key resistance at $80.5k, but momentum favors continuation. (→ https://t.me/theblockbeats/191635, https://t.me/theblockbeats/191656)
 
-**ETH** — Ethereum is outperforming on the back of its central role in stablecoin infrastructure and real-world asset tokenization, according to Bernstein analysts. ETH ETFs saw $219.5M in inflows yesterday, and improved liquidity conditions plus favorable regulations are driving institutional accumulation. Spot broke $2,400 with 5.84% daily gains. (→ https://t.me/theblockbeats/191658, https://t.me/theblockbeats/191628)
+**ETH** — Cleared $2,400 (+5.84% daily) with $219.5M in ETF inflows yesterday. Bernstein analysts highlight ETH's structural role in stablecoins and tokenization as underappreciated drivers. The ETH/BTC ratio is stabilizing after months of weakness, suggesting relative strength emerging. Options expiry today ($21.8B notional) shifted sentiment to "fully bullish." (→ https://t.me/theblockbeats/191625, https://t.me/theblockbeats/191658)
 
-**MSTR** — MicroStrategy's Bitcoin holdings now carry an $8.3B paper profit as BTC surges past $75K. MSTR itself rallied 15.53% in pre-market, outperforming direct BTC exposure on leverage and continued institutional buying. This is the classic BTC beta play for equity-only accounts. (→ https://t.me/theblockbeats/191622, https://t.me/wublockchainenglish/25665)
+**ENA** — Ethena Labs executed a strategic buyback of 170M ENA tokens from FalconX, netting $9.59M in gains (+68% in 3 days). This demonstrates protocol-level capital discipline and aligns with the DeFi value accrual theme. Real yield protocols are getting institutional attention post-Morgan Stanley initiation. (→ https://t.me/theblockbeats/191677)
 
-**COIN** — Coinbase jumped 13.41% as crypto momentum returns and trading volumes surge. The company benefits from both spot and derivatives activity, and with President Trump expressing crypto support and regulatory clarity improving, COIN offers clean exposure to the entire crypto market revival. (→ https://t.me/wublockchainenglish/25665)
+**HYPE** — Broke through $77, approaching all-time highs. Despite large FalconX transfers suggesting distribution pressure, retail demand remains strong. Options expiry positioning and DeFi momentum supporting the move. Watch for resistance at ATH levels. (→ https://t.me/theblockbeats/191686)
 
-**BTC/ETH (macro backdrop)** — The US Treasury's expanded long-term debt buyback plan has ignited a debasement trade, weakening the dollar and pushing capital into Bitcoin, Ethereum, gold, and other hard assets. This isn't a tactical move—it's a structural shift in liquidity that favors crypto over fiat. Bernstein cites improved liquidity, ETF demand, and favorable regulations as the three-legged stool supporting this rally. (→ https://t.me/theblockbeats/191655, https://t.me/theblockbeats/191658)
+**BNB** — Surged past $680 (+6% daily) as Binance derivatives volume exploded 619% to $95.1B over three days. Renewed exchange activity and upcoming HertzFlow USD1 launch on BNB Chain adding fundamental support. (→ https://t.me/theblockbeats/191632, https://t.me/theblockbeats/191645)
 
-**PUMP** — PUMP token is exhibiting a positive feedback loop: platform revenue drives buybacks, which tightens liquidity and pushes price higher, attracting more users and revenue. The token surged as Pump.fun's on-chain activity accelerates, making this an attractive entry for traders looking to ride the meme-launch platform wave. (→ https://t.me/theblockbeats/191650)
+**SOL** — Cleared $90 (+5.19% daily) with institutional validation from Shinhan Asset Management partnering with Solana Foundation for tokenized KRW funds. South Korean institutional adoption accelerating. (→ https://t.me/theblockbeats/191613, https://t.me/theblockbeats/191611)
 
-**XRP** — XRP is seeing strong retail demand in South Korea (Upbit volume surged 273%) and institutional attention via Ripple's new institutional lending fund on XRPL using RLUSD stablecoin. The combination of retail momentum and institutional infrastructure build-out makes XRP a leveraged play on crypto adoption. (→ https://t.me/theblockbeats/191655, https://t.me/theblockbeats/191601)
+**COIN** — Crypto-related stocks rallying in pre-market following Trump's pro-crypto comments and the broader digital asset surge. COIN benefits from elevated trading volumes and regulatory clarity. (→ https://t.me/wublockchainenglish/25665)
 
-**SOL** — Solana broke $90 (+5.19% daily) and continues to benefit from tokenization activity, with South Korea's Shinhan Asset Management successfully testing a tokenized Korean Won fund on Solana. A whale also accumulated a large leveraged long position with $6.3M in unrealized profit, signaling conviction. (→ https://t.me/theblockbeats/191613, https://t.me/theblockbeats/191629)
+**MSTR** — MicroStrategy's BTC holdings added ~$10B in value this week. Stock trading higher pre-market alongside crypto rally. Levered BTC exposure thesis intact as underlying asset breaks out. (→ https://t.me/theblockbeats/191622, https://t.me/theblockbeats/191636)
 
-**GNO** — Gnosis Chain's governance approved a transition from layer-1 to Ethereum rollup, a strategic shift that should improve composability, security, and liquidity. This is a long-term structural positive for GNO as it repositions within the Ethereum ecosystem. (→ https://t.me/leviathan_news/21786)
+**PUMP** — Platform token benefiting from core buyback-and-burn mechanism (50% of revenue), creating positive reflexivity with rising transaction volumes. Strong price action driven by structural tokenomics. (→ https://t.me/theblockbeats/191650)
+
+**UNI, AAVE, MORPHO, LINK** — Morgan Stanley initiated coverage with bullish targets as institutional capital recognizes DeFi value accrual. UNI and AAVE highlighted for governance and fee generation, Morpho for efficient lending markets, LINK for oracle infrastructure. (→ https://t.me/theblockbeats/191669)
 
 🔴 BEARISH SIGNALS
 
-**BB (BounceBit)** — BounceBit Chain is permanently shutting down following a protocol-level exploit that transferred 286.54M BB tokens. The token will be reissued on BNB Chain, but the damage to credibility and liquidity is done. This is a zero-until-proven-otherwise situation—avoid all exposure. (→ https://t.me/theblockbeats/191682)
+**OM (MANTRA)** — Network halted with transactions frozen due to unidentified incident. Deposits and withdrawals suspended. This type of operational failure creates lasting trust damage and potential regulatory scrutiny. Avoid until clarity on incident cause and resolution timeline. (→ https://t.me/wublockchainenglish/25674)
 
-**BTC (technical resistance)** — Bitcoin is facing resistance at its long-term downtrend line and 21-month EMA. If these levels hold, expect a pullback toward the 50-month EMA before resuming upside. This is a tactical caution within a broader bullish trend—use pullbacks as entries, not exits. (→ https://t.me/theblockbeats/191683)
+**BTC Technical Caution** — Multiple analysts warning that BTC faces long-term downtrend resistance at confluence of trendline and 21-month EMA. Short-term rally may have been Binance short squeeze rather than sustainable spot demand. Potential pullback to 50-month EMA ($72k area) if momentum stalls. (→ https://t.me/wublockchainenglish/25678, https://t.me/theblockbeats/191683)
+
+**HYPE Distribution Risk** — FalconX transferred $100M+ worth of HYPE to exchanges in 24 hours, with OTC buyers actively selling. While price near ATH, this supply pressure creates overhang. Large whale sold 871k HYPE ($64.82M) through FalconX recently. (→ https://t.me/theblockbeats/191604, https://t.me/theblockbeats/191594)
+
+**LINK Whale Distribution** — Major holder transferred significant LINK to Galaxy Digital and Cumberland for likely OTC sale. Large token unlocks or whale exits can create near-term pressure despite positive fundamentals. (→ https://t.me/theblockbeats/191630)
+
+**NVDA/Tech Bubble Warnings** — JPMorgan drawing parallels between current AI hype and 1999-2000 tech bubble, warning of autumn sell-off risk in US stocks. If AI trade unwinds, could pressure crypto initially despite recent outperformance. (→ https://t.me/theblockbeats/191688)
 
 💡 TRADE IDEAS
 
-**1. Long IBIT (iShares Bitcoin Trust ETF)**
-- Rationale: Direct BTC exposure via the cleanest ETF wrapper. Inflows hit $606M yesterday and supply-demand dynamics are entering squeeze territory. With BTC breaking bear market resistance and next resistance at $83.3K, this is the simplest way to ride the institutional bid.
-- Entry: Current levels or on any intraday dip below $78K BTC
-- Risks: Invalidated if BTC loses $72K or ETF flows reverse for 3+ consecutive days
-- Related signals: [BTC supply-demand imbalance](https://t.me/theblockbeats/191656) | [ETF inflows](https://t.me/theblockbeats/191602) | [Bear market breakout](https://t.me/theblockbeats/191595)
+**1. Long IBIT (Bitcoin Spot ETF)**
+- Rationale: Most direct institutional BTC exposure with $606M single-day inflow confirming trend shift. Treasury buybacks weakening dollar, Fed remaining hawkish creates ideal macro backdrop for BTC as monetary hedge. Options expiry today cleared overhang.
+- Entry: Current levels or pullback to $77k BTC (monitor IBIT NAV premium)
+- Risks: Break below $75k invalidates bullish structure; watch for Fed rhetoric shift that strengthens dollar
+- Related signals: (→ https://t.me/theblockbeats/191655), (→ https://t.me/theblockbeats/191643), (→ https://t.me/theblockbeats/191635)
 
-**2. Long MSTR (MicroStrategy)**
-- Rationale: Leveraged BTC exposure with equity optionality. MSTR is up 15.53% pre-market and carries $8.3B in BTC paper profits. This is the institutional way to amplify BTC beta without using futures. Momentum is clear and regulatory backdrop is improving.
-- Entry: On any pullback toward $460-$480 or at current levels for momentum traders
-- Risks: BTC reversal below $72K invalidates; watch for margin pressure if BTC volatility spikes
-- Related signals: [MSTR profit surge](https://t.me/theblockbeats/191622) | [Whale rotation into crypto](https://t.me/theblockbeats/191659) | [BTC rally](https://t.me/theblockbeats/191595)
+**2. Long ETHA (Ethereum Spot ETF)**
+- Rationale: ETH structurally undervalued relative to BTC given role in stablecoins/tokenization per Bernstein. $219.5M inflow signals institutional recognition. Better risk/reward than BTC here given lower beta exhaustion.
+- Entry: On dips toward $2,350 or break above $2,450 with volume
+- Risks: ETH/BTC ratio reversal; loss of $2,300 support suggests more downside
+- Related signals: (→ https://t.me/theblockbeats/191658), (→ https://t.me/theblockbeats/191625), (→ https://t.me/theblockbeats/191628)
 
-**3. Long ETHA (iShares Ethereum Trust ETF)**
-- Rationale: Ethereum is outperforming on tokenization and stablecoin infrastructure themes. ETH ETFs saw $219.5M inflows yesterday and Bernstein calls this a structural trend. With ETH breaking $2,400, this is a cleaner play than direct spot exposure for institutional portfolios.
-- Entry: Current levels or on dips toward $2,350 ETH
-- Risks: Invalidated if ETH loses $2,250 or if RWA tokenization narrative stalls
-- Related signals: [Bernstein ETH thesis](https://t.me/theblockbeats/191658) | [ETF inflows](https://t.me/theblockbeats/191602) | [Tokenization momentum](https://t.me/wublockchainenglish/25672)
+**3. Long COIN (Coinbase)**
+- Rationale: Levered play on crypto volumes (Binance +619% volume spike) plus regulatory clarity (SEC Reg Crypto Assets, Japan licensing). Benefits from institutional onboarding without custody risk. Trading at discount to intrinsic given current volumes.
+- Entry: Current pre-market levels or on broader equity market weakness
+- Risks: Crypto pullback reduces trading revenues; regulatory risk if Clarity Act fails
+- Related signals: (→ https://t.me/wublockchainenglish/25675), (→ https://t.me/theblockbeats/191645), (→ https://t.me/wublockchainenglish/25665)
 
-**4. Long COIN (Coinbase)**
-- Rationale: Coinbase is the pure-play on crypto market activity. With volumes surging (Binance futures up 600% in 3 days), regulatory clarity improving, and COIN up 13.41%, this is the picks-and-shovels trade. It benefits from every asset class rally and every new user onboarded.
-- Entry: Current levels or on any dip below $265
-- Risks: Crypto market reversal or regulatory setback invalidates; watch for exchange competition
-- Related signals: [COIN rally](https://t.me/wublockchainenglish/25665) | [Volume surge](https://t.me/theblockbeats/191645) | [Regulatory clarity](https://t.me/wublockchainenglish/25675)
+**4. Long MSTR (MicroStrategy)**
+- Rationale: Ultimate levered BTC exposure with $10B in unrealized gains this week. NAV premium compressing creates entry point. Trump support + regulatory clarity removes political overhang. Converts equity rally directly to BTC accumulation.
+- Entry: On any intraday weakness; target NAV premium normalization
+- Risks: BTC correction amplified by leverage; equity market selloff hits MSTR harder than spot BTC
+- Related signals: (→ https://t.me/theblockbeats/191622), (→ https://t.me/theblockbeats/191636), (→ https://t.me/theblockbeats/191652)
 
-**5. Pairs Trade: Long BTC/ETH, Short Mega-Cap Tech (MSFT, NVDA)**
-- Rationale: A whale rotated OUT of MSFT, NVDA, META, AMZN, GOOGL, AAPL, ORCL and INTO BTC/ETH, signaling a shift in institutional preference. This trade captures that rotation: long crypto (structural debasement trade + supply squeeze) vs. short AI/tech (foundry cost pressures, positioning not extreme, inventory risk).
-- Entry: Long IBIT + ETHA, short QQQ or targeted shorts in MSFT/NVDA via options
-- Risks: Tech reasserts leadership or crypto loses momentum; hedge with stops on both sides
-- Related signals: [Whale rotation](https://t.me/theblockbeats/191659) | [AI cost pressure](https://t.me/theblockbeats/191590) | [Debasement trade](https://t.me/theblockbeats/191655)
+**5. Pairs Trade: Long ARKQ / Short NVDA (via options)**
+- Rationale: Capture tech → crypto rotation without directional market risk. ARKQ holds COIN, TSLA, and robotics/AI infrastructure; NVDA faces bubble warnings from JPMorgan. Whale flows confirm this rotation already underway.
+- Entry: Establish ratio spread at current levels, hedge with NVDA puts
+- Risks: AI infrastructure reacceleration; broader tech selloff hits both legs
+- Related signals: (→ https://t.me/theblockbeats/191659), (→ https://t.me/theblockbeats/191688), (→ https://t.me/theblockbeats/191666)
 
-**6. Short BB (BounceBit) on any bounce**
-- Rationale: BounceBit Chain is shutting down after a protocol exploit. Token reissuance on BNB Chain doesn't restore credibility—it highlights failure. Any bounce is a gift to short. This is a structural zero.
-- Entry: On any relief rally above current levels
-- Risks: Reissuance mechanics could create short-term squeeze; size accordingly and use options if available
-- Related signals: [BounceBit shutdown](https://t.me/theblockbeats/191682)
+**6. Tactical Long UNI or AAVE (spot)**
+- Rationale: Morgan Stanley initiation brings institutional credibility to DeFi value accrual thesis. Both protocols generate real fees with sustainable tokenomics. UNI benefits from DEX volume surge, AAVE from lending demand in bull market.
+- Entry: UNI on dips to key support; AAVE at current levels given runway to Morgan Stanley PT
+- Risks: DeFi summer narrative fades; smart contract exploits damage sector sentiment
+- Related signals: (→ https://t.me/theblockbeats/191669), (→ https://t.me/theblockbeats/191677), (→ https://t.me/theblockbeats/191650)
 
-**7. Long BOTZ or ARKQ (AI/Robotics ETFs) on foundry thesis**
-- Rationale: Chip foundry prices are soaring due to AI shortages, which benefits foundries but pressures end-market players. BOTZ and ARKQ offer exposure to the AI infrastructure build-out without direct chip inventory risk. This is a longer-dated trade on the AI capex cycle.
-- Entry: Current levels or on any tech sector weakness
-- Risks: AI demand growth disappoints or foundry pricing pressures reverse; invalidated if semiconductor ETFs (SOXX) underperform
-- Related signals: [Foundry price surge](https://t.me/theblockbeats/191590) | [AI infrastructure expansion](https://t.me/theblockbeats/191675) | [AI positioning](https://t.me/theblockbeats/191588)
+**7. Short Gold (GLD) / Long Bitcoin (IBIT) Pairs Trade**
+- Rationale: Both benefiting from dollar weakness, but BTC has superior momentum (+10% vs +1% for gold) and better structural setup. Monetary hedge flows rotating toward higher beta crypto from traditional safe havens.
+- Entry: Equal risk-weighted position at current levels
+- Risks: Flight-to-quality event reverses flow into gold; crypto-specific regulatory shock
+- Related signals: (→ https://t.me/theblockbeats/191655), (→ https://t.me/theblockbeats/191652), (→ https://t.me/theblockbeats/191612)
 
 ⚠️ RISKS TO WATCH
 
-• **BTC Technical Rejection** — Bitcoin is testing long-term downtrend resistance and the 21-month EMA. If it fails here, expect a pullback toward $72K or the 50-month EMA. Monitor daily closes and volume—failure to hold above $75K for 3+ days would signal tactical exhaustion. (→ https://t.me/theblockbeats/191683)
+• **Options Expiry Volatility** — $21.8B in BTC/ETH options expiring today with max pain levels potentially far from current price. Post-expiry dealer hedging flows could trigger sharp moves in either direction, especially if gamma positioning is skewed. Monitor 4pm ET settlement. (→ https://t.me/theblockbeats/191625)
 
-• **Whale Liquidation Cascade** — Over $758M in liquidations occurred in the past 12 hours, mostly shorts. But several large whales are now holding leveraged longs with significant unrealized profits. If BTC reverses sharply, long liquidations could trigger a cascade. Watch funding rates and whale wallet flows. (→ https://t.me/theblockbeats/191627)
+• **Whale Positioning Reversal** — Multiple large holders sitting on massive unrealized gains (Hyperliquid BTC long +$20M profit, SOL whale profitable). Profit-taking at these levels could trigger cascading liquidations given elevated leverage across the system. Watch funding rates and open interest. (→ https://t.me/theblockbeats/191618, https://t.me/theblockbeats/191629)
 
-• **Coinbase Premium Negative for 95 Days** — The Coinbase BTC premium has been negative for a record 95 consecutive days, suggesting weak US retail buying or persistent selling pressure. If this persists despite rally, it could signal fragility in the US bid and risk of reversal. (→ https://t.me/theblockbeats/191591)
+• **Fed Hawkish Surprise** — Current rally predicated on dollar weakness from Treasury buybacks, but Fed rhetoric remains hawkish. Any pushback on rate cut expectations or QT acceleration reverses the liquidity thesis. Jackson Hole symposium (Aug 22-24) is key risk event. (→ https://t.me/theblockbeats/191643)
 
-• **AI Stock Volatility and Inventory Risk** — AI stock positioning is not yet extreme, but volatility is high and inventory could outpace demand growth. If foundry cost pressures translate to margin compression for NVDA, MSFT, GOOG, expect a rotation out of AI names that could pressure broader tech. (→ https://t.me/theblockbeats/191588, https://t.me/theblockbeats/191590)
+• **Tech Bubble Unwind Contagion** — JPMorgan's 1999 parallel warnings gaining traction as AI stocks show exhaustion. If NVDA/MSFT/GOOGL correct sharply, initial risk-off likely drags crypto before rotation completes. Monitor Nasdaq correlation and VIX. (→ https://t.me/theblockbeats/191688)
 
 📌 MACRO CONTEXT
 
-The macro backdrop has shifted decisively in favor of risk assets, particularly crypto. The US Treasury's expanded debt buyback program is weakening the dollar and fueling a debasement trade into Bitcoin, gold, and hard assets—this is structural, not tactical. Improved liquidity conditions, accelerating ETF inflows ($1.59B into BTC, $509M into ETH this week), and favorable regulatory momentum under a crypto-friendly administration are converging to create the strongest setup for crypto since late 2024. Bitcoin has broken multiple bear market resistance levels and spot demand now exceeds new issuance, signaling the early bull phase has begun. Meanwhile, AI infrastructure faces cost pressures and volatility, creating a rotation opportunity out of mega-cap tech and into crypto. Today's signals reflect a market in transition—from defensive positioning to aggressive accumulation.
+The crypto rally is fundamentally liquidity-driven rather than narrative-driven. Treasury's decision to expand long-term debt buybacks is creating mechanical dollar weakness that benefits all hard assets, with BTC capturing disproportionate flows due to regulatory clarity and institutional infrastructure maturation (spot ETFs now proven absorption vehicles). The whale rotation from AI mega-caps into crypto confirms this isn't retail FOMO but positioning for the next phase of the cycle. However, the Fed's continued hawkish stance creates policy divergence risk that could short-circuit the rally if inflation reaccelerates or employment weakens unexpectedly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-91 signals | 91 tradeable | 55 bullish | 8 bearish
----
+86 signals analyzed | 13 high-confidence tradeable | 10 bullish themes | 5 bearish risks

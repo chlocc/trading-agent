@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 22, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260822-trading.html" class="active">08/22/2026</a>
+    <a href="20260821-trading.html" class="">08/21/2026</a>
+    <a href="20260820-trading.html" class="">08/20/2026</a>
+    <a href="20260814-trading.html" class="">08/14/2026</a>
+    <a href="20260813-trading.html" class="">08/13/2026</a>
+    <a href="20260812-trading.html" class="">08/12/2026</a>
+    <a href="20260811-trading.html" class="">08/11/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260822-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260822-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><h1>📰 NEWS DIGEST — August 22, 2026</h1>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🏛️ Regulation &amp; Policy</h2>
+
+<p><strong>U.S. Accelerates Crypto Regulation: Trump Pushes CLARITY Act as SEC and CFTC Align on Framework</strong><br />
+The Trump administration is advancing the CLARITY Act to establish clear regulatory boundaries between the SEC and CFTC for digital assets, with both agencies moving simultaneously to implement rule systems. The SEC proposed its first crypto asset regulatory framework allowing certain token offerings up to $50M to qualify for exemptions, while the CFTC indicated it will independently establish crypto market oversight if Congressional legislation stalls. The main obstacle remains certain ethical provisions that Trump considers targeting individuals.<br />
+<a href="https://t.me/theblockbeats/191740" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ZachXBT May Reject Crypto Victims From Certain Jurisdictions Based on Poor Case-Handling Experience</strong><br />
+On-chain investigator ZachXBT announced he would "likely automatically reject" future assistance requests from Canada, UK, India, Nigeria, Morocco, Algeria, and Bangladesh, citing these as jurisdictions with the worst case-handling experiences. His upcoming website will restrict users from regions he considers "low quality" from accessing crypto support services, reflecting frustration with institutional cooperation in these areas.<br />
+<a href="https://t.me/wublockchainenglish/25696" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trump Denies Directing Bessent on Debt Market Intervention, Says Growth Will Solve $40T Debt Problem</strong><br />
+President Trump denied instructing Treasury Secretary Bessent to intervene in bond markets as U.S. federal debt surpassed $40 trillion. Trump stated the debt problem "has existed for 35 years" and will be solved "through growth," claiming the U.S. is currently achieving "very strong growth." When asked about further intervention measures, Trump responded cryptically: "The ultimate intervention tool is our military, we'll act when needed."<br />
+<a href="https://t.me/theblockbeats/191730" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Canada Rejects Trade Deal With U.S., Will Impose Equal 50% Tariffs in Response</strong><br />
+Canadian Prime Minister Carney confirmed that trade negotiations with the U.S. have been suspended after rejecting a deal, stating Canada will implement retaliatory tariffs equal to the 50% duties the U.S. plans to impose on certain Canadian goods. The new U.S. tariffs, affecting approximately $20 billion worth of Canadian exports (5.5% of total), are set to take effect Saturday at 12:01 AM ET, covering products including hockey sticks and cement.<br />
+<a href="https://t.me/theblockbeats/191749" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🤖 AI &amp; Tech</h2>
+
+<p><strong>Starcloud Completes $250M Funding Extension to Build Orbital Data Centers for AI Inference</strong><br />
+Starcloud, a startup developing satellites capable of executing AI inference in orbit, secured an additional $250M in extension funding after its $170M Series A in March, bringing the total round to $420M at a $2.3B valuation. The funds will support construction of a larger satellite manufacturing facility and advance development of Starcloud-3, its largest orbital data center spacecraft, scheduled to launch on SpaceX's upcoming Starship. CEO Philip Johnston is raising additional capital to secure sufficient satellite launch resources as rocket capacity tightens.<br />
+<a href="https://t.me/theblockbeats/191789" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Apple Cuts Jobs in Siri and Vision Pro Teams, Redirects Resources to AI and New Devices</strong><br />
+Apple is conducting layoffs across teams responsible for Siri digital assistant and Vision Pro headset as part of efforts to concentrate resources on new devices and artificial intelligence. The company essentially shut down a team dedicated to Vision Pro gaming and reduced the department producing immersive video content for the device. The cuts affect over 200 positions, with approximately 100 from Vision Pro and another 100 from Siri and software teams, as Apple reallocates focus toward AI capabilities.<br />
+<a href="https://t.me/theblockbeats/191724" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tencent Chip Leader Gao Jianlin Leaves to Launch RISC-V High-Performance AI CPU Startup</strong><br />
+Gao Jianlin, core leader of Tencent's chip R&amp;D and early driver of the company's self-developed chip system, has left Tencent to start a company focused on developing RISC-V architecture high-performance CPUs for AI servers and Agentic AI. Gao, who established Tencent's FPGA hardware team in 2013 and Penglai Lab in 2020, believes that as Agentic AI rapidly develops, CPUs will assume increasingly important scheduling and control roles in AI systems alongside GPUs. The new company name, financing details, and product launch timeline have not been disclosed.<br />
+<a href="https://t.me/theblockbeats/191769" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic to List AI Backlash as Major Risk Factor in Upcoming IPO Prospectus</strong><br />
+Anthropic plans to include public negative sentiment toward artificial intelligence and data centers as risk factors in its IPO prospectus, expected to be published in coming weeks. The company recently held pre-IPO "market testing" meetings with bankers and investors, who focused on competitive pressure, impact of open-source models on profit margins, and risks from slowing data center construction. Anthropic previously achieved annualized revenue run rate exceeding $65 billion and is preparing for a major IPO amid growing U.S. public concerns about AI job displacement and data center expansion.<br />
+<a href="https://t.me/theblockbeats/191731" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>💳 Payments &amp; Stablecoins</h2>
+
+<p><strong>FedNow Offramps Enter Beta: Bridge Enables Instant 24/7/365 USD Withdrawals</strong><br />
+Bridge announced its FedNow offramps are now in beta mode, supporting instant, 24/7/365 USD withdrawals to FedNow-eligible accounts. This integration allows stablecoin users to access real-time settlement rails for converting digital dollars to traditional banking accounts, representing a significant infrastructure upgrade for the payments layer connecting crypto and traditional finance.<br />
+<a href="https://t.me/leviathan_news/21805" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Base Dollar Officially Launches on Base Chain</strong><br />
+Base Dollar went officially live on the Base blockchain, adding another stablecoin option to the Layer 2 ecosystem. The launch expands the stablecoin landscape on Base, which has seen growing adoption for payments and DeFi applications. Specific details about backing, issuer, and regulatory framework were not disclosed in the initial announcement.<br />
+<a href="https://t.me/leviathan_news/21813" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Delpho Publishes USDV Liquidity Event Report After Stablecoin Depeg and Recovery</strong><br />
+Delpho Labs published a detailed USDV Liquidity Event Report covering market activity, protocol performance, and next steps after its USDV stablecoin experienced a depeg on August 21 before later returning to the $1 peg. The report provides transparency into the incident that tested the stablecoin's redemption mechanisms and liquidity depth during stressed market conditions.<br />
+<a href="https://t.me/leviathan_news/21807" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🏦 Exchanges &amp; Platforms</h2>
+
+<p><strong>BitMart Explores Restructuring as Alternative to Full Wind-Down</strong><br />
+BitMart announced it is exploring restructuring options as an alternative to complete shutdown, with plans for phased operations and creditor distributions under guidance from law firm White &amp; Case. The exchange's consideration of restructuring rather than liquidation suggests an attempt to preserve some operational capacity while addressing financial obligations to users and creditors.<br />
+<a href="https://t.me/leviathan_news/21806" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korea's Upbit Records $830M Single-Hour Trading Volume During Market Flash Crash</strong><br />
+Driven by the recent crypto market rally, trading sentiment among South Korean investors rebounded sharply. At 05:00 UTC, the broader market experienced a sudden severe flash crash with major assets plunging before entering high-volatility turbulence. During that single hour, Upbit processed approximately 1.15 trillion KRW (~$830 million) in trading volume, demonstrating the exchange's liquidity depth and South Korean retail participation during extreme volatility.<br />
+<a href="https://t.me/wublockchainenglish/25695" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Extended Announces European Regulatory Framework Push Ahead of TGE</strong><br />
+Extended announced a regulated framework initiative for Europe ahead of its Token Generation Event (TGE), though traders reacted with mixed frustration over perceived delays that could push the TGE into 2026. The decision reflects the company's prioritization of compliance over speed-to-market, potentially setting back launch timelines but aiming to ensure regulatory clarity in European jurisdictions.<br />
+<a href="https://t.me/leviathan_news/21817" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kraken Test DEX Activates U.S.-Style Compliance Controls on Hyperliquid Testnet</strong><br />
+A "Kraken HIP-3 test DEX" appeared on Hyperliquid's testnet with U.S.-style compliance controls enabled, including whitelisting, forced liquidation, and collateral transfer restrictions. Observers linked it to regulatory progress, though skeptics noted anyone can name a testnet deployer. The development suggests major compliant exchanges may be seriously adapting Hyperliquid's permissioned HIP-3 framework rather than building entirely separate infrastructure, potentially validating Hyperliquid as neutral base-layer trading infrastructure.<br />
+<a href="https://t.me/leviathan_news/21816" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>📈 Crypto Trading &amp; Markets</h2>
+
+<p><strong>Bitcoin ETFs Record $307M Net Inflows, Extending Five-Day Streak</strong><br />
+U.S. spot Bitcoin ETFs recorded total net inflows of $307 million on August 21 (ET), marking five consecutive trading days of net inflows and demonstrating sustained institutional demand. Spot Ethereum ETFs recorded $185 million in net inflows on the same day, also extending a five-day inflow streak. The consecutive inflows signal improving sentiment among institutional investors as BTC approaches key resistance levels.<br />
+<a href="https://t.me/wublockchainenglish/25692" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Short-Term Holders Drive BTC Inflows to Binance: $178M in &lt;24hr Positions Hit Exchange</strong><br />
+Over the past three days with BTC rallying 23%, approximately 53,000 BTC flowed into exchanges for profit-taking, with 17,800 BTC entering Binance alone—the largest inflow since February 2026. Notably, all Binance inflows came from short-term holders, especially those holding less than one day, while holders of 6+ months sent zero BTC to Binance. This indicates the current rally is driven by short-term speculative capital rather than long-term structural selling.<br />
+<a href="https://t.me/theblockbeats/191802" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>$4 Billion in Short Liquidations Accelerate Bitcoin Rally; Wall Street and Washington Align</strong><br />
+Bitcoin's recent surge to near $79,000 was fueled by multiple factors: institutional fund flows via ETFs, improved macro environment, warming U.S. regulatory expectations, and massive short liquidations exceeding $4 billion over 2-3 days. The U.S. Treasury's expanded long-term debt buyback program weakened the dollar, triggering "currency debasement trades" and pushing capital toward Bitcoin and gold. Market analysts view this as one of the most significant short squeezes in recent months, amplified by coordinated positive signals from policy and market structure.<br />
+<a href="https://t.me/theblockbeats/191751" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto Fear &amp; Greed Index Returns to 'Greed' Territory at 71, Approaching Pre-1011 Crash Levels</strong><br />
+The crypto Fear &amp; Greed Index reached 71 today (down slightly from 72 yesterday), returning to "greed" sentiment levels approaching the 74 recorded on October 5, 2025—just before the "1011" market crash. The index incorporates volatility (25%), market trading volume (25%), social media heat (15%), market surveys (15%), Bitcoin's market dominance (10%), and Google keyword analysis (10%), suggesting elevated euphoria that historically precedes corrections.<br />
+<a href="https://t.me/theblockbeats/191790" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Multiple Altcoins Rally: ZEC Up 47%, BCH Gains 31%, ADA Rises 19% in 24 Hours</strong><br />
+According to CoinGecko data, multiple altcoins rallied alongside the broader market. ZEC rose 47.1% over 24 hours to $827.02; BCH gained 31.4% to $299.49; CC increased 20.4% to $0.1223; ADA rose 19.0% to $0.2563; DOGE and WBT each gained 17.7%; XLM climbed 16.2%; LINK advanced 13.3%; and HYPE rose 11.9% to $81.50. TRUMP climbed as high as 3.680 USDT, demonstrating broad-based risk appetite returning to crypto markets.<br />
+<a href="https://t.me/wublockchainenglish/25690" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Over 244,000 Traders Liquidated as $1.238B Wiped Out in 24 Hours, Both Longs and Shorts Hit</strong><br />
+According to Coinglass data, the past 24 hours saw $1.238 billion in total liquidations across global markets, with long positions accounting for $742 million and short positions $496 million. A total of 244,359 traders were liquidated globally, with the largest single liquidation order occurring on Hyperliquid - BTC-USD valued at $24.96 million, demonstrating extreme two-way volatility catching both bulls and bears.<br />
+<a href="https://t.me/theblockbeats/191814" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🔷 DeFi &amp; Protocols</h2>
+
+<p><strong>UNI Sets All-Time High Daily Burn Value of ~$590K on August 21</strong><br />
+According to WuBlockchain Data Center, UNI recorded a single-day burn value of approximately $590,000 on August 21, setting a new all-time high in USD terms. Ethereum accounted for $267K worth of UNI burned, Base for $165K, and Robinhood Chain for $87K. In token terms, 150,000 UNI were burned that day, marking the second-highest daily figure in history on a coin basis, reflecting increased protocol fee generation.<br />
+<a href="https://t.me/wublockchainenglish/25691" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Perpetual Contracts Market Share Rises to 10.2% by Open Interest</strong><br />
+According to hypeflows data, Hyperliquid currently accounts for 10.2% of global perpetual contract market share by open interest (including all centralized platforms like Binance, Bybit, OKX), slightly below the 10.4% record high set in late July. HYPE is currently trading at $77.79, up 2.25% in 24 hours, as the platform continues to challenge traditional centralized exchanges in derivatives trading.<br />
+<a href="https://t.me/theblockbeats/191804" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aligned Launches $ALIGN Token for Ethereum Financial Infrastructure Stack</strong><br />
+Aligned launched its $ALIGN token designed to support Ethereum's financial infrastructure stack, according to chainwire.org. The token aims to incentivize participation in Aligned's verification and proving systems that enhance Ethereum's scalability and security, adding another layer to the ecosystem's expanding infrastructure for institutional-grade financial applications.<br />
+<a href="https://t.me/leviathan_news/21819" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Policy Center Releases Report on Perpetual Futures as Complements to Dated Futures</strong><br />
+The Hyperliquid Policy Center published a report examining whether perpetual futures compete with or complement traditional futures markets, raising the important question of their relationship to legacy derivatives. The research suggests perpetuals may serve different market functions rather than purely cannibalizing traditional futures volume, with implications for regulatory treatment and market structure evolution.<br />
+<a href="https://t.me/leviathan_news/21814" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🔦 Other</h2>
+
+<p><strong>The Sandbox SAND Token Suffers Exploit: 14.9B Tokens Minted Across Base Network</strong><br />
+The Sandbox's SAND token faced a large-scale minting exploit on Base, with Blockaid and PeckShield detecting hackers using LayerZero permissions to create roughly 14.9 billion SAND tokens across hundreds of transactions. Upbit issued a warning and Bithumb suspended transfers as the attack continued. The Sandbox confirmed the incident affects Base and BSC networks involving less than 0.01% of total SAND supply, with Ethereum and Polygon unaffected. Cross-chain functionality for SAND on Base and BSC has been temporarily disabled.<br />
+<a href="https://t.me/leviathan_news/21815" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Grayscale Moves Closer to Launching First Zcash ETF With Fresh Amended SEC Filing</strong><br />
+Grayscale submitted its fourth amended S-3 filing to the SEC, advancing efforts to convert its Zcash Trust into a spot ETF (proposed ticker: ZCSH). The filing disclosed that DCG subsidiary DCG International Investments Ltd. is in non-binding discussions to inject approximately 200,000 ZEC (valued at ~$110M at the time). This would mark the first Zcash ETF in the U.S. market if approved, expanding crypto ETF offerings beyond Bitcoin and Ethereum.<br />
+<a href="https://t.me/TheBlock001/7341" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ray Dalio: Rising Debt Risks Require More Gold and Bitcoin Exposure</strong><br />
+Bridgewater founder Ray Dalio warned that recent U.S. Treasury market moves reflect the late stage of a "Big Debt Cycle," with rising debt supply, weaker bond demand, and growing currency pressure. He noted U.S. federal debt has reached ~$32 trillion with annual interest payments around $1 trillion, and governments may be forced to choose between higher rates that hurt the economy or money creation that devalues currencies. Dalio recommends investors reduce bond allocations and hedge with non-government-issued assets, suggesting portfolios hold 10-15% gold and "a portion" of Bitcoin.<br />
+<a href="https://t.me/wublockchainenglish/25685" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>One of China's Most Well-Known Miners Jiang Zhuoer: I'll Use All Remaining Funds to Buy ETH</strong><br />
+Jiang Zhuoer, founder of BTC.TOP, admitted his previous bearish market view was way off and is now 90% confident the bear market has ended, with ETH likely to outperform BTC this cycle. After buying back ETH at $1,738-$1,931, then selling 50% at $2,525 to try calling the top with a stop-loss at $2,550, Jiang plans to use all of his remaining 20-30% reserve funds to buy ETH if BTC falls back to retest support, demonstrating a complete reversal in market positioning.<br />
+<a href="https://t.me/wublockchainenglish/25693" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cathie Wood Reiterates $1.5M Bitcoin Target, Says 'Big Move' Is Coming</strong><br />
+ARK Invest founder Cathie Wood stated in an interview that "Bitcoin is preparing for a new surge" and reiterated her long-held $1.5 million BTC price target. Wood identified three core pillars supporting her thesis: institutional adoption, fixed supply, and Bitcoin's evolution into a true digital store of value. She also noted that a specific catalyst could significantly accelerate this timeline: U.S. government Bitcoin purchases.<br />
+<a href="https://t.me/theblockbeats/191791" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 23, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260823-trading.html" class="active">08/23/2026</a>
+    <a href="20260822-trading.html" class="">08/22/2026</a>
+    <a href="20260821-trading.html" class="">08/21/2026</a>
+    <a href="20260820-trading.html" class="">08/20/2026</a>
+    <a href="20260814-trading.html" class="">08/14/2026</a>
+    <a href="20260813-trading.html" class="">08/13/2026</a>
+    <a href="20260812-trading.html" class="">08/12/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260823-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260823-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 23, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Bitcoin Volatility Spike</strong> — BTC dropped below $76K triggering $91M in liquidations, but bounced back above $77K within hours. This whipsaw action suggests elevated volatility as market digests strong ETF inflows ($2.6B weekly) against overheating technicals. Key zone: $75K-$80K. Tickers: BTC, IBIT, FBTC, BITO, MSTR.</p>
+
+<p>• <strong>DeFi Protocol Momentum Divergence</strong> — Hyperliquid revenue exploded 196% WoW to $16.93M on surging volume, while Term Labs suffered an $8.5M exploit. This split highlights both the growth opportunity and smart contract risk in DeFi protocols. Tickers: HYPE, AAVE, MORPHO, PENDLE.</p>
+
+<p>• <strong>Nvidia Pricing Power Expansion</strong> — NVDA notified enterprise customers of 15%+ price increases on AI chip servers effective early next year, signaling strong demand and pricing leverage despite broader tech de-risking sentiment. Tickers: NVDA, MSFT, GOOG, BOTZ, ARKQ.</p>
+
+<p>• <strong>Altcoin Season Signals</strong> — AAVE broke $130, ZRO/DGB/STX led gains, and multiple altcoins rallied despite BTC weakness. Funding rates show ETH sentiment stronger than BTC. Base ecosystem tokens (POD) surged 23.7% on Coinbase listing news. Tickers: AAVE, ZRO, ETHA, POD, COIN.</p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>HYPE</strong> — Hyperliquid's revenue surged 196% WoW to $16.93M driven by explosive trading volume and fee generation. Platform is capturing meaningful DEX market share and demonstrating strong product-market fit. Builder Codes hit $984M daily perpetual volume. One whale holds $110M HYPE with $57M realized profit after 10-month hold, suggesting long-term conviction despite recent volatility. <a href="https://t.me/theblockbeats/191857" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191878" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25699" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC ETFs</strong> — US spot Bitcoin ETFs saw $2.6B net inflows this week, the strongest since October 2025, reversing prior week's outflows. This institutional capital influx provides fundamental support despite recent volatility. Binance inflows hit highest level since February as short-term holders realize profits. Grayscale notes structural adoption indicators suggest favorable long-term entry point. <a href="https://t.me/TheBlock001/7342" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191827" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191802" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA</strong> — Nvidia notifying customers of 15%+ price increases on AI servers starting early next year demonstrates exceptional pricing power and sustained demand. This counters de-risking narrative in AI stocks and validates the infrastructure buildout thesis. Storage and data center hardware remain attractive despite broader sector weakness. Upcoming earnings and industry conference are key catalysts. <a href="https://t.me/theblockbeats/191815" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191841" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AAVE</strong> — AAVE broke above $130 leading the DeFi rally as the altcoin market maintained upward momentum despite BTC weakness. Protocol fundamentals remain strong with established position in lending markets. Outperformance suggests capital rotation into established DeFi blue chips. <a href="https://t.me/theblockbeats/191882" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Solana reduced mainnet slot time to 350ms, progressing toward 200ms target and demonstrating tangible network performance improvements. This technical advancement supports the high-throughput narrative critical for DeFi and consumer applications. Meme coin CATE on Solana surged 48% to $80M market cap, showing ecosystem retail engagement. <a href="https://t.me/leviathan_news/21829" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191821" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>POD</strong> — Base ecosystem token POD surged 23.7% after Coinbase announced adding POD, BASECAT, DRB, and GRASS to its asset listing roadmap. Exchange listing catalysts remain powerful for smaller-cap tokens. Base ecosystem showing momentum as L2 scaling narrative evolves. <a href="https://t.me/theblockbeats/191883" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>FOLD</strong> — FOLD pumped 67% on announcement of Upbit listing with KRW, BTC, and USDT pairs. Korean exchange listings historically drive significant price action due to retail demand. Short-term momentum trade but watch for post-listing selloff. <a href="https://t.me/theblockbeats/191826" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/wublockchainenglish/25698" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>ETH</strong> — Ethereum fell below $2,400, down 4.9% in 24 hours, underperforming BTC despite bullish ETF inflows. DeFi exploits (Term Labs $8.5M) add negative sentiment. Large holder "Ma Jiao" began reducing ETH longs after taking profits, and F2Pool co-founder Wang Chun partially liquidated 12,765 ETH to reduce leverage on Spark. These whale derisking moves suggest near-term caution. <a href="https://t.me/theblockbeats/191845" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191867" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191832" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC (near-term)</strong> — Bitcoin dropped below $76K triggering $91M in liquidations before recovering. Analysts warn of short-term overheating with potential for 10% correction after rapid rally driven primarily by short covering rather than sustained spot demand. Major CEXs show $1.085B in long liquidations risk if BTC breaks $75K. Funding rates indicate FOMO conditions. <a href="https://t.me/theblockbeats/191850" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191848" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191856" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191855" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191846" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DeFi Protocol Risk</strong> — Term Labs suffered $8.5M exploit with attacker holding ETH and DAI. This adds to ongoing smart contract risk concerns in DeFi. Broad altcoin correction saw multiple tokens down 25%+ including TAC, FHE, SQD, PTB following BTC weakness. <a href="https://t.me/theblockbeats/191862" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> <a href="https://t.me/theblockbeats/191839" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>TRUMP</strong> — TRUMP meme coin team transferred $9.33M worth of tokens to OKX, likely signaling selling pressure. Political meme coins remain highly speculative with team distribution risk. <a href="https://t.me/theblockbeats/191818" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long IBIT (Bitcoin ETF) on dips to $75K-$76K</strong></p>
+
+<ul>
+<li>Rationale: $2.6B weekly institutional inflows provide strong support. Current volatility creating entry opportunities. Grayscale and Standpoint Bank both identify structural bottom formation with potential run to $126K by year-end. "Golden Cross" forming (50-day MA crossing 200-day MA) is bullish technical signal.</li>
+<li>Entry: Scale in between $75,000-$76,500 BTC equivalent or IBIT $35-$37</li>
+<li>Risks: Break below $75K invalidates setup and triggers $1B+ liquidation cascade</li>
+<li>Related signals:<br />
+• Weekly ETF inflows $2.6B <a href="https://t.me/theblockbeats/191827" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Grayscale bottom call <a href="https://t.me/theblockbeats/191807" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Golden Cross forming <a href="https://t.me/theblockbeats/191860" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Standpoint $126K target <a href="https://t.me/theblockbeats/191825" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long NVDA calls (Mar 2027 expiry) ahead of earnings</strong></p>
+
+<ul>
+<li>Rationale: 15%+ price increase announcement demonstrates extraordinary pricing power in AI infrastructure. Validates sustained demand despite sector rotation concerns. Upcoming earnings and industry conference provide near-term catalysts. Storage/datacenter hardware thesis intact.</li>
+<li>Entry: ATM or slightly OTM calls on any weakness into earnings</li>
+<li>Risks: Broader tech selloff or disappointing earnings guidance. China export restrictions escalation.</li>
+<li>Related signals:<br />
+• Price increase announcement <a href="https://t.me/theblockbeats/191815" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Datacenter hardware attractive <a href="https://t.me/theblockbeats/191841" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long HYPE on pullbacks</strong></p>
+
+<ul>
+<li>Rationale: Revenue up 196% WoW to $16.93M showing explosive growth. Builder Codes hitting $984M daily volume. Whale conviction with $110M hold and $57M realized profit. DEX market share gains are structural. FalconX transfer of $6.27M may create short-term dip opportunity.</li>
+<li>Entry: $75-$78 range if FalconX sell pressure materializes</li>
+<li>Risks: Further whale distribution. DEX competition intensifying. Broader DeFi protocol hacks creating sector fear.</li>
+<li>Related signals:<br />
+• Revenue surge <a href="https://t.me/theblockbeats/191857" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Whale conviction <a href="https://t.me/theblockbeats/191878" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Builder Code volume <a href="https://t.me/wublockchainenglish/25699" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• FalconX transfer <a href="https://t.me/theblockbeats/191868" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Short ETH vs Long BTC pair trade</strong></p>
+
+<ul>
+<li>Rationale: ETH underperforming BTC (-4.9% vs -1.9%) despite bullish ETF flows. Multiple whale deleveraging signals (Ma Jiao, Wang Chun). Term Labs exploit adds negative DeFi sentiment. ETH funding rates stronger than BTC suggests overcrowding. Fade the strength.</li>
+<li>Entry: Short ETH futures vs long BTC futures, target 0.5-1% ETH underperformance</li>
+<li>Risks: DeFi summer narrative reignites. ETH ETF flows accelerate meaningfully.</li>
+<li>Related signals:<br />
+• ETH below $2,400 <a href="https://t.me/theblockbeats/191845" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Ma Jiao reducing longs <a href="https://t.me/theblockbeats/191867" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Wang Chun deleveraging <a href="https://t.me/theblockbeats/191832" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Term Labs exploit <a href="https://t.me/theblockbeats/191862" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long AAVE spot or calls</strong></p>
+
+<ul>
+<li>Rationale: AAVE breaking $130 while leading DeFi rally shows sector leadership. Capital rotating into established blue-chip DeFi protocols from riskier alts. Strong altcoin breadth with ZRO/DGB/STX/PUMP all rallying suggests broader alt season beginning. AAVE has proven protocol economics and TVL.</li>
+<li>Entry: Current levels with stop below $125</li>
+<li>Risks: Broader DeFi exploit contagion. BTC correction drags alts lower.</li>
+<li>Related signals:<br />
+• AAVE breaks $130 <a href="https://t.me/theblockbeats/191882" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Altcoin breadth positive <a href="https://t.me/theblockbeats/191882" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long COIN on Base ecosystem momentum</strong></p>
+
+<ul>
+<li>Rationale: Coinbase adding POD/BASECAT/DRB/GRASS to listing roadmap. POD surged 23.7% on news. Base ecosystem TVL and activity accelerating. COIN captures listing fees and benefits from L2 transaction growth. Regulatory clarity improving for US exchanges.</li>
+<li>Entry: COIN shares or calls on any pullback below $200</li>
+<li>Risks: Crypto market correction. Regulatory headwinds return. Competition from offshore exchanges.</li>
+<li>Related signals:<br />
+• POD surge on listing <a href="https://t.me/theblockbeats/191883" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Fade FOLD short-term (after initial pump)</strong></p>
+
+<ul>
+<li>Rationale: 67% pump on Upbit listing is classic "buy the rumor, sell the news" setup. Korean exchange listings drive retail FOMO but typically see post-listing selloff. No fundamental catalyst beyond exchange access.</li>
+<li>Entry: Short futures or buy puts after initial listing day volatility</li>
+<li>Risks: Sustained Korean retail buying. Fundamental news emerges.</li>
+<li>Related signals:<br />
+• 67% pump on news <a href="https://t.me/theblockbeats/191826" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+• Upbit listing <a href="https://t.me/wublockchainenglish/25698" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>$75K Bitcoin liquidation cascade</strong> — If BTC breaks $75,000, over $1.085B in long positions face liquidation on major CEXs. This would trigger violent downside acceleration potentially to $72K-$73K. Monitor funding rates and open interest closely.</p>
+
+<p>• <strong>DeFi smart contract contagion</strong> — Term Labs $8.5M exploit could spark broader protocol fear if additional vulnerabilities discovered. Watch for unusual on-chain movements from major protocols (Aave, Morpho, Pendle). Any major protocol hack would crater DeFi sector.</p>
+
+<p>• <strong>Whale distribution accelerating</strong> — Wintermute moved $57M to CEXs, FalconX transferred $6.27M HYPE, Wang Chun deleveraged 12,765 ETH. If institutional/whale selling pressure intensifies, could overwhelm retail ETF inflows and reverse recent momentum.</p>
+
+<p>• <strong>Tech sector de-risking spillover</strong> — Despite Nvidia strength, broader AI/tech sector showing risk-off behavior. If this accelerates into earnings season, could pull crypto risk assets lower given historical correlation. Monitor QQQ and tech mega-cap price action.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>US economic data showing acceleration with composite PMI at highest since April 2022, driven by AI infrastructure buildout. This validates the growth narrative supporting risk assets and crypto. However, strong data reduces rate cut expectations, which could pressure speculative positions. Bitcoin's technical setup (Golden Cross forming, potential cycle bottom) and record ETF inflows suggest structural demand, but short-term overheating signals warrant caution on chase entries. Better to let volatility create entry points in the $75K-$76K zone.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+56 signals | 56 tradeable | 31 bullish | 11 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

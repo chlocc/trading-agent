@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 23, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260823-trading.html" class="active">08/23/2026</a>
+    <a href="20260822-trading.html" class="">08/22/2026</a>
+    <a href="20260821-trading.html" class="">08/21/2026</a>
+    <a href="20260820-trading.html" class="">08/20/2026</a>
+    <a href="20260814-trading.html" class="">08/14/2026</a>
+    <a href="20260813-trading.html" class="">08/13/2026</a>
+    <a href="20260812-trading.html" class="">08/12/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260823-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260823-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — August 23, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy</p>
+
+<p><strong>Trump Denies Launching New Crypto Token, Son Calls Claims "Scam"</strong><br />
+Eric Trump publicly denied rumors that Donald Trump is preparing to launch a new token, calling the claim "absolutely not true" and warning that anyone suggesting otherwise is promoting a scam. However, disclosure documents show Trump purchased Robinhood stock in June and made over 1,000 securities trades that month totaling $78.1M-$263.1M, including buying and selling positions in Coinbase and Strategy.<br />
+<a href="https://t.me/wublockchainenglish/25700" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korea Plans Enhanced Regulation of High-Yield Structured Products in September</strong><br />
+South Korean regulators plan to strengthen oversight of equity-linked securities (ELS) and other structured products starting next month, requiring brokers to warn investors when products approach principal loss trigger lines. Following recent market turmoil, retail investors are shifting from leveraged ETFs to high-yield ELS products offering 40-50% annual returns, with July sales hitting a three-year high.<br />
+<a href="https://t.me/theblockbeats/191873" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Congresswoman Opposing CLARITY Act Holds BTC and ETH ETFs</strong><br />
+Democratic Representative Rashida Tlaib's latest financial disclosure shows her retirement account holds $1,001-$15,000 in both Grayscale Ethereum ETF and Bitcoin ETF positions. Tlaib previously voted against the pro-crypto CLARITY Act and supported resolutions aimed at banning "crypto corruption." The CLARITY Act is expected to be reviewed by the Senate in September.<br />
+<a href="https://t.me/theblockbeats/191843" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>FTC Urged to Investigate AI Companies' Book Destruction Practices</strong><br />
+Over a dozen civil society organizations are calling on the Federal Trade Commission to investigate AI companies purchasing, scanning, and destroying physical books to obtain training data. Court documents show Anthropic spent millions buying and dismantling books to train Claude, while Google, Microsoft, and OpenAI face similar copyright lawsuits. Critics argue this practice creates unfair competitive advantages by eliminating scarce data resources.<br />
+<a href="https://t.me/theblockbeats/191812" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech</p>
+
+<p><strong>Nvidia Reportedly Notifying Customers of 15%+ AI Server Price Increases</strong><br />
+Nvidia has informed some major customers that servers equipped with its AI chips will see price increases exceeding 15% in most cases, effective early next year. The hikes apply to systems featuring Vera Rubin and Grace Blackwell flagship chips, with specific increases varying by chip generation and memory configuration. Companies building servers for Microsoft, Google, and Meta have reportedly been notified.<br />
+<a href="https://t.me/theblockbeats/191815" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Nvidia and Poolside Deal Signals Shift from Selling Shovels to Mining Gold</strong><br />
+Nvidia paid $6B for non-exclusive access to Poolside's "Model Factory" technology used to build the Laguna open-source coding model series, and invited over 100 Poolside engineers to join its Nemotron open-source model project. Analysts view this as Nvidia's strategic pivot from hardware vendor to AI model developer, directly challenging OpenAI and Anthropic while deepening its ecosystem lock-in.<br />
+<a href="https://t.me/theblockbeats/191875" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Goldman Sachs: AI Trading Experiences July-Style Deleveraging</strong><br />
+Goldman Sachs reports this week's market performance reflects typical deleveraging behavior similar to July's selloff, with high-beta momentum portfolios down 12% and AI hedge portfolios falling 10% over five days. Despite leverage declining from extreme highs, momentum funds continue broad-based buying. Goldman recommends focusing on storage and data center stocks where valuation gaps remain most pronounced.<br />
+<a href="https://t.me/theblockbeats/191841" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Three.ws Partners with USC to Build On-Campus Agent Economy on Solana</strong><br />
+Three.ws and the University of Southern California are collaborating to create an on-campus agent economy on Solana with IBM security infrastructure. The partnership integrates Granite Guardian screening with deterministic scopes, daily spending caps, and kill switches to enable secure autonomous agent operations in a campus environment.<br />
+<a href="https://t.me/leviathan_news/21823" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Morgan Stanley Interns Survey: 68% Use AI Tools Daily, 25% Use Prediction Markets</strong><br />
+A Morgan Stanley survey of over 500 North American summer interns found 68% use AI tools daily (up from 35% last year), with 70% paying for AI subscriptions out of pocket. Over 25% have used prediction markets in the past year, with Kalshi and Polymarket being most popular. Meanwhile, 61% worry about AI replacing finance jobs, and 60% express interest in household humanoid robots.<br />
+<a href="https://t.me/theblockbeats/191830" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins</p>
+
+<p><strong>Circle CEO: Stablecoins Moving from Digital Assets into Real-World Finance</strong><br />
+Circle CEO Jeremy Allaire stated during an August 19 earnings call AMA that stablecoins are transitioning from the digital asset market into real-world finance, where they're already being used for working capital, collateral, settlement, and payments. As real-world assets become tokenized, stablecoins are supporting savings, investment, and cross-border payments, with businesses, fintech companies, and banks increasingly integrating them.<br />
+<a href="https://t.me/wublockchainenglish/25702" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms</p>
+
+<p><strong>Chaince Shareholders to Vote on Raising Share Ceiling from 1B to 20B</strong><br />
+Chaince shareholders will vote on raising its share ceiling from 1 billion to 20 billion shares, just days after the company opened a $300M ATM stock program. The approval would authorize the capacity but does not itself issue shares or execute proposed reverse splits, maintaining flexibility for future capital raises.<br />
+<a href="https://t.me/TheBlock001/7343" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Upbit Lists Interfold (FOLD) with KRW, BTC, and USDT Pairs</strong><br />
+South Korea's largest crypto exchange Upbit listed Interfold (FOLD) with KRW, BTC, and USDT trading pairs, with deposits and withdrawals supported on Ethereum. Trading began at 12:30 PM on August 23. FOLD is the native token of privacy-computing network The Interfold, and the listing drove FOLD up 67% in the short term.<br />
+<a href="https://t.me/wublockchainenglish/25698" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>European Exchange Zondacrypto in Crisis as Founder and CEO Both Missing</strong><br />
+European crypto exchange Zondacrypto (formerly BitBay) faces crisis after founder Sylwester Suszek disappeared in March 2022, followed by successor CEO Przemyslaw Kral going missing in April 2026. The platform's website closed in April, preventing user withdrawals or trading. Estonia's Financial Intelligence Unit revoked the exchange's license on June 29. Court documents suggest Kral may have lacked access to digital keys needed for the claimed $330M+ Bitcoin reserves.<br />
+<a href="https://t.me/theblockbeats/191849" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets</p>
+
+<p><strong>Bitcoin and Ether ETFs Draw $2.6B in Strongest Inflow Week Since October</strong><br />
+U.S. Bitcoin and Ethereum spot ETFs recorded combined net inflows of $2.6 billion this week, the largest weekly inflow since October 2025 and tripling trading volumes. Bitcoin ETFs saw $1.9B in net inflows while Ethereum ETFs added $697.2M, both marking their largest weekly inflows of 2026. This reverses the previous week's $392M net outflow, representing a week-over-week capital swing of approximately $3B.<br />
+<a href="https://t.me/TheBlock001/7342" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Whale Cycle Holds 10-Month Long Position, Now Worth $110M with $57M Profit</strong><br />
+A diamond-handed whale opened a 1.38M HYPE long position 10 months ago at $38.6, currently valued at $110M with $57.18M in unrealized profit. The position has paid $4.98M in funding fees over the holding period, yet the whale shows no signs of taking profit as HYPE reached new all-time highs above $80.<br />
+<a href="https://t.me/theblockbeats/191878" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Analyst: Bitcoin's Strong Weekly Reversal May Signal New Bull Cycle Beginning</strong><br />
+Crypto analyst Ali Charts notes that Bitcoin's two previous bear market endings both featured a strong weekly reversal candlestick appearing unexpectedly. Such moves typically begin with short squeeze dynamics, where bears add positions as price rises, then get liquidated as upward momentum accelerates. Bitcoin recently rose 26.81% in one week from $62,700 to $79,500, potentially signaling a similar trend reversal if history repeats.<br />
+<a href="https://t.me/theblockbeats/191863" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Standard Chartered: Bitcoin Year-End $100K Target May Be Conservative</strong><br />
+Standard Chartered's Geoff Kendrick suggests Bitcoin's year-end target of $100,000 may be underestimated, believing BTC could retest the $126,000 all-time high with acceleration potentially coming after October 6. He notes the recent rally was driven by spot buying and short covering rather than new leveraged funds, giving it more sustainable upside potential compared to typical short squeeze rallies.<br />
+<a href="https://t.me/theblockbeats/191825" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Short-Term Holders Drive Binance BTC Inflows to 2-Month High</strong><br />
+Crypto analyst Darkfost reports that approximately 17,800 BTC flowed into Binance over the past 3 days, all from short-term holders, especially those holding for less than one day. In contrast, long-term holders (6+ months) have not sent any BTC to Binance. This marks the largest BTC inflow to Binance since February 2026, indicating heightened speculative trading activity as Bitcoin surged 23%.<br />
+<a href="https://t.me/theblockbeats/191802" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitfinex: Bitcoin Rally Driven by Spot Demand and Short Covering, Profit-Taking Main Risk</strong><br />
+Bitfinex analysts state the recent rally was primarily driven by spot buying and short covering rather than new leveraged capital, suggesting more sustainable upside than typical short squeeze rallies. Since all investors who bought BTC in the past 5 months are now in profit, the main risk comes from profit-taking flows into exchanges. Bitfinex identifies $68K-$69K as a critical support zone near the 5-month average cost basis.<br />
+<a href="https://t.me/theblockbeats/191856" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Over $1 Billion Liquidated in Past 24 Hours as 214,000 Traders Wrecked</strong><br />
+According to Coinglass data, $995M was liquidated across crypto markets in the past 24 hours, with $721M in long liquidations and $274M in shorts. A total of 214,000 traders were liquidated globally as Bitcoin briefly dropped below $76,000 before recovering.<br />
+<a href="https://t.me/theblockbeats/191819" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols</p>
+
+<p><strong>Term Labs Suffers $8.5M Governance Exploit Affecting Vaults</strong><br />
+DeFi lending protocol Term Labs suffered a governance exploit affecting its vaults, resulting in approximately $8.5M in losses. The exploiter holds roughly 2,843 ETH and $1.6M DAI, with the attack address initially funded with 2 ETH from Tornado Cash. Term Labs is investigating and will share further details.<br />
+<a href="https://t.me/wublockchainenglish/25701" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Builder Codes Daily Perpetual Trading Volume Hits Record $984M</strong><br />
+According to Blockworks Research, Hyperliquid Builder Codes generated $984 million in notional perpetual futures volume on August 21, marking a new all-time high. Builder Code protocols captured a combined $782,000 in revenue that day, the second-highest level on record, with MetaMask accounting for $143,000 and Phantom for $114,000.<br />
+<a href="https://t.me/wublockchainenglish/25699" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Weekly Revenue Reaches $16.9M, Up 196% Week-Over-Week</strong><br />
+According to DeFiLlama data, Hyperliquid's weekly revenue reached $16.93M, up nearly 196% from last week's $5.72M. The increase coincides with renewed crypto market activity driving higher perpetual contract trading demand. HYPE token rose over 37% this week to $78.66.<br />
+<a href="https://t.me/theblockbeats/191857" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Keeta Responds to Security Incident: Attacker Has 72 Hours to Return Funds</strong><br />
+Keeta co-founder Ty issued a statement on the recent security incident, confirming the team has made significant progress in the investigation and collected evidence identifying the responsible party. Keeta has obtained multiple pieces of information related to the attacker, including IP addresses, VPN/VPS infrastructure, user agents, associated email addresses, and other identity markers. The team is giving the attacker 72 hours to return all funds obtained in the attack.<br />
+<a href="https://t.me/theblockbeats/191854" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other</p>
+
+<p><strong>Solana Reduces Mainnet Slot Time to 350 Milliseconds, Advancing Toward 200ms Target</strong><br />
+Solana has reduced its mainnet slot time to 350 milliseconds, progressing toward its ultimate target of 200ms. The improvement represents another step in Solana's ongoing efforts to enhance network performance and transaction throughput, positioning it as one of the fastest blockchain networks.<br />
+<a href="https://t.me/leviathan_news/21829" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ZachXBT May Reject Crypto Victim Cases from "Low Quality" Jurisdictions</strong><br />
+On-chain investigator ZachXBT announced he may automatically reject future help requests from Canada, UK, India, Nigeria, Morocco, Algeria, and Bangladesh based on his worst case-handling experiences in these jurisdictions. He also stated his upcoming website will restrict users from certain "low quality" jurisdictions from accessing crypto support services.<br />
+<a href="https://t.me/leviathan_news/21828" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CZ's "Public Address" Second-Largest Donor to Giggle Academy</strong><br />
+Binance founder CZ revealed that the second-largest "anonymous" donor to Giggle Academy actually came from his previously disclosed "public address." CZ had announced on August 16 that BNB and tokens purchased with BNB in the "public address" would be donated to Giggle Academy, and the address would become a burn address to avoid over-interpretation by the community.<br />
+<a href="https://t.me/theblockbeats/191874" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Alibaba Plans $10.2B Hong Kong Share Placement, All Proceeds for AI Investment</strong><br />
+Alibaba announced plans to sell new shares to non-U.S. persons outside the United States for HK$80 billion ($10.2B USD). The company stated this will be the largest follow-on offering by a Hong Kong-listed company on record and plans to use 100% of the net proceeds to invest in its full-stack artificial intelligence capabilities, including expanding and upgrading AI infrastructure.<br />
+<a href="https://t.me/theblockbeats/191852" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

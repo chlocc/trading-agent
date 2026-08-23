@@ -4,117 +4,117 @@
 
 🔥 TOP THEMES
 
-• **Bitcoin Volatility Spike** — BTC dropped below $76K triggering $91M in liquidations, but bounced back above $77K within hours. This whipsaw action suggests elevated volatility as market digests strong ETF inflows ($2.6B weekly) against overheating technicals. Key zone: $75K-$80K. Tickers: BTC, IBIT, FBTC, BITO, MSTR.
+• **Bitcoin Volatility & Liquidation Cascade** — BTC dropped below $76K triggering $91M in liquidations across the network in one hour, creating extreme short-term pressure. Key tickers: BTC, IBIT, BITO, MSTR. This follows overheated conditions after a 23% rally that was primarily spot-driven and short-covering rather than sustainable demand.
 
-• **DeFi Protocol Momentum Divergence** — Hyperliquid revenue exploded 196% WoW to $16.93M on surging volume, while Term Labs suffered an $8.5M exploit. This split highlights both the growth opportunity and smart contract risk in DeFi protocols. Tickers: HYPE, AAVE, MORPHO, PENDLE.
+• **DeFi Security & Protocol Performance** — Term Labs suffered an $8.5M exploit while Hyperliquid posted 196% revenue growth WoW to $16.93M, highlighting the sector's risk/reward duality. Key tickers: HYPE, ETH, COIN (exposure via Base ecosystem).
 
-• **Nvidia Pricing Power Expansion** — NVDA notified enterprise customers of 15%+ price increases on AI chip servers effective early next year, signaling strong demand and pricing leverage despite broader tech de-risking sentiment. Tickers: NVDA, MSFT, GOOG, BOTZ, ARKQ.
+• **Altcoin Divergence & Exchange Catalysts** — Altcoins showing extreme dispersion: FOLD surged 67% on Upbit listing news while broader altcoin selloff saw TAC, FHE, SQD down 25%+. Exchange listing catalysts remain powerful alpha generators. Key tickers: AAVE, ZRO, POD, FOLD.
 
-• **Altcoin Season Signals** — AAVE broke $130, ZRO/DGB/STX led gains, and multiple altcoins rallied despite BTC weakness. Funding rates show ETH sentiment stronger than BTC. Base ecosystem tokens (POD) surged 23.7% on Coinbase listing news. Tickers: AAVE, ZRO, ETHA, POD, COIN.
+• **AI Infrastructure Pricing Power** — Nvidia notifying enterprise clients of 15%+ server price increases effective early next year signals sustained demand and pricing power in AI compute infrastructure. Key tickers: NVDA, MSFT, GOOG, ARKQ, BOTZ.
 
 🟢 BULLISH SIGNALS
 
-**HYPE** — Hyperliquid's revenue surged 196% WoW to $16.93M driven by explosive trading volume and fee generation. Platform is capturing meaningful DEX market share and demonstrating strong product-market fit. Builder Codes hit $984M daily perpetual volume. One whale holds $110M HYPE with $57M realized profit after 10-month hold, suggesting long-term conviction despite recent volatility. (→ https://t.me/theblockbeats/191857) (→ https://t.me/theblockbeats/191878) (→ https://t.me/wublockchainenglish/25699)
+**HYPE** — Hyperliquid protocol revenue surged 196% week-over-week to $16.93M driven by increased trading volume and platform fees, demonstrating exceptional growth momentum in decentralized perpetuals. Watch for continued volume expansion and builder code adoption metrics. (→ https://t.me/theblockbeats/191857)
 
-**BTC ETFs** — US spot Bitcoin ETFs saw $2.6B net inflows this week, the strongest since October 2025, reversing prior week's outflows. This institutional capital influx provides fundamental support despite recent volatility. Binance inflows hit highest level since February as short-term holders realize profits. Grayscale notes structural adoption indicators suggest favorable long-term entry point. (→ https://t.me/TheBlock001/7342) (→ https://t.me/theblockbeats/191827) (→ https://t.me/theblockbeats/191802)
+**BTC/ETH (via IBIT/ETHA)** — US Bitcoin and Ethereum spot ETFs recorded $2.6B in combined net inflows this week, the strongest since October 2025, reversing prior week's outflows. This institutional re-engagement provides medium-term support despite short-term volatility. (→ https://t.me/theblockbeats/191827)
 
-**NVDA** — Nvidia notifying customers of 15%+ price increases on AI servers starting early next year demonstrates exceptional pricing power and sustained demand. This counters de-risking narrative in AI stocks and validates the infrastructure buildout thesis. Storage and data center hardware remain attractive despite broader sector weakness. Upcoming earnings and industry conference are key catalysts. (→ https://t.me/theblockbeats/191815) (→ https://t.me/theblockbeats/191841)
+**AAVE** — AAVE broke above $130 leading altcoin gainers, showing strength even as broader market corrected. DeFi blue-chip status and protocol fundamentals support continued outperformance in sector rotation. (→ https://t.me/theblockbeats/191882)
 
-**AAVE** — AAVE broke above $130 leading the DeFi rally as the altcoin market maintained upward momentum despite BTC weakness. Protocol fundamentals remain strong with established position in lending markets. Outperformance suggests capital rotation into established DeFi blue chips. (→ https://t.me/theblockbeats/191882)
+**FOLD** — Interfold surged 67% intraday following Upbit listing announcement with KRW, BTC, and USDT trading pairs launching August 23. Korean exchange listings historically provide 50-150% initial pops. (→ https://t.me/theblockbeats/191826)
 
-**SOL** — Solana reduced mainnet slot time to 350ms, progressing toward 200ms target and demonstrating tangible network performance improvements. This technical advancement supports the high-throughput narrative critical for DeFi and consumer applications. Meme coin CATE on Solana surged 48% to $80M market cap, showing ecosystem retail engagement. (→ https://t.me/leviathan_news/21829) (→ https://t.me/theblockbeats/191821)
+**POD** — Base ecosystem token rallied 23.7% after Coinbase announced POD, BASECAT, DRB, and GRASS additions to asset listing roadmap. Coinbase listing pipeline announcement creates sustained bid. (→ https://t.me/theblockbeats/191883)
 
-**POD** — Base ecosystem token POD surged 23.7% after Coinbase announced adding POD, BASECAT, DRB, and GRASS to its asset listing roadmap. Exchange listing catalysts remain powerful for smaller-cap tokens. Base ecosystem showing momentum as L2 scaling narrative evolves. (→ https://t.me/theblockbeats/191883)
+**NVDA** — Nvidia enterprise server pricing increasing 15%+ effective early next year demonstrates sustained pricing power and demand visibility in AI infrastructure despite de-risking trends in broader AI stocks. (→ https://t.me/theblockbeats/191815)
 
-**FOLD** — FOLD pumped 67% on announcement of Upbit listing with KRW, BTC, and USDT pairs. Korean exchange listings historically drive significant price action due to retail demand. Short-term momentum trade but watch for post-listing selloff. (→ https://t.me/theblockbeats/191826) (→ https://t.me/wublockchainenglish/25698)
+**SOL** — Solana reduced mainnet slot time to 350ms, progressing toward 200ms target, enhancing network performance and competitive positioning against other L1s. Technical improvements support ecosystem growth. (→ https://t.me/leviathan_news/21829)
+
+**CATE** — Solana-based meme coin surpassed $80M market cap with 48% 24h gain, though high volatility caution applies. (→ https://t.me/theblockbeats/191821)
 
 🔴 BEARISH SIGNALS
 
-**ETH** — Ethereum fell below $2,400, down 4.9% in 24 hours, underperforming BTC despite bullish ETF inflows. DeFi exploits (Term Labs $8.5M) add negative sentiment. Large holder "Ma Jiao" began reducing ETH longs after taking profits, and F2Pool co-founder Wang Chun partially liquidated 12,765 ETH to reduce leverage on Spark. These whale derisking moves suggest near-term caution. (→ https://t.me/theblockbeats/191845) (→ https://t.me/theblockbeats/191867) (→ https://t.me/theblockbeats/191832)
+**ETH** — Term Labs exploit drained $8.5M with attacker holding ETH and DAI, adding to negative sentiment around Ethereum DeFi security. This follows ETH breaking below $2,400 with 4.9% 24h decline. (→ https://t.me/theblockbeats/191862)
 
-**BTC (near-term)** — Bitcoin dropped below $76K triggering $91M in liquidations before recovering. Analysts warn of short-term overheating with potential for 10% correction after rapid rally driven primarily by short covering rather than sustained spot demand. Major CEXs show $1.085B in long liquidations risk if BTC breaks $75K. Funding rates indicate FOMO conditions. (→ https://t.me/theblockbeats/191850) (→ https://t.me/theblockbeats/191848) (→ https://t.me/theblockbeats/191856) (→ https://t.me/theblockbeats/191855) (→ https://t.me/theblockbeats/191846)
+**BTC (near-term)** — Bitcoin fell below $76K triggering $91M in liquidations within one hour. Analysts warn of 10% correction risk after rapid FOMO-driven rally characterized by short-covering rather than sustainable spot demand. If $75K breaks, over $1.085B in long liquidations could cascade across major CEXs. (→ https://t.me/theblockbeats/191850)
 
-**DeFi Protocol Risk** — Term Labs suffered $8.5M exploit with attacker holding ETH and DAI. This adds to ongoing smart contract risk concerns in DeFi. Broad altcoin correction saw multiple tokens down 25%+ including TAC, FHE, SQD, PTB following BTC weakness. (→ https://t.me/theblockbeats/191862) (→ https://t.me/theblockbeats/191839)
+**BTC (technical)** — Recent 23% rally was primarily spot demand and short-covering with significant profit-taking risk. Rapid surge triggered overheating conditions with short-term correction likely before establishing new base. (→ https://t.me/theblockbeats/191856)
 
-**TRUMP** — TRUMP meme coin team transferred $9.33M worth of tokens to OKX, likely signaling selling pressure. Political meme coins remain highly speculative with team distribution risk. (→ https://t.me/theblockbeats/191818)
+**Broad Altcoins** — Following BTC drop below $77K, altcoin market experiencing broad correction with TAC, FHE, SQD, PTB, INX, BASED, SWARMS, BEAT all down 25%+ in 24 hours. (→ https://t.me/theblockbeats/191839)
 
 💡 TRADE IDEAS
 
-**1. Long IBIT (Bitcoin ETF) on dips to $75K-$76K**
-- Rationale: $2.6B weekly institutional inflows provide strong support. Current volatility creating entry opportunities. Grayscale and Standpoint Bank both identify structural bottom formation with potential run to $126K by year-end. "Golden Cross" forming (50-day MA crossing 200-day MA) is bullish technical signal.
-- Entry: Scale in between $75,000-$76,500 BTC equivalent or IBIT $35-$37
-- Risks: Break below $75K invalidates setup and triggers $1B+ liquidation cascade
+**1. Long HYPE (spot or perps)**
+- Rationale: 196% revenue growth WoW to $16.93M demonstrates exceptional protocol traction. Whale wallet holding $110M position with $57M realized profit shows conviction. Decentralized perpetuals gaining share from CEXs creates structural tailwind.
+- Entry: Current levels or $75-77 support zone on any pullback
+- Risks: Broader crypto correction could overwhelm positive fundamentals; protocol security always risk in DeFi
 - Related signals: 
-  • Weekly ETF inflows $2.6B (→ https://t.me/theblockbeats/191827)
-  • Grayscale bottom call (→ https://t.me/theblockbeats/191807)
-  • Golden Cross forming (→ https://t.me/theblockbeats/191860)
-  • Standpoint $126K target (→ https://t.me/theblockbeats/191825)
-
-**2. Long NVDA calls (Mar 2027 expiry) ahead of earnings**
-- Rationale: 15%+ price increase announcement demonstrates extraordinary pricing power in AI infrastructure. Validates sustained demand despite sector rotation concerns. Upcoming earnings and industry conference provide near-term catalysts. Storage/datacenter hardware thesis intact.
-- Entry: ATM or slightly OTM calls on any weakness into earnings
-- Risks: Broader tech selloff or disappointing earnings guidance. China export restrictions escalation.
-- Related signals:
-  • Price increase announcement (→ https://t.me/theblockbeats/191815)
-  • Datacenter hardware attractive (→ https://t.me/theblockbeats/191841)
-
-**3. Long HYPE on pullbacks**
-- Rationale: Revenue up 196% WoW to $16.93M showing explosive growth. Builder Codes hitting $984M daily volume. Whale conviction with $110M hold and $57M realized profit. DEX market share gains are structural. FalconX transfer of $6.27M may create short-term dip opportunity.
-- Entry: $75-$78 range if FalconX sell pressure materializes
-- Risks: Further whale distribution. DEX competition intensifying. Broader DeFi protocol hacks creating sector fear.
-- Related signals:
   • Revenue surge (→ https://t.me/theblockbeats/191857)
   • Whale conviction (→ https://t.me/theblockbeats/191878)
-  • Builder Code volume (→ https://t.me/wublockchainenglish/25699)
-  • FalconX transfer (→ https://t.me/theblockbeats/191868)
+  • Builder code volume record (→ https://t.me/wublockchainenglish/25699)
 
-**4. Short ETH vs Long BTC pair trade**
-- Rationale: ETH underperforming BTC (-4.9% vs -1.9%) despite bullish ETF flows. Multiple whale deleveraging signals (Ma Jiao, Wang Chun). Term Labs exploit adds negative DeFi sentiment. ETH funding rates stronger than BTC suggests overcrowding. Fade the strength.
-- Entry: Short ETH futures vs long BTC futures, target 0.5-1% ETH underperformance
-- Risks: DeFi summer narrative reignites. ETH ETF flows accelerate meaningfully.
+**2. Short BTC perps with tight stops (tactical)**
+- Rationale: $91M liquidated in one hour signals fragile market structure. If $75K breaks, cascade risk exceeds $1B. Overheated conditions after 23% rally driven by short-covering rather than sustainable demand.
+- Entry: Current $76-77K levels with stops above $78K
+- Risks: Golden Cross formation and strong ETF inflows ($2.6B weekly) could override technical weakness; Grayscale calling bottom
 - Related signals:
-  • ETH below $2,400 (→ https://t.me/theblockbeats/191845)
-  • Ma Jiao reducing longs (→ https://t.me/theblockbeats/191867)
-  • Wang Chun deleveraging (→ https://t.me/theblockbeats/191832)
-  • Term Labs exploit (→ https://t.me/theblockbeats/191862)
+  • Liquidation cascade (→ https://t.me/theblockbeats/191850)
+  • Overheating warnings (→ https://t.me/theblockbeats/191855)
+  • Cascade risk at $75K (→ https://t.me/theblockbeats/191846)
 
-**5. Long AAVE spot or calls**
-- Rationale: AAVE breaking $130 while leading DeFi rally shows sector leadership. Capital rotating into established blue-chip DeFi protocols from riskier alts. Strong altcoin breadth with ZRO/DGB/STX/PUMP all rallying suggests broader alt season beginning. AAVE has proven protocol economics and TVL.
-- Entry: Current levels with stop below $125
-- Risks: Broader DeFi exploit contagion. BTC correction drags alts lower.
+**3. Long NVDA (equity or calls)**
+- Rationale: 15%+ server price increase for AI infrastructure effective early next year demonstrates sustained pricing power and demand visibility. Upcoming earnings catalyst with industry conference. Storage and data center hardware attractive despite broader AI de-risking.
+- Entry: Current levels ahead of earnings; Sep/Oct calls
+- Risks: Broader tech sector correction; earnings miss; AI capex slowdown concerns
 - Related signals:
-  • AAVE breaks $130 (→ https://t.me/theblockbeats/191882)
-  • Altcoin breadth positive (→ https://t.me/theblockbeats/191882)
+  • Price increase announcement (→ https://t.me/theblockbeats/191815)
+  • Sector positioning note (→ https://t.me/theblockbeats/191841)
 
-**6. Long COIN on Base ecosystem momentum**
-- Rationale: Coinbase adding POD/BASECAT/DRB/GRASS to listing roadmap. POD surged 23.7% on news. Base ecosystem TVL and activity accelerating. COIN captures listing fees and benefits from L2 transaction growth. Regulatory clarity improving for US exchanges.
-- Entry: COIN shares or calls on any pullback below $200
-- Risks: Crypto market correction. Regulatory headwinds return. Competition from offshore exchanges.
+**4. Long IBIT + ETHA (pair trade weighted to BTC)**
+- Rationale: $2.6B weekly inflows to spot ETFs (highest since Oct 2025) signals institutional re-engagement. Provides cleaner crypto exposure than perps during volatile conditions. Weight toward IBIT given ETH's DeFi security concerns.
+- Entry: Allocate on weakness; 70% IBIT / 30% ETHA
+- Risks: Continued profit-taking after 23% BTC rally; macro headwinds
 - Related signals:
-  • POD surge on listing (→ https://t.me/theblockbeats/191883)
+  • Record ETF inflows (→ https://t.me/theblockbeats/191827)
+  • Weekly inflow data (→ https://t.me/TheBlock001/7342)
+  • Binance inflows at Feb highs (→ https://t.me/theblockbeats/191802)
 
-**7. Fade FOLD short-term (after initial pump)**
-- Rationale: 67% pump on Upbit listing is classic "buy the rumor, sell the news" setup. Korean exchange listings drive retail FOMO but typically see post-listing selloff. No fundamental catalyst beyond exchange access.
-- Entry: Short futures or buy puts after initial listing day volatility
-- Risks: Sustained Korean retail buying. Fundamental news emerges.
+**5. Long AAVE (spot accumulation)**
+- Rationale: Breaking $130 and leading altcoin gainers demonstrates relative strength. DeFi blue-chip with strong protocol fundamentals well-positioned for sector rotation. Outperforming during broad correction signals institutional preference.
+- Entry: $125-135 accumulation zone
+- Risks: Broader DeFi security concerns from Term Labs exploit; altcoin correction extends
 - Related signals:
-  • 67% pump on news (→ https://t.me/theblockbeats/191826)
-  • Upbit listing (→ https://t.me/wublockchainenglish/25698)
+  • Price breakout and leadership (→ https://t.me/theblockbeats/191882)
+
+**6. Fade FOLD pump (short on strength above $2)**
+- Rationale: 67% single-day pump on Upbit listing news typical of Korean exchange front-running. Historical pattern shows 50-150% initial pop followed by 40-60% retracement within 2-3 weeks as early buyers exit.
+- Entry: Short above $1.80-2.00 with size scaling; target 30-40% retracement
+- Risks: Upbit listing could sustain momentum longer than expected; low liquidity creates squeeze risk
+- Related signals:
+  • Initial pump (→ https://t.me/theblockbeats/191826)
+  • Listing announcement (→ https://t.me/theblockbeats/191824)
+
+**7. Long BOTZ or ARKQ (AI infrastructure ETF exposure)**
+- Rationale: Nvidia pricing power, Hong Kong AI investment push, Alibaba $80B raise, and US composite PMI at highest since Apr 2022 all point to sustained AI infrastructure buildout. Diversified exposure reduces single-stock risk.
+- Entry: Current levels or 2-3% dip
+- Risks: Tech sector correction; AI hype cycle peak concerns; valuation compression
+- Related signals:
+  • Nvidia pricing power (→ https://t.me/theblockbeats/191815)
+  • HK AI adoption (→ https://t.me/theblockbeats/191859)
+  • Alibaba raise (→ https://t.me/theblockbeats/191861)
+  • US PMI strength (→ https://t.me/theblockbeats/191864)
 
 ⚠️ RISKS TO WATCH
 
-• **$75K Bitcoin liquidation cascade** — If BTC breaks $75,000, over $1.085B in long positions face liquidation on major CEXs. This would trigger violent downside acceleration potentially to $72K-$73K. Monitor funding rates and open interest closely.
+• **$75K Bitcoin Breakdown** — Break below $75K triggers over $1.085B in long liquidations across major CEXs, likely causing 10-15% cascade. Monitor funding rates and open interest concentration. (→ https://t.me/theblockbeats/191846)
 
-• **DeFi smart contract contagion** — Term Labs $8.5M exploit could spark broader protocol fear if additional vulnerabilities discovered. Watch for unusual on-chain movements from major protocols (Aave, Morpho, Pendle). Any major protocol hack would crater DeFi sector.
+• **DeFi Security Contagion** — $8.5M Term Labs exploit adds to negative Ethereum DeFi sentiment. Further exploits or protocol failures could trigger broader sector derisking and ETH underperformance. (→ https://t.me/theblockbeats/191862)
 
-• **Whale distribution accelerating** — Wintermute moved $57M to CEXs, FalconX transferred $6.27M HYPE, Wang Chun deleveraged 12,765 ETH. If institutional/whale selling pressure intensifies, could overwhelm retail ETF inflows and reverse recent momentum.
+• **Profit-Taking Avalanche** — 23% BTC rally primarily driven by short-covering and spot demand from overleveraged longs. Whale transfers ($197M to Binance, $256M from Wintermute) suggest distribution phase beginning. (→ https://t.me/theblockbeats/191856)
 
-• **Tech sector de-risking spillover** — Despite Nvidia strength, broader AI/tech sector showing risk-off behavior. If this accelerates into earnings season, could pull crypto risk assets lower given historical correlation. Monitor QQQ and tech mega-cap price action.
+• **Altcoin Liquidity Vacuum** — Broad 25%+ corrections in smaller altcoins (TAC, FHE, SQD) signal deteriorating risk appetite. Could spread to larger caps if Bitcoin loses $75K support. (→ https://t.me/theblockbeats/191839)
 
 📌 MACRO CONTEXT
 
-US economic data showing acceleration with composite PMI at highest since April 2022, driven by AI infrastructure buildout. This validates the growth narrative supporting risk assets and crypto. However, strong data reduces rate cut expectations, which could pressure speculative positions. Bitcoin's technical setup (Golden Cross forming, potential cycle bottom) and record ETF inflows suggest structural demand, but short-term overheating signals warrant caution on chase entries. Better to let volatility create entry points in the $75K-$76K zone.
+US economic momentum accelerating with composite PMI hitting highest level since April 2022, driven by AI-related expansion. This supports risk assets medium-term but creates near-term tension as crypto digests overextended rally. Bitcoin approaching "Golden Cross" (50-day MA crossing 200-day MA) while simultaneously showing overheated technicals — suggests consolidation likely before next leg higher. Institutional flows ($2.6B weekly ETF inflows) provide floor but won't prevent tactical corrections.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-56 signals | 56 tradeable | 31 bullish | 11 bearish
----
+54 signals | 54 tradeable | 22 bullish | 10 bearish

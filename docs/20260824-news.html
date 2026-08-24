@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 24, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260824-trading.html" class="active">08/24/2026</a>
+    <a href="20260823-trading.html" class="">08/23/2026</a>
+    <a href="20260822-trading.html" class="">08/22/2026</a>
+    <a href="20260821-trading.html" class="">08/21/2026</a>
+    <a href="20260820-trading.html" class="">08/20/2026</a>
+    <a href="20260814-trading.html" class="">08/14/2026</a>
+    <a href="20260813-trading.html" class="">08/13/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260824-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260824-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><h1>📰 NEWS DIGEST — August 24, 2026</h1>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🏛️ Regulation &amp; Policy</h2>
+
+<p><strong>South Korea Accelerates Digital Asset Basic Act, Targeting Fall Introduction</strong><br />
+South Korea is fast-tracking its Digital Asset Basic Act with plans to introduce it this fall, covering stablecoin issuance rules, VASP licensing, and Bitcoin ETF regulations. The bill aims to establish a comprehensive regulatory framework addressing stablecoin reserve requirements, exchange licensing, and crypto product offerings, marking a policy shift from restriction to standardization within anti-money laundering and consumer protection frameworks.<br />
+<a href="https://t.me/leviathan_news/21847" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Pakistan Launches Virtual Asset Licensing Regime with September 5 Deadline</strong><br />
+Pakistan's Virtual Asset Regulatory Authority (PVARA) officially launched the country's crypto licensing system, requiring digital asset companies to submit no-objection certificate applications by September 5 or cease operations. Licensed entities must comply with strict operational and security standards including customer fund safety, robust cybersecurity, clear disclosure, and transparent business practices. The licensing rules cover 11 crypto-related activities including custody, trading platforms, brokerage, and derivatives.<br />
+<a href="https://t.me/theblockbeats/191986" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EU Adds 6 German Cooperative Banks as MiCA-Authorized CASPs</strong><br />
+The European Securities and Markets Authority updated its MiCA crypto asset service provider registry, adding six German cooperative banks and bringing total EU-authorized CASPs to 331. Germany now leads with 79 CASPs, significantly ahead of France's 35 and the Netherlands' 29, leveraging its extensive financial sector and established national licensing regime to accelerate authorization under the transitional framework.<br />
+<a href="https://t.me/theblockbeats/192016" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bessent to Announce Iran Sanctions Details Monday at 2 AM Beijing Time</strong><br />
+U.S. Treasury Secretary Scott Bessent will announce details of sanctions against Iran at 2 PM Eastern Time (2 AM Beijing Time Tuesday), describing it as an economic "Normandy landing"—the largest-scale financial offensive against an adversary in history. Treasury officials indicated the measures will expand secondary sanctions on entities engaging in commercial relations with Iran, targeting specific sectors involved with Iran without requiring further "large-scale" military action.<br />
+<a href="https://t.me/theblockbeats/191964" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trump-Backed World Liberty Receives Conditional OCC Approval for National Trust Bank</strong><br />
+World Liberty Financial received conditional approval from the U.S. OCC to establish a national trust bank that could hold assets backing its USD1 stablecoin, according to Bloomberg. The approval comes amid a surge in new U.S. bank charters, with the OCC approving 22 applications in the first 19 months of Trump's second term—more than the previous five years combined. World Liberty must still meet capital, governance, and audit requirements before final authorization.<br />
+<a href="https://t.me/wublockchainenglish/25714" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>China Proposes Individual Cross-Border Investment Filing Management</strong><br />
+China's National Development and Reform Commission published draft amendments to the Foreign Investment Management Measures, expanding investors from enterprises to include domestic enterprises, organizations, and individual residents, with implementation of filing management for individual overseas investments. The consultation period runs from August 21 to September 20, 2026.<br />
+<a href="https://t.me/theblockbeats/191975" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🤖 AI &amp; Tech</h2>
+
+<p><strong>OpenAI CEO Sam Altman Admits AI Industry Failed to Explain Benefits</strong><br />
+Sam Altman stated the AI industry has failed to adequately explain AI's benefits amid widespread fears of job losses and existential risk. The admission highlights growing concerns about the industry's communication strategy as public anxiety over AI's societal impact continues to mount, with critics noting the sector has prioritized rapid development over addressing legitimate concerns about workforce disruption and safety.<br />
+<a href="https://t.me/leviathan_news/21841" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>STMicroelectronics and NUS Open Singapore Lab for Edge AI Development</strong><br />
+STMicroelectronics and the National University of Singapore opened a Singapore laboratory to develop edge AI technologies. The partnership aims to advance low-power edge AI capabilities, though the strategic value lies in where the resulting intellectual property and commercial applications will ultimately flow within the global tech ecosystem.<br />
+<a href="https://t.me/leviathan_news/21845" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Xpeng Robotics Division Completes $900M Funding at $6.3B Valuation</strong><br />
+Xpeng Automotive's robotics division completed a $900 million first-round funding led by IDG Capital, with Tencent and Alibaba as strategic investors, at a post-money valuation exceeding $6.3 billion—setting a new record for single private funding in China's humanoid robotics sector. Funds will support hardware/software development, physical AI model training, data collection, end-to-end production facilities, and global expansion. CEO He Xiaopeng announced in June he would personally lead the robotics business, targeting 1,000 IRON humanoid robots per month by year-end.<br />
+<a href="https://t.me/theblockbeats/192033" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>💳 Payments &amp; Stablecoins</h2>
+
+<p><strong>Stablecoin Neobank Fasset Reaches $1B Valuation with $68M SBI-Led Round</strong><br />
+Stablecoin neobank Fasset completed a $68 million funding round led by Japan's SBI Group at a $1 billion valuation, bringing total 2026 funding to $119 million. CEO Mohammad Raafi Hossain said the company processes over $40 billion in annualized transaction volume across 125 countries, with revenue growing sixfold year-over-year, and has been profitable for 12 consecutive months.<br />
+<a href="https://t.me/wublockchainenglish/25712" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether CEO Reports Rising USDT Adoption in Developing Countries</strong><br />
+Tether CEO Paolo Ardoino stated USDT adoption is increasing in developing countries including Venezuela, Argentina, Bolivia, and Turkey, with the stablecoin increasingly used for domestic and cross-border trade as a digital dollar and store of value amid local currency devaluation, dollar shortages, and financial restrictions. Use cases include import/export settlements in Venezuela, commercial transactions in Bolivia, P2P trading in Argentina, and inflation protection in Turkey.<br />
+<a href="https://t.me/wublockchainenglish/25711" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🏦 Exchanges &amp; Platforms</h2>
+
+<p><strong>Gemini Partners with Apex to Provide Crypto Prediction Markets for Brokerage Clients</strong><br />
+Gemini will provide a crypto prediction markets venue for Apex's brokerage clients, expanding regulated crypto access to traditional finance customers. The partnership enables Apex's brokerage clients to access crypto-based prediction markets through Gemini's infrastructure, bridging traditional brokerage services with emerging crypto prediction market opportunities.<br />
+<a href="https://t.me/TheBlock001/7348" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Sony's S.BLOX Becomes First Registered Platform in Japan to List Midnight's NIGHT Token</strong><br />
+Sony's S.BLOX exchange became the first registered platform in Japan to list Midnight's NIGHT token, marking a significant milestone for Cardano's privacy-focused sidechain. The listing under Sony's licensed exchange provides regulatory legitimacy for privacy-focused blockchain projects in Japan's strictly regulated crypto market.<br />
+<a href="https://t.me/leviathan_news/21844" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Phantom Wallet to Drop Sui Support on September 24</strong><br />
+Phantom announced it will end support for the Sui network on September 24, 2026, offering fee-free swaps and a wallet migration guide for users. After the transition, users will no longer be able to view, send, swap, or interact with Sui assets in Phantom, though assets will remain onchain and accessible through compatible wallets using the same credentials.<br />
+<a href="https://t.me/leviathan_news/21835" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Upbit Lists LIT/KRW Trading Pair and Warns on SAND Token</strong><br />
+South Korea's largest crypto exchange Upbit listed the LIT/KRW trading pair and designated The Sandbox (SAND) as an investment caution asset due to unexplained security incidents involving its wallets or distributed ledger. Upbit suspended SAND deposit/withdrawal services, while Bithumb also designated SAND as caution-worthy, with both exchanges planning reviews between September 28 and October 2 on whether to lift restrictions or terminate trading support.<br />
+<a href="https://t.me/wublockchainenglish/25706" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>📈 Crypto Trading &amp; Markets</h2>
+
+<p><strong>Bitcoin Records Largest Weekly Dollar Gain in History</strong><br />
+Bitcoin recorded its largest weekly dollar gain in history with over 20% appreciation to approximately $79,500, with Strive CEO predicting the "strongest" cycle ever. The rally was accompanied by $1.918 billion in spot Bitcoin ETF net inflows over the week, marking the strongest weekly inflow in 10 months, while BitMine added 32,447 ETH bringing total holdings to 5.85 million ETH.<br />
+<a href="https://t.me/TheBlock001/7345" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strategy Sells $2B in MSTR Shares, Makes No Bitcoin Purchases, Establishes $1.6B 'USD Cash' Pool</strong><br />
+Strategy announced it sold 18.26 million MSTR shares for $2.01 billion net proceeds between August 17-23, with $136.4 million used to repurchase STRC preferred shares, $300 million added to its USD Reserve, and the remainder allocated to a newly established "USD Cash" pool for flexible Bitcoin treasury purposes including potential BTC purchases, debt service, and share repurchases. As of August 23, Strategy held $5.10 billion in USD Reserve and $1.59 billion in USD Cash, with Bitcoin holdings unchanged at 840,447 BTC.<br />
+<a href="https://t.me/wublockchainenglish/25717" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bernstein Says Circle's Growth Cycle Can Continue Without Clarity Act, Sees 59% Upside</strong><br />
+Bernstein analysts gave Circle an "Outperform" rating with a $140 price target (59% upside from Friday's close), stating the company's current growth cycle doesn't rely on the U.S. Clarity Act's progress. Analysts noted USDC supply increased by $1.7 billion over the past week and USDC's market share in stablecoin transaction volume continues expanding, indicating Circle's business growth momentum remains strong.<br />
+<a href="https://t.me/TheBlock001/7347" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HYPE Token Hits All-Time High, 'Largest Long Holder' Up $56.5M with $5M in Funding Fees Paid</strong><br />
+As HYPE token reached new all-time highs, the "largest onchain HYPE long" position holding 1.38 million HYPE tokens with 5x leverage showed unrealized profit of approximately $56.56 million, having paid $5.03 million in funding fees since opening the position around 5 hours before Robinhood's HYPE listing announcement on October 23, 2025.<br />
+<a href="https://t.me/theblockbeats/192008" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🔷 DeFi &amp; Protocols</h2>
+
+<p><strong>DeFi Lending Protocol Term Finance Loses $8.5M to Governance Exploit</strong><br />
+DeFi lending protocol Term Finance suffered an estimated $8.5 million loss from a governance exploit, with the attacker draining vaults and accumulating 2,843 ETH plus $1.6 million DAI. The attacker was funded via Tornado Cash, following similar governance-exploit patterns seen in Curve, Badger, and Mango attacks. Term Labs confirmed all Term Meta Vaults are now closed and DAO governance roles revoked, though the underlying Term protocol and direct lending markets remain unaffected.<br />
+<a href="https://t.me/TheBlock001/7344" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Standard Reserve Publishes Whitepaper for Experimental Onchain Central Bank Using Uniswap v4</strong><br />
+Standard Reserve published a whitepaper for an experimental onchain central bank using a Uniswap v4 pool to track ETH flows and adjust operations. The project represents an ironic twist on crypto's original mission to eliminate central banks, now attempting to implement central bank mechanics entirely onchain using decentralized infrastructure.<br />
+<a href="https://t.me/leviathan_news/21836" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Everything Protocol Whitepaper Proposes Unified Liquidity Reserve</strong><br />
+Everything Protocol's whitepaper proposes one liquidity reserve to power swaps, lending, leverage, and limit orders, aiming to unify multiple DeFi functions under a single liquidity layer. The design seeks to address fragmentation in DeFi by consolidating various trading and lending mechanisms into one integrated protocol.<br />
+<a href="https://t.me/leviathan_news/21838" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<h2>🔦 Other</h2>
+
+<p><strong>Ledger CTO Confirms Fix for Ethereum App Signing Flaw</strong><br />
+Ledger CTO Charles Guillemet confirmed a vulnerability in certain clear-signing flows of the Ledger Ethereum app was discovered by Ledger Donjon and fixed two weeks ago. Users who keep their Ledger firmware and apps up to date are protected, though a security firm later disclosed the issue after the fix was deployed.<br />
+<a href="https://t.me/wublockchainenglish/25710" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Researchers Pose as Fake DeFi Startup, Hire and Monitor Lazarus IT Workers in Sandbox</strong><br />
+Researchers created a fake DeFi startup to hire and monitor North Korean Lazarus Group IT workers in a sandbox environment, uncovering a professional "Drain-as-a-Service" infrastructure linked to Inferno ecosystem. The investigation revealed the service provides malicious scripts, admin panels, authorization command generation, one-time contract deployment, automated theft, cross-chain withdrawal, token swapping, fund aggregation, and automated profit-splitting. Multiple groups using this infrastructure have been linked to phishing attacks causing approximately $52.74 million in total losses.<br />
+<a href="https://t.me/leviathan_news/21834" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether Abandons $120M Bitcoin Mining Project in Uruguay After Power Dispute</strong><br />
+Tether abandoned its $120 million Bitcoin mining project in Uruguay after a power dispute with state utility UTE led to sites being disconnected in July 2025. The exit marks a significant retreat from Tether's mining expansion plans in South America following infrastructure and regulatory challenges.<br />
+<a href="https://t.me/leviathan_news/21840" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

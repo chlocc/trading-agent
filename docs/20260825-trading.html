@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 25, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260825-trading.html" class="active">08/25/2026</a>
+    <a href="20260824-trading.html" class="">08/24/2026</a>
+    <a href="20260823-trading.html" class="">08/23/2026</a>
+    <a href="20260822-trading.html" class="">08/22/2026</a>
+    <a href="20260821-trading.html" class="">08/21/2026</a>
+    <a href="20260820-trading.html" class="">08/20/2026</a>
+    <a href="20260814-trading.html" class="">08/14/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260825-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260825-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 25, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Bitcoin Breakout &amp; Institutional Validation</strong> — BTC reclaimed $80K for the first time in 113 days, driven by BlackRock ETF inflows ($338M) and lighter futures positioning. This matters because reduced leverage + strong spot demand = sustainable rally structure, not a short squeeze. Key tickers: <strong>BTC, IBIT, COIN, MSTR</strong> (<a href="https://t.me/wublockchainenglish/25721," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/wublockchainenglish/25727)</p>
+
+<p>• <strong>Semiconductor Cycle Extension to 2028</strong> — Applied Materials just confirmed AI-driven equipment demand will sustain through 2028, focused on HBM, DRAM, and advanced nodes. This validates the multi-year AI infrastructure build thesis and supports the entire chip supply chain. Key tickers: <strong>NVDA, AMD, AMAT, MU, SKHY</strong> <a href="https://t.me/theblockbeats/192159" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>• <strong>Wall Street Upgrades Crypto &amp; AI Exposure</strong> — Goldman raised COIN target, Canaccord lifted MSTR, and multiple firms upgraded semiconductor names. This synchronized upgrade cycle signals institutional FOMO returning after the correction. Key tickers: <strong>COIN, MSTR, AMD, MRVL, MU</strong> (<a href="https://t.me/wublockchainenglish/25733," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/192234)</p>
+
+<p>• <strong>Treasury Buyback Risk to Tech Valuations</strong> — Stanley Druckenmiller warned that Treasury debt buybacks could be misread as rate suppression, potentially triggering a sell-off in high-valuation tech stocks. This matters because any perception of distorted curves creates volatility in growth names at 30x+ multiples. Watch: <strong>QQQ, growth-heavy names</strong> <a href="https://t.me/theblockbeats/192153" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>BTC</strong> — Bitcoin surged past $80K with futures open interest at 5-month lows, indicating this move is driven by spot accumulation rather than leverage. Weekly RSI formed a bullish divergence, and if BTC holds above the 50-week MA (~$81K), it signals the bear market is over. (<a href="https://t.me/wublockchainenglish/25721," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/192216, https://t.me/theblockbeats/192213)</p>
+
+<p><strong>COIN</strong> — Goldman Sachs raised price target citing improving market structure and growth in new business lines. With crypto volatility returning and ETF flows accelerating, COIN benefits from both trading volumes and custody revenue. <a href="https://t.me/wublockchainenglish/25733" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MSTR</strong> — Canaccord upgraded with higher price target as MicroStrategy continues aggressive BTC accumulation. The company now functions as leveraged BTC exposure with corporate treasury optionality, appealing to institutions barred from direct crypto. <a href="https://t.me/wublockchainenglish/25733" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ETH</strong> — BlackRock drove $116M into Ether ETFs while a whale accumulated 20K ETH with $11.5M unrealized profit. Bitmine increased holdings significantly, and Tom Lee flagged an "overdue upside move" could trigger a larger rally. (<a href="https://t.me/wublockchainenglish/25727," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/leviathan_news/21859, https://t.me/theblockbeats/192161)</p>
+
+<p><strong>NVDA</strong> — Applied Materials' 2028 equipment cycle forecast validates sustained AI infrastructure spending. NVDA remains the primary beneficiary of HBM and advanced GPU demand for training and inference workloads. <a href="https://t.me/theblockbeats/192159" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AMD</strong> — Upgraded by Wall Street firms as AI GPU competition intensifies and hyperscaler demand diversifies away from single-vendor risk. AMD's MI300 ramp positions it to capture share in the $200B+ AI chip TAM. (<a href="https://t.me/wublockchainenglish/25733," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/192234)</p>
+
+<p><strong>MRVL, MU</strong> — Multiple upgrades reflect confidence in AI networking (MRVL) and HBM memory (MU). Both are critical bottlenecks in AI infrastructure, with tight supply and multi-year visibility. <a href="https://t.me/theblockbeats/192234" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Validator proposals to accelerate inflation cuts and increase SOL burns could make it deflationary. Virtuals launched agent ownership on Solana, expanding DeFi utility. Circle minted 1B USDC on Solana in 24 hours, signaling liquidity inflows. (<a href="https://t.me/leviathan" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><em>news/21858, https://t.me/leviathan</em>news/21869, https://t.me/theblockbeats/192157)</p>
+
+<p><strong>ZRO (LayerZero)</strong> — Launching ATLAS institutional trading platform in Fall 2026 with backing from major financial firms. Price surged on anticipation of institutional cross-chain liquidity aggregation. (<a href="https://t.me/theblockbeats/192242," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/192241)</p>
+
+<p><strong>AAPL</strong> — Released new Mac Mini/Studio with enhanced AI compute for local LLM inference. This positions Apple to monetize on-device AI without cloud dependency, differentiating from competitors. <a href="https://t.me/theblockbeats/192246" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BABA</strong> — Jack Ma significantly increased his stake, signaling confidence in Alibaba's AI pivot. Co-founders and CEO also added to positions, suggesting insider conviction ahead of AI product launches. (<a href="https://t.me/theblockbeats/192211," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/192209, https://t.me/theblockbeats/19199)</p>
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>Treasury Buyback Risk to Growth</strong> — Druckenmiller's warning that Treasury debt buybacks could be misread as yield curve manipulation poses tail risk to high-multiple tech. If 10Y yields spike on this perception, growth stocks at 30x+ could reprice violently. This is a sentiment risk, not fundamental, but could trigger de-risking. <a href="https://t.me/theblockbeats/192153" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC Short-Term Overextension</strong> — While the trend is bullish, daily RSI is overbought and the rally was partially fueled by short covering ($1.2B in new whale profits realized). Key resistance at SMA365 (~$83,200) could cap upside near-term. (<a href="https://t.me/theblockbeats/192195," target="_blank" rel="noopener" class="tg-link">→ Telegram</a> https://t.me/theblockbeats/192175)</p>
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long IBIT (BlackRock Bitcoin ETF)</strong></p>
+
+<ul>
+<li>Rationale: BTC reclaimed $80K with healthier market structure (low leverage, spot-driven), and BlackRock is leading ETF inflows. IBIT offers liquid exposure without custody risk, and the 50-week MA hold at $81K would confirm trend reversal.</li>
+<li>Entry: Current levels or pullback to $78K-$79K</li>
+<li>Risks: Invalidated if BTC breaks below $77K or if Treasury buyback fears trigger broad risk-off</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25721" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/wublockchainenglish/25727" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/192216" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>2. Long COIN (Coinbase)</strong></p>
+
+<ul>
+<li>Rationale: Goldman upgrade + improving crypto market structure + acceleration in ETF custody/trading volumes. COIN generates revenue on volatility and institutional adoption, both of which are inflecting.</li>
+<li>Entry: On any dip toward $225-$230</li>
+<li>Risks: Regulatory overhang or sustained crypto weakness below $75K BTC</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25733" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/wublockchainenglish/25727" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>3. Long MSTR (MicroStrategy)</strong></p>
+
+<ul>
+<li>Rationale: Canaccord upgrade + continued BTC accumulation + functions as leveraged BTC proxy with growing institutional acceptance. Strive (a major holder) just increased stake significantly.</li>
+<li>Entry: Current levels or on BTC consolidation</li>
+<li>Risks: BTC declining below $75K invalidates the leveraged thesis</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25733" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/192170" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>4. Long NVDA + AMD pair (3:1 ratio)</strong></p>
+
+<ul>
+<li>Rationale: Applied Materials' 2028 equipment cycle confirms multi-year AI chip demand. NVDA is the incumbent, but AMD is gaining share in hyperscaler diversification. Pair trade captures sector growth while hedging single-stock risk.</li>
+<li>Entry: NVDA at current levels, AMD on any pullback to $140</li>
+<li>Risks: Broader tech sell-off from macro concerns (Treasury buyback narrative)</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/192159" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/192234" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/wublockchainenglish/25733" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>5. Long BOTZ or ARKQ (AI/Robotics ETFs)</strong></p>
+
+<ul>
+<li>Rationale: Diversified exposure to AI infrastructure (NVDA, semiconductors) + robotics/automation beneficiaries. Morgan Stanley upgraded SpaceX on AI prospects, and sector rotation into growth is accelerating.</li>
+<li>Entry: On any 2-3% pullback from current levels</li>
+<li>Risks: Invalidated if QQQ breaks below 200-day MA or if rate fears resurface</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/192162" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/192236" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/192159" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>6. Long ETHA (Ether ETF)</strong></p>
+
+<ul>
+<li>Rationale: BlackRock leading $116M in ETH ETF inflows, whale accumulation, and Tom Lee flagging "overdue upside move." ETH has lagged BTC but fundamentals (staking yields, DeFi activity) are improving.</li>
+<li>Entry: Current levels or on pullback to $2,850-$2,900</li>
+<li>Risks: ETH fails to hold $2,800 or BTC weakens significantly</li>
+<li>Related signals: <a href="https://t.me/wublockchainenglish/25727" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/leviathan_news/21859" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/192161" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p><strong>7. Tactical Short QQQ (Hedge Position)</strong></p>
+
+<ul>
+<li>Rationale: Druckenmiller's Treasury buyback warning + overbought conditions in tech + potential for yield curve misinterpretation. This is a 5-10% portfolio hedge, not a primary thesis.</li>
+<li>Entry: Above 510 on QQQ, size small</li>
+<li>Risks: Continued risk-on rally invalidates; cut if QQQ breaks above 520</li>
+<li>Related signals: <a href="https://t.me/theblockbeats/192153" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>, <a href="https://t.me/theblockbeats/192218" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul>
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Treasury Buyback Narrative</strong> — If markets interpret the debt buyback program as stealth yield suppression, expect sharp repricing in high-valuation tech (30x+ multiples). Trigger: 10Y yields spike above 4.5% on this narrative. Impact: -10-15% in QQQ growth names.</p>
+
+<p>• <strong>BTC Resistance at $83K</strong> — SMA365 near $83,200 is key resistance. If BTC fails here with deteriorating breadth, expect retest of $77K-$78K. Trigger: rejection at $83K with rising futures open interest (re-leveraging). Impact: 5-7% crypto pullback, pressure on COIN/MSTR.</p>
+
+<p>• <strong>Semiconductor ETF Outflows</strong> — South Korean chip ETFs saw first monthly outflows since launch, potentially signaling profit-taking in the sector. Trigger: continued redemptions + weaker guidance from AMAT or ASML. Impact: rotation out of SMH/SOXX.</p>
+
+<p>• <strong>Geopolitical Tail Risk</strong> — Current rally assumes easing tensions (oil down, risk-on). Any escalation in Middle East or Asia-Pacific disrupts this. Trigger: oil spiking above $90 or safe-haven flows into bonds. Impact: broad risk-off, 3-5% equity drawdown.</p>
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Global risk-on sentiment is driven by easing geopolitical tensions and anticipation of dovish Fed policy, with oil falling and liquidity improving. Arthur Hayes flagged increased dollar liquidity from Treasury buybacks as a tailwind for crypto, though he's positioned for higher volatility. The synchronized Wall Street upgrades across crypto and semiconductors suggest institutional capital is rotating back into growth after Q2's correction. However, Druckenmiller's warning about Treasury operations misinterpretation introduces a tail risk that could disrupt high-valuation tech positioning.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+67 signals | 67 tradeable | 55 bullish | 7 bearish</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

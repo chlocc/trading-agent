@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — August 29, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260829-trading.html" class="active">08/29/2026</a>
+    <a href="20260828-trading.html" class="">08/28/2026</a>
+    <a href="20260827-trading.html" class="">08/27/2026</a>
+    <a href="20260826-trading.html" class="">08/26/2026</a>
+    <a href="20260825-trading.html" class="">08/25/2026</a>
+    <a href="20260824-trading.html" class="">08/24/2026</a>
+    <a href="20260823-trading.html" class="">08/23/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab active" href="20260829-trading.html">📊 Trading Signals</a>
+    <a class="tab " href="20260829-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📊 TRADING SIGNALS BRIEF — August 30, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🔥 TOP THEMES</p>
+
+<p>• <strong>Hawkish Fed Shock Reverberates</strong> — Fed Chair Warsh's inflation comments sent September rate-hike odds to ~50%, triggering broad risk-off across equities, crypto, and gold. BTC broke its nine-day ETF inflow streak, equities sold off hard, and the macro setup heading into next week's payrolls/CPI prints is now acutely sensitive. Key tickers: BTC, GLD, NVDA, MRVL, MSTR, COIN.</p>
+
+<p>• <strong>ETH/BTC Divergence Emerging</strong> — ETH spot ETFs logged a 12th consecutive day of inflows ($102.1M) even as BTC ETFs saw $201.9M in outflows, snapping a nine-day run. Smart money whales are simultaneously adding ETH longs on-chain. This BTC/ETH divergence is one of the clearest near-term rotation signals in the market. Key tickers: ETH, BTC, ETHA, IBIT.</p>
+
+<p>• <strong>AI Infrastructure Financing Accelerating Despite Tech Selloff</strong> — Despite Nvidia falling 4.57% and Marvell crashing 10.28%, Blue Owl closed a $2.4B deal to finance IREN's purchase of NVIDIA Blackwell Ultra GPUs. This confirms private credit is filling the AI capex gap even as public equities wobble. Key tickers: IREN, NVDA, OWL, BOTZ, ARKQ.</p>
+
+<p>• <strong>DeFi Protocol Exploits Spreading</strong> — Ajna v2 suffered a $775K exploit via liquidation accounting manipulation and has urged full user withdrawal. Fogo mainnet was halted after an attacker captured 10% of circulating supply. Avici also suspected hacked for ~$1M. DeFi risk-off is live. Key tickers: AJNA, FOGO, broader DeFi exposure.</p>
+
+<hr />
+
+<p>🟢 BULLISH SIGNALS</p>
+
+<p><strong>ETH</strong> — US spot Ethereum ETFs logged $102.1M in net inflows for a 12th consecutive day, demonstrating persistent and broadening institutional demand even against a risk-off macro backdrop. Simultaneously, a Bit-linked entity added 8,000 ETH longs, bringing its total position to 29,500 ETH (~$72M), reinforcing on-chain conviction. Watch for ETH to outperform BTC on any macro relief rally; the ETF flow divergence is a structural tailwind. <a href="https://t.me/theblockbeats/192962" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SOL</strong> — Two whales pulled ~320,000 SOL (~$33.55M) off exchanges over a 10-hour window, a classic accumulation signal suggesting strong-handed conviction at current levels near $105. Exchange supply reduction reduces near-term sell pressure and historically precedes price appreciation. Watch the $100–$104 support band as the key level to hold. <a href="https://t.me/theblockbeats/192952" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>IREN / NVDA / OWL</strong> — Blue Owl Capital is leading a $2.4B AI computing financing package for Iris Energy to acquire NVIDIA Blackwell Ultra GPUs, one of the largest private AI infrastructure deals on record. This validates both the Blackwell demand cycle and Blue Owl's positioning as a leading AI credit vehicle. Watch IREN for a re-rate on deal close; OWL benefits as lead arranger on a landmark transaction. <a href="https://t.me/theblockbeats/192946" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HYPE</strong> — Four wallets withdrew 675,000 HYPE (~$53.9M) from Coinbase and immediately staked them on Hyperliquid, and Bitwise's BHYP ETF wallet now holds ~$74.9M in staked HYPE. Combined institutional staking activity signals genuine long-term conviction. The upcoming permissionless HIP-4 upgrade further expands the ecosystem's addressable use cases. <a href="https://t.me/theblockbeats/192934" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<p>🔴 BEARISH SIGNALS</p>
+
+<p><strong>AJNA</strong> — Ajna v2 confirmed an exploit resulting in ~$775K in losses via liquidation accounting manipulation, with the team urging all users to withdraw funds immediately and avoid the protocol. This is a full protocol-level compromise — liquidity will drain rapidly and token price faces existential selling pressure. Downside scenario: token approaches zero as TVL collapses and trust evaporates. (<a href="https://t.me/leviathan_news/22048" target="_blank" rel="noopener" class="tg-link">→ Telegram</a> | <a href="https://t.me/theblockbeats/192990" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>)</p>
+
+<p><strong>FOGO</strong> — Fogo mainnet was halted after an attacker received approximately 10% of the circulating token supply from the Fogo Foundation treasury — a catastrophic supply shock. With the chain halted and attacker holding enormous selling inventory, any resumption of trading risks severe downside. Downside scenario: network restart triggers immediate dump of attacker tokens; confidence in the project may not recover. <a href="https://t.me/TheBlock001/7377" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BTC</strong> — US spot Bitcoin ETFs posted $201.9M in net outflows, snapping a nine-day inflow streak, coinciding with Powell/Warsh hawkish remarks pushing September hike odds to ~50%. BTC has already retraced 3.39% to $77.5K and the macro headwind (payrolls next week, CPI soon after) keeps the downside path of least resistance open. Downside scenario: failure to hold $75.5K support opens a flush toward $72K–$73K. <a href="https://t.me/theblockbeats/192958" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GLD</strong> — Fed Chair Warsh explicitly signaled that inflation is not improving meaningfully, lifting rate-hike odds and directly pressuring gold. Higher-for-longer rates increase the opportunity cost of holding non-yielding gold. Downside scenario: September hike confirmation sends GLD back toward $230 support; BofA's autumn "reality check" warning amplifies the risk. <a href="https://t.me/theblockbeats/192930" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVDA / MRVL</strong> — US tech closed sharply lower with Nvidia down 4.57% and Marvell down 10.28% on the session. The selloff hit crypto-linked equities (MSTR, COIN) equally hard, suggesting broad de-risking rather than stock-specific issues. Downside scenario: if macro data next week disappoints and rate-hike odds stay elevated, the AI trade faces a deeper multiple compression. <a href="https://t.me/theblockbeats/192928" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<p>💡 TRADE IDEAS</p>
+
+<p><strong>1. Long ETHA (Ethereum ETF)</strong></p>
+
+<ul>
+<li>Rationale: ETH spot ETFs have now seen 12 consecutive days of inflows totaling over $1B cumulative, while BTC ETFs just broke their streak. Institutional rotation from BTC to ETH is the clearest relative-value signal in crypto right now. On-chain whale accumulation of longs confirms the bias.</li>
+<li>Entry: Buy ETHA on any intraday dip toward $24.50–$25.00; add on confirmation of a 13th consecutive inflow day.</li>
+<li>Risks: A broader macro shock (hot payrolls print next week triggering rate-hike confirmation) could halt ETF flows and pressure all crypto ETFs simultaneously.</li>
+<li>Related signals:
+<ul>
+<li>ETH ETF 12th consecutive inflow day, $102.1M <a href="https://t.me/theblockbeats/192962" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>BTC ETF outflows breaking 9-day streak <a href="https://t.me/theblockbeats/192958" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>On-chain whale adds 8,000 ETH longs, total 29,500 ETH <a href="https://t.me/theblockbeats/192932" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>2. Long IREN</strong></p>
+
+<ul>
+<li>Rationale: Blue Owl's $2.4B private financing for IREN to buy Nvidia Blackwell Ultra GPUs is a landmark deal that effectively de-risks IREN's growth capex via institutional backing. The stock is likely mispriced given the public equity selloff hasn't distinguished between companies with locked-in financing and those without.</li>
+<li>Entry: Buy IREN on open or on any gap-down below the previous close; the deal announcement is the catalyst.</li>
+<li>Risks: If NVDA's stock continues to slide and GPU pricing deteriorates, IREN's asset base value could compress even with the deal in place.</li>
+<li>Related signals:
+<ul>
+<li>Blue Owl $2.4B AI computing financing for IREN <a href="https://t.me/theblockbeats/192946" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>NVDA down 4.57% session <a href="https://t.me/theblockbeats/192928" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>3. Long OWL (Blue Owl Capital)</strong></p>
+
+<ul>
+<li>Rationale: As lead arranger on the $2.4B IREN deal, Blue Owl is cementing itself as the dominant private credit vehicle for AI infrastructure financing. Private credit filling the AI capex gap is a secular theme; this deal validates the model and sets up further deal flow. Stablecoin-backed GPU lending (DAI/USDC signals) confirms the trend is broadening.</li>
+<li>Entry: Buy OWL on any pullback to the $22–$23 range; the deal announcement is near-term catalyst.</li>
+<li>Risks: Rising rates (Warsh hawkish signal) could compress private credit valuations and slow deal origination.</li>
+<li>Related signals:
+<ul>
+<li>Blue Owl leads $2.4B AI computing deal <a href="https://t.me/theblockbeats/192946" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Stablecoin-backed $100M GPU lending deal <a href="https://t.me/theblockbeats/192945" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>4. Long SOL (Spot or via futures)</strong></p>
+
+<ul>
+<li>Rationale: Two separate whales withdrew ~320,000 SOL from exchanges in a coordinated 10-hour window — a textbook supply squeeze setup. With exchange balances falling and smart money accumulating, SOL is positioned for a sharp move higher if BTC stabilizes above $75.5K. Broader meme-token activity on Solana (PONS, AI, FONE all hitting ATHs) confirms the ecosystem is live.</li>
+<li>Entry: Buy SOL spot at current levels (~$105); scale in on any dip to $100–$102 support.</li>
+<li>Risks: If BTC breaks $75.5K to the downside, SOL will likely follow with amplified beta; macro risk-off is the primary threat.</li>
+<li>Related signals:
+<ul>
+<li>320K SOL whale withdrawals from exchanges <a href="https://t.me/theblockbeats/192952" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Meme tokens on Solana hitting ATHs <a href="https://t.me/theblockbeats/192939" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>5. Long BOTZ (AI/Robotics ETF) — Dip Buy</strong></p>
+
+<ul>
+<li>Rationale: Despite the tech selloff, the structural AI compute thesis remains intact — Fed Chair Warsh himself acknowledged AI as a "transformative factor of production" with two leading firms at $100B+ in annualized token sales. Qualcomm's Japan robotics partnership and the recursive self-improvement narrative (Former Alibaba VP) reinforce multi-year demand. BOTZ offers diversified exposure away from single-name NVDA risk.</li>
+<li>Entry: Buy BOTZ on a confirmed bounce above the prior session low; target entry in the $10.50–$11.00 range.</li>
+<li>Risks: A September rate hike confirmation would apply further multiple compression to growth/AI names; BOTZ has high NVDA correlation.</li>
+<li>Related signals:
+<ul>
+<li>Warsh acknowledges AI as transformative factor of production <a href="https://t.me/theblockbeats/192937" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Recursive self-improvement driving exponential AI demand <a href="https://t.me/theblockbeats/192981" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Qualcomm Japan robotics investment plan <a href="https://t.me/theblockbeats/192947" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>6. Short IBIT / Underweight BTC vs ETH (Pairs Trade)</strong></p>
+
+<ul>
+<li>Rationale: BTC ETFs just broke a nine-day inflow streak with $201.9M in outflows while ETH ETFs added $102.1M for a 12th straight day. The rotation is live. BTC faces hawkish macro headwinds, a high-profile whale 20x short at current levels, and a key test at $75.5K support. Going short IBIT while long ETHA captures the ETH/BTC relative-value spread with macro hedging.</li>
+<li>Entry: Short IBIT / Long ETHA in equal notional; initiate on any BTC bounce toward $79K–$80K.</li>
+<li>Risks: A surprise dovish macro catalyst (weak payrolls) could lift BTC disproportionately and squeeze the short leg faster than ETH rallies.</li>
+<li>Related signals:
+<ul>
+<li>BTC ETF $201.9M outflows, streak broken <a href="https://t.me/theblockbeats/192958" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>ETH ETF 12th consecutive inflow day <a href="https://t.me/theblockbeats/192962" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>BTC retraced to $77.5K on hawkish Fed <a href="https://t.me/theblockbeats/192949" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>Trader opens 20x leveraged BTC short <a href="https://t.me/theblockbeats/193000" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<p><strong>7. Short GLD</strong></p>
+
+<ul>
+<li>Rationale: Fed Chair Warsh's explicit hawkish inflation signal has pushed September rate-hike odds to ~50%. Higher real rates are the single biggest structural headwind for gold. BofA's warning of an autumn equity reality check adds to risk-off flows that may paradoxically pressure gold if investors sell it to cover margin elsewhere. The setup favors fading any gold strength.</li>
+<li>Entry: Short GLD on any intraday bounce toward $240–$242 resistance; tight stop above $245.</li>
+<li>Risks: A geopolitical shock or a catastrophically weak payrolls print that reverses the rate-hike narrative would trigger a sharp gold rally and stop out the short.</li>
+<li>Related signals:
+<ul>
+<li>Warsh hawkish inflation signal, rate-hike odds rise <a href="https://t.me/theblockbeats/192930" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+<li>BofA autumn reality check warning <a href="https://t.me/theblockbeats/192942" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></li>
+</ul></li>
+</ul>
+
+<hr />
+
+<p>⚠️ RISKS TO WATCH</p>
+
+<p>• <strong>Next Week's Nonfarm Payrolls (Trigger: Hot print)</strong> — With September rate-hike odds now at ~50%, a stronger-than-expected payrolls number could push odds above 70%, triggering a waterfall risk-off across crypto, equities, and gold simultaneously. BTC's $75.5K support becomes the critical line; a break opens $72K.</p>
+
+<p>• <strong>DeFi Exploit Contagion (Trigger: Additional protocol compromises)</strong> — Ajna v2, Fogo, and Avici were all hit in the same session. If a larger protocol is found to share similar liquidation accounting vulnerabilities, panic withdrawals across DeFi could spike gas costs and create cascading liquidations in leveraged positions.</p>
+
+<p>• <strong>NVDA / AI Equity Re-Rating (Trigger: Continued selling or negative data points)</strong> — NVDA is down 4.57% and MRVL crashed 10.28% in a single session. If Nvidia's rumored $13B Hugging Face acquisition faces regulatory scrutiny or if enterprise AI spending data disappoints, the entire AI equity complex (NVDA, MSFT, GOOG, BOTZ, ARKQ) could see a sustained de-rating that takes crypto-adjacent names (MSTR, COIN, IREN) down with it.</p>
+
+<p>• <strong>BTC Liquidation Cascade (Trigger: Break below $75.5K)</strong> — Trader data shows a drop to $61K could trigger $20B in long liquidations. The $75.5K–$77K zone is the critical support band. A clean break below this level on heavy volume, particularly if paired with continued ETF outflows, could trigger a self-reinforcing cascade into the low $70Ks.</p>
+
+<hr />
+
+<p>📌 MACRO CONTEXT</p>
+
+<p>Fed Chair Warsh's hawkish remarks at Jackson Hole — flagging stubborn inflation and lifting September rate-hike odds to ~50% — have materially shifted the near-term risk backdrop from cautiously constructive to defensive. Markets are now in a data-dependent holding pattern ahead of next week's nonfarm payrolls and the subsequent CPI print, with any upside surprise capable of locking in a September hike and extending the current risk-off move. The notable exception is Ethereum, where institutional ETF demand has decoupled from the broader macro selloff, suggesting structural allocation rather than speculative positioning — a dynamic worth monitoring closely as the macro picture evolves.</p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

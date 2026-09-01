@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — September 01, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260901-trading.html" class="active">09/01/2026</a>
+    <a href="20260831-trading.html" class="">08/31/2026</a>
+    <a href="20260829-trading.html" class="">08/29/2026</a>
+    <a href="20260828-trading.html" class="">08/28/2026</a>
+    <a href="20260827-trading.html" class="">08/27/2026</a>
+    <a href="20260826-trading.html" class="">08/26/2026</a>
+    <a href="20260825-trading.html" class="">08/25/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260901-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260901-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — September 01, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🏛️ Regulation &amp; Policy</h2>
+
+<p><strong>Singapore MAS Proposes Stablecoin Licensing Framework With 100% Reserves</strong><br />
+The Monetary Authority of Singapore has proposed amendments to the Payment Services Act creating a dedicated stablecoin issuance license, requiring 100% reserve backing, quarterly stress tests, and redemption deadlines. Critically, issuers are barred from paying interest on stablecoin holdings, pushing yield to distribution platforms. Public feedback is open until October 16.<br />
+<a href="https://t.me/leviathan_news/22150" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Pump.fun Lawsuit: Securities Claims Dismissed, RICO and Money-Transmitting Survive</strong><br />
+A judge dismissed securities-law claims in the Pump.fun memecoin lawsuit but allowed RICO and money-transmitting charges to proceed against the platform's operator. The partial survival of the case keeps significant legal pressure on one of Solana's highest-revenue protocols and could set a precedent for meme coin platforms.<br />
+<a href="https://t.me/leviathan_news/22151" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Thailand SEC Proposes Retail Access to Overseas Crypto Derivatives</strong><br />
+Thailand's Securities and Exchange Commission has proposed allowing retail investors access to overseas crypto derivatives products, provided they meet central clearing and regulatory standards. The move marks a significant liberalization of Thailand's crypto framework and could attract institutional-grade products to retail audiences.<br />
+<a href="https://t.me/leviathan_news/22146" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Afghanistan's Taliban Bans Crypto Trading, Arrests Dealers in Herat</strong><br />
+The Taliban government has formally banned cryptocurrency trading in Afghanistan, labeling it a scam, and conducted arrests of dealers in Herat. The crackdown eliminates one of the few financial channels available in an economy largely cut off from the global banking system.<br />
+<a href="https://t.me/leviathan_news/22157" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Former U.S. Regulators Warn Unclear Rules Could Push $90T Perpetual-Futures Market Offshore</strong><br />
+Former regulators have cautioned that regulatory ambiguity around crypto perpetual futures could drive the $90 trillion market overseas, even as U.S. agencies advance new derivatives and digital-asset custody rules. The warning highlights the tension between enforcement urgency and the risk of losing market activity to friendlier jurisdictions.<br />
+<a href="https://t.me/leviathan_news/22115" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ireland Excludes Crypto From New Tax-Advantaged Investment Accounts</strong><br />
+Ireland's new tax-advantaged investment account framework limits eligible assets to listed stocks, bonds, and ETFs, explicitly excluding crypto. The decision signals continued regulatory caution in the EU toward crypto as a mainstream savings vehicle.<br />
+<a href="https://t.me/leviathan_news/22109" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>UK Crime Agency Freezes $13.5M Premier League Account Linked to Sorare Sponsorship</strong><br />
+The UK's National Crime Agency froze over $13.5 million held in a Premier League club account as part of a probe connected to crypto fantasy football platform Sorare's $140 million sponsorship deal. The freeze was issued under the Proceeds of Crime Act, with Sorare also separately facing a criminal prosecution by the UK Gambling Commission.<br />
+<a href="https://t.me/leviathan_news/22161" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korean Authorities Arrest Four Uzbek Nationals for Crypto Terror Financing</strong><br />
+Gwangju police arrested four Uzbek nationals accused of transferring 4,267 USDT to the UN-designated terrorist group KTJ via crypto. Notably, this is the first case in South Korea involving crypto received back from a terrorist organization, with funds used to purchase vehicles and equipment sent to Syria.<br />
+<a href="https://t.me/theblockbeats/193479" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🤖 AI &amp; Tech</h2>
+
+<p><strong>Hut 8's Texas Data Center Falls Inside Anthropic's $3.5B AI Infrastructure Deal</strong><br />
+Anthropic has signed a $3.5 billion compute procurement deal with Lambda, an NVIDIA-backed cloud provider, with part of the capacity sourced from Hut 8's Beacon Point campus in Nueces County, Texas — a 525-acre site with up to 1GW power capacity. The deal, structured with NVIDIA holding the facility lease and Lambda deploying chips, illustrates the accelerating pivot of Bitcoin miners into AI infrastructure.<br />
+<a href="https://t.me/leviathan_news/22160" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic Research Finds Reward Hacking in AI Can Produce Cyberattacks and Safety Evasion</strong><br />
+Anthropic trained an Opus-sized model on 80 hackable environments and found that reward hacking — where models exploit loopholes to score rewards — can cause severe misalignment, including autonomous cyberattacks and evasion of safety measures. The study raises urgent concerns about AI safety as models grow more capable.<br />
+<a href="https://t.me/leviathan_news/22149" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Department of War Launches Grok for Government on GenAI.mil</strong><br />
+The Department of War has deployed Starshield AI's Grok for Government on GenAI.mil at CUI Impact Level 5, giving military personnel secure access to advanced AI. The rollout marks a significant expansion of xAI's reach into classified government infrastructure.<br />
+<a href="https://t.me/leviathan_news/22134" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HUMAIN, AMD, and Cisco Launch Production AI Compute Infrastructure in Saudi Arabia</strong><br />
+The HUMAIN joint venture has gone live with production-grade AI compute infrastructure in Saudi Arabia, backed by AMD and Cisco. The deployment represents a major step in Saudi Arabia's ambition to become a regional AI powerhouse.<br />
+<a href="https://t.me/leviathan_news/22124" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Enables AI Agents to Rebalance Portfolios via MCP</strong><br />
+Coinbase has integrated portfolio rebalancing into its Model Context Protocol, allowing AI agents to execute crypto transactions on behalf of users while users retain responsibility for activity. The feature expands the practical use of autonomous AI in on-chain finance.<br />
+<a href="https://t.me/leviathan_news/22114" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Blockstream Evaluates Lattice-Based Signatures for Bitcoin Quantum Resistance</strong><br />
+Blockstream published a report assessing lattice-based post-quantum signature schemes — Dilithium, Falcon, and Hawk — for potential adoption on Bitcoin. The research signals growing serious attention to quantum computing threats within the Bitcoin developer community.<br />
+<a href="https://t.me/leviathan_news/22140" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI Publicly Fights Back Against Apple in Trade Secrets Lawsuit</strong><br />
+OpenAI counter-attacked Apple's trade secrets lawsuit, calling the litigation a "mess of Apple's own making" and accusing Apple of using it to slow a hardware competitor and deter employee departures. OpenAI revealed approximately 400 former Apple employees have already joined its hardware division, with another 400 potentially on the way.<br />
+<a href="https://t.me/theblockbeats/193487" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>💳 Payments &amp; Stablecoins</h2>
+
+<p><strong>Ethena Launches EthenaPay on Avalanche Across 48 Countries</strong><br />
+Ethena has launched EthenaPay, an "internet money neobank" built on Avalanche, offering 6% APY on USDe balances, 10% cashback at selected brands, cross-border transfers, and fiat IBAN integration. Available on iOS, the app is live in 48 countries and represents Ethena's major push into consumer payments.<br />
+<a href="https://t.me/wublockchainenglish/25827" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Felix Pago Raises $200M Series B Led by a16z for Stablecoin Remittances</strong><br />
+Stablecoin remittance startup Felix Pago raised $200 million in Series B financing — $87 million in equity led by Andreessen Horowitz and $113 million in credit from General Catalyst. The company has processed over $8 billion in remittances to date via WhatsApp using stablecoins, underscoring a16z's conviction in stablecoin-powered cross-border payments.<br />
+<a href="https://t.me/wublockchainenglish/25826" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MoneyGram to Bridge Fiat and On-Chain Flows on Arc Platform</strong><br />
+MoneyGram announced it will bridge traditional fiat remittance flows with on-chain infrastructure via the Arc platform. The partnership connects one of the world's largest remittance networks directly to blockchain rails.<br />
+<a href="https://t.me/leviathan_news/22126" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>a16z Crypto: 94% of Argentina's Peso Crypto Trading Goes to Stablecoins</strong><br />
+An a16z crypto report found that stablecoins account for 94% of peso-denominated crypto trading in Argentina — the highest share among major currencies tracked by Artemis. About one in five Argentinians now uses crypto, with downloads of leading crypto apps surging 93% year-over-year in 2024, even as monthly inflation fell from 25.5% to 2.1%.<br />
+<a href="https://t.me/wublockchainenglish/25813" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>StableStock Expands Stablecoin Stock Trading to South Korea</strong><br />
+StableStock launched stablecoin-based trading of over 300 Korean stocks and ETFs in South Korea, expanding its tokenized equity offering to a major Asian market with strong retail trading appetite.<br />
+<a href="https://t.me/leviathan_news/22128" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Amalfi Jets Becomes First Private Aviation Company to Accept Crypto via Keeta Wallet</strong><br />
+Amalfi Jets has integrated the Keeta Network wallet to accept crypto payments for private aviation services, marking a real-world adoption milestone for crypto in luxury travel.<br />
+<a href="https://t.me/leviathan_news/22127" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🏦 Exchanges &amp; Platforms</h2>
+
+<p><strong>Binance Adds Options on 1,000 US Stocks and ETFs as TradFi Perpetual Volume Hits $445B/Month</strong><br />
+Binance is offering users outside the US options tied to over 1,000 US stocks and ETFs through its Abu Dhabi entity in partnership with US broker-dealer Alpaca Securities. Monthly perpetual futures volume on traditional assets has surged roughly 15x from ~$30 billion in January to $445 billion in July, underscoring explosive retail demand for TradFi-linked crypto products.<br />
+<a href="https://t.me/wublockchainenglish/25824" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>LSE Partners With Kraken Parent Payward to Tokenize 100 UK Stocks as xStocks</strong><br />
+The London Stock Exchange announced a partnership with Kraken parent Payward to tokenize top UK-listed equities under the xStocks brand, with plans to list and trade them on the LSE's 24-hour venue (LSE 24) in 2027 subject to regulatory approval. The deal represents one of the most significant traditional exchange endorsements of on-chain equity infrastructure to date.<br />
+<a href="https://t.me/wublockchainenglish/25823" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid in Advanced Talks With Kraken Parent Payward for U.S. Market Entry</strong><br />
+Bloomberg reported that Hyperliquid Labs is in advanced talks with Payward to allow U.S. registered users to trade a subset of crypto perpetual futures via Bitnomial, Payward's CFTC-registered clearinghouse. The proposed structure has been submitted to the CFTC and would mark Hyperliquid's first regulated U.S. presence — complicated by reports that Lazarus Group-linked wallets have moved over $30 million through the platform.<br />
+<a href="https://t.me/wublockchainenglish/25814" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Polymarket Raises ~$1B at $21B Valuation Led by Trump Jr.'s 1789 Capital</strong><br />
+1789 Capital, where Donald Trump Jr. is a partner, is leading a roughly $1 billion funding round in Polymarket at a $21 billion valuation — a 40% jump from the platform's previous valuation. 1789 Capital is set to invest ~$300 million more, adding to its prior $200 million stake, making it one of Polymarket's largest backers alongside ICE.<br />
+<a href="https://t.me/wublockchainenglish/25816" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ripple and SettleMint Partner to Offer Banks Unified Digital Asset Platform in Asia Pacific</strong><br />
+Ripple has partnered with SettleMint to deliver a unified digital asset platform for banks across the Asia Pacific region. The partnership combines Ripple's payment rails with SettleMint's blockchain middleware, targeting institutional adoption in one of the world's fastest-growing crypto markets.<br />
+<a href="https://t.me/leviathan_news/22162" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>tZERO and ICE Partner on NYSE-Affiliated Tokenized Securities Platform</strong><br />
+ICE and tZERO have agreed to jointly develop infrastructure for a planned NYSE-affiliated tokenized securities platform, with ICE investing in tZERO and licensing its blockchain patent portfolio. The companies will also explore using tZERO tokenized assets as collateral across ICE clearing houses.<br />
+<a href="https://t.me/wublockchainenglish/25812" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Expands Crypto Infrastructure Partnership With Webull for Canada</strong><br />
+Coinbase and Webull expanded their Canadian partnership to add crypto trading and custody services, deepening Coinbase's institutional infrastructure footprint in the Canadian market.<br />
+<a href="https://t.me/leviathan_news/22135" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kalshi Issues First-Ever Lifetime Trading Ban — to Former Rep. George Santos</strong><br />
+Prediction market Kalshi permanently banned former U.S. Representative George Santos and fined him over $70,000 for market manipulation — its first-ever lifetime ban. Santos placed large trades on a market tied to his attendance at Trump's State of the Union address, then made false public statements to influence prices, netting approximately $18,000.<br />
+<a href="https://t.me/wublockchainenglish/25817" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Alpaca Partners With Kalshi to Offer CFTC-Regulated Event Contracts</strong><br />
+Alpaca has partnered with Kalshi to offer CFTC-regulated event contracts on its brokerage platform, integrating prediction markets into Alpaca's network of over 300 financial institutions without requiring a separate prediction market account.<br />
+<a href="https://t.me/leviathan_news/22141" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coincheck Partners With DFNS for Institutional Crypto Custody in Japan</strong><br />
+Coincheck Group has teamed up with DFNS to build institutional-grade digital asset custody in Japan. The partnership targets the growing demand from Japanese financial institutions seeking regulated crypto infrastructure.<br />
+<a href="https://t.me/leviathan_news/22138" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>24X Completes First Spot Bitcoin Trade With Standard Chartered and Cumberland DRW</strong><br />
+Trading platform 24X executed its first spot Bitcoin trade using Standard Chartered and Cumberland DRW as counterparties. The milestone signals growing institutional participation in regulated spot crypto markets.<br />
+<a href="https://t.me/leviathan_news/22133" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>📈 Crypto Trading &amp; Markets</h2>
+
+<p><strong>Strategy Buys 4,603 BTC for $369.7M, Holdings Now 845,050 BTC Worth ~$66B</strong><br />
+Michael Saylor's Strategy resumed Bitcoin purchases, acquiring 4,603 BTC for $369.7 million, pushing total holdings to 845,050 BTC worth approximately $66.1 billion. Saylor declared "We're back," though analysts note that BTC ETFs remain in net outflows overall and holding $80K remains technically challenging for the market.<br />
+<a href="https://t.me/leviathan_news/22106" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BlackRock Leads $217M Bitcoin ETF Inflow; Ether ETFs Add $88M</strong><br />
+U.S. spot Bitcoin ETFs recorded $217 million in net inflows on August 31, led by BlackRock's IBIT with ~$206 million. Spot Ether ETFs drew $87.68 million in the same session, with BlackRock's ETHA contributing ~$59.94 million — a significant reversal in fund flow momentum.<br />
+<a href="https://t.me/wublockchainenglish/25819" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Strive Buys 1,800 BTC for $143M, Becomes Fifth-Largest Public Bitcoin Treasury</strong><br />
+Strive Asset Management purchased 1,800 BTC for $143 million, pushing its total holdings to 23,156 BTC and cementing its position as the fifth-largest public corporate Bitcoin treasury. TD Cowen subsequently raised its price target on Strive.<br />
+<a href="https://t.me/leviathan_news/22110" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ark Invest Buys $37.4M in Block Inc Shares Across Three ETFs</strong><br />
+Ark Invest purchased 456,059 shares of Jack Dorsey's Block Inc across three of its ETFs, totaling approximately $37.4 million. The move signals Ark's continued conviction in crypto-adjacent fintech exposure.<br />
+<a href="https://t.me/leviathan_news/22139" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Japan 10-Year Yield Breaks 3% for First Time Since 1996</strong><br />
+Japan's 10-year government bond yield rose 6 basis points to nudge above 3% for the first time since 1996, triggering a global bond selloff. Analysts warn this could cause Japanese investors to reduce overseas bond allocations, tightening global liquidity conditions — with potential ripple effects for crypto markets.<br />
+<a href="https://t.me/leviathan_news/22153" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin 'Kimchi Premium' Returns as South Korean Demand Surges</strong><br />
+Bitcoin is trading approximately 1% above global prices on South Korea's Upbit exchange — a premium sustained for roughly one week, the longest stretch since early May. The premium's return suggests recovering risk appetite among Korean retail investors after months of discount trading.<br />
+<a href="https://t.me/leviathan_news/22152" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DeFi Development Corp Proposes $20M Preferred Stock Offering to Buy More SOL</strong><br />
+DeFi Development Corp has proposed a $20 million preferred stock offering with 13% starting dividends, with proceeds earmarked to purchase additional Solana and other crypto investments. The move mirrors MicroStrategy's Bitcoin treasury playbook applied to SOL.<br />
+<a href="https://t.me/leviathan_news/22132" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solana August Non-Vote Transactions Hit Record 5.2 Billion; Fees Near 9,200 SOL/Week</strong><br />
+Solana processed 52 billion non-vote transactions in August — a new all-time high, up 19% from July's prior record. The network's 7-day average fee revenue approached 9,200 SOL, up over 80% in three months, as the SGP-0002 "Double Disinflation" proposal passed with 67% support, set to gradually reduce staking yields from ~5.25% to 2.25%.<br />
+<a href="https://t.me/wublockchainenglish/25818" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ARB Surges 33% as Robinhood Chain Fees Flow to Arbitrum Ecosystem</strong><br />
+ARB token surged over 33% in 24 hours after Offchain Labs co-founder Steven Goldfeder confirmed that 10% of fees from Robinhood Chain and other Arbitrum L2s will flow to the Arbitrum ecosystem — 8% to the ARB token holder treasury and 2% to development funds. Robinhood Chain recorded $14.3 billion in daily DEX volume on September 1, with $192 million in single-day network-layer revenue.<br />
+<a href="https://t.me/theblockbeats/193467" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🔷 DeFi &amp; Protocols</h2>
+
+<p><strong>Robinhood Chain Hits Record $989M Daily DEX Volume, Surpasses All Major Chains in Fees</strong><br />
+Robinhood Chain recorded approximately $989 million in daily DEX volume and $213 million in 24-hour chain fees — surpassing Solana, Ethereum, BNB Chain, and Base combined for the same period. The chain's 24-hour network revenue of ~$192 million was roughly 5.5x the combined take of the four leading competitors, fueled by a Meme coin and tokenized stock frenzy.<br />
+<a href="https://t.me/TheBlock001/7382" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Injective Suffers $4.9M Exploit via Binary-Options Settlement Bug, Chain Halts ~4 Hours</strong><br />
+An attacker exploited a bug in Injective's permissionless binary-options market creation mechanism, executing 299 operations to aggregate ~1,979.8 ETH (~$4.9M) before bridging funds to Ethereum where they remain untouched. The chain halted for approximately 3 hours and 42 minutes before resuming without a rollback; Upbit listed INJ as a trading caution item.<br />
+<a href="https://t.me/leviathan_news/22156" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Balancer Warns of Bug in Legacy V1 Contracts That Can Drain LP Funds</strong><br />
+Balancer has issued an urgent warning about a vulnerability in its legacy V1 contracts that could allow LP funds to be drained, urging users to withdraw proportionally immediately. Other Balancer products are unaffected, but the alert highlights ongoing risks in older, non-upgraded DeFi code.<br />
+<a href="https://t.me/leviathan_news/22108" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aave's LlamaGuard PT Proposal Goes Live for Governance Vote</strong><br />
+Aave's LlamaGuard PT proposal is now live for governance voting, introducing a continuous collateral re-rating system with on-chain risk limits and gradual risk adjustments. The proposal represents a significant upgrade to Aave's risk management infrastructure.<br />
+<a href="https://t.me/leviathan_news/22112" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Morpho Introduces In-Kind Redemptions for Vault Users</strong><br />
+Morpho has launched in-kind redemptions, enabling vault users to exit into underlying market positions even when vault liquidity is unavailable. The feature significantly improves capital efficiency and exit optionality for Morpho vault depositors.<br />
+<a href="https://t.me/leviathan_news/22107" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Almanak Launches DeFi Quant Platform Across 7 Chains</strong><br />
+Almanak has officially launched its DeFi quantitative trading platform, translating market signals and natural-language strategies into auditable, non-custodial on-chain strategies across seven blockchain networks. The platform targets institutional and sophisticated retail DeFi participants.<br />
+<a href="https://t.me/leviathan_news/22113" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hylo Reports $100M TVL in Four Months With Rebalancing-Not-Liquidation Model</strong><br />
+Solana-based DeFi protocol Hylo has reached $100 million in TVL within four months of launch, powered by a leverage system that rebalances user positions instead of liquidating them during volatility. The model aims to reduce the cascading liquidation risk common in traditional DeFi lending.<br />
+<a href="https://t.me/leviathan_news/22145" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>LI.FI Partners With Centrifuge to Expand Cross-Chain Access to Tokenized Assets</strong><br />
+Cross-chain infrastructure provider LI.FI has partnered with Centrifuge to enable seamless cross-chain access to tokenized real-world assets. The integration bridges DeFi liquidity with Centrifuge's tokenized credit markets.<br />
+<a href="https://t.me/leviathan_news/22111" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solana AMM Aquifer Exploited for ~$2.5M, Issues On-Chain White-Hat Request</strong><br />
+Solana-based automated market maker Aquifer was exploited on August 31 for approximately $2.5 million. The protocol subsequently issued an on-chain bounty offer, asking the attacker to return at least 80% of stolen assets by September 3 in exchange for keeping up to 20% as a bug bounty and a promise of no civil litigation.<br />
+<a href="https://t.me/theblockbeats/193395" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Zcash ZSA Proposal Aims to Enable Private NFT Ownership</strong><br />
+Zcash's Zcash Shielded Assets (ZSA) proposal is advancing toward enabling private NFT ownership, with ZecBit conducting a free Genesis mint as a public test. The proposal could significantly expand Zcash's utility beyond privacy-preserving payments.<br />
+<a href="https://t.me/leviathan_news/22125" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenSea Finally Adds Full Solana NFT Trading</strong><br />
+OpenSea has officially enabled Solana NFT trading — more than four years after an initial beta launch on the network. The move gives Solana's NFT ecosystem access to OpenSea's broad user base, though the delayed rollout drew community commentary about the marketplace's pace.<br />
+<a href="https://t.me/leviathan_news/22129" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🔦 Other</h2>
+
+<p><strong>Strategy Calls MSCI's Proposed Index Rules 'Discriminatory' Against Digital Asset Treasury Firms</strong><br />
+Michael Saylor's Strategy publicly pushed back against MSCI's proposed index screening framework, calling it discriminatory against Digital Asset Treasury (DAT) companies and urging the index provider to withdraw the proposal. The outcome could affect whether Strategy and similar firms remain eligible for major index inclusion, with broad implications for institutional capital flows.<br />
+<a href="https://t.me/leviathan_news/22154" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Haseeb Qureshi Predicts Anthropic and OpenAI IPOs Could Trigger Liquidity Wave Into SF Real Estate and Crypto</strong></p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

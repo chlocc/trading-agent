@@ -4,102 +4,106 @@
 
 🔥 TOP THEMES
 
-- **Solana Institutional Conviction + Record Network Metrics:** SOL is firing on multiple catalysts simultaneously — record fee revenue, accelerating inflation cuts via SGP-0002, DeFi Development Corp's $20M stock offering to buy more SOL, and 52B non-vote transactions in August (+19% MoM). This is the single most signal-dense theme today. Key tickers: SOL, JTO.
+• **Bitcoin Institutional Accumulation Accelerates** — Strategy adds another 4,603 BTC ($369.7M) to reach 845,050 BTC total, Strive raises its treasury to 23,156 BTC, and TD Cowen lifts its price target, all while BlackRock-led ETF inflows remain strong. This coordinated corporate and institutional buying is the dominant BTC narrative today. Key tickers: **BTC, MSTR, IBIT, FBTC**.
 
-- **Corporate Bitcoin Accumulation vs. Fragile Leverage:** Strategy adds another 4,603 BTC ($369.7M) bringing total holdings to 845,050 BTC, and ETF inflows ($217M BTC, $88M ETH) confirm institutional demand. However, a whale with 40x long BTC is only 1.41% from liquidation — a single wick could cascade. Key tickers: BTC, MSTR, IBIT, ETHA.
+• **AI/Bitcoin Miner Convergence Validated** — Anthropic's $35B AI compute infrastructure deal formally includes Hut 8's Texas data center, providing the clearest proof yet that Bitcoin miners pivoting to AI hosting have real enterprise anchor tenants. The signal is broadly bullish for the miner-AI complex. Key tickers: **HUT, WULF, IREN, BTDR, NVDA**.
 
-- **Robinhood Ecosystem & L2 Revenue Sharing:** Morgan Stanley upgrades HOOD to Overweight ($150 PT), Robinhood Chain hits record $1.43B daily DEX volume, and critically, 10% of Robinhood Chain L2 fees will flow to Arbitrum — creating a direct, recurring revenue stream for ARB holders. Key tickers: HOOD, ARB.
+• **DeFi Exploit Wave Creates Sector Risk** — Three separate incidents in 24 hours: Injective mainnet halted for ~4 hours after a $4.88M insurance fund exploit, Solana's Aquifer AMM loses ~$2.5M, and Balancer warns of a legacy V1 vulnerability that could drain LP funds. This is a systemic confidence headwind for DeFi tokens. Key tickers: **INJ, BAL, SOL**.
 
-- **DeFi Security Crisis — INJ, BAL, SOL Protocols Hit:** Injective suffered a 4-hour mainnet halt and ~$4.88M exploit; Balancer warns of a critical V1 bug that can drain LP funds; Solana's Aquifer AMM lost ~$2.5M. Multi-chain exploit wave is pressuring DeFi confidence and increasing risk-off sentiment across altcoins. Key tickers: INJ, BAL, SOL, ONT.
+• **Hawkish Fed/Rising Yields Pressure Risk Assets** — Fed Governor Barr explicitly flagged readiness to raise rates if inflation doesn't cool, Japan's 10-year yield topped 3% for the first time since 1996, and crypto-related equities are broadly lower in premarket. Precious metals are also selling off, confirming a yield-driven risk-off pulse. Key tickers: **GLD, SLV, MSTR, COIN**.
 
 ---
 
 🟢 BULLISH SIGNALS
 
-**SOL** — DeFi Development Corp is proposing a $20M equity offering earmarked specifically to acquire more SOL, mirroring the MicroStrategy playbook for Solana and signaling institutional-grade accumulation. This follows record fee revenue and validators voting to accelerate inflation reduction (SGP-0002), tightening supply precisely as demand rises. Watch for the offering to price and deploy — each leg of buying will be visible on-chain. (→ https://t.me/TheBlock001/7383, https://t.me/TheBlock001/7381, https://t.me/leviathan_news/22130)
+**BTC** — Strategy executed its largest recent purchase, adding 4,603 BTC for $369.7M to bring total holdings to 845,050 BTC, with Michael Saylor declaring "We're back." Separately, Strive raised its BTC treasury to 23,156 BTC and received a TD Cowen price target upgrade. These overlapping corporate accumulation signals reduce effective float and signal conviction at current levels. Watch for BTC to reclaim $82K resistance, which Wintermute flags as the key level. (→ https://t.me/leviathan_news/22106) (→ https://t.me/leviathan_news/22110)
 
-**BTC / MSTR** — Strategy purchased 4,603 BTC for $369.7M, lifting total holdings to 845,050 BTC — the largest corporate bitcoin treasury on earth. Simultaneously, spot BTC ETFs saw $217M in net inflows yesterday led by BlackRock's IBIT, confirming demand is broad-based, not just one actor. The combination of recurring institutional buying and ETF inflows creates a structural floor; watch $82K resistance as the next level to clear. (→ https://t.me/leviathan_news/22106, https://t.me/wublockchainenglish/25819)
+**BTC / IBIT / ETHA** — U.S. spot BTC and ETH ETFs recorded strong net inflows led by BlackRock, reinforcing that institutional demand through regulated wrappers remains intact despite the macro headwinds. ETH ETFs specifically saw $1.4B in inflows, which could catalyze an ETH liquidity rally. Watch for IBIT daily flow data to confirm continuation; a reversal in BlackRock flows is the key invalidation. (→ https://t.me/wublockchainenglish/25819)
 
-**IBIT / ETHA** — Spot Bitcoin ETFs (led by IBIT, +$217M net) and Spot Ether ETFs (led by ETHA, +$88M net) posted strong inflows in the latest session, confirming sustained institutional participation rather than one-off flows. ETHA's $88M inflow is particularly notable given ETH has lagged BTC this cycle — rotation risk into ETH is growing. Monitor daily flow data for continuation. (→ https://t.me/wublockchainenglish/25819)
+**SOL** — Solana fees hit an all-time record while validators approved an accelerated inflation reduction, creating a textbook supply compression and demand expansion dynamic. August non-vote transactions also hit 5.2B, up 19% MoM, underlining genuine network utility growth. The Aquifer exploit ($2.5M) is a local risk but small relative to the network's scale — watch for any broader protocol contagion as the September 3 white-hat deadline approaches. (→ https://t.me/TheBlock001/7381)
 
-**SQ** — Ark Invest deployed $37.4M across its ETF suite into Block Inc shares, representing one of its larger single-day buys of the name. Cathie Wood's funds rarely concentrate this much capital in one session without high near-term conviction; this follows Block's expanding crypto infrastructure and Cash App monetization. Watch for follow-on buying over the next 3–5 sessions. (→ https://t.me/leviathan_news/22139)
+**HOOD** — Morgan Stanley upgrades Robinhood to Overweight with a $150 price target, a meaningful re-rating from a bulge-bracket firm. This comes as Robinhood Chain's daily DEX volume hit a record $989M and ARB fees from the chain are now flowing to the Arbitrum ecosystem treasury, adding network effect momentum. The catalyst stack — analyst upgrade, record chain metrics, growing DeFi integrations — is unusually dense. (→ https://t.me/theblockbeats/193464)
 
-**HOOD** — Morgan Stanley upgrades Robinhood to Overweight with a $150 price target, calling out underestimated user monetization and prediction-market upside — a catalyst that has historically driven multi-day momentum in HOOD. Robinhood Chain's record $1.43B daily DEX volume and its deal routing 10% of L2 fees to Arbitrum further validate the onchain expansion story. Current analyst consensus is likely to revise upward following the MS upgrade. (→ https://t.me/theblockbeats/193464)
+**ARB** — ARB surged 33% on the news that Robinhood Chain fee revenue will flow directly to the Arbitrum ecosystem treasury, creating a new and recurring value accrual mechanism for ARB holders. This is a structural revenue catalyst, not just hype. Watch for whether additional major DeFi protocols announce Robinhood Chain integrations as follow-on catalysts. (→ https://t.me/theblockbeats/193467)
 
-**ARB** — ARB surged 33% after it emerged that Robinhood Chain — now the top-revenue L2 in a 24-hour window — will route 10% of its sequencer fees directly to Arbitrum token holders, creating a durable, protocol-level revenue stream. This is a structural repricing event, not a narrative pump; ARB now has a tangible yield mechanism backed by one of the most active new L2s. Watch for ARB to test prior resistance around the $1.20–$1.30 range. (→ https://t.me/theblockbeats/193467)
+**COIN** — Coinbase is expanding its infrastructure partnership with Webull for Canadian market entry, while separately enabling AI agents to rebalance portfolios through its MCP product. Geographic expansion plus AI-native product innovation together strengthen COIN's medium-term revenue thesis. The premarket decline of -2.14% may offer an intraday re-entry opportunity. (→ https://t.me/leviathan_news/22135)
 
-**BTC (Institutional Trading Infrastructure)** — 24X completed its first spot Bitcoin trade with Standard Chartered and Cumberland DRW, marking a significant milestone in regulated institutional spot market infrastructure. This expands the addressable buyer base for spot BTC beyond ETF wrappers and signals that TradFi prime brokerage for crypto is becoming operational. Structurally bullish for BTC price discovery. (→ https://t.me/leviathan_news/22133)
+**HUT / WULF / IREN / BTDR** — Hut 8's Texas data center being formally part of Anthropic's $35B AI compute deal is a landmark validation of the miner-to-AI-infrastructure thesis. This is no longer speculative; it is a signed enterprise relationship. Expect valuation re-ratings across the peer group as investors apply AI infrastructure multiples rather than pure-play mining multiples. (→ https://t.me/theblockbeats/193477)
 
-**ASTER** — The Aster team extended the lockup on 400M team tokens by one full year to September 2027, materially reducing near-term unlock-related selling pressure. Token unlock cliffs are one of the most reliable short-term price suppressants in crypto; removing one year of overhang is an unambiguous positive for price support. Watch for price to fill the gap created by prior unlock discount. (→ https://t.me/wublockchainenglish/25825)
+**HYPE** — Hyperliquid is in advanced talks with Kraken parent Payward to enter the U.S. regulated futures market through Bitnomial. A regulated U.S. onramp would dramatically expand addressable users and credibility for HYPE. Note the countervailing risk: OFAC-linked wallets have moved $30M+ through the protocol, which could complicate regulatory approval. (→ https://t.me/wublockchainenglish/25814)
 
-**GPRO** — GoPro jumped ~86% premarket after YouTuber Markiplier (35M+ subscribers) disclosed an 8.5% stake and publicly called the stock undervalued. While influencer-driven moves carry mean-reversion risk, the actual 8.5% disclosure triggers SEC filing requirements and creates a real cost basis anchor — this is not a pump-and-dump tweet. Watch for the first-day high as the key level; any pullback to the $3.50–$4.00 range on Day 2 may offer a re-entry. (→ https://t.me/theblockbeats/193468)
+**XYZ (Block Inc)** — Ark Invest added $37.4M in Block Inc shares across three ETFs in a single session, buying 456,059 shares. Concentrated conviction buying of this size from a high-profile active manager is a strong signal, particularly given Block's payments/crypto exposure. Watch for further Ark accumulation disclosures. (→ https://t.me/leviathan_news/22139)
+
+**RZLV** — Rezolve AI reported H1 revenue of $130.8M, a ~1,970% year-over-year surge, and reaffirmed full-year FY26 guidance. Explosive top-line growth with guidance maintained is the strongest fundamental signal in the AI small-cap space today. Liquidity and float are risks given the micro-cap nature of this name. (→ https://t.me/theblockbeats/193474)
 
 ---
 
 🔴 BEARISH SIGNALS
 
-**INJ** — Injective's mainnet halted for nearly 4 hours after an attacker exploited its insurance fund and binary options settlement mechanism for approximately $4.88M. Upbit has already flagged INJ as a caution item and suspended deposits, which cuts off a major Korean retail liquidity source. Compounding the damage, the exploited funds were bridged to Ethereum, suggesting the attacker has no intention of returning them. Downside scenario: further exchange deposit suspensions, cascading liquidations of INJ-collateralized positions, and a sustained trading discount until a credible patch is deployed and audited. (→ https://t.me/theblockbeats/193391, https://t.me/theblockbeats/193426, https://t.me/wublockchainenglish/25822)
+**INJ** — Injective's mainnet halted for ~4 hours after an attacker exploited the insurance fund and permissionless binary options mechanisms, netting approximately $4.88M. Upbit has flagged INJ as a caution token and paused deposits. A mainnet halt is an existential credibility event — developers, dApps, and validators lose confidence in liveness guarantees. The downside scenario is a sustained re-rating lower as TVL migrates to competing L1s. (→ https://t.me/theblockbeats/193391) (→ https://t.me/theblockbeats/193426)
 
-**BAL** — Balancer issued an emergency warning that a bug in its legacy V1 contracts can allow LP funds to be drained, urging all V1 LPs to execute proportional withdrawals immediately. While V2 and other products are reportedly unaffected, the reputational damage from a critical smart contract vulnerability — and the forced LP exodus — will weigh on BAL price and TVL. Downside scenario: panic withdrawals collapse V1 TVL, secondary fear spreads to V2, and BAL trades at a significant protocol-risk discount until a full post-mortem is published. (→ https://t.me/leviathan_news/22108)
+**BAL** — Balancer issued an emergency warning that legacy V1 smart contracts contain an active vulnerability capable of draining LP funds, urging proportional withdrawals immediately. This is an existential event for any remaining V1 TVL. The downside scenario is a full drain of remaining V1 pools plus a reputational overhang on V2/V3. BAL token is directly impacted as protocol credibility erodes. (→ https://t.me/leviathan_news/22108)
 
-**SOL (Aquifer Exploit, offsetting bullish network signals)** — Solana's Aquifer AMM was exploited for approximately $2.5M, with a whitehat demand issued to the attacker. While this does not negate the strong macro SOL signals today, it adds a DeFi security overhang to an ecosystem that has battled protocol reliability concerns. Downside scenario: if the attacker doesn't return funds, contagion fear could hit other Solana DeFi protocols and slow fresh liquidity deployment. (→ https://t.me/theblockbeats/193395)
+**GLD / SLV / XAG** — Gold and silver dropped to two-week lows with spot silver falling more than 3% intraday to $64.55/oz, as rising global yields (Japan 10Y >3%, Fed hawkish commentary) weigh on non-yielding assets. The precious metals sell-off is a macro signal, not an isolated move — it confirms the bond market is pricing higher-for-longer. The downside scenario deepens if Friday's NFP print comes in hot. (→ https://t.me/theblockbeats/193470) (→ https://t.me/theblockbeats/193443)
 
-**BTC / ETH (Whale Liquidation Risk)** — A single whale carrying a 40x long BTC position and 25x long ETH position sits just 1.41% away from its BTC liquidation price. If triggered, forced selling at these leverage ratios creates an asymmetric downside cascade — liquidation bots will amplify any dip into a sharper flush. This is an acute, time-sensitive risk that could materialize with any negative macro headline. (→ https://t.me/theblockbeats/193414)
+**MSTR / COIN (premarket)** — Crypto-related equities are broadly lower in U.S. premarket: MSTR -2.92%, COIN -2.14%, CRCL declining. Despite MSTR's continued BTC accumulation, the equity is underperforming BTC itself, suggesting premium compression. If BTC fails to hold $80K, MSTR's leveraged structure becomes a forced-selling risk and COIN's trading revenue outlook dims. (→ https://t.me/theblockbeats/193469)
 
-**QQQ / SPY / DIA** — US equity index futures are extending losses with Nasdaq futures down 1%, creating a risk-off opening that historically correlates with crypto selling pressure within 2–4 hours of US market open. Fed Governor Barr's hawkish rate-hike warning compounds the pressure. If equity weakness persists through the open, expect BTC and ETH to reprice lower in sympathy. (→ https://t.me/theblockbeats/193438)
-
-**SLV** — Spot silver fell more than 3% intraday to $64.55/oz, breaking a key psychological level and signaling broad commodity weakness. Silver's selloff typically precedes or accompanies risk-off rotation out of hard assets; combined with the Nasdaq futures decline, this paints a cautious macro picture for the session. (→ https://t.me/theblockbeats/193443)
+**Fed (macro, no ticker)** — Fed Governor Barr stated the Fed must remain ready to raise rates if inflation fails to cool, a materially more hawkish signal than consensus expected heading into September. This directly threatens the rate-cut narrative that has been a tailwind for risk assets and crypto. The trigger for acute market impact is a hot NFP or CPI print. (→ https://t.me/theblockbeats/193488)
 
 ---
 
 💡 TRADE IDEAS
 
-**1. Long SOL (Spot/Futures)**
-- Rationale: SOL has simultaneous bullish catalysts firing today — record fee revenue, accelerating disinflation (SGP-0002), DeFi Development Corp's $20M targeted accumulation offering, and 52B non-vote transactions in August. The institutional treasury narrative is beginning to build around SOL just as supply tightens. This is the strongest multi-signal confluence of the session.
-- Entry: Spot accumulation at current levels ($103–$107 range); scale into strength above $110 for momentum confirmation.
-- Risks: Aquifer exploit contagion spreads to other Solana DeFi protocols, or Pump.fun's ongoing SOL liquidations ($834M sold to date) accelerate and overwhelm demand.
+**1. Long IBIT (BTC ETF Spot Exposure)**
+- Rationale: The convergence of Strategy's 845,050 BTC treasury (largest single accumulation announcement in weeks), Strive's continued buying, TD Cowen price target raise, and strong BlackRock-led ETF inflows creates a multi-source institutional demand signal at the same moment. IBIT offers clean regulated long exposure without the leverage risk of MSTR.
+- Entry: Buy IBIT on any intraday dip below previous session's close; scale in on confirmation that ETF daily inflows sustain above $200M.
+- Risks: Trade is invalidated if BTC breaks below $77,500 (key support per Wintermute) or if hot macro data (NFP/CPI) forces a risk-off unwind.
 - Related signals:
-  - DeFi Development Corp $20M SOL offering (→ https://t.me/TheBlock001/7383)
-  - Record fees + inflation cuts (→ https://t.me/TheBlock001/7381, https://t.me/leviathan_news/22130)
-  - 52B non-vote transactions record (→ https://t.me/theblockbeats/193465)
-  - Aquifer exploit risk (→ https://t.me/theblockbeats/193395)
+  - Strategy buys 4,603 BTC (→ https://t.me/leviathan_news/22106)
+  - Strive raises treasury to 23,156 BTC (→ https://t.me/leviathan_news/22110)
+  - Strong ETF inflows led by BlackRock (→ https://t.me/wublockchainenglish/25819)
 
-**2. Long ARB (Spot)**
-- Rationale: The Robinhood Chain fee-sharing arrangement — routing 10% of sequencer revenue to Arbitrum — is a structural repricing event. ARB now has a verifiable, recurring cash flow mechanism tied to one of the fastest-growing new L2s. The 33% move today likely reflects only partial repricing; as fee flow data becomes visible on-chain, further institutional interest should follow.
-- Entry: Current levels post-breakout, with a pullback entry targeting $0.85–$0.90 if momentum cools intraday.
-- Risks: Robinhood Chain fee-sharing terms are modified, delayed, or Robinhood Chain volume reverts from its record high; trade is invalidated below pre-announcement lows.
+**2. Long HOOD (Robinhood — Analyst Upgrade + Chain Momentum)**
+- Rationale: Morgan Stanley's upgrade to Overweight with a $150 target is a significant catalyst from a sell-side firm with institutional distribution, arriving exactly as Robinhood Chain posts record DEX volumes (~$989M/day) and ARB's fee-sharing announcement validates the chain's growing ecosystem value. The premarket dip, if it materializes, is an entry opportunity rather than a structural problem.
+- Entry: Buy HOOD on open or on a pullback to the $120–$125 range; the MS target of $150 defines the near-term upside.
+- Risks: Invalidated if crypto market conditions deteriorate sharply (BTC <$77K), reducing HOOD's trading revenue expectations, or if regulatory scrutiny of Robinhood Chain increases.
 - Related signals:
-  - Robinhood Chain L2 fee routing to ARB (→ https://t.me/theblockbeats/193467)
-  - Robinhood Chain record $1.43B daily DEX volume (→ https://t.me/theblockbeats/193422)
+  - Morgan Stanley upgrades HOOD to Overweight, $150 target (→ https://t.me/theblockbeats/193464)
+  - Robinhood Chain record DEX volume $989M (→ https://t.me/TheBlock001/7382)
+  - ARB +33% on Robinhood Chain fee flows (→ https://t.me/theblockbeats/193467)
 
-**3. Long HOOD (Equity)**
-- Rationale: Morgan Stanley's Overweight upgrade with a $150 target is a high-credibility institutional catalyst that typically drives 5–15 days of sustained momentum. The thesis is further reinforced by Robinhood Chain's record DEX volume, expanding onchain product suite, and prediction market optionality. HOOD is being re-rated from retail brokerage to full-stack financial platform.
-- Entry: Buy on any opening weakness below $125; full position if it holds the prior close. Add on a confirmed break above $135.
-- Risks: Broader equity market selloff (Nasdaq futures -1%) overwhelms stock-specific catalyst; trade invalidated if SPY breaks below September lows.
+**3. Long ARB (Arbitrum — Fee Revenue Catalyst)**
+- Rationale: The Robinhood Chain fee-sharing arrangement creates a new recurring revenue stream for the Arbitrum ecosystem treasury, directly accruing value to ARB holders. This is a structural change, not a one-time event. After a 33% move, traders should wait for a consolidation before entering, as momentum is high and risk/reward is better on pullback.
+- Entry: Enter ARB on a pullback to the pre-announcement range or first meaningful consolidation after the initial 33% spike; risk defined by a close back below the breakout level.
+- Risks: Invalidated if Robinhood Chain fee flows prove smaller than expected, or if Robinhood migrates its chain to a different L2 ecosystem.
 - Related signals:
-  - Morgan Stanley upgrade to Overweight, $150 PT (→ https://t.me/theblockbeats/193464)
-  - Robinhood Chain record volume (→ https://t.me/theblockbeats/193422)
-  - ARB fee-sharing confirmation of Robinhood Chain's traction (→ https://t.me/theblockbeats/193467)
+  - ARB +33% on Robinhood fee flow news (→ https://t.me/theblockbeats/193467)
+  - Robinhood Chain record volumes (→ https://t.me/TheBlock001/7382)
 
-**4. Long IBIT / ETHA (ETF Pair — Crypto Institutional Demand Play)**
-- Rationale: Yesterday's ETF inflows ($217M into IBIT, $88M into ETHA) confirm that institutional demand is broad and not fading after the recent run. Strategy's continued BTC accumulation and 24X's launch of spot BTC institutional trading infrastructure add structural buy pressure. ETHA's relative strength ($88M) suggests ETH rotation is beginning — holding both captures either leg.
-- Entry: IBIT at market open; ETHA on any dip toward prior session close.
-- Risks: The whale with 40x long BTC triggers a liquidation cascade that spooks ETF buyers and causes short-term outflows; Fed Governor Barr's hawkish commentary accelerates risk-off.
+**4. Long HUT / WULF Pair (AI-Miner Basket)**
+- Rationale: Anthropic's $35B AI compute deal including Hut 8's Texas site is the clearest enterprise validation of the miner-to-AI infrastructure thesis to date. HUT is the direct beneficiary, while WULF and IREN carry similar optionality from idle power assets. The market has not fully re-rated these names to AI infrastructure multiples. NVDA exposure via BOTZ or direct shares can complement this trade for AI capex exposure.
+- Entry: Buy HUT at market open; scale into WULF/IREN on any initial weakness. Add BOTZ for broader AI infrastructure exposure.
+- Risks: Invalidated if Anthropic deal terms fall through or power contract details disappoint; also at risk if BTC mining revenue collapses, undermining the operational base.
 - Related signals:
-  - ETF inflows $217M BTC / $88M ETH (→ https://t.me/wublockchainenglish/25819)
-  - Strategy 4,603 BTC purchase (→ https://t.me/leviathan_news/22106)
-  - 24X institutional spot BTC infrastructure (→ https://t.me/leviathan_news/22133)
-  - Whale liquidation risk (→ https://t.me/theblockbeats/193414)
+  - Hut 8 inside Anthropic's $35B deal (→ https://t.me/theblockbeats/193477)
+  - Hut 8 AI data center update (→ https://t.me/leviathan_news/22160)
 
-**5. Short INJ (Spot / Perp)**
-- Rationale: Injective has suffered the trifecta of a DeFi disaster: a 4-hour mainnet halt, a confirmed $4.88M exploit of core protocol mechanics (insurance fund + binary options), and Upbit deposit suspension cutting off Korean retail flow. The exploited funds are already bridged to ETH, meaning recovery is unlikely. Exchange caution flags typically precede further delistings or trading restrictions that structurally impair price discovery.
-- Entry: Short at current levels or on any dead-cat bounce into prior support; target a 25–35% drawdown from pre-halt price.
-- Risks: Injective team announces a credible patch, whitehat return of funds, or a major exchange provides deposit resumption — any of these could trigger a short squeeze.
+**5. Short INJ (Injective — Exploit + Exchange Action)**
+- Rationale: A $4.88M exploit caused a 4-hour mainnet halt, Upbit has paused INJ deposits and flagged it as a caution token, and the attacker has already bridged funds to Ethereum. The combination of a liveness failure, exchange action, and capital flight creates a sustained negative catalyst. Recovery from mainnet halts typically takes weeks as validators and developers rebuild confidence.
+- Entry: Short INJ at current levels or on any relief bounce into the $10–$12 range (pre-halt levels); the halt itself creates a technically damaged chart.
+- Risks: Invalidated if the development team patches the vulnerability quickly, announces full restitution, and major exchanges reinstate deposits within 48 hours.
 - Related signals:
-  - Injective mainnet halt + exploit (→ https://t.me/theblockbeats/193391)
-  - Upbit caution flag + deposit suspension (→ https://t.me/theblockbeats/193426)
-  - Funds bridged to ETH (→ https://t.me/leviathan_news/22156)
-  - Ontology + INJ block production halts (→ https://t.me/wublockchainenglish/25822)
+  - Injective mainnet halted, $4.88M exploit (→ https://t.me/theblockbeats/193391)
+  - Upbit flags INJ, pauses deposits (→ https://t.me/theblockbeats/193426)
+  - Attacker bridges $4.9M to Ethereum (→ https://t.me/leviathan_news/22156)
 
-**6. Long MSTR (Equity — Bitcoin Treasury Proxy)**
-- Rationale: Strategy's relentless accumulation (now 845,050 BTC at $369.7M this week alone) combined with strong ETF inflows creates a tightening supply dynamic for BTC. MSTR historically trades at a premium to NAV precisely when BTC is in institutional accumulation mode. The MSCI index rule dispute is a minor headwind but does not impair MSTR's fundamental bitcoin-per-
+**6. Long ETHA (ETH ETF — Institutional Inflow Momentum)**
+- Rationale: ETH ETFs recorded $1.4B in inflows and BlackRock's ETHA is leading institutional allocation. With BTC ETF inflows also strong, the risk-on crypto sentiment is broad-based, and ETH is benefiting from its own institutional demand wave. ETHA provides clean exposure to this trend without the smart-contract exploit risk currently affecting ETH-native DeFi protocols.
+- Entry: Buy ETHA on open or any intraday pullback; monitor daily ETF flow data for confirmation of continued institutional participation.
+- Risks: Invalidated by a macro shock (hot NFP, Fed surprise) that triggers broad ETF outflows, or if ETH underperforms BTC materially on a risk-off move.
+- Related signals:
+  - ETH ETF $1.4B inflows (→ https://t.me/theblockbeats/193421)
+  - BlackRock-led BTC/ETH ETF inflows (→ https://t.me/wublockchainenglish/25819)
+
+**7. Short GLD / Long COIN Pairs Trade (Yield Rotation Hedge)**
+- Rationale: Rising global yields (Fed hawkish, Japan 10Y >3%) are actively crushing gold and silver while ironically not yet derailing institutional crypto demand, which is driven by structural corporate treasury accumulation rather than

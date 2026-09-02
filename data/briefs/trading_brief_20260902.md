@@ -4,121 +4,115 @@
 
 🔥 TOP THEMES
 
-• **AI Infrastructure Supercycle** — Dell's +10% premarket surge on record AI server revenue, combined with PwC's $32T data center forecast and SpaceX/Nvidia analyst upgrades, confirms the capex wave is accelerating into year-end. Key tickers: DELL, NVDA, MSFT, GOOG, BOTZ, ARKQ.
+• **Institutional Stablecoin Wave** — The formation of a 21-bank consortium (BofA, Citi, Goldman, UBS) to launch a USD stablecoin by 2027, combined with B2B stablecoin payment volumes hitting $226B (+733% YoY), marks a structural inflection point. This is no longer a fringe narrative — it's Wall Street's official pivot. Key tickers: COIN, USDT, USDC, LINK.
 
-• **Stablecoin Rails Going Mainstream** — Wyoming's FRNT adopts Chainlink proof-of-reserves, Codexa routes 20% of $800M/month via USDC in Brazil, and B2B stablecoin payments hit $226B (+733% YoY). Institutional plumbing is being built in real time. Key tickers: LINK, CRCL, USDC, USDT.
+• **AI Server Demand Confirmation** — Dell's +11% post-earnings gap on record Q2 revenue and raised full-year guidance provides hard fundamental evidence that AI infrastructure capex is accelerating, not plateauing. This re-rates the entire AI supply chain. Key tickers: DELL, NVDA, MSFT, BOTZ.
 
-• **Robinhood Chain DeFi Breakout** — Robinhood Chain posted $1.67B in 24h DEX volume (+76%), a record $3.38M in chain revenue, and its memecoin-stock pair volume hit $217M. The chain is now outpacing major L1/L2s by revenue per day. Key tickers: HOOD, COIN.
+• **Soft Labor Market → Fed Rate Cut Repricing** — August ADP at 38K (vs. 48K forecast), the weakest print since January, has pushed September rate-cut probability to 62.2%. This is the dominant macro regime shift today, supporting risk assets broadly while pressuring the USD. Key tickers: BTC, ETH, SPY, QQQ.
 
-• **BTC Demand Cooling vs. Macro Backstop** — Multiple CryptoQuant signals show negative taker buy/sell ratio and declining futures demand, while spot BTC ETFs saw $236M in net outflows. Yet whale layering orders at $71K–$76K and a Dalio debt-cycle macro warning provide structural support. Key tickers: BTC, IBIT, MSTR.
+• **Rising Bond Yields vs. Risk Assets** — UK 10-year gilt at 5.29% (highest since Aug 2007), Italy 2-year at 2024 highs, and Morgan Stanley flagging a 5-8% equity correction risk as US 10-year approaches 5% create a contradictory cross-current against the rate-cut narrative. Key tickers: SPY, QQQ, BTC.
 
 ---
 
 🟢 BULLISH SIGNALS
 
-**DELL** — Dell jumped ~10% premarket after reporting record Q2 revenue and raising full-year guidance, with AI server demand cited as the primary driver. This is hard earnings evidence — not narrative — that the enterprise AI buildout is translating into real revenue. Watch for follow-through into NVDA and HPE as the AI server supply chain re-rates. (→ https://t.me/theblockbeats/193639)
+**DELL** — Dell surged over 11% after reporting record Q2 revenue and raising its full-year guidance, with AI server orders cited as the primary demand driver. This is a direct, hard-revenue confirmation that enterprise AI infrastructure spending is compounding, not decelerating. Watch for analyst price target upgrades and whether AI server backlog commentary sustains momentum into the next quarter. (→ https://t.me/theblockbeats/193704)
 
-**LINK** — Wyoming's stablecoin committee selected Chainlink as the proof-of-reserves infrastructure for its state-issued FRNT stablecoin, providing real-time on-chain verification. Government-grade validation of Chainlink's oracle network is a significant enterprise adoption milestone that narrows the gap between Chainlink and any competitor. Watch for additional state/sovereign stablecoin programs adopting LINK PoR. (→ https://t.me/theblockbeats/193701)
+**NVDA** — Dell's blowout result is a direct read-through to NVIDIA, whose GPU architecture sits at the core of every AI server rack Dell is shipping. Combined with PricewaterhouseCoopers projecting $3.2T in global datacenter investment over the next 25 years, the structural demand runway reinforces NVDA's dominant position. Watch for any NVDA-specific forward order commentary or supply chain updates. (→ https://t.me/theblockbeats/193639) (→ https://t.me/theblockbeats/193605)
 
-**HOOD** — Robinhood Chain recorded $1.67B in 24-hour DEX volume, $3.38M in chain revenue (+76% day-over-day), and a record $217M in memecoin-stock pair volume. These are metrics that rival or exceed established L1s by daily revenue, and the moat is widening via the credit card memecoin purchase feature that bypasses traditional network rails. The regulatory overhang from JPMorgan/Visa is the key risk to size around. (→ https://t.me/theblockbeats/193671)
+**COIN** — The 21-bank consortium stablecoin announcement is structurally bullish for Coinbase, which is already the infrastructure partner of choice for USD Coin (USDC) and stands to benefit from any increase in regulated stablecoin transaction volumes, custody, and compliance infrastructure. If banks build on USDC rails, Coinbase is the primary toll road. Watch for any official partnership or infrastructure role announcements. (→ https://t.me/wublockchainenglish/25829)
 
-**CRCL (Circle)** — Codexa has integrated USDC settlement alongside SWIFT for Brazilian cross-border payments, with stablecoins already handling 20% of its $800M/month volume. This is live, scaled, revenue-generating stablecoin infrastructure adoption in LatAm — exactly the use case Circle has been building toward as it pursues a public listing. (→ https://t.me/leviathan_news/22207)
+**LINK** — Wyoming's adoption of Chainlink Proof of Reserve and CCIP for its state-issued stablecoin FRNT is a landmark government-level validation of Chainlink's oracle and cross-chain infrastructure. As the institutional stablecoin ecosystem scales, Proof of Reserve becomes a compliance necessity — LINK is the de facto standard. Watch for additional state or sovereign-level integrations. (→ https://t.me/theblockbeats/193701)
 
-**SHEIN** — SHEIN will be fast-tracked into the Hang Seng Composite Index effective September 14, triggering mandatory passive fund buying from index-tracking ETFs and institutional mandates. The hard catalyst date is known, creating a clear risk/reward setup on the long side before the inclusion date. (→ https://t.me/theblockbeats/193650)
+**HOOD** — Robinhood Chain's 24-hour revenue surged 76% to ~$3.38M — roughly 10x the combined revenue of Solana, Ethereum, BSC, and Base — while tokenized stock and memecoin volumes hit all-time highs. Credit card memecoin purchases bypassing card-network restrictions add a new user acquisition vector. Watch for sustained DEX volume retention and any exchange listing or product expansion catalysts. (→ https://t.me/theblockbeats/193671) (→ https://t.me/wublockchainenglish/25841)
 
-**NVDA / BOTZ / ARKQ** — PwC projects $32 trillion in global data center investment over 25 years, while HuggingFace's AI Duck device is driving hardware demand into Chinese chip stocks and Oppenheimer raised SpaceX's target to $280 on Nvidia GPU advantage. The AI infrastructure thesis continues to compound across geographies and use cases. (→ https://t.me/theblockbeats/193605, → https://t.me/theblockbeats/193689)
+**USDT/USDC (Stablecoin ecosystem)** — Stablecoin B2B payments reaching $226B in 2025 (+733% YoY) combined with the bank consortium announcement signals that stablecoin infrastructure has crossed the institutional adoption threshold. The payment rail narrative is now backed by hard volume data. Watch for any GENIUS Act regulatory updates that could further accelerate adoption. (→ https://t.me/leviathan_news/22193) (→ https://t.me/wublockchainenglish/25829)
+
+**BTC/ETH (macro tailwind)** — The 38K ADP print crashing below the 48K forecast has pushed September Fed rate-cut probability to 62.2%, a direct risk-on catalyst for crypto. Historically, rate-cut expectation spikes correlate with BTC outperformance over a 2-4 week window. Watch Friday's NFP print as the confirmation or invalidation catalyst. (→ https://t.me/theblockbeats/193696) (→ https://t.me/theblockbeats/193690)
 
 ---
 
 🔴 BEARISH SIGNALS
 
-**YAM** — YAM Finance is actively under a governance takeover attack, with an adversarial actor attempting to seize control of the protocol's Timelock contract. If successful, the attacker would control the treasury and upgrade paths; the community has been urged to vote no immediately. Exit or hedge all YAM positions until the governance vote concludes — this is a total-loss scenario if the attack succeeds. (→ https://t.me/theblockbeats/193612)
+**BTC (sentiment/momentum divergence)** — CryptoQuant analysts flag a sharp divergence between extreme greed sentiment readings and weakening on-chain price momentum, with 30-day net taker volume down over 50% and a negative buy/sell ratio. Bhutan's government transfer of 400 BTC (~$30.6M) adds incremental sell-side pressure. If apparent demand fails to recover in the short term, a new leg lower opens. (→ https://t.me/theblockbeats/193673) (→ https://t.me/theblockbeats/193681) (→ https://t.me/theblockbeats/193665)
 
-**BTC (near-term)** — Three concurrent CryptoQuant signals flag deteriorating demand: futures taker buy/sell has turned negative, demand metrics are declining again, and sentiment is at extreme greed without price confirmation — a classic divergence that precedes corrections. Spot BTC ETFs also saw $236M in net outflows. The whale layering floor is $71K–$76K, implying potential drawdown of 5-8% from current levels before support. (→ https://t.me/theblockbeats/193673, → https://t.me/theblockbeats/193665, → https://t.me/wublockchainenglish/25843)
+**SPY/QQQ (macro rate risk)** — Morgan Stanley warns that US 10-year Treasury yields approaching 5% could trigger a 5-8% correction in US and European equities around November midterms. UK gilt yields already at a 19-year high and Italian bond yields at 2024 highs confirm the sovereign rate pressure is not isolated to the US. The downside scenario: yields break 5%, triggering institutional de-risking across equities and crypto simultaneously. (→ https://t.me/theblockbeats/193675) (→ https://t.me/theblockbeats/193656)
 
-**BABA / BIDU / TCEHY** — China's CAC is expanding its AI content crackdown to major platforms including Doubao (ByteDance), Yuanbao (Tencent), Qianwen (Alibaba), and Wenxin Yiyan (Baidu). Regulatory overhang on AI monetization is a direct headwind for Chinese tech earnings multiples. Watch for further restriction notices as a re-rating catalyst to the downside. (→ https://t.me/theblockbeats/193620)
+**NVDA/AMD/SMH (chip tariff risk)** — The Trump administration is reportedly considering new chip tariffs that could materially raise import costs for the semiconductor sector. While AI demand is structurally strong, tariff-driven cost inflation would compress margins and disrupt supply chains for fabless designers dependent on TSMC. Watch for any formal USTR announcement as the hard trigger. (→ https://t.me/theblockbeats/193692)
 
-**SPY / QQQ** — Morgan Stanley warns that US 10-year yields approaching 5% represent the key risk to equities, forecasting a potential 5-8% pullback before any further upside. This is consistent with the BTC macro pressure narrative and the Dalio debt cycle warning. The Strait of Hormuz mine incident adds an oil shock tail risk that could accelerate yield pressure via inflation expectations. (→ https://t.me/theblockbeats/193675, → https://t.me/theblockbeats/193643)
+**ETH/SOL/XRP/DOGE (altcoin sell pressure)** — Remixpoint's liquidation of all altcoin holdings for $5.5M to pursue a Bitcoin-only treasury strategy, combined with over $1.5B in scheduled token unlocks across 19 assets in the next month, creates a structurally negative supply overhang for major altcoins. The downside scenario intensifies if macro risk-off materializes concurrently. (→ https://t.me/leviathan_news/22213) (→ https://t.me/wublockchainenglish/25837)
 
 ---
 
 💡 TRADE IDEAS
 
 **1. Long DELL**
-- Rationale: Hard earnings beat with +10% premarket move validates the AI server demand cycle. Dell's infrastructure business is a direct beneficiary of hyperscaler capex, and raising full-year guidance implies the backlog is not slowing. This is an earnings momentum trade with sector tailwinds.
-- Entry: Buy on open or any intraday pullback toward the $185–$190 zone (pre-gap fill area); allow for morning volatility to settle.
-- Risks: Broader equity selloff driven by yield spike above 5% could overwhelm the earnings catalyst and drag DELL back to the pre-gap level.
+- Rationale: Dell delivered a clean earnings beat with revenue and guidance both exceeding expectations, driven by AI server demand that shows no signs of plateauing. The 11% gap-up on record Q2 revenue is institutional confirmation, not speculation. The setup favors continuation as analyst upgrades flow in post-earnings.
+- Entry: Pullback toward the gap fill around the pre-earnings close; alternatively, on any intraday consolidation above the gap open with volume support.
+- Risks: Trade is invalidated if AI server backlog commentary is revised downward or if chip tariff announcements directly impair Dell's supply chain costs.
 - Related signals:
-  - DELL +10% premarket on AI server guidance raise (→ https://t.me/theblockbeats/193639)
-  - PwC $32T data center investment forecast (→ https://t.me/theblockbeats/193605)
-  - SpaceX/Nvidia GPU advantage upgrade (→ https://t.me/theblockbeats/193689)
+  - Dell +11% on record Q2 AI server revenue (→ https://t.me/theblockbeats/193704)
+  - Dell premarket +10% on raised full-year guidance (→ https://t.me/theblockbeats/193639)
 
-**2. Long LINK**
-- Rationale: Wyoming's selection of Chainlink PoR for a state-issued stablecoin is a landmark institutional endorsement. With stablecoin B2B payments growing 733% YoY and multiple sovereign/institutional stablecoin programs emerging, demand for oracle infrastructure is structurally increasing. LINK is the default choice.
-- Entry: Buy spot or near current levels; add on any crypto-wide dip toward the $18–$19 range if BTC sells off.
-- Risks: A broader crypto market correction driven by BTC demand deterioration could pull LINK down regardless of fundamental catalysts.
+**2. Long NVDA / BOTZ (AI infrastructure basket)**
+- Rationale: Dell's result is the clearest proof yet that AI server demand is compounding. NVDA, as the primary GPU supplier to every major AI server vendor, captures the largest share of that revenue. The $3.2T global datacenter investment projection over 25 years provides a long-duration fundamental backdrop. BOTZ provides diversified exposure for position sizing flexibility.
+- Entry: NVDA on any pre-market or early session pullback below prior resistance; BOTZ at market open with a tight initial position.
+- Risks: Invalidated by formal chip tariff announcements from USTR or a broader risk-off selloff driven by rising Treasury yields.
 - Related signals:
-  - Wyoming FRNT stablecoin adopts Chainlink PoR (→ https://t.me/theblockbeats/193701)
-  - Codexa USDC settlement in Brazil (→ https://t.me/leviathan_news/22207)
+  - Dell AI server demand read-through to NVDA (→ https://t.me/theblockbeats/193639)
+  - $3.2T datacenter investment projection (→ https://t.me/theblockbeats/193605)
+  - OpenAI autonomous zero-day capability milestone (→ https://t.me/leviathan_news/22200)
+
+**3. Long COIN**
+- Rationale: The 21-bank USD stablecoin consortium directly benefits Coinbase, which holds the dominant position in regulated stablecoin infrastructure via USDC co-issuance with Circle. As institutional stablecoin volumes scale, Coinbase captures transaction, custody, and compliance revenue. This is a structural re-rating catalyst, not a short-term trade.
+- Entry: Current levels or any pullback toward the 20-day moving average; scale in over 2-3 sessions given the multi-year thesis horizon.
+- Risks: Invalidated if the bank consortium explicitly chooses to build on competing infrastructure (e.g., directly on Ethereum without Coinbase involvement) or if GENIUS Act stablecoin legislation introduces restrictive bank-crypto firewalls.
+- Related signals:
+  - 21 banks forming USD stablecoin consortium (→ https://t.me/wublockchainenglish/25829)
   - Stablecoin B2B payments $226B +733% YoY (→ https://t.me/leviathan_news/22193)
 
-**3. Long HOOD**
-- Rationale: Robinhood Chain's $1.67B DEX volume and $3.38M daily revenue are not speculative — they are live economic activity that doesn't yet appear to be priced into the equity. The credit card memecoin feature, while carrying regulatory risk, expands the TAM dramatically and demonstrates product velocity. The chain's revenue run rate is approaching $1B+ annualized.
-- Entry: Buy near current levels; size conservatively given the regulatory wildcard from JPMorgan/Visa investigation.
-- Risks: JPMorgan and Visa investigation into credit-card misclassification could trigger card network restrictions that cut off the primary retail onboarding mechanism for Robinhood Chain.
+**4. Long LINK**
+- Rationale: Wyoming's FRNT stablecoin adopting Chainlink Proof of Reserve and CCIP is a government-level validation that creates a replicable template for every other state and institutional stablecoin issuer. As the bank consortium stablecoin ecosystem scales, compliance-grade on-chain reserve verification becomes a regulatory requirement — and LINK is the established infrastructure standard.
+- Entry: On any intraday dip toward the prior session's close; the catalyst is fresh and institutional follow-through is likely.
+- Risks: Invalidated if a competing oracle network (e.g., Pyth, API3) captures the next major government or bank consortium deployment.
 - Related signals:
-  - Robinhood Chain record $1.67B DEX volume (→ https://t.me/theblockbeats/193671)
-  - Record $217M memecoin-stock pair volume (→ https://t.me/wublockchainenglish/25841)
-  - JPMorgan/Visa regulatory review (→ https://t.me/wublockchainenglish/25833)
+  - Wyoming FRNT adopts Chainlink PoR and CCIP (→ https://t.me/theblockbeats/193701)
+  - Wyoming expands Chainlink government partnership (→ https://t.me/leviathan_news/22214)
+  - Bank stablecoin consortium announcement (→ https://t.me/wublockchainenglish/25829)
 
-**4. Long IBIT / FBTC (BTC ETF exposure with defined floor)**
-- Rationale: BTC whale layered $158M in buy orders from $71.1K–$75.8K, setting a visible institutional support floor. The Dalio debt cycle warning and G20 regulatory clarity provide medium-term macro tailwinds even as near-term demand metrics are weak. Owning BTC via ETF rather than futures avoids negative funding rates in a declining futures demand environment.
-- Entry: Initiate a partial position at current levels; add aggressively on any pullback to the $75K–$76K BTC range (approximately the whale accumulation zone).
-- Risks: CryptoQuant demand turning further negative, combined with ETF outflow acceleration, could push BTC below the $75K support floor and invalidate the whale accumulation thesis.
+**5. Long IBIT / FBTC (BTC rate-cut play)**
+- Rationale: August ADP at 38K — the weakest since January — has repriced September Fed rate-cut probability to 62.2%. Bitcoin has historically outperformed in the 2-4 weeks following a meaningful Fed rate-cut expectation shift. IBIT and FBTC provide clean institutional-grade exposure without the leverage risk of futures products. Friday's NFP print is the key confirmation catalyst.
+- Entry: Current levels ahead of NFP; reduce size if BTC fails to hold above key short-term support given the sentiment/momentum divergence flagged by CryptoQuant.
+- Risks: Invalidated by a stronger-than-expected NFP print that pushes rate-cut probability back below 40%, or by a break below BTC's recent consolidation range.
 - Related signals:
-  - Whale layering $158M in buy orders (→ https://t.me/theblockbeats/193676)
-  - BTC ETF $236M net outflows (→ https://t.me/wublockchainenglish/25843)
-  - Dalio US debt cycle warning (→ https://t.me/leviathan_news/22204)
-  - CryptoQuant demand turning negative (→ https://t.me/theblockbeats/193613)
+  - ADP 38K miss boosts rate-cut odds to 62.2% (→ https://t.me/theblockbeats/193696)
+  - ADP misses 48K forecast (→ https://t.me/theblockbeats/193690)
+  - G20 regulatory clarity for digital assets (→ https://t.me/leviathan_news/22196)
 
-**5. Long CRCL (Circle) — Stablecoin Infrastructure Play**
-- Rationale: Codexa's live USDC adoption in Brazil for $800M/month in payments is a direct revenue signal for Circle's infrastructure business. Combined with the Wyoming state stablecoin using on-chain verification and B2B stablecoin volume exploding 733% YoY, Circle is at the center of the fastest-growing payments rail in the world.
-- Entry: Buy on any weakness toward the recent IPO-range support levels; this is a medium-term structural hold, not a day trade.
-- Risks: Tether lawsuit over asset freezes (and the USDC/USDT legal overhang that creates) could create sector-wide regulatory uncertainty that delays institutional adoption timelines.
+**6. Long HOOD**
+- Rationale: Robinhood Chain's revenue hitting ~$3.38M in 24 hours — 10x Solana, Ethereum, BSC, and Base combined — while tokenized stock and memecoin volumes reach all-time highs is a fundamental breakout in platform economics. The credit card memecoin onramp removes a significant friction point for new user acquisition. HOOD trades at a meaningful discount to its growth trajectory.
+- Entry: On any morning pullback toward the prior day's close or VWAP; the volume data suggests sustained platform engagement.
+- Risks: Invalidated by regulatory action targeting Robinhood's tokenized stock or memecoin products, or by a sharp risk-off move that collapses retail crypto trading volumes.
 - Related signals:
-  - Codexa USDC settlement in Brazil (→ https://t.me/leviathan_news/22207)
-  - Stablecoin B2B payments +733% YoY (→ https://t.me/leviathan_news/22193)
-  - Tether lawsuit regulatory overhang (→ https://t.me/theblockbeats/193651)
+  - Robinhood Chain 24h revenue +76% to $3.38M (→ https://t.me/theblockbeats/193671)
+  - Credit card memecoin purchases go live (→ https://t.me/leviathan_news/22189)
+  - Record tokenized stock and memecoin volumes (→ https://t.me/wublockchainenglish/25841)
 
-**6. Long NVDA / BOTZ (AI Infrastructure ETF)**
-- Rationale: BOTZ provides diversified exposure to the AI/robotics hardware buildout without single-stock concentration risk. The PwC $32T data center forecast, Dell's AI server beat, and HuggingFace's AI Duck driving hardware demand provide three concurrent demand signals. Using BOTZ rather than pure NVDA reduces risk if any single-name rotation occurs.
-- Entry: Buy BOTZ near current levels; use NVDA as a higher-beta alternative for more aggressive sizing.
-- Risks: A 5-8% equity pullback driven by yields approaching 5% (per Morgan Stanley) would compress AI multiple stocks disproportionately, making this the highest-beta risk in the current environment.
+**7. Pairs Trade — Long MSTR / Short MARA+RIOT (Bitcoin treasury vs. hashrate bear)**
+- Rationale: Bitcoin's first-ever hashrate bear market is forcing public miners to pivot toward AI/HPC, structurally impairing their core business models. Meanwhile, Strategy (MSTR) has eliminated its net debt position, now holds $65B in BTC with $7B in cash, and is actively using equity premium to accumulate more Bitcoin. The pairs trade isolates the superior capital allocation thesis against deteriorating mining economics.
+- Entry: Long MSTR at market / Short MARA and RIOT in equal notional; initiate on any intraday strength in miners that creates better short entry.
+- Risks: Invalidated if Bitcoin hashrate recovers sharply (reducing miner pressure) or if MSTR's equity premium collapses toward NAV due to a BTC price selloff below $75K.
 - Related signals:
-  - PwC $32T data center investment (→ https://t.me/theblockbeats/193605)
-  - Dell +10% on AI server demand (→ https://t.me/theblockbeats/193639)
-  - AI hardware demand driving chip stocks (→ https://t.me/theblockbeats/193604)
-
-**7. Pairs Trade: Long ETH ETF (ETHA) vs. Short BTC (IBIT)**
-- Rationale: ETH spot ETFs have seen 12 consecutive days of net inflows ($10.95M yesterday) while BTC ETFs saw $236M in outflows. Wintermute's largest short is ETH at ~$50M, but institutional ETF flows are moving the other direction — suggesting a structural rotation. The ETH/BTC pair has room to compress in ETH's favor on a relative basis.
-- Entry: Long ETHA, short IBIT in roughly equal dollar notional; entry at current levels with the ETH/BTC ratio as the tracking metric.
-- Risks: A broad crypto selloff driven by BTC demand deterioration would hurt the long leg (ETHA) more than the short leg protects, given ETH's higher beta; the Wintermute short on ETH adds a large institutional counterparty risk to the long side.
-- Related signals:
-  - ETH ETF 12 consecutive days of inflows (→ https://t.me/wublockchainenglish/25843)
-  - BTC ETF $236M net outflows (→ https://t.me/wublockchainenglish/25843)
-  - Wintermute $50M ETH short (→ https://t.me/theblockbeats/193606)
-  - BTC futures demand cooling (→ https://t.me/theblockbeats/193665)
+  - Strategy net debt zero, $65B BTC + $7B cash (→ https://t.me/theblockbeats/193629)
+  - Bitcoin hashrate bear market forcing miner pivots (→ https://t.me/wublockchainenglish/25842)
+  - Remixpoint Bitcoin-only treasury pivot (→ https://t.me/leviathan_news/22213)
 
 ---
 
 ⚠️ RISKS TO WATCH
 
-• **US 10-Year Yield Approaching 5%** — Morgan Stanley has identified 5% as the equity pain threshold, forecasting a 5-8% pullback if breached. Trigger: Any hot inflation print, fiscal deterioration signal, or failed Treasury auction. Impact: AI/tech multiples compress, BTC loses macro-hedge bid, equity longs across the brief get hit simultaneously.
+• **Friday NFP Print (Critical Gate)** — Today's ADP miss has front-run rate-cut optimism, but if Friday's Non-Farm Payrolls comes in above 150K, it will sharply reverse the September cut probability, triggering a risk-off reversal across crypto and equities. Impact: BTC/ETH sell-off, IBIT/FBTC drawdown, equity momentum stall.
 
-• **Robinhood/JPMorgan Credit Card Investigation** — JPMorgan has asked Visa to investigate Robinhood Wallet's memecoin credit card purchases, which appear to misclassify crypto transactions. Trigger: Visa or Mastercard issuing a formal restriction notice to Robinhood. Impact: HOOD equity sells off sharply, Robinhood Chain volume collapses, the DeFi/TradFi convergence trade reverses.
+• **US 10-Year Treasury Yield Approaching 5%** — Morgan Stanley's formal 5-8% equity correction warning tied to 5% yields, combined with UK gilts at 19-year highs and Italian bonds at 2024 highs, signals a coordinated global sovereign rate pressure event. Trigger: US 10-year closes above 4.85%. Impact: SPY/QQQ 5-8% drawdown, BTC correlation spike to the downside, long-duration tech (NVDA, MSFT) multiple compression.
 
-• **$1.535B Token Unlock Supply Overhang** — Over $1.535B in token unlocks are scheduled over the next month across HYPE, SOL, TRUMP, ZEC, AVAX, NEAR, ARB, and others. Trigger: Unlocks landing into thin or declining liquidity, particularly if BTC demand remains negative. Impact: Broad altcoin selling pressure that drags liquidity out of DeFi positions and amplifies any BTC correction.
-
-• **YAM Governance Attack Contagion** — If the YAM Finance governance takeover succeeds, it signals a vulnerability in Timelock-based governance structures used across DeFi protocols. Trigger: Failed community vote allowing attacker to seize Timelock control. Impact: Confidence shock across small-cap DeFi governance tokens; potential contagion selling in protocols with similar governance architectures.
-
----
+• **Chip Tariff Announcement Risk** — The Trump administration's consideration of new semiconductor import tariffs is an asymmetric tail risk for the AI trade. Trigger: Any formal USTR notice or executive order targeting chip imports. Impact: Immediate

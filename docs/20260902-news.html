@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — September 02, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260902-trading.html" class="active">09/02/2026</a>
+    <a href="20260901-trading.html" class="">09/01/2026</a>
+    <a href="20260831-trading.html" class="">08/31/2026</a>
+    <a href="20260829-trading.html" class="">08/29/2026</a>
+    <a href="20260828-trading.html" class="">08/28/2026</a>
+    <a href="20260827-trading.html" class="">08/27/2026</a>
+    <a href="20260826-trading.html" class="">08/26/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260902-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260902-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — September 02, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<h2>🏛️ Regulation &amp; Policy</h2>
+
+<p><strong>G20 Finance Leaders Commit to 'Clear Pathways' for Digital Asset Innovation</strong><br />
+G20 finance ministers agreed to develop clear regulatory frameworks for digital assets, signaling growing global consensus on crypto governance. The pledge marks a significant step toward coordinated international policy, potentially reducing regulatory fragmentation across major economies.<br />
+<a href="https://t.me/TheBlock001/7392" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SEC Announces Sept. 17 Roundtable on 24-Hour Trading with Robinhood, NYSE, BlackRock</strong><br />
+The SEC is convening a high-profile roundtable on September 17 to assess the feasibility of round-the-clock U.S. securities trading, bringing together major market participants including NYSE, Nasdaq, Robinhood, BlackRock, and DTCC. Simultaneously, the agency proposed new transfer-agent rules with significant blockchain implications, signaling a dual regulatory push toward market modernization.<br />
+<a href="https://t.me/leviathan_news/22188" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Thailand SEC Issues Crypto Travel Rule Requiring Self-Custody Wallet Verification</strong><br />
+Thailand's SEC introduced Travel Rule regulations for digital assets, requiring operators to collect counterparty information and verify ownership of self-hosted wallets. The rules take effect February 27, 2027, with a five-year data retention mandate, tightening AML controls across the country's crypto ecosystem.<br />
+<a href="https://t.me/wublockchainenglish/25845" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Thai Businessmen Sue Tether Over $42.4M USDT Frozen Without Court Order</strong><br />
+Two Thai businessmen filed suit against Tether in the Southern District of New York, alleging their wallets were frozen in October 2025 based solely on an informal Homeland Security request — with no warrant or court order issued until February 2026. The case challenges Tether's practice of acting on extrajudicial government requests and seeks return of funds plus interest earned on reserves during the freeze.<br />
+<a href="https://t.me/wublockchainenglish/25836" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Singapore MAS Proposes Stablecoin Licensing Framework Under Payment Services Act</strong><br />
+Singapore's MAS put forward a stablecoin licensing framework under proposed Payment Services Act amendments, with public consultation open until October 16. Notably, the framework bans issuers from passing yield directly to holders, pushing reserve spread economics to distribution platforms — a structure Paxos's USDG already operates under MAS supervision.<br />
+<a href="https://t.me/leviathan_news/22177" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>South Korea FSC to Operate Virtual Asset Task Force Through 2028 for Digital Asset Basic Act</strong><br />
+South Korea's Financial Services Commission announced it will continue operating its virtual asset task force through 2028 to prepare for the Digital Asset Basic Act, focusing on subordinate legislation and ecosystem infrastructure. Securities-type token regulation passed the National Assembly in January 2026 and is set for full implementation in February 2027.<br />
+<a href="https://t.me/theblockbeats/193614" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🤖 AI &amp; Tech</h2>
+
+<p><strong>OpenAI's Astra AI Earns First 'Critical' Cyber Rating for Autonomous Zero-Day Exploit Capability</strong><br />
+OpenAI disclosed that its new Astra AI model can autonomously identify zero-day vulnerabilities and construct working exploits, earning the company's first "Critical" cybersecurity capability rating. The revelation raises significant concerns about AI-assisted offensive security at scale, with OpenAI Chief Scientist Ilya Sutskever separately warning that future rogue agents could seize GPU cloud infrastructure to self-replicate.<br />
+<a href="https://t.me/leviathan_news/22200" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Saudi AI Firm HUMAIN Clarifies M3 Model Built on China's MiniMax, Not Domestic Tech</strong><br />
+HUMAIN, Saudi Arabia's state-backed AI company, launched the HUMAIN M3 model — initially billed as "100% Saudi" — but was forced to clarify it is based on Chinese AI firm MiniMax's M3 architecture. The 428B-parameter model was post-trained on over 10 billion Arabic tokens and scores 89.37% on seven Arabic benchmarks, highlighting the growing role of Chinese AI as foundational infrastructure for other nations' sovereign AI ambitions.<br />
+<a href="https://t.me/theblockbeats/193702" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>World Labs Unveils Atlas: A Multimodal World Model for Camera-Controlled Video and 3D</strong><br />
+World Labs, the startup founded by AI pioneer Fei-Fei Li, launched Atlas, a multimodal world model enabling camera-controlled video generation and 3D scene reconstruction. The release represents a major step toward AI systems with persistent spatial understanding of the physical world.<br />
+<a href="https://t.me/leviathan_news/22191" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether Releases Open-Source AI Translation Models Covering 19 African and 9 European Languages</strong><br />
+Tether AI Research launched multiple open-source translation models designed to run on-device — including smartphones and laptops — with offline support and no third-party data upload. The suite covers languages spoken by roughly half of Africa's population, with research accepted at EMNLP 2026.<br />
+<a href="https://t.me/theblockbeats/193699" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Google Begins Rolling Out Gemini 3.8 Flash in App, Less Than Three Weeks After 3.7</strong><br />
+Google quietly started gray-area rollout of Gemini 3.8 Flash to Gemini App users, confirmed by in-app model queries returning the new version identifier. Internal codename "skimaki," the update focuses on fixing 3.7 Flash issues and reducing templated "AI filler" language, with the rapid cadence underscoring intensifying competition.<br />
+<a href="https://t.me/theblockbeats/193642" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kimi AI Files Confidential IPO Application with Hong Kong Stock Exchange</strong><br />
+Chinese AI company Moonshot AI (Kimi) secretly submitted an A1 listing application to the Hong Kong Stock Exchange, officially launching its IPO process. Kimi is simultaneously pursuing a new funding round at a $5 billion pre-money valuation, likely its final round before going public.<br />
+<a href="https://t.me/theblockbeats/193703" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EquityList Launches AI-Native Operating System for Cap Table Management and Compliance</strong><br />
+EquityList introduced an AI-native OS for cap table management requiring human approval before any AI-initiated action — addressing a key compliance gap where equity decisions often fall to whoever is closest rather than a governed process. The platform targets the structural compliance gaps that typically surface post-facto in fast-growing companies.<br />
+<a href="https://t.me/leviathan_news/22208" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>💳 Payments &amp; Stablecoins</h2>
+
+<p><strong>21 Major Banks Including BofA, Citi, Goldman Sachs Commit to Joint USD Stablecoin by H1 2027</strong><br />
+A consortium of 21 major financial institutions — including Bank of America, Citigroup, Goldman Sachs, Deutsche Bank, UBS, Wells Fargo, and MUFG — formally committed to establishing a company in H2 2026 to issue a USD-denominated stablecoin targeting H1 2027 launch. The stablecoin is designed for wholesale, institutional, and retail use cases including cross-border payments, with G7 currencies including the euro planned to follow.<br />
+<a href="https://t.me/leviathan_news/22173" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Stablecoin B2B Payments Hit $226B in 2025, Up 733% Year-Over-Year</strong><br />
+New data shows stablecoin-settled B2B payments surged 733% in 2025 to $226 billion, with Asia dominating volume while Africa and Turkey remain among the least-served corridors despite high demand. The explosive growth underscores stablecoins' rapid emergence as a core cross-border business payment rail.<br />
+<a href="https://t.me/leviathan_news/22193" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Codexa Adds USDC Settlement to SWIFT for Brazilian Trade — Stablecoins Now 20% of $800M Monthly Volume</strong><br />
+Cross-border trade finance platform Codexa integrated USDC settlement alongside SWIFT for Brazilian trade, with stablecoins now handling 20% of its $800 million monthly volume. The adoption demonstrates stablecoins moving from crypto-native contexts into mainstream trade finance infrastructure.<br />
+<a href="https://t.me/leviathan_news/22207" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Félix Pago Raises $200M — $87M Series C Led by a16z Plus $113M Credit Line — Expanding into Lending</strong><br />
+WhatsApp-based Latin America remittance startup Félix Pago completed a $200 million raise, comprising an $87 million Series C led by a16z crypto and a $113 million credit facility from General Catalyst's Customer Value Fund. The company plans to expand from its USDC-settled remittance core into lending and savings products for Latino immigrants.<br />
+<a href="https://t.me/leviathan_news/22175" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Robinhood Wallet and Fomo Allow Memecoin Purchases via Credit Card, Bypassing Crypto Classification</strong><br />
+An investigation found that users of Robinhood Wallet and social trading app Fomo can buy memecoins like WIF using Visa, Mastercard, Apple Pay, and Google Pay via Crossmint — with transactions classified as "digital goods/media" rather than crypto, sidestepping card-network crypto restrictions and standard KYC. JPMorgan has reportedly asked Visa to investigate the transactions.<br />
+<a href="https://t.me/wublockchainenglish/25833" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Argentina's Stablecoin Adoption Persists Even as Inflation Cools and Dollar Controls Ease</strong><br />
+New data from a16z crypto shows Argentine stablecoin usage remains structurally elevated despite improved macroeconomic conditions — inflation declining and foreign exchange controls loosening. The finding suggests stablecoin adoption in emerging markets may be self-sustaining beyond crisis conditions, driven by convenience and dollar access rather than pure inflation hedging.<br />
+<a href="https://t.me/leviathan_news/22205" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Privy Wallets Now Connect Directly to Bank Accounts for Fiat-to-Stablecoin Deposits via API</strong><br />
+Privy launched bank account connectivity for its embedded wallets, enabling developers to build fiat-to-stablecoin on/off-ramp flows via API without third-party aggregators. The move lowers infrastructure friction for consumer apps looking to integrate stablecoin payments natively.<br />
+<a href="https://t.me/leviathan_news/22187" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🏦 Exchanges &amp; Platforms</h2>
+
+<p><strong>Robinhood Chain Sets New DEX Volume Record at $16.7B Daily — 10x Combined Rivals</strong><br />
+Robinhood Chain's DEX volume hit a new all-time high of $16.73 billion in 24 hours, ranking second globally behind Solana and surpassing Ethereum mainnet, BSC, and Base combined. Chain fees reached ~$375 million in the same period — roughly 2x the combined fees of those four chains — marking Robinhood Chain as a dominant onchain trading venue.<br />
+<a href="https://t.me/theblockbeats/193671" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Strategies Expands Equity Facility to $2.5B from $1B to Buy More HYPE</strong><br />
+Hyperliquid Strategies (NASDAQ: PURR) expanded its ChEF equity financing facility from $1 billion to $2.5 billion, allowing it to issue shares to Chardan Capital Markets with proceeds earmarked for general corporate purposes including potential HYPE purchases. The expansion signals continued aggressive capital deployment into the Hyperliquid ecosystem.<br />
+<a href="https://t.me/wublockchainenglish/25832" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CEX Stock Perpetual Futures Volume Hits $665B in August — 56x vs. January</strong><br />
+Centralized exchanges processed $665.42 billion in equity/stock perpetual futures volume in August 2026, up 4.6% month-over-month but representing a 56.5x surge since January. The top three underlying assets — SNDK, SK Hynix, and SPCX — accounted for over 50% of total volume.<br />
+<a href="https://t.me/wublockchainenglish/25839" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OKX Releases 46th Proof of Reserves: BTC Holdings Up 4.5%, USDT Down 7%</strong><br />
+OKX's 46th Proof of Reserves snapshot (August 11) shows user BTC holdings rose 4.52% to ~134,000 BTC, while USDT holdings declined 7.17% to ~8.117 billion and ETH slipped 0.17% to ~1.725 million ETH. The divergence suggests users may be rotating from stablecoins into spot BTC on the platform.<br />
+<a href="https://t.me/wublockchainenglish/25838" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HashKey Becomes First Asian Digital Asset Firm to Join DTCC Industry Working Group</strong><br />
+Hong Kong-based HashKey became the first Asian digital asset company to join the DTCC's industry working group, deepening integration between Asian crypto infrastructure and the core post-trade settlement institution for U.S. securities markets. The move positions HashKey to influence emerging standards for tokenized securities settlement.<br />
+<a href="https://t.me/leviathan_news/22212" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bybit Expands Shariah-Compliant Islamic Account with 20 New Tokens, Targets 100 Pairs by 2026</strong><br />
+Bybit added 20 tokens to its Shariah-compliant Islamic account offering, with plans to reach 100 trading pairs by end of 2026. The expansion targets the significant Muslim retail investor demographic that requires halal-compliant financial products, representing a largely underserved segment of the global crypto market.<br />
+<a href="https://t.me/leviathan_news/22198" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Adds Four New bStocks as Collateral and Launches New TradFi Perpetuals</strong><br />
+Binance added tokenized stocks Seagate (STXB), ProShares UltraPro Short QQQ (SQQQB), Moderna (MRNAB), and CrowdStrike (CRWDB) as eligible margin collateral, while also listing them as new trading pairs and launching additional U-margined TradFi perpetual contracts including NVDL, TSLL, and others. The moves cement Binance's position as the leading CEX for tokenized equity exposure.<br />
+<a href="https://t.me/theblockbeats/193660" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>📈 Crypto Trading &amp; Markets</h2>
+
+<p><strong>Strategy CEO: Selling BTC at $60K, Buying at $80K Were Both Right — Net Debt Now Zero</strong><br />
+Strategy CEO Phong Le explained the firm's BTC capital allocation strategy on Bloomberg TV, noting decisions are driven by cost of capital rather than BTC price. The company sold ~7,000 BTC to fund preferred dividends, then resumed buying at ~$80K; over the past two months it has eliminated ~$7 billion in net debt, now holding $720 billion in assets including $650 billion in BTC.<br />
+<a href="https://t.me/wublockchainenglish/25840" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Spot ETFs See $236M Net Outflows; Ethereum ETFs Post 12 Consecutive Days of Inflows</strong><br />
+U.S. spot Bitcoin ETFs recorded $236 million in net outflows on September 1, while spot Ethereum ETFs attracted $10.95 million in net inflows — marking 12 consecutive days of positive flows. The divergence suggests institutional rotation toward ETH exposure even as BTC faces near-term demand headwinds.<br />
+<a href="https://t.me/wublockchainenglish/25843" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Robinhood Chain Memecoin-Stock Volume Hits Record $217M; Total RWA Market Cap Crosses $84M</strong><br />
+Daily volume for memecoin-stock pairs on Robinhood Chain reached a record $217 million, with tokenized stocks adding $127 million — both new all-time highs. Total RWA market cap on the chain surpassed $84 million, as memecoin speculation is increasingly being used as a liquidity engine for tokenized equity products.<br />
+<a href="https://t.me/wublockchainenglish/25841" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Entering First-Ever 'Hashrate Bear Market' as Miners Shift to AI — Twenty One Capital CEO</strong><br />
+Twenty One Capital CEO Rapha Zagury said at Bitcoin Asia 2026 that Bitcoin is experiencing its first-ever hashrate bear market, with network hashrate declining steadily since approaching 1.3 ZH/s at end of 2025. The key driver: large-scale miners are pivoting infrastructure to AI compute, creating a structural supply shift in Bitcoin mining capacity.<br />
+<a href="https://t.me/wublockchainenglish/25842" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>$1.535B in Token Unlocks Expected Over the Next Month</strong><br />
+Tokenomist data shows over $1.535 billion in token unlocks over the coming month, with one-time unlocks above $10M including HYPE, ENA, ZRO, and ARB, while linear unlocks exceeding $10M/month include SOL, TRUMP, TAO, AVAX, and WLD. The concentrated unlock schedule represents meaningful potential sell-side pressure across major tokens.<br />
+<a href="https://t.me/wublockchainenglish/25837" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Japan-Listed Remixpoint Goes Bitcoin-Only, Sells $5.5M in ETH, SOL, XRP, and DOGE</strong><br />
+Remixpoint, Japan's second-largest digital asset treasury company after Metaplanet, liquidated all altcoin holdings on September 1 — including 901 ETH, 13,920 SOL, 1.19M XRP, and 2.8M DOGE — for approximately ¥879 million ($5.5M). The company now holds only 1,506 BTC (~$115M) as it adopts a Bitcoin-only treasury strategy, with proceeds to be deployed in energy storage and other growth sectors.<br />
+<a href="https://t.me/wublockchainenglish/25844" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ARK Invest &amp; Glassnode: Bitcoin and Ethereum Need Just 3 Entities to Reach Block Production Threshold</strong><br />
+A joint ARK Invest and Glassnode decentralization report found that both Bitcoin and Ethereum require only 3 entities to reach critical block production control thresholds, versus 19 for Solana. The report cautions that mining pool and staking delegation structures complicate direct equivalence to actual control, with Bitcoin showing the most geographically balanced infrastructure distribution.<br />
+<a href="https://t.me/wublockchainenglish/25835" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Uniswap Logs Record 7M+ Transactions in a Single Day</strong><br />
+Uniswap set a new all-time high for daily transaction count, exceeding 7 million swaps in a single day — its highest-ever figure. The milestone reflects the broader surge in onchain activity driven by tokenized stock trading and memecoin activity across chains.<br />
+<a href="https://t.me/theblockbeats/193636" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🔷 DeFi &amp; Protocols</h2>
+
+<p><strong>Wyoming Expands Chainlink Partnership for Real-Time On-Chain Reserve Verification of FRNT</strong><br />
+Wyoming's stablecoin commission announced integration of Chainlink Proof of Reserve for its state-issued stablecoin FRNT, providing near-real-time on-chain verification of reserves. The commission also plans to implement Chainlink's Secure Mint feature — requiring verified reserve assets to equal or exceed total supply before new tokens can be minted — effectively preventing unbacked issuance attacks. FRNT, launched in January, is the first U.S. state-issued stablecoin.<br />
+<a href="https://t.me/leviathan_news/22214" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Frax and Superstate Partner to Combine DeFi Infrastructure with Tokenized Treasury Backbone</strong><br />
+Frax Finance and Superstate announced a partnership integrating tokenized Treasury infrastructure with Frax's DeFi ecosystem for frxUSD and FraxNet. The collaboration bridges institutional-grade real-world assets with decentralized protocol mechanics, positioning Frax as a key conduit for RWA-native DeFi yield.<br />
+<a href="https://t.me/leviathan_news/22176" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SteakhouseFi Launches solmF-ONE on Kamino, Bringing Fasanara Capital's Private Credit to Solana DeFi</strong><br />
+SteakhouseFi launched solmF-ONE on Kamino Finance, tokenizing private credit from Fasanara Capital — a lender with over $5 billion AUM. The product brings institutional private credit yield on-chain on Solana, furthering the RWA trend of migrating traditional finance asset classes into DeFi markets.<br />
+<a href="https://t.me/leviathan_news/22192" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Variational Launches On-Chain Gold and Nasdaq Swaps with TradFi Liquidity, $10M Initial OI Cap</strong><br />
+Variational introduced on-chain swaps for gold and Nasdaq indices backed by TradFi liquidity, with initial open interest capped at $10 million and a target of $50 million. The launch extends decentralized derivatives beyond crypto-native assets into mainstream macro instruments.<br />
+<a href="https://t.me/leviathan_news/22195" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Apyx Launches $aptUSD Treasury-Backed Yield Token at 3.5% APY with Zero Fees</strong><br />
+Apyx launched $aptUSD, a Treasury-backed yield token offering 3.5% APY with automatic accrual, zero fees, instant exits, and full DeFi composability. The product competes in the growing on-chain yield stablecoin segment, differentiating on fee-free structure and liquid exit.<br />
+<a href="https://t.me/leviathan_news/22206" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Neuberger Securitize Tokenized Fund Now Accepted as Collateral on Solana's Loopscale</strong><br />
+A Neuberger Berman tokenized fund, issued via Securitize, is now accepted as collateral on Solana lending protocol Loopscale — enabling institutional fund holders to borrow against tokenized assets on-chain. The integration marks another step in the convergence of TradFi tokenization and DeFi borrowing infrastructure.<br />
+<a href="https://t.me/leviathan_news/22171" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>YAM Finance Faces Governance Takeover Attack — $33.7M at Risk</strong><br />
+Security firm Defimon detected a live governance attack on YAM Finance, where an attacker accumulated ~50.4M YAM tokens (~3.3% of supply), submitted a blank proposal to call <code>setPendingAdmin</code> on the YAM Timelock contract, and attempted to seize control of the DAO treasury worth ~$33.7M. YAM token holders were urged to vote against proposal #45 before block 25,897,343 — approximately 34 hours away.<br />
+<a href="https://t.me/theblockbeats/193612" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Circle Warns ECDSA Attack Cost Has Fallen 65% in Under a Decade as Quantum Gap Closes</strong><br />
+Circle published a warning that the estimated cost to break ECDSA encryption — which secures blockchain private keys — has fallen 65% in under ten years as quantum computing capabilities advance. The warning signals that the crypto industry may need to begin urgently planning post-quantum cryptography migration for exposed keys.<br />
+<a href="https://t.me/leviathan_news/22170" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<hr />
+
+<h2>🔦 Other</h2>
+
+<p><strong>Coinbase Co-Founder Fred Ehrsam Seeks Control of at Least Three Venezuelan Oil Fields</strong><br />
+Coinbase co-founder Fred Ehrsam is reportedly seeking control of three Venezuelan oil fields in the Orinoco Belt — currently operated by Alvorada Heavy Industries — as Washington reviews Maduro-era energy contracts and plans to replace operators with Trump-aligned investors. The move reflects growing cross-sector ambitions by crypto-native entrepreneurs into energy and natural resources.<br />
+<a href="https://t.me/wublockchainenglish/25834" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>U.S. Private Sector Added Only 38K Jobs in August — Weakest Since January</strong><br />
+ADP data showed U.S. private payrolls grew by just 38,000 in August, well below the 47,000 forecast and the prior 46,000 revised reading. The miss raises the probability of a Fed rate cut in September to 62.2% according to CME FedWatch, with markets watching closely for macro implications across risk assets.<br />
+<a href="https://t.me/wublockchainenglish/25846" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solana Auctions Nine Logo Ad Spots for Nepal Flood Relief, Raising $100K in 24 Hours</strong><br />
+The Solana Foundation auctioned nine logo placement advertising spots to raise funds for Nepal flood relief, generating $100,000 within the 24-hour bidding window. The initiative demonstrates blockchain communities leveraging NFT-style auction mechanics for humanitarian fundraising.<br />
+<a href="https://t.me/leviathan_news/22194" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto User Loses $49K After Fake Homebrew Installer Steals Google Session and Seed Phrase</strong><br />
+A crypto user lost $49,000 after downloading a malicious fake Homebrew package installer that stole their active Google session and extracted a</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

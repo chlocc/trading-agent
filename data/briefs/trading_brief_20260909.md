@@ -1,94 +1,104 @@
+---
 📊 TRADING SIGNALS BRIEF — September 10, 2026
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔥 TOP THEMES
-- **AI Agent Launch Drives Mega-Cap Rotation** — Meta’s personal AI agent “Muse” is the clearest stock-specific catalyst of the session: META traded up more than 5% at the US open while AMZN and AAPL faded. This is a sign of capital rotating into AI winners rather than broad mega-cap strength. Key tickers: META, MSFT, GOOG, NVDA, BOTZ, ARKQ.
-- **Meme-Coin Blowup Drains Risk Appetite** — LAPTOP has collapsed roughly 99.5% from its all-time high, with Wintermute visibly dumping team tokens on-chain. The sharp FDV destruction and 71% dump in five minutes are a warning for high-FDV meme launches and create sentiment risk for the Solana ecosystem. Key tickers: LAPTOP, SOL, PONS.
-- **Institutions Accumulate ETH While Spot ETFs Cool** — Bitmine continues its large ETH purchases, tightening available supply, even as spot Bitcoin/Ethereum ETFs registered net outflows. That divergence favors selective accumulation of ETH exposure while keeping an eye on fund-flow confirmation. Key tickers: ETH, ETHA, BTC, IBIT, FBTC.
-- **Bridge Security Is the New DeFi Fault Line** — The Nomic double-spend exploit forced Osmosis to freeze 22.65 BTC and pause bridged flows. Trust in bridged BTC is the key casualty, and any follow-on depeg or governance failure will hit both NOM and OSMO hard. Key tickers: BTC, OSMO, NOM.
+- **💀 Meme token collapse — LAPTOP -99.5% from ATH.** This is the highest-conviction bearish cluster of the morning: Wintermute is actively dumping team-allocated tokens, FDV collapsed 71% in five minutes, and on-chain sleuths flag fresh-wallet distribution. It matters because it sets a risk-off tone for the entire meme/alt complex and forces rotation into majors. **Tickers:** LAPTOP, MEME, 4STOCK.
+- **🧠 AI agent wars — Meta's Muse is today's catalyst.** META jumped +5% at the US open (after +4% premarket) on its personal AI agent launch while AMZN/AAPL traded lower, creating clean relative strength. OpenAI's Images 2.5 rollout and chip co-development with Samsung keep the AI capex narrative hot, and NVDA got a $3.1B Indonesian demand signal. **Tickers:** META, NVDA, MSFT, GOOG, BOTZ, ARKQ, ANTH.
+- **🔗 Bridge security flashpoint — Nomic double-spend.** The exploit froze 22.65 BTC and paused Osmosis flows, with a proposal to cover the shortfall from community BTC. This re-prices DeFi bridge risk and directly hits bridged BTC, OSMO, and NOM. **Tickers:** BTC, OSMO, NOM.
+- **🏦 Institutional rails expand — stablecoins and tokenization.** Block filed for an OCC national trust bank charter, Citi is launching tokenized deposit transfers in Japan, Mastercard/Circle acquired BVNK and Tazapay, and the first US staked TRX ETF began trading — all pointing to deeper TradFi adoption. **Tickers:** SQ, COIN, C, TRX, USDT, USDC, PYUSD.
 
 🟢 BULLISH SIGNALS
-**META** — Meta surged more than 5% at the US open after unveiling its personal AI agent Muse, with premarket strength already running above 4%. The market is treating Muse as a genuine AI-agent distribution catalyst for Meta’s massive user base. Watch for follow-through in options flow and whether AMZN/AAPL weakness confirms rotation into AI winners. (→ https://t.me/theblockbeats/194927) (→ https://t.me/theblockbeats/194883)
+**HOOD** — Robinhood Chain's daily fees hit a record $6M as DEX volume doubled, driven by the Pons activity surge; Robinhood also took an equity stake in OG.com to build prediction-market infrastructure. This is bullish because DEX fees are a direct, high-margin revenue stream that scales with on-chain activity — and it shows the crypto arm is gaining volume share. Watch whether the fee run-rate stays above $4-5M/day and whether prediction markets become the next catalyst. (→ https://t.me/TheBlock001/7423)
 
-**HOOD** — Robinhood Chain daily fees hit a record $6M as DEX volume doubled, driven largely by PONS activity. This is direct evidence that Robinhood is monetizing chain-level activity, not just retail order flow. If fee run-rate is sustained, it is a meaningful upgrade to HOOD’s revenue story. (→ https://t.me/TheBlock001/7423)
+**ETH** — Bitmine continues buying ETH in size, tightening available supply and signaling institutional conviction despite the ETF outflow noise. The supply-squeeze thesis: if Bitmine keeps absorbing spot ETH through this dip, liquid circulation shrinks and upside leverage builds. Watch for wallet updates and whether exchange ETH balances keep declining. (→ https://t.me/leviathan_news/22491)
 
-**ETH** — Bitmine’s continued large ETH purchases are tightening supply and signaling institutional accumulation behind the scenes. That is the right kind of flow to counteract cooling ETF inflows. Watch exchange ETH balances and Bitmine’s wallet activity for whether this accumulation continues. (→ https://t.me/leviathan_news/22491)
+**META** — Meta jumped over 5% at the US open after unveiling its personal AI agent Muse, with shares up over 4% premarket; AMZN and AAPL traded lower, making META the clear relative-strength leader. The launch gives Meta a tangible consumer AI product to monetize, and the tape is rewarding the differentiation. Watch for follow-through above the first-hour high and any commentary on Muse monetization and ads integration. (→ https://t.me/theblockbeats/194927) (→ https://t.me/theblockbeats/194883)
 
 🔴 BEARISH SIGNALS
-**LAPTOP** — LAPTOP has crashed roughly 99.5% from its all-time high, FDV fell 71% in five minutes, and Wintermute is actively dumping tokens received from the team. Even after the crash, the supply overhang remains huge, and on-chain distribution signs point toward near-zero value. Any dead-cat bounce should be viewed as exit liquidity, not accumulation. (→ https://t.me/wublockchainenglish/25957) (→ https://t.me/theblockbeats/194928) (→ https://t.me/theblockbeats/194910)
+**LAPTOP** — LAPTOP has crashed ~99.5% from its all-time high, with FDV collapsing 71% in five minutes and Wintermute actively dumping team-allocated tokens (466k sold for ~$2.08M so far). The structure is a textbook post-launch distribution: top holders are mostly fresh wallets and on-chain observers are calling it a pump-and-dump. Downside scenario is a grind toward zero with violent dead-cat bounces — do not catch the knife. (→ https://t.me/wublockchainenglish/25957) (→ https://t.me/theblockbeats/194928) (→ https://t.me/theblockbeats/194910)
 
-**OSMO / NOM / BTC** — A Nomic chain exploit enabled double-spending of nBTC, with 22.65 BTC frozen and Osmosis pausing flows while proposing to cover the shortfall from community BTC. This is a direct hit to bridged BTC confidence and creates solvency risk for the bridge/OSMO ecosystem. Expect potential further depeg pressure on bridged BTC and negative flow impact on OSMO if governance disputes drag out. (→ https://t.me/wublockchainenglish/25949) (→ https://t.me/theblockbeats/194875)
+**SKYA** — SkyAI faces a shareholder revolt and is down 86% over the past year, making it a high-risk governance situation with bearish overhang. The stock is being repriced on governance/confidence risk, not fundamentals — any dilution or leadership change headlines will extend the slide. Downside scenario: continued selloffs on revolt escalation and failed restructuring. (→ https://t.me/wublockchainenglish/25952)
 
-**SOL** — Solana block production is highly concentrated in Frankfurt and Amsterdam, raising meaningful decentralization concerns. Validator concentration is a recurring bearish talking point and can weigh on SOL’s institutional risk premium. Watch for any response from the Solana Foundation or validator rotation to counter the narrative. (→ https://t.me/wublockchainenglish/25947)
+**BTC / OSMO / NOM** — A Nomic BTC bridge exploit enabled double-spending of nBTC; 22.65 BTC has been frozen and Osmosis flows paused, with a proposal to cover the shortfall from community BTC. This is bearish because it undermines trust in bridged BTC and forces OSMO to socialize the loss. Downside scenario: if the community vote fails or additional frozen funds surface, OSMO and NOM sell off further while bridged-BTC premium/discount dislocations widen. (→ https://t.me/wublockchainenglish/25949) (→ https://t.me/theblockbeats/194875)
 
-**BTC / ETH** — Spot Bitcoin and Ethereum ETFs saw net outflows, reflecting cooling near-term sentiment after previous inflows. This is the main short-term supply-side drag on BTC and ETH, and it directly pressures IBIT, FBTC, and ETHA. If outflows persist beyond another session, expect spot weakness to accelerate. (→ https://t.me/wublockchainenglish/25945)
+**SOL** — Solana's block production is highly concentrated in Frankfurt and Amsterdam, raising decentralization concerns. This reopens the "Solana is a centralized chain" short thesis at a time when the ecosystem is pushing prediction markets and institutional adoption. Downside scenario: validator concentration headlines fuel a DeFi-risk discount on SOL relative to ETH. (→ https://t.me/wublockchainenglish/25947)
 
-**SKYA** — SkyAI is facing a shareholder revolt after an 86% stock decline over the past year. Governance uncertainty with a collapsing equity makes SKYA a high-risk name to avoid or fade on strength. (→ https://t.me/wublockchainenglish/25952)
+**BTC / ETH** — Spot Bitcoin and Ethereum ETFs saw net outflows, cooling near-term crypto sentiment after a stretch of inflows. This directly offsets the "no CEX sell pressure" bullish read — the marginal buyer is stepping back. Downside scenario: if outflows accelerate for a second consecutive session, BTC and ETH retest range lows and the rebound narrative breaks. (→ https://t.me/wublockchainenglish/25945)
 
 💡 TRADE IDEAS
-**1. Long META via common stock or call spread**
-- Rationale: Muse is a legitimate AI-agent launch catalyst, and the market rewarded it with a 5% move while peers faded. If the market begins pricing an AI-agent distribution advantage, META can outperform mega-cap tech near-term.
-- Entry: Buy on a pullback to the 10-day EMA if META holds above the premarket breakout level; add on a new closing high with expanding volume.
-- Risks: Invalidation closes below the US-open breakout level; privacy or regulatory backlash around Muse.
+**1. Long META / short AMZN (pairs trade)**
+- Rationale: Meta's Muse AI agent launch drove a +5% open while AMZN and AAPL traded lower — a rare, clean divergence. The pair isolates the AI monetization catalyst from broad tech beta and removes index noise.
+- Entry: Initiate on any META pullback toward the +2% zone from the open, or on a close above the first-hour high; short AMZN in roughly equal dollar notional.
+- Risks: A broad AI-capex scare or ad-cycle disappointment hits META harder than AMZN and converges the pair.
 - Related signals:
-  - Meta jumped 5% at US open on Muse unveiling (→ https://t.me/theblockbeats/194927)
-  - Meta rose 4% premarket on AI assistant launch (→ https://t.me/theblockbeats/194883)
-  - OpenAI Images 2.5 signals accelerating AI capabilities (→ https://t.me/leviathan_news/22493)
+  - META +5% at open, AMZN/AAPL lower (→ https://t.me/theblockbeats/194927)
+  - META +4% premarket on Muse launch (→ https://t.me/theblockbeats/194883)
 
-**2. Long ETH via spot or ETHA**
-- Rationale: Bitmine’s continued ETH purchases tighten supply, while structural positives like EIP-8288 and bank-backed euro stablecoin work on Ethereum add long-term tailwinds. The ETF outflow is the key short-term risk, so this is a patient accumulation trade rather than a chase.
-- Entry: Buy on a retest of recent range support or on a confirmed reclaim of the 20-day moving average; scale in around the current support zone.
-- Risks: Accelerating spot ETF outflows push ETH below range support and delay the accumulation thesis.
+**2. Long ETH or ETHA (dip-buy ETF exposure)**
+- Rationale: Bitmine's continued large ETH purchases tighten supply, and Vitalik's EIP-8288 proposal reinforces the Ethereum scaling narrative. The spot ETF outflows create the entry window, not the thesis.
+- Entry: Accumulate ETHA in tranches on stabilization above the short-term support zone; add on a daily close back above the recent breakout level once outflow pressure exhausts.
+- Risks: Persistent spot ETH ETF outflows dominate order flow and push ETH through support, delaying the supply-squeeze thesis.
 - Related signals:
-  - Bitmine continues large ETH accumulation (→ https://t.me/leviathan_news/22491)
-  - Vitalik proposes EIP-8288 for quantum-safe scaling (→ https://t.me/theblockbeats/194956)
-  - 37 European banks building MiCA euro stablecoin on Ethereum (→ https://t.me/leviathan_news/22506)
-  - Spot BTC/ETH ETF net outflows (→ https://t.me/wublockchainenglish/25945)
+  - Bitmine large ETH purchases (→ https://t.me/leviathan_news/22491)
+  - Spot BTC/ETH ETF outflows (→ https://t.me/wublockchainenglish/25945)
+  - Vitalik EIP-8288 quantum-safe scaling (→ https://t.me/theblockbeats/194956)
 
-**3. Short LAPTOP — token/perp if borrow is available, otherwise avoid**
-- Rationale: LAPTOP is in active distribution: Wintermute sold 466k tokens for ~$2.08M after receiving 2.5M from the team, FDV already collapsed, and top holders are largely fresh wallets. The path of least resistance is down toward zero, especially if bounces are sold.
-- Entry: Initiate on a dead-cat bounce into the recent post-crash supply zone; add only if the token fails to hold any bounce above former support.
-- Risks: Extremely low liquidity and token borrow can create violent short squeezes; invalidation if LAPTOP reclaims the pre-crash print.
+**3. Short LAPTOP on any bounce (aggressive)**
+- Rationale: LAPTOP is down ~99.5% from ATH, FDV crashed 71% in five minutes, and Wintermute is distributing team tokens on-chain. Top holders are overwhelmingly new wallets — the classic distribution signature before a terminal decline.
+- Entry: Short any dead-cat bounce toward the $300-400 zone (prior $247B+ FDV region) with a tight stop above $450; if perps are unavailable, express the view by holding zero long exposure and fading retail enthusiasm.
+- Risks: Meme squeezes and retail flow can produce violent 2-5x counter-rallies that stop out shorts.
 - Related signals:
-  - LAPTOP crash ~99.5% from ATH (→ https://t.me/wublockchainenglish/25957)
-  - Wintermute dumping LAPTOP on-chain (→ https://t.me/theblockbeats/194928)
-  - LAPTOP FDV crashed 71% in 5 minutes (→ https://t.me/theblockbeats/194910)
+  - LAPTOP -99.5% from ATH (→ https://t.me/wublockchainenglish/25957)
+  - Wintermute dumping 466k tokens (→ https://t.me/theblockbeats/194928)
+  - FDV -71% in 5 minutes (→ https://t.me/theblockbeats/194910)
+  - Fresh-wallet top holders (→ https://t.me/theblockbeats/194942)
 
-**4. Long HYPE vs Short SOL — ratio pair**
-- Rationale: HYPE is getting institutional validation through Trump’s public recognition, Kraken’s validator, and the kHYPE wrapper, while SOL is dealing with decentralization concerns and meme-token contagion. The ratio trade captures the relative shift in market sentiment without taking a large directional crypto bet.
-- Entry: Initiate long HYPE/short SOL when the ratio is holding above its 20-day moving average; add on a break of the recent ratio high.
-- Risks: If the CFTC/Hyperliquid review turns negative or SOL’s validator story is resolved positively, the pair can unwind sharply.
+**4. Long COIN (exchange volume play)**
+- Rationale: August spot volume grew 19% MoM across major exchanges, Binance holds >50% of RWA perp volume, and Robinhood Chain just printed record daily fees — exchange activity is broadening across spot, perps, and DEXs. COIN is the cleanest listed proxy for all three.
+- Entry: Buy COIN on a pullback toward the 20-day EMA, or on confirmation that monthly exchange volumes stay above the August run-rate.
+- Risks: Spot BTC/ETH ETF outflows signal cooling retail sentiment, which would reverse the volume growth that drives COIN's top line.
 - Related signals:
-  - Trump cites Hyperliquid as CFTC examines US compliance (→ https://t.me/wublockchainenglish/25941)
-  - Kraken launches kHYPE and activates Hyperliquid validator (→ https://t.me/leviathan_news/22524) (→ https://t.me/leviathan_news/22546)
-  - Solana block production concentrated in Frankfurt/Amsterdam (→ https://t.me/wublockchainenglish/25947)
+  - 19% MoM spot volume growth (→ https://t.me/wublockchainenglish/25958)
+  - Robinhood Chain record $6M daily fees (→ https://t.me/TheBlock001/7423)
+  - Binance >50% RWA perp share (→ https://t.me/theblockbeats/194954)
 
-**5. Long COIN — common stock**
-- Rationale: August spot volume grew 19% month-over-month across major exchanges, and exchange monetization is broadening — seen in Robinhood Chain’s record fee day and Binance’s dominance in RWA perpetual volumes. COIN is the most liquid large-cap expression of renewed crypto trading activity.
-- Entry: Buy on a confirmed breakout above the recent range high, or on a dip toward the 20-day EMA if exchange volume data continues to improve.
-- Risks: Invalidation if monthly volume growth reverses or spot ETF outflows trigger a broader crypto risk-off.
+**5. Long BOTZ / ARKQ (AI infrastructure ETF exposure)**
+- Rationale: OpenAI's Images 2.5 launch, OpenAI-Samsung chip co-development (with AVGO/TSM), and a $3.1B Indonesian loan package for NVIDIA chips all point to accelerating AI capex. ETF exposure — BOTZ and ARKQ — dilutes single-name headline risk while keeping NVDA, MSFT, and GOOG beta.
+- Entry: Add on a dip toward the 20-day moving average; scale in as long as NVDA holds its post-earnings range.
+- Risks: OpenAI's steep API price cuts (which are pressuring ANTH) could signal an AI margin war that hits infrastructure pricing sentiment across the complex.
 - Related signals:
-  - August spot volume growth +19% MoM supportive for COIN (→ https://t.me/wublockchainenglish/25958)
-  - Robinhood Chain $6M record daily fees (→ https://t.me/TheBlock001/7423)
-  - Binance >50% of RWA perpetual volume (→ https://t.me/theblockbeats/194954)
+  - OpenAI Images 2.5 launch supports AI equities (→ https://t.me/leviathan_news/22493)
+  - OpenAI-Samsung next-gen chip co-development (→ https://t.me/theblockbeats/194890)
+  - $3.1B Indonesia financing for Nvidia chips (→ https://t.me/theblockbeats/194874)
+  - Anthropic pricing pressure from API cuts (→ https://t.me/theblockbeats/194877)
 
-**6. Long BOTZ / ARKQ — AI/robotics ETF basket**
-- Rationale: OpenAI’s Images 2.5 launch, Samsung co-developing next-gen chips, and a $3.1B Indonesian financing package for Nvidia chips all point to sustained AI infrastructure demand. The ETF basket gives exposure to AI/tech leaders without the single-stock risk of chasing META after a 5% pop.
-- Entry: Scale in on a pullback to the 20-day EMA; keep NVDA as a higher-beta satellite only after the ETF position is established.
-- Risks: AI capex digestion or another large-cap AI miss would compress high-multiple tech; cut if BOTZ/ARKQ break below the 50-day moving average.
+**6. Pairs trade: Long IBIT/BITO vs short CORZ/WULF (BTC vs laggard miners)**
+- Rationale: Most bitcoin miners badly lagged BTC's rally — CORZ underperformed by 27% and WULF by 24% — while BTC's rebound shows no abnormal CEX inflow surge, meaning no imminent sell pressure. The long-BTC/short-miners pair monetizes the disconnect.
+- Entry: Take BTC exposure via IBIT or BITO and short CORZ/WULF into any BTC bounce; size the short at 0.5-0.7x the long notional to account for the miners' higher beta.
+- Risks: Miner AI/HPC colocation deals catalyze sharp catch-up rallies, and a broad BTC decline would pressure both legs.
 - Related signals:
-  - OpenAI Images 2.5 launch (→ https://t.me/leviathan_news/22493)
-  - OpenAI co-developing chips with Samsung/Broadcom/TSMC (→ https://t.me/theblockbeats/194890)
-  - Indonesia Zankore $3.1B financing for Nvidia chips (→ https://t.me/theblockbeats/194874)
+  - Miners badly lag BTC (→ https://t.me/theblockbeats/194968)
+  - No abnormal CEX inflow surge on BTC rebound (→ https://t.me/theblockbeats/194871)
+
+**7. Long TRX (staked ETF flow catalyst)**
+- Rationale: The first US staked Tron ETF (TRXS from Canary Capital) has begun trading, offering regulated TRX exposure plus staking rewards — a brand-new demand channel that did not exist last week. The 19% MoM exchange volume growth adds tailwind.
+- Entry: Buy TRX on confirmation of sustained ETF inflows over the first 2-3 sessions, ideally on a pullback toward the pre-ETF range support.
+- Risks: Weak altcoin sentiment and broader crypto ETF outflows could cap the bid; low TRX ETF liquidity may disappoint early flow expectations.
+- Related signals:
+  - First US TRON staking ETF begins trading (→ https://t.me/theblockbeats/194969)
+  - Canary launches staked Tron ETF TRXS (→ https://t.me/leviathan_news/22531)
+  - First staked Tron ETF hits US markets (→ https://t.me/TheBlock001/7425)
 
 ⚠️ RISKS TO WATCH
-- **ETF Outflow Acceleration** — Trigger: back-to-back net outflows in BTC and ETH spot ETFs. Impact: further downside in BTC/ETH, plus pressure on IBIT, FBTC, ETHA, COIN, and MSTR.
-- **Nomic Bridge Contagion** — Trigger: continued bridged BTC depeg, Osmosis governance failure, or additional liquidity freezes. Impact: OSMO and NOM selling pressure, wider DeFi risk-off, and lower trust in bridged assets.
-- **Mega-Cap AI Rotation Unwind** — Trigger: META gives back its Muse gains while AMZN/AAPL continue falling. Impact: BOTZ/ARKQ and NVDA/MSFT/GOOG likely follow, with any cooling in AI sentiment hitting high-beta tech.
-- **Regulatory Overhang** — Trigger: Germany’s Bitcoin tax draft, India’s AML notices to 15 platforms, or the CFTC/Hyperliquid review escalates. Impact: exchange tokens, stablecoin names, and HYPE could see headline-driven volatility.
+- **Spot BTC/ETH ETF outflows accelerate.** Trigger: a second consecutive session of net redemptions. Impact: the "no CEX sell pressure" read collapses and BTC/ETH retest range lows, dragging the whole crypto complex including COIN and HYPE. (→ https://t.me/wublockchainenglish/25945)
+- **Nomic bridge exploit contagion.** Trigger: the Osmosis community vote fails to cover the shortfall, or additional frozen funds surface. Impact: DeFi trust premium widens, OSMO and NOM sell off further, and bridged-asset flows across other bridges get scrutinized. (→ https://t.me/wublockchainenglish/25949)
+- **Meme unwind after LAPTOP.** Trigger: fresh meme listings with concentrated holder bases follow LAPTOP's launch-and-dump pattern. Impact: alt/meme complex sees -50%+ drawdowns, retail risk appetite contracts, and volume rotates back to majors — a headwind for exchange tokens despite volume growth. (→ https://t.me/theblockbeats/194928)
+- **Long-end rates backup.** Trigger: TLT breaks key support after the Treasury's $40-60B buyback disappointed and yields pushed higher. Impact: high-multiple tech (META, NVDA, MSFT, GOOG) and crypto risk assets get squeezed simultaneously — the one scenario that breaks both bull theses today. (→ https://t.me/theblockbeats/194960)
 
 📌 MACRO CONTEXT
-The backdrop is a mixed tape: long-dated yields are drifting higher after a disappointing Treasury buyback, yet AI-specific catalysts — especially Meta’s Muse launch — are strong enough to drive selective mega-cap strength. In crypto, institutional ETH accumulation is being offset by cooling ETF flows and a fresh bridge exploit, so the session favors relative-value trades and high-conviction single names over broad risk-on exposure.
+Risk assets are splitting along the AI fault line: equities lean on META's Muse catalyst, but the Treasury's underwhelming $40-60B buyback pushed long-end yields higher, pressuring bond proxies and rate-sensitive growth. Crypto sits in consolidation — BTC's rebound lacks CEX inflow spikes (no panic selling), yet spot ETF outflows and Germany's new bitcoin tax bill cap near-term upside. Beneath the tape, the adoption pipeline keeps extending: Block's OCC charter bid, Citi tokenized deposits, the first staked TRX ETF, and stablecoin payment infrastructure all point to a structurally stronger backdrop despite today's mixed sentiment.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 202 signals | 81 tradeable | 53 bullish | 18 bearish
+---

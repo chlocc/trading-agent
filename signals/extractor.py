@@ -18,10 +18,11 @@ from pathlib import Path
 
 import asyncio
 import re
-import anthropic
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
+
+from llm import chat
 
 SYSTEM_PROMPT = """You are a crypto and tech-equity trading signal extractor.
 
@@ -57,7 +58,10 @@ PRICE_PER_MTOK = {
 
 
 async def extract_signals(messages: list[dict]) -> list[dict]:
-    client = anthropic.AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    from llm import DEFAULT_OPENROUTER_MODEL
+
+    openrouter_model = os.environ.get("OPENROUTER_MODEL", DEFAULT_OPENROUTER_MODEL)
+    print(f"  Model: {openrouter_model} (via OpenRouter)")
 
     # Process in batches of 20 to stay within context limits
     batch_size = 20
@@ -80,62 +84,57 @@ async def extract_signals(messages: list[dict]) -> list[dict]:
             for m in batch
         ]
 
-        response = await client.messages.create(
-            model="claude-haiku-4-5",
-            max_tokens=4096,
-            system=[
-                {
-                    "type": "text",
-                    "text": SYSTEM_PROMPT,
-                    "cache_control": {"type": "ephemeral"},  # cache system prompt
-                }
-            ],
-            messages=[
-                {
-                    "role": "user",
-                    "content": f"Extract signals from these messages:\n\n{json.dumps(slim, indent=2)}",
-                }
-            ],
-        )
+        # deepseek-v4-flash-0731 spends part of its budget on internal
+        # reasoning before writing the JSON array, which can truncate the
+        # output mid-batch (invalid/incomplete JSON) even with a raised
+        # max_tokens. Retry the same batch a couple times before giving up,
+        # rather than silently dropping those messages.
+        for parse_attempt in range(3):
+            raw, usage = await chat(
+                SYSTEM_PROMPT,
+                f"Extract signals from these messages:\n\n{json.dumps(slim, indent=2)}",
+                max_tokens=16000,
+                anthropic_model="claude-haiku-4-5",
+                provider="openrouter",
+                openrouter_model=openrouter_model,
+            )
 
-        usage = response.usage
-        cache_write = getattr(usage, "cache_creation_input_tokens", 0) or 0
-        cache_read = getattr(usage, "cache_read_input_tokens", 0) or 0
-        usage_totals["input"] += usage.input_tokens
-        usage_totals["cache_write"] += cache_write
-        usage_totals["cache_read"] += cache_read
-        usage_totals["output"] += usage.output_tokens
-        print(
-            f"    tokens: in={usage.input_tokens} cache_write={cache_write} "
-            f"cache_read={cache_read} out={usage.output_tokens}"
-        )
+            for key in usage_totals:
+                usage_totals[key] += usage[key]
+            print(
+                f"    tokens: in={usage['input']} cache_write={usage['cache_write']} "
+                f"cache_read={usage['cache_read']} out={usage['output']}"
+            )
 
-        raw = response.content[0].text.strip()
-        # Strip markdown code fences if present
-        if raw.startswith("```"):
-            raw = re.sub(r"^```[a-z]*\n?", "", raw)
-            raw = re.sub(r"\n?```$", "", raw).strip()
-        try:
-            signals = json.loads(raw)
-            all_signals.extend(signals)
-        except json.JSONDecodeError as e:
-            print(f"    ✗ JSON parse error on batch {i//batch_size + 1}: {e}")
-            print(f"    Raw response: {raw[:200]}")
+            # Strip markdown code fences if present
+            cleaned = raw
+            if cleaned.startswith("```"):
+                cleaned = re.sub(r"^```[a-z]*\n?", "", cleaned)
+                cleaned = re.sub(r"\n?```$", "", cleaned).strip()
+            try:
+                signals = json.loads(cleaned)
+                all_signals.extend(signals)
+                break
+            except json.JSONDecodeError as e:
+                print(f"    ✗ JSON parse error on batch {i//batch_size + 1}, attempt {parse_attempt + 1}: {e}")
+                if parse_attempt == 2:
+                    print(f"    ✗ giving up on batch {i//batch_size + 1} after 3 attempts — messages dropped")
+                    print(f"    Raw response: {cleaned[:200]}")
+                else:
+                    await asyncio.sleep(5)
 
         # Small delay between batches to avoid rate limits
         if i + batch_size < len(messages):
             await asyncio.sleep(5)
 
-    cost = (
-        usage_totals["input"] / 1_000_000 * PRICE_PER_MTOK["input"]
-        + usage_totals["cache_write"] / 1_000_000 * PRICE_PER_MTOK["cache_write"]
-        + usage_totals["cache_read"] / 1_000_000 * PRICE_PER_MTOK["cache_read"]
-        + usage_totals["output"] / 1_000_000 * PRICE_PER_MTOK["output"]
-    )
+    # Extraction runs on OpenRouter, whose $/token rate isn't wired up here
+    # — report usage only rather than a cost computed from stale Anthropic
+    # Haiku pricing.
+    cost_str = f"(via OpenRouter, model={openrouter_model}, cost billed to OpenRouter balance)"
     print(
         f"\n  💰 Signal extraction usage: in={usage_totals['input']} "
         f"cache_write={usage_totals['cache_write']} cache_read={usage_totals['cache_read']} "
-        f"out={usage_totals['output']} | est. cost: ${cost:.4f}"
+        f"out={usage_totals['output']} | est. cost: {cost_str}"
     )
 
     return all_signals

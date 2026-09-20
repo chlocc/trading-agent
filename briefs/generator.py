@@ -13,10 +13,20 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import asyncio
-import anthropic
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
+
+from llm import chat
+
+# Brief generation routes through OpenRouter rather than direct Anthropic,
+# since the direct Anthropic account ran out of API credit. Brief-writing
+# quality benefits from a stronger model than the free extraction default,
+# so this uses its own override — defaults to paid Claude Sonnet via
+# OpenRouter (billed to the OpenRouter balance, not OPENROUTER_MODEL's free
+# tier). Switch OPENROUTER_MODEL_BRIEF or provider="anthropic" below if the
+# Anthropic account gets topped up.
+OPENROUTER_BRIEF_MODEL = os.environ.get("OPENROUTER_MODEL_BRIEF", "anthropic/claude-sonnet-4.5")
 
 TRADING_BRIEF_PROMPT = """You are a sharp trading desk analyst writing a detailed daily morning brief.
 
@@ -101,7 +111,7 @@ Rules:
 ---"""
 
 
-async def generate_trading_brief(signals: list[dict], client: anthropic.AsyncAnthropic) -> str:
+async def generate_trading_brief(signals: list[dict]) -> tuple[str, dict]:
     tradeable = [s for s in signals if s.get("tradeable")]
     bullish = [s for s in tradeable if s.get("sentiment") == "bullish"]
     bearish = [s for s in tradeable if s.get("sentiment") == "bearish"]
@@ -119,22 +129,21 @@ async def generate_trading_brief(signals: list[dict], client: anthropic.AsyncAnt
         bearish=len(bearish),
     )
 
-    response = await client.messages.create(
-        model="claude-sonnet-4-5",
-        max_tokens=4096,
-        system=[{"type": "text", "text": prompt, "cache_control": {"type": "ephemeral"}}],
-        messages=[{
-            "role": "user",
-            "content": (
-                f"High-confidence tradeable signals:\n\n{json.dumps(high_conf, indent=2)}\n\n"
-                f"All tradeable signals for context:\n\n{json.dumps(tradeable, indent=2)}"
-            ),
-        }],
+    text, usage = await chat(
+        prompt,
+        (
+            f"High-confidence tradeable signals:\n\n{json.dumps(high_conf, indent=2)}\n\n"
+            f"All tradeable signals for context:\n\n{json.dumps(tradeable, indent=2)}"
+        ),
+        max_tokens=16000,
+        anthropic_model="claude-sonnet-4-5",
+        provider="openrouter",
+        openrouter_model=OPENROUTER_BRIEF_MODEL,
     )
-    return response.content[0].text.strip()
+    return text, usage
 
 
-async def generate_news_digest(raw_messages: list[dict], client: anthropic.AsyncAnthropic) -> str:
+async def generate_news_digest(raw_messages: list[dict]) -> tuple[str, dict]:
     dates = [m.get("date", "")[:10] for m in raw_messages if m.get("date")]
     today = max(dates) if dates else datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
     today = datetime.strptime(today, "%Y-%m-%d").strftime("%B %d, %Y")
@@ -152,25 +161,38 @@ async def generate_news_digest(raw_messages: list[dict], client: anthropic.Async
         if m.get("text", "").strip()
     ]
 
-    response = await client.messages.create(
-        model="claude-sonnet-4-5",
-        max_tokens=6000,
-        system=[{"type": "text", "text": prompt, "cache_control": {"type": "ephemeral"}}],
-        messages=[{
-            "role": "user",
-            "content": f"Categorize and summarize these messages:\n\n{json.dumps(slim, indent=2)}",
-        }],
+    text, usage = await chat(
+        prompt,
+        f"Categorize and summarize these messages:\n\n{json.dumps(slim, indent=2)}",
+        max_tokens=32000,
+        anthropic_model="claude-sonnet-4-5",
+        provider="openrouter",
+        openrouter_model=OPENROUTER_BRIEF_MODEL,
     )
-    return response.content[0].text.strip()
+    return text, usage
 
 
 async def generate_both(signals: list[dict], raw_messages: list[dict]) -> tuple[str, str]:
-    """Generate both briefs in parallel using the same client."""
-    client = anthropic.AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    trading_brief, news_digest = await asyncio.gather(
-        generate_trading_brief(signals, client),
-        generate_news_digest(raw_messages, client),
+    """Generate both briefs in parallel."""
+    print(f"  Model: {OPENROUTER_BRIEF_MODEL} (via OpenRouter)")
+    (trading_brief, trading_usage), (news_digest, news_usage) = await asyncio.gather(
+        generate_trading_brief(signals),
+        generate_news_digest(raw_messages),
     )
+
+    usage_totals = {k: trading_usage[k] + news_usage[k] for k in trading_usage}
+
+    # Briefs route through OpenRouter (see OPENROUTER_BRIEF_MODEL above) —
+    # its $/token rate isn't wired up here, so report usage only rather
+    # than a cost computed from stale direct-Anthropic pricing.
+    cost_str = f"(via OpenRouter, model={OPENROUTER_BRIEF_MODEL}, cost billed to OpenRouter balance)"
+
+    print(
+        f"\n  💰 Brief generation usage: in={usage_totals['input']} "
+        f"cache_write={usage_totals['cache_write']} cache_read={usage_totals['cache_read']} "
+        f"out={usage_totals['output']} | est. cost: {cost_str}"
+    )
+
     return trading_brief, news_digest
 
 

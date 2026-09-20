@@ -220,7 +220,10 @@ def render_markdown(path: Path) -> str:
     content = re.sub(r"\n---$", "", content).strip()
     html = markdown2.markdown(
         content,
-        extras=["strike", "tables", "break-on-newline", "cuddled-lists"],
+        # code-friendly disables _underscore_ as emphasis — otherwise a
+        # channel name like leviathan_news in a t.me URL gets split into
+        # leviathan<em>news, corrupting the link before linkify_tg runs.
+        extras=["strike", "tables", "break-on-newline", "cuddled-lists", "code-friendly"],
     )
     return linkify_tg(html)
 

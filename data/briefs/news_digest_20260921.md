@@ -1,0 +1,320 @@
+📰 NEWS DIGEST — September 21, 2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏛️ Regulation & Policy
+  **Polymarket Faces $10M Fraud Attempt, CEO Accused of Prioritizing Growth Over Compliance**
+  A WSJ report indicates that Polymarket, a prediction market platform, was targeted by a $10 million fraud attempt, raising concerns about its internal controls. The incident highlights the challenges platforms face in balancing rapid growth with robust compliance measures, particularly in the complex and often unregulated prediction market space.
+  → https://t.me/leviathan_news/23071
+
+  **X Sues UK Duo for Alleged $277K Crypto Account Payout Fraud**
+  X (formerly Twitter) has filed a lawsuit in a UK court against Vivek Kumar Sen and Zamyang Sherpa, accusing them of coordinating a bot farm to artificially inflate engagement on the platform and fraudulently claim over £207,384 ($277,000) from its Creator Revenue Sharing Program. This legal action underscores the ongoing battle social media platforms face against manipulation and fraud, especially concerning crypto-related content and payouts.
+  → https://t.me/TheBlock001/7473
+
+  **China Halts Humanoid Robot IPOs, Scrutinizes Revenue Quality**
+  China is reportedly tightening its scrutiny on humanoid robot companies seeking IPOs, with regulators informally slowing down listings and focusing on the quality of their revenue streams. This signals a cautious approach to emerging tech sectors, particularly concerns over the sustainability of revenue derived from government-backed data centers and related-party transactions, potentially impacting valuations significantly.
+  → https://m.theblockbeats.info/flash/368171
+
+  **Kalshi Accused of 'Wash Trading' with $539M ETH Perpetual Volume vs. $3.1M Open Interest**
+  Concerns have been raised regarding Kalshi's reported crypto trading volumes, with allegations of wash trading. A trader highlighted that ETH perpetual volume reached approximately $539 million while open interest was only $3.1 million, suggesting an unusually high turnover rate of 174 times in 24 hours, prompting questions about the platform's volume calculation methods. Kalshi's crypto lead denied the claims, clarifying that their market-making incentives are similar to those used by traditional exchanges.
+  → https://t.me/wublockchainenglish/26109
+
+  **Kalshi Exec Responds to 'Fake Volume' Accusations: Differentiates Prediction Markets and Perpetuals**
+  Kalshi's crypto lead, IcoBeast.eth, has addressed allegations of inflated trading volumes, emphasizing the distinction between prediction markets and perpetual futures. He clarified that the reported volume figures often relate to prediction markets and that Kalshi does not offer rebates for these, unlike perpetual futures, and that their accounting methods are consistent with other prediction markets.
+  → https://m.theblockbeats.info/flash/368164
+
+🤖 AI & Tech
+  **Tencent Open-Sources T-Mem: AI Memory System Learns to 'Associate' Information**
+  Tencent PCG's team has open-sourced T-Mem, a long-term memory system for AI that allows models to "associate" information for future use, even without direct keyword matches. This innovation, accepted by EMNLP 2026, significantly improves AI's ability to recall relevant past interactions in complex scenarios, making conversations and task execution more fluid and contextually aware.
+  → https://m.theblockbeats.info/flash/368241
+
+  **New AI Model Jev Officially Released, No Waitlist Required**
+  TypeSafe AI has fully opened access to Jev, its new AI model focused on classification, scoring, and judgment, without a waitlist. Jev directly returns choices, probabilities, and confidence scores, allowing programs to execute based on the results. This wide release comes after rapid adoption on third-party platforms like Vercel, demonstrating strong demand for its specialized decision-making capabilities.
+  → https://m.theblockbeats.info/flash/368165
+
+  **ClankerTown Rewards AI Agents with Tokenized SpaceX Stock for Contributions**
+  ClankerTown is pioneering a novel incentive model, rewarding AI agents with tokenized SpaceX stock for their code and research contributions. This innovative approach aims to foster advanced AI development by providing tangible, high-value incentives, blurring the lines between traditional financial assets and decentralized reward systems.
+  → https://t.me/leviathan_news/23094
+
+  **AI-Native Services Poised to Capture $4.6 Trillion US Market, $100B Up for Grabs**
+  AI-native services are projected to tap into a massive $4.6 trillion US services market, with an estimated $100 billion readily available for new entrants. This highlights the immense economic potential and disruption that AI-powered solutions could bring to various sectors, creating significant opportunities for innovation and investment.
+  → https://t.me/leviathan_news/23084
+
+  **Jev Team Open-Sources Coding Agent Design Draft: Focus on Dynamic Context Management**
+  Diogo Almeida, founder of TypeSafe and creator of Jev, has released a design draft for Coding Agents, emphasizing a core change in context management. Instead of continuously carrying long conversation histories and tool results, the agent would dynamically re-evaluate what context is needed for each turn, allowing for more efficient and adaptive reasoning.
+  → https://m.theblockbeats.info/flash/368196
+
+  **Kimi K3 Integrates with AWS, Moonshot AI Secures Direct Partnership**
+  Amazon Web Services (AWS) has officially integrated Kimi K3 into Amazon Bedrock, allowing enterprises to directly access the AI model via AWS on a per-token basis. This integration positions Moonshot AI directly as a model provider to AWS, confirming earlier reports of Moonshot AI's negotiations with major cloud providers for revenue sharing, with Kimi K3 services potentially generating up to 30% of its revenue.
+  → https://m.theblockbeats.info/flash/368191
+
+  **ZCode Open-Sources Code, Admits Security Vulnerability with Default Encryption Keys**
+  ZCode has open-sourced its code but a security flaw has been identified where default encryption keys can be derived from system information, potentially exposing login credentials. While this vulnerability isn't a remote exploit, it contradicts ZCode's claims of device-specific encryption and raises concerns about the transparency of its open-source release.
+  → https://t.me/leviathan_news/23080
+
+  **Upcoming AI Model Release Frenzy Expected This Week: GPT-6 Sol, Opus 5.5, Grok 4.7 & More**
+  This week is anticipated to bring a flurry of major AI model updates, with at least seven models signaling releases or tests. This includes rumored launches like OpenAI's GPT-6 Sol, Anthropic's Claude Opus 5.5, and Grok 4.7, indicating rapid advancements and intensifying competition in the AI development space.
+  → https://m.theblockbeats.info/flash/368180
+
+  **San Francisco's REX Stages First Human vs. Robot Fight**
+  San Francisco-based company REX has hosted the world's first human vs. robot fight, pitting creator Frankie LaPenna against the EngineAI T800. This event marks a significant milestone in human-robot interaction and robotics development, pushing the boundaries of physical engagement between humans and advanced AI systems.
+  → https://t.me/leviathan_news/23078
+
+  **GPT-6 Astra Solves Generalised Goldbach Conjecture, Lean Independently Verified**
+  GPT-6 Astra has reportedly found a new proof for the generalized Goldbach conjecture, a significant achievement in mathematics. The proof has been formally written in Lean 4 and independently verified by the mathematical community, demonstrating the increasing capability of AI in complex theoretical problem-solving.
+  → https://m.theblockbeats.info/flash/368168
+
+💳 Payments & Stablecoins
+  **Apple & Google Eye Stablecoins for Payments, Actively Hiring for Related Roles**
+  Apple and Google are actively recruiting for roles related to stablecoins, tokenized deposits, and blockchain technology, signaling their growing interest in integrating digital assets into their payment and financial services. This strategic hiring indicates an exploration of new business opportunities within the crypto space, rather than immediate product launches.
+  → https://t.me/wublockchainenglish/26108
+
+  **Gnosis Pay Streamlines Branded Visa Card Launches with Single API**
+  Gnosis Pay is simplifying the process for launching branded Visa cards by consolidating over 15 vendors and regulatory touchpoints into a single API. This solution covers everything from card issuing and KYC to disputes and compliance, making it significantly easier and faster for businesses to integrate crypto-backed payment solutions.
+  → https://t.me/leviathan_news/23086
+
+  **Circle Launches On-Chain Bitcoin-Collateralized Lending Service**
+  Circle has introduced a Digital Asset-Backed Borrowing (DABB) service for eligible Circle Mint LLC clients, supporting Arc and Ethereum mainnet. This new offering allows users to deposit BTC, mint Circle Wrapped Bitcoin (cirBTC), and then borrow USDC against their cirBTC collateral via supported third-party lending markets like Morpho, providing liquidity without selling their BTC.
+  → https://m.theblockbeats.info/flash/368259
+
+  **Anything Labs Issues 100M UUSD on Robinhood Chain, Expands Tokenized Stock Market**
+  Anything Labs has issued 100 million UUSD on Robinhood Chain, continuing its strategic expansion into the tokenized stock market. This move further integrates traditional financial assets with blockchain technology, aiming to enhance liquidity and accessibility for a broader range of investors.
+  → https://t.me/theblockbeats/196929
+
+  **Circle CPTO: Arc Won't Rely on Ethereum Migration for Growth, Targets AI Agents**
+  Circle's Chief Product and Technology Officer, Nikhil Chandhok, stated that the growth of Arc will not come from simply migrating existing activity from Ethereum. Instead, Arc aims to enable AI agents to become independent economic actors, allowing them to record their online activities and utilize cryptographic proofs, indicating a focus on new use cases and market expansion.
+  → https://t.me/wublockchainenglish/26106
+
+🏦 Exchanges & Platforms
+  **Binance to List ARB/U and ENA/USD1 Spot Trading Pairs**
+  Binance will list ARB/U and ENA/USD1 spot trading pairs on September 22, 2026, at 16:00 (UTC+8). Concurrently, it will enable spot algorithmic orders and grid/DCA for these pairs, along with NVDAB/USDT and QQQB/USDT, expanding its offering for automated trading strategies.
+  → https://m.theblockbeats.info/flash/368228
+
+  **Binance Adds 25 New Tokenized Stock Pairs, Including AADX and BOT**
+  Binance Stocks has expanded its offerings by adding 25 new tokenized stock trading pairs, including Applied Aerospace & Defense (AADX) and RoboStrategy, Inc. (BOT). This significant expansion diversifies the available investment options, allowing users to trade more traditional market assets on the blockchain.
+  → https://m.theblockbeats.info/flash/368185
+
+  **Binance Wallet Launches Polymarket/USD1 Perpetual Contract**
+  Binance Wallet has introduced the Polymarket/USD1 perpetual contract, offering up to 3x leverage. This new offering allows users to trade on the outcome of Polymarket events with leveraged positions, expanding the wallet's functionality into derivatives trading.
+  → https://m.theblockbeats.info/flash/368184
+
+  **HTX Launches AMZU, IBIT, CONL Perpetual Contracts**
+  HTX (Huobi Global) has officially launched perpetual contracts for AMZU/USDT, IBIT/USDT, and CONL/USDT, offering leverage options from 1x to 20x for both long and short positions. This expansion provides users with more diversified trading instruments in the derivatives market.
+  → https://m.theblockbeats.info/flash/368203
+
+  **Bitget PoolX Launches MHA Staking with ETH and XAUT**
+  Bitget PoolX has listed MAGNE.AI (MHA), allowing users to stake ETH or XAUT to earn a share of 8,000,000 MHA tokens. The staking period runs from September 21 to October 1 (UTC+8), with individual caps and bonus mechanisms for long-term holders and VIP users.
+  → https://m.theblockbeats.info/flash/368204
+
+  **PancakeSwap's First Pre-Access Project pPOLY Sells Out Rapidly**
+  PancakeSwap's inaugural Pre-Access project, pPOLY, a tokenized special purpose vehicle (SPV) by Paimon Finance related to Polymarket, sold out quickly after its subscription opened. The 309,677.42 pPOLY tokens, offered at $15.5 each for a total of approximately $4.8 million, indicate strong demand for early exposure to potential IPO-related assets on decentralized platforms.
+  → https://m.theblockbeats.info/flash/368198
+
+  **Aster DEX Integrates Polymarket**
+  Aster DEX has integrated Polymarket, expanding its interface to include the popular prediction market. This move follows Polymarket's recent hiring of executives from major tech and finance companies and its focus on US operations, suggesting potential future IPO plans.
+  → https://m.theblockbeats.info/flash/368176
+
+  **Bitunix to Participate as Gold Sponsor at TOKEN2049 Singapore**
+  Bitunix has announced its participation as a Gold Sponsor at TOKEN2049 Singapore in 2026. This sponsorship underscores Bitunix's commitment to engaging with the global crypto community and expanding its presence in the Asian market.
+  → https://m.theblockbeats.info/flash/368194
+
+📈 Crypto Trading & Markets
+  **Bitcoin Soars to $85,000, Triggers $747M in Short Liquidations**
+  Bitcoin surged above $85,000 for the first time since January, reaching an intraday high of $85,299 before settling around $84,927, up 5.45% in 24 hours. This sharp price increase triggered a massive $747 million in total crypto liquidations, with $648 million in short positions alone, indicating a significant market squeeze.
+  → https://t.me/TheBlock001/7474
+
+  **Tom Lee Declares Crypto Bull Market Underway, Bitmine Nears 5% ETH Target**
+  Tom Lee, a director at Ethereum treasury company Bitmine, has declared that a crypto bull market is underway, beginning in late June. His comments come as Bitmine acquired another 27,562 ETH, bringing its total holdings to 5,983,940 ETH, nearly 5% of the total supply. The strong performance of ETH, outperforming other macroeconomic assets, is seen as a precursor for a stronger Q4 2026, fueled by institutional reallocation from AI stocks to crypto.
+  → https://t.me/TheBlock001/7475
+
+  **Strategy Acquires 950 BTC, Total Holdings Reach 846,000 BTC, MicroStrategy's Unrealized Gains Reach $8.072B**
+  Strategy (formerly MicroStrategy) announced the acquisition of an additional 950 BTC, bringing its total holdings to 846,000 BTC, valued at approximately $6.09 billion. This continued accumulation, alongside a $174 million stock repurchase, reinforces its Bitcoin-first corporate strategy. With Bitcoin breaking above $85,000, Strategy's unrealized gains on its BTC holdings have surged to $8.072 billion, a significant turnaround from previous $10 billion losses during downturns.
+  → https://t.me/wublockchainenglish/26114
+
+  **Bitcoin Price Accelerates Past Short Liquidation Cluster, Analyst Expects Further Gains**
+  Bitcoin has rapidly broken through a dense cluster of short liquidations between $82,000 and $86,000, according to Glassnode. This rapid ascent is being driven by short positions needing to cover, which analysts believe will further push prices higher. The $82,000-$86,000 range, previously a resistance area, now acts as a springboard due to the forced buying from liquidated shorts.
+  → https://m.theblockbeats.info/flash/368255
+
+  **Spot Bitcoin ETFs See $6.21M Inflows, Ethereum ETFs Suffer $140M Outflows**
+  During the week of September 14-18, spot Bitcoin ETFs recorded modest net inflows of $6.21 million, primarily led by BlackRock's IBIT with $121 million. In contrast, spot Ethereum ETFs experienced significant net outflows of $140 million, ending a four-week streak of positive inflows and highlighting a divergence in investor sentiment between the two largest cryptocurrencies.
+  → https://t.me/wublockchainenglish/26111
+
+  **Hyperliquid Ranks First in Crypto Revenue with $429M YTD**
+  Hyperliquid has emerged as the top-earning crypto project from January 1 to September 15, 2026, generating an impressive $429 million in revenue, according to CoinGecko. This places it significantly ahead of other major projects like Pumpfun ($322 million) and Axiom Pro ($132 million), showcasing its strong performance in the current market cycle.
+  → https://t.me/wublockchainenglish/26112
+
+  **"Garrett Jin" Whale Closes Bitcoin Long for $8.38M Profit on Hyperliquid**
+  A prominent whale identified as "Garrett Jin" closed a Bitcoin long position on Hyperliquid, realizing a profit of $8.38 million. The whale opened a 1,333 BTC long at $78,057 three days prior and closed it at $84,455, currently holding no active positions on the platform, only spot holdings of BTC, ETH, and ZEC.
+  → https://m.theblockbeats.info/flash/368243
+
+  **Ethereum Withdrawals from Exchanges Hit 3-Year High, Signaling Accumulation**
+  According to CryptoQuant analyst Darkfost, ETH withdrawals from exchanges, particularly Binance, have reached a three-year high, with monthly average transactions surpassing 90,000. This significant outflow often indicates investors moving ETH to self-custody for long-term holding and accumulation, suggesting strong bullish sentiment for Ethereum.
+  → https://m.theblockbeats.info/flash/368175
+
+  **BNB Breaks $790, Up Over 5% in 24 Hours**
+  BNB has surpassed the $790 mark, trading at $790.86 and recording a 24-hour gain of 5.12%. This price surge highlights strong momentum for Binance Coin within the broader crypto market rally.
+  → https://m.theblockbeats.info/flash/368247
+
+  **Hyperliquid Launches Bitcoin Volmex Implied Volatility Index (BVIV) Perpetuals**
+  Hyperliquid has launched perpetual contracts for the Bitcoin Volmex Implied Volatility Index (BVIV), offering traders a way to speculate on Bitcoin's price volatility rather than its direction. Similar to the VIX index for the S&P 500, BVIV tracks the 30-day implied volatility of cryptocurrencies, providing a direct instrument for hedging or speculating on market uncertainty.
+  → https://m.theblockbeats.info/flash/368250
+
+  **Hyperliquid BTC Short Position Faces Over $6M Unrealized Loss**
+  The largest Bitcoin short position on Hyperliquid, linked to a Polymarket user "VBVIT", is currently facing over $6 million in unrealized losses as Bitcoin's price climbs. The address holds 1320.73 BTC short with an average entry price of $79,470.40, using 25x leverage, and is nearing its liquidation price of $86,951.25.
+  → https://m.theblockbeats.info/flash/368231
+
+  **HYPE Continues All-Time High Streak, Up Over 4% Today**
+  HYPE (Hyperliquid's native token) has reached new all-time highs, with its price currently at $95.8, marking over a 4% increase today. This sustained growth reflects strong market confidence and demand for the asset.
+  → https://m.theblockbeats.info/flash/368229
+
+  **Trader Boomer Ranks Top 3 on Hyperliquid with $12M Profit in 30 Days**
+  Trader "Boomer" (solanadoomer1 on X) has achieved over $12.27 million in net profit on Hyperliquid within the last 30 days, securing a top-three spot on the platform's leaderboard. Their significant gains primarily stemmed from multiple successful ZEC long trades, including two major runs yielding over $10 million in profit, and they are now pivoting to substantial ETH long positions.
+  → https://m.theblockbeats.info/flash/368182
+
+  **Whale Accumulates Nearly 100K HYPE, Valued at $9.36M**
+  A whale wallet (0xefF5ee2DB3FBaE028A5a1e3d47481F607D339782) has acquired 99,640 HYPE tokens, worth approximately $9.36 million, from FalconX. This large accumulation indicates significant institutional or high-net-worth investor interest in HYPE.
+  → https://m.theblockbeats.info/flash/368188
+
+  **Inactive Wallets Deposit 48,047 ETH ($130.7M) to Bitfinex After 2+ Years**
+  Four previously inactive Ethereum wallets, dormant for over two years, have deposited a total of 48,047 ETH (worth approximately $130.7 million) to Bitfinex. This significant movement of long-held assets could signal a variety of intentions, from profit-taking to market repositioning by large holders.
+  → https://m.theblockbeats.info/flash/368244
+
+  **LONG Co-Founder Nate Affirms Long-Term RWA Focus Amid Market Volatility**
+  Nate, co-founder of LONG, reiterated the team's commitment to long-term development of the LONG ecosystem and its community, irrespective of market volatility. He emphasized their continued focus on Real-World Asset (RWA) trading pairs and stated that they would not be swayed by short-term narratives, with new application updates for the LONG PVE screening function expected soon.
+  → https://m.theblockbeats.info/flash/368185
+
+  **Trader Killa Predicts Bitcoin Targeting $88K, Unlikely to Retest $70K**
+  Renowned trader Killa believes Bitcoin's next target is the $88,000 area, with a quick retest of $70,000 being highly unlikely given current trading volume analysis. After successfully shorting BTC at $74,688 in mid-April 2025 and switching to long during the June 5 market crash, Killa's updated bullish outlook follows Bitcoin's recent rapid ascent.
+  → https://m.theblockbeats.info/flash/368195
+
+  **Bitcoin Miners Resume Activity as Hashrate Recovers from Downtrend**
+  Bitcoin's network hashrate is showing signs of recovery after a recent downtrend, indicating that mining activity is resuming. This resurgence suggests growing confidence among miners and potentially improved profitability conditions, which can be a bullish signal for the network's security and price.
+  → https://m.theblockbeats.info/flash/368227
+
+  **Oura Health Seeks Up to $2.2 Billion in IPO**
+  Oura Inc., the maker of smart rings, and some of its investors are seeking to raise up to $2.2 billion in an initial public offering (IPO). The company plans to issue 13.5 million shares, with existing shareholders selling 36.5 million shares, at a price range of $40 to $44 per share, signaling strong investor interest in the wearable health technology market.
+  → https://m.theblockbeats.info/flash/368255
+
+  **Coinbase Opens Oura IPO Participation to Eligible Users**
+  Coinbase has announced that eligible users can now subscribe to shares in Oura's upcoming IPO at the offering price, receiving allocations before public trading begins. This provides Coinbase users with early access to a highly anticipated tech IPO, blurring the lines between traditional and crypto investment opportunities.
+  → https://m.theblockbeats.info/flash/368253
+
+  **Bitmine Accumulates 27,562 ETH, Total Holdings Near 5.98 Million ETH**
+  Bitmine, an Ethereum treasury company, continued its 68-week streak of ETH accumulation by acquiring an additional 27,562 ETH. As of September 20, its total ETH holdings reached 5,983,940, representing a significant portion of the Ethereum supply.
+  → https://m.theblockbeats.info/flash/368257
+
+  **DeFi Development Corp. Adds 101,381 SOL, Total Holdings Reach 2.49M SOL**
+  Solana treasury company DeFi Development Corp. announced the acquisition of an additional 101,381 SOL and SOL equivalents between September 14 and 18. This brings their total holdings to 2,490,304 SOL and equivalents as of September 18, demonstrating continued accumulation in the Solana ecosystem.
+  → https://m.theblockbeats.info/flash/368260
+
+  **Polyhedra Interactive Boosts BTC Holdings by ~152 BTC**
+  Polyhedra Interactive announced an acquisition of approximately 152 Bitcoin on the open market, totaling about 11.56 million USD at an average price of $75,899 per BTC. This strategic purchase reflects their continued investment in Bitcoin.
+  → https://m.theblockbeats.info/flash/368249
+
+  **Trader Dr.Hash Wesley Buys BSC-based 'NIUMA' Stock Meme, Bullish on Ecosystem**
+  Renowned trader Dr.Hash Wesley has initiated on-chain live trading by purchasing "NIUMA," a Chinese stock meme project on the Binance Smart Chain (BSC). Wesley expressed optimism for BSC ecosystem stock meme projects, noting NIUMA's unique mechanism of pairing with tokenized Alibaba stock (BABA) and distributing stock token dividends to holders.
+  → https://m.theblockbeats.info/flash/368245
+
+  **Whale Accumulates 47,800 VVV Tokens, Valued at $1.5 Million**
+  An on-chain whale has accumulated 47,800 VVV tokens, worth approximately $1.5 million, over the past two days, with an average withdrawal price of $31.57. The whale's latest acquisition involved withdrawing 31,500 VVV ($106,000) from KuCoin.
+  → https://m.theblockbeats.info/flash/368202
+
+  **SUI and SEI Surge Over 20% as Bitcoin Leads Altcoin Rally**
+  Following Bitcoin's push above $84,000, several public chain tokens are experiencing significant gains, with SUI and SEI both surging over 20% in the last 24 hours. SUI is trading at $1.0062 (up 19.08%) and SEI at $0.0581 (up 20.37%), indicating broad positive sentiment for altcoins.
+  → https://m.theblockbeats.info/flash/368192
+
+  **Robinhood Chain's ORBIO Surges 107%, Market Cap Hits $90.6M**
+  The Robinhood Chain ecosystem meme project ORBIO has seen its market cap briefly touch $90.6 million, currently at $85.44 million, with a 24-hour increase of 107.1%. Trading volume reached approximately $5.4 million, highlighting the highly speculative and volatile nature of meme coin investments.
+  → https://m.theblockbeats.info/flash/368188
+
+  **Venice (VVV) Reaches All-Time High of $33, Driven by New AI Model Jev**
+  Venice (VVV), a Base ecosystem AI token, has reached a new all-time high of $33, with a 24-hour surge of 21.6%, pushing its market cap to $2.675 billion and trading volume to $129.7 million. This surge is attributed to its integration and support for the new AI model Jev, developed by former OpenAI researchers, highlighting the growing intersection of AI and crypto.
+  → https://m.theblockbeats.info/flash/368191
+
+  **ETH Whale "0x77dd" Adds $66.6M to Long Position, Expands 6.5X**
+  A significant Ethereum whale, identified as "0x77dd" on Hyperliquid, dramatically expanded its ETH long position by acquiring 24,737.55 ETH (worth approximately $66.6 million) in just 21 minutes. This massive addition increased its total holdings to 29,224.68 ETH, representing a 6.5-fold increase and making up 84.6% of its current total position.
+  → https://m.theblockbeats.info/flash/368190
+
+🔷 DeFi & Protocols
+  **ZetaChain Votes to Shut Down Layer 1, Migrate ZETA to Solana**
+  ZetaChain token holders have overwhelmingly voted (99.4% approval) to shut down its current Layer 1 network and migrate all ZETA tokens to Solana at a 1:1 ratio. This significant decision also involves the team shifting its focus towards the Anuma AI application, indicating a strategic pivot for the project.
+  → https://t.me/TheBlock001/7472
+
+  **Injective Powers South Korea's First On-Chain Trade Finance Pilot with AI Agents**
+  Injective is spearheading South Korea's first on-chain trade finance pilot, collaborating with POSCO International and LG CNS. The initiative utilizes AI agents and programmable tokenized receivables, showcasing a significant step in integrating blockchain and AI for enhancing efficiency and transparency in global trade.
+  → https://t.me/leviathan_news/23069
+
+  **Hana Bank Issues South Korea's First Digital Bond via Euroclear Blockchain, Cuts Settlement to Same Day**
+  Hana Bank has successfully issued South Korea's first digital bond through Euroclear's blockchain platform, reducing the settlement time from several days to just one day. This marks a significant milestone in the adoption of blockchain technology for traditional finance, improving efficiency and liquidity in bond markets.
+  → https://t.me/leviathan_news/23093
+
+  **ESM Backs ECB's Pontes Platform for Tokenized Wholesale Asset Settlement**
+  The European Stability Mechanism (ESM) has expressed support for the European Central Bank's (ECB) Pontes platform, which aims to settle tokenized wholesale assets using central bank money. This endorsement highlights a growing recognition among European financial institutions of blockchain's potential to enhance efficiency and security in wholesale finance.
+  → https://t.me/leviathan_news/23091
+
+  **Travix Raises Seed Round Led by Amber Group for On-Chain Perpetual Layer**
+  Travix, a perpetual derivatives protocol focused on compute and Asian assets, has successfully closed a seed funding round led by Amber Group. The capital will be used to develop an on-chain perpetual layer, enhancing its offerings for exotic assets like H100 chips and storage, and integrating AI agents for automated strategies.
+  → https://t.me/leviathan_news/23089
+
+  **Venus Protocol to End Support for opBNB, Optimism, and Unichain by October 23**
+  Lending protocol Venus Protocol announced it will cease support for opBNB, Optimism, and Unichain starting October 23. Users with active positions on these chains are advised to close their positions and withdraw funds before the deadline, marking a strategic consolidation of supported networks.
+  → https://m.theblockbeats.info/flash/368208
+
+  **Doma Protocol Teases Domain Asset Vehicles for $360B Illiquid Asset Class on Solana**
+  Doma Protocol is hinting at the development of "Domain Asset Vehicles" (DAVs) on Solana, aiming to unlock liquidity for the vast $360 billion+ illiquid asset class. This initiative seeks to tokenized and fractionalize real-world assets, potentially revolutionizing how large, illiquid assets are traded and managed on the blockchain.
+  → https://t.me/leviathan_news/23077
+
+  **Imperial Unveils Armada: Solana Perps AMM with 1 bp Execution Fees**
+  Imperial has launched Armada, a Solana-based perpetuals Automated Market Maker (AMM) featuring ultra-low 1 basis point execution fees and off-chain hedging. This new protocol aims to provide efficient and cost-effective derivatives trading on the Solana blockchain, targeting both retail and institutional traders.
+  → https://t.me/leviathan_news/23076
+
+  **Lexur Launches 1,100+ On-Chain Equities Aggregated Across Multiple Platforms**
+  Lexur has launched a platform aggregating over 1,100 on-chain equities from various sources including Backpack, xStocks, and Ondo. This initiative significantly expands the accessibility and liquidity of tokenized traditional stocks within the decentralized finance ecosystem.
+  → https://t.me/leviathan_news/23075
+
+  **DeFiLlama Launches Team Dashboards for Collaborative Data Analysis**
+  DeFiLlama has introduced Team Dashboards, providing private workspaces for teams to organize shared data and collaborate on dashboards in real-time. This new feature enhances productivity and data-driven decision-making for DeFi projects and analysts, fostering a more collaborative environment.
+  → https://t.me/leviathan_news/23081
+
+  **Pons Adds Orbio and Shroom to its Liquidity Pool on Robinhood Chain**
+  Robinhood Chain's token issuance platform, Pons, has recently integrated Orbio and Shroom as base liquidity pair tokens. Orbio is a native AI relay platform on Robinhood Chain, while Shroom aims to build a liquidity network for tokenized stocks, indicating a strategic move to bolster liquidity and functionality for AI and tokenized RWA projects on the chain.
+  → https://m.theblockbeats.info/flash/368187
+
+  **NEAR Protocol Meets Milestone, Enables Reward Redemption for Eligible Users**
+  NEAR Protocol has achieved a key milestone: its Volume-Weighted Average Price (VWAP) has remained above $3.33 for three consecutive days. This triggers the redemption of associated NEAR rewards, which are now available for eligible users to claim.
+  → https://m.theblockbeats.info/flash/368197
+
+  **ZETA Surges Nearly 68% in 24 Hours, Reaches $0.07 After Solana Migration Vote**
+  ZETA, the token of ZetaChain, has seen a dramatic price surge of nearly 68% in the past 24 hours, briefly touching $0.07. This spike follows the community's overwhelming vote to migrate ZETA to Solana and progressively shut down its Layer 1, signaling strong market approval for the strategic shift.
+  → https://m.theblockbeats.info/flash/368179
+
+🔦 Other
+  **Absa Launches Digital Asset Custody for Institutional Clients in Africa**
+  Absa has introduced Digital Asset Custody services, providing institutional-grade security, governance, and control for digital assets in what it claims is a digital first for Africa. This move signifies growing institutional adoption of crypto assets on the continent, offering a secure and compliant solution for large-scale investors.
+  → https://t.me/leviathan_news/23085
+
+  **X Sues Users for Running Fake Bitcoin News Bot Farm**
+  X (formerly Twitter) has initiated legal action against users allegedly operating a bot farm dedicated to spreading fake Bitcoin news. This lawsuit highlights the ongoing efforts by social media platforms to combat misinformation and manipulation within the cryptocurrency space.
+  → https://t.me/leviathan_news/23092
+
+  **Hayden Adams Reveals Uniswap Acquired Uniswap.com for Free After SBF Redirected It**
+  Uniswap founder Hayden Adams revealed that the team eventually acquired the "uniswap.com" domain for free, despite SBF previously purchasing it for a seven-figure sum and redirecting it to a forked project. Due to the malicious redirection, Uniswap's legal team successfully reclaimed the domain, highlighting the complexities and legal battles over digital assets and intellectual property.
+  → https://t.me/leviathan_news/23072
+
+  **Iceberg App Goes Live with No-KYC Funding and Double Points**
+  The Iceberg app has officially launched, offering users no-KYC (Know Your Customer) funding options and double points during its launch week. This approach aims to attract users seeking greater privacy and rewards in the crypto space.
+  → https://t.me/leviathan_news/23088
+
+  **01F Group Invests in Indonesian Digital Financial Platform DANA**
+  01F Group has made an investment in DANA, a prominent digital financial platform based in Indonesia. This strategic investment reflects growing interest in Southeast Asia's burgeoning fintech sector and the potential for digital payment solutions.
+  → https://t.me/leviathan_news/23074
+
+  **SparkLabs and Mirae Asset Sign Term Sheet for Central Asian Venture Fund**
+  SparkLabs and Mirae Asset have entered into a term sheet to establish a new venture fund focused on Central Asia. This collaboration signals an increasing interest in fostering innovation and entrepreneurship within the Central Asian region.
+  → https://t.me/leviathan_news/23073
+
+  **CZ Denies AI or Team Assistance for His Social Media Posts**
+  Changpeng "CZ" Zhao, founder of Binance, explicitly stated that he personally writes all his social media posts, without the assistance of a team or AI. This assertion came in response to user inquiries about his direct and frequent engagement, reaffirming his hands-on approach to communication.
+  → https://t.me/leviathan_news/23067
+
+  **US Data Center Construction Faces $68B in Local Opposition Delays in Q2**
+  US data center construction projects encountered significant local opposition in Q2, resulting in 45 projects worth approximately $68 billion being delayed or blocked. This escalating resistance, shifting from isolated disputes to systemic regulatory and community hurdles, is impacting over half of all new large-scale data center initiatives this year and significantly restricting industry expansion.
+  → https://m.theblockbeats.info/flash/368211

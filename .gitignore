@@ -1,4 +1,6 @@
 .env
+.env.*
+!.env.example
 *.session
 __pycache__/
 *.pyc

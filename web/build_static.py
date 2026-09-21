@@ -200,17 +200,21 @@ PAGE = """<!DOCTYPE html>
 </html>"""
 
 
-def linkify_tg(html: str) -> str:
-    html = re.sub(
-        r'\(→\s*(https://t\.me/[^\s\)]+)\)',
-        r'<a href="\1" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>',
-        html,
-    )
-    html = re.sub(
-        r'→\s*(https://t\.me/[^\s<\)]+)',
-        r'<a href="\1" target="_blank" rel="noopener" class="tg-link">→ Telegram</a>',
-        html,
-    )
+def linkify_sources(html: str) -> str:
+    """Turn `→ <url>` source markers into clickable badges.
+
+    Messages come from a mix of Telegram channels and news sites
+    (theblockbeats.info, etc.), so this can't assume t.me — any http(s)
+    URL gets linkified, labeled "Telegram" only when it actually is one.
+    """
+
+    def replace(m: re.Match) -> str:
+        url = m.group(1)
+        label = "Telegram" if "t.me/" in url else "Source"
+        return f'<a href="{url}" target="_blank" rel="noopener" class="tg-link">→ {label}</a>'
+
+    html = re.sub(r'\(→\s*(https?://[^\s\)]+)\)', replace, html)
+    html = re.sub(r'→\s*(https?://[^\s<\)]+)', replace, html)
     return html
 
 
@@ -222,10 +226,10 @@ def render_markdown(path: Path) -> str:
         content,
         # code-friendly disables _underscore_ as emphasis — otherwise a
         # channel name like leviathan_news in a t.me URL gets split into
-        # leviathan<em>news, corrupting the link before linkify_tg runs.
+        # leviathan<em>news, corrupting the link before linkify_sources runs.
         extras=["strike", "tables", "break-on-newline", "cuddled-lists", "code-friendly"],
     )
-    return linkify_tg(html)
+    return linkify_sources(html)
 
 
 def format_date(date_str: str) -> str:

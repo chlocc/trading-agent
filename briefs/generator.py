@@ -86,7 +86,7 @@ Sections (use exactly these headers):
   🤖 AI & Tech
   💳 Payments & Stablecoins
   🏦 Exchanges & Platforms
-  📈 Crypto Trading & Markets
+  📈 Crypto Trading & Markets — curate hard, see rules below
   🔷 DeFi & Protocols
   🔦 Other
 
@@ -96,7 +96,11 @@ Format each story as:
   → [source link]
 
 Rules:
-- Every message should appear in exactly one category
+- Every message should appear in exactly one category, EXCEPT routine noise dropped from 📈 Crypto Trading & Markets per the next rule
+- 📈 Crypto Trading & Markets is the noisiest section — it's where every generic price move, ETF flow update, and volume stat lands. Cap it at 6 stories max, the most significant only:
+  - Skip routine single-asset price moves under 15% with no real catalyst — that's noise, not news
+  - Merge near-duplicate stories (e.g. two separate RWA-volume stats, two separate ETF-inflow updates) into one consolidated item instead of listing each separately
+  - Keep only stories with a genuine catalyst or broader market implication (a named driver, a structural/regulatory shift, an unusually large move, notable whale/institutional activity)
 - Headlines should be punchy and specific (include numbers/names where possible)
 - Summaries must include the key figures, context, and significance — not just restate the headline
 - Sort stories within each section by significance (most important first)

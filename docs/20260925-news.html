@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — September 25, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20260925-trading.html" class="active">09/25/2026</a>
+    <a href="20260924-trading.html" class="">09/24/2026</a>
+    <a href="20260922-trading.html" class="">09/22/2026</a>
+    <a href="20260921-trading.html" class="">09/21/2026</a>
+    <a href="20260920-trading.html" class="">09/20/2026</a>
+    <a href="20260909-trading.html" class="">09/09/2026</a>
+    <a href="20260902-trading.html" class="">09/02/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20260925-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20260925-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — September 25, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+🏛️ Regulation &amp; Policy<br />
+  <strong>Fed Proposes Stricter Stablecoin Rules Under GENIUS Act</strong><br />
+  The Federal Reserve is seeking public comment on two proposals under the GENIUS Act to regulate payment stablecoin issuers. The proposals would require stablecoins to be fully backed by short-term U.S. Treasuries and impose capital, risk management, and reserve custody requirements, while also outlining a tailored application process for supervised banks to issue stablecoins. This move signifies a push for more stringent oversight of stablecoins within the traditional financial system.<br />
+  <a href="https://t.me/wublockchainenglish/26160" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CFTC Greenlights Tokenized Assets and Blockchain for U.S. Commodity Firms</strong><br />
+  The CFTC announced that U.S. commodities firms can invest in tokenized assets and utilize blockchain records, signaling a broader acceptance of blockchain technology in mainstream financial markets. This clarification provides regulatory clarity for traditional firms looking to engage with tokenized assets and blockchain, potentially fostering further institutional adoption.<br />
+  <a href="https://t.me/leviathan_news/23331" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Brazil to Mandate Reporting for Self-Custody Wallet Transfers Over $10,000</strong><br />
+  Brazil's central bank will require reporting for virtual asset transfers of $10,000 or more to and from self-custody wallets, effective October 1, 2026. This amendment to existing AML/CFT rules aims to enhance financial oversight without banning self-custody transfers or imposing transaction limits, potentially impacting privacy and accessibility for crypto users in Brazil.<br />
+  <a href="https://t.me/wublockchainenglish/26164" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>New York Sues Polymarket Over Alleged Illegal Gambling Operations</strong><br />
+  The State of New York has filed a lawsuit against decentralized prediction market platform Polymarket, accusing it of operating an illegal gambling service without a proper license. This action is part of a broader trend by the NY Attorney General's office to crack down on prediction platforms, highlighting the ongoing regulatory challenges for crypto-native services in the state.<br />
+  <a href="https://t.me/leviathan_news/23303" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EU Regulator ESMA to Prioritize AI and Tokenization Supervision in 2027</strong><br />
+  The EU's financial regulator, ESMA, will make AI and tokenization a supervisory priority in 2027, focusing on mapping firms' use of these technologies and conducting targeted checks. This indicates a growing regulatory focus on emerging technologies within the European financial sector, aiming to address potential risks and ensure compliance.<br />
+  <a href="https://t.me/leviathan_news/23299" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SEC Commissioner Peirce Advocates for Zero-Knowledge Proofs in KYC/AML</strong><br />
+  SEC Commissioner Hester Peirce has called for the adoption of zero-knowledge proofs to replace current data-heavy KYC/AML practices, which she described as creating "data haystacks" with limited effectiveness. Peirce also supported the agency's Innovation Exemption as a temporary pathway for tokenized securities to trade, emphasizing the need for adaptable regulatory frameworks that leverage privacy-enhancing technologies.<br />
+  <a href="https://t.me/wublockchainenglish/26157" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EU Banking Authority Calls for Crypto Lending Regulations in MiCA Review</strong><br />
+  The EU banking authority is advocating for specific regulations concerning crypto lending as part of its MiCA (Markets in Crypto-Assets) review. This suggests a deepening regulatory scrutiny on various aspects of the crypto market in Europe, aiming to mitigate risks associated with decentralized finance and protect consumers.<br />
+  <a href="https://t.me/leviathan_news/23287" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CFTC Staff Updates FAQs on Crypto and Blockchain Activities for Registrants</strong><br />
+  The CFTC staff has updated its FAQs regarding crypto and blockchain activities for registered entities. This update provides additional guidance and clarity for firms operating in the digital asset space, helping them navigate regulatory requirements and compliance obligations in the U.S.<br />
+  <a href="https://t.me/leviathan_news/23304" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Fed to Re-evaluate Bank Supervision Thresholds Amid Economic Growth</strong><br />
+  The Federal Reserve is reportedly planning to raise the asset thresholds that trigger stricter supervisory oversight for large banks, aiming to exempt some lending institutions from expensive additional regulatory burdens. This potential adjustment reflects an effort to align regulatory requirements with economic growth, potentially leading to industry consolidation as smaller banks face fewer regulatory hurdles.<br />
+  <a href="https://t.me/theblockbeats/197660" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Fed Chair Walsh Initiates Institutional Reforms, Slow Progress on Balance Sheet Reduction</strong><br />
+  Federal Reserve Chair Kevin Walsh has begun implementing institutional reforms 127 days into his tenure, including shortening FOMC press conferences and reducing forward guidance. While he emphasizes broader financial conditions over the traditional "neutral rate," progress on shrinking the Fed's $6.7 trillion balance sheet has been slow, facing resistance from some FOMC members and rising 10-year Treasury yields.<br />
+  <a href="https://t.me/theblockbeats/197663" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Iran Proposes Reopening Strait of Hormuz Within Seven Days Under Conditions</strong><br />
+  Iran's Foreign Minister Abbas Araghchi has presented a proposal to the U.S. to reopen the Strait of Hormuz within seven days, provided certain conditions are met, building on a memorandum of understanding reached in June. While Iran's President Raisi reiterated that Iran does not seek nuclear weapons, the move suggests a potential de-escalation in energy-related geopolitical tensions, though the timing of full normalization remains dependent on U.S. decisions.<br />
+  <a href="https://t.me/theblockbeats/197629" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Iranian President Reiterates No Nuclear Weapon Ambitions, Willing to Negotiate with US</strong><br />
+  Iranian President Ebrahim Raisi reaffirmed on September 24 that Iran "absolutely does not" desire nuclear weapons and is open to advancing negotiations with the U.S. within the framework of international law. Raisi stated that Iran did not choose war but had war imposed on it, emphasizing his country's willingness to build upon a previously signed memorandum of understanding to de-escalate tensions.<br />
+  <a href="https://t.me/theblockbeats/197659" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech<br />
+  <strong>Google to Launch TPU-Powered AI Data Center Test in Orbit Next Week</strong><br />
+  Google is set to launch its first experimental satellite for Project Suncatcher, a "space AI data center" research initiative, aboard a SpaceX Falcon 9 rocket next week. This mission will carry four custom TPUs into low-Earth orbit to test their resilience against launch vibrations, space radiation, and extreme temperatures, marking the first real-world space test for Google's AI chips, despite initial thermal management challenges limiting continuous operation to 15-minute bursts.<br />
+  <a href="https://t.me/leviathan_news/23317" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SpaceX AI CEO Musk Claims AI Leadership in Six Months with 1 Million GPUs</strong><br />
+  Elon Musk has outlined an aggressive timeline for SpaceX AI, stating that it aims to achieve models on par with Anthropic Fable and OpenAI GPT-6 within 2-3 months and "take a leadership position" in AI within approximately six months. The company is rapidly expanding its GPU infrastructure, expecting to reach one million GPUs next week with the deployment of 220,000 GB300 units, significantly increasing its processing capacity beyond previous estimates.<br />
+  <a href="https://t.me/theblockbeats/197636" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI Compute Company Nscale Secures $3.36 Billion in Pre-IPO Convertible Debt</strong><br />
+  AI compute company Nscale has closed $3.36 billion in pre-IPO convertible debt financing, led by Third Point with an additional $1 billion commitment from Nvidia. This significant funding, which will convert to common stock upon Nscale's IPO, will be used to expand its global AI data centers, GPU clusters, and power infrastructure, reflecting strong investor confidence in the future of AI computing infrastructure.<br />
+  <a href="https://t.me/theblockbeats/197699" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>0G Labs Launches Compute Finance to Enable Staked Assets for AI Compute Payments</strong><br />
+  0G Labs has introduced Compute Finance, a new platform that allows staked digital assets to be used for paying for AI compute services through integrations with Ascend and iAI. This innovation creates a direct financial link between DeFi and AI, potentially unlocking new utility for staked assets and fostering the growth of decentralized AI computation.<br />
+  <a href="https://t.me/leviathan_news/23354" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Google Cloud Unveils Four Patterns for Real-Time AI Voice Agents with Gemini 3.8 Live</strong><br />
+  Google Cloud is showcasing four distinct patterns for real-time AI voice agents powered by Gemini 3.8 Live and its Agent Development Kit, enabling agents to "see, talk, think, and code." These patterns highlight significant advancements in multimodal AI capabilities, offering developers and businesses new tools for creating highly interactive and intelligent virtual assistants.<br />
+  <a href="https://t.me/leviathan_news/23345" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI Agents Could Cut Financial Fees by $1.4 Trillion Annually by 2035</strong><br />
+  Joe Chalom, CEO of Sharplink, has predicted that AI agents could reduce global financial fees by an astonishing $1.4 trillion annually by 2035. This forecast highlights the transformative potential of AI in streamlining financial operations and significantly lowering costs across the industry, impacting both institutions and consumers.<br />
+  <a href="https://t.me/leviathan_news/23339" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Microsoft Unveils Revamped Copilot and Muse Competitor, Aiming for "New OS of Work"</strong><br />
+  Microsoft has launched a redesigned Copilot, positioning it as a "super app" that integrates Home, Code, and Autopilot functionalities, alongside a new product designed to compete with Meta's Muse. CEO Satya Nadella stated the goal is to make Copilot the "new operating system of work," indicating Microsoft's ambitious strategy to embed AI deeply into productivity workflows and challenge existing AI agent platforms.<br />
+  <a href="https://t.me/theblockbeats/197692" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Max For AI: China's Large AI Models Face "Awkward Phase" with Compute, Inference, and Pricing Challenges</strong><br />
+  Max For AI reports that China's large AI models are entering an "awkward phase," grappling with significant challenges in training compute power, inference costs, and commercial pricing. The rapid scaling of models to trillions of parameters is outpacing compute availability, while high inference costs and the need to balance open-source offerings with profitability are forcing companies to re-evaluate their strategies.<br />
+  <a href="https://t.me/theblockbeats/197688" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Raft Open-Sources Codebase, Prioritizes "Prompt Requests" Over Traditional Pull Requests for Agent-Driven Development</strong><br />
+  Raft, an agent collaboration platform founded by Richard Qian (former PanGu model lead), has open-sourced its codebase but will not accept external pull requests, instead focusing on a "Prompt Request" model. The team believes that current coding agents make it too easy to generate patches, shifting the bottleneck to human review. They are exploring a system where contributors define problems and constraints, allowing maintainers and agents to determine the implementation, signaling a potential paradigm shift in open-source collaboration for an AI-driven future.<br />
+  <a href="https://t.me/theblockbeats/197631" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Goldman Sachs: AI Capital Expenditure to Hit $1.7 Trillion, Requires $1.42 Trillion Revenue for 15% ROIC</strong><br />
+  Goldman Sachs predicts that U.S. hyperscale cloud providers will invest $1.73 trillion in AI capital expenditures between 2026 and 2027. To achieve a 15% annualized Return on Invested Capital (ROIC), six major tech companies (Alphabet, Microsoft, Amazon, Meta, Arm, and SpaceX) will need to generate approximately $1.42 trillion in cumulative revenue from 2028-2030 from this investment. The report details the multi-trillion dollar investment phases in AI compute infrastructure, highlighting the massive revenue generation required to justify these expenditures and the current short-term ROIC pressures due to upfront investments.<br />
+  <a href="https://t.me/theblockbeats/197678" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic Reinstates Charges for Zero-Output Safety Refusals from Claude</strong><br />
+  Anthropic has resumed charging for three specific types of "zero-output safety refusals" from its Claude AI model: bio-safety, frontier model development, and "inference extraction" attempts. Previously, all zero-output refusals were free, but coordinated attacks against the system prompted this change. While other safety refusals remain free if no output is generated, the move aims to add a defensive layer against sophisticated misuse, despite a low misclassification rate of under 0.1% in official testing.<br />
+  <a href="https://t.me/theblockbeats/197641" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DeepSeek Harness Desktop Client Leaked, Supports Mac and Windows</strong><br />
+  The official desktop client for DeepSeek Harness, an AI tool, has been unofficially released, with macOS and Windows installation packages appearing on official servers despite no formal announcement or public download links. The Electron-based client wraps the existing web version, allowing users to log in with a DeepSeek account or API key and select a local folder as their workspace, improving accessibility and ease of use for the Harness platform.<br />
+  <a href="https://t.me/theblockbeats/197619" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Base Lawsuit Accuses NeoHorse-Jev of Releasing 4B Decision Model, Claims OpenJev First in Integrated Evaluation</strong><br />
+  Base Lawsuit, founded by Wang Yunhe (former Huawei Pangu model lead), has open-sourced NeoHorse-Jev-4B, a 4B decision model based on their NeoHorse-1-4B, designed for agent tool selection, pathfinding, and next-action determination. The model avoids token-by-token generation, instead directly calculating probabilities for candidate answers. In a self-compiled evaluation across six text benchmarks, NeoHorse-Jev-4B achieved an average score of 77.70, surpassing the 9B parameter Open-Jev's 75.67, positioning it as a strong contender in the decision model space.<br />
+  <a href="https://t.me/theblockbeats/197614" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ChatGPT Pro Max Tier Leaked with Potential $500/Month Price Tag</strong><br />
+  Developers have uncovered references to a "ChatGPT Pro Max" subscription tier in unreleased code, hinting at a potential monthly price of $500. While details are scarce, the subscription is described as offering "Fastest Work and Codex" capabilities. This suggests OpenAI might be preparing to launch a premium offering significantly more expensive than the current $200 Pro tier, targeting users requiring extreme performance and advanced features.<br />
+  <a href="https://t.me/theblockbeats/197607" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins<br />
+  <strong>Ethena Expands USDe Backing to Tokenized Stocks and Equity Perpetuals via Binance</strong><br />
+  Ethena is diversifying its USDe backing strategy by integrating tokenized U.S. equities (Binance bStocks) and equity perpetuals on Binance. This move allows USDe to extend its delta-neutral approach beyond crypto-native assets, with bStocks serving as spot collateral and equity perpetuals hedging exposure. This marks a significant expansion of USDe's collateral options and highlights the growing intersection of traditional and crypto markets.<br />
+  <a href="https://t.me/TheBlock001/7494" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Circle Pledges $50K for XPRIZE Contest on Human-Free USDC Transfers</strong><br />
+  Circle is contributing $50,000 to an XPRIZE agent contest challenging participants to move real USDC without any human intervention. This initiative aims to push the boundaries of autonomous financial transactions and explore the potential of AI agents in managing stablecoin flows, potentially leading to more efficient and automated payment systems.<br />
+  <a href="https://t.me/leviathan_news/23351" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether Funds Reportedly Stuck at EQIBank Amid Liquidation Concerns</strong><br />
+  Tether has some funds reportedly trapped at EQIBank, an offshore banking partner, which is facing liquidation risks after U.S. authorities seized its assets. Tether confirmed its exposure is minimal, representing less than 0.034% of its total assets. This incident highlights the ongoing risks associated with stablecoin reserves and their reliance on traditional banking partners, even for small percentages of holdings.<br />
+  <a href="https://t.me/wublockchainenglish/26163" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Circle Freezes $100K USDC from Bitget Hack, Community Urges Tether to Follow Suit</strong><br />
+  Circle has frozen $100,000 in USDC linked to the Bitget hack, with the community now urging Tether to freeze an additional $218,000 in USDT in the same address. Circle acted significantly faster than Tether, freezing funds within 7 hours and 18 minutes of the hack. This rapid response from Circle highlights its capabilities in asset recovery and sets a precedent for other stablecoin issuers to follow in security incidents.<br />
+  <a href="https://t.me/theblockbeats/197682" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether Partners with Pave Bank and GFTN for Georgia-Singapore Fintech Scholars Program</strong><br />
+  Tether has signed an MoU with Pave Bank and GFTN to launch the Georgia–Singapore Fintech Scholars Program. This collaboration aims to foster education and talent development in the fintech sector, particularly focusing on blockchain and digital currencies, underscoring Tether's commitment to global fintech innovation and capacity building.<br />
+  <a href="https://t.me/leviathan_news/23335" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Wallet Now Supports USDT for Gas Fees Across Multiple Chains</strong><br />
+  Binance Wallet has rolled out a new feature allowing users to pay gas fees with USDT on BNB Chain, Ethereum, Solana, and TRON. This enhancement improves user convenience by eliminating the need to hold native tokens for gas, potentially boosting user activity and accessibility across these popular blockchain networks.<br />
+  <a href="https://t.me/leviathan_news/23359" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cash App Introduces Opt-in Bitcoin Bonus, Offering Weekly Sats Rewards</strong><br />
+  Cash App has launched an opt-in Bitcoin bonus feature, allowing users to earn weekly sats rewards without any lockup periods or lending requirements. This initiative aims to incentivize Bitcoin adoption and engagement within its platform by providing a straightforward way for users to accumulate BTC.<br />
+  <a href="https://t.me/leviathan_news/23355" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cash App Partners with Workday for Direct Deposit Option for US Employees</strong><br />
+  Cash App is partnering with Workday to offer direct deposit as an option for eligible U.S. employees, starting October 1st. This integration expands Cash App's utility as a mainstream financial tool, enabling a wider user base to receive their paychecks directly into their accounts.<br />
+  <a href="https://t.me/leviathan_news/23337" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Wallet Introduces "Interest-Free" Savings with Up to 4.75% APY on Stablecoins</strong><br />
+  Binance Wallet has launched a new "interest-free" savings feature, allowing users to earn up to 4.75% estimated APY on stablecoins like USDe (Ethereum network), U (BSC network), and USDS (Ethereum network) without staking or locking up funds. The rewards are supported by promotional funds from partners, not from asset yields, and are distributed weekly, aiming to attract users seeking passive income on their stablecoin holdings.<br />
+  <a href="https://t.me/theblockbeats/197616" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Qivalis: Stablecoins are Reshaping Global Trade Finance</strong><br />
+  Qivalis reports that stablecoins are increasingly transforming global trade finance, as banks and suppliers bypass traditional fiat off-ramps. This shift indicates a growing adoption of stablecoins for more efficient and cost-effective international transactions, potentially disrupting traditional correspondent banking networks.<br />
+  <a href="https://t.me/leviathan_news/23300" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>USDC Coming to Bitcoin via Alpen and Circle for Non-Custodial Lending and Borrowing</strong><br />
+  USDC is set to become accessible on Bitcoin through a collaboration between Alpen and Circle, enabling BTC holders to borrow and lend without having to sell their Bitcoin. This development opens up new DeFi opportunities on the Bitcoin network, allowing users to leverage their BTC holdings while maintaining self-custody.<br />
+  <a href="https://t.me/leviathan_news/23305" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tether Discusses USDT on Bitcoin with Morgan Stanley at Washington Dinner</strong><br />
+  Paolo Ardoino, CTO of Tether, reportedly discussed the integration of USDT on Bitcoin with Morgan Stanley representatives during a dinner in Washington. This high-level discussion signals potential institutional interest and collaboration in bringing the world's largest stablecoin to the Bitcoin ecosystem, which could have significant implications for both networks.<br />
+  <a href="https://t.me/leviathan_news/23283" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms<br />
+  <strong>Bitget Confirms $351.6M Security Incident; Cold Storage Intact, Protection Fund to Cover Losses</strong><br />
+  Bitget has confirmed a $351.6 million security incident involving unauthorized hot wallet transfers, with preliminary analysis pointing to a North Korean hacking group. Despite the large loss, Bitget states its cold storage remains secure, user funds are backed 1:1, and its $460 million Protection Fund, along with over $1 billion in exchange-owned assets, will cover all assessed losses. Deposits and trading remain operational, but withdrawals are temporarily suspended during a comprehensive security audit by Mandiant and SlowMist.<br />
+  <a href="https://t.me/wublockchainenglish/26161" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bybit and Binance Offer Assistance to Bitget After Hack</strong><br />
+  Bybit's CEO Ben Zhou and Binance Co-CEO Richard Teng have publicly offered support to Bitget following its $351.6 million security incident. Bybit, which received aid from Bitget during its own $1.5 billion hack in 2025, has updated its Lazarus Bounty to help trace stolen funds, while Binance is collaborating on intelligence sharing and asset recovery efforts. This demonstrates industry solidarity in combating large-scale hacks and recovering stolen assets.<br />
+  <a href="https://t.me/leviathan_news/23336" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Magic Eden Suspects Payment Processor Vulnerability After White Hat Rescue of 23,155 NFTs</strong><br />
+  NFT marketplace Magic Eden is investigating a suspected security vulnerability in the Limit Break Payment Processor V2, which led to a white-hat hacker moving 23,155 NFTs, valued over $5.7 million, from hundreds of wallets. Magic Eden CEO Jack confirmed the platform itself was not attacked and had ceased using V2 in October 2024, but is urging users who transacted on its EVM marketplace between February and October 2024 to revoke contract approvals. Approximately 660 WETH were also at risk in the exploit.<br />
+  <a href="https://t.me/leviathan_news/23365" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Trust Wallet Integrates MoonPay Trade for Cross-Chain Swaps Across Seven Networks</strong><br />
+  Trust Wallet has partnered with MoonPay Trade to enable cross-chain trading capabilities across seven different blockchain networks directly within the wallet. This integration significantly enhances user experience by simplifying asset swaps across diverse ecosystems, making it easier for users to manage their multi-chain portfolios.<br />
+  <a href="https://t.me/leviathan_news/23338" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CoinMarketCap Acquires Crypto Derivatives Data Platform Coinglass</strong><br />
+  CoinMarketCap has acquired Coinglass, a crypto derivatives data platform established in 2019, covering 28 exchanges and over 2,500 trading products. The acquisition aims to integrate Coinglass's derivatives data, including open interest, funding rates, and liquidation metrics, with CoinMarketCap's spot market data, providing users with a comprehensive view of the crypto market. Coinglass will continue to operate as an independent brand.<br />
+  <a href="https://t.me/theblockbeats/197686" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Titan Opens Waitlist for Privacy-Focused Exchange</strong><br />
+  Titan has announced the opening of a waitlist for its upcoming privacy-focused exchange. This move signals a growing demand for platforms that prioritize user privacy in the crypto trading space, potentially offering an alternative for users concerned about data exposure on centralized exchanges.<br />
+  <a href="https://t.me/leviathan_news/23358" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Backpack Launches Stock and ETF Cash Dividend Functionality</strong><br />
+  Backpack has introduced a new feature enabling cash dividends for stocks and ETFs, with eligible payouts credited directly to user accounts. This development enhances the platform's offering for traditional asset classes, providing a more integrated financial experience for users and aligning with conventional brokerage services.<br />
+  <a href="https://t.me/theblockbeats/197684" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hotstuff Winds Down Trading Ahead of Labs Acquisition, Sets Withdrawal Deadlines</strong><br />
+  Hotstuff, a trading platform, is ceasing operations and winding down trading in preparation for its acquisition by Labs. Users are advised to process withdrawals by the announced September deadlines, signaling a consolidation event in the crypto trading landscape.<br />
+  <a href="https://t.me/leviathan_news/23322" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BitMEX Eases Withdrawal Restrictions for Select Regions, Requires KYC for US Users</strong><br />
+  BitMEX has updated its restricted jurisdiction policy, removing withdrawal limitations for users in the US, Canada, Hong Kong, Bermuda, Seychelles, and Myanmar. While these users can now complete KYC and withdraw funds, trading services remain unavailable, and restrictions persist for sanctioned regions like Cuba, Iran, North Korea, and Crimea. The move aims to facilitate asset recovery for users in previously restricted areas following the platform's cessation of operations on September 23rd.<br />
+  <a href="https://t.me/theblockbeats/197637" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Crypto Casino Duelbits Offline After $7M Hot Wallet Hack</strong><br />
+  Crypto casino Duelbits has gone offline following a $7 million hot wallet hack that drained funds across four blockchains, with $6 million now held in a single Ethereum address. This incident highlights the ongoing security risks faced by online crypto gambling platforms, which often become targets for malicious actors.<br />
+  <a href="https://t.me/leviathan_news/23302" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Payy Confirms Ethereum Bridge Exploit, Pauses Wallets for Recovery</strong><br />
+  Payy has confirmed a security incident involving an Ethereum bridge exploit, resulting in user deposits being stolen. The platform has paused wallets and is actively working on fund recovery and a root cause analysis, underscoring the persistent vulnerabilities in cross-chain bridging solutions.<br />
+  <a href="https://t.me/leviathan_news/23301" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Binance Alpha Lists GSTOCK and BREW Tokens</strong><br />
+  Binance Alpha has announced the listing of Gstock (GSTOCK) and BREW (BREW) tokens on its platform. These new listings expand the range of assets available for trading on Binance Alpha, catering to demand for emerging projects.<br />
+  <a href="https://t.me/theblockbeats/197675" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OKX Trading Bots Ready for Next Market Move with 24/7 Automation</strong><br />
+  OKX is promoting its trading bots, touting their readiness for the next market move with 24/7 automation capabilities. This highlights the growing trend of automated trading solutions offered by centralized exchanges, aiming to provide users with tools for continuous market participation and potentially improved performance.<br />
+  <a href="https://t.me/leviathan_news/23352" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bybit Teases "New Financial Platform" on Social Media</strong><br />
+  Bybit has hinted at the upcoming launch of a "new financial platform" via a social media post. This teaser suggests a potential expansion of Bybit's services beyond its current offerings, possibly into areas like traditional finance integration or advanced investment products.<br />
+  <a href="https://t.me/leviathan_news/23284" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>📈 Crypto Trading &amp; Markets<br />
+  <strong>US Spot Bitcoin ETFs See $191M Inflows, Ethereum ETFs $66M, Extending Inflow Streaks</strong><br />
+  U.S. spot Bitcoin ETFs recorded $191 million in net inflows on September 24, marking six consecutive days of positive inflows, with BlackRock's IBIT leading with $162.6 million. Spot Ethereum ETFs also saw $66.01 million in net inflows over five days, indicating sustained institutional interest across both major cryptocurrencies.<br />
+  <a href="https://t.me/wublockchainenglish/26168" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Morgan Stanley Joins NEXTPredict Prediction Market Summit as Strategic Partner</strong><br />
+  Morgan Stanley is participating as a strategic partner in the NEXTPredict prediction market summit in New York, with its U.S. Gaming, Hotels &amp; Leisure Research Head, Stephen Grambling, leading a discussion on institutional capital. This marks the first time a major bank has openly engaged with the prediction market industry, signaling growing institutional interest and a potential shift from its current sports-centric liquidity to a recognized institutional tool.<br />
+  <a href="https://t.me/theblockbeats/197697" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitfinex: Bitcoin Acts Like Gold, Not Risk Asset, as US 10-Year Yield Hits 5%</strong><br />
+  Bitfinex analysis indicates that as the U.S. 10-year Treasury yield reached 5%, Bitcoin's price correlation shifted, behaving more like gold than a traditional risk asset. Bitcoin's correlation with gold has increased to 0.52, while its correlation with daily changes in Treasury yields has turned negative, suggesting a change in market perception of BTC during periods of high interest rates.<br />
+  <a href="https://t.me/theblockbeats/197667" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitcoin Breaks $85,000 as On-Chain Data Shows Long-Term Holders Realizing Profits Below Historical Peaks</strong><br />
+  Bitcoin rallied to $85,000, recovering 44% this quarter, its best performance since Q4 2024. Long-term holders are realizing around $2.4 billion in profits, a significant but much lower figure than the $7-10 billion seen during previous market peaks. This profit-taking coincides with $2.84 billion in inflows to US spot Bitcoin ETFs over the last six trading days, bringing YTD net inflows to $800 million, indicating a healthy market structure where realized profits are absorbed by new demand without triggering a major sell-off.<br />
+  <a href="https://t.me/theblockbeats/197679" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Morgan Creek: Bitcoin Above $85K Relieves Miner Selling Pressure</strong><br />
+  Morgan Creek suggests that if Bitcoin can sustain its price above the estimated $85,000 average production cost, it would significantly alleviate selling pressure from miners, who have faced losses for approximately 280 days. While BTC briefly touched this level before retracing to $84,600, a sustained break could ease cash flow stress for miners and reduce the urgency to sell newly minted coins, especially as many mining operations pivot towards AI compute services.<br />
+  <a href="https://t.me/theblockbeats/197613" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Perpetual Futures Market Share Hits All-Time High of 11.3%</strong><br />
+  Hyperliquid's perpetual futures market share, calculated by open interest, has reached a new all-time high of 11.3% of the global market, which includes all centralized exchanges like Binance, Bybit, and OKX. This significant growth underscores Hyperliquid's increasing prominence in the derivatives trading space, as its native token HYPE also saw a 3.43% increase in 24 hours.<br />
+  <a href="https://t.me/theblockbeats/197655" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols<br />
+  <strong>KelpDAO Sues LayerZero Over $292M rsETH Exploit</strong><br />
+  KelpDAO has filed a civil claim against LayerZero and its co-founder Bryan Pellegrino in British Columbia, alleging that LayerZero endorsed a setup used in a $292 million rsETH bridge exploit earlier this year. KelpDAO claims LayerZero failed to disclose technical flaws and prevent its security infrastructure from being compromised, despite having reviewed and approved Kelp's deployment. This lawsuit escalates the dispute over responsibility for the significant loss, with LayerZero calling the claims meritless.<br />
+  <a href="https://t.me/TheBlock001/7493" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ondo Launches On-Chain Portfolio Tokens Based on BlackRock Strategies</strong><br />
+  Ondo Finance has launched a suite of on-chain portfolio tokens derived from investment strategies developed by BlackRock, primarily targeting non-U.S. investors. This initiative marks a significant step in bringing sophisticated traditional financial products into the decentralized finance ecosystem, potentially broadening the appeal of DeFi to institutional and international investors.<br />
+  <a href="https://t.t.me/TheBlock001/7491" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bullish, Alpaca, and Apex Fintech Form Coalition for Issuer-Backed Tokenized Stocks</strong><br />
+  Bullish, Alpaca, and Apex Fintech have formed a coalition to develop issuer-backed tokenized stocks linked directly to official shareholder records. This collaboration aims to create a new standard for tokenized real-world assets, enhancing transparency and efficiency by connecting on-chain tokens to verifiable off-chain ownership, potentially revolutionizing how private and public equities are managed and traded.<br />
+  <a href="https://t.me/leviathan_news/23333" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ondo Finance Reportedly Shopped to Buyers After Founder's Death</strong><br />
+  CoinDesk reported that Ondo Finance was shopped to potential buyers after founder Nathan Allman's death in May, though Ondo denies initiating any sale. Allman's estate, now managed by his parents, holds a controlling stake and significant ONDO holdings. The news introduces uncertainty regarding Ondo's future ownership and strategic direction, especially as it expands into tokenized BlackRock strategies.<br />
+  <a href="https://t.me/wublockchainenglish/26162" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kamino Launches USDai Market on Solana with $280M GPU-Backed Loan Book</strong><br />
+  Kamino has launched its USDai market on Solana, featuring a $280 million GPU-backed loan book. This innovative offering leverages real-world assets (GPUs) to secure loans within the Solana DeFi ecosystem, providing new liquidity avenues and demonstrating the growing trend of integrating tangible assets into decentralized finance.<br />
+  <a href="https://t.me/leviathan_news/23341" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Pyth Network Expands Corporate Actions Data to All U.S. Equities</strong><br />
+  Pyth Network now supports corporate actions for all U.S. equities, providing comprehensive data on splits, dividends, ticker changes, and mergers for on-chain applications. This expansion significantly enhances the utility of Pyth's oracle services, offering DeFi protocols and other blockchain applications critical real-time financial data for a broader range of assets.<br />
+  <a href="https://t.me/leviathan_news/23340" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Multicoin Capital Publishes "DeFi 2.0" Essay on RWA Market Structure Reshaping DeFi</strong><br />
+  Multicoin Capital's Spencer Applebaum and Shayon Sengupta have released an essay titled "DeFi 2.0," exploring how the emergence of Real World Asset (RWA) market structures will fundamentally reshape DeFi primitives. This intellectual contribution highlights the increasing convergence of traditional finance and decentralized finance, suggesting a new era for DeFi where real-world assets play a central role.<br />
+  <a href="https://t.me/leviathan_news/23330" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>TACEO Launches Merces, a Privacy Layer for On-Chain Finance Integrating with Banks</strong><br />
+  TACEO has introduced Merces, a new privacy layer for on-chain finance that already integrates with bank infrastructure, asset managers, and cross-chain protocols. This development aims to bring enhanced privacy and compliance to decentralized financial transactions, facilitating broader institutional adoption by addressing key concerns around data confidentiality and regulatory requirements.<br />
+  <a href="https://t.me/leviathan_news/23332" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Morpho Proposes Classifying Vaults as Non-Custodial or Discretionary Amid Institutional Interest</strong><br />
+  Morpho is proposing a classification system for vaults, distinguishing between non-custodial and discretionary types, in response to growing institutional interest in DeFi. This initiative aims to provide greater clarity and structure for institutional participants, helping them navigate the complexities of decentralized lending and borrowing with a better understanding of risk and control.<br />
+  <a href="https://t.me/leviathan_news/23328" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Nillion Plans Encrypted Markets on Ethereum Mainnet for On-Chain Privacy</strong><br />
+  Nillion is developing encrypted markets on the Ethereum mainnet to hide on-chain orders, trading strategies, and AI agent logic. This aims to enhance privacy and fairness in decentralized trading by preventing front-running and other exploitative behaviors, representing a significant step towards more secure and sophisticated DeFi infrastructure.<br />
+  <a href="https://t.te/leviathan_news/23327" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Prediction Markets Go Live on TxFlow Mainnet, Powered by ProblyHQ</strong><br />
+  Prediction markets have officially launched on the TxFlow mainnet, with ProblyHQ providing the underlying technology. This milestone expands the functionality of the TxFlow blockchain, offering users new opportunities for decentralized forecasting and betting on real-world events.<br />
+  <a href="https://t.me/leviathan_news/23326" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ARU Launches Physically Backed Commodity Reserve on Arbitrum One</strong><br />
+  ARU has launched a physically backed commodity reserve on Arbitrum One, providing an on-chain representation of real-world assets. This initiative adds a new dimension to DeFi by bringing tangible commodity exposure to a Layer 2 solution, potentially offering stability and diversification to digital asset portfolios.<br />
+  <a href="https://t.me/leviathan_news/23366" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ondo Finance Launches Three Tokenized Portfolios for Non-US Investors</strong><br />
+  Ondo Finance has introduced three tokenized portfolios specifically designed for non-U.S. investors, utilizing investment strategies developed by BlackRock. This move expands Ondo's offerings in the real-world asset (RWA) space, providing accessible, on-chain exposure to regulated financial products for a global audience.<br />
+  <a href="https://t.me/leviathan_news/23290" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Paxos Launches PAXGy for Tokenized Gold Lending on Multiple Chains</strong><br />
+  Paxos has introduced PAXGy, enabling tokenized gold lending on-chain through partnerships with OKX, Uniswap, X Layer, 0x, and ether.fi. This initiative provides DeFi users with access to real-world assets like gold for lending and borrowing, increasing the utility and diversity of collateral options within the decentralized ecosystem.<br />
+  <a href="https://t.me/leviathan_news/23289" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitwise Launches PPLUS, a Leveraged RWA Vault on Ember Protocol Targeting 10%+ Yield</strong><br />
+  Bitwise has launched PPLUS, a leveraged Real World Asset (RWA) vault on the Ember Protocol, designed to offer over 10% yield for non-U.S. investors. This product provides an innovative way for international users to access enhanced yields through tokenized real-world assets, expanding the reach and sophistication of DeFi offerings.<br />
+  <a href="https://t.me/leviathan_news/23288" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Alchemix v3 Launches on Base with Unrestricted Deployment and Four-Week Transmuter Terms</strong><br />
+  Alchemix v3 has launched on Base, introducing unrestricted deployment capabilities and four-week Transmuter terms. This update enhances Alchemix's self-repaying loan protocol, offering greater flexibility and control for users within the Base ecosystem.<br />
+  <a href="https://t.me/leviathan_news/23295" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ether.fi Partners with Enso to Bring Tokenized Stocks and Metals to Its 110K Users</strong><br />
+  Ether.fi has collaborated with Enso to offer tokenized stocks and metals to its 110,000 users. This partnership expands Ether.fi's real-world asset (RWA) offerings, allowing its user base to gain exposure to traditional financial instruments directly within the DeFi ecosystem.<br />
+  <a href="https://t.me/leviathan_news/23294" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenStocks Partners with Arrakis Finance to Build On-Chain Markets for Private Companies</strong><br />
+  OpenStocks has announced a strategic partnership with Arrakis Finance to develop on-chain markets for private companies. This collaboration aims to tokenize private equity, bringing greater liquidity and accessibility to illiquid assets and bridging the gap between traditional private markets and decentralized finance.<br />
+  <a href="https://t.me/leviathan_news/23312" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Plume Launches nPRIME Vault with Yield from Figure's $30 Billion Home Equity Lending Market</strong><br />
+  Plume Network has introduced the nPRIME vault, designed to generate yield from Figure's substantial $30 billion home equity lending market. This initiative further integrates real-world assets into DeFi, offering users exposure to traditional financial products and their associated yields within a decentralized framework.<br />
+  <a href="https://t.me/leviathan_news/23318" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Robinhood Chain DEX Volume Hits $1.5 Billion, TVL Reaches $711 Million in August</strong><br />
+  Robinhood Chain's on-chain DEX transaction volume soared to $1.5 billion in August, with its Total Value Locked (TVL) reaching $711 million, according to a Spartan Capital report. The network generated $6.6 million in Gas revenue, with Robinhood retaining approximately $6 million after Ethereum settlement costs and a 10% fee to Arbitrum DAO. Robinhood Earn also saw user deposits in USDG grow from $9.5 million to $456 million, indicating rapid growth in both trading and lending activities on the platform.<br />
+  <a href="https://t.me/theblockbeats/197628" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anchorage Digital Partners with Stacks to Offer Institutional Bitcoin Staking</strong><br />
+  Anchorage Digital has partnered with Stacks to provide institutional clients with Bitcoin staking, leveraging PoX-5. This allows institutions to earn BTC rewards while their assets remain in secure Bitcoin Layer 1 custody, marking a significant step towards greater institutional participation in Bitcoin's decentralized finance ecosystem.<br />
+  <a href="https://t.me/leviathan_news/23306" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitwise Files for NEAR Spot ETF Listing on NYSE Arca</strong><br />
+  Bitwise has filed a Form 8-A registration statement with the SEC for a spot NEAR ETF, seeking to list its common beneficial shares on NYSE Arca. The ETF, sponsored by Bitwise Investment Advisers, aims to provide investors with regulated exposure to NEAR, signaling growing interest in altcoin ETFs after the success of Bitcoin and Ethereum spot products.<br />
+  <a href="https://t.me/theblockbeats/197698" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Backpack Token BP Surges 48%, Hits New All-Time High Amid On-Chain Tokenized Stock Hype</strong><br />
+  Backpack platform's native token, BP, has surged 48% in 24 hours to a new all-time high of $1.277, driven by recent regulatory approvals for on-chain tokenized stock trading. Backpack announced in July the launch of 24/7 real-world US stock trading markets for international eligible users, offering real equity ownership and instant settlement with fiat and stablecoins, positioning itself as a key player in the tokenized RWA sector.<br />
+  <a href="https://t.me/theblockbeats/197604" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Grayscale Zcash Spot ETF (ZCSH) Surpasses $1 Billion in AUM</strong><br />
+  Grayscale's Zcash spot ETF, ZCSH, has achieved a new milestone, with its Assets Under Management (AUM) exceeding $1 billion. This indicates significant institutional and retail investor interest in Zcash, further validating the demand for regulated investment products in the privacy-focused cryptocurrency space.<br />
+  <a href="https://t.me/theblockbeats/197645" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔦 Other<br />
+  <strong>Solana Foundation Appoints Binance, Polygon Vets to Drive Institutional Adoption and Payments</strong><br />
+  The Solana Foundation has brought on veterans from Binance and Polygon to bolster its efforts in institutional adoption and payments. These strategic hires indicate Solana's strong focus on expanding its enterprise use cases and integrating further into mainstream financial systems.<br />
+  <a href="https://t.me/TheBlock001/7490" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Solcoa Raises $75M to Build Rare Earth Metallization Plant in Nevada</strong><br />
+  Solcoa has successfully raised $75 million to fund the construction of a 500-tonne rare earth metallization plant in Nevada. This significant investment in critical mineral processing capabilities highlights efforts to strengthen domestic supply chains for essential materials used in various advanced technologies.<br />
+  <a href="https://t.me/leviathan_news/23314" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DTCC Tokenization Service for $114 Trillion in Assets Expected Q4 2026 Launch</strong><br />
+  The Depository Trust &amp; Clearing Corporation (DTCC) is on track to launch its tokenization service for $114 trillion in assets by Q4 2026. This initiative aims to streamline the processing and settlement of traditional financial assets by leveraging blockchain technology, potentially revolutionizing global capital markets infrastructure.<br />
+  <a href="https://t.me/leviathan_news/23296" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Nasdaq Launches "Advisor's Guide to Crypto" with Hashdex</strong><br />
+  Nasdaq has partnered with Hashdex to release an "Advisor's Guide to Crypto," designed to provide financial professionals with a structured resource for understanding digital assets. This initiative aims to educate and empower financial advisors, fostering greater adoption and informed investment in the crypto space by traditional wealth managers.<br />
+  <a href="https://t.me/leviathan_news/23350" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>T-RIZE Joins Canton Foundation to Set Tokenized Collateral Standards with DTCC</strong><br />
+  T-RIZE has joined the Canton Foundation's collateral subcommittee, chaired by the DTCC, to establish standards for tokenized collateral. This collaboration aims to standardize how real-world assets are represented and utilized as collateral on blockchain networks, accelerating institutional adoption of digital assets in regulated financial markets.<br />
+  <a href="https://t.me/leviathan_news/23357" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Dinari Adds Three Institutional Finance Hires to Expand Tokenized Equities Business</strong><br />
+  Dinari has strengthened its team with three new hires from institutional finance backgrounds, aiming to expand its tokenized equities business. This strategic recruitment drive signals Dinari's commitment to bridging traditional capital markets with blockchain technology, enhancing its capacity to offer tokenized real-world assets to institutional investors.<br />
+  <a href="https://t.me/leviathan_news/23321" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Open Standard Names Zach Abrams CEO, Partners with Coinbase, Mastercard, Stripe, Visa, and Shopify</strong><br />
+  Zach Abrams, former co-founder of Stripe-owned Bridge, has been appointed CEO of Open Standard, an initiative dedicated to addressing stablecoin adoption challenges. Abrams announced that Coinbase, Mastercard, Stripe, Visa, and Shopify have joined as founding partners, highlighting a major push to integrate stablecoins into mainstream commerce and payments by improving economic models and incentive structures for businesses.<br />
+  <a href="https://t.me/leviathan_news/23316" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Block Joins x402 Foundation, Contributes Bitcoin Lightning for Agentic Payments</strong><br />
+  Block has become a member of the x402 Foundation and is contributing to its efforts by integrating Bitcoin Lightning for agentic payments. This collaboration aims to leverage the speed and efficiency of the Lightning Network to facilitate autonomous payments between AI agents, advancing the development of a programmable, machine-driven economy.<br />
+  <a href="https://t.me/leviathan_news/23329" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Consensys Actively Recruiting Across Multiple Roles to Support Growth</strong><br />
+  Consensys is currently hiring for various roles to support its ongoing expansion, with openings listed on its careers page. This recruitment drive indicates significant growth and investment in talent by the leading Ethereum software company, aiming to strengthen its development and operational capabilities.<br />
+  <a href="https://t.me/leviathan_news/23348" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Plasma Blockchain Celebrates First Anniversary</strong><br />
+  The Plasma blockchain is celebrating its first year of operation, marking a significant milestone in its development and adoption. This anniversary highlights the protocol's sustained presence and ongoing efforts to scale Ethereum by offloading transactions to secondary layers.<br />
+  <a href="https://t.me/leviathan_news/23347" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hedera Open-Sources CLPR Cross-Ledger Protocol, Contributes to Linux Foundation Labs</strong><br />
+  Hedera has open-sourced its CLPR (Cross-Ledger Protocol) and contributed the codebase to Linux Foundation Labs. This move promotes interoperability and collaborative development within the distributed ledger technology space, allowing for more seamless communication and asset transfers across different blockchain networks.<br />
+  <a href="https://t.me/leviathan_news/23320" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Architect Partners with Apex Fintech to Offer Compute and AI Derivatives to 42M+ Brokerage Customers</strong><br />
+  Architect has announced a partnership with Apex Fintech to offer compute and AI derivatives to over 42 million brokerage customers. This collaboration expands access to novel financial products linked to computational power and artificial intelligence, bridging the gap between emerging tech and traditional investment markets.<br />
+  <a href="https://t.me/leviathan_news/23346" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>HANDO Launches Robotics Data Network on Robinhood Chain, Pays Users in Stock Tokens</strong><br />
+  HANDO has launched a robotics data network on Robinhood Chain, allowing users to earn stock tokens for recording everyday tasks. This innovative application leverages blockchain to incentivize data collection for robotics development, creating a new economic model for participation in the AI and robotics sectors.<br />
+  <a href="https://t.me/leviathan_news/23349" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitwise Crypto Model Portfolios Launched on Vise Platform, Reaching 135,000+ Accounts</strong><br />
+  Bitwise has launched its crypto model portfolios on the Vise platform, making them accessible to over 135,000 accounts. This partnership significantly expands the reach of professionally managed crypto investment strategies to a wider audience of financial advisors and their clients.<br />
+  <a href="https://t.me/leviathan_news/23353" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>BlackRock-Backed Ondo Finance Denies Sale Attempts After Founder's Death</strong><br />
+  Ondo Finance, which recently partnered with BlackRock, has denied reports from CoinDesk alleging that the company was shopped to potential buyers following the death of its founder, Nathan Allman, in May. Allman's estate, currently managed by his parents, holds a controlling stake in the company and large amounts of ONDO tokens. The company also sued acting CEO Ian De Bode in August, further complicating its leadership and strategic direction.<br />
+  <a href="https://t.me/wublockchainenglish/26162" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Michael Saylor Calls for a "Bill of Digital Rights" at Bitcoin Summit</strong><br />
+  Michael Saylor, a prominent Bitcoin advocate, has publicly called for the establishment of a "Bill of Digital Rights" during a Bitcoin Summit. This appeal highlights the growing discourse around individual freedoms and rights in the digital age, particularly concerning data ownership, privacy, and sovereignty in a decentralized world.<br />
+  <a href="https://t.me/leviathan_news/23323" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ando Raises $20 Million to Build AI-Native Team Messaging Platform</strong><br />
+  Ando has emerged from stealth with $20 million in funding from Accel, Index Ventures, and Emergence, aiming to build an AI-native team messaging platform designed for both humans and AI agents. This "new Slack" allows agents to have their own identities, permissions, and inboxes, autonomously browsing channels, communicating with colleagues, and undertaking tasks like debugging or coordinating discussions across different channels, marking a significant step towards more integrated human-AI collaboration in the workplace.<br />
+  <a href="https://t.me/leviathan_news/23333" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Windsor Capital Invests $50M in Slovenia's Space Labs, Valuing It Near $1 Billion</strong><br />
+  Windsor Capital has invested $50 million in Slovenia's Space Labs, acquiring a 4.9% stake and valuing the company at nearly $1 billion. This significant investment in a European space tech firm highlights growing capital allocation towards the burgeoning private space industry.<br />
+  <a href="https://t.me/leviathan_news/23319" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

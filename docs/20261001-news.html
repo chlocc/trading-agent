@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — October 01, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20261001-trading.html" class="active">10/01/2026</a>
+    <a href="20260930-trading.html" class="">09/30/2026</a>
+    <a href="20260929-trading.html" class="">09/29/2026</a>
+    <a href="20260928-trading.html" class="">09/28/2026</a>
+    <a href="20260925-trading.html" class="">09/25/2026</a>
+    <a href="20260924-trading.html" class="">09/24/2026</a>
+    <a href="20260922-trading.html" class="">09/22/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20261001-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20261001-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — October 01, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+🏛️ Regulation &amp; Policy<br />
+  <strong>UK Regulator Opens Crypto Authorization Ahead of 2027 Regime</strong><br />
+  The UK's Financial Conduct Authority (FCA) has started accepting crypto authorization applications, signaling a concrete step towards its new regulatory framework set for 2027. This move aims to bring crypto firms under formal oversight, providing clarity and potentially fostering institutional adoption within the region.<br />
+  <a href="https://t.me/TheBlock001/7513" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ESMA Calls for MiCA Expansion to Cover DeFi, Staking, and Lending</strong><br />
+  The European Securities and Markets Authority (ESMA) is advocating for further amendments to the Markets in Crypto-Assets (MiCA) regulation, proposing an expanded scope to include DeFi, staking, and lending activities, alongside stablecoin rules and broader crypto supervision. This indicates a growing regulatory push to encompass more aspects of the crypto ecosystem under a unified framework.<br />
+  <a href="https://t.me/leviathan_news/23604" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Australia's ASIC Prepares to Regulate Digital Asset Custody Platforms</strong><br />
+  Australia's financial regulator, ASIC, is developing a new regime to oversee digital asset and tokenized asset custody platforms, aiming to enhance investor protection and bring more clarity to the handling of digital assets. This initiative reflects a global trend towards formalizing the regulatory landscape for crypto services.<br />
+  <a href="https://t.me/leviathan_news/23623" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hyperliquid Policy Committee Submits MiCA Feedback to EU Commission</strong><br />
+  Hyperliquid Policy Committee (HPC) provided its first non-US regulatory filing to the European Commission, urging that new crypto legislation build upon existing EU financial frameworks rather than creating entirely new ones. HPC advocates for applying economic substance over form, proposing perpetual futures be regulated under MiFID II without new laws and for regulators to acknowledge the verifiable nature of public blockchains to reduce redundant reporting burdens.<br />
+  <a href="https://t.me/wublockchainenglish/26246" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>EU Regulators Scrutinize Binance's MiCA Exemption Use</strong><br />
+  Binance is under review by EU regulators, including ESMA and authorities in France, Germany, and Greece, for its use of the "reverse solicitation" exemption under MiCA to continue serving some European customers without a license. Regulators are questioning whether Binance's interpretation of the exemption, intended for narrow cases where clients actively seek out services, legitimately allows its continued operation, potentially leading to enforcement action if rejected.<br />
+  <a href="https://t.me/wublockchainenglish/26234" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>US Senate Republicans Introduce Crypto Tax Bill, Aim for Year-End Passage</strong><br />
+  Senate Republicans have introduced a crypto tax bill, with the Finance Committee chair pushing for its passage by year-end. This legislative effort aims to establish clearer tax guidelines for digital assets, which could significantly impact crypto investors and businesses by providing much-needed regulatory certainty.<br />
+  <a href="https://t.me/leviathan_news/23635" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>FedMSB Forms National Digital Dollar Committee to Coordinate AmeriUSD System</strong><br />
+  The FedMSB has established the National Digital Dollar Committee to coordinate the development and implementation of the AmeriUSD digital dollar system. This move signifies an advancing effort towards a potential central bank digital currency (CBDC) in the United States, aiming for a standardized and coordinated approach.<br />
+  <a href="https://t.me/leviathan_news/23628" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CFTC Wins $30 Million Judgment Against Fundsz Fraud Defendants</strong><br />
+  The U.S. Commodity Futures Trading Commission (CFTC) has secured a $30 million judgment against two defendants involved in the Fundsz crypto and precious metals fraud scheme. This ruling underscores the CFTC's ongoing efforts to combat fraudulent activities in the digital asset space and protect investors.<br />
+  <a href="https://t.me/leviathan_news/23581" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Failing Clarity Act Led to Faster Crypto Regulatory Wins, Says Bitwise CIO</strong><br />
+  Bitwise CIO argues that the failure to pass the Clarity Act has paradoxically led to quicker regulatory advancements in crypto, particularly concerning stablecoin rewards, tokenized stocks, and buybacks. This suggests that the absence of a comprehensive framework spurred more targeted, albeit fragmented, regulatory actions.<br />
+  <a href="https://t.me/TheBlock001/7515" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <a href="https://t.me/leviathan_news/23582" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SEC Commissioner Hester Peirce Supports Expanding Accredited Investor Access</strong><br />
+  SEC Commissioner Hester Peirce is backing proposals to broaden the definition of accredited investors, suggesting the inclusion of CPAs, CFAs, CFPs, and certain FINRA license holders. This initiative aims to allow a wider range of qualified individuals to participate in private capital markets, potentially benefiting crypto investments.<br />
+  <a href="https://t.me/leviathan_news/23584" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Philippine Central Bank Curbs Bank Transfers to Crypto Platform Coins.ph</strong><br />
+  The Bangko Sentral ng Pilipinas (BSP) has partially suspended inbound InstaPay and PESONet transfers to Coins.ph's e-money operator, DCPay Philippines, restricting some local bank deposits and QR payments. This action by the central bank signals increased scrutiny over crypto platforms' banking channels in the Philippines.<br />
+  <a href="https://t.me/wublockchainenglish/26240" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kalshi Ends Volume Incentive Program Amid Wash Trading Allegations</strong><br />
+  Kalshi, a prediction market, is terminating its volume incentive program following allegations of wash trading, despite recording a record $52.98 billion in September. This move highlights ongoing concerns about market manipulation and the need for fair trading practices in digital asset platforms.<br />
+  <a href="https://t.me/leviathan_news/23621" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech<br />
+  <strong>OpenAI, Google, Meta, Anthropic, Nvidia, and xAI Agree to Voluntary AI Safety Audits</strong><br />
+  Major AI players, including OpenAI, Google, Meta, Anthropic, Nvidia, and xAI, have agreed to undergo voluntary outside AI safety audits under a White House pact. This collaborative effort aims to address safety concerns in AI development, although the agreement currently lacks penalties for non-compliance.<br />
+  <a href="https://t.me/leviathan_news/23627" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Google Rolls Out Gemini 4 Argon Frontier Model to Cyber Defenders</strong><br />
+  Google has launched its Gemini 4 Argon frontier model, making it available to cyber defenders at a cost of $2 for input and $10 for output. This release provides advanced AI capabilities to enhance cybersecurity efforts, marking a significant step in applying cutting-edge AI to critical defense applications.<br />
+  <a href="https://t.me/leviathan_news/23579" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic's Leaked IPO Prospectus Reveals $42 Billion Net Loss and $518 Billion Infrastructure Spending Plan</strong><br />
+  A leaked IPO prospectus for Anthropic, a leading AI company, indicates a staggering $42 billion net loss and plans for $518 billion in infrastructure spending. These figures highlight the immense capital requirements and financial risks associated with developing cutting-edge artificial intelligence technologies.<br />
+  <a href="https://t.me/leviathan_news/23600" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>AI Coding Agents Accidentally Leak 13,000+ Internal Images on GitHub</strong><br />
+  Glow Labs has reported that AI coding agents inadvertently leaked over 13,000 internal images onto public GitHub repositories. This incident raises significant concerns about data privacy and the potential for unintended information exposure when utilizing AI in development workflows.<br />
+  <a href="https://t.me/leviathan_news/23617" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>MiniMax Open-Sources OpenAI Agents API Implementation, Supporting Codex, Claude Code</strong><br />
+  MiniMax has open-sourced OpenAgentCore, a self-hosted implementation compatible with OpenAI's Agents API, allowing developers to use OpenAI's SDK by simply changing the API address. This enables a choice of back-end agents like Codex, Claude Code, or MiniMax Code, and allows developers to self-deploy the backend, giving them full control over task orchestration, context management, and execution state.<br />
+  <a href="https://t.me/theblockbeats/198594" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>**OpenAI</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

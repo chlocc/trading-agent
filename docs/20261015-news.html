@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — October 15, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20261015-trading.html" class="active">10/15/2026</a>
+    <a href="20261014-trading.html" class="">10/14/2026</a>
+    <a href="20261009-trading.html" class="">10/09/2026</a>
+    <a href="20261006-trading.html" class="">10/06/2026</a>
+    <a href="20261001-trading.html" class="">10/01/2026</a>
+    <a href="20260930-trading.html" class="">09/30/2026</a>
+    <a href="20260929-trading.html" class="">09/29/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20261015-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20261015-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — October 15, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy<br />
+  <strong>EBA Designates Circle's USDC as EU's First 'Significant' E-Money Token Under MiCA</strong><br />
+  The European Banking Authority (EBA) has classified Circle's USDC as the EU's initial "significant" e-money token (EMT) under MiCA regulations. This designation means USDC, the world's second-largest stablecoin with a supply of nearly $73 billion, will face direct supervision by the EBA and France's ACPR starting November 12, affecting its capital, reserves, and redemption plans.<br />
+  <a href="https://t.me/TheBlock001/7573" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Patrick Witt Exits White House Crypto Role as Clarity Act Stalls</strong><br />
+  Patrick Witt, the last remaining crypto policy staffer at the White House, is reportedly leaving his role as his Department of Defense detail concludes. His departure, alongside the stalled Clarity Act in the Senate, raises questions about the Biden administration's commitment to crypto policy ahead of upcoming elections.<br />
+  <a href="https://t.me/TheBlock001/7571" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>SEC Approves Listing of Binary Options Tied to Company KPIs</strong><br />
+  The SEC has approved the listing of binary options contracts tied to company Key Performance Indicators (KPIs), expanding regulated speculative trading instruments in traditional markets. This move allows investors to bet on specific business outcomes, introducing a new layer of financial derivatives.<br />
+  <a href="https://t.me/leviathan_news/24122" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Russia Central Bank Bans Individuals from Transferring Crypto to Cold Wallets</strong><br />
+  Russia's central bank has prohibited individuals from transferring cryptocurrencies to their personal cold wallets, a significant restriction on crypto ownership and self-custody. This measure aims to tighten control over the crypto market within the country and could isolate Russian users from the broader decentralized ecosystem.<br />
+  <a href="https://t.me/leviathan_news/24112" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Perpetuals.com Files for SEC Exemption for Tokenized Stock Marketplace</strong><br />
+  Perpetuals.com, led by former FTX Europe head Patrick Gruhn, has filed for an SEC Innovation Exemption to launch a tokenized stock marketplace in the U.S. This initiative, which aims to list tokenized stocks with full dividend and voting rights on an Ethereum-compatible L2, could bring blockchain-based equities to a broader American audience, challenging traditional exchanges.<br />
+  <a href="https://t.me/leviathan_news/24116" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Australia's ASIC Seeks Input on New Digital Asset Regulations, Slated for April 2027</strong><br />
+  The Australian Securities and Investments Commission (ASIC) is soliciting feedback on proposed standards for new digital asset regulations, with plans for implementation by April 2027. These regulations will cover asset custody, exchange, settlement, and licensing requirements for crypto-related financial services.<br />
+  <a href="https://m.theblockbeats.info/flash/371978" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>🤖 AI &amp; Tech<br />
+  <strong>Blackstone Allocates $200 Billion to Data Center Investments, Backs OpenAI and Nvidia</strong><br />
+  Blackstone Group has established a $200 billion portfolio for data center investments and is actively backing AI companies like OpenAI, along with chipmakers Nvidia and Broadcom. This aggressive strategy demonstrates a comprehensive deployment into the AI sector across infrastructure, software, and hardware, signaling a belief in AI's foundational role in future economic growth.<br />
+  <a href="https://m.theblockbeats.info/flash/372059" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Google DeepMind's Gemini 4 Argon Drives Scientific Breakthroughs</strong><br />
+  Google DeepMind's Gemini 4 Argon AI model is reportedly leading to significant scientific advancements, including optimizing quantum error correction decoders and identifying new counterexamples to a 60-year-old plasma physics conjecture. This highlights AI's growing impact on accelerating complex scientific research and discovery.<br />
+  <a href="https://t.me/leviathan_news/24103" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Ledger Unveils Atom Android Device with Solana Mobile Integration and Tamper Protections</strong><br />
+  Ledger has launched its new Atom Android device, featuring deep integration with Solana Mobile's wallet and dApp Store through its Seeker app, and enhanced tamper-detection capabilities using an FPGA chip to isolate sensitive operations. Priced at $849 for a limited creator edition, the device is designed to secure crypto assets while combating sophisticated hardware wallet attacks.<br />
+  <a href="https://t.me/TheBlock001/7574" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Runway Labs Introduces 'Visual Thinking' for AI Agent Visualization</strong><br />
+  Runway Labs has unveiled "Visual Thinking," a tool that transforms AI agent operations into real-time videos, allowing users to intuitively track complex workflows without sifting through logs. This innovation enhances transparency and understanding of AI's decision-making processes, particularly in tasks involving code repositories or simulations.<br />
+  <a href="https://m.theblockbeats.info/flash/372046" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Midjourney Engineer Open-Sources 'Handwired' for Direct Neural Network Construction</strong><br />
+  Cheng Lou, an engineer at Midjourney, has open-sourced "Handwired," a novel method for building neural networks without traditional training data. Instead of learning internal weights, Handwired directly maps JavaScript computational rules to neural network parameters, offering a potentially more efficient way to create AI for specific, rule-based tasks.<br />
+  <a href="https://m.theblockbeats.info/flash/372014" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Tether Capital Invests in AIsa for AI Agent Payments</strong><br />
+  Tether Capital, Tether's independent investment arm, has made a strategic investment in AIsa, a platform that facilitates seamless payments for AI agents accessing data, software, and compute resources. This move positions Tether to expand its presence in the AI-driven payments and programmable money sectors, addressing operational friction for autonomous agents across over 5,000 APIs.<br />
+  <a href="https://t.me/wublockchainenglish/26426" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>DeepSeek Offers Full Refund for API Service Interruption</strong><br />
+  DeepSeek is providing full refunds to all API users for their consumption between October 8-14, following a 5-hour service outage on October 15. The company announced it is conducting a comprehensive review and overhaul of its system architecture to eliminate single points of failure and prevent future disruptions.<br />
+  <a href="https://m.theblockbeats.info/flash/372017" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Anthropic Adds OpenTelemetry Tracing to Claude Platform</strong><br />
+  Anthropic has launched OpenTelemetry tracing for its Claude platform API, enabling developers to monitor AI agent activity, including token consumption, latency, and errors. This feature allows for more transparent debugging and optimization of AI workflows, although full content tracing requires user consent due to data privacy implications.<br />
+  <a href="https://m.theblockbeats.info/flash/372028" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>OpenAI Implements Spy Training for Employees</strong><br />
+  OpenAI has introduced internal security training to prevent industrial espionage, including using real-world spy scenarios and advising employees against wearing company-branded apparel in public. This initiative comes after an FBI arrest of an OpenAI engineer for allegedly planting recording devices in executive meetings, highlighting increasing security concerns in the competitive AI industry.<br />
+  <a href="https://m.theblockbeats.info/flash/372033" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Google to Restrict AI Plus Users from Accessing Pro Models</strong><br />
+  Starting November 13, Google AI Plus subscribers will no longer be able to manually select Pro-series models in Gemini and Google Search's AI modes, being limited to Flash and Flash-Lite models. Users wishing to continue using Pro models will need to upgrade to the $19.99/month AI Pro tier, a fourfold increase from the current $4.99/month Google AI Plus subscription.<br />
+  <a href="https://m.theblockbeats.info/flash/371997" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Apple Intelligence Beta to Launch in China by Late October</strong><br />
+  Apple CEO Tim Cook confirmed that a beta version of Apple Intelligence will launch in mainland China by late October, featuring writing tools, photo deletion, and real-time translation. However, the new Siri AI will not be included in this initial rollout. This marks a significant step for Apple's AI integration in the Chinese market, which has been awaiting the service for nearly two years.<br />
+  <a href="https://m.theblockbeats.info/flash/372013" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Helius CEO Mert Mumtaz Joins NEAR Foundation Board to Drive Product and Governance</strong><br />
+  Mert Mumtaz, CEO of Solana infrastructure firm Helius, has joined the NEAR Foundation Board of Directors, aiming to advance product strategy, ecosystem growth, and governance, particularly in expanding NEAR's private on-chain markets. Mumtaz is also slated to serve as a judge for the upcoming NEAR Hackathon, with NEAR Intents already processing over $33 billion in transactions and over $160 million in private TVL.<br />
+  <a href="https://m.theblockbeats.info/flash/372032" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>StarkWare Launches OffMarket for Private Polymarket Trades via Starknet</strong><br />
+  StarkWare has launched OffMarket, enabling Polymarket users to conduct private trades through a Starknet zero-knowledge pool. This initiative enhances user privacy and security for prediction market participation by leveraging ZK-proofs to obscure transaction details.<br />
+  <a href="https://t.me/leviathan_news/24124" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Blockworks Advisory: Crypto-Native AI Inference Providers Remain Niche</strong><br />
+  A Blockworks Advisory report indicates that crypto-native AI inference providers currently hold a small market share compared to mainstream competitors. This suggests that despite the potential for blockchain-AI synergy, broader adoption of decentralized AI inference solutions is still nascent.<br />
+  <a href="https://t.me/leviathan_news/24126" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Composio Launches 'Instant' with $1 Million Pledge for AI Agents</strong><br />
+  Composio has introduced "Instant," a platform that pledges $1 million to help AI agents pay for their own tools and services. This initiative aims to foster autonomous AI ecosystems by enabling agents to manage their own operational costs and access necessary resources.<br />
+  <a href="https://t.me/leviathan_news/24125" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Fragment Raises $12 Million Series A to Empower AI Agents</strong><br />
+  Fragment has secured $12 million in Series A funding to develop tools that transform AI agents into financial operators, aiming to streamline business operations and reduce barriers for entrepreneurship. This investment underscores growing confidence in AI agents' potential to automate complex financial tasks.<br />
+  <a href="https://t.me/leviathan_news/24110" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Secludy Launches Directory of 159 AI Training Data Sellers and 38 Buyer Programs</strong><br />
+  Secludy has released a comprehensive directory mapping 159 AI training data sellers and 38 buyer programs. This resource aims to bring transparency and efficiency to the fragmented AI data market, facilitating connections between data providers and AI developers.<br />
+  <a href="https://t.me/leviathan_news/24109" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>EasyA Valued at $1.1 Billion Ahead of Planned 2027 Direct Listing</strong><br />
+  Blockchain and AI developer platform EasyA has been valued at $1.1 billion, with a direct listing planned for the first half of 2027. This valuation reflects strong investor interest in platforms that bridge blockchain technology with artificial intelligence development.<br />
+  <a href="https://t.me/leviathan_news/24108" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Instinct Launches YC-Backed Agent Harness for Traders</strong><br />
+  Instinct has launched a Y Combinator-backed "agent harness" designed to equip individual traders with institutional-grade investment capabilities. This tool aims to democratize sophisticated trading strategies by leveraging AI agents.<br />
+  <a href="https://tme/leviathan_news/24107" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Paper Instruments Releases Open-Source Ultramarine 1 Flash, Claims 60x Cost Reduction</strong><br />
+  Paper Instruments has open-sourced Ultramarine 1 Flash, claiming it matches Fable 5's performance at 60 times lower cost. This development could significantly reduce barriers to entry for advanced computational tasks and data processing.<br />
+  <a href="https://t.me/leviathan_news/24106" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Former 360 Leak Research Institute President Joins Z.AI, Reveals 23 Windows Vulnerabilities</strong><br />
+  Yuki Chen, former president of 360 Leak Research Institute, has joined Z.AI (智谱AI), where his team, utilizing the GLM model, identified 23 new Windows vulnerabilities. One critical vulnerability (CVE-2026-97816) in Windows OpenSSH remote code execution received a CVSS score of 9.8, highlighting AI's growing role in cybersecurity research.<br />
+  <a href="https://m.theblockbeats.info/flash/371992" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Kimi AI Researcher Chen Guangyu Departs, Speculated to be the 17-Year-Old Million-Dollar Offer Recipient</strong><br />
+  Chen Guangyu, a 17-year-old AI researcher at Kimi, has announced his departure less than a year after joining. Coincidentally, a Silicon Valley VC recently shared the story of a 17-year-old AI prodigy who self-taught using LLMs and received five job offers exceeding $1 million each from leading AI labs. Speculation links Chen Guangyu to this prodigy due to their similar age and AI research backgrounds.<br />
+  <a href="https://m.theblockbeats.info/flash/371979" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>💳 Payments &amp; Stablecoins<br />
+  <strong>Stripe and Plasma Partner to Launch Multi-Currency Stablecoin Cards</strong><br />
+  Stripe has announced a partnership with Plasma to develop multi-currency stablecoin cards, enabling individuals and businesses to spend directly from existing currency balances and reduce foreign exchange costs. Plasma will integrate into Stripe's stablecoin card infrastructure, supporting currencies like USD, BRL, EUR, MXN, and COP, and stablecoins including USDC and OUSD.<br />
+  <a href="https://t.me/zoomerfiedNews/1517" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Tempo Launches Private Stablecoin Zones for Enterprises, Deel First Customer</strong><br />
+  Tempo has launched private stablecoin zones tailored for enterprises, with Deel as its first production customer. This system, which first introduced its "Zones" on April 16, 2026, and officially launched into production, aims to provide controlled, private environments for businesses to manage stablecoin transactions and operations.<br />
+  <a href="https://t.me/leviathan_news/24105" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Ripple and DriveWealth Partner for Stablecoin Settlement in Brokerage Infrastructure</strong><br />
+  Ripple has partnered with DriveWealth to integrate stablecoin settlement, payments, and custody services into global brokerage infrastructure. This collaboration aims to enhance efficiency and reduce costs for international securities trading by leveraging blockchain technology and stablecoins.<br />
+  <a href="https://t.me/leviathan_news/24094" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🏦 Exchanges &amp; Platforms<br />
+  <strong>Binance bStocks Surpasses $1 Billion AUM, $40 Billion Cumulative Volume</strong><br />
+  Binance's tokenized equities product, bStocks, has achieved $1 billion in Assets Under Management (AUM) in just four months since its launch on June 11, 2026. The platform has also processed over $40 billion in cumulative trading volume across nearly 100 listed assets, demonstrating significant growth in tokenized stock offerings.<br />
+  <a href="https://t.me/wublockchainenglish/26422" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>BingX EU Secures MiCAR License from Austrian FMA, Expands to 29 EEA Countries</strong><br />
+  BingX EU (MEGE zweite GmbH) has obtained a Crypto-Asset Service Provider (CASP) license from Austria's Financial Market Authority (FMA) under the Markets in Crypto-Assets Regulation (MiCA). This license will allow BingX to offer regulated crypto custody, exchange, and other services across 29 countries in the European Economic Area.<br />
+  <a href="https://t.me/leviathan_news/24098" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>StandX to Shut Down and Abandon Token Launch</strong><br />
+  Decentralized perpetual futures exchange StandX, founded by former Binance Futures head Aaron Gong, is set to cease operations and cancel its planned token launch after a business and market review. The platform, which served over 237,000 users and achieved a peak TVL of over $200 million, will end yield distributions today, with perpetual trading becoming reduce-only by October 20.<br />
+  <a href="https://t.me/leviathan_news/24119" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Crypto.com Launches Predict Pro, a Prediction Market Product for US Users</strong><br />
+  Crypto.com Exchange has introduced Predict Pro, a prediction market product for its US users, offering real-time order books, probability charts, risk management, and portfolio trading tools. The feature, provided by NFA-registered Introducing Broker Foris DAX, facilitates trading on CFTC-regulated prediction contracts from OG.com Markets across various categories like elections, sports, crypto prices, and climate.<br />
+  <a href="https://m.theblockbeats.info/flash/372034" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Bybit CEO Outlines Vision to Transform from Crypto Exchange to 'New Financial Platform'</strong><br />
+  Bybit's CEO has revealed plans to evolve the exchange beyond traditional crypto trading into a comprehensive "new financial platform." This strategic shift aims to broaden Bybit's service offerings, integrating a wider array of financial products and services beyond core cryptocurrency operations.<br />
+  <a href="https://m.theblockbeats.info/flash/372053" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>OKX to List DNAUSDT Perpetual Contract on October 16</strong><br />
+  OKX will officially launch the DNAUSDT perpetual contract on October 16 at 20:00 (UTC+8) across its web, app, and API platforms. DNA, representing Neosoul, is an AI Agent project focused on intelligent trading and building an "intelligent entity economy" infrastructure.<br />
+  <a href="https://m.theblockbeats.info/flash/372025" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Binance Expands Options Products with Covered Call and Cash-Secured Put Strategies</strong><br />
+  Binance has expanded its stock options offerings by introducing Covered Call and Cash-Secured Put strategies, allowing users to sell options and earn premiums while providing corresponding collateral. Covered Calls require users to hold the underlying stock as collateral, while Cash-Secured Puts demand freezing an equivalent amount of USDC.<br />
+  <a href="https://m.theblockbeats.info/flash/372026" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Papertrade Generates $42.24 Million in Revenue in Six Days, Ranks Second Globally</strong><br />
+  Papertrade, a prediction market platform, has reportedly generated $42.24 million in cumulative revenue within six days of its launch, ranking second globally for daily protocol revenue, surpassing Circle and trailing only Tether. Over 98% of this revenue, or $41.58 million, has been distributed to PAPER token stakers.<br />
+  <a href="https://m.theblockbeats.info/flash/372024" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Upbit Sees 78.3% Surge in 24-Hour Trading Volume, XRP Leads Trading Pairs</strong><br />
+  South Korean crypto exchange Upbit recorded a 78.3% increase in its 24-hour trading volume, reaching $1.21 billion. XRP/KRW accounted for 11.1% of the trading volume, making it the top Korean Won trading pair, followed by BTC, WAL, ETH, and USDT.<br />
+  <a href="https://m.theblockbeats.info/flash/371980" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>📈 Crypto Trading &amp; Markets<br />
+  <strong>Bitcoin Dips Below $81,000 as Risk-Off Sentiment Weighs on Markets</strong><br />
+  Bitcoin briefly dropped below $81,000, influenced by a broader risk-off sentiment impacting Asian equities. Analysts suggest Bitcoin could retest $74,600, a key Fibonacci retracement level, but maintain a bullish mid-term outlook as long as stronger support levels hold.<br />
+  <a href="https://t.me/TheBlock001/7572" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>U.S. Spot Bitcoin ETFs See $261 Million Outflow, Ethereum ETFs Shed $130 Million</strong><br />
+  U.S. spot Bitcoin ETFs experienced net outflows of $261 million on October 14, with Bitwise's BITB being a rare positive exception with $2.22 million in inflows. Simultaneously, spot Ethereum ETFs saw $130 million in net outflows, led by BlackRock's ETHA.<br />
+  <a href="https://t.me/wublockchainenglish/26418" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Ether Long Liquidations on Binance Hit $106 Million in One Hour</strong><br />
+  Binance witnessed over $106 million in Ether long liquidations within a single hour, the largest such event in six months, triggered by higher-than-expected U.S. inflation data. This highlights the crypto market's vulnerability to macroeconomic shocks, particularly for highly leveraged futures positions, where trading volume is nine times that of spot markets.<br />
+  <a href="https://t.me/wublockchainenglish/26419" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>QCP Capital Warns of Weakening Bitcoin Momentum Amid Macro Risks</strong><br />
+  QCP Capital's daily analysis suggests that Bitcoin's upward momentum is diminishing due to escalating geopolitical tensions in the Middle East, higher-than-expected U.S. inflation, and rising corporate credit risks. These macroeconomic factors are collectively increasing market uncertainty, putting downward pressure on crypto assets.<br />
+  <a href="https://m.theblockbeats.info/flash/372050" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Arthur Hayes Buys $888K Worth of AERO, PENDLE, and ZAMA via OTC Desks</strong><br />
+  BitMEX co-founder Arthur Hayes acquired approximately $888,000 worth of cryptocurrencies, including 546,600 AERO ($459,800), 120,000 PENDLE ($231,600), and 3 million ZAMA ($196,700), through OTC desks FalconX and Flowdesk. This significant purchase indicates continued institutional and whale interest in specific altcoins.<br />
+  <a href="https://m.theblockbeats.info/flash/372004" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Long-Term Bitcoin Holders Realize 64% Profit, Recent Buyers Only 9%</strong><br />
+  According to Bitfinex, long-term Bitcoin holders have an average unrealized profit of approximately 64% based on their average acquisition cost of $49,300. In contrast, recent buyers, with an average cost of $74,400, are only seeing about 9% unrealized profit, suggesting that further price dips could induce selling pressure from these newer market entrants.<br />
+  <a href="https://m.theblockbeats.info/flash/372015" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>🔷 DeFi &amp; Protocols<br />
+  <strong>Starknet Community Proposes Transition to Independent Quantum-Resistant Layer 1</strong><br />
+  The Starknet community has initiated a 7-day non-binding governance vote to explore transitioning from an Ethereum Layer 2 to an independent, quantum-resistant Layer 1 blockchain. This move aims to enhance Starknet's control over its security systems and eliminate reliance on Ethereum for bridging and data availability, while retaining STRK as the network token.<br />
+  <a href="https://m.theblockbeats.info/flash/371991" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Pendle's High-Yield USDC Vault on Morpho Exceeds $16 Million TVL in Under 24 Hours</strong><br />
+  Pendle's new high-yield USDC vault on Morpho has rapidly accumulated over $16 million in Total Value Locked (TVL) within a day of its launch, offering a net APY of 8.19%. This vault, co-managed with Wintermute's fund management service Armitage, aims to attract more deposits by deploying USDC liquidity across a wider range of high-yield PT markets on Morpho.<br />
+  <a href="https://m.theblockbeats.info/flash/372054" target="_blank" rel="noopener" class="tg-link">→ Source</a><br />
+  <strong>Galaxy Research: Decision Markets Now Govern $50.5 Million Across 22 DAOs</strong><br />
+  Conditional markets, specifically decision markets where proposal outcomes are determined by market consensus and then enacted, have grown to govern $50.5 million across 22 Decentralized Autonomous Organizations (DAOs). This trend, highlighted by Galaxy Research, indicates increasing adoption of market-based governance mechanisms in the DeFi space.<br />
+  <a href="https://t.me/leviathan_news/24128" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Aave V4 Proposal to Allow Native BTC as Collateral via Babylon Trustless Bitcoin Vaults</strong><br />
+  A new Aave V4 proposal suggests enabling native Bitcoin as collateral through Babylon Trustless Bitcoin Vaults, expanding the utility of BTC within the DeFi lending ecosystem. This integration would allow Bitcoin holders to participate in Aave's liquidity markets without relying on wrapped or bridged versions of BTC.<br />
+  <a href="https://t.me/leviathan_news/24099" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>LSE-Listed KR1 Launches Dedicated Ethereum Validators on Lido stVaults, Targeting 6,000 ETH</strong><br />
+  LSE-listed KR1 has launched dedicated Ethereum validators on Lido stVaults, with an initial target of staking up to 6,000 ETH. This move by a publicly traded company signifies growing institutional participation and confidence in Ethereum liquid staking solutions.<br />
+  <a href="https://t.me/leviathan_news/24120" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Chainlink Oracles Go Live on Stellar, Boosting $4 Billion RWA Ecosystem</strong><br />
+  Chainlink oracles have been deployed on the Stellar blockchain, providing critical data feeds to its growing $4 billion Real-World Asset (RWA) ecosystem. This integration enhances the reliability and functionality of RWA projects on Stellar by enabling secure and accurate off-chain data connectivity.<br />
+  <a href="https://t.me/leviathan_news/24093" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Hecto Launches Tokenized Pre-IPO Exposure Token $NEOPRIME on Canton Network</strong><br />
+  Hecto has introduced $NEOPRIME, the first tokenized pre-IPO exposure token backed by real shares in private companies, on the Canton Network. This innovation allows broader access to private market investments, offering fractional ownership and enhanced liquidity for pre-IPO equity.<br />
+  <a href="https://t.me/leviathan_news/24111" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Fission Raises $10 Million Series A Led by Pantera Capital to Boost Tokenized Fund Liquidity</strong><br />
+  Fission, a platform designed to enhance liquidity for tokenized fund shares, has closed a $10 million Series A funding round led by Pantera Capital, with participation from Circle Ventures and Borderless Capital. Founded in 2024 by former Point72 and Securitize employees, Fission aims to address the illiquidity of tokenized private market assets by enabling investors to sell shares and receive settlement in as little as 90 seconds, bypassing lengthy fund redemption processes.<br />
+  <a href="https://m.theblockbeats.info/flash/372043" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>🔦 Other<br />
+  <strong>Leaked "123456" Password Exposes 8.8 Million Danish Citizen Records</strong><br />
+  A leaked password "123456" reportedly led to an attacker accessing Denmark's CPR register, exposing data on approximately 8.8 million people. The breach went unnoticed until a bill for 14 million searches was issued, highlighting severe vulnerabilities in national data security.<br />
+  <a href="https://t.me/leviathan_news/24123" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Interpol Arrests HEX Founder Richard Heart in Istanbul with $600K Cash and 64 Watches Seized</strong><br />
+  Interpol-wanted HEX founder Richard Heart has been arrested in Istanbul, with authorities seizing $600,000 in cash and 64 luxury watches. This arrest follows a global investigation into alleged fraudulent activities related to the HEX cryptocurrency and PulseChain.<br />
+  <a href="https://t.me/leviathan_news/24090" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Pirate Chain Halts Deposits and Withdrawals After Supply Accounting Exploit, Plans Rollback</strong><br />
+  Pirate Chain has temporarily halted all deposits and withdrawals following a supply accounting exploit, announcing plans for a blockchain rollback to October 2026. This measure is a critical response to restore network integrity and address the unauthorized inflation of its token supply.<br />
+  <a href="https://t.me/leviathan_news/24121" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Dubai's DIFC Courts Adopt Avalanche for Global Verifiable Court Orders</strong><br />
+  Dubai's DIFC Courts have integrated Avalanche blockchain technology to enable instant, worldwide verifiability of court orders. This adoption aims to enhance transparency, efficiency, and trust in legal judgments by leveraging the immutable nature of blockchain.<br />
+  <a href="https://t.me/leviathan_news/24096" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Polygon Labs Acquires Coinme, Becomes US-Regulated Payments Business</strong><br />
+  Polygon Labs has completed its acquisition of Coinme, establishing itself as a U.S.-regulated payments business with operations across 48 states. This strategic acquisition significantly expands Polygon's reach into regulated financial services, particularly in the fiat-to-crypto on-ramp sector.<br />
+  <a href="https://t.me/leviathan_news/24095" target="_blank" rel="noopener" class="tg-link">→ Telegram</a><br />
+  <strong>Morgan Stanley Warns AI Stock Sell-Off May Not Trigger Broad Market Rebound</strong><br />
+  Morgan Stanley Chief Investment Strategist Michael Zgraggen warns that the October sell-off in AI stocks may not lead to a broad market rebound, contrasting with July's quick recovery. He highlights reduced investor willingness to buy the dip, insufficient short positions to fuel a squeeze, and dwindling corporate buyback funds, all contributing to an increased leverage risk in AI-linked ETFs.<br />
+  <a href="https://m.theblockbeats.info/flash/372034" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Crypto Brief — October 22, 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e8f0;
+      --muted: #8892a4;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #f59e0b;
+      --blue: #3b82f6;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+    }
+    .nav-brand {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+    .nav-brand span { color: var(--accent); }
+    .date-nav { display: flex; gap: 8px; align-items: center; }
+    .date-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .date-nav a:hover, .date-nav a.active {
+      color: var(--text);
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 0.3px;
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+    .brief-content h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brief-content h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 32px 0 16px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    .brief-content h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 8px;
+    }
+    .brief-content p { margin-bottom: 12px; color: var(--text); }
+    .brief-content ul, .brief-content ol { margin: 8px 0 16px 20px; }
+    .brief-content li { margin-bottom: 8px; color: var(--text); }
+    .brief-content strong { color: #fff; }
+    .brief-content a { color: var(--blue); text-decoration: none; }
+    .tg-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: #29b6f6 !important;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(41,182,246,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(41,182,246,0.25);
+      text-decoration: none !important;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .tg-link:hover {
+      background: rgba(41,182,246,0.25);
+      border-color: rgba(41,182,246,0.5);
+    }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+    .brief-content p:has(> strong:only-child) {
+      background: var(--surface);
+      padding: 10px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html"><span>◈</span> Daily Crypto Brief</a>
+  <div class="date-nav">
+    <a href="20261022-trading.html" class="active">10/22/2026</a>
+    <a href="20261015-trading.html" class="">10/15/2026</a>
+    <a href="20261014-trading.html" class="">10/14/2026</a>
+    <a href="20261009-trading.html" class="">10/09/2026</a>
+    <a href="20261006-trading.html" class="">10/06/2026</a>
+    <a href="20261001-trading.html" class="">10/01/2026</a>
+    <a href="20260930-trading.html" class="">09/30/2026</a>
+  </div>
+</nav>
+
+<div class="container">
+  <p class="disclaimer">Not investment advice. Not legal advice. Always do your own research.</p>
+  <div class="tabs">
+    <a class="tab " href="20261022-trading.html">📊 Trading Signals</a>
+    <a class="tab active" href="20261022-news.html">📰 News Digest</a>
+  </div>
+  <div class="brief-content"><p>📰 NEWS DIGEST — October 22, 2026<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p>🏛️ Regulation &amp; Policy<br />
+  <strong>South Korea Nears Crypto Bill Completion Amid Tax Debate</strong><br />
+  South Korea is reportedly close to finalizing its comprehensive crypto bill, with ongoing intense debate around the specifics of cryptocurrency taxation. This legislative progress indicates a significant move towards formalizing the regulatory framework for digital assets in one of Asia's key markets.<br />
+  <a href="https://t.me/TheBlock001/7602" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Ireland Fined $3.6M for Customer Fund Segregation and Oversight Failures</strong><br />
+  The Central Bank of Ireland has fined Coinbase Ireland Limited €3.25 million ($3.6 million USD) for breaches related to safeguarding customer funds and outsourcing governance. The regulator stated that Coinbase "over-relied" on its U.S. parent company for compliance, lacking sufficient local oversight and capacity to manage customer assets securely between November 2020 and August 2025.<br />
+  <a href="https://t.me/TheBlock001/7606" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>US Blockchain Association Urges Congress to Advance Bipartisan Digital Asset Tax Legislation</strong><br />
+  The Blockchain Association has sent a letter to Congressional leadership advocating for the advancement of bipartisan digital asset tax legislation and launched "TaxClarityforAmerica.com" to educate the public. With roughly 67 million Americans owning digital assets, the current "outdated" tax regime creates uncertainty, compliance burdens, and pushes innovation offshore, underscoring the urgent need for a clear, fair framework.<br />
+  <a href="https://m.theblockbeats.info/flash/373251" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Coinbase Policy Head Warns UK Crypto Rules Could "Effectively Ban" DeFi Access for Licensed Firms</strong><br />
+  Katie Harries, Coinbase's Head of Policy for Europe, has warned that proposed UK crypto regulations by the FCA, requiring licensed platforms to execute client orders only on FCA-authorized venues, could "effectively ban" DeFi integration. This is because most decentralized protocols lack a legal entity that can be authorized, creating a significant hurdle for regulated entities to offer DeFi services to UK customers unless the FCA revises its approach.<br />
+  <a href="https://m.theblockbeats.info/flash/373229" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>New York State Financial Services Department Issues Warning on PHP Vulnerabilities</strong><br />
+  The New York State Department of Financial Services (NYDFS) has issued an alert regarding two critical PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that could allow unauthenticated remote code execution on affected servers. The warning urges regulated entities to immediately identify and patch systems running vulnerable PHP versions to mitigate potential exploitation.<br />
+  <a href="https://t.me/theblockbeats/201930" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Malaysia Court Orders Return of 497.82 BTC to Victims of 1% Daily Return Scam</strong><br />
+  The Kuala Lumpur High Court has ruled that the government must return a total of 497.82 Bitcoin, valued at approximately $17.6 million (as of 2023), to nine victims of a 1% daily return investment scam, Bitkingdom, operated between 2015 and 2016. The judge determined that the victims were defrauded of their assets and retain legal rights to the seized Bitcoin, despite multiple transfers and layering to obscure the funds.<br />
+  <a href="https://t.me/theblockbeats/201844" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🤖 AI &amp; Tech<br />
+  <strong>a16z Frontier Rebrands, Expands Focus Beyond Crypto to Broader Frontier Tech</strong><br />
+  Andreessen Horowitz (a16z) has officially rebranded its flagship crypto fund to "a16z Frontier," signaling an expansion of its investment scope beyond cryptocurrencies to a broader range of "frontier tech" startups building new technologies and markets. While crypto will remain a core focus, the move aims to capture innovation across the entire spectrum of emerging technologies, including AI.<br />
+  <a href="https://t.me/leviathan_news/24435" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>US Banks Restricting AI Agent Access Amid Unauthorized Activity</strong><br />
+  Major US banks, including Morgan Stanley, JPMorgan, Bank of America, and Citi, are reportedly restricting AI agent access after discovering unauthorized AI agents operating within customer accounts without user instructions. This highlights growing concerns over the security and control of autonomous AI systems in financial services.<br />
+  <a href="https://t.me/leviathan_news/24422" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Blackstone President Rejects AI Bubble Claims, Cites "Hockey Stick" Growth in Demand</strong><br />
+  Blackstone Group President Jon Gray has dismissed concerns about an AI bubble, arguing that current demand for AI infrastructure is experiencing "hockey stick" growth, fundamentally different from the telecom bubble of the 1990s. Gray highlighted that Blackstone's AI consulting firm, Ode (co-founded with Anthropic), cannot keep up with client demand, affirming the real and pressing need for infrastructure to support this rapid expansion.<br />
+  <a href="https://t.me/theblockbeats/201927" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>NVIDIA CEO Jensen Huang Criticizes Global AI Development Controls as "Ridiculous," Foresees Industry Solving Infrastructure Bottlenecks</strong><br />
+  NVIDIA CEO Jensen Huang stated at GTC Berlin that global attempts to control the pace of AI development are "ridiculous," asserting that strong demand for computing power will drive companies to overcome data center construction and operational challenges. Huang remains bullish on the AI cloud computing industry, believing its robust demand will force solutions for current infrastructure bottlenecks.<br />
+  <a href="https://t.me/theblockbeats/201871" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SpaceX Launches Grok AI Partner Network with NVIDIA, Apollo, Databricks, and Bain Capital</strong><br />
+  SpaceX has announced the launch of its "SpaceX Super Intelligence (SI) Partner Network," featuring collaborations with key industry players including NVIDIA, Apollo, Databricks, and Bain Capital. This initiative aims to accelerate AI development and applications by leveraging collective expertise and resources from these prominent partners.<br />
+  <a href="https://t.me/theblockbeats/201919" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic Launches Claude Security Public Beta for Enterprise, Bolstering Code Scans and Vulnerability Tracking</strong><br />
+  Anthropic has unveiled the public beta of "Claude Security" for its Enterprise clients, introducing advanced features like continuous code scanning, automated vulnerability tracking, and customizable threat models. This new offering aims to provide businesses with enhanced security measures and deeper insights into their AI system's integrity.<br />
+  <a href="https://t.me/leviathan_news/24408" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Perplexity and NVIDIA Introduce JOLT to Enhance AI Self-Distillation Training</strong><br />
+  Perplexity, in collaboration with NVIDIA, has introduced JOLT (Joint Optimization of Teacher and Learner), a novel approach to AI self-distillation training that involves training both a "student" and a "teacher" model simultaneously, sharing parameters. This method allows the teacher to leverage additional information to provide more refined guidance to the student, improving learning efficiency and achieving a 72.14% accuracy on MATH tests with Qwen3-0.6B, surpassing previous methods.<br />
+  <a href="https://t.me/theblockbeats/201924" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI Expands ChatGPT Ads to 26 New Countries, Google Faces Headwinds</strong><br />
+  OpenAI has extended its ChatGPT Ads service to 26 additional countries, bringing its global coverage to 89 nations. The company reported over 100,000 advertisers and an annual revenue run rate of $1 billion for its ad business as of August. This aggressive expansion poses a direct competitive threat to Google, which is also grappling with "compute starvation" as it reallocates cloud computing resources from external clients to internal AI development, impacting its short-term cloud revenue.<br />
+  <a href="https://t.me/theblockbeats/201880" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Meta's AI Agent Muse Attracts Over 10 Million Users in Six Weeks, Averages Over $200 per Shopping Order</strong><br />
+  Meta's personal AI agent, Muse, has garnered over 10 million registered users in the US and Canada within six weeks of its launch, with 25% of them engaging daily. Shopping has emerged as a killer app, with over a quarter of weekly active users making purchases and average order values exceeding $200. CEO Mark Zuckerberg believes Muse's future per-user revenue could surpass Meta's existing platforms like Facebook and Instagram.<br />
+  <a href="https://t.me/theblockbeats/201870" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Tencent and Fudan University Develop WorkForge to Create 16,665 AI Agent Training Environments</strong><br />
+  Tencent Yuan and Fudan University have collaborated to introduce WorkForge, a specialized platform designed for the large-scale generation of complex and verifiable work training environments for AI agents. The platform has created 16,665 training environments across 40 professional domains and 60 document types, offering significantly more intricate scenarios than AI-generated mock data.<br />
+  <a href="https://t.me/theblockbeats/201867" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Hugging Face and Partners Launch Carbon-X, an Open-Source DNA Analysis AI Model</strong><br />
+  Hugging Face, in collaboration with Beijing's Zhongguancun Academy and Italian research institutions, has launched Carbon-X, an open-source biological model enabling researchers to analyze DNA sequences akin to using ChatGPT. Based on Qwen3-14B, the model can predict disease-causing mutations, identify gene-influencing regions, determine DNA origin, and complete gene sequences, demonstrating performance comparable to or exceeding advanced proprietary models like GPT-6.1 Sol on several DNA benchmarks.<br />
+  <a href="https://t.me/theblockbeats/201872" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>GPU Startup Raises $1 Billion Series A for Cheaper AI Training Framework</strong><br />
+  A new GPU startup has secured a massive $1 billion in Series A funding to develop a "megakernel framework" aimed at significantly reducing the cost of AI model training. This substantial investment highlights the ongoing industry push to lower the prohibitive computational expenses associated with advanced AI development.<br />
+  <a href="https://t.me/leviathan_news/24391" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Recursive AI Unveils Flint, a 40B-Parameter Local Programming Agent Model</strong><br />
+  Recursive AI, a startup that raised $650 million earlier this year, has launched its first model, Flint, a 40-billion parameter model designed for local programming agents, activating 2.5 billion parameters per instance. Developed from scratch in under four months by a team including co-creators of Vision Transformer (ViT) and former OpenAI/DeepMind researchers, Flint represents a significant advancement in allowing AI to assist in creating AI.<br />
+  <a href="https://t.theblockbeats.info/flash/373192" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Kimi K3.1 and Qwen4 AI Models Reportedly in Final Stages Before Release This Week</strong><br />
+  The Kimi K3.1 and Qwen4 AI models are reportedly in their final pre-release phase, currently undergoing anonymous testing on the Arena platform and expected to launch this week. Tracker accounts have identified Kibitz as likely Kimi's new version and Kalmia as Qwen's, indicating imminent official announcements from the respective development teams.<br />
+  <a href="https://t.me/theblockbeats/201858" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Fireworks AI in Early Talks for New Funding Round, Aiming for Up to $40 Billion Valuation</strong><br />
+  AI infrastructure startup Fireworks AI, founded by former Meta and Google AI team members, is reportedly in early discussions for a new funding round with a target valuation between $30 billion and $40 billion, a substantial increase from its $17.5 billion valuation in July. This comes despite a recent security incident in which internal credentials were unauthorizedly used, and some customer account data was accessed.<br />
+  <a href="https://t.me/theblockbeats/201883" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Azoma Raises $11.2 Million Series A to Optimize AI Shopping Recommendations</strong><br />
+  GEO startup Azoma has closed an $11.2 million Series A funding round led by Puma Growth Partners, with clients including L'Oréal and Unilever. Azoma helps brands optimize their online content (product pages, websites, YouTube, Reddit) to secure favorable positions in AI shopping recommendations, a new battleground replacing traditional SEO as consumers increasingly ask AI directly for product advice.<br />
+  <a href="https://t.me/theblockbeats/201862" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Baseten's Mammoth-1 (27B) and Elephant-1 (9B) Decision Models Top Leaderboards</strong><br />
+  Base Labs, the research team at AI inference infrastructure company Baseten, has released two open-source decision models, mammoth-1 (27B parameters) and elephant-1 (9B parameters), which were fine-tuned from Qwen3.5 in just one week using 6.21 million training samples. Mammoth-1 ranks first on the Jev Decision Index 0.4 with 71.24 points, while elephant-1 leads all models under 15B parameters with 62.65 points, surpassing Jev 1.14.<br />
+  <a href="https://t.me/theblockbeats/201850" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Cloudflare Blocks Millions of Exploit Attempts Following PHP Flaw Disclosure</strong><br />
+  Cloudflare has successfully blocked millions of exploit attempts targeting critical PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that were disclosed shortly before official patches were released. Amazon's threat intelligence reported exploit attempts four days before the public disclosure, highlighting a shrinking window between vulnerability identification and active exploitation, partly attributed to AI-assisted analysis of patch differences.<br />
+  <a href="https://t.me/leviathan_news/24420" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Barclays to Cut 5,000 Jobs Using AI, 60% in Support Roles</strong><br />
+  Barclays plans to cut 5,000 jobs, representing 5% of its workforce, primarily utilizing AI to reduce costs, with 60% of reductions targeting support roles such as developers. The bank reported a Q3 profit of £2.3 billion, which missed forecasts due to a 19% drop in fixed income, underscoring its push for greater efficiency through automation.<br />
+  <a href="https://t.me/leviathan_news/24419" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Mistral AI and Nvidia Partner for Industrial Engineering AI Solutions</strong><br />
+  Mistral AI and Nvidia have announced a collaboration to bring advanced AI capabilities to the industrial engineering sector. This partnership aims to leverage Mistral's AI models and Nvidia's GPU technology to develop innovative solutions for complex industrial challenges.<br />
+  <a href="https://t.me/leviathan_news/24416" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Grok Bot Rolls Out Report, Memo, and Dashboard Building Features</strong><br />
+  Grok Bot has launched new capabilities, allowing users to build reports, memos, and dashboards directly within the application. These features are being deployed today across both mobile and desktop platforms, enhancing Grok's utility for organizational and analytical tasks.<br />
+  <a href="https://t.me/leviathan_news/24389" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OpenAI Integrates Frontier Models and Codex Workflows with Google Cloud's Model Garden</strong><br />
+  OpenAI has announced the integration of its frontier AI models and Codex workflows with Google Cloud's Model Garden. This collaboration will make OpenAI's advanced capabilities more accessible to developers and enterprises building applications on Google Cloud, expanding the reach and utility of its AI technologies.<br />
+  <a href="https://t.me/leviathan_news/24395" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Stripe Partners with Anthropic to Integrate Payments and Business Tools into Claude Duet</strong><br />
+  Stripe has announced a partnership with Anthropic to embed its payment processing and business tools directly into Claude Duet, Anthropic's proactive AI agent app. This integration will enable Claude Duet to facilitate seamless e-commerce and financial transactions directly within its interface, enhancing its utility for users and businesses.<br />
+  <a href="https://t.me/leviathan_news/24392" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Qualitate Raises $25 Million to Disrupt Consulting with AI-Led Expert Interviews</strong><br />
+  Qualitate has raised $25 million in Series A funding from Insight Partners to challenge traditional consulting firms like Gartner, McKinsey, and GLG by leveraging AI-led expert interviews. The startup aims to provide more efficient and scalable market intelligence through its innovative approach.<br />
+  <a href="https://t.me/leviathan_news/24386" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Anthropic Opens Research Preview of Claude Duet, a Proactive AI Agent App</strong><br />
+  Anthropic has launched a research preview of Claude Duet, a proactive AI agent application built on its Opus 5.5 model. This new app aims to offer advanced conversational and task-management capabilities, further extending Anthropic's reach in the AI agent market.<br />
+  <a href="https://t.me/leviathan_news/24385" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Meta Considers New Non-Voting Stock to Fund AI Without Diluting Zuckerberg's Control</strong><br />
+  Meta Platforms is reportedly considering issuing new classes of non-voting stock to fund its ambitious AI initiatives, a move that would allow Mark Zuckerberg to raise capital without diluting his significant voting control over the company. The company also disclosed that its future expenditure commitments have soared to approximately $825 billion as of September 30, a substantial increase from $700 billion in July, encompassing data center leases and cloud computing contracts.<br />
+  <a href="https://t.me/leviathan_news/24383" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>New Poll Reveals 57% of Americans Believe AI is Bad for Society</strong><br />
+  A recent poll indicates that 57% of Americans hold a negative view of AI's impact on society, while approximately half perceive personal benefits from the technology. This sentiment reflects a growing public apprehension regarding the broader societal implications of artificial intelligence.<br />
+  <a href="https://t.me/leviathan_news/24425" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>💳 Payments &amp; Stablecoins<br />
+  <strong>SoFi Launches Interest-Bearing, FDIC-Insured Tokenized Deposit for Crypto Users</strong><br />
+  SoFi Technologies has introduced "SoFi Earn" (SOFIE), an interest-bearing tokenized deposit offering a 4.4% APY, marking the first direct-to-consumer tokenized deposit by a US national bank. The product is FDIC-insured up to applicable limits, and each SOFIE token is convertible 1:1 for the stablecoin SoFiUSD via SoFi Crypto, providing crypto users with a regulated pathway to earn yield on their fiat-backed assets.<br />
+  <a href="https://t.me/TheBlock001/7605" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Circle and S&amp;P Global Approved as Canton Validators</strong><br />
+  Circle and S&amp;P Global have been approved as validators for Canton, joining a cohort of 40 other validators. This move signifies increasing institutional participation in blockchain networks and validates the growing adoption of distributed ledger technology in traditional finance.<br />
+  <a href="https://t.me/leviathan_news/24415" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Chainalysis Reports Canada Stablecoin Remittances to Asia Jump 141% to $2.36 Billion</strong><br />
+  A Chainalysis report reveals that stablecoin remittances from Canada to India, the Philippines, and China have surged by 141% to reach $2.36 billion. This significant increase highlights the growing role of stablecoins as a preferred method for cross-border payments, offering faster and potentially cheaper alternatives to traditional remittance channels.<br />
+  <a href="https://t.me/leviathan_news/24394" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>SBI Units and Shinhan Card Partner to Explore Yen Stablecoin Payments for Japanese Tourists in South Korea</strong><br />
+  SBI units and Shinhan Card have signed a Memorandum of Understanding (MOU) to investigate the use of yen stablecoins for payments by Japanese visitors in South Korea. This initiative aims to enhance convenience and efficiency for tourists by leveraging blockchain technology for cross-border transactions.<br />
+  <a href="https://t.me/leviathan_news/24390" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Circle Issuances on Solana Top $1.5 Billion in 24 Hours, $110.5 Billion YTD</strong><br />
+  Circle has issued $1.5 billion in USDC on the Solana network over the past 24 hours across six transactions, each valued at $250 million. This brings Circle's total USDC issuances on Solana for 2026 to $110.51 billion, underscoring the rapid growth and increasing utilization of Solana for stablecoin transactions.<br />
+  <a href="https://m.theblockbeats.info/flash/373250" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>X Pay Raises $1 Million to Expand AI Agent and API Payment Infrastructure</strong><br />
+  Netherlands-based payment infrastructure provider X Pay has secured $1 million in funding from nine investors, including DCI and Skyland Ventures. The capital will be used to expand its presence across more blockchain networks, conduct independent security audits, launch an API marketplace, and advance EU regulatory compliance, focusing on automated payments for AI agents and APIs, with settlements in USDC on Base.<br />
+  <a href="https://t.theblockbeats.info/flash/373237" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Web3 Payment App Gold House Acquires Canadian Money Service Business</strong><br />
+  Gold House, a Web3 payment super-app, has signed an agreement to acquire Canadian Money Service Business (MSB) THREESTONES VENTURES LTD. This strategic acquisition aims to expand Gold House's digital asset services, fiat-to-crypto capabilities, and cross-border payment infrastructure, further integrating digital assets with traditional financial services and strengthening its Web3 payment ecosystem.<br />
+  <a href="https://m.theblockbeats.info/flash/373233" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>🏦 Exchanges &amp; Platforms<br />
+  <strong>Bybit Dubai Secures VASP License for Spot Crypto Trading from VARA</strong><br />
+  Bybit Fintech FZE, Bybit's Dubai entity, has obtained a Virtual Asset Service Provider (VASP) license from Dubai's Virtual Assets Regulatory Authority (VARA), enabling it to offer spot crypto trading services. Bybit established its international headquarters in Dubai in 2022 and received initial approval in 2024, joining other major exchanges like Binance and OKX with VARA licenses.<br />
+  <a href="https://t.me/wublockchainenglish/26511" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>CoinDCX Denies X Claims of Compromised Wallets, Affirms User Funds Safety</strong><br />
+  Indian crypto exchange CoinDCX has stated that claims on social media platform X regarding old compromised wallets are misleading and that user funds are safe. The exchange clarified that the recent transactions from old deposit addresses, which were compromised in a July 2025 security incident and subsequently abandoned, were due to a temporary lapse in their routine scanning process for such addresses, with CoinDCX itself bearing any operational losses.<br />
+  <a href="https://t.me/leviathan_news/24428" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Robinhood Single-Stock Perps Could Be a 'Strong Positive' for HOOD Shares, Mizuho Says</strong><br />
+  Mizuho analysts predict that the launch of single-stock perpetual contracts on Robinhood's platform could be a "strong positive" for HOOD shares. This expansion into derivative products is expected to boost trading activity and revenue, enhancing Robinhood's competitive position.<br />
+  <a href="https://t.me/TheBlock001/7600" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Coinbase Adds Perpetual Contracts for AI Agents</strong><br />
+  Coinbase has launched perpetual contracts for AI agents, demonstrating an agile development cycle by delivering the feature within five minutes of receiving feedback. This new offering caters to the growing intersection of AI and crypto trading, providing new avenues for speculation on AI-related assets.<br />
+  <a href="https://t.me/leviathan_news/24393" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>OKX Launches Exchange OS Open API, Supporting Prediction Market "Oracle Season 3"</strong><br />
+  OKX has released its Exchange OS Open API, providing developers and professional traders with on-chain spot and perpetual contract trading interfaces. This API allows integration of trading bots and systems into Exchange OS, with all transactions self-custodial and verifiable on-chain. The API also supports participation in "Oracle Season 3" prediction markets, enabling users to test automated trading strategies with free XP to compete for prize pools.<br />
+  <a href="https://m.theblockbeats.info/flash/373204" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>📈 Crypto Trading &amp; Markets<br />
+  <strong>Bitcoin ETFs Draw $528 Million, Ether Funds Break Outflow Streak with $15 Million Inflows</strong><br />
+  US spot Bitcoin ETFs recorded substantial net inflows of $528 million on October 21, led by BlackRock's IBIT with $235 million. Simultaneously, spot Ethereum ETFs broke a five-day outflow streak, attracting $14.96 million, with Grayscale's Ethereum Mini Trust (ETH) seeing the largest inflow of $28.07 million.<br />
+  <a href="https://t.me/TheBlock001/7604" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>DWF Labs: Bitcoin ETF Flows Confirm Trends, Don't Predict Them</strong><br />
+  Crypto market maker DWF Labs' research indicates that daily inflows into US spot Bitcoin ETFs are trend-confirming, not predictive of future BTC price movements, with investors exhibiting "chase-the-pump and dump-the-dip" behavior. The study, analyzing 694 trading days since the ETF launch in January 2024, found that 7 out of 8 instances of BTC price drops exceeding 15% coincided with outflows, while all 9 equivalent rallies saw net inflows, demonstrating a high correlation (0.54) with past 5-day price action but negligible correlation (0.03) with future 5-day movements.<br />
+  <a href="https://m.theblockbeats.info/flash/373200" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Whale Shorts STRK with 154.3% Return on Hyperliquid as Token Drops 14.4%</strong><br />
+  A prominent whale address (0xfe7c) on Hyperliquid currently holds approximately 75.45 million STRK short positions with 5x leverage, accumulating a floating profit of about $1.9 million as STRK plummeted roughly 14.4% today to $0.053. The average entry price for these shorts is $0.08159, with a liquidation price of around $0.083165.<br />
+  <a href="https://m.theblockbeats.info/flash/373215" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Whale Sells 1917 BTC for 64,545 ETH in Ongoing Portfolio Shift</strong><br />
+  A mysterious whale has continued to divest Bitcoin, selling another 246.25 BTC (worth approximately $20.64 million) today and subsequently purchasing 8,286 ETH. Over the past 11 days, this whale has offloaded a total of 1917.7 BTC ($159 million) and acquired 64,545 ETH ($155 million), indicating a significant strategic shift of capital from Bitcoin to Ethereum.<br />
+  <a href="https://m.theblockbeats.info/flash/373189" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Bitcoin Breaks $82,000, Ethereum Recovers Above $2400</strong><br />
+  Bitcoin has rebounded, surpassing the $82,000 mark, while Ethereum has also seen a recovery, breaking above $2400. This uptick follows earlier market volatility and indicates renewed upward momentum for the leading cryptocurrencies.<br />
+  <a href="https://m.theblockbeats.info/flash/373201" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Long-Dormant Whale Moves 3,000 ETH to Kraken After 128x Value Increase</strong><br />
+  A whale wallet, dormant for approximately nine and a half years since withdrawing 3,000 ETH from Gemini in 2017 when the price was $19 (totaling $56,000), has transferred the entire sum to Kraken. The current value of these 3,000 ETH is $7.23 million, representing a 128-fold increase in value since their initial acquisition.<br />
+  <a href="https://t.me/theblockbeats/201925" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p>🔷 DeFi &amp; Protocols<br />
+  <strong>Starknet Community Overwhelmingly Backs Research into Independent Post-Quantum Layer 1</strong><br />
+  The Starknet community has overwhelmingly voted (93.52% in favor) to approve a research proposal exploring a transition from an Ethereum Layer 2 to an independent, quantum-resistant Layer 1 network. While this vote authorizes only preliminary research, StarkWare plans to release a draft whitepaper in November, with any formal transition subject to a dedicated governance process.<br />
+  <a href="https://t.me/TheBlock001/7603" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aerodrome and Velodrome Merge to Launch Aero Across Seven Blockchain Networks</strong><br />
+  Aerodrome and Velodrome, two prominent DeFi protocols, have announced a strategic merger, launching their combined "Aero" platform across seven different blockchain networks. This consolidation aims to enhance liquidity and expand their ecosystem, offering users a more integrated and accessible DeFi experience.<br />
+  <a href="https://t.me/TheBlock001/7601" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Lido Lend Introduces Guardian Security Council to Screen Collateral and Block Tainted Assets</strong><br />
+  Lido Lend has launched a new Guardian Security Council designed to enhance the security of its lending protocol. This council will be responsible for screening collateral assets and has the authority to block any assets deemed "tainted" or suspicious, bolstering the platform's defense against exploits and illicit funds.<br />
+  <a href="https://t.me/leviathan_news/24427" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Swell DAO's Admin Keys Compromised, Malicious Upgrade Contracts Deployed; 2,513 ETH Not Confirmed Lost</strong><br />
+  Swell DAO's swETH and rswETH admin keys have reportedly been compromised, leading to the deployment of malicious upgrade contracts. While initial reports indicated a potential loss of 2,513 ETH, this has not been officially confirmed, and the extent of the damage is still under investigation.<br />
+  <a href="https://t.me/leviathan_news/24403" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Aave Proposes V3.8 Upgrade Adding Reentrancy Guard Across 15 Chains</strong><br />
+  Aave has put forth a proposal for its V3.8 upgrade, which includes the implementation of a reentrancy guard across all 15 supported blockchain networks. This critical security enhancement aims to protect the protocol from reentrancy attacks, a common vulnerability in DeFi.<br />
+  <a href="https://t.me/leviathan_news/24404" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Pendle Launches PendleLoop for Leveraged Trading and Yield Looping, Including Tokenized Stocks</strong><br />
+  Pendle has introduced PendleLoop, a new feature enabling leveraged trading and yield looping for a variety of assets, including tokenized stocks. This expands Pendle's offerings, allowing users to amplify their exposure and potential returns in both traditional and decentralized finance markets.<br />
+  <a href="https://t.me/leviathan_news/24406" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Uniswap v4 Aggregator Hooks Launch, Enabling External Liquidity Integration</strong><br />
+  Uniswap Labs has launched Aggregator Hooks for Uniswap v4, integrating external liquidity sources into v4 pools. This mechanism allows any route to view wrapped external liquidity as a Uniswap pool. The feature is now live on Uniswap's web app and API across Ethereum mainnet, Base, and Robinhood Chain, with more networks to be added, initially supporting seven external sources including Curve, Fluid, and PancakeSwap.<br />
+  <a href="https://m.theblockbeats.info/flash/373249" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>DFINITY Founder Accuses NEAR Intents of Misappropriating Proprietary Technology</strong><br />
+  Dominic Williams, founder of DFINITY (Internet Computer), has publicly accused NEAR Intents of allegedly using DFINITY's proprietary technology without authorization in its key enabling components. Williams claims NEAR utilized individuals previously dismissed by DFINITY and incorporated DFINITY's research on chain-key cryptography and Ethereum integration into an open-source library to rapidly deploy ECDSA-related work, arguing this constitutes a legal issue and allows NEAR to falsely claim decentralization and security.<br />
+  <a href="https://m.theblockbeats.info/flash/373207" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>WAX Cross-Chain Bridge Exploited, $75K in Crypto Drained</strong><br />
+  Security firm Blockaid has detected an ongoing exploit on the WAX cross-chain bridge, affecting WAX, Solana, and Ethereum networks. The attacker exploited a vulnerability that allowed them to mint wrapped tokens on Solana and Ethereum without depositing the equivalent assets on the WAX side, draining approximately $52,986 USDC, $21,558 USDT, $840 DAI, 2.55 WETH, and 0.11 WBTC across five transactions.<br />
+  <a href="https://m.theblockbeats.info/flash/373236" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>NEM Token Contract Exploited for Approximately $820K Due to Logic Flaw</strong><br />
+  The NEM token contract has been exploited for an estimated $821,900 due to a logic flaw in its NemTokenV2 contract. Security firm SlowMist reported that the vulnerability allowed an attacker to repeatedly execute token transfers and call the <code>skim()</code> function to remove excess tokens from liquidity pools without validating actual swap settlements. The attacker then sold the manipulated NEM tokens at inflated prices for USDT, primarily on PancakeSwap.<br />
+  <a href="https://m.theblockbeats.info/flash/373202" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>QuickSwap to Shutter Soneium Deployment Interface by December 31, Urges Users to Withdraw Assets</strong><br />
+  Decentralized exchange QuickSwap has announced that its deployment interface on Soneium will cease operations by December 31, 2026. All liquidity providers and users on that chain are advised to withdraw their assets and LP positions directly through the interface before the deadline. QuickSwap assured users that even after the interface closes, assets can still be recovered independently via the official Soneium blockchain explorer.<br />
+  <a href="https://m.theblockbeats.info/flash/373267" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Ethereum Research Proposal Aims to Cut Transaction Finality to ~4 Minutes</strong><br />
+  Ethereum rapid finality research coordinator Ben Edgington and other researchers have submitted a draft proposal to reduce transaction finality time from approximately 16 minutes to about 4 minutes, a fourfold increase in speed. The core idea is to separate the validator's block selection and finality commitment mechanisms, allowing finality to advance at a faster pace and facilitating future integration of post-quantum signatures.<br />
+  <a href="https://m.theblockbeats.info/flash/373230" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>X Layer Q3 Report: TradeZone Processes 287M Transactions, DeFi TVL Doubles</strong><br />
+  Principia Labs' Q3 2026 report on X Layer highlights significant growth in on-chain activity and its DeFi ecosystem. X Layer's TradeZone processed approximately 287 million transactions, 2.6 times the EVM transaction volume for the same period. Daily average EVM transactions surged 262% quarter-over-quarter to 1.22 million, while DeFi Total Value Locked (TVL) doubled to $173.4 million, and ecosystem application fee revenue increased 490% to $1.86 million.<br />
+  <a href="https://m.theblockbeats.info/flash/373190" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p>🔦 Other<br />
+  <strong>Fireblocks Denies Axios Report of $2.5 Billion Visa Acquisition Talks</strong><br />
+  Fireblocks, the crypto custody and stablecoin infrastructure firm, has denied an Axios report suggesting that Visa is in late-stage talks to acquire the company for approximately $2.5 billion. Fireblocks stated, "This is news to us, and not true," while Visa declined to comment on rumors.<br />
+  <a href="https://t.me/leviathan_news/24431" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Ambire Integrates CoW Swap for MEV-Protected Swaps</strong><br />
+  Ambire has integrated CoW Swap into its "Swap &amp; Bridge" feature, providing users with MEV-protected swaps. This integration aims to enhance trading security and efficiency by protecting users from Miner Extractable Value (MEV) exploits.<br />
+  <a href="https://t.me/leviathan_news/24430" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>ZKsync Launches Prividium Commander for Institutional Digital Asset Businesses</strong><br />
+  ZKsync has introduced "Prividium Commander," a new control plane specifically designed for institutions building digital asset businesses. This platform aims to provide enterprise-grade tools and infrastructure to facilitate the secure and efficient management of digital assets.<br />
+  <a href="https://t.me/leviathan_news/24405" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Meritz Securities Explores Tokenized Korean Securities on Optimism's OP Stack</strong><br />
+  Meritz Securities is exploring the tokenization of Korean securities on Optimism's OP Stack. This initiative signifies a potential move by traditional financial institutions to leverage blockchain technology for issuing and managing securities, possibly increasing efficiency and accessibility.<br />
+  <a href="https://t.me/leviathan_news/24401" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Kalshi Partners with BitGo to Offer Bitcoin-Backed Margin Loans via Kalshi Prime</strong><br />
+  Kalshi has teamed up with BitGo to introduce bitcoin-backed margin loans through its "Kalshi Prime" service. This partnership enables users to leverage their Bitcoin holdings to access liquidity, blending traditional financial services with digital asset capabilities.<br />
+  <a href="https://t.me/leviathan_news/24400" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Forever Launches Framework for Autonomous On-Chain Funds with AI Agent Strategies</strong><br />
+  Forever has unveiled a new framework enabling anyone to establish an autonomous on-chain fund, featuring AI agent strategies and holder voting mechanisms. This initiative aims to democratize fund management by allowing community-driven and AI-powered investment decisions directly on the blockchain.<br />
+  <a href="https://t.me/leviathan_news/24399" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Intel Trade Opens Hyperliquid Data Platform to More Traders</strong><br />
+  Intel Trade has expanded access to its Hyperliquid data platform, moving beyond its initial friends-and-family phase to include more traders. This wider availability will provide enhanced market insights and analytical tools to a broader audience.<br />
+  <a href="https://t.me/leviathan_news/24388" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Bitunix Increases User Protection Fund to $50 Million</strong><br />
+  Bitunix has announced an expansion of its user protection fund to $50 million, reinforcing its commitment to safeguarding user assets. This significant increase aims to provide enhanced security and confidence for traders on its platform.<br />
+  <a href="https://t.me/theblockbeats/201857" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Justin Sun Responds to WLFI Lawsuit: Business Dispute, Not Affecting US Crypto/Tech Outlook</strong><br />
+  Justin Sun addressed his lawsuit against the Trump family's crypto project, World Liberty Financial (WLFI), clarifying it as a standard business dispute over insufficient investment transparency and alleged fraud, not an indictment of his broader optimistic outlook on US tech and crypto policies. Sun affirmed his continued support for President Trump's crypto policies and AI strategies, and his substantial investments in US tech stocks and a positive view on TRX's potential US spot ETF approval.<br />
+  <a href="https://m.theblockbeats.info/flash/373262" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Circle Shareholder Sues Trump and WLFI, Alleging Private Gain from UAE-Related Transactions</strong><br />
+  Joel Greenberg, a shareholder in Circle Internet Group, has filed a lawsuit in US federal court against former President Trump and his family's crypto project, World Liberty Financial (WLFI). The suit alleges that Trump violated the US Constitution's foreign emoluments clause through two transactions involving the UAE, claiming he received millions in personal benefit and expanded WLFI's stablecoin circulation without Congressional approval.<br />
+  <a href="https://m.theblockbeats.info/flash/373254" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>HashKey RWA Launches "hToken" Series, Offering One-Stop Solution for Tokenized Securities</strong><br />
+  HashKey RWA, a subsidiary of HashKey Holdings, has officially launched its "hToken" series of tokenized securities, providing a one-stop issuance solution for Real World Assets (RWA). The first product, tokenized shares of the HashKey Fintech Opportunities Limited Class A (HFOL Class A) fund, is now available on the HashKey Exchange wealth management channel for qualified professional investors, marking the first product on the platform to support USDT subscriptions.<br />
+  <a href="https://m.theblockbeats.info/flash/373242" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Binance Founder CZ Warns No Crypto Wallet is "100% Safe," Emphasizes Continuous Risk Management</strong><br />
+  Binance founder Changpeng Zhao (CZ) issued a statement cautioning that no cryptocurrency wallet or software is "100% secure" or "bug-free," and no technology is "absolutely safe." He emphasized that all activities carry risks, and individuals must remain informed, manage risks proactively, and address issues as they arise, highlighting that problems, setbacks, and challenges are inevitable in any endeavor.<br />
+  <a href="https://m.theblockbeats.info/flash/373234" target="_blank" rel="noopener" class="tg-link">→ Source</a></p>
+
+<p><strong>Cathay Labs Launches Catalyst Earn, Offering Up to 8% APY on Cash</strong><br />
+  Cathay Labs has introduced Catalyst Earn, a new product offering users up to 8% APY on cash held within the Catalyst platform. This initiative provides a competitive interest rate for fiat deposits, bridging traditional finance with high-yield opportunities in the crypto space.<br />
+  <a href="https://t.me/leviathan_news/24402" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+
+<p><strong>Velvet Launches "Smart Money" Tracking, Revealing Top On-Chain Wallets' Holdings</strong><br />
+  Velvet has introduced a "Smart Money" tracking feature on its Trending platform, allowing users to monitor the holdings and recent purchases of top on-chain wallets. This new tool provides valuable insights into the investment strategies of influential crypto participants, enhancing market transparency and potentially guiding retail investors.<br />
+  <a href="https://t.me/leviathan_news/24411" target="_blank" rel="noopener" class="tg-link">→ Telegram</a></p>
+</div>
+</div>
+
+<footer>
+  Daily Crypto Brief · Source: curated TG channels
+</footer>
+
+</body>
+</html>
